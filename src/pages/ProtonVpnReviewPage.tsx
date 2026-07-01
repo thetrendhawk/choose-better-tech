@@ -7,7 +7,7 @@ export function ProtonVpnReviewPage() {
     <>
       <SEO
         title="Proton VPN Review (2026): Is It Worth It for Beginners?"
-        description="A beginner-focused Proton VPN review page built to evaluate privacy, pricing, ease of use, and whether it is a good fit for everyday users."
+        description="A beginner-focused Proton VPN review evaluating privacy, pricing, ease of use, free vs paid plans, performance, alternatives, and whether Proton VPN is worth it."
         path="/reviews/proton-vpn-review"
       />
       <ReviewPageLayout review={protonVpnReview} />

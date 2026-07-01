@@ -9,7 +9,7 @@ export const categories: Category[] = [
 ];
 
 export const featuredGuides: ArticlePreview[] = [
-  { key: "proton-vpn-review", title: "Proton VPN Review", excerpt: "A beginner-focused draft review framework for evaluating Proton VPN.", href: "/reviews/proton-vpn-review", status: "Draft Review" },
+  { key: "proton-vpn-review", title: "Proton VPN Review", excerpt: "A beginner-focused review of Proton VPN's privacy, free plan, pricing, performance, and tradeoffs.", href: "/reviews/proton-vpn-review", status: "Published Review" },
   { key: "best-vpns-for-beginners", title: "Best VPNs for Beginners", excerpt: "A beginner-focused comparison is being prepared for this software guide." },
   { key: "how-vpns-actually-work", title: "How VPNs Actually Work", excerpt: "A clear explainer is being prepared for this software guide." },
   { key: "best-password-managers", title: "Best Password Managers", excerpt: "A practical comparison is being prepared for this software guide." },

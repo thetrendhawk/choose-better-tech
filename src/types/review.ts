@@ -21,12 +21,15 @@ export type ReviewCardItem = {
 export type ReviewSection = {
   id: string;
   title: string;
-  body: string;
+  body: string[];
+  bullets?: string[];
+  note?: string;
 };
 
-export type ChecklistItem = {
-  label: string;
-  status: "Pending";
+export type FreeVsPaidContent = {
+  freeStrengths: string[];
+  freeLimitations: string[];
+  paidBenefits: string[];
 };
 
 export type RelatedGuide = {
@@ -35,11 +38,27 @@ export type RelatedGuide = {
   description: string;
 };
 
+export type UserFeedback = {
+  praise: string[];
+  complaints: string[];
+};
+
+export type AlternativeReview = {
+  title: string;
+  description: string;
+};
+
+export type ReviewFaq = {
+  question: string;
+  answer: string;
+};
+
 export type ReviewPageContent = {
   categoryLabel: string;
   title: string;
   subtitle: string;
   affiliateUrl: string;
+  executiveSummary: string[];
   quickSummary: ReviewSummaryItem[];
   decisionSnapshot: DecisionSnapshotRow[];
   scoringCategories: ScoringCategory[];
@@ -47,8 +66,12 @@ export type ReviewPageContent = {
   cons: string[];
   whoItIsFor: ReviewCardItem[];
   whoShouldSkipIt: ReviewCardItem[];
+  freeVsPaid: FreeVsPaidContent;
   fullReviewSections: ReviewSection[];
-  researchChecklist: ChecklistItem[];
+  userFeedback: UserFeedback;
+  alternatives: AlternativeReview[];
+  faqs: ReviewFaq[];
   relatedGuides: RelatedGuide[];
   finalCtaHeadline: string;
+  finalCtaNote: string;
 };
