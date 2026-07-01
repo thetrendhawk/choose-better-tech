@@ -1,0 +1,7 @@
+import { SEO } from "../components/SEO";
+import { PageHeader } from "../components/ui/PageHeader";
+import { Section } from "../components/ui/Section";
+
+export function AffiliateDisclosurePage() {
+  return <><SEO title="Affiliate Disclosure" description="Read how affiliate links and commissions may work on Choose Better Tech." path="/affiliate-disclosure" /><PageHeader title="Affiliate Disclosure" eyebrow="Transparency" description="Choose Better Tech may earn affiliate commissions from some links, without additional cost to readers." /><Section containerClassName="max-w-4xl"><div className="prose prose-slate max-w-none"><p>Choose Better Tech is reader-supported. Some pages may contain affiliate links. If a reader clicks an affiliate link and makes a purchase, we may earn a commission at no additional cost to the reader.</p><h2>How affiliate links affect recommendations</h2><p>Affiliate relationships should not determine whether a product is recommended. Reviews and comparisons should begin with research, practical evaluation, and clear explanation of tradeoffs.</p><h2>FTC disclosure</h2><p>This disclosure is intended to make affiliate relationships clear and visible. When affiliate links appear in specific guides, the relevant page should include a clear disclosure near the content where those links are used.</p><h2>Reader cost</h2><p>Using an affiliate link does not add an extra charge for the reader. In some cases, it may provide the same public pricing or a partner offer from the software provider.</p></div></Section></>;
+}

@@ -1,0 +1,7 @@
+import { SEO } from "../components/SEO";
+import { PageHeader } from "../components/ui/PageHeader";
+import { Section } from "../components/ui/Section";
+
+export function PrivacyPage() {
+  return <><SEO title="Privacy Policy" description="Read the placeholder privacy policy for Choose Better Tech." path="/privacy" /><PageHeader title="Privacy Policy" eyebrow="Legal" description="This professional placeholder outlines the privacy topics this site should cover before launch." /><Section containerClassName="max-w-4xl"><div className="prose prose-slate max-w-none"><p>Choose Better Tech is a static content website. This privacy policy placeholder should be reviewed and customized before public launch.</p><h2>Information we may collect</h2><p>The site may collect information readers choose to provide through contact forms or email signup forms. Analytics, hosting, and affiliate partners may also process limited technical information such as device type, browser, referring pages, and general usage data.</p><h2>How information may be used</h2><p>Information may be used to respond to messages, improve content, understand site performance, and maintain the security and reliability of the website.</p><h2>Third-party services</h2><p>Future versions may use analytics, email, hosting, and affiliate services. Those services may process information according to their own privacy policies.</p><h2>Contact</h2><p>Questions about this policy can be sent through the contact page.</p></div></Section></>;
+}

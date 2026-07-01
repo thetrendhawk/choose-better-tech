@@ -1,0 +1,10 @@
+import { Mail } from "lucide-react";
+import { SEO } from "../components/SEO";
+import { Button } from "../components/ui/Button";
+import { PageHeader } from "../components/ui/PageHeader";
+import { Section } from "../components/ui/Section";
+import { site } from "../utils/site";
+
+export function ContactPage() {
+  return <><SEO title="Contact" description="Contact Choose Better Tech with questions, corrections, or software review suggestions." path="/contact" /><PageHeader title="Contact" eyebrow="Get in touch" description="Send questions, corrections, or suggestions for future software guides. This form is a static placeholder for version 0.1." /><Section containerClassName="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]"><aside className="rounded-lg border border-slate-200 bg-slate-50 p-6"><Mail className="text-brand-700" aria-hidden="true" /><h2 className="mt-4 text-xl font-semibold text-slate-950">Email</h2><p className="mt-3 text-sm leading-6 text-slate-700">For launch, use this placeholder contact address:</p><p className="mt-2 font-medium text-slate-950">{site.email}</p></aside><form className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft" aria-label="Contact form"><div className="grid gap-5"><div><label className="text-sm font-medium text-slate-800" htmlFor="name">Name</label><input className="mt-2 min-h-11 w-full rounded-md border border-slate-300 px-4" id="name" name="name" type="text" autoComplete="name" /></div><div><label className="text-sm font-medium text-slate-800" htmlFor="email">Email</label><input className="mt-2 min-h-11 w-full rounded-md border border-slate-300 px-4" id="email" name="email" type="email" placeholder="you@example.com" autoComplete="email" /></div><div><label className="text-sm font-medium text-slate-800" htmlFor="message">Message</label><textarea className="mt-2 min-h-36 w-full rounded-md border border-slate-300 px-4 py-3" id="message" name="message" /></div><Button type="submit" className="w-full sm:w-fit">Send Message</Button></div></form></Section></>;
+}
