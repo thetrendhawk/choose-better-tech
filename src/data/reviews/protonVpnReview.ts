@@ -181,10 +181,12 @@ export const protonVpnReview: ReviewPageContent = {
     { question: "Is Proton VPN worth paying for?", answer: "It can be worth paying for if you want more countries, higher speeds, more devices, Secure Core, NetShield, streaming support, P2P support, split tunneling, and priority support." }
   ],
   relatedGuides: [
-    { title: "Best VPNs for Beginners", href: "#", description: "Future beginner-focused VPN comparison." },
-    { title: "Proton VPN Free vs Paid", href: "#", description: "Future comparison of plan differences." },
-    { title: "Proton VPN vs NordVPN", href: "#", description: "Future head-to-head VPN comparison." },
-    { title: "Do You Actually Need a VPN?", href: "#", description: "Future plain-English VPN decision guide." }
+    { title: "Best VPNs for Beginners", href: "/guides/best-vpns-for-beginners", description: "Compare beginner VPN options by use case." },
+    { title: "Is Proton VPN Free Good Enough?", href: "/guides/is-proton-vpn-free-good-enough", description: "Decide whether the free plan fits your needs." },
+    { title: "Free VPN vs Paid VPN", href: "/guides/free-vpn-vs-paid", description: "Understand free-plan risks and paid-plan tradeoffs." },
+    { title: "VPN Buying Guide", href: "/guides/vpn-buying-guide", description: "Use a practical checklist before choosing a VPN." },
+    { title: "How VPNs Work", href: "/guides/how-vpns-work", description: "Learn what VPNs can and cannot protect." },
+    { title: "VPN Myths", href: "/guides/vpn-myths", description: "Avoid exaggerated VPN marketing claims." }
   ],
   finalCtaHeadline: "Ready to compare Proton VPN?",
   finalCtaNote: "Check current pricing, features, and plan availability before purchasing."

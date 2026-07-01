@@ -2,7 +2,8 @@ const GA_MEASUREMENT_ID = "G-3CPY0G0G65";
 const GA_SCRIPT_ID = "ga4-gtag";
 
 type GtagCommand = "js" | "config";
-type Gtag = (command: GtagCommand, target: string | Date, config?: Record<string, unknown>) => void;
+type GtagArguments = [GtagCommand, string | Date, Record<string, unknown>?];
+type Gtag = (...args: GtagArguments) => void;
 
 declare global {
   interface Window {
@@ -28,8 +29,8 @@ export const initializeGoogleAnalytics = () => {
   }
 
   window.dataLayer = window.dataLayer || [];
-  window.gtag = function gtag() {
-    window.dataLayer?.push(arguments);
+  window.gtag = function gtag(...args) {
+    window.dataLayer?.push(args);
   } as Gtag;
 
   window.gtag("js", new Date());

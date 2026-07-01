@@ -11,10 +11,11 @@ export const categories: Category[] = [
 export const featuredGuides: ArticlePreview[] = [
   { key: "proton-vpn-review", title: "Proton VPN Review", excerpt: "A beginner-focused review of Proton VPN's privacy, free plan, pricing, performance, and tradeoffs.", href: "/reviews/proton-vpn-review", status: "Published Review" },
   { key: "best-vpns-for-beginners", title: "Best VPNs for Beginners", excerpt: "A beginner-first buying guide comparing privacy, streaming, price, simplicity, and free-plan tradeoffs.", href: "/guides/best-vpns-for-beginners", status: "Published Guide" },
-  { key: "how-vpns-actually-work", title: "How VPNs Actually Work", excerpt: "A clear explainer is being prepared for this software guide." },
-  { key: "best-password-managers", title: "Best Password Managers", excerpt: "A practical comparison is being prepared for this software guide." },
-  { key: "totalav-review", title: "TotalAV Review", excerpt: "A research-first review framework is being prepared for this software guide." },
-  { key: "choosing-software-with-confidence", title: "Choosing Software with Confidence", excerpt: "A decision-making guide is being prepared for this software guide." }
+  { key: "how-vpns-work", title: "How VPNs Work", excerpt: "A plain-English explainer covering VPN tunnels, IP masking, provider trust, and common limits.", href: "/guides/how-vpns-work", status: "Published Guide" },
+  { key: "free-vpn-vs-paid", title: "Free VPN vs Paid VPN", excerpt: "A practical comparison of free VPN risks, reputable free tiers, and when paid plans make sense.", href: "/guides/free-vpn-vs-paid", status: "Published Guide" },
+  { key: "vpn-buying-guide", title: "VPN Buying Guide", excerpt: "A beginner checklist for choosing a VPN based on privacy evidence, audits, features, pricing, and fit.", href: "/guides/vpn-buying-guide", status: "Published Guide" },
+  { key: "vpn-myths", title: "VPN Myths", excerpt: "A calm myth-check explaining what VPNs can protect, what they cannot, and when claims go too far.", href: "/guides/vpn-myths", status: "Published Guide" },
+  { key: "is-proton-vpn-free-good-enough", title: "Is Proton VPN Free Good Enough?", excerpt: "A decision guide for when Proton VPN's free plan is enough and when upgrading makes more sense.", href: "/guides/is-proton-vpn-free-good-enough", status: "Published Guide" }
 ];
 
 export const trustPoints: TrustPoint[] = [

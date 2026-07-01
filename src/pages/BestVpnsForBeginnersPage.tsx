@@ -100,11 +100,11 @@ const faqs = [
 
 const relatedGuides = [
   { title: "Proton VPN Review", href: "/reviews/proton-vpn-review" },
-  { title: "NordVPN Review", href: "#" },
-  { title: "Surfshark Review", href: "#" },
-  { title: "ExpressVPN Review", href: "#" },
-  { title: "Mullvad Review", href: "#" },
-  { title: "PIA Review", href: "#" }
+  { title: "How VPNs Work", href: "/guides/how-vpns-work" },
+  { title: "Free VPN vs Paid VPN", href: "/guides/free-vpn-vs-paid" },
+  { title: "VPN Buying Guide", href: "/guides/vpn-buying-guide" },
+  { title: "VPN Myths", href: "/guides/vpn-myths" },
+  { title: "Is Proton VPN Free Good Enough?", href: "/guides/is-proton-vpn-free-good-enough" }
 ];
 
 function ExternalCta({ children }: { children: string }) {
@@ -230,7 +230,7 @@ export function BestVpnsForBeginnersPage() {
       <Section>
         <SectionHeading title="Related Guides" />
         <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {relatedGuides.map((guide) => guide.href === "#" ? <a key={guide.title} className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft transition-colors hover:border-brand-200 hover:bg-brand-50" href={guide.href}><ListChecks className="text-brand-700" size={20} aria-hidden="true" /><h3 className="mt-4 text-base font-semibold text-slate-950">{guide.title}</h3><p className="mt-2 text-sm leading-6 text-slate-600">Future review page.</p></a> : <Link key={guide.title} className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft transition-colors hover:border-brand-200 hover:bg-brand-50" to={guide.href}><ListChecks className="text-brand-700" size={20} aria-hidden="true" /><h3 className="mt-4 text-base font-semibold text-slate-950">{guide.title}</h3><p className="mt-2 text-sm leading-6 text-slate-600">Read the published review.</p></Link>)}
+          {relatedGuides.map((guide) => <Link key={guide.title} className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft transition-colors hover:border-brand-200 hover:bg-brand-50" to={guide.href}><ListChecks className="text-brand-700" size={20} aria-hidden="true" /><h3 className="mt-4 text-base font-semibold text-slate-950">{guide.title}</h3><p className="mt-2 text-sm leading-6 text-slate-600">Continue through the VPN knowledge hub.</p></Link>)}
         </div>
       </Section>
 
