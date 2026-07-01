@@ -63,3 +63,12 @@ npm run preview
 ## Editorial Notes
 
 The guide cards in version 0.1 intentionally use placeholder excerpts and Coming Soon labels. No fake reviews, credentials, or invented article content are included.
+
+## Operations Docs
+
+- [Choose Better Tech Operations Manual v1.0](docs/CBT-Operations-Manual-v1.0.md)
+- [Editorial Standards](docs/Editorial-Standards.md)
+- [Research Workflow](docs/Research-Workflow.md)
+- [Publisher Readiness Checklist](docs/Publisher-Readiness-Checklist.md)
+- [Content Roadmap](docs/Content-Roadmap.md)
+- [Opportunity Scoring](docs/Opportunity-Scoring.md)
