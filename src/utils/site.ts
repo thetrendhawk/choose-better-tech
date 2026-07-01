@@ -8,15 +8,15 @@ export const site = {
 };
 
 export const navItems: NavItem[] = [
-  { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" }
+  { key: "home", label: "Home", href: "/" },
+  { key: "about", label: "About", href: "/about" },
+  { key: "contact", label: "Contact", href: "/contact" }
 ];
 
 export const footerLinks: NavItem[] = [
-  { label: "About", href: "/about" },
-  { label: "Privacy", href: "/privacy" },
-  { label: "Terms", href: "/terms" },
-  { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
-  { label: "Contact", href: "/contact" }
+  { key: "about", label: "About", href: "/about" },
+  { key: "privacy", label: "Privacy", href: "/privacy" },
+  { key: "terms", label: "Terms", href: "/terms" },
+  { key: "affiliate-disclosure", label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
+  { key: "contact", label: "Contact", href: "/contact" }
 ];
