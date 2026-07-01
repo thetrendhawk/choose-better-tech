@@ -58,7 +58,7 @@ npm run preview
    - Build command: npm run build
    - Output directory: dist
 4. Add a production domain when ready.
-5. Update canonical URLs in src/utils/site.ts, public/robots.txt, and public/sitemap.xml if the launch domain changes.
+5. Set SITE_URL to the production domain. This controls canonical URLs, Open Graph URLs, robots.txt, and sitemap.xml.
 
 ## Editorial Notes
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://choosebettertech.com/sitemap.xml
+Sitemap: https://choosebettertech.thrwds.com/sitemap.xml
