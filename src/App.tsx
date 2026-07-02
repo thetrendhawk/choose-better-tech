@@ -7,6 +7,7 @@ import { BestVpnsForBeginnersPage } from "./pages/BestVpnsForBeginnersPage";
 import { ContactPage } from "./pages/ContactPage";
 import { HomePage } from "./pages/HomePage";
 import { NotFoundPage } from "./pages/NotFoundPage";
+import { NordVpnReviewPage } from "./pages/NordVpnReviewPage";
 import { PrivacyPage } from "./pages/PrivacyPage";
 import { ProtonVpnReviewPage } from "./pages/ProtonVpnReviewPage";
 import { TermsPage } from "./pages/TermsPage";
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="guides/vpn-buying-guide" element={<VpnGuidePage slug="vpn-buying-guide" />} />
           <Route path="guides/vpn-myths" element={<VpnGuidePage slug="vpn-myths" />} />
           <Route path="guides/is-proton-vpn-free-good-enough" element={<VpnGuidePage slug="is-proton-vpn-free-good-enough" />} />
+          <Route path="reviews/nordvpn-review" element={<NordVpnReviewPage />} />
           <Route path="reviews/proton-vpn-review" element={<ProtonVpnReviewPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>

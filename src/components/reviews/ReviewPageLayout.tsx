@@ -1,5 +1,7 @@
 import { AlertCircle, CheckCircle2, ExternalLink, ListChecks, MinusCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 import type { ReviewPageContent } from "../../types/review";
+import { site } from "../../utils/site";
 import { Container } from "../ui/Container";
 import { Section } from "../ui/Section";
 
@@ -8,8 +10,12 @@ const disclosureText = "We may earn a commission if you purchase through links o
 const externalButtonClasses = "inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600";
 const secondaryButtonClasses = "inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600";
 
-function ExternalButton({ href, children }: { href: string; children: string }) {
-  return <a className={externalButtonClasses} href={href} rel="nofollow sponsored noopener noreferrer" target="_blank">{children}<ExternalLink size={16} aria-hidden="true" /></a>;
+function CtaButton({ href, children }: { href: string; children: string }) {
+  if (href.startsWith("http")) {
+    return <a className={externalButtonClasses} href={href} rel="nofollow sponsored noopener noreferrer" target="_blank">{children}<ExternalLink size={16} aria-hidden="true" /></a>;
+  }
+
+  return <Link className={externalButtonClasses} to={href}>{children}</Link>;
 }
 
 function SectionHeading({ title, description }: { title: string; description?: string }) {
@@ -26,6 +32,30 @@ function BulletList({ items, tone = "brand" }: { items: string[]; tone?: "brand"
 }
 
 export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: site.url + "/" },
+      { "@type": "ListItem", position: 2, name: "Reviews", item: site.url + "/reviews" },
+      { "@type": "ListItem", position: 3, name: review.title, item: site.url + review.path }
+    ]
+  };
+
+  const reviewSchema = {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    itemReviewed: {
+      "@type": "SoftwareApplication",
+      name: review.productName,
+      applicationCategory: "VPN"
+    },
+    name: review.title,
+    reviewBody: review.finalVerdictBody,
+    author: { "@type": "Organization", name: site.name },
+    publisher: { "@type": "Organization", name: site.name }
+  };
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -41,6 +71,8 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <section className="border-b border-slate-200 bg-slate-50 py-4" aria-label="Affiliate disclosure">
@@ -59,7 +91,7 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
             <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-normal text-slate-950 sm:text-5xl">{review.title}</h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700">{review.subtitle}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <ExternalButton href={review.affiliateUrl}>Visit Proton VPN</ExternalButton>
+              <CtaButton href={review.affiliateUrl}>{review.ctaLabel}</CtaButton>
               <a className={secondaryButtonClasses} href="#final-verdict">Jump to Verdict</a>
             </div>
           </div>
@@ -115,22 +147,22 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
       <Section>
         <div className="grid gap-10 lg:grid-cols-2">
           <div>
-            <SectionHeading title="Who Should Use Proton VPN?" />
+            <SectionHeading title={`Who Should Use ${review.productName}?`} />
             <div className="mt-6 grid gap-4">{review.whoItIsFor.map((item) => <InfoCard key={item.title} title={item.title} description={item.description} />)}</div>
           </div>
           <div>
-            <SectionHeading title="Who Should Skip Proton VPN?" />
+            <SectionHeading title={`Who Should Skip ${review.productName}?`} />
             <div className="mt-6 grid gap-4">{review.whoShouldSkipIt.map((item) => <InfoCard key={item.title} title={item.title} description={item.description} />)}</div>
           </div>
         </div>
       </Section>
 
       <Section className="bg-slate-50">
-        <SectionHeading title="Free vs Paid" description="The free plan is one of Proton VPN's main advantages, but it has clear limits." />
+        <SectionHeading title={review.freeVsPaid.title ?? "Free vs Paid"} description={review.freeVsPaid.description ?? `The free and paid details for ${review.productName} should be checked before buying because plan availability can change.`} />
         <div className="mt-8 grid gap-5 lg:grid-cols-3">
-          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h3 className="text-xl font-bold text-slate-950">Free plan strengths</h3><BulletList items={review.freeVsPaid.freeStrengths} /></div>
-          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h3 className="text-xl font-bold text-slate-950">Free plan limitations</h3><BulletList items={review.freeVsPaid.freeLimitations} tone="slate" /></div>
-          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h3 className="text-xl font-bold text-slate-950">Paid plan benefits</h3><BulletList items={review.freeVsPaid.paidBenefits} /></div>
+          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h3 className="text-xl font-bold text-slate-950">{review.freeVsPaid.freeLabel ?? "Free plan strengths"}</h3><BulletList items={review.freeVsPaid.freeStrengths} /></div>
+          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h3 className="text-xl font-bold text-slate-950">{review.freeVsPaid.limitationsLabel ?? "Free plan limitations"}</h3><BulletList items={review.freeVsPaid.freeLimitations} tone="slate" /></div>
+          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h3 className="text-xl font-bold text-slate-950">{review.freeVsPaid.paidLabel ?? "Paid plan benefits"}</h3><BulletList items={review.freeVsPaid.paidBenefits} /></div>
         </div>
       </Section>
 
@@ -166,15 +198,15 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
       <Section>
         <article id="final-verdict" className="scroll-mt-24 rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
           <h2 className="text-2xl font-bold text-slate-950">Final Verdict</h2>
-          <p className="mt-4 text-base font-semibold text-brand-700">Recommended with reservations.</p>
-          <p className="mt-4 text-base leading-8 text-slate-700">Proton VPN is a strong choice for beginners who care most about privacy, transparency, and a trustworthy free plan. It is not the cheapest VPN, not always the fastest, and not always the simplest option. But for users who want a privacy-first VPN from a company with strong transparency signals, Proton VPN deserves serious consideration.</p>
+          <p className="mt-4 text-base font-semibold text-brand-700">{review.finalVerdictLabel}</p>
+          <p className="mt-4 text-base leading-8 text-slate-700">{review.finalVerdictBody}</p>
         </article>
       </Section>
 
       <Section className="bg-slate-50">
         <SectionHeading title="Related Guides" />
         <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {review.relatedGuides.map((guide) => <a key={guide.title} className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft transition-colors hover:border-brand-200 hover:bg-brand-50" href={guide.href}><ListChecks className="text-brand-700" size={20} aria-hidden="true" /><h3 className="mt-4 text-base font-semibold text-slate-950">{guide.title}</h3><p className="mt-2 text-sm leading-6 text-slate-600">{guide.description}</p></a>)}
+          {review.relatedGuides.map((guide) => <Link key={guide.title} className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft transition-colors hover:border-brand-200 hover:bg-brand-50" to={guide.href}><ListChecks className="text-brand-700" size={20} aria-hidden="true" /><h3 className="mt-4 text-base font-semibold text-slate-950">{guide.title}</h3><p className="mt-2 text-sm leading-6 text-slate-600">{guide.description}</p></Link>)}
         </div>
       </Section>
 
@@ -184,7 +216,7 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
             <h2 className="text-3xl font-bold">{review.finalCtaHeadline}</h2>
             <p className="mt-3 text-sm leading-6 text-slate-300">{review.finalCtaNote}</p>
           </div>
-          <ExternalButton href={review.affiliateUrl}>Visit Proton VPN</ExternalButton>
+          <CtaButton href={review.affiliateUrl}>{review.ctaLabel}</CtaButton>
         </Container>
       </section>
     </>

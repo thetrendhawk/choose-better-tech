@@ -27,6 +27,11 @@ export type ReviewSection = {
 };
 
 export type FreeVsPaidContent = {
+  title?: string;
+  description?: string;
+  freeLabel?: string;
+  limitationsLabel?: string;
+  paidLabel?: string;
   freeStrengths: string[];
   freeLimitations: string[];
   paidBenefits: string[];
@@ -57,7 +62,10 @@ export type ReviewPageContent = {
   categoryLabel: string;
   title: string;
   subtitle: string;
+  path: string;
+  productName: string;
   affiliateUrl: string;
+  ctaLabel: string;
   executiveSummary: string[];
   quickSummary: ReviewSummaryItem[];
   decisionSnapshot: DecisionSnapshotRow[];
@@ -74,4 +82,6 @@ export type ReviewPageContent = {
   relatedGuides: RelatedGuide[];
   finalCtaHeadline: string;
   finalCtaNote: string;
+  finalVerdictLabel: string;
+  finalVerdictBody: string;
 };

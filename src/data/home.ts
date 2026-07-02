@@ -9,6 +9,7 @@ export const categories: Category[] = [
 ];
 
 export const featuredGuides: ArticlePreview[] = [
+  { key: "nordvpn-review", title: "NordVPN Review", excerpt: "A beginner-focused review of NordVPN's security, speed, streaming fit, pricing uncertainty, and tradeoffs.", href: "/reviews/nordvpn-review", status: "Published Review" },
   { key: "proton-vpn-review", title: "Proton VPN Review", excerpt: "A beginner-focused review of Proton VPN's privacy, free plan, pricing, performance, and tradeoffs.", href: "/reviews/proton-vpn-review", status: "Published Review" },
   { key: "best-vpns-for-beginners", title: "Best VPNs for Beginners", excerpt: "A beginner-first buying guide comparing privacy, streaming, price, simplicity, and free-plan tradeoffs.", href: "/guides/best-vpns-for-beginners", status: "Published Guide" },
   { key: "how-vpns-work", title: "How VPNs Work", excerpt: "A plain-English explainer covering VPN tunnels, IP masking, provider trust, and common limits.", href: "/guides/how-vpns-work", status: "Published Guide" },

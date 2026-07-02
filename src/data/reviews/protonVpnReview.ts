@@ -4,7 +4,10 @@ export const protonVpnReview: ReviewPageContent = {
   categoryLabel: "VPN Review",
   title: "Proton VPN Review (2026): Is It Worth It for Beginners?",
   subtitle: "A research-based beginner review evaluating whether Proton VPN is the right privacy tool for everyday users.",
+  path: "/reviews/proton-vpn-review",
+  productName: "Proton VPN",
   affiliateUrl: "https://protonvpn.com/",
+  ctaLabel: "Visit Proton VPN",
   executiveSummary: [
     "Proton VPN is a good fit for privacy-focused beginners, students, travelers, remote workers, and people who want a trustworthy free VPN without giving up basic privacy standards. It is especially appealing if you value audited no-logs claims, Swiss jurisdiction, open-source apps, and a company already known for Proton Mail.",
     "It is not the best fit for every user. People who mainly want the cheapest paid VPN, unlimited simultaneous devices, the lowest possible gaming latency, or the simplest possible interface should compare alternatives before buying.",
@@ -189,5 +192,7 @@ export const protonVpnReview: ReviewPageContent = {
     { title: "VPN Myths", href: "/guides/vpn-myths", description: "Avoid exaggerated VPN marketing claims." }
   ],
   finalCtaHeadline: "Ready to compare Proton VPN?",
-  finalCtaNote: "Check current pricing, features, and plan availability before purchasing."
+  finalCtaNote: "Check current pricing, features, and plan availability before purchasing.",
+  finalVerdictLabel: "Recommended with reservations.",
+  finalVerdictBody: "Proton VPN is a strong choice for beginners who care most about privacy, transparency, and a trustworthy free plan. It is not the cheapest VPN, not always the fastest, and not always the simplest option. But for users who want a privacy-first VPN from a company with strong transparency signals, Proton VPN deserves serious consideration."
 };
