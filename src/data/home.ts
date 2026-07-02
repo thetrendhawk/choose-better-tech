@@ -8,9 +8,12 @@ export const categories: Category[] = [
   { key: "software-guides", title: "Software Guides", description: "Beginner-friendly explainers for choosing, comparing, and using software well.", icon: BookOpen }
 ];
 
-export const featuredGuides: ArticlePreview[] = [
+export const featuredReviews: ArticlePreview[] = [
   { key: "nordvpn-review", title: "NordVPN Review", excerpt: "A beginner-focused review of NordVPN's security, speed, streaming fit, pricing uncertainty, and tradeoffs.", href: "/reviews/nordvpn-review", status: "Published Review" },
-  { key: "proton-vpn-review", title: "Proton VPN Review", excerpt: "A beginner-focused review of Proton VPN's privacy, free plan, pricing, performance, and tradeoffs.", href: "/reviews/proton-vpn-review", status: "Published Review" },
+  { key: "proton-vpn-review", title: "Proton VPN Review", excerpt: "A beginner-focused review of Proton VPN's privacy, free plan, pricing, performance, and tradeoffs.", href: "/reviews/proton-vpn-review", status: "Published Review" }
+];
+
+export const featuredGuides: ArticlePreview[] = [
   { key: "best-vpns-for-beginners", title: "Best VPNs for Beginners", excerpt: "A beginner-first buying guide comparing privacy, streaming, price, simplicity, and free-plan tradeoffs.", href: "/guides/best-vpns-for-beginners", status: "Published Guide" },
   { key: "how-vpns-work", title: "How VPNs Work", excerpt: "A plain-English explainer covering VPN tunnels, IP masking, provider trust, and common limits.", href: "/guides/how-vpns-work", status: "Published Guide" },
   { key: "free-vpn-vs-paid", title: "Free VPN vs Paid VPN", excerpt: "A practical comparison of free VPN risks, reputable free tiers, and when paid plans make sense.", href: "/guides/free-vpn-vs-paid", status: "Published Guide" },
