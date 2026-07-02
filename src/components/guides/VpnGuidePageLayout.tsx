@@ -1,11 +1,10 @@
-import { AlertCircle, ExternalLink, ListChecks } from "lucide-react";
+import { ListChecks } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { VpnGuideContent } from "../../types/guide";
 import { site } from "../../utils/site";
+import { AffiliateDisclosure } from "../affiliate/AffiliateDisclosure";
 import { Container } from "../ui/Container";
 import { Section } from "../ui/Section";
-
-const disclosureText = "We may earn a commission if you purchase through links on this page, at no extra cost to you. Our recommendations are based on research, product fit, and reader needs.";
 
 const primaryButtonClasses = "inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600";
 const secondaryButtonClasses = "inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600";
@@ -61,14 +60,7 @@ export function VpnGuidePageLayout({ guide }: { guide: VpnGuideContent }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <section className="border-b border-slate-200 bg-slate-50 py-4" aria-label="Affiliate disclosure">
-        <Container>
-          <div className="flex gap-3 rounded-lg border border-brand-100 bg-white p-4 text-sm leading-6 text-slate-700 shadow-soft">
-            <AlertCircle className="mt-0.5 shrink-0 text-brand-700" size={18} aria-hidden="true" />
-            <p>{disclosureText}</p>
-          </div>
-        </Container>
-      </section>
+      <AffiliateDisclosure />
 
       <section className="bg-white py-16 sm:py-20">
         <Container className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start">
@@ -150,7 +142,7 @@ export function VpnGuidePageLayout({ guide }: { guide: VpnGuideContent }) {
             <h2 className="text-3xl font-bold">{guide.cta.headline}</h2>
             <p className="mt-3 text-sm leading-6 text-slate-300">{guide.cta.note}</p>
           </div>
-          {guide.cta.primaryHref.startsWith("http") ? <a className={primaryButtonClasses + " gap-2"} href={guide.cta.primaryHref} rel="nofollow sponsored noopener noreferrer" target="_blank">{guide.cta.primaryLabel}<ExternalLink size={16} aria-hidden="true" /></a> : <InternalLinkButton href={guide.cta.primaryHref}>{guide.cta.primaryLabel}</InternalLinkButton>}
+          <InternalLinkButton href={guide.cta.primaryHref}>{guide.cta.primaryLabel}</InternalLinkButton>
         </Container>
       </section>
     </>

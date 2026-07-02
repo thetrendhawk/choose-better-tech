@@ -1,3 +1,5 @@
+import type { AffiliateProvider } from "../data/affiliateLinks";
+
 export type ReviewSummaryItem = {
   label: string;
   value: string;
@@ -64,7 +66,7 @@ export type ReviewPageContent = {
   subtitle: string;
   path: string;
   productName: string;
-  affiliateUrl: string;
+  affiliateProvider: AffiliateProvider;
   ctaLabel: string;
   executiveSummary: string[];
   quickSummary: ReviewSummaryItem[];

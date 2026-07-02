@@ -6,7 +6,7 @@ export const nordVpnReview: ReviewPageContent = {
   subtitle: "An evidence-based beginner review of NordVPN's privacy, security, speed, streaming fit, pricing uncertainty, and tradeoffs.",
   path: "/reviews/nordvpn-review",
   productName: "NordVPN",
-  affiliateUrl: "/guides/best-vpns-for-beginners",
+  affiliateProvider: "nordvpn",
   ctaLabel: "Compare VPN Options",
   executiveSummary: [
     "NordVPN is a strong mainstream VPN option for beginners who want a broadly capable service for everyday privacy, public Wi-Fi, streaming, travel, and general security use. The research supports its reputation as a top-tier general-purpose VPN, especially because of modern protocols, repeated audits, strong performance findings, and wide platform support.",

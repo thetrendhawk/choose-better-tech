@@ -6,7 +6,7 @@ export const surfsharkReview: ReviewPageContent = {
   subtitle: "An evidence-based beginner review of Surfshark's value, unlimited-device appeal, privacy caveats, audits, streaming uncertainty, and power-user tradeoffs.",
   path: "/reviews/surfshark-review",
   productName: "Surfshark",
-  affiliateUrl: "/guides/vpn-buying-guide",
+  affiliateProvider: "surfshark",
   ctaLabel: "Use the VPN Buying Guide",
   executiveSummary: [
     "Surfshark is strongest as a value-oriented, beginner-friendly VPN for mainstream users who want simple apps, broad platform support, many household devices covered, and a strong price-to-feature story.",

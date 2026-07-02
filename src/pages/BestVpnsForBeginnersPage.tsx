@@ -1,10 +1,10 @@
-import { AlertCircle, ExternalLink, ListChecks } from "lucide-react";
+import { ListChecks } from "lucide-react";
 import { Link } from "react-router-dom";
+import { AffiliateButton } from "../components/affiliate/AffiliateButton";
+import { AffiliateDisclosure } from "../components/affiliate/AffiliateDisclosure";
 import { SEO } from "../components/SEO";
 import { Container } from "../components/ui/Container";
 import { Section } from "../components/ui/Section";
-
-const affiliateDisclosure = "We may earn a commission if you purchase through links on this page, at no extra cost to you. Our recommendations are based on research, product fit, and reader needs.";
 
 const recommendations = [
   { label: "Recommended for Most Beginners", vpn: "NordVPN", reason: "A strong fit when you want one beginner-friendly option that balances simple apps, performance, streaming support, broad features, and familiar support resources." },
@@ -108,10 +108,6 @@ const relatedGuides = [
   { title: "Is Proton VPN Free Good Enough?", href: "/guides/is-proton-vpn-free-good-enough" }
 ];
 
-function ExternalCta({ children }: { children: string }) {
-  return <a className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" href="#" rel="nofollow sponsored">{children}<ExternalLink size={16} aria-hidden="true" /></a>;
-}
-
 function SectionHeading({ title, description }: { title: string; description?: string }) {
   return <div className="max-w-3xl"><h2 className="text-2xl font-bold text-slate-950 sm:text-3xl">{title}</h2>{description ? <p className="mt-3 text-base leading-7 text-slate-700">{description}</p> : null}</div>;
 }
@@ -137,14 +133,7 @@ export function BestVpnsForBeginnersPage() {
       <SEO title="Best VPNs for Beginners" description="A beginner-friendly guide to the best VPNs for first-time users, comparing privacy, ease of use, streaming, free plans, pricing, and support." path="/guides/best-vpns-for-beginners" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <section className="border-b border-slate-200 bg-slate-50 py-4" aria-label="Affiliate disclosure">
-        <Container>
-          <div className="flex gap-3 rounded-lg border border-brand-100 bg-white p-4 text-sm leading-6 text-slate-700 shadow-soft">
-            <AlertCircle className="mt-0.5 shrink-0 text-brand-700" size={18} aria-hidden="true" />
-            <p>{affiliateDisclosure}</p>
-          </div>
-        </Container>
-      </section>
+      <AffiliateDisclosure />
 
       <section className="bg-white py-16 sm:py-20">
         <Container className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start">
@@ -241,7 +230,7 @@ export function BestVpnsForBeginnersPage() {
             <h2 className="text-3xl font-bold">Ready to compare VPNs?</h2>
             <p className="mt-3 text-sm leading-6 text-slate-300">Check current pricing, features, device limits, and plan availability before purchasing.</p>
           </div>
-          <ExternalCta>Compare VPN Options</ExternalCta>
+          <AffiliateButton provider="vpn-comparison">Compare VPN Options</AffiliateButton>
         </Container>
       </section>
     </>

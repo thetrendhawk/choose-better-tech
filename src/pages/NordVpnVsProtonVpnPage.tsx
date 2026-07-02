@@ -1,12 +1,11 @@
-import { AlertCircle, CheckCircle2, ListChecks, SearchCheck, ShieldCheck } from "lucide-react";
+import { CheckCircle2, ListChecks, SearchCheck, ShieldCheck } from "lucide-react";
 import { Link } from "react-router-dom";
+import { AffiliateDisclosure } from "../components/affiliate/AffiliateDisclosure";
 import { SEO } from "../components/SEO";
 import { Container } from "../components/ui/Container";
 import { Section } from "../components/ui/Section";
 import { nordVpnVsProtonVpnComparison as comparison } from "../data/comparisons/nordVpnVsProtonVpn";
 import { site } from "../utils/site";
-
-const disclosureText = "We may earn a commission if you purchase through links on this page, at no extra cost to you. Our recommendations are based on research, product fit, and reader needs.";
 
 function SectionHeading({ title, description }: { title: string; description?: string }) {
   return (
@@ -75,14 +74,7 @@ export function NordVpnVsProtonVpnPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <section className="border-b border-slate-200 bg-slate-50 py-4" aria-label="Affiliate disclosure">
-        <Container>
-          <div className="flex gap-3 rounded-lg border border-brand-100 bg-white p-4 text-sm leading-6 text-slate-700 shadow-soft">
-            <AlertCircle className="mt-0.5 shrink-0 text-brand-700" size={18} aria-hidden="true" />
-            <p>{disclosureText}</p>
-          </div>
-        </Container>
-      </section>
+      <AffiliateDisclosure />
 
       <section className="bg-white py-16 sm:py-20">
         <Container className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start">

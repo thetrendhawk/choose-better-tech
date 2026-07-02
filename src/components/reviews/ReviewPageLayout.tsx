@@ -1,22 +1,13 @@
-import { AlertCircle, CheckCircle2, ExternalLink, ListChecks, MinusCircle } from "lucide-react";
+import { CheckCircle2, ListChecks, MinusCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { ReviewPageContent } from "../../types/review";
 import { site } from "../../utils/site";
+import { AffiliateButton } from "../affiliate/AffiliateButton";
+import { AffiliateDisclosure } from "../affiliate/AffiliateDisclosure";
 import { Container } from "../ui/Container";
 import { Section } from "../ui/Section";
 
-const disclosureText = "We may earn a commission if you purchase through links on this page, at no extra cost to you. Our recommendations are based on research, product fit, and reader needs.";
-
-const externalButtonClasses = "inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600";
 const secondaryButtonClasses = "inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600";
-
-function CtaButton({ href, children }: { href: string; children: string }) {
-  if (href.startsWith("http")) {
-    return <a className={externalButtonClasses} href={href} rel="nofollow sponsored noopener noreferrer" target="_blank">{children}<ExternalLink size={16} aria-hidden="true" /></a>;
-  }
-
-  return <Link className={externalButtonClasses} to={href}>{children}</Link>;
-}
 
 function SectionHeading({ title, description }: { title: string; description?: string }) {
   return <div className="max-w-3xl"><h2 className="text-2xl font-bold text-slate-950 sm:text-3xl">{title}</h2>{description ? <p className="mt-3 text-base leading-7 text-slate-700">{description}</p> : null}</div>;
@@ -75,14 +66,7 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      <section className="border-b border-slate-200 bg-slate-50 py-4" aria-label="Affiliate disclosure">
-        <Container>
-          <div className="flex gap-3 rounded-lg border border-brand-100 bg-white p-4 text-sm leading-6 text-slate-700 shadow-soft">
-            <AlertCircle className="mt-0.5 shrink-0 text-brand-700" size={18} aria-hidden="true" />
-            <p>{disclosureText}</p>
-          </div>
-        </Container>
-      </section>
+      <AffiliateDisclosure />
 
       <section className="bg-white py-16 sm:py-20">
         <Container className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start">
@@ -91,7 +75,7 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
             <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-normal text-slate-950 sm:text-5xl">{review.title}</h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700">{review.subtitle}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <CtaButton href={review.affiliateUrl}>{review.ctaLabel}</CtaButton>
+              <AffiliateButton provider={review.affiliateProvider}>{review.ctaLabel}</AffiliateButton>
               <a className={secondaryButtonClasses} href="#final-verdict">Jump to Verdict</a>
             </div>
           </div>
@@ -216,7 +200,7 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
             <h2 className="text-3xl font-bold">{review.finalCtaHeadline}</h2>
             <p className="mt-3 text-sm leading-6 text-slate-300">{review.finalCtaNote}</p>
           </div>
-          <CtaButton href={review.affiliateUrl}>{review.ctaLabel}</CtaButton>
+          <AffiliateButton provider={review.affiliateProvider}>{review.ctaLabel}</AffiliateButton>
         </Container>
       </section>
     </>
