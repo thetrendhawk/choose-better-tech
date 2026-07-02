@@ -10,6 +10,7 @@ const publicDir = join(rootDir, "public");
 const routes = [
   "/",
   "/about",
+  "/about/how-we-review-software",
   "/contact",
   "/privacy",
   "/terms",

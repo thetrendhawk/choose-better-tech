@@ -6,6 +6,7 @@ import { AffiliateDisclosurePage } from "./pages/AffiliateDisclosurePage";
 import { BestVpnsForBeginnersPage } from "./pages/BestVpnsForBeginnersPage";
 import { ContactPage } from "./pages/ContactPage";
 import { HomePage } from "./pages/HomePage";
+import { HowWeReviewSoftwarePage } from "./pages/HowWeReviewSoftwarePage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { NordVpnVsProtonVpnPage } from "./pages/NordVpnVsProtonVpnPage";
 import { NordVpnReviewPage } from "./pages/NordVpnReviewPage";
@@ -22,6 +23,7 @@ export default function App() {
         <Route element={<SiteLayout />}>
           <Route index element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="about/how-we-review-software" element={<HowWeReviewSoftwarePage />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="privacy" element={<PrivacyPage />} />
           <Route path="terms" element={<TermsPage />} />
