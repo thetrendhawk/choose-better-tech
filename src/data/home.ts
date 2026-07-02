@@ -19,6 +19,16 @@ export const featuredGuides: ArticlePreview[] = [
   { key: "is-proton-vpn-free-good-enough", title: "Is Proton VPN Free Good Enough?", excerpt: "A decision guide for when Proton VPN's free plan is enough and when upgrading makes more sense.", href: "/guides/is-proton-vpn-free-good-enough", status: "Published Guide" }
 ];
 
+export const featuredComparisons: ArticlePreview[] = [
+  {
+    key: "nordvpn-vs-protonvpn",
+    title: "NordVPN vs ProtonVPN",
+    excerpt: "An evidence-based comparison of privacy, speed, streaming, free plans, support, pricing uncertainty, and reader-fit tradeoffs.",
+    href: "/comparisons/nordvpn-vs-protonvpn",
+    status: "Published Comparison"
+  }
+];
+
 export const trustPoints: TrustPoint[] = [
   { key: "evidence-first", title: "Evidence First", description: "Recommendations begin with research, not commissions.", icon: SearchCheck },
   { key: "beginner-friendly", title: "Beginner Friendly", description: "Clear explanations without unnecessary technical jargon.", icon: CheckCircle2 },
