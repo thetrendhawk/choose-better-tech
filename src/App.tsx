@@ -12,6 +12,7 @@ import { NordVpnVsProtonVpnPage } from "./pages/NordVpnVsProtonVpnPage";
 import { NordVpnReviewPage } from "./pages/NordVpnReviewPage";
 import { PrivacyPage } from "./pages/PrivacyPage";
 import { ProtonVpnReviewPage } from "./pages/ProtonVpnReviewPage";
+import { SurfsharkReviewPage } from "./pages/SurfsharkReviewPage";
 import { TermsPage } from "./pages/TermsPage";
 import { VpnGuidePage } from "./pages/VpnGuidePage";
 
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="comparisons/nordvpn-vs-protonvpn" element={<NordVpnVsProtonVpnPage />} />
           <Route path="reviews/nordvpn-review" element={<NordVpnReviewPage />} />
           <Route path="reviews/proton-vpn-review" element={<ProtonVpnReviewPage />} />
+          <Route path="reviews/surfshark-review" element={<SurfsharkReviewPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>

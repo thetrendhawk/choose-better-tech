@@ -10,7 +10,8 @@ export const categories: Category[] = [
 
 export const featuredReviews: ArticlePreview[] = [
   { key: "nordvpn-review", title: "NordVPN Review", excerpt: "A beginner-focused review of NordVPN's security, speed, streaming fit, pricing uncertainty, and tradeoffs.", href: "/reviews/nordvpn-review", status: "Published Review" },
-  { key: "proton-vpn-review", title: "Proton VPN Review", excerpt: "A beginner-focused review of Proton VPN's privacy, free plan, pricing, performance, and tradeoffs.", href: "/reviews/proton-vpn-review", status: "Published Review" }
+  { key: "proton-vpn-review", title: "Proton VPN Review", excerpt: "A beginner-focused review of Proton VPN's privacy, free plan, pricing, performance, and tradeoffs.", href: "/reviews/proton-vpn-review", status: "Published Review" },
+  { key: "surfshark-review", title: "Surfshark VPN Review", excerpt: "A beginner-focused review of Surfshark's value, unlimited devices, privacy nuance, audits, and tradeoffs.", href: "/reviews/surfshark-review", status: "Published Review" }
 ];
 
 export const featuredGuides: ArticlePreview[] = [
