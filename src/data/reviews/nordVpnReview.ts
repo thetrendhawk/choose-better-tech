@@ -180,6 +180,7 @@ export const nordVpnReview: ReviewPageContent = {
   relatedGuides: [
     { title: "Best VPNs for Beginners", href: "/guides/best-vpns-for-beginners", description: "Compare beginner VPN options by use case." },
     { title: "Proton VPN Review", href: "/reviews/proton-vpn-review", description: "Compare NordVPN against a privacy-focused alternative." },
+    { title: "NordVPN vs ProtonVPN", href: "/comparisons/nordvpn-vs-protonvpn", description: "Compare the two VPNs by privacy, speed, support, free plans, and tradeoffs." },
     { title: "How VPNs Work", href: "/guides/how-vpns-work", description: "Understand what VPNs can and cannot protect." },
     { title: "Free VPN vs Paid VPN", href: "/guides/free-vpn-vs-paid", description: "Learn when free VPNs make sense and when paid plans are safer." },
     { title: "VPN Buying Guide", href: "/guides/vpn-buying-guide", description: "Use a practical checklist before choosing a VPN." },
@@ -187,8 +188,7 @@ export const nordVpnReview: ReviewPageContent = {
     { title: "Is Proton VPN Free Good Enough?", href: "/guides/is-proton-vpn-free-good-enough", description: "Compare free-plan expectations before choosing a paid VPN." }
   ],
   finalCtaHeadline: "Compare NordVPN against beginner VPN alternatives",
-  finalCtaNote: "Centralized affiliate infrastructure is not implemented yet, so this CTA points to the existing VPN comparison guide instead of a hard-coded affiliate URL.",
+  finalCtaNote: "Use the beginner VPN guide to compare current options, then verify pricing, plan limits, refund terms, and platform support before choosing.",
   finalVerdictLabel: "Recommended with reservations.",
   finalVerdictBody: "NordVPN is a strong mainstream VPN for beginners who want speed, streaming usefulness, broad platform support, and extra security features. It is not the right choice for every user: pricing must be verified, it is not a full anonymity tool, Threat Protection Pro does not replace antivirus, and advanced users may miss open-source infrastructure or port forwarding. For everyday VPN buyers, it deserves serious consideration with those caveats clearly understood."
 };
-

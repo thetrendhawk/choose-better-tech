@@ -20,6 +20,7 @@ const routes = [
   "/guides/vpn-buying-guide",
   "/guides/vpn-myths",
   "/guides/is-proton-vpn-free-good-enough",
+  "/comparisons/nordvpn-vs-protonvpn",
   "/reviews/nordvpn-review",
   "/reviews/proton-vpn-review"
 ];
