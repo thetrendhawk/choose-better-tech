@@ -195,6 +195,7 @@ export const onePasswordReview: ReviewPageContent = {
     { question: "Is 1Password worth paying for?", answer: "Often yes for beginners, families, and cross-platform households that value a polished premium experience. For open-source-first, self-hosting, local-control, or budget-first buyers, the approved research points toward alternatives." }
   ],
   relatedGuides: [
+    { title: "1Password vs NordPass", href: "/comparisons/1password-vs-nordpass", description: "Compare premium family polish against NordPass value and free-plan availability." },
     { title: "NordPass Review", href: "/reviews/nordpass-review", description: "Compare 1Password against a value-focused password manager in the Nord ecosystem." },
     { title: "How We Review Software", href: "/about/how-we-review-software", description: "Learn how Choose Better Tech separates evidence, vendor claims, open questions, and recommendations." },
     { title: "Affiliate Disclosure", href: "/affiliate-disclosure", description: "See how affiliate relationships are disclosed without controlling editorial conclusions." },

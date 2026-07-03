@@ -13,6 +13,7 @@ import { NordVpnVsProtonVpnPage } from "./pages/NordVpnVsProtonVpnPage";
 import { NordVpnVsSurfsharkPage } from "./pages/NordVpnVsSurfsharkPage";
 import { NordVpnReviewPage } from "./pages/NordVpnReviewPage";
 import { NordPassReviewPage } from "./pages/NordPassReviewPage";
+import { OnePasswordVsNordPassPage } from "./pages/OnePasswordVsNordPassPage";
 import { OnePasswordReviewPage } from "./pages/OnePasswordReviewPage";
 import { PrivacyPage } from "./pages/PrivacyPage";
 import { ProtonVpnVsSurfsharkPage } from "./pages/ProtonVpnVsSurfsharkPage";
@@ -46,6 +47,7 @@ export default function App() {
           <Route path="comparisons/nordvpn-vs-protonvpn" element={<NordVpnVsProtonVpnPage />} />
           <Route path="comparisons/nordvpn-vs-surfshark" element={<NordVpnVsSurfsharkPage />} />
           <Route path="comparisons/proton-vpn-vs-surfshark" element={<ProtonVpnVsSurfsharkPage />} />
+          <Route path="comparisons/1password-vs-nordpass" element={<OnePasswordVsNordPassPage />} />
           <Route path="reviews/nordvpn-review" element={<NordVpnReviewPage />} />
           <Route path="reviews/proton-vpn-review" element={<ProtonVpnReviewPage />} />
           <Route path="reviews/surfshark-review" element={<SurfsharkReviewPage />} />
