@@ -16,13 +16,13 @@ export type AffiliateLinkRecord = {
 export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   nordvpn: {
     provider: "nordvpn",
-    network: "",
-    status: "INTERNAL_ONLY",
-    destination: "",
-    internalFallback: "/guides/best-vpns-for-beginners",
+    network: "MaxBounty",
+    status: "ACTIVE",
+    destination: "https://afflat3e3.com/trk/lnk/5A4FD2F0-60F5-4AE7-BF9C-2C65F2AA3E4B/?o=24611&c=918271&a=796553&k=AF67A50FC15AC856D44DAB303ABA87EC&l=33159",
+    internalFallback: "/reviews/nordvpn-review",
     disclosureRequired: true,
-    trackingEnabled: false,
-    lastVerified: "2026-07-02"
+    trackingEnabled: true,
+    lastVerified: "2026-07-03"
   },
   protonvpn: {
     provider: "protonvpn",
