@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { GoogleAnalytics } from "./components/GoogleAnalytics";
+import { ScrollToTop } from "./components/ScrollToTop";
 import { SiteLayout } from "./layouts/SiteLayout";
 import { AboutPage } from "./pages/AboutPage";
 import { AffiliateDisclosurePage } from "./pages/AffiliateDisclosurePage";
@@ -20,6 +21,7 @@ export default function App() {
   return (
     <>
       <GoogleAnalytics />
+      <ScrollToTop />
       <Routes>
         <Route element={<SiteLayout />}>
           <Route index element={<HomePage />} />
