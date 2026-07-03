@@ -198,6 +198,7 @@ export const nordPassReview: ReviewPageContent = {
   relatedGuides: [
     { title: "1Password vs NordPass", href: "/comparisons/1password-vs-nordpass", description: "Compare NordPass value and simplicity against 1Password premium family polish." },
     { title: "1Password Review", href: "/reviews/1password-review", description: "Compare NordPass against a premium password manager with Travel Mode and a Secret Key model." },
+    { title: "Proton Pass Review", href: "/reviews/proton-pass-review", description: "Compare NordPass against a privacy-focused password manager with open-source apps, aliases, and a strong free plan." },
     { title: "How We Review Software", href: "/about/how-we-review-software", description: "Learn how Choose Better Tech separates evidence, vendor claims, open questions, and recommendations." },
     { title: "Affiliate Disclosure", href: "/affiliate-disclosure", description: "See how affiliate relationships are disclosed without controlling editorial conclusions." },
     { title: "About Choose Better Tech", href: "/about", description: "Learn more about the publication and its reader-first software guidance." }

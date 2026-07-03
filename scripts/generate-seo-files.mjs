@@ -30,7 +30,8 @@ const routes = [
   "/reviews/proton-vpn-review",
   "/reviews/surfshark-review",
   "/reviews/1password-review",
-  "/reviews/nordpass-review"
+  "/reviews/nordpass-review",
+  "/reviews/proton-pass-review"
 ];
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
