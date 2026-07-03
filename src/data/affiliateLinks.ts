@@ -36,13 +36,13 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   },
   surfshark: {
     provider: "surfshark",
-    network: "",
-    status: "INTERNAL_ONLY",
-    destination: "",
-    internalFallback: "/guides/vpn-buying-guide",
+    network: "CJ",
+    status: "ACTIVE",
+    destination: "https://www.dpbolvw.net/click-101816242-15736773",
+    internalFallback: "/reviews/surfshark-review",
     disclosureRequired: true,
-    trackingEnabled: false,
-    lastVerified: "2026-07-02"
+    trackingEnabled: true,
+    lastVerified: "2026-07-03"
   },
   "vpn-comparison": {
     provider: "vpn-comparison",
