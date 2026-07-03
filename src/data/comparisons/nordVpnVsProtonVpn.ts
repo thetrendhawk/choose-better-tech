@@ -149,6 +149,7 @@ export const nordVpnVsProtonVpnComparison = {
     }
   ],
   relatedLinks: [
+    { title: "VPN Decision Hub", href: "/vpn", description: "Choose the VPN path that best matches your needs." },
     { title: "NordVPN Review", href: "/reviews/nordvpn-review", description: "Read the full NordVPN review." },
     { title: "ProtonVPN Review", href: "/reviews/proton-vpn-review", description: "Read the full ProtonVPN review." },
     { title: "Best VPNs for Beginners", href: "/guides/best-vpns-for-beginners", description: "Compare beginner VPN options." },

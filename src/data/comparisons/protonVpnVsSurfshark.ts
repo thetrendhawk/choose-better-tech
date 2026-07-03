@@ -177,6 +177,7 @@ export const protonVpnVsSurfsharkComparison = {
     }
   ],
   relatedLinks: [
+    { title: "VPN Decision Hub", href: "/vpn", description: "Choose the VPN path that best matches your needs." },
     { title: "Proton VPN Review", href: "/reviews/proton-vpn-review", description: "Read the full Proton VPN review." },
     { title: "Surfshark VPN Review", href: "/reviews/surfshark-review", description: "Read the full Surfshark review." },
     { title: "NordVPN vs ProtonVPN", href: "/comparisons/nordvpn-vs-protonvpn", description: "Compare Proton VPN against a mainstream premium alternative." },

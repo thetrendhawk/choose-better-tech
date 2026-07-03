@@ -194,6 +194,7 @@ export const surfsharkReview: ReviewPageContent = {
     { question: "Is Surfshark worth paying for?", answer: "Surfshark can be worth paying for if you value beginner-friendly apps, unlimited devices, and price-to-feature value. Verify current pricing, renewal terms, trial terms, and refund exceptions first." }
   ],
   relatedGuides: [
+    { title: "VPN Decision Hub", href: "/vpn", description: "Choose between NordVPN, Proton VPN, and Surfshark by need." },
     { title: "Best VPNs for Beginners", href: "/guides/best-vpns-for-beginners", description: "Compare beginner VPN options by use case." },
     { title: "NordVPN Review", href: "/reviews/nordvpn-review", description: "Compare Surfshark against a premium mainstream VPN." },
     { title: "Proton VPN Review", href: "/reviews/proton-vpn-review", description: "Compare Surfshark against a privacy-transparency alternative." },

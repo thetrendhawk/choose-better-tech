@@ -185,6 +185,7 @@ export const protonVpnReview: ReviewPageContent = {
     { question: "Is Proton VPN worth paying for?", answer: "It can be worth paying for if audits, open-source clients, Swiss jurisdiction, paid-plan streaming/P2P support, and transparency matter more than lowest price. Verify current pricing and refund terms first." }
   ],
   relatedGuides: [
+    { title: "VPN Decision Hub", href: "/vpn", description: "Choose between NordVPN, Proton VPN, and Surfshark by need." },
     { title: "Best VPNs for Beginners", href: "/guides/best-vpns-for-beginners", description: "Compare beginner VPN options by use case." },
     { title: "NordVPN Review", href: "/reviews/nordvpn-review", description: "Compare Proton VPN against a mainstream speed and streaming alternative." },
     { title: "NordVPN vs ProtonVPN", href: "/comparisons/nordvpn-vs-protonvpn", description: "Compare the two VPNs by privacy, speed, support, free plans, and tradeoffs." },

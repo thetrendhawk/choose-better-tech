@@ -15,6 +15,7 @@ const routes = [
   "/privacy",
   "/terms",
   "/affiliate-disclosure",
+  "/vpn",
   "/guides/best-vpns-for-beginners",
   "/guides/how-vpns-work",
   "/guides/free-vpn-vs-paid",

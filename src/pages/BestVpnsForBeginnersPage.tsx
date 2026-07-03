@@ -99,6 +99,7 @@ const faqs = [
 ];
 
 const relatedGuides = [
+  { title: "VPN Decision Hub", href: "/vpn" },
   { title: "NordVPN Review", href: "/reviews/nordvpn-review" },
   { title: "Proton VPN Review", href: "/reviews/proton-vpn-review" },
   { title: "How VPNs Work", href: "/guides/how-vpns-work" },

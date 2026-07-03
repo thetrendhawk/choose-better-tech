@@ -1,6 +1,7 @@
 import type { VpnGuideContent } from "../types/guide";
 
 export const vpnHubLinks = {
+  decisionHub: "/vpn",
   bestVpns: "/guides/best-vpns-for-beginners",
   protonReview: "/reviews/proton-vpn-review",
   howVpnsWork: "/guides/how-vpns-work",
@@ -11,6 +12,7 @@ export const vpnHubLinks = {
 };
 
 const commonRelated = [
+  { title: "VPN Decision Hub", href: vpnHubLinks.decisionHub, description: "Choose between NordVPN, Proton VPN, and Surfshark by need." },
   { title: "Best VPNs for Beginners", href: vpnHubLinks.bestVpns, description: "Compare beginner-friendly VPN choices by use case." },
   { title: "Proton VPN Review", href: vpnHubLinks.protonReview, description: "Read the research-based Proton VPN review." },
   { title: "How VPNs Work", href: vpnHubLinks.howVpnsWork, description: "Learn what a VPN does and does not protect." },

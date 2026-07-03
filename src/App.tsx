@@ -17,6 +17,7 @@ import { ProtonVpnVsSurfsharkPage } from "./pages/ProtonVpnVsSurfsharkPage";
 import { ProtonVpnReviewPage } from "./pages/ProtonVpnReviewPage";
 import { SurfsharkReviewPage } from "./pages/SurfsharkReviewPage";
 import { TermsPage } from "./pages/TermsPage";
+import { VpnDecisionHubPage } from "./pages/VpnDecisionHubPage";
 import { VpnGuidePage } from "./pages/VpnGuidePage";
 
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="privacy" element={<PrivacyPage />} />
           <Route path="terms" element={<TermsPage />} />
           <Route path="affiliate-disclosure" element={<AffiliateDisclosurePage />} />
+          <Route path="vpn" element={<VpnDecisionHubPage />} />
           <Route path="guides/best-vpns-for-beginners" element={<BestVpnsForBeginnersPage />} />
           <Route path="guides/how-vpns-work" element={<VpnGuidePage slug="how-vpns-work" />} />
           <Route path="guides/free-vpn-vs-paid" element={<VpnGuidePage slug="free-vpn-vs-paid" />} />
