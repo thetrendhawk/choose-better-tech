@@ -223,6 +223,7 @@ export const bitwardenReview: ReviewPageContent = {
     { title: "Password Manager Decision Hub", href: "/password-managers", description: "Compare Bitwarden against the existing password-manager paths by fit." },
     { title: "Bitwarden vs 1Password", href: "/comparisons/bitwarden-vs-1password", description: "Compare Bitwarden free value, transparency, and self-hosting against 1Password premium polish and family workflows." },
     { title: "Bitwarden vs Proton Pass", href: "/comparisons/bitwarden-vs-proton-pass", description: "Compare Bitwarden value and technical flexibility against Proton Pass privacy ecosystem and aliases." },
+    { title: "Bitwarden vs NordPass", href: "/comparisons/bitwarden-vs-nordpass", description: "Compare Bitwarden transparency and self-hosting against NordPass mainstream simplicity and Nord ecosystem fit." },
     { title: "1Password Review", href: "/reviews/1password-review", description: "Compare Bitwarden against a polished premium password manager with mature family workflows." },
     { title: "Proton Pass Review", href: "/reviews/proton-pass-review", description: "Compare Bitwarden against a privacy-focused password manager with aliases and Proton ecosystem fit." },
     { title: "NordPass Review", href: "/reviews/nordpass-review", description: "Compare Bitwarden against a simpler mainstream password manager in the Nord ecosystem." },

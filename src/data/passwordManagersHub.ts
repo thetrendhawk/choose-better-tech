@@ -126,6 +126,11 @@ export const passwordManagersHub = {
       description: "Use this if you are choosing between Bitwarden value and technical flexibility versus Proton Pass privacy ecosystem and aliases."
     },
     {
+      title: "Bitwarden vs NordPass",
+      href: "/comparisons/bitwarden-vs-nordpass",
+      description: "Use this if you are choosing between Bitwarden transparency and self-hosting versus NordPass mainstream simplicity and Nord ecosystem fit."
+    },
+    {
       title: "1Password vs NordPass",
       href: "/comparisons/1password-vs-nordpass",
       description: "Use this if you are choosing between premium family polish and simpler value-oriented password management."
