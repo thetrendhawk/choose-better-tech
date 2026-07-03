@@ -13,6 +13,7 @@ export const featuredReviews: ArticlePreview[] = [
   { key: "proton-vpn-review", title: "Proton VPN Review", excerpt: "A beginner-focused review of Proton VPN's privacy, free plan, pricing, performance, and tradeoffs.", href: "/reviews/proton-vpn-review", status: "Published Review" },
   { key: "surfshark-review", title: "Surfshark VPN Review", excerpt: "A beginner-focused review of Surfshark's value, unlimited devices, privacy nuance, audits, and tradeoffs.", href: "/reviews/surfshark-review", status: "Published Review" },
   { key: "onepassword-review", title: "1Password Review", excerpt: "A beginner-focused review of 1Password's Secret Key model, family features, paid value, audits, and transparency tradeoffs.", href: "/reviews/1password-review", status: "Published Review" },
+  { key: "bitwarden-review", title: "Bitwarden Review", excerpt: "A beginner-focused review of Bitwarden's free plan, transparency, self-hosting, security model, and UX tradeoffs.", href: "/reviews/bitwarden-review", status: "Published Review" },
   { key: "nordpass-review", title: "NordPass Review", excerpt: "A beginner-focused review of NordPass's free plan, value, family features, Nord ecosystem fit, security, and transparency limits.", href: "/reviews/nordpass-review", status: "Published Review" },
   { key: "proton-pass-review", title: "Proton Pass Review", excerpt: "A beginner-focused review of Proton Pass's privacy model, open-source apps, free plan, aliases, audits, and tradeoffs.", href: "/reviews/proton-pass-review", status: "Published Review" }
 ];

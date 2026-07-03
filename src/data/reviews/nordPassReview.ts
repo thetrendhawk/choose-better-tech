@@ -196,6 +196,7 @@ export const nordPassReview: ReviewPageContent = {
     { question: "Is NordPass worth paying for?", answer: "Usually yes for individuals and families who want a low-friction mainstream manager. Paid tiers unlock easier multi-device use, sharing, Password Health, breach monitoring, documents, and family workflows." }
   ],
   relatedGuides: [
+    { title: "Bitwarden Review", href: "/reviews/bitwarden-review", description: "Compare NordPass against a value-focused password manager with stronger transparency and self-hosting fit." },
     { title: "Proton Pass vs NordPass", href: "/comparisons/proton-pass-vs-nordpass", description: "Compare NordPass value and simplicity against Proton Pass privacy transparency, aliases, and free-plan strength." },
     { title: "1Password vs NordPass", href: "/comparisons/1password-vs-nordpass", description: "Compare NordPass value and simplicity against 1Password premium family polish." },
     { title: "1Password Review", href: "/reviews/1password-review", description: "Compare NordPass against a premium password manager with Travel Mode and a Secret Key model." },

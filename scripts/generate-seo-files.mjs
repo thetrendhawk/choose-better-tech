@@ -33,6 +33,7 @@ const routes = [
   "/reviews/proton-vpn-review",
   "/reviews/surfshark-review",
   "/reviews/1password-review",
+  "/reviews/bitwarden-review",
   "/reviews/nordpass-review",
   "/reviews/proton-pass-review"
 ];

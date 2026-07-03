@@ -5,6 +5,7 @@ import { SiteLayout } from "./layouts/SiteLayout";
 import { AboutPage } from "./pages/AboutPage";
 import { AffiliateDisclosurePage } from "./pages/AffiliateDisclosurePage";
 import { BestVpnsForBeginnersPage } from "./pages/BestVpnsForBeginnersPage";
+import { BitwardenReviewPage } from "./pages/BitwardenReviewPage";
 import { ContactPage } from "./pages/ContactPage";
 import { HomePage } from "./pages/HomePage";
 import { HowWeReviewSoftwarePage } from "./pages/HowWeReviewSoftwarePage";
@@ -59,6 +60,7 @@ export default function App() {
           <Route path="reviews/proton-vpn-review" element={<ProtonVpnReviewPage />} />
           <Route path="reviews/surfshark-review" element={<SurfsharkReviewPage />} />
           <Route path="reviews/1password-review" element={<OnePasswordReviewPage />} />
+          <Route path="reviews/bitwarden-review" element={<BitwardenReviewPage />} />
           <Route path="reviews/nordpass-review" element={<NordPassReviewPage />} />
           <Route path="reviews/proton-pass-review" element={<ProtonPassReviewPage />} />
           <Route path="*" element={<NotFoundPage />} />

@@ -76,7 +76,7 @@ export function PasswordManagersHubPage() {
     <>
       <SEO
         title="Which Password Manager Is Right for You?"
-        description="A beginner-friendly password manager decision hub for choosing between 1Password, Proton Pass, and NordPass by privacy, family workflows, free-plan value, aliases, and overall fit."
+        description="A beginner-friendly password manager decision hub for choosing between 1Password, Bitwarden, Proton Pass, and NordPass by privacy, free-plan value, aliases, polish, and fit."
         path={hub.path}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -112,7 +112,7 @@ export function PasswordManagersHubPage() {
 
       <Section className="bg-white">
         <SectionHeading eyebrow="Quick picks" title="Start With the Review That Matches You" description="These are reader-fit starting points, not universal winners." />
-        <div className="mt-8 grid gap-5 lg:grid-cols-3">
+        <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {hub.quickPicks.map((pick) => (
             <CardLink key={pick.provider} title={pick.provider} description={pick.description} href={pick.href} label={pick.label} />
           ))}
@@ -136,6 +136,7 @@ export function PasswordManagersHubPage() {
               <tr>
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">Need</th>
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">1Password</th>
+                <th className="px-4 py-4 font-semibold sm:px-6" scope="col">Bitwarden</th>
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">Proton Pass</th>
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">NordPass</th>
               </tr>
@@ -145,6 +146,7 @@ export function PasswordManagersHubPage() {
                 <tr key={row.label} className="border-b border-slate-200 last:border-0">
                   <th className="bg-slate-50 px-4 py-4 font-semibold text-slate-950 sm:px-6" scope="row">{row.label}</th>
                   <td className="px-4 py-4 text-slate-700 sm:px-6">{row.onePassword}</td>
+                  <td className="px-4 py-4 text-slate-700 sm:px-6">{row.bitwarden}</td>
                   <td className="px-4 py-4 text-slate-700 sm:px-6">{row.protonPass}</td>
                   <td className="px-4 py-4 text-slate-700 sm:px-6">{row.nordPass}</td>
                 </tr>
@@ -155,8 +157,8 @@ export function PasswordManagersHubPage() {
       </Section>
 
       <Section className="bg-slate-50">
-        <SectionHeading eyebrow="Provider snapshot" title="Three Password Managers, Three Different Fits" />
-        <div className="mt-8 grid gap-5 lg:grid-cols-3">
+        <SectionHeading eyebrow="Provider snapshot" title="Four Password Managers, Four Different Fits" />
+        <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {hub.providers.map((provider) => (
             <article key={provider.name} className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
               <ShieldCheck className="text-brand-700" size={22} aria-hidden="true" />
