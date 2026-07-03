@@ -16,6 +16,7 @@ import { NordPassReviewPage } from "./pages/NordPassReviewPage";
 import { OnePasswordVsNordPassPage } from "./pages/OnePasswordVsNordPassPage";
 import { OnePasswordVsProtonPassPage } from "./pages/OnePasswordVsProtonPassPage";
 import { OnePasswordReviewPage } from "./pages/OnePasswordReviewPage";
+import { PasswordManagersHubPage } from "./pages/PasswordManagersHubPage";
 import { PrivacyPage } from "./pages/PrivacyPage";
 import { ProtonPassReviewPage } from "./pages/ProtonPassReviewPage";
 import { ProtonPassVsNordPassPage } from "./pages/ProtonPassVsNordPassPage";
@@ -41,6 +42,7 @@ export default function App() {
           <Route path="terms" element={<TermsPage />} />
           <Route path="affiliate-disclosure" element={<AffiliateDisclosurePage />} />
           <Route path="vpn" element={<VpnDecisionHubPage />} />
+          <Route path="password-managers" element={<PasswordManagersHubPage />} />
           <Route path="guides/best-vpns-for-beginners" element={<BestVpnsForBeginnersPage />} />
           <Route path="guides/how-vpns-work" element={<VpnGuidePage slug="how-vpns-work" />} />
           <Route path="guides/free-vpn-vs-paid" element={<VpnGuidePage slug="free-vpn-vs-paid" />} />
