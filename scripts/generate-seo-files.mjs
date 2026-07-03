@@ -30,6 +30,7 @@ const routes = [
   "/comparisons/proton-pass-vs-nordpass",
   "/comparisons/1password-vs-proton-pass",
   "/comparisons/bitwarden-vs-1password",
+  "/comparisons/bitwarden-vs-proton-pass",
   "/reviews/nordvpn-review",
   "/reviews/proton-vpn-review",
   "/reviews/surfshark-review",
