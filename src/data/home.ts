@@ -52,6 +52,13 @@ export const featuredComparisons: ArticlePreview[] = [
     status: "Published Comparison"
   },
   {
+    key: "bitwarden-vs-1password",
+    title: "Bitwarden vs 1Password",
+    excerpt: "An evidence-based comparison of free-plan value, premium polish, family workflows, transparency, self-hosting, recovery, and Travel Mode.",
+    href: "/comparisons/bitwarden-vs-1password",
+    status: "Published Comparison"
+  },
+  {
     key: "onepassword-vs-nordpass",
     title: "1Password vs NordPass",
     excerpt: "An evidence-based comparison of premium family polish, value, free plans, security architecture, Travel Mode, and Nord ecosystem fit.",

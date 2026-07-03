@@ -116,6 +116,11 @@ export const passwordManagersHub = {
   ],
   comparisons: [
     {
+      title: "Bitwarden vs 1Password",
+      href: "/comparisons/bitwarden-vs-1password",
+      description: "Use this if you are choosing between free-plan value, transparency, and self-hosting versus premium polish, family workflows, and Travel Mode."
+    },
+    {
       title: "1Password vs NordPass",
       href: "/comparisons/1password-vs-nordpass",
       description: "Use this if you are choosing between premium family polish and simpler value-oriented password management."

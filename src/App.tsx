@@ -6,6 +6,7 @@ import { AboutPage } from "./pages/AboutPage";
 import { AffiliateDisclosurePage } from "./pages/AffiliateDisclosurePage";
 import { BestVpnsForBeginnersPage } from "./pages/BestVpnsForBeginnersPage";
 import { BitwardenReviewPage } from "./pages/BitwardenReviewPage";
+import { BitwardenVsOnePasswordPage } from "./pages/BitwardenVsOnePasswordPage";
 import { ContactPage } from "./pages/ContactPage";
 import { HomePage } from "./pages/HomePage";
 import { HowWeReviewSoftwarePage } from "./pages/HowWeReviewSoftwarePage";
@@ -56,6 +57,7 @@ export default function App() {
           <Route path="comparisons/1password-vs-nordpass" element={<OnePasswordVsNordPassPage />} />
           <Route path="comparisons/proton-pass-vs-nordpass" element={<ProtonPassVsNordPassPage />} />
           <Route path="comparisons/1password-vs-proton-pass" element={<OnePasswordVsProtonPassPage />} />
+          <Route path="comparisons/bitwarden-vs-1password" element={<BitwardenVsOnePasswordPage />} />
           <Route path="reviews/nordvpn-review" element={<NordVpnReviewPage />} />
           <Route path="reviews/proton-vpn-review" element={<ProtonVpnReviewPage />} />
           <Route path="reviews/surfshark-review" element={<SurfsharkReviewPage />} />

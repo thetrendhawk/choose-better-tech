@@ -196,6 +196,7 @@ export const onePasswordReview: ReviewPageContent = {
   ],
   relatedGuides: [
     { title: "Bitwarden Review", href: "/reviews/bitwarden-review", description: "Compare 1Password against a value-focused password manager with stronger free-plan and self-hosting fit." },
+    { title: "Bitwarden vs 1Password", href: "/comparisons/bitwarden-vs-1password", description: "Compare 1Password premium polish and family workflows against Bitwarden free value and transparency." },
     { title: "1Password vs Proton Pass", href: "/comparisons/1password-vs-proton-pass", description: "Compare 1Password premium polish and family workflows against Proton Pass privacy transparency and free-plan strength." },
     { title: "1Password vs NordPass", href: "/comparisons/1password-vs-nordpass", description: "Compare premium family polish against NordPass value and free-plan availability." },
     { title: "NordPass Review", href: "/reviews/nordpass-review", description: "Compare 1Password against a value-focused password manager in the Nord ecosystem." },
