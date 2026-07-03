@@ -4,6 +4,7 @@ export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-com
 
 export type AffiliateLinkRecord = {
   provider: AffiliateProvider;
+  network: string;
   status: AffiliateStatus;
   destination: string;
   internalFallback: string;
@@ -15,6 +16,7 @@ export type AffiliateLinkRecord = {
 export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   nordvpn: {
     provider: "nordvpn",
+    network: "",
     status: "INTERNAL_ONLY",
     destination: "",
     internalFallback: "/guides/best-vpns-for-beginners",
@@ -24,6 +26,7 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   },
   protonvpn: {
     provider: "protonvpn",
+    network: "",
     status: "INTERNAL_ONLY",
     destination: "",
     internalFallback: "/guides/is-proton-vpn-free-good-enough",
@@ -33,6 +36,7 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   },
   surfshark: {
     provider: "surfshark",
+    network: "",
     status: "INTERNAL_ONLY",
     destination: "",
     internalFallback: "/guides/vpn-buying-guide",
@@ -42,6 +46,7 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   },
   "vpn-comparison": {
     provider: "vpn-comparison",
+    network: "",
     status: "INTERNAL_ONLY",
     destination: "",
     internalFallback: "/guides/vpn-buying-guide",
@@ -51,6 +56,7 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   },
   onepassword: {
     provider: "onepassword",
+    network: "",
     status: "INTERNAL_ONLY",
     destination: "",
     internalFallback: "/about/how-we-review-software",
@@ -60,11 +66,12 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   },
   nordpass: {
     provider: "nordpass",
-    status: "PENDING",
-    destination: "",
-    internalFallback: "/reviews/1password-review",
+    network: "CJ",
+    status: "ACTIVE",
+    destination: "https://www.jdoqocy.com/click-101816242-17262576",
+    internalFallback: "/reviews/nordpass-review",
     disclosureRequired: true,
-    trackingEnabled: false,
+    trackingEnabled: true,
     lastVerified: "2026-07-03"
   }
 };
