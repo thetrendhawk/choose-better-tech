@@ -55,6 +55,13 @@ export const featuredComparisons: ArticlePreview[] = [
     excerpt: "An evidence-based comparison of premium family polish, value, free plans, security architecture, Travel Mode, and Nord ecosystem fit.",
     href: "/comparisons/1password-vs-nordpass",
     status: "Published Comparison"
+  },
+  {
+    key: "proton-pass-vs-nordpass",
+    title: "Proton Pass vs NordPass",
+    excerpt: "An evidence-based comparison of privacy transparency, free plans, aliases, beginner UX, paid value, and ecosystem fit.",
+    href: "/comparisons/proton-pass-vs-nordpass",
+    status: "Published Comparison"
   }
 ];
 

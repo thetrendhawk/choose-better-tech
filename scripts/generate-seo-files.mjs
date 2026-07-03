@@ -26,6 +26,7 @@ const routes = [
   "/comparisons/nordvpn-vs-surfshark",
   "/comparisons/proton-vpn-vs-surfshark",
   "/comparisons/1password-vs-nordpass",
+  "/comparisons/proton-pass-vs-nordpass",
   "/reviews/nordvpn-review",
   "/reviews/proton-vpn-review",
   "/reviews/surfshark-review",
