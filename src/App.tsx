@@ -13,6 +13,7 @@ import { NordVpnVsProtonVpnPage } from "./pages/NordVpnVsProtonVpnPage";
 import { NordVpnVsSurfsharkPage } from "./pages/NordVpnVsSurfsharkPage";
 import { NordVpnReviewPage } from "./pages/NordVpnReviewPage";
 import { PrivacyPage } from "./pages/PrivacyPage";
+import { ProtonVpnVsSurfsharkPage } from "./pages/ProtonVpnVsSurfsharkPage";
 import { ProtonVpnReviewPage } from "./pages/ProtonVpnReviewPage";
 import { SurfsharkReviewPage } from "./pages/SurfsharkReviewPage";
 import { TermsPage } from "./pages/TermsPage";
@@ -40,6 +41,7 @@ export default function App() {
           <Route path="guides/is-proton-vpn-free-good-enough" element={<VpnGuidePage slug="is-proton-vpn-free-good-enough" />} />
           <Route path="comparisons/nordvpn-vs-protonvpn" element={<NordVpnVsProtonVpnPage />} />
           <Route path="comparisons/nordvpn-vs-surfshark" element={<NordVpnVsSurfsharkPage />} />
+          <Route path="comparisons/proton-vpn-vs-surfshark" element={<ProtonVpnVsSurfsharkPage />} />
           <Route path="reviews/nordvpn-review" element={<NordVpnReviewPage />} />
           <Route path="reviews/proton-vpn-review" element={<ProtonVpnReviewPage />} />
           <Route path="reviews/surfshark-review" element={<SurfsharkReviewPage />} />

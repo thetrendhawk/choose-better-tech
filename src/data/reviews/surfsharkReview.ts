@@ -198,6 +198,7 @@ export const surfsharkReview: ReviewPageContent = {
     { title: "NordVPN Review", href: "/reviews/nordvpn-review", description: "Compare Surfshark against a premium mainstream VPN." },
     { title: "Proton VPN Review", href: "/reviews/proton-vpn-review", description: "Compare Surfshark against a privacy-transparency alternative." },
     { title: "NordVPN vs Surfshark", href: "/comparisons/nordvpn-vs-surfshark", description: "Compare Surfshark's value against NordVPN's premium mainstream fit." },
+    { title: "Proton VPN vs Surfshark", href: "/comparisons/proton-vpn-vs-surfshark", description: "Compare Surfshark's household value against Proton VPN's privacy transparency." },
     { title: "NordVPN vs ProtonVPN", href: "/comparisons/nordvpn-vs-protonvpn", description: "Compare two leading alternatives by fit and tradeoffs." },
     { title: "VPN Buying Guide", href: "/guides/vpn-buying-guide", description: "Use a practical checklist before choosing a VPN." },
     { title: "Free VPN vs Paid VPN", href: "/guides/free-vpn-vs-paid", description: "Understand free-plan and paid-plan tradeoffs." },

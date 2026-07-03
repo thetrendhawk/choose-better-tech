@@ -188,6 +188,7 @@ export const protonVpnReview: ReviewPageContent = {
     { title: "Best VPNs for Beginners", href: "/guides/best-vpns-for-beginners", description: "Compare beginner VPN options by use case." },
     { title: "NordVPN Review", href: "/reviews/nordvpn-review", description: "Compare Proton VPN against a mainstream speed and streaming alternative." },
     { title: "NordVPN vs ProtonVPN", href: "/comparisons/nordvpn-vs-protonvpn", description: "Compare the two VPNs by privacy, speed, support, free plans, and tradeoffs." },
+    { title: "Proton VPN vs Surfshark", href: "/comparisons/proton-vpn-vs-surfshark", description: "Compare privacy transparency and free-plan strength against household value." },
     { title: "Is Proton VPN Free Good Enough?", href: "/guides/is-proton-vpn-free-good-enough", description: "Decide whether the free plan fits your needs." },
     { title: "Free VPN vs Paid VPN", href: "/guides/free-vpn-vs-paid", description: "Understand free-plan risks and paid-plan tradeoffs." },
     { title: "VPN Buying Guide", href: "/guides/vpn-buying-guide", description: "Use a practical checklist before choosing a VPN." },
