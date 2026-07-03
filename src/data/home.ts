@@ -62,6 +62,13 @@ export const featuredComparisons: ArticlePreview[] = [
     excerpt: "An evidence-based comparison of privacy transparency, free plans, aliases, beginner UX, paid value, and ecosystem fit.",
     href: "/comparisons/proton-pass-vs-nordpass",
     status: "Published Comparison"
+  },
+  {
+    key: "onepassword-vs-proton-pass",
+    title: "1Password vs Proton Pass",
+    excerpt: "An evidence-based comparison of premium polish, family workflows, Travel Mode, privacy transparency, free plans, and aliases.",
+    href: "/comparisons/1password-vs-proton-pass",
+    status: "Published Comparison"
   }
 ];
 
