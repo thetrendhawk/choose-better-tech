@@ -30,6 +30,13 @@ export const featuredComparisons: ArticlePreview[] = [
     excerpt: "An evidence-based comparison of privacy, speed, streaming, free plans, support, pricing uncertainty, and reader-fit tradeoffs.",
     href: "/comparisons/nordvpn-vs-protonvpn",
     status: "Published Comparison"
+  },
+  {
+    key: "nordvpn-vs-surfshark",
+    title: "NordVPN vs Surfshark",
+    excerpt: "An evidence-based comparison of premium VPN fit, household value, privacy, streaming, torrenting, gaming, and plan uncertainty.",
+    href: "/comparisons/nordvpn-vs-surfshark",
+    status: "Published Comparison"
   }
 ];
 
