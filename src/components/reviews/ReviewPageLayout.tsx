@@ -39,7 +39,7 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
     itemReviewed: {
       "@type": "SoftwareApplication",
       name: review.productName,
-      applicationCategory: "VPN"
+      applicationCategory: review.applicationCategory ?? "VPN"
     },
     name: review.title,
     reviewBody: review.finalVerdictBody,

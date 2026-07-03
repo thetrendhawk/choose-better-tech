@@ -27,7 +27,8 @@ const routes = [
   "/comparisons/proton-vpn-vs-surfshark",
   "/reviews/nordvpn-review",
   "/reviews/proton-vpn-review",
-  "/reviews/surfshark-review"
+  "/reviews/surfshark-review",
+  "/reviews/1password-review"
 ];
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

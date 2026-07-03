@@ -66,6 +66,7 @@ export type ReviewPageContent = {
   subtitle: string;
   path: string;
   productName: string;
+  applicationCategory?: string;
   affiliateProvider: AffiliateProvider;
   ctaLabel: string;
   executiveSummary: string[];

@@ -1,6 +1,6 @@
 export type AffiliateStatus = "ACTIVE" | "PENDING" | "DISABLED" | "INTERNAL_ONLY";
 
-export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison";
+export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword";
 
 export type AffiliateLinkRecord = {
   provider: AffiliateProvider;
@@ -45,6 +45,15 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     status: "INTERNAL_ONLY",
     destination: "",
     internalFallback: "/guides/vpn-buying-guide",
+    disclosureRequired: true,
+    trackingEnabled: false,
+    lastVerified: "2026-07-02"
+  },
+  onepassword: {
+    provider: "onepassword",
+    status: "INTERNAL_ONLY",
+    destination: "",
+    internalFallback: "/about/how-we-review-software",
     disclosureRequired: true,
     trackingEnabled: false,
     lastVerified: "2026-07-02"

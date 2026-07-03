@@ -12,6 +12,7 @@ import { NotFoundPage } from "./pages/NotFoundPage";
 import { NordVpnVsProtonVpnPage } from "./pages/NordVpnVsProtonVpnPage";
 import { NordVpnVsSurfsharkPage } from "./pages/NordVpnVsSurfsharkPage";
 import { NordVpnReviewPage } from "./pages/NordVpnReviewPage";
+import { OnePasswordReviewPage } from "./pages/OnePasswordReviewPage";
 import { PrivacyPage } from "./pages/PrivacyPage";
 import { ProtonVpnVsSurfsharkPage } from "./pages/ProtonVpnVsSurfsharkPage";
 import { ProtonVpnReviewPage } from "./pages/ProtonVpnReviewPage";
@@ -47,6 +48,7 @@ export default function App() {
           <Route path="reviews/nordvpn-review" element={<NordVpnReviewPage />} />
           <Route path="reviews/proton-vpn-review" element={<ProtonVpnReviewPage />} />
           <Route path="reviews/surfshark-review" element={<SurfsharkReviewPage />} />
+          <Route path="reviews/1password-review" element={<OnePasswordReviewPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
