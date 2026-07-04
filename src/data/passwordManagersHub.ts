@@ -1,7 +1,7 @@
 export const passwordManagersHub = {
   path: "/password-managers",
   title: "Which Password Manager Is Right for You?",
-  subtitle: "A beginner-friendly guide to choosing between 1Password, Bitwarden, Proton Pass, and NordPass based on premium polish, privacy, free-plan value, family workflows, aliases, transparency, and overall fit.",
+  subtitle: "A beginner-friendly guide to choosing between 1Password, Bitwarden, Proton Pass, NordPass, and RoboForm based on premium polish, privacy, free-plan value, family workflows, aliases, form filling, transparency, and overall fit.",
   quickPicks: [
     {
       label: "Best for premium polish and families",
@@ -26,6 +26,12 @@ export const passwordManagersHub = {
       provider: "NordPass",
       description: "Start here if you want simple mainstream UX, value-oriented paid plans, Nord ecosystem fit, and a conventional commercial password-manager experience.",
       href: "/reviews/nordpass-review"
+    },
+    {
+      label: "Best for form filling and low-cost paid use",
+      provider: "RoboForm",
+      description: "Start here if you regularly fill long forms and want a practical, affordable password manager with mainstream family and small-business fit.",
+      href: "/reviews/roboform-review"
     }
   ],
   needs: [
@@ -60,6 +66,12 @@ export const passwordManagersHub = {
       href: "/reviews/nordpass-review"
     },
     {
+      title: "I fill lots of forms and checkout pages",
+      recommendation: "Start with RoboForm",
+      description: "Best fit when identity profiles, shipping, billing, address, payment, and repetitive form filling matter more than premium polish or open-source transparency.",
+      href: "/reviews/roboform-review"
+    },
+    {
       title: "I want a free password manager option",
       recommendation: "Start with Bitwarden",
       description: "Bitwarden has the strongest free-plan story in the approved research, while Proton Pass remains compelling for alias-focused privacy users.",
@@ -79,14 +91,15 @@ export const passwordManagersHub = {
     }
   ],
   decisionRows: [
-    { label: "Premium polish", onePassword: "Strongest fit", bitwarden: "Good enough, but not most polished", protonPass: "Good, but not the most mature premium option", nordPass: "Simple and mainstream, but less premium-polish focused" },
-    { label: "Families", onePassword: "Strongest premium family workflow", bitwarden: "Strong value fit", protonPass: "Good for privacy-forward families", nordPass: "Strong family value fit" },
-    { label: "Privacy transparency", onePassword: "Strong mainstream security, but closed source", bitwarden: "Strongest for visible code and audits", protonPass: "Strongest ecosystem and alias fit", nordPass: "Credible mainstream privacy, but closed source" },
-    { label: "Free-plan value", onePassword: "No permanent free personal tier was found", bitwarden: "Strongest fit", protonPass: "Strong privacy-focused free plan", nordPass: "Real free plan with active-session limits" },
-    { label: "Aliases/email privacy", onePassword: "Not the main fit", bitwarden: "Not the main differentiator", protonPass: "Strongest fit", nordPass: "Not the main differentiator" },
-    { label: "Travel Mode", onePassword: "Strongest fit", bitwarden: "No comparable feature identified", protonPass: "No comparable feature identified", nordPass: "No comparable feature identified" },
-    { label: "Simple mainstream UX", onePassword: "Polished but paid-premium oriented", bitwarden: "More utilitarian", protonPass: "Best for privacy-aware beginners", nordPass: "Strongest fit" },
-    { label: "Self-hosting/open-source maximalism", onePassword: "Not the fit", bitwarden: "Strongest fit, with licensing nuance", protonPass: "Open-source clients, but not self-hosting-first", nordPass: "Not the fit" }
+    { label: "Premium polish", onePassword: "Strongest fit", bitwarden: "Good enough, but not most polished", protonPass: "Good, but not the most mature premium option", nordPass: "Simple and mainstream, but less premium-polish focused", roboForm: "Practical, but not the most polished" },
+    { label: "Families", onePassword: "Strongest premium family workflow", bitwarden: "Strong value fit", protonPass: "Good for privacy-forward families", nordPass: "Strong family value fit", roboForm: "Good if five seats are enough" },
+    { label: "Privacy transparency", onePassword: "Strong mainstream security, but closed source", bitwarden: "Strongest for visible code and audits", protonPass: "Strongest ecosystem and alias fit", nordPass: "Credible mainstream privacy, but closed source", roboForm: "Weaker transparency fit" },
+    { label: "Free-plan value", onePassword: "No permanent free personal tier was found", bitwarden: "Strongest fit", protonPass: "Strong privacy-focused free plan", nordPass: "Real free plan with active-session limits", roboForm: "Weaker due to single-device limit" },
+    { label: "Aliases/email privacy", onePassword: "Not the main fit", bitwarden: "Not the main differentiator", protonPass: "Strongest fit", nordPass: "Not the main differentiator", roboForm: "Not the main differentiator" },
+    { label: "Travel Mode", onePassword: "Strongest fit", bitwarden: "No comparable feature identified", protonPass: "No comparable feature identified", nordPass: "No comparable feature identified", roboForm: "No comparable feature identified" },
+    { label: "Simple mainstream UX", onePassword: "Polished but paid-premium oriented", bitwarden: "More utilitarian", protonPass: "Best for privacy-aware beginners", nordPass: "Strongest fit", roboForm: "Good practical fit" },
+    { label: "Form filling", onePassword: "Good standard filling", bitwarden: "Good standard filling", protonPass: "Not the main differentiator", nordPass: "Good mainstream filling", roboForm: "Strongest fit" },
+    { label: "Self-hosting/open-source maximalism", onePassword: "Not the fit", bitwarden: "Strongest fit, with licensing nuance", protonPass: "Open-source clients, but not self-hosting-first", nordPass: "Not the fit", roboForm: "Not the fit" }
   ],
   providers: [
     {
@@ -112,6 +125,12 @@ export const passwordManagersHub = {
       positioning: "Simple mainstream password manager for value and Nord ecosystem fit",
       bestFor: "Users who want easy onboarding, value-oriented paid plans, family value, and a conventional commercial password-manager experience",
       href: "/reviews/nordpass-review"
+    },
+    {
+      name: "RoboForm",
+      positioning: "Practical password manager with unusually strong form-filling history",
+      bestFor: "Form-filling-heavy users, mainstream beginners, households up to five people, value-focused paid-plan buyers, and small teams",
+      href: "/reviews/roboform-review"
     }
   ],
   comparisons: [
@@ -153,6 +172,7 @@ export const passwordManagersHub = {
     { title: "1Password Review", href: "/reviews/1password-review", description: "Read the full review before choosing the premium family path." },
     { title: "Proton Pass Review", href: "/reviews/proton-pass-review", description: "Read the full review before choosing the privacy/free-plan path." },
     { title: "NordPass Review", href: "/reviews/nordpass-review", description: "Read the full review before choosing the simple value-oriented path." },
+    { title: "RoboForm Review", href: "/reviews/roboform-review", description: "Read the full review before choosing the form-filling and practical-affordability path." },
     { title: "Proton Pass vs NordPass", href: "/comparisons/proton-pass-vs-nordpass", description: "Compare privacy transparency against mainstream value and simplicity." }
   ],
   openQuestions: [
@@ -164,6 +184,7 @@ export const passwordManagersHub = {
     "Privacy policy, telemetry terms, data collection disclosures, transparency-report availability, legal-request artifacts, and Swiss legal-process nuance.",
     "App-store, Play Store, browser-extension, autofill, sync, cancellation, and support reputation signals.",
     "Business feature availability and maturity for buyers evaluating team use.",
-    "Bitwarden licensing language, self-hosting requirements, legal-request handling, and support reputation should be rechecked during future updates."
+    "Bitwarden licensing language, self-hosting requirements, legal-request handling, and support reputation should be rechecked during future updates.",
+    "RoboForm PBKDF2 iteration documentation, mobile identity-form-fill behavior, Android vulnerability patch status, and current free/family/business feature boundaries should be rechecked during future updates."
   ]
 };

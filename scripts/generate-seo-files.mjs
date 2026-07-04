@@ -38,7 +38,8 @@ const routes = [
   "/reviews/1password-review",
   "/reviews/bitwarden-review",
   "/reviews/nordpass-review",
-  "/reviews/proton-pass-review"
+  "/reviews/proton-pass-review",
+  "/reviews/roboform-review"
 ];
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

@@ -19,7 +19,7 @@ export const featuredReviews: ArticlePreview[] = [
 ];
 
 export const featuredGuides: ArticlePreview[] = [
-  { key: "password-manager-decision-hub", title: "Password Manager Decision Hub", excerpt: "A beginner-friendly decision tool for choosing between 1Password, Proton Pass, and NordPass by privacy, family workflows, free-plan value, aliases, and fit.", href: "/password-managers", status: "Decision Hub" },
+  { key: "password-manager-decision-hub", title: "Password Manager Decision Hub", excerpt: "A beginner-friendly decision tool for choosing between 1Password, Bitwarden, Proton Pass, NordPass, and RoboForm by privacy, value, family workflows, free-plan strength, form filling, and fit.", href: "/password-managers", status: "Decision Hub" },
   { key: "vpn-decision-hub", title: "VPN Decision Hub", excerpt: "A beginner-friendly decision tool for choosing between NordVPN, Proton VPN, and Surfshark by privacy, value, streaming, family use, and fit.", href: "/vpn", status: "Decision Hub" },
   { key: "best-vpns-for-beginners", title: "Best VPNs for Beginners", excerpt: "A beginner-first buying guide comparing privacy, streaming, price, simplicity, and free-plan tradeoffs.", href: "/guides/best-vpns-for-beginners", status: "Published Guide" },
   { key: "how-vpns-work", title: "How VPNs Work", excerpt: "A plain-English explainer covering VPN tunnels, IP masking, provider trust, and common limits.", href: "/guides/how-vpns-work", status: "Published Guide" },

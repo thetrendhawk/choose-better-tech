@@ -76,7 +76,7 @@ export function PasswordManagersHubPage() {
     <>
       <SEO
         title="Which Password Manager Is Right for You?"
-        description="A beginner-friendly password manager decision hub for choosing between 1Password, Bitwarden, Proton Pass, and NordPass by privacy, free-plan value, aliases, polish, and fit."
+        description="A beginner-friendly password manager decision hub for choosing between 1Password, Bitwarden, Proton Pass, NordPass, and RoboForm by privacy, free-plan value, form filling, polish, and fit."
         path={hub.path}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -130,8 +130,8 @@ export function PasswordManagersHubPage() {
 
       <Section>
         <SectionHeading eyebrow="Decision table" title="Compare the Main Tradeoffs" description="This table points you toward the right starting path without pretending there is one best password manager for everyone." />
-        <div className="mt-8 overflow-hidden rounded-lg border border-slate-200 bg-white shadow-soft">
-          <table className="w-full border-collapse text-left text-sm">
+        <div className="mt-8 overflow-x-auto rounded-lg border border-slate-200 bg-white shadow-soft">
+          <table className="w-full min-w-[62rem] border-collapse text-left text-sm">
             <thead className="bg-slate-950 text-white">
               <tr>
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">Need</th>
@@ -139,6 +139,7 @@ export function PasswordManagersHubPage() {
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">Bitwarden</th>
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">Proton Pass</th>
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">NordPass</th>
+                <th className="px-4 py-4 font-semibold sm:px-6" scope="col">RoboForm</th>
               </tr>
             </thead>
             <tbody>
@@ -149,6 +150,7 @@ export function PasswordManagersHubPage() {
                   <td className="px-4 py-4 text-slate-700 sm:px-6">{row.bitwarden}</td>
                   <td className="px-4 py-4 text-slate-700 sm:px-6">{row.protonPass}</td>
                   <td className="px-4 py-4 text-slate-700 sm:px-6">{row.nordPass}</td>
+                  <td className="px-4 py-4 text-slate-700 sm:px-6">{row.roboForm}</td>
                 </tr>
               ))}
             </tbody>
@@ -157,7 +159,7 @@ export function PasswordManagersHubPage() {
       </Section>
 
       <Section className="bg-slate-50">
-        <SectionHeading eyebrow="Provider snapshot" title="Four Password Managers, Four Different Fits" />
+        <SectionHeading eyebrow="Provider snapshot" title="Five Password Managers, Five Different Fits" />
         <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {hub.providers.map((provider) => (
             <article key={provider.name} className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
