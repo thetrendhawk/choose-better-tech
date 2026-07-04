@@ -7,6 +7,7 @@ import { SEO } from "../components/SEO";
 import { Section } from "../components/ui/Section";
 import { categories, featuredComparisons, featuredGuides, featuredReviews, trustPoints } from "../data/home";
 import { site } from "../utils/site";
+import { Link } from "react-router-dom";
 
 function SectionIntro({ eyebrow, title, description }: { eyebrow?: string; title: string; description: string }) {
   return (
@@ -17,6 +18,18 @@ function SectionIntro({ eyebrow, title, description }: { eyebrow?: string; title
     </div>
   );
 }
+
+const homepageComparisonKeys = new Set([
+  "nordvpn-vs-protonvpn",
+  "nordvpn-vs-surfshark",
+  "proton-vpn-vs-surfshark",
+  "bitwarden-vs-1password",
+  "bitwarden-vs-proton-pass",
+  "onepassword-vs-proton-pass"
+]);
+
+const homepageComparisons = featuredComparisons.filter((article) => homepageComparisonKeys.has(article.key));
+const homepageGuides = featuredGuides.slice(0, 6);
 
 export function HomePage() {
   return (
@@ -53,7 +66,11 @@ export function HomePage() {
           description="Evidence-based comparisons that help readers choose based on fit, tradeoffs, and use case instead of one-size-fits-all winners."
         />
         <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {featuredComparisons.map((article) => <ArticleCard key={article.key} article={article} />)}
+          {homepageComparisons.map((article) => <ArticleCard key={article.key} article={article} />)}
+        </div>
+        <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <Link className="inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-brand-200 hover:bg-brand-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/vpn">Open VPN Hub</Link>
+          <Link className="inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-brand-200 hover:bg-brand-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/password-managers">Open Password Manager Hub</Link>
         </div>
       </Section>
 
@@ -64,7 +81,7 @@ export function HomePage() {
           description="Plain-English explainers and buying guides for readers who want the important details without the noise."
         />
         <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {featuredGuides.map((article) => <ArticleCard key={article.key} article={article} />)}
+          {homepageGuides.map((article) => <ArticleCard key={article.key} article={article} />)}
         </div>
       </Section>
 
