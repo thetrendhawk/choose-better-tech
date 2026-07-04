@@ -1,6 +1,6 @@
 export type AffiliateStatus = "ACTIVE" | "PENDING" | "DISABLED" | "INTERNAL_ONLY";
 
-export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass";
+export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass" | "roboform";
 
 export type AffiliateLinkRecord = {
   provider: AffiliateProvider;
@@ -93,5 +93,15 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     disclosureRequired: true,
     trackingEnabled: false,
     lastVerified: "2026-07-03"
+  },
+  roboform: {
+    provider: "roboform",
+    network: "CJ",
+    status: "PENDING",
+    destination: "https://www.kqzyfj.com/click-101816242-13790972",
+    internalFallback: "/password-managers",
+    disclosureRequired: true,
+    trackingEnabled: false,
+    lastVerified: "2026-07-04"
   }
 };
