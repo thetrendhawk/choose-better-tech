@@ -17,6 +17,8 @@ const routes = [
   "/affiliate-disclosure",
   "/vpn",
   "/password-managers",
+  "/reviews",
+  "/comparisons",
   "/guides/best-vpns-for-beginners",
   "/guides/how-vpns-work",
   "/guides/free-vpn-vs-paid",

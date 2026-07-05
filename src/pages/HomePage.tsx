@@ -57,6 +57,9 @@ export function HomePage() {
         <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {featuredReviews.map((article) => <ArticleCard key={article.key} article={article} />)}
         </div>
+        <div className="mt-8">
+          <Link className="inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-brand-200 hover:bg-brand-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/reviews">View All Reviews</Link>
+        </div>
       </Section>
 
       <Section id="comparisons" className="bg-[linear-gradient(135deg,#ffffff_0%,#f8fbff_55%,#f0fdfa_100%)]">
@@ -69,6 +72,7 @@ export function HomePage() {
           {homepageComparisons.map((article) => <ArticleCard key={article.key} article={article} />)}
         </div>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <Link className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/comparisons">View All Comparisons</Link>
           <Link className="inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-brand-200 hover:bg-brand-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/vpn">Open VPN Hub</Link>
           <Link className="inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-brand-200 hover:bg-brand-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/password-managers">Open Password Manager Hub</Link>
         </div>

@@ -11,6 +11,7 @@ const BitwardenReviewPage = lazy(() => import("./pages/BitwardenReviewPage").the
 const BitwardenVsNordPassPage = lazy(() => import("./pages/BitwardenVsNordPassPage").then((module) => ({ default: module.BitwardenVsNordPassPage })));
 const BitwardenVsOnePasswordPage = lazy(() => import("./pages/BitwardenVsOnePasswordPage").then((module) => ({ default: module.BitwardenVsOnePasswordPage })));
 const BitwardenVsProtonPassPage = lazy(() => import("./pages/BitwardenVsProtonPassPage").then((module) => ({ default: module.BitwardenVsProtonPassPage })));
+const ComparisonsIndexPage = lazy(() => import("./pages/ComparisonsIndexPage").then((module) => ({ default: module.ComparisonsIndexPage })));
 const ContactPage = lazy(() => import("./pages/ContactPage").then((module) => ({ default: module.ContactPage })));
 const HomePage = lazy(() => import("./pages/HomePage").then((module) => ({ default: module.HomePage })));
 const HowWeReviewSoftwarePage = lazy(() => import("./pages/HowWeReviewSoftwarePage").then((module) => ({ default: module.HowWeReviewSoftwarePage })));
@@ -29,6 +30,7 @@ const ProtonPassVsNordPassPage = lazy(() => import("./pages/ProtonPassVsNordPass
 const ProtonVpnReviewPage = lazy(() => import("./pages/ProtonVpnReviewPage").then((module) => ({ default: module.ProtonVpnReviewPage })));
 const ProtonVpnVsSurfsharkPage = lazy(() => import("./pages/ProtonVpnVsSurfsharkPage").then((module) => ({ default: module.ProtonVpnVsSurfsharkPage })));
 const RoboFormReviewPage = lazy(() => import("./pages/RoboFormReviewPage").then((module) => ({ default: module.RoboFormReviewPage })));
+const ReviewsIndexPage = lazy(() => import("./pages/ReviewsIndexPage").then((module) => ({ default: module.ReviewsIndexPage })));
 const SurfsharkReviewPage = lazy(() => import("./pages/SurfsharkReviewPage").then((module) => ({ default: module.SurfsharkReviewPage })));
 const TermsPage = lazy(() => import("./pages/TermsPage").then((module) => ({ default: module.TermsPage })));
 const VpnDecisionHubPage = lazy(() => import("./pages/VpnDecisionHubPage").then((module) => ({ default: module.VpnDecisionHubPage })));
@@ -67,6 +69,8 @@ export default function App() {
             <Route path="affiliate-disclosure" element={<AffiliateDisclosurePage />} />
             <Route path="vpn" element={<VpnDecisionHubPage />} />
             <Route path="password-managers" element={<PasswordManagersHubPage />} />
+            <Route path="reviews" element={<ReviewsIndexPage />} />
+            <Route path="comparisons" element={<ComparisonsIndexPage />} />
             <Route path="guides/best-vpns-for-beginners" element={<BestVpnsForBeginnersPage />} />
             <Route path="guides/how-vpns-work" element={<VpnGuidePage slug="how-vpns-work" />} />
             <Route path="guides/free-vpn-vs-paid" element={<VpnGuidePage slug="free-vpn-vs-paid" />} />
