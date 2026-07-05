@@ -13,6 +13,7 @@ const BitwardenVsOnePasswordPage = lazy(() => import("./pages/BitwardenVsOnePass
 const BitwardenVsProtonPassPage = lazy(() => import("./pages/BitwardenVsProtonPassPage").then((module) => ({ default: module.BitwardenVsProtonPassPage })));
 const ComparisonsIndexPage = lazy(() => import("./pages/ComparisonsIndexPage").then((module) => ({ default: module.ComparisonsIndexPage })));
 const ContactPage = lazy(() => import("./pages/ContactPage").then((module) => ({ default: module.ContactPage })));
+const DataRemovalHubPage = lazy(() => import("./pages/DataRemovalHubPage").then((module) => ({ default: module.DataRemovalHubPage })));
 const HomePage = lazy(() => import("./pages/HomePage").then((module) => ({ default: module.HomePage })));
 const HowWeReviewSoftwarePage = lazy(() => import("./pages/HowWeReviewSoftwarePage").then((module) => ({ default: module.HowWeReviewSoftwarePage })));
 const IncogniReviewPage = lazy(() => import("./pages/IncogniReviewPage").then((module) => ({ default: module.IncogniReviewPage })));
@@ -72,6 +73,7 @@ export default function App() {
             <Route path="affiliate-disclosure" element={<AffiliateDisclosurePage />} />
             <Route path="vpn" element={<VpnDecisionHubPage />} />
             <Route path="password-managers" element={<PasswordManagersHubPage />} />
+            <Route path="data-removal" element={<DataRemovalHubPage />} />
             <Route path="reviews" element={<ReviewsIndexPage />} />
             <Route path="comparisons" element={<ComparisonsIndexPage />} />
             <Route path="guides/best-vpns-for-beginners" element={<BestVpnsForBeginnersPage />} />

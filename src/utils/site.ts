@@ -19,6 +19,7 @@ export const footerLinks: NavItem[] = [
   { key: "reviews", label: "Reviews", href: "/reviews" },
   { key: "comparisons", label: "Comparisons", href: "/comparisons" },
   { key: "password-managers", label: "Password Managers", href: "/password-managers" },
+  { key: "data-removal", label: "Data Removal", href: "/data-removal" },
   { key: "privacy", label: "Privacy", href: "/privacy" },
   { key: "terms", label: "Terms", href: "/terms" },
   { key: "affiliate-disclosure", label: "Affiliate Disclosure", href: "/affiliate-disclosure" },

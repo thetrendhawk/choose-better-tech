@@ -167,6 +167,7 @@ export const incogniVsOpteryComparison = {
     }
   ],
   relatedLinks: [
+    { title: "Data Removal Hub", href: "/data-removal", description: "Start with the category hub before choosing a service." },
     { title: "Incogni Review", href: "/reviews/incogni-review", description: "Read the full Incogni review." },
     { title: "Optery Review", href: "/reviews/optery-review", description: "Read the full Optery review." },
     { title: "All Reviews", href: "/reviews", description: "Browse the full Choose Better Tech review library." },

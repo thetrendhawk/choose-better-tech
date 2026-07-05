@@ -35,7 +35,7 @@ const editorialProcess: Array<{ title: string; description: string; icon: typeof
 const heroStats: Array<{ value: string; label: string; icon: typeof ShieldCheck; tone: Tone }> = [
   { value: "10", label: "Reviews", icon: ShieldCheck, tone: "mint" },
   { value: "10", label: "Comparisons", icon: Workflow, tone: "blue" },
-  { value: "8", label: "Guides / Hubs", icon: BookOpen, tone: "lavender" },
+  { value: "9", label: "Guides / Hubs", icon: BookOpen, tone: "lavender" },
   { value: "Evidence", label: "First", icon: CheckCircle2, tone: "green" }
 ];
 
