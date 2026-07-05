@@ -213,6 +213,7 @@ export const incogniReview: ReviewPageContent = {
     { question: "Is Incogni worth paying for?", answer: "For mainstream users who will not manually maintain recurring broker opt-outs, probably yes. For motivated DIY users with limited exposure, maybe not." }
   ],
   relatedGuides: [
+    { title: "Optery Review", href: "/reviews/optery-review", description: "Compare Incogni with a proof-first data-removal service focused on screenshot reporting." },
     { title: "All Reviews", href: "/reviews", description: "Browse the full Choose Better Tech review library." },
     { title: "How We Review Software", href: "/about/how-we-review-software", description: "Learn how Choose Better Tech separates evidence, vendor claims, open questions, and recommendations." },
     { title: "Affiliate Disclosure", href: "/affiliate-disclosure", description: "See how affiliate relationships are disclosed without controlling editorial conclusions." },

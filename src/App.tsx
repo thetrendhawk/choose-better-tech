@@ -24,6 +24,7 @@ const NordVpnVsSurfsharkPage = lazy(() => import("./pages/NordVpnVsSurfsharkPage
 const OnePasswordReviewPage = lazy(() => import("./pages/OnePasswordReviewPage").then((module) => ({ default: module.OnePasswordReviewPage })));
 const OnePasswordVsNordPassPage = lazy(() => import("./pages/OnePasswordVsNordPassPage").then((module) => ({ default: module.OnePasswordVsNordPassPage })));
 const OnePasswordVsProtonPassPage = lazy(() => import("./pages/OnePasswordVsProtonPassPage").then((module) => ({ default: module.OnePasswordVsProtonPassPage })));
+const OpteryReviewPage = lazy(() => import("./pages/OpteryReviewPage").then((module) => ({ default: module.OpteryReviewPage })));
 const PasswordManagersHubPage = lazy(() => import("./pages/PasswordManagersHubPage").then((module) => ({ default: module.PasswordManagersHubPage })));
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage").then((module) => ({ default: module.PrivacyPage })));
 const ProtonPassReviewPage = lazy(() => import("./pages/ProtonPassReviewPage").then((module) => ({ default: module.ProtonPassReviewPage })));
@@ -96,6 +97,7 @@ export default function App() {
             <Route path="reviews/proton-pass-review" element={<ProtonPassReviewPage />} />
             <Route path="reviews/roboform-review" element={<RoboFormReviewPage />} />
             <Route path="reviews/incogni-review" element={<IncogniReviewPage />} />
+            <Route path="reviews/optery-review" element={<OpteryReviewPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Route>

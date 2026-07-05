@@ -42,7 +42,8 @@ const routes = [
   "/reviews/nordpass-review",
   "/reviews/proton-pass-review",
   "/reviews/roboform-review",
-  "/reviews/incogni-review"
+  "/reviews/incogni-review",
+  "/reviews/optery-review"
 ];
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

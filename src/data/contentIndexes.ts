@@ -31,7 +31,8 @@ export const reviewGroups: ArticleGroup[] = [
     title: "Privacy Tool Reviews",
     description: "Evidence-based privacy tool reviews focused on practical exposure reduction, trust tradeoffs, limitations, and ongoing maintenance.",
     articles: [
-      { key: "incogni-review", title: "Incogni Review", excerpt: "A beginner-focused review of Incogni's data broker removal, Deloitte assurance, recurring requests, dashboard limits, privacy tradeoffs, and alternatives.", href: "/reviews/incogni-review", status: "Published Review" }
+      { key: "incogni-review", title: "Incogni Review", excerpt: "A beginner-focused review of Incogni's data broker removal, Deloitte assurance, recurring requests, dashboard limits, privacy tradeoffs, and alternatives.", href: "/reviews/incogni-review", status: "Published Review" },
+      { key: "optery-review", title: "Optery Review", excerpt: "A beginner-focused review of Optery's people-search removal, screenshot reporting, exposure scans, privacy tradeoffs, and category limits.", href: "/reviews/optery-review", status: "Published Review" }
     ]
   }
 ];
