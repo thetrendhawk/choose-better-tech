@@ -58,5 +58,12 @@ export const comparisonGroups: ArticleGroup[] = [
       { key: "bitwarden-vs-proton-pass", title: "Bitwarden vs Proton Pass", excerpt: "An evidence-based comparison of free-plan value, privacy ecosystem, aliases, transparency, self-hosting, and technical flexibility.", href: "/comparisons/bitwarden-vs-proton-pass", status: "Published Comparison" },
       { key: "bitwarden-vs-nordpass", title: "Bitwarden vs NordPass", excerpt: "An evidence-based comparison of free-plan value, mainstream simplicity, transparency, self-hosting, Nord ecosystem fit, and business fit.", href: "/comparisons/bitwarden-vs-nordpass", status: "Published Comparison" }
     ]
+  },
+  {
+    title: "Privacy Tool Comparisons",
+    description: "Reader-fit privacy tool comparisons focused on data-removal limits, proof, automation, trust tradeoffs, and practical exposure reduction.",
+    articles: [
+      { key: "incogni-vs-optery", title: "Incogni vs Optery", excerpt: "An evidence-based comparison of data-removal automation, screenshot proof, people-search visibility, privacy tradeoffs, pricing volatility, and category limits.", href: "/comparisons/incogni-vs-optery", status: "Published Comparison" }
+    ]
   }
 ];

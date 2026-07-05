@@ -220,6 +220,7 @@ export const opteryReview: ReviewPageContent = {
     { question: "Is Optery worth paying for?", answer: "Often yes if you want recurring people-search cleanup and visible proof. Probably not if you expect complete internet deletion or are willing to maintain manual opt-outs yourself." }
   ],
   relatedGuides: [
+    { title: "Incogni vs Optery", href: "/comparisons/incogni-vs-optery", description: "Compare proof-first reporting with simpler data-removal automation." },
     { title: "Incogni Review", href: "/reviews/incogni-review", description: "Compare Optery with a simpler automation-first data-removal service." },
     { title: "All Reviews", href: "/reviews", description: "Browse the full Choose Better Tech review library." },
     { title: "How We Review Software", href: "/about/how-we-review-software", description: "Learn how Choose Better Tech separates evidence, vendor claims, and open questions." },
