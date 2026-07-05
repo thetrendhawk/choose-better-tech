@@ -26,6 +26,13 @@ export const reviewGroups: ArticleGroup[] = [
       { key: "bitwarden-review", title: "Bitwarden Review", excerpt: "A beginner-focused review of Bitwarden's free plan, transparency, self-hosting, security model, and UX tradeoffs.", href: "/reviews/bitwarden-review", status: "Published Review" },
       { key: "roboform-review", title: "RoboForm Review", excerpt: "A beginner-focused review of RoboForm's form filling, affordability, mainstream fit, security model, and transparency caveats.", href: "/reviews/roboform-review", status: "Published Review" }
     ]
+  },
+  {
+    title: "Privacy Tool Reviews",
+    description: "Evidence-based privacy tool reviews focused on practical exposure reduction, trust tradeoffs, limitations, and ongoing maintenance.",
+    articles: [
+      { key: "incogni-review", title: "Incogni Review", excerpt: "A beginner-focused review of Incogni's data broker removal, Deloitte assurance, recurring requests, dashboard limits, privacy tradeoffs, and alternatives.", href: "/reviews/incogni-review", status: "Published Review" }
+    ]
   }
 ];
 

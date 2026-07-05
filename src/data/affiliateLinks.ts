@@ -1,6 +1,6 @@
 export type AffiliateStatus = "ACTIVE" | "PENDING" | "DISABLED" | "INTERNAL_ONLY";
 
-export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass" | "roboform";
+export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass" | "roboform" | "incogni";
 
 export type AffiliateLinkRecord = {
   provider: AffiliateProvider;
@@ -103,5 +103,15 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     disclosureRequired: true,
     trackingEnabled: true,
     lastVerified: "2026-07-04"
+  },
+  incogni: {
+    provider: "incogni",
+    network: "",
+    status: "INTERNAL_ONLY",
+    destination: "",
+    internalFallback: "/reviews",
+    disclosureRequired: true,
+    trackingEnabled: false,
+    lastVerified: "2026-07-05"
   }
 };

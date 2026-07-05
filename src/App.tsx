@@ -15,6 +15,7 @@ const ComparisonsIndexPage = lazy(() => import("./pages/ComparisonsIndexPage").t
 const ContactPage = lazy(() => import("./pages/ContactPage").then((module) => ({ default: module.ContactPage })));
 const HomePage = lazy(() => import("./pages/HomePage").then((module) => ({ default: module.HomePage })));
 const HowWeReviewSoftwarePage = lazy(() => import("./pages/HowWeReviewSoftwarePage").then((module) => ({ default: module.HowWeReviewSoftwarePage })));
+const IncogniReviewPage = lazy(() => import("./pages/IncogniReviewPage").then((module) => ({ default: module.IncogniReviewPage })));
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage").then((module) => ({ default: module.NotFoundPage })));
 const NordPassReviewPage = lazy(() => import("./pages/NordPassReviewPage").then((module) => ({ default: module.NordPassReviewPage })));
 const NordVpnReviewPage = lazy(() => import("./pages/NordVpnReviewPage").then((module) => ({ default: module.NordVpnReviewPage })));
@@ -94,6 +95,7 @@ export default function App() {
             <Route path="reviews/nordpass-review" element={<NordPassReviewPage />} />
             <Route path="reviews/proton-pass-review" element={<ProtonPassReviewPage />} />
             <Route path="reviews/roboform-review" element={<RoboFormReviewPage />} />
+            <Route path="reviews/incogni-review" element={<IncogniReviewPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Route>
