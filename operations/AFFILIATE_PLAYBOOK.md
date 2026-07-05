@@ -22,7 +22,7 @@ Affiliate destinations must remain centralized in `src/data/affiliateLinks.ts`. 
 | NordVPN | MaxBounty | ACTIVE | Active through centralized affiliate resolver only. |
 | Surfshark | CJ | ACTIVE | Active through centralized affiliate resolver only. |
 | NordPass | CJ | ACTIVE | Active through centralized affiliate resolver only. |
-| RoboForm | CJ | PENDING | Not active in editorial CTAs until approved research and review pipeline are complete. |
+| RoboForm | CJ | ACTIVE | Approved research, editorial brief, and review pipeline are complete. |
 | Proton VPN | None | INTERNAL_ONLY | Internal fallback only. |
 | 1Password | None | INTERNAL_ONLY | Internal fallback only unless registry changes. |
 | Bitwarden | None | INTERNAL_ONLY | Internal fallback only. |
@@ -40,6 +40,6 @@ Affiliate destinations must remain centralized in `src/data/affiliateLinks.ts`. 
 
 ### RoboForm
 
-RoboForm is approved through CJ, but should not be activated in live editorial CTAs until the approved RoboForm research, editorial brief, and review pipeline are complete.
+RoboForm is approved through CJ and active in the centralized affiliate registry after completion of the approved RoboForm research, editorial brief, and review pipeline.
 
 Affiliate search policy: affiliates may use generic SEO keywords, but may not use RoboForm trademark terms, domain names, misspellings, or variations in paid search.

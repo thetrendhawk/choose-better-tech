@@ -97,11 +97,11 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   roboform: {
     provider: "roboform",
     network: "CJ",
-    status: "PENDING",
+    status: "ACTIVE",
     destination: "https://www.kqzyfj.com/click-101816242-13790972",
-    internalFallback: "/password-managers",
+    internalFallback: "/reviews/roboform-review",
     disclosureRequired: true,
-    trackingEnabled: false,
+    trackingEnabled: true,
     lastVerified: "2026-07-04"
   }
 };

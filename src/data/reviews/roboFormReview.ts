@@ -8,7 +8,7 @@ export const roboFormReview: ReviewPageContent = {
   productName: "RoboForm",
   applicationCategory: "Password Manager",
   affiliateProvider: "roboform",
-  ctaLabel: "Compare Password Manager Fit",
+  ctaLabel: "Check RoboForm Plans",
   executiveSummary: [
     "RoboForm is best understood as a mature, practical password manager with unusually strong form-filling history, broad platform support, and strong affordability for mainstream users.",
     "Its strongest fit is not privacy maximalism or premium polish. RoboForm is most compelling for people who frequently fill identity, address, billing, checkout, shipping, medical, or repetitive forms and want a lower-cost paid password manager.",
