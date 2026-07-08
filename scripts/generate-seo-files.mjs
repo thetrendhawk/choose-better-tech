@@ -37,6 +37,7 @@ const routes = [
   "/comparisons/bitwarden-vs-nordpass",
   "/comparisons/incogni-vs-optery",
   "/comparisons/incogni-vs-deleteme",
+  "/comparisons/optery-vs-deleteme",
   "/reviews/nordvpn-review",
   "/reviews/proton-vpn-review",
   "/reviews/surfshark-review",

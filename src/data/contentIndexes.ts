@@ -65,7 +65,8 @@ export const comparisonGroups: ArticleGroup[] = [
     description: "Reader-fit privacy tool comparisons focused on data-removal limits, proof, automation, trust tradeoffs, and practical exposure reduction.",
     articles: [
       { key: "incogni-vs-optery", title: "Incogni vs Optery", excerpt: "An evidence-based comparison of data-removal automation, screenshot proof, people-search visibility, privacy tradeoffs, pricing volatility, and category limits.", href: "/comparisons/incogni-vs-optery", status: "Published Comparison" },
-      { key: "incogni-vs-deleteme", title: "Incogni vs DeleteMe", excerpt: "An evidence-based comparison of Incogni's simple automation and DeleteMe's established, human-assisted data-removal workflow.", href: "/comparisons/incogni-vs-deleteme", status: "Published Comparison" }
+      { key: "incogni-vs-deleteme", title: "Incogni vs DeleteMe", excerpt: "An evidence-based comparison of Incogni's simple automation and DeleteMe's established, human-assisted data-removal workflow.", href: "/comparisons/incogni-vs-deleteme", status: "Published Comparison" },
+      { key: "optery-vs-deleteme", title: "Optery vs DeleteMe", excerpt: "An evidence-based comparison of Optery's screenshot-proof workflow and DeleteMe's established, human-assisted data-removal service.", href: "/comparisons/optery-vs-deleteme", status: "Published Comparison" }
     ]
   }
 ];
