@@ -83,7 +83,7 @@ export function DataRemovalHubPage() {
     <>
       <SEO
         title="Best Data Removal Services for Beginners"
-        description="A beginner-friendly data removal decision hub covering Incogni, Optery, manual opt-out, people-search sites, broker removal limits, and privacy tradeoffs."
+        description="A beginner-friendly data removal decision hub covering Incogni, Optery, DeleteMe, manual opt-out, people-search sites, broker removal limits, and privacy tradeoffs."
         path={hub.path}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -99,8 +99,8 @@ export function DataRemovalHubPage() {
             <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-normal text-slate-950 sm:text-5xl">{hub.title}</h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700">{hub.subtitle}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Link className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/comparisons/incogni-vs-optery">Compare Incogni vs Optery</Link>
-              <Link className="inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/reviews">See Data Removal Reviews</Link>
+              <Link className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/comparisons">Compare Data Removal Services</Link>
+              <Link className="inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/reviews">Read Data Removal Reviews</Link>
             </div>
           </div>
 
@@ -113,7 +113,7 @@ export function DataRemovalHubPage() {
 
       <Section className="bg-white">
         <SectionHeading eyebrow="Quick picks" title="Start With the Path That Matches You" description="These are fit-based starting points, not universal winners." />
-        <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
           {hub.quickPicks.map((pick) => (
             <CardLink key={pick.title} title={pick.title} description={pick.description} href={pick.href} label={pick.label} />
           ))}
@@ -123,12 +123,13 @@ export function DataRemovalHubPage() {
       <Section className="bg-slate-50">
         <SectionHeading eyebrow="Decision table" title="Choose by Need" description="Use this table to pick the right next step without overestimating what any data-removal service can do." />
         <div className="mt-8 overflow-x-auto rounded-lg border border-slate-200 bg-white shadow-soft">
-          <table className="w-full min-w-[56rem] border-collapse text-left text-sm">
+          <table className="w-full min-w-[72rem] border-collapse text-left text-sm">
             <thead className="bg-slate-950 text-white">
               <tr>
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">Need</th>
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">Incogni</th>
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">Optery</th>
+                <th className="px-4 py-4 font-semibold sm:px-6" scope="col">DeleteMe</th>
                 <th className="px-4 py-4 font-semibold sm:px-6" scope="col">Manual opt-out</th>
               </tr>
             </thead>
@@ -138,6 +139,7 @@ export function DataRemovalHubPage() {
                   <th className="bg-slate-50 px-4 py-4 font-semibold text-slate-950 sm:px-6" scope="row">{row.label}</th>
                   <td className="px-4 py-4 text-slate-700 sm:px-6">{row.incogni}</td>
                   <td className="px-4 py-4 text-slate-700 sm:px-6">{row.optery}</td>
+                  <td className="px-4 py-4 text-slate-700 sm:px-6">{row.deleteme}</td>
                   <td className="px-4 py-4 text-slate-700 sm:px-6">{row.manual}</td>
                 </tr>
               ))}
@@ -147,8 +149,8 @@ export function DataRemovalHubPage() {
       </Section>
 
       <Section>
-        <SectionHeading eyebrow="Featured reviews" title="Read the Full Reviews" description="Start with the review that matches your preferred workflow: simple automation or stronger proof." />
-        <div className="mt-8 grid gap-5 lg:grid-cols-2">
+        <SectionHeading eyebrow="Featured reviews" title="Read the Full Reviews" description="Start with the review that matches your preferred workflow: simple automation, stronger proof, or human-assisted support." />
+        <div className="mt-8 grid gap-5 lg:grid-cols-3">
           {hub.featuredReviews.map((review) => (
             <article key={review.title} className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
               <ShieldCheck className="text-brand-700" size={22} aria-hidden="true" />
@@ -171,10 +173,11 @@ export function DataRemovalHubPage() {
       </Section>
 
       <Section className="bg-slate-50">
-        <SectionHeading eyebrow="Main comparison" title="Incogni vs Optery" description="Use the full comparison when both services look plausible." />
-        <div className="mt-8 rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
-          <p className="text-base leading-7 text-slate-700">Incogni is better for simpler automation, recurring broker-removal requests, broader geographic fit, and Deloitte process assurance. Optery is better for screenshot proof, exposure visibility, free scan/report entry, and documentation-heavy workflows. Neither is a complete privacy solution.</p>
-          <Link className="mt-5 inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/comparisons/incogni-vs-optery">Compare Incogni vs Optery</Link>
+        <SectionHeading eyebrow="Main comparisons" title="Compare Before You Choose" description="Use the comparison that matches your actual decision." />
+        <div className="mt-8 grid gap-5 lg:grid-cols-3">
+          {hub.comparisons.map((comparison) => (
+            <CardLink key={comparison.href} title={comparison.title} description={comparison.description} href={comparison.href} />
+          ))}
         </div>
       </Section>
 
@@ -243,9 +246,9 @@ export function DataRemovalHubPage() {
         <Container className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div>
             <h2 className="text-3xl font-bold">Use the right privacy-maintenance path</h2>
-            <p className="mt-3 text-sm leading-6 text-slate-300">Use Incogni for simple hands-off automation, Optery for proof and public listing visibility, and manual opt-out when control matters more than convenience.</p>
+            <p className="mt-3 text-sm leading-6 text-slate-300">Use Incogni for simple hands-off automation, Optery for proof and public listing visibility, DeleteMe for human-assisted support, and manual opt-out when control matters more than convenience.</p>
           </div>
-          <Link className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/comparisons/incogni-vs-optery">Compare the Services</Link>
+          <Link className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/comparisons">Compare the Services</Link>
         </Container>
       </section>
     </>
