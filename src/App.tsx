@@ -14,6 +14,7 @@ const BitwardenVsProtonPassPage = lazy(() => import("./pages/BitwardenVsProtonPa
 const ComparisonsIndexPage = lazy(() => import("./pages/ComparisonsIndexPage").then((module) => ({ default: module.ComparisonsIndexPage })));
 const ContactPage = lazy(() => import("./pages/ContactPage").then((module) => ({ default: module.ContactPage })));
 const DataRemovalHubPage = lazy(() => import("./pages/DataRemovalHubPage").then((module) => ({ default: module.DataRemovalHubPage })));
+const DeleteMeReviewPage = lazy(() => import("./pages/DeleteMeReviewPage").then((module) => ({ default: module.DeleteMeReviewPage })));
 const HomePage = lazy(() => import("./pages/HomePage").then((module) => ({ default: module.HomePage })));
 const HowWeReviewSoftwarePage = lazy(() => import("./pages/HowWeReviewSoftwarePage").then((module) => ({ default: module.HowWeReviewSoftwarePage })));
 const IncogniReviewPage = lazy(() => import("./pages/IncogniReviewPage").then((module) => ({ default: module.IncogniReviewPage })));
@@ -102,6 +103,7 @@ export default function App() {
             <Route path="reviews/roboform-review" element={<RoboFormReviewPage />} />
             <Route path="reviews/incogni-review" element={<IncogniReviewPage />} />
             <Route path="reviews/optery-review" element={<OpteryReviewPage />} />
+            <Route path="reviews/deleteme-review" element={<DeleteMeReviewPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Route>

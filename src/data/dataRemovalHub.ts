@@ -94,7 +94,7 @@ export const dataRemovalHub = {
     { title: "Read the Incogni Review", href: "/reviews/incogni-review", description: "Use this for the simple automation path." },
     { title: "Read the Optery Review", href: "/reviews/optery-review", description: "Use this for the proof and screenshot-reporting path." },
     { title: "Compare Incogni vs Optery", href: "/comparisons/incogni-vs-optery", description: "Use this when the two services both look plausible." },
-    { title: "Later: DeleteMe Review", href: "/reviews", description: "Use the reviews library until a dedicated DeleteMe review is available." }
+    { title: "Read the DeleteMe Review", href: "/reviews/deleteme-review", description: "Use this for the human-assisted data-removal path." }
   ],
   faqs: [
     {

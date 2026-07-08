@@ -22,7 +22,7 @@ Post-cluster QA and maintenance for:
 
 | Content Type | Count | Notes |
 | --- | ---: | --- |
-| Reviews | 10 | 3 VPN reviews, 5 password manager reviews, and 2 privacy tool reviews |
+| Reviews | 11 | 3 VPN reviews, 5 password manager reviews, and 3 privacy tool reviews |
 | Comparisons | 10 | 3 VPN comparisons, 6 password manager comparisons, and 1 privacy tool comparison |
 | Hubs / Guides | 9 | 3 decision hubs and 6 VPN guides |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
@@ -68,6 +68,7 @@ Post-cluster QA and maintenance for:
 | Data Removal Decision Hub | `/data-removal` | Hub | N/A | Source assets complete | N/A | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA decision paths, homepage discovery, and review/comparison links |
 | Incogni Review | `/reviews/incogni-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA data-removal claims, privacy tradeoffs, and volatile plan details |
 | Optery Review | `/reviews/optery-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA exposure-reporting claims, privacy tradeoffs, and volatile plan details |
+| DeleteMe Review | `/reviews/deleteme-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA human-assisted positioning, Consumer Reports caveats, privacy tradeoffs, and volatile plan details |
 | Incogni vs Optery | `/comparisons/incogni-vs-optery` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA fit-based comparison logic, category limits, and volatile plan details |
 
 ## Authority Asset Inventory
@@ -92,6 +93,7 @@ Post-cluster QA and maintenance for:
 | Proton Pass | MaxBounty | ACTIVE | External affiliate destination | `/reviews/proton-pass-review` | 2026-07-08 | Active only through centralized affiliate registry. Affiliate approval does not change editorial conclusions. |
 | Proton Mail | CJ / Proton Partners Program | PENDING | Stored future-use destination, not active in editorial CTAs | `/about/how-we-review-software` | 2026-07-08 | Do not activate until a Proton Mail page exists and the landing page is confirmed. |
 | Proton Unlimited | MaxBounty | PENDING | Stored future-use destination, not active in editorial CTAs | `/about/how-we-review-software` | 2026-07-08 | Do not activate unless a Proton suite page is built. |
+| DeleteMe | None | INTERNAL_ONLY | Internal fallback | `/data-removal` | 2026-07-08 | No external affiliate destination active. |
 | VPN Comparison | None | INTERNAL_ONLY | Internal fallback | `/guides/vpn-buying-guide` | 2026-07-02 | Generic comparison CTA fallback. |
 
 ## Growth Assets

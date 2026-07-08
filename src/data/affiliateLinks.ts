@@ -1,6 +1,6 @@
 export type AffiliateStatus = "ACTIVE" | "PENDING" | "DISABLED" | "INTERNAL_ONLY";
 
-export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass" | "protonmail" | "protonunlimited" | "roboform" | "incogni" | "optery";
+export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass" | "protonmail" | "protonunlimited" | "roboform" | "incogni" | "optery" | "deleteme";
 
 export type AffiliateLinkRecord = {
   provider: AffiliateProvider;
@@ -143,5 +143,15 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     disclosureRequired: true,
     trackingEnabled: false,
     lastVerified: "2026-07-05"
+  },
+  deleteme: {
+    provider: "deleteme",
+    network: "",
+    status: "INTERNAL_ONLY",
+    destination: "",
+    internalFallback: "/data-removal",
+    disclosureRequired: true,
+    trackingEnabled: false,
+    lastVerified: "2026-07-08"
   }
 };
