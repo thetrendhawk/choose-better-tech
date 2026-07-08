@@ -8,7 +8,7 @@ export const protonPassReview: ReviewPageContent = {
   productName: "Proton Pass",
   applicationCategory: "Password Manager",
   affiliateProvider: "protonpass",
-  ctaLabel: "See How We Review Software",
+  ctaLabel: "Check Proton Pass Plans",
   executiveSummary: [
     "Proton Pass is strongest for privacy-conscious users, Proton ecosystem users, free-plan seekers, and people who want a password manager with open-source clients plus hide-my-email aliases.",
     "The approved research supports a strong privacy and security story for mainstream use: Proton Pass uses end-to-end encryption, encrypts vault metadata, supports passkeys, includes account-protection options, and has undergone third-party audits.",

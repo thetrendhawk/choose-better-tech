@@ -7,7 +7,7 @@ export const protonVpnReview: ReviewPageContent = {
   path: "/reviews/proton-vpn-review",
   productName: "Proton VPN",
   affiliateProvider: "protonvpn",
-  ctaLabel: "Compare Free vs Paid",
+  ctaLabel: "Check Proton VPN Plans",
   executiveSummary: [
     "Proton VPN is a strong fit for privacy-conscious beginners who care about transparency, open-source clients, independent no-logs audits, Swiss jurisdiction, and a reputable permanent free plan.",
     "It is not the best fit for every user. The approved research flags pricing, prorated refunds, support limitations, jurisdiction nuance, server-count discrepancies, and performance variability as important tradeoffs.",
