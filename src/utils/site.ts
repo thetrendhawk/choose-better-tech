@@ -3,7 +3,7 @@ import type { NavItem } from "../types/content";
 export const site = {
   name: "Choose Better Tech",
   url: __SITE_URL__,
-  description: "Honest reviews, practical comparisons, and beginner-friendly guides to help you choose software with confidence.",
+  description: "Honest software reviews, practical comparisons, and beginner-friendly guides to help you choose better tech with confidence.",
   email: "hello@choosebettertech.com"
 };
 
