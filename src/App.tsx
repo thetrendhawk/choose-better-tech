@@ -18,6 +18,7 @@ const DeleteMeReviewPage = lazy(() => import("./pages/DeleteMeReviewPage").then(
 const HomePage = lazy(() => import("./pages/HomePage").then((module) => ({ default: module.HomePage })));
 const HowWeReviewSoftwarePage = lazy(() => import("./pages/HowWeReviewSoftwarePage").then((module) => ({ default: module.HowWeReviewSoftwarePage })));
 const IncogniReviewPage = lazy(() => import("./pages/IncogniReviewPage").then((module) => ({ default: module.IncogniReviewPage })));
+const IncogniVsDeleteMePage = lazy(() => import("./pages/IncogniVsDeleteMePage").then((module) => ({ default: module.IncogniVsDeleteMePage })));
 const IncogniVsOpteryPage = lazy(() => import("./pages/IncogniVsOpteryPage").then((module) => ({ default: module.IncogniVsOpteryPage })));
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage").then((module) => ({ default: module.NotFoundPage })));
 const NordPassReviewPage = lazy(() => import("./pages/NordPassReviewPage").then((module) => ({ default: module.NordPassReviewPage })));
@@ -93,6 +94,7 @@ export default function App() {
             <Route path="comparisons/bitwarden-vs-proton-pass" element={<BitwardenVsProtonPassPage />} />
             <Route path="comparisons/bitwarden-vs-nordpass" element={<BitwardenVsNordPassPage />} />
             <Route path="comparisons/incogni-vs-optery" element={<IncogniVsOpteryPage />} />
+            <Route path="comparisons/incogni-vs-deleteme" element={<IncogniVsDeleteMePage />} />
             <Route path="reviews/nordvpn-review" element={<NordVpnReviewPage />} />
             <Route path="reviews/proton-vpn-review" element={<ProtonVpnReviewPage />} />
             <Route path="reviews/surfshark-review" element={<SurfsharkReviewPage />} />

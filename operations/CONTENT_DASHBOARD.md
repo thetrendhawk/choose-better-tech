@@ -23,7 +23,7 @@ Post-cluster QA and maintenance for:
 | Content Type | Count | Notes |
 | --- | ---: | --- |
 | Reviews | 11 | 3 VPN reviews, 5 password manager reviews, and 3 privacy tool reviews |
-| Comparisons | 10 | 3 VPN comparisons, 6 password manager comparisons, and 1 privacy tool comparison |
+| Comparisons | 11 | 3 VPN comparisons, 6 password manager comparisons, and 2 privacy tool comparisons |
 | Hubs / Guides | 9 | 3 decision hubs and 6 VPN guides |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
 
@@ -70,6 +70,7 @@ Post-cluster QA and maintenance for:
 | Optery Review | `/reviews/optery-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA exposure-reporting claims, privacy tradeoffs, and volatile plan details |
 | DeleteMe Review | `/reviews/deleteme-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA human-assisted positioning, Consumer Reports caveats, privacy tradeoffs, and volatile plan details |
 | Incogni vs Optery | `/comparisons/incogni-vs-optery` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA fit-based comparison logic, category limits, and volatile plan details |
+| Incogni vs DeleteMe | `/comparisons/incogni-vs-deleteme` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA automation vs human-assisted framing, Consumer Reports caveats, and category limits |
 
 ## Authority Asset Inventory
 
