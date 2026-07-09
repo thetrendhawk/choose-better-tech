@@ -31,55 +31,55 @@ Post-cluster QA and maintenance for:
 
 | Asset | Route | Type | Raw Research | Canonical Research | Editorial Brief | Built | QA Status | Published | Affiliate Status | Last Verified | Next Action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| VPN Decision Hub | `/vpn` | Hub | N/A | Source assets complete | N/A | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA decision paths, homepage discovery, and comparison links |
-| NordVPN Review | `/reviews/nordvpn-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | ACTIVE / MaxBounty | 2026-07-03 | QA affiliate CTA, disclosure, volatile pricing/server details |
-| Proton VPN Review | `/reviews/proton-vpn-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | ACTIVE / CJ Proton Partners Program | 2026-07-08 | QA free-plan nuance, support caveats, volatile pricing, affiliate CTA, and disclosure |
-| Surfshark Review | `/reviews/surfshark-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | ACTIVE / CJ | 2026-07-03 | QA affiliate CTA, disclosure, and volatile plan details |
-| NordVPN vs Proton VPN | `/comparisons/nordvpn-vs-protonvpn` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA comparison logic and uncertainty notes |
-| NordVPN vs Surfshark | `/comparisons/nordvpn-vs-surfshark` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA comparison logic, affiliate disclosure, and volatile details |
-| Proton VPN vs Surfshark | `/comparisons/proton-vpn-vs-surfshark` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA comparison logic and uncertainty notes |
-| Best VPNs for Beginners | `/guides/best-vpns-for-beginners` | Guide | N/A | Source assets complete | N/A | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA cluster links, fit-based picks, and affiliate disclosure |
-| VPN Buying Guide | `/guides/vpn-buying-guide` | Guide | N/A | N/A | N/A | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA links to VPN hub and related guides |
-| How VPNs Work | `/guides/how-vpns-work` | Guide | N/A | N/A | N/A | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA educational accuracy and related links |
-| Free VPN vs Paid VPN | `/guides/free-vpn-vs-paid` | Guide | N/A | N/A | N/A | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA educational accuracy and related links |
-| VPN Myths | `/guides/vpn-myths` | Guide | N/A | N/A | N/A | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA educational accuracy and related links |
-| Is Proton VPN Free Good Enough? | `/guides/is-proton-vpn-free-good-enough` | Guide | N/A | N/A | N/A | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA Proton free-plan caveats and upgrade language |
+| VPN Decision Hub | `/vpn` | Hub | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| NordVPN Review | `/reviews/nordvpn-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | ACTIVE / MaxBounty | 2026-07-03 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Proton VPN Review | `/reviews/proton-vpn-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | ACTIVE / CJ Proton Partners Program | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Surfshark Review | `/reviews/surfshark-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | ACTIVE / CJ | 2026-07-03 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| NordVPN vs Proton VPN | `/comparisons/nordvpn-vs-protonvpn` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| NordVPN vs Surfshark | `/comparisons/nordvpn-vs-surfshark` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Proton VPN vs Surfshark | `/comparisons/proton-vpn-vs-surfshark` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Best VPNs for Beginners | `/guides/best-vpns-for-beginners` | Guide | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| VPN Buying Guide | `/guides/vpn-buying-guide` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| How VPNs Work | `/guides/how-vpns-work` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Free VPN vs Paid VPN | `/guides/free-vpn-vs-paid` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| VPN Myths | `/guides/vpn-myths` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Is Proton VPN Free Good Enough? | `/guides/is-proton-vpn-free-good-enough` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 
 ## Password Manager Cluster Asset Inventory
 
 | Asset | Route | Type | Raw Research | Canonical Research | Editorial Brief | Built | QA Status | Published | Affiliate Status | Last Verified | Next Action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Password Manager Decision Hub | `/password-managers` | Hub | N/A | Source assets complete | N/A | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA decision paths, homepage discovery, and comparison links |
-| 1Password Review | `/reviews/1password-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-02 | QA premium-positioning nuance and volatile plan details |
-| Bitwarden Review | `/reviews/bitwarden-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-03 | QA self-hosting/licensing nuance and volatile plan details |
-| NordPass Review | `/reviews/nordpass-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | ACTIVE / CJ | 2026-07-03 | QA affiliate CTA, disclosure, and volatile pricing/family details |
-| Proton Pass Review | `/reviews/proton-pass-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | ACTIVE / MaxBounty | 2026-07-08 | QA privacy/legal-process nuance, volatile plan details, affiliate CTA, and disclosure |
-| 1Password vs NordPass | `/comparisons/1password-vs-nordpass` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA comparison paths and uncertainty notes |
-| Proton Pass vs NordPass | `/comparisons/proton-pass-vs-nordpass` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA comparison paths and uncertainty notes |
-| 1Password vs Proton Pass | `/comparisons/1password-vs-proton-pass` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA comparison paths and uncertainty notes |
-| Bitwarden vs 1Password | `/comparisons/bitwarden-vs-1password` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA self-hosting and premium-polish framing |
-| Bitwarden vs Proton Pass | `/comparisons/bitwarden-vs-proton-pass` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA transparency, ecosystem, and alias framing |
-| Bitwarden vs NordPass | `/comparisons/bitwarden-vs-nordpass` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-04 | QA value, simplicity, and self-hosting framing |
+| Password Manager Decision Hub | `/password-managers` | Hub | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| 1Password Review | `/reviews/1password-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-02 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Bitwarden Review | `/reviews/bitwarden-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-03 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| NordPass Review | `/reviews/nordpass-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | ACTIVE / CJ | 2026-07-03 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Proton Pass Review | `/reviews/proton-pass-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | ACTIVE / MaxBounty | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| 1Password vs NordPass | `/comparisons/1password-vs-nordpass` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Proton Pass vs NordPass | `/comparisons/proton-pass-vs-nordpass` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| 1Password vs Proton Pass | `/comparisons/1password-vs-proton-pass` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Bitwarden vs 1Password | `/comparisons/bitwarden-vs-1password` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Bitwarden vs Proton Pass | `/comparisons/bitwarden-vs-proton-pass` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Bitwarden vs NordPass | `/comparisons/bitwarden-vs-nordpass` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 
 ## Data Removal Cluster Asset Inventory
 
 | Asset | Route | Type | Raw Research | Canonical Research | Editorial Brief | Built | QA Status | Published | Affiliate Status | Last Verified | Next Action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Data Removal Decision Hub | `/data-removal` | Hub | N/A | Source assets complete | N/A | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA decision paths, homepage discovery, and review/comparison links |
-| Incogni Review | `/reviews/incogni-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA data-removal claims, privacy tradeoffs, and volatile plan details |
-| Optery Review | `/reviews/optery-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA exposure-reporting claims, privacy tradeoffs, and volatile plan details |
-| DeleteMe Review | `/reviews/deleteme-review` | Review | Complete | Complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA human-assisted positioning, Consumer Reports caveats, privacy tradeoffs, and volatile plan details |
-| Incogni vs Optery | `/comparisons/incogni-vs-optery` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA fit-based comparison logic, category limits, and volatile plan details |
-| Incogni vs DeleteMe | `/comparisons/incogni-vs-deleteme` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA automation vs human-assisted framing, Consumer Reports caveats, and category limits |
-| Optery vs DeleteMe | `/comparisons/optery-vs-deleteme` | Comparison | N/A | Source assets complete | Complete | Yes | Needs QA | Yes | INTERNAL_ONLY | 2026-07-08 | QA proof-first vs human-assisted framing, Consumer Reports caveats, and category limits |
+| Data Removal Decision Hub | `/data-removal` | Hub | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Incogni Review | `/reviews/incogni-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Optery Review | `/reviews/optery-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| DeleteMe Review | `/reviews/deleteme-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Incogni vs Optery | `/comparisons/incogni-vs-optery` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Incogni vs DeleteMe | `/comparisons/incogni-vs-deleteme` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Optery vs DeleteMe | `/comparisons/optery-vs-deleteme` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 
 ## Authority Asset Inventory
 
 | Asset | Route | Type | Built | QA Status | Published | Last Verified | Next Action |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| How We Review Software | `/about/how-we-review-software` | Authority | Yes | Needs QA | Yes | 2026-07-04 | QA trust-page links, metadata, and process language |
-| Affiliate Disclosure | `/affiliate-disclosure` | Authority | Yes | Needs QA | Yes | 2026-07-04 | QA disclosure visibility and clarity |
-| About | `/about` | Authority | Yes | Needs QA | Yes | 2026-07-04 | QA navigation and authority positioning |
+| How We Review Software | `/about/how-we-review-software` | Authority | Yes | Site QA complete | Yes | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Affiliate Disclosure | `/affiliate-disclosure` | Authority | Yes | Site QA complete | Yes | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| About | `/about` | Authority | Yes | Site QA complete | Yes | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 
 ## Affiliate Status
 
@@ -95,6 +95,8 @@ Post-cluster QA and maintenance for:
 | Proton Pass | MaxBounty | ACTIVE | External affiliate destination | `/reviews/proton-pass-review` | 2026-07-08 | Active only through centralized affiliate registry. Affiliate approval does not change editorial conclusions. |
 | Proton Mail | CJ / Proton Partners Program | PENDING | Stored future-use destination, not active in editorial CTAs | `/about/how-we-review-software` | 2026-07-08 | Do not activate until a Proton Mail page exists and the landing page is confirmed. |
 | Proton Unlimited | MaxBounty | PENDING | Stored future-use destination, not active in editorial CTAs | `/about/how-we-review-software` | 2026-07-08 | Do not activate unless a Proton suite page is built. |
+| Incogni | None | INTERNAL_ONLY | Internal fallback | `/reviews` | 2026-07-05 | No external affiliate destination active. |
+| Optery | None | INTERNAL_ONLY | Internal fallback | `/reviews` | 2026-07-05 | No external affiliate destination active. |
 | DeleteMe | None | INTERNAL_ONLY | Internal fallback | `/data-removal` | 2026-07-08 | No external affiliate destination active. |
 | VPN Comparison | None | INTERNAL_ONLY | Internal fallback | `/guides/vpn-buying-guide` | 2026-07-02 | Generic comparison CTA fallback. |
 
@@ -145,13 +147,11 @@ Post-cluster QA and maintenance for:
 
 ## Next Production Priorities
 
-1. QA VPN Decision Hub and Password Manager Decision Hub.
-2. QA homepage review, comparison, and guide/hub sections for scanability.
-3. QA active affiliate CTAs and disclosures for NordVPN, Surfshark, NordPass, RoboForm, Proton VPN, and Proton Pass.
-4. Monitor Google Search Console indexing after completed current-priority submissions.
-5. Monitor Bing Webmaster Tools after completed `sitemap.xml` submission.
-6. Start next cluster planning only after cluster QA and volatile-data review.
-7. Decide whether to implement route-level code splitting to reduce the Vite bundle warning.
+1. Monitor Google Search Console indexing after completed current-priority submissions.
+2. Monitor Bing Webmaster Tools after completed `sitemap.xml` submission.
+3. Recheck volatile pricing, plan, coverage, and affiliate-status details before purchase-focused updates.
+4. Keep homepage curated as additional reviews and comparisons are published.
+5. Start next cluster planning only after volatile-data review.
 
 ## Notes
 

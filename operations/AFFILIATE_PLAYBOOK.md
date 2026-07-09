@@ -29,6 +29,9 @@ Affiliate destinations must remain centralized in `src/data/affiliateLinks.ts`. 
 | Proton Pass | MaxBounty | ACTIVE | Active through centralized affiliate resolver only. |
 | Proton Mail | CJ / Proton Partners Program | PENDING | Future-use only; do not activate until a Proton Mail page exists and the landing page is confirmed. |
 | Proton Unlimited | MaxBounty | PENDING | Future-use only; do not activate unless a Proton suite page is built. |
+| Incogni | None | INTERNAL_ONLY | Internal fallback only unless registry changes. |
+| Optery | None | INTERNAL_ONLY | Internal fallback only unless registry changes. |
+| DeleteMe | None | INTERNAL_ONLY | Internal fallback only unless registry changes. |
 
 ## Operating Rules
 
