@@ -3,7 +3,7 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-02
+Last Updated: 2026-07-09
 
 ## Current Phase
 
@@ -62,6 +62,7 @@ Build a reliable operating system for Choose Better Tech that separates business
 | Date | Milestone | Notes |
 | --- | --- | --- |
 | TBD | Website launched | Public site established. |
+| 2026-07-09 | Primary production domain connected | `https://choosebettertech.com` is the canonical public domain; temporary Vercel/thrwds domains are historical only. |
 | TBD | Google Search Console configured | Indexing and search visibility tracking enabled. |
 | TBD | Google Analytics configured | Traffic measurement enabled. |
 | TBD | Bing Webmaster Tools configured | Bing indexing and visibility tracking enabled. |
@@ -82,4 +83,3 @@ Build a reliable operating system for Choose Better Tech that separates business
 | --- | --- | --- | --- |
 | 2026-07-02 | Create `operations/` as a top-level business operations directory | Keeps business systems separate from application code and editorial research assets. | Choose Better Tech |
 | 2026-07-02 | Keep canonical Business Identity Kit and Affiliate Application Playbook as placeholders for this commit | Prevents reconstructing or inferring canonical documents from non-canonical sources. | Choose Better Tech |
-

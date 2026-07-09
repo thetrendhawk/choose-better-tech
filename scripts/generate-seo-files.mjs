@@ -2,7 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const defaultSiteUrl = "https://choosebettertech.thrwds.com";
+const defaultSiteUrl = "https://choosebettertech.com";
 const siteUrl = (process.env.SITE_URL ?? defaultSiteUrl).replace(/\/$/, "");
 const rootDir = dirname(dirname(fileURLToPath(import.meta.url)));
 const publicDir = join(rootDir, "public");

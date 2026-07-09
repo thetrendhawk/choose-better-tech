@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 declare const process: { env: { SITE_URL?: string } };
 
-const siteUrl = (process.env.SITE_URL ?? "https://choosebettertech.thrwds.com").replace(/\/$/, "");
+const siteUrl = (process.env.SITE_URL ?? "https://choosebettertech.com").replace(/\/$/, "");
 
 export default defineConfig({
   define: {

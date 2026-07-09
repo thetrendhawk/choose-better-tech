@@ -3,7 +3,7 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-02
+Last Updated: 2026-07-09
 
 ## Purpose
 
@@ -21,10 +21,10 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 | TBD | Content | VPN guide published | Best VPNs for Beginners guide published. |
 | TBD | Affiliate | Affiliate applications submitted | Initial affiliate program applications submitted. |
 | 2026-07-02 | Operations | Operations documentation created | `operations/` framework established as business operations headquarters. |
+| 2026-07-09 | Domain | Primary domain migrated | Canonical public URL moved to `https://choosebettertech.com`; temporary Vercel/thrwds domains are historical only. |
 
 ## Future Entries
 
 | Date | Category | Milestone | Notes |
 | --- | --- | --- | --- |
 | TBD | TBD | TBD | TBD |
-

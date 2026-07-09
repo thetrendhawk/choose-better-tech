@@ -7,7 +7,7 @@
 | Document Type | Operations Dashboard |
 | Status | Active |
 | Owner | Choose Better Tech |
-| Last Updated | 2026-07-08 |
+| Last Updated | 2026-07-09 |
 
 ## Current Strategic Focus
 
@@ -107,10 +107,26 @@ Post-cluster QA and maintenance for:
 | The Better Software Buyer Checklist | Gumroad | Active | Lead magnet used as an active growth asset. |
 | Mailchimp welcome email | Mailchimp | Active | Welcome email uses The Better Software Buyer Checklist. |
 
+## Domain & Canonical URL
+
+| Field | Value |
+| --- | --- |
+| Primary Production Domain | `https://choosebettertech.com` |
+| Canonical URL Status | Active as of 2026-07-09 |
+| Historical Temporary Domain | `https://choosebettertech.thrwds.com` |
+| Historical Vercel Preview Domain | `https://choose-better-tech.vercel.app` |
+| WWW Behavior | `https://www.choosebettertech.com` redirects to `https://choosebettertech.com` in Vercel |
+
+- Public canonical tags, Open Graph URLs, structured-data URLs, `robots.txt`, and `sitemap.xml` should use `https://choosebettertech.com`.
+- The temporary `thrwds.com` and `vercel.app` domains should not be treated as canonical.
+- Old-domain redirect behavior should be managed in Vercel or DNS settings rather than app routing unless a future deployment architecture requires code-managed redirects.
+
 ## Search Console / Sitemap Submissions
 
-- Google Search Console submissions were completed for current priority pages.
-- Bing `sitemap.xml` was submitted.
+- Google Search Console submissions were completed for earlier priority pages before the primary-domain migration.
+- Submit the new `https://choosebettertech.com/sitemap.xml` property/sitemap after deployment.
+- Bing `sitemap.xml` was submitted before the primary-domain migration.
+- Submit the new `https://choosebettertech.com/sitemap.xml` to Bing Webmaster Tools after deployment.
 - Exact submission timestamps are not recorded in this dashboard.
 
 ## Volatile Information Watchlist
@@ -147,11 +163,13 @@ Post-cluster QA and maintenance for:
 
 ## Next Production Priorities
 
-1. Monitor Google Search Console indexing after completed current-priority submissions.
-2. Monitor Bing Webmaster Tools after completed `sitemap.xml` submission.
-3. Recheck volatile pricing, plan, coverage, and affiliate-status details before purchase-focused updates.
-4. Keep homepage curated as additional reviews and comparisons are published.
-5. Start next cluster planning only after volatile-data review.
+1. Deploy the canonical-domain migration to production.
+2. Submit `https://choosebettertech.com/sitemap.xml` in Google Search Console.
+3. Submit `https://choosebettertech.com/sitemap.xml` in Bing Webmaster Tools.
+4. Confirm old temporary domains are not treated as canonical after deployment.
+5. Recheck volatile pricing, plan, coverage, and affiliate-status details before purchase-focused updates.
+6. Keep homepage curated as additional reviews and comparisons are published.
+7. Start next cluster planning only after volatile-data review.
 
 ## Notes
 
