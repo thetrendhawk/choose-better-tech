@@ -19,6 +19,7 @@ export const featuredReviews: ArticlePreview[] = [
 ];
 
 export const featuredGuides: ArticlePreview[] = [
+  { key: "best-password-managers-for-beginners", title: "Best Password Managers for Beginners", excerpt: "A beginner-first buying guide comparing 1Password, Bitwarden, NordPass, Proton Pass, and RoboForm by fit, free-plan value, privacy, recovery, and ease of use.", href: "/best-password-managers-for-beginners", status: "Published Guide" },
   { key: "password-manager-decision-hub", title: "Password Manager Decision Hub", excerpt: "A beginner-friendly decision tool for choosing between 1Password, Bitwarden, Proton Pass, NordPass, and RoboForm by privacy, value, family workflows, free-plan strength, form filling, and fit.", href: "/password-managers", status: "Decision Hub" },
   { key: "vpn-decision-hub", title: "VPN Decision Hub", excerpt: "A beginner-friendly decision tool for choosing between NordVPN, Proton VPN, and Surfshark by privacy, value, streaming, family use, and fit.", href: "/vpn", status: "Decision Hub" },
   { key: "best-vpns-for-beginners", title: "Best VPNs for Beginners", excerpt: "A beginner-first buying guide comparing privacy, streaming, price, simplicity, and free-plan tradeoffs.", href: "/guides/best-vpns-for-beginners", status: "Published Guide" },

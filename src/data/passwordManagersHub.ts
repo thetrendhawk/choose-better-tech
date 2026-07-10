@@ -166,6 +166,7 @@ export const passwordManagersHub = {
     }
   ],
   learningPath: [
+    { title: "Best Password Managers for Beginners", href: "/best-password-managers-for-beginners", description: "Compare the five current password-manager options by ease of use, free-plan value, privacy, recovery, and everyday fit." },
     { title: "How We Review Software", href: "/about/how-we-review-software", description: "Learn how Choose Better Tech separates verified facts, vendor claims, independent findings, and open questions." },
     { title: "Affiliate Disclosure", href: "/affiliate-disclosure", description: "Understand how affiliate relationships are disclosed without controlling editorial conclusions." },
     { title: "Bitwarden Review", href: "/reviews/bitwarden-review", description: "Read the full review before choosing the free-value, transparency, or self-hosting path." },

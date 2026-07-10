@@ -20,6 +20,7 @@ const routes = [
   "/data-removal",
   "/reviews",
   "/comparisons",
+  "/best-password-managers-for-beginners",
   "/guides/best-vpns-for-beginners",
   "/guides/how-vpns-work",
   "/guides/free-vpn-vs-paid",

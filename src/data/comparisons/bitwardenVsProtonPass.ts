@@ -175,6 +175,7 @@ export const bitwardenVsProtonPassComparison = {
   relatedLinks: [
     { title: "Bitwarden Review", href: "/reviews/bitwarden-review", description: "Read the full Bitwarden review." },
     { title: "Proton Pass Review", href: "/reviews/proton-pass-review", description: "Read the full Proton Pass review." },
+    { title: "Best Password Managers for Beginners", href: "/best-password-managers-for-beginners", description: "Compare the main beginner password-manager options by fit." },
     { title: "Password Manager Decision Hub", href: "/password-managers", description: "Choose between the main password-manager paths by reader fit." },
     { title: "Bitwarden vs 1Password", href: "/comparisons/bitwarden-vs-1password", description: "Compare Bitwarden value and transparency against 1Password premium polish." },
     { title: "1Password vs Proton Pass", href: "/comparisons/1password-vs-proton-pass", description: "Compare 1Password polish against Proton Pass privacy ecosystem and aliases." },

@@ -7,7 +7,7 @@
 | Document Type | Operations Dashboard |
 | Status | Active |
 | Owner | Choose Better Tech |
-| Last Updated | 2026-07-09 |
+| Last Updated | 2026-07-10 |
 
 ## Current Strategic Focus
 
@@ -24,7 +24,7 @@ Post-cluster QA and maintenance for:
 | --- | ---: | --- |
 | Reviews | 11 | 3 VPN reviews, 5 password manager reviews, and 3 privacy tool reviews |
 | Comparisons | 12 | 3 VPN comparisons, 6 password manager comparisons, and 3 privacy tool comparisons |
-| Hubs / Guides | 9 | 3 decision hubs and 6 VPN guides |
+| Hubs / Guides | 10 | 3 decision hubs, 6 VPN guides, and 1 password-manager buying guide |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
 
 ## VPN Cluster Asset Inventory
@@ -50,6 +50,7 @@ Post-cluster QA and maintenance for:
 | Asset | Route | Type | Raw Research | Canonical Research | Editorial Brief | Built | QA Status | Published | Affiliate Status | Last Verified | Next Action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Password Manager Decision Hub | `/password-managers` | Hub | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Best Password Managers for Beginners | `/best-password-managers-for-beginners` | Guide | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | Mixed / centralized resolver | 2026-07-10 | Recheck current plan limits, pricing, recovery options, platform support, affiliate CTA behavior, and official source facts before the next purchase-focused refresh |
 | 1Password Review | `/reviews/1password-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-02 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Bitwarden Review | `/reviews/bitwarden-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-03 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | NordPass Review | `/reviews/nordpass-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | ACTIVE / CJ | 2026-07-03 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
@@ -157,6 +158,7 @@ Post-cluster QA and maintenance for:
 - Verify active Proton VPN and Proton Pass affiliate CTAs and disclosures without changing editorial conclusions.
 - Verify Surfshark antivirus-data minimization status and Dausos maturity/follow-up review status during the next Surfshark refresh.
 - Recheck password manager pricing, family limits, passkey support, platform support, browser-extension reliability, support reputation, and refund terms before active promotion.
+- Revalidate the Best Password Managers for Beginners official plan facts before each major update because free-plan limits, trial terms, device policies, and family-plan details can change quickly.
 - Preserve Bitwarden licensing/self-hosting nuance during future updates.
 - Preserve Proton Pass Swiss legal-process nuance and SimpleLogin/alias limitations during future updates.
 - Do not activate Proton Mail or Proton Unlimited in live CTAs until the appropriate editorial page exists and the destination is confirmed.

@@ -201,6 +201,7 @@ export const protonPassReview: ReviewPageContent = {
     { question: "Is Proton Pass worth paying for?", answer: "Often yes for users who want unlimited aliases, built-in TOTP, dark web monitoring, secure sharing, emergency access, and Proton bundle value. The free plan may be enough for basic storage needs." }
   ],
   relatedGuides: [
+    { title: "Best Password Managers for Beginners", href: "/best-password-managers-for-beginners", description: "Compare Proton Pass against 1Password, Bitwarden, NordPass, and RoboForm by beginner fit." },
     { title: "Bitwarden Review", href: "/reviews/bitwarden-review", description: "Compare Proton Pass against a value-focused password manager with self-hosting and public-code transparency." },
     { title: "Bitwarden vs Proton Pass", href: "/comparisons/bitwarden-vs-proton-pass", description: "Compare Proton Pass privacy ecosystem and aliases against Bitwarden value and self-hosting." },
     { title: "1Password vs Proton Pass", href: "/comparisons/1password-vs-proton-pass", description: "Compare Proton Pass privacy transparency and free-plan value against 1Password premium polish and family workflows." },

@@ -168,6 +168,7 @@ export const onePasswordVsNordPassComparison = {
   relatedLinks: [
     { title: "1Password Review", href: "/reviews/1password-review", description: "Read the full 1Password review." },
     { title: "NordPass Review", href: "/reviews/nordpass-review", description: "Read the full NordPass review." },
+    { title: "Best Password Managers for Beginners", href: "/best-password-managers-for-beginners", description: "Compare the main beginner password-manager options by fit." },
     { title: "How We Review Software", href: "/about/how-we-review-software", description: "See how evidence, uncertainty, and recommendations are handled." },
     { title: "Affiliate Disclosure", href: "/affiliate-disclosure", description: "Understand how affiliate relationships are disclosed." },
     { title: "About Choose Better Tech", href: "/about", description: "Learn more about the publication." }
