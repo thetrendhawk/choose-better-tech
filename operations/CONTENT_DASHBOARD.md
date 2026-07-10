@@ -24,7 +24,7 @@ Post-cluster QA and maintenance for:
 | --- | ---: | --- |
 | Reviews | 11 | 3 VPN reviews, 5 password manager reviews, and 3 privacy tool reviews |
 | Comparisons | 12 | 3 VPN comparisons, 6 password manager comparisons, and 3 privacy tool comparisons |
-| Hubs / Guides | 10 | 3 decision hubs, 6 VPN guides, and 1 password-manager buying guide |
+| Hubs / Guides | 11 | 3 decision hubs, 6 VPN guides, 1 password-manager buying guide, and 1 data-removal decision guide |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
 
 ## VPN Cluster Asset Inventory
@@ -67,6 +67,7 @@ Post-cluster QA and maintenance for:
 | Asset | Route | Type | Raw Research | Canonical Research | Editorial Brief | Built | QA Status | Published | Affiliate Status | Last Verified | Next Action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Data Removal Decision Hub | `/data-removal` | Hub | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Are Data Removal Services Worth It? | `/are-data-removal-services-worth-it` | Guide | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-10 | Recheck legal tools, service plan details, supported countries, broker coverage, custom-removal limits, cancellation consequences, and Consumer Reports context before the next major update |
 | Incogni Review | `/reviews/incogni-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Optery Review | `/reviews/optery-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | DeleteMe Review | `/reviews/deleteme-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-08 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
@@ -162,6 +163,7 @@ Post-cluster QA and maintenance for:
 - Preserve Bitwarden licensing/self-hosting nuance during future updates.
 - Preserve Proton Pass Swiss legal-process nuance and SimpleLogin/alias limitations during future updates.
 - Do not activate Proton Mail or Proton Unlimited in live CTAs until the appropriate editorial page exists and the destination is confirmed.
+- Revalidate California DROP, CCPA rights, Google removal tools, data-removal provider coverage, supported countries, plan structures, recurring rescans, custom-removal availability, cancellation consequences, and current Consumer Reports context before the next data-removal guide refresh.
 
 ## Next Production Priorities
 

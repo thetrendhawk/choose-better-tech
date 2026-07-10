@@ -220,6 +220,7 @@ export const opteryReview: ReviewPageContent = {
     { question: "Is Optery worth paying for?", answer: "Often yes if you want recurring people-search cleanup and visible proof. Probably not if you expect complete internet deletion or are willing to maintain manual opt-outs yourself." }
   ],
   relatedGuides: [
+    { title: "Are Data Removal Services Worth It?", href: "/are-data-removal-services-worth-it", description: "Decide whether paying for data-removal maintenance makes sense compared with manual opt-outs." },
     { title: "Data Removal Hub", href: "/data-removal", description: "Start with the category hub before choosing a data-removal service." },
     { title: "Incogni vs Optery", href: "/comparisons/incogni-vs-optery", description: "Compare proof-first reporting with simpler data-removal automation." },
     { title: "Incogni Review", href: "/reviews/incogni-review", description: "Compare Optery with a simpler automation-first data-removal service." },

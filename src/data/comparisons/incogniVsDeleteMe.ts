@@ -185,6 +185,7 @@ export const incogniVsDeleteMeComparison = {
     }
   ],
   relatedLinks: [
+    { title: "Are Data Removal Services Worth It?", href: "/are-data-removal-services-worth-it", description: "Decide whether a paid data-removal service is worth it versus manual opt-out." },
     { title: "Data Removal Hub", href: "/data-removal", description: "Start with the category hub before choosing a service." },
     { title: "Incogni Review", href: "/reviews/incogni-review", description: "Read the full Incogni review." },
     { title: "DeleteMe Review", href: "/reviews/deleteme-review", description: "Read the full DeleteMe review." },
