@@ -27,6 +27,26 @@ Post-cluster QA and maintenance for:
 | Hubs / Guides | 12 | 3 decision hubs, 6 VPN guides, 1 password-manager buying guide, 1 data-removal decision guide, and 1 data-removal commercial investigation |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
 
+## Status Legend
+
+| Status | Meaning |
+| --- | --- |
+| Draft | Content is planned or in progress. |
+| Built | Content has been implemented in the site. |
+| Pushed | Content changes have been pushed to the repository. |
+| Deployed | Content has been deployed to production. |
+| Verified live | Production URL has been verified live. |
+| Visual QA passed | Desktop and mobile visual QA have passed. |
+| Final approved | Editorial, affiliate, evidence, production, and visual QA are complete. |
+
+## Recent Publication QA Status
+
+| Article | Publication Status | Production URL | Content Commit | Deployment Status | Editorial QA | Desktop QA | Mobile QA | Affiliate QA | Evidence QA | Final Verdict | Last Verified |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Best Password Managers for Beginners | Final approved | `https://choosebettertech.com/best-password-managers-for-beginners` | `67c7a23` | Production deployment verified (`135f90f`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
+| Are Data Removal Services Worth It? | Final approved | `https://choosebettertech.com/are-data-removal-services-worth-it` | `ddcd971a73bbbda09b13fe5138697e2311504064` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
+| Best Data Removal Services | Final approved | `https://choosebettertech.com/best-data-removal-services` | `4ec71893f827c4e2bf53851af9acea801824109d` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
+
 ## VPN Cluster Asset Inventory
 
 | Asset | Route | Type | Raw Research | Canonical Research | Editorial Brief | Built | QA Status | Published | Affiliate Status | Last Verified | Next Action |
