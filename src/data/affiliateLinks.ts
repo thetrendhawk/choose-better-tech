@@ -59,7 +59,7 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     network: "",
     status: "INTERNAL_ONLY",
     destination: "",
-    internalFallback: "/about/how-we-review-software",
+    internalFallback: "/reviews/1password-review",
     disclosureRequired: true,
     trackingEnabled: false,
     lastVerified: "2026-07-02"
@@ -69,7 +69,7 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     network: "",
     status: "INTERNAL_ONLY",
     destination: "",
-    internalFallback: "/about/how-we-review-software",
+    internalFallback: "/reviews/bitwarden-review",
     disclosureRequired: true,
     trackingEnabled: false,
     lastVerified: "2026-07-03"
@@ -129,7 +129,7 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     network: "",
     status: "INTERNAL_ONLY",
     destination: "",
-    internalFallback: "/reviews",
+    internalFallback: "/reviews/incogni-review",
     disclosureRequired: true,
     trackingEnabled: false,
     lastVerified: "2026-07-05"
@@ -139,7 +139,7 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     network: "",
     status: "INTERNAL_ONLY",
     destination: "",
-    internalFallback: "/reviews",
+    internalFallback: "/reviews/optery-review",
     disclosureRequired: true,
     trackingEnabled: false,
     lastVerified: "2026-07-05"
@@ -149,7 +149,7 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     network: "",
     status: "INTERNAL_ONLY",
     destination: "",
-    internalFallback: "/data-removal",
+    internalFallback: "/reviews/deleteme-review",
     disclosureRequired: true,
     trackingEnabled: false,
     lastVerified: "2026-07-08"
