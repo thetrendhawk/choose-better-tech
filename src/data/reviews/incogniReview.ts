@@ -213,6 +213,7 @@ export const incogniReview: ReviewPageContent = {
     { question: "Is Incogni worth paying for?", answer: "For mainstream users who will not manually maintain recurring broker opt-outs, probably yes. For motivated DIY users with limited exposure, maybe not." }
   ],
   relatedGuides: [
+    { title: "Best Data Removal Services", href: "/best-data-removal-services", description: "Compare Incogni with Optery, DeleteMe, and manual opt-outs by fit." },
     { title: "Are Data Removal Services Worth It?", href: "/are-data-removal-services-worth-it", description: "Decide whether paying for data-removal maintenance makes sense compared with manual opt-outs." },
     { title: "Data Removal Hub", href: "/data-removal", description: "Start with the category hub before choosing a data-removal service." },
     { title: "Incogni vs Optery", href: "/comparisons/incogni-vs-optery", description: "Compare simple automation with proof-first data-removal reporting." },

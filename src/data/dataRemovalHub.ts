@@ -126,6 +126,7 @@ export const dataRemovalHub = {
     "All personal information from the internet"
   ],
   readingPath: [
+    { title: "Best Data Removal Services", href: "/best-data-removal-services", description: "Compare Incogni, Optery, DeleteMe, and manual opt-outs by fit." },
     { title: "Are Data Removal Services Worth It?", href: "/are-data-removal-services-worth-it", description: "Decide whether paying is worth it compared with manual opt-outs." },
     { title: "Start with this Data Removal Hub", href: "/data-removal", description: "Understand the category before choosing a service." },
     { title: "Read the Incogni Review", href: "/reviews/incogni-review", description: "Use this if you want simple automation." },

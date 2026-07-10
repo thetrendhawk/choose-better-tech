@@ -19,6 +19,7 @@ export const featuredReviews: ArticlePreview[] = [
 ];
 
 export const featuredGuides: ArticlePreview[] = [
+  { key: "best-data-removal-services", title: "Best Data Removal Services", excerpt: "A fit-based investigation comparing Optery, Incogni, DeleteMe, and manual opt-outs by workflow, proof, maintenance, privacy, and value.", href: "/best-data-removal-services", status: "Published Guide" },
   { key: "are-data-removal-services-worth-it", title: "Are Data Removal Services Worth It?", excerpt: "A balanced guide to paying for data-removal services versus handling people-search and broker opt-outs manually.", href: "/are-data-removal-services-worth-it", status: "Published Guide" },
   { key: "best-password-managers-for-beginners", title: "Best Password Managers for Beginners", excerpt: "A beginner-first buying guide comparing 1Password, Bitwarden, NordPass, Proton Pass, and RoboForm by fit, free-plan value, privacy, recovery, and ease of use.", href: "/best-password-managers-for-beginners", status: "Published Guide" },
   { key: "password-manager-decision-hub", title: "Password Manager Decision Hub", excerpt: "A beginner-friendly decision tool for choosing between 1Password, Bitwarden, Proton Pass, NordPass, and RoboForm by privacy, value, family workflows, free-plan strength, form filling, and fit.", href: "/password-managers", status: "Decision Hub" },

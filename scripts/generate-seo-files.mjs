@@ -21,6 +21,7 @@ const routes = [
   "/reviews",
   "/comparisons",
   "/are-data-removal-services-worth-it",
+  "/best-data-removal-services",
   "/best-password-managers-for-beginners",
   "/guides/best-vpns-for-beginners",
   "/guides/how-vpns-work",

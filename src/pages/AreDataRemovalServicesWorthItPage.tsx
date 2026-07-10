@@ -539,6 +539,7 @@ export function AreDataRemovalServicesWorthItPage() {
           <p className="mt-4 text-base leading-7 text-slate-700">Data removal services are most worth it when they replace work you realistically will not keep doing yourself: finding listings, submitting requests, checking status, and repeating removals. They are least worth it when you only have a narrow set of listings and are willing to manage opt-outs manually.</p>
           <p className="mt-4 text-base leading-7 text-slate-700">Start with the manual path if your exposure is small. Consider a paid service when the exposure is broad, recurring, stressful, or too time-consuming to maintain.</p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+            <InternalLinkButton href="/best-data-removal-services">Compare Data Removal Services</InternalLinkButton>
             <InternalLinkButton href="/data-removal">Choose a Data Removal Path</InternalLinkButton>
             <InternalLinkButton href="/about/how-we-review-software">How We Review Software</InternalLinkButton>
           </div>
