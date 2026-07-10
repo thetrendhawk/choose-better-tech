@@ -82,6 +82,7 @@ const comparisonLinks = [
 ];
 
 const educationLinks = [
+  { title: "Are VPNs Worth It?", href: "/are-vpns-worth-it", description: "Decide whether you need a VPN before comparing paid products." },
   { title: "How VPNs Work", href: "/guides/how-vpns-work", description: "Understand what a VPN can and cannot protect before choosing one." },
   { title: "Free VPN vs Paid VPN", href: "/guides/free-vpn-vs-paid", description: "Compare free-plan limits, paid-plan benefits, and provider trust signals." },
   { title: "VPN Buying Guide", href: "/guides/vpn-buying-guide", description: "Use a practical checklist for privacy, audits, features, pricing, and fit." },
@@ -147,6 +148,7 @@ export function BestVpnsForBeginnersPage() {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" href="#quick-picks">See Quick Picks</a>
               <Link className="inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/vpn">Open VPN Decision Hub</Link>
+              <Link className="inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/are-vpns-worth-it">Do I Need a VPN?</Link>
             </div>
           </div>
 

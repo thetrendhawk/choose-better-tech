@@ -178,6 +178,7 @@ export const nordVpnReview: ReviewPageContent = {
     { question: "Is NordVPN worth paying for?", answer: "It may be worth paying for if you want a mainstream VPN with strong speed, streaming support, audits, broad platform coverage, and extra features. Current pricing, renewal terms, tiers, and device limits should be verified first." }
   ],
   relatedGuides: [
+    { title: "Are VPNs Worth It?", href: "/are-vpns-worth-it", description: "Decide whether a VPN solves a real problem before choosing a paid provider." },
     { title: "VPN Decision Hub", href: "/vpn", description: "Choose between NordVPN, Proton VPN, and Surfshark by need." },
     { title: "Best VPNs for Beginners", href: "/guides/best-vpns-for-beginners", description: "Compare beginner VPN options by use case." },
     { title: "Proton VPN Review", href: "/reviews/proton-vpn-review", description: "Compare NordVPN against a privacy-focused alternative." },

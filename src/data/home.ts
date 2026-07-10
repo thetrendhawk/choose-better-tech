@@ -19,6 +19,7 @@ export const featuredReviews: ArticlePreview[] = [
 ];
 
 export const featuredGuides: ArticlePreview[] = [
+  { key: "are-vpns-worth-it", title: "Are VPNs Worth It?", excerpt: "A skeptical, practical decision guide explaining when a VPN is worth paying for, when it is unnecessary, and what it cannot protect.", href: "/are-vpns-worth-it", status: "Published Guide" },
   { key: "best-free-password-managers", title: "Best Free Password Managers", excerpt: "A practical comparison of Bitwarden, Proton Pass, NordPass, RoboForm, and browser-built-in password managers by free-plan limits and long-term usability.", href: "/best-free-password-managers", status: "Published Guide" },
   { key: "best-data-removal-services", title: "Best Data Removal Services", excerpt: "A fit-based investigation comparing Optery, Incogni, DeleteMe, and manual opt-outs by workflow, proof, maintenance, privacy, and value.", href: "/best-data-removal-services", status: "Published Guide" },
   { key: "are-data-removal-services-worth-it", title: "Are Data Removal Services Worth It?", excerpt: "A balanced guide to paying for data-removal services versus handling people-search and broker opt-outs manually.", href: "/are-data-removal-services-worth-it", status: "Published Guide" },

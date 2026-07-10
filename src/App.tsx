@@ -7,6 +7,7 @@ import { SiteLayout } from "./layouts/SiteLayout";
 const AboutPage = lazy(() => import("./pages/AboutPage").then((module) => ({ default: module.AboutPage })));
 const AffiliateDisclosurePage = lazy(() => import("./pages/AffiliateDisclosurePage").then((module) => ({ default: module.AffiliateDisclosurePage })));
 const AreDataRemovalServicesWorthItPage = lazy(() => import("./pages/AreDataRemovalServicesWorthItPage").then((module) => ({ default: module.AreDataRemovalServicesWorthItPage })));
+const AreVpnsWorthItPage = lazy(() => import("./pages/AreVpnsWorthItPage").then((module) => ({ default: module.AreVpnsWorthItPage })));
 const BestDataRemovalServicesPage = lazy(() => import("./pages/BestDataRemovalServicesPage").then((module) => ({ default: module.BestDataRemovalServicesPage })));
 const BestFreePasswordManagersPage = lazy(() => import("./pages/BestFreePasswordManagersPage").then((module) => ({ default: module.BestFreePasswordManagersPage })));
 const BestVpnsForBeginnersPage = lazy(() => import("./pages/BestVpnsForBeginnersPage").then((module) => ({ default: module.BestVpnsForBeginnersPage })));
@@ -84,6 +85,7 @@ export default function App() {
             <Route path="reviews" element={<ReviewsIndexPage />} />
             <Route path="comparisons" element={<ComparisonsIndexPage />} />
             <Route path="are-data-removal-services-worth-it" element={<AreDataRemovalServicesWorthItPage />} />
+            <Route path="are-vpns-worth-it" element={<AreVpnsWorthItPage />} />
             <Route path="best-data-removal-services" element={<BestDataRemovalServicesPage />} />
             <Route path="best-free-password-managers" element={<BestFreePasswordManagersPage />} />
             <Route path="best-password-managers-for-beginners" element={<BestPasswordManagersForBeginnersPage />} />

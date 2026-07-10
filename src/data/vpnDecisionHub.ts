@@ -24,6 +24,12 @@ export const vpnDecisionHub = {
   ],
   needs: [
     {
+      title: "I am not sure I need a VPN",
+      recommendation: "Read Are VPNs Worth It?",
+      description: "Use this when you want a skeptical value decision before comparing products or paying for another subscription.",
+      href: "/are-vpns-worth-it"
+    },
+    {
       title: "I want the easiest all-around VPN",
       recommendation: "Start with NordVPN",
       description: "Best fit when you want one broadly capable mainstream VPN for everyday privacy, public Wi-Fi, streaming, and travel.",
@@ -98,6 +104,7 @@ export const vpnDecisionHub = {
     }
   ],
   learningPath: [
+    { title: "Are VPNs Worth It?", href: "/are-vpns-worth-it", description: "Decide whether a VPN solves a real privacy, travel, network, or location problem for you." },
     { title: "How VPNs Work", href: "/guides/how-vpns-work", description: "Learn what a VPN can and cannot protect." },
     { title: "Free VPN vs Paid VPN", href: "/guides/free-vpn-vs-paid", description: "Understand free-plan tradeoffs before installing a VPN." },
     { title: "VPN Buying Guide", href: "/guides/vpn-buying-guide", description: "Use a practical checklist for comparing providers." },
