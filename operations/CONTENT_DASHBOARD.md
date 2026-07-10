@@ -16,7 +16,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next planned article: Best Free Password Managers
+- Next planned article: Are VPNs Worth It?
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
@@ -25,7 +25,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | --- | ---: | --- |
 | Reviews | 11 | 3 VPN reviews, 5 password manager reviews, and 3 privacy tool reviews |
 | Comparisons | 12 | 3 VPN comparisons, 6 password manager comparisons, and 3 privacy tool comparisons |
-| Hubs / Guides | 12 | 3 decision hubs, 6 VPN guides, 1 password-manager buying guide, 1 data-removal decision guide, and 1 data-removal commercial investigation |
+| Hubs / Guides | 13 | 3 decision hubs, 6 VPN guides, 2 password-manager guides, 1 data-removal decision guide, and 1 data-removal commercial investigation |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
 
 ## Status Legend
@@ -45,6 +45,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | Article | Publication Status | Production URL | Content Commit | Deployment Status | Editorial QA | Desktop QA | Mobile QA | Affiliate QA | Evidence QA | Final Verdict | Last Verified |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Best Password Managers for Beginners | Final approved | `https://choosebettertech.com/best-password-managers-for-beginners` | `67c7a23` | Production deployment verified (`135f90f`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
+| Best Free Password Managers | Verified live | `https://choosebettertech.com/best-free-password-managers` | `7ab525d3f061e008b6a912fa4257cd8bbc8285df` | Production deployment Ready (`choose-better-tech-cuen099fz-aaron-s-evans-projects.vercel.app`) | Approved | Structural QA passed; visual QA pending external review | Structural QA passed; visual QA pending external review | Passed | Passed | VERIFIED LIVE - VISUAL QA PENDING | 2026-07-10 |
 | Are Data Removal Services Worth It? | Final approved | `https://choosebettertech.com/are-data-removal-services-worth-it` | `ddcd971a73bbbda09b13fe5138697e2311504064` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Best Data Removal Services | Final approved | `https://choosebettertech.com/best-data-removal-services` | `4ec71893f827c4e2bf53851af9acea801824109d` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 
@@ -72,6 +73,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Password Manager Decision Hub | `/password-managers` | Hub | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Best Password Managers for Beginners | `/best-password-managers-for-beginners` | Guide | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | Mixed / centralized resolver | 2026-07-10 | Recheck current plan limits, pricing, recovery options, platform support, affiliate CTA behavior, and official source facts before the next purchase-focused refresh |
+| Best Free Password Managers | `/best-free-password-managers` | Guide | N/A | Source assets complete | N/A | Yes | Verified live; external visual QA pending | Yes | Mixed / centralized resolver | 2026-07-10 | Monitor free-plan limits, device/session restrictions, passkey support, sharing, export behavior, and affiliate CTA behavior before the next refresh |
 | 1Password Review | `/reviews/1password-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-02 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Bitwarden Review | `/reviews/bitwarden-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-03 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | NordPass Review | `/reviews/nordpass-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | ACTIVE / CJ | 2026-07-03 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
@@ -152,6 +154,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | Production sitemap availability | Verified | `https://choosebettertech.com/sitemap.xml` is live and matches the repository sitemap as of 2026-07-10. |
 | IndexNow key file | Verified | `https://choosebettertech.com/344797edf51f48f38e9963412eff7a60.txt` is live and returns the expected key. |
 | IndexNow bulk URL submission | Reported complete | Current production sitemap URL set was submitted to `https://api.indexnow.org/IndexNow`; API returned HTTP 202 on 2026-07-10. Verify receipt in Bing Webmaster Tools. |
+| IndexNow submission for `https://choosebettertech.com/best-free-password-managers` | Reported complete | URL submitted to `https://api.indexnow.org/IndexNow`; API returned HTTP 200 on 2026-07-10. This confirms submission only, not indexing. |
 | Google Search Console submissions before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
 | Google Search Console submission for `https://choosebettertech.com/sitemap.xml` | Needs verification | Do not claim indexing or submission success without external Search Console evidence. |
 | Bing Webmaster Tools submission before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
@@ -193,7 +196,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 
 ## Next Production Priorities
 
-1. Prepare Best Free Password Managers.
+1. Prepare Are VPNs Worth It.
 2. Verify `https://choosebettertech.com/sitemap.xml` submission status in Google Search Console.
 3. Verify `https://choosebettertech.com/sitemap.xml` and IndexNow receipt status in Bing Webmaster Tools.
 4. Monitor indexing status per published URL without inferring indexation from sitemap or IndexNow submission.

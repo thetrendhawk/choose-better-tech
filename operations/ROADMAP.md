@@ -11,7 +11,7 @@ Last Updated: 2026-07-10
 | --- | --- | --- |
 | Phase 1 | Foundation | Operational, analytics, legal, and publishing systems are in place. |
 | Phase 2 | VPN Authority Cluster | Maintain the published beginner VPN cluster and plan targeted follow-up assets. |
-| Phase 3 | Password Manager Cluster | Maintain the published password-manager cluster and expand with free-plan guidance. |
+| Phase 3 | Password Manager Cluster | Maintain the published password-manager cluster, including free-plan guidance. |
 | Phase 4 | Data Removal Cluster | Maintain the completed data-removal cluster and monitor volatile plan/legal details. |
 | Phase 5 | Cloud Storage | Cover consumer and small-business cloud storage decisions. |
 | Phase 6 | Cybersecurity Tools | Expand into antivirus, device security, and privacy tools. |
@@ -112,7 +112,7 @@ Last Updated: 2026-07-10
 | 1Password vs NordPass | Published |
 | Proton Pass vs NordPass | Published |
 | 1Password vs Proton Pass | Published |
-| Best Free Password Managers | Next Up |
+| Best Free Password Managers | Published |
 | Password Manager vs Browser Passwords | Planned |
 | How Password Managers Actually Work | Planned |
 
@@ -265,6 +265,6 @@ Last Updated: 2026-07-10
 
 | Order | Work Item | Status | Notes |
 | ---: | --- | --- | --- |
-| 1 | Best Free Password Managers | Next Up | Next planned article; publishing date not scheduled. |
-| 2 | Are VPNs Worth It? | Planned | Future VPN decision guide. |
-| 3 | Free VPN vs Paid VPN | Published | Already live; treat near-term work as refresh, QA, or distribution follow-up rather than a new article build. |
+| 1 | Are VPNs Worth It? | Next Up | Next planned article; publishing date not scheduled. |
+| 2 | Free VPN vs Paid VPN | Published | Already live; treat near-term work as refresh, QA, or distribution follow-up rather than a new article build. |
+| 3 | Best Free VPNs | Planned | Future VPN guide; keep after Are VPNs Worth It unless roadmap priorities change. |
