@@ -29,6 +29,7 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 | 2026-07-10 | QA | Final desktop and mobile QA approvals recorded for recent publications | Best Password Managers for Beginners, Are Data Removal Services Worth It?, and Best Data Removal Services were marked final approved after production, editorial, desktop, mobile, affiliate, and evidence QA passed. |
 | 2026-07-10 | QA | Production verification requirement added to recent-publication approval records | Operational records now distinguish content commits from production deployment verification before final approval. |
 | 2026-07-10 | Operations | Operational dashboard reconciliation completed | Content calendar, KPI dashboard, project status, changelog, roadmap, and content dashboard reconciled against current repo routes, sitemap, git history, production URLs, and deployment records. |
+| 2026-07-10 | Indexing | IndexNow key hosted and production URL set submitted | Root key file added at `https://choosebettertech.com/344797edf51f48f38e9963412eff7a60.txt`; current production sitemap URL set submitted to IndexNow; API returned HTTP 202. Bing Webmaster Tools receipt and indexing remain external verification items. |
 
 ## Future Entries
 

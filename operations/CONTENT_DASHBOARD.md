@@ -150,6 +150,8 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | Item | Status | Notes |
 | --- | --- | --- |
 | Production sitemap availability | Verified | `https://choosebettertech.com/sitemap.xml` is live and matches the repository sitemap as of 2026-07-10. |
+| IndexNow key file | Verified | `https://choosebettertech.com/344797edf51f48f38e9963412eff7a60.txt` is live and returns the expected key. |
+| IndexNow bulk URL submission | Reported complete | Current production sitemap URL set was submitted to `https://api.indexnow.org/IndexNow`; API returned HTTP 202 on 2026-07-10. Verify receipt in Bing Webmaster Tools. |
 | Google Search Console submissions before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
 | Google Search Console submission for `https://choosebettertech.com/sitemap.xml` | Needs verification | Do not claim indexing or submission success without external Search Console evidence. |
 | Bing Webmaster Tools submission before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
@@ -193,8 +195,8 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 
 1. Prepare Best Free Password Managers.
 2. Verify `https://choosebettertech.com/sitemap.xml` submission status in Google Search Console.
-3. Verify `https://choosebettertech.com/sitemap.xml` submission status in Bing Webmaster Tools.
-4. Monitor indexing status per published URL without inferring indexation from sitemap presence.
+3. Verify `https://choosebettertech.com/sitemap.xml` and IndexNow receipt status in Bing Webmaster Tools.
+4. Monitor indexing status per published URL without inferring indexation from sitemap or IndexNow submission.
 5. Recheck volatile pricing, plan, coverage, and affiliate-status details before purchase-focused updates.
 6. Keep homepage curated as additional reviews and comparisons are published.
 7. Continue distribution and KPI baseline work only with verified external platform data.

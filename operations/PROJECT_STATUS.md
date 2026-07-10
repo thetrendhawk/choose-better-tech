@@ -71,6 +71,8 @@ These statuses require platform access or manual confirmation outside the reposi
 | --- | --- | --- |
 | Google Search Console sitemap submission | Needs verification | `https://choosebettertech.com/sitemap.xml` is live, but submission status is not verified here. |
 | Bing Webmaster Tools sitemap submission | Needs verification | `https://choosebettertech.com/sitemap.xml` is live, but submission status is not verified here. |
+| IndexNow key hosting | Verified | Root key file is live at `https://choosebettertech.com/344797edf51f48f38e9963412eff7a60.txt`. |
+| IndexNow URL submission | Reported complete | Current production sitemap URL set submitted on 2026-07-10; IndexNow API returned HTTP 202. Bing Webmaster Tools receipt still needs verification. |
 | URL indexing status | Needs verification | No indexing success is claimed in this dashboard. |
 | Social distribution | Not scheduled | Pinterest, Instagram, and LinkedIn distribution need separate scheduling or confirmation. |
 | KPI performance | Not measured | Traffic, conversion, email, and revenue metrics need external platform data. |
