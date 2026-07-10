@@ -3,19 +3,20 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-02
+Last Updated: 2026-07-10
 
 ## Roadmap Summary
 
 | Phase | Theme | Primary Outcome |
 | --- | --- | --- |
 | Phase 1 | Foundation | Operational, analytics, legal, and publishing systems are in place. |
-| Phase 2 | VPN Authority Cluster | Build topical authority around beginner VPN decisions. |
-| Phase 3 | Password Manager Cluster | Expand into password manager education, reviews, and comparisons. |
-| Phase 4 | Cloud Storage | Cover consumer and small-business cloud storage decisions. |
-| Phase 5 | Cybersecurity Tools | Expand into antivirus, device security, and privacy tools. |
-| Phase 6 | AI Productivity | Build authority around practical AI software decisions. |
-| Phase 7 | Scaling | Increase publishing velocity, revenue diversity, and operational maturity. |
+| Phase 2 | VPN Authority Cluster | Maintain the published beginner VPN cluster and plan targeted follow-up assets. |
+| Phase 3 | Password Manager Cluster | Maintain the published password-manager cluster and expand with free-plan guidance. |
+| Phase 4 | Data Removal Cluster | Maintain the completed data-removal cluster and monitor volatile plan/legal details. |
+| Phase 5 | Cloud Storage | Cover consumer and small-business cloud storage decisions. |
+| Phase 6 | Cybersecurity Tools | Expand into antivirus, device security, and privacy tools. |
+| Phase 7 | AI Productivity | Build authority around practical AI software decisions. |
+| Phase 8 | Scaling | Increase publishing velocity, revenue diversity, and operational maturity. |
 
 ## Phase 1: Foundation
 
@@ -32,19 +33,19 @@ Last Updated: 2026-07-02
 | Deliverable | Status |
 | --- | --- |
 | Website launch | Complete |
-| Google Search Console setup | Complete |
-| Google Analytics setup | Complete |
-| Bing Webmaster Tools setup | Complete |
+| Google Search Console setup | Reported complete |
+| Google Analytics setup | Reported complete |
+| Bing Webmaster Tools setup | Reported complete |
 | Initial VPN review | Complete |
 | Initial VPN guide | Complete |
-| Operations documentation framework | In Progress |
+| Operations documentation framework | Complete |
 
 ### Completion Checklist
 
-- [ ] Operations framework created.
+- [x] Operations framework created.
 - [ ] Canonical identity document imported.
 - [ ] Canonical affiliate playbook imported.
-- [ ] Initial KPI dashboard baseline recorded.
+- [x] Initial KPI dashboard baseline recorded.
 - [ ] Publishing checklist used for all new articles.
 
 ## Phase 2: VPN Authority Cluster
@@ -61,20 +62,28 @@ Last Updated: 2026-07-02
 | --- | --- |
 | Proton VPN Review | Published |
 | Best VPNs for Beginners | Published |
+| VPN Decision Hub | Published |
+| NordVPN Review | Published |
+| Surfshark Review | Published |
+| NordVPN vs Proton VPN | Published |
+| NordVPN vs Surfshark | Published |
+| Proton VPN vs Surfshark | Published |
+| How VPNs Work | Published |
+| Free VPN vs Paid VPN | Published |
+| VPN Buying Guide | Published |
+| VPN Myths | Published |
+| Is Proton VPN Free Good Enough? | Published |
 | Best Free VPNs | Planned |
-| Proton VPN Free vs Paid | Planned |
-| What Is a VPN? | Planned |
 | Best VPNs for Streaming | Planned |
-| Proton VPN vs NordVPN | Planned |
-| Proton VPN vs Surfshark | Planned |
+| Are VPNs Worth It? | Planned |
 | Best VPNs for Travel | Planned |
 | Do You Actually Need a VPN? | Planned |
 
 ### Completion Checklist
 
-- [ ] VPN cluster contains reviews, guides, comparisons, and explainers.
-- [ ] Every VPN article links to related VPN assets.
-- [ ] Affiliate disclosures are visible on commercial pages.
+- [x] VPN cluster contains reviews, guides, comparisons, and explainers.
+- [x] Every VPN article links to related VPN assets.
+- [x] Affiliate disclosures are visible on commercial pages.
 - [ ] Search indexing is monitored for every published article.
 - [ ] Refresh dates are assigned to each published article.
 
@@ -90,22 +99,63 @@ Last Updated: 2026-07-02
 
 | Deliverable | Status |
 | --- | --- |
-| Best Password Managers | Planned |
-| Bitwarden Review | Planned |
-| 1Password Review | Planned |
-| Proton Pass Review | Planned |
+| Password Manager Decision Hub | Published |
+| Best Password Managers for Beginners | Published |
+| Bitwarden Review | Published |
+| 1Password Review | Published |
+| NordPass Review | Published |
+| Proton Pass Review | Published |
+| RoboForm Review | Published |
+| Bitwarden vs 1Password | Published |
+| Bitwarden vs Proton Pass | Published |
+| Bitwarden vs NordPass | Published |
+| 1Password vs NordPass | Published |
+| Proton Pass vs NordPass | Published |
+| 1Password vs Proton Pass | Published |
+| Best Free Password Managers | Next Up |
 | Password Manager vs Browser Passwords | Planned |
 | How Password Managers Actually Work | Planned |
 
 ### Completion Checklist
 
-- [ ] Core comparison article published.
-- [ ] At least three product reviews published.
-- [ ] Beginner explainer content published.
-- [ ] Affiliate program research completed.
+- [x] Core comparison article published.
+- [x] At least three product reviews published.
+- [x] Beginner buying-guide content published.
+- [x] Affiliate program research completed where current records support active/inactive status.
 - [ ] Application log updated.
 
-## Phase 4: Cloud Storage
+## Phase 4: Data Removal Cluster
+
+### Objectives
+
+- Maintain a complete beginner-focused data-removal content cluster.
+- Monitor volatile legal, plan, coverage, privacy, and cancellation details.
+- Keep commercial guides evidence-based and separate from affiliate status.
+
+### Deliverables
+
+| Deliverable | Status |
+| --- | --- |
+| Data Removal Decision Hub | Published |
+| Incogni Review | Published |
+| Optery Review | Published |
+| DeleteMe Review | Published |
+| Incogni vs Optery | Published |
+| Incogni vs DeleteMe | Published |
+| Optery vs DeleteMe | Published |
+| Are Data Removal Services Worth It? | Published |
+| Best Data Removal Services | Published |
+
+### Completion Checklist
+
+- [x] Data-removal hub published.
+- [x] Three product reviews published.
+- [x] Three pairwise comparisons published.
+- [x] Decision guide and commercial investigation published.
+- [ ] Search indexing is monitored for every published article.
+- [ ] Volatile plan, country, custom-removal, cancellation, privacy, and legal details are refreshed before promotion.
+
+## Phase 5: Cloud Storage
 
 ### Objectives
 
@@ -131,7 +181,7 @@ Last Updated: 2026-07-02
 - [ ] Affiliate opportunities scored.
 - [ ] Performance reviewed after indexing.
 
-## Phase 5: Cybersecurity Tools
+## Phase 6: Cybersecurity Tools
 
 ### Objectives
 
@@ -157,7 +207,7 @@ Last Updated: 2026-07-02
 - [ ] Affiliate readiness reviewed before applications.
 - [ ] Refresh cadence assigned.
 
-## Phase 6: AI Productivity
+## Phase 7: AI Productivity
 
 ### Objectives
 
@@ -184,7 +234,7 @@ Last Updated: 2026-07-02
 - [ ] Affiliate opportunities researched.
 - [ ] Performance reviewed by cluster.
 
-## Phase 7: Scaling
+## Phase 8: Scaling
 
 ### Objectives
 
@@ -211,3 +261,10 @@ Last Updated: 2026-07-02
 - [ ] Content refresh calendar active.
 - [ ] Revenue and traffic trends reviewed together.
 
+## Near-Term Sequence
+
+| Order | Work Item | Status | Notes |
+| ---: | --- | --- | --- |
+| 1 | Best Free Password Managers | Next Up | Next planned article; publishing date not scheduled. |
+| 2 | Are VPNs Worth It? | Planned | Future VPN decision guide. |
+| 3 | Free VPN vs Paid VPN | Published | Already live; treat near-term work as refresh, QA, or distribution follow-up rather than a new article build. |

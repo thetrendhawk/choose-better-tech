@@ -11,11 +11,12 @@
 
 ## Current Strategic Focus
 
-Post-cluster QA and maintenance for:
+Traffic execution, cluster expansion, and post-publication maintenance for:
 
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
+- Next planned article: Best Free Password Managers
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
@@ -146,11 +147,13 @@ Post-cluster QA and maintenance for:
 
 ## Search Console / Sitemap Submissions
 
-- Google Search Console submissions were completed for earlier priority pages before the primary-domain migration.
-- Submit the new `https://choosebettertech.com/sitemap.xml` property/sitemap after deployment.
-- Bing `sitemap.xml` was submitted before the primary-domain migration.
-- Submit the new `https://choosebettertech.com/sitemap.xml` to Bing Webmaster Tools after deployment.
-- Exact submission timestamps are not recorded in this dashboard.
+| Item | Status | Notes |
+| --- | --- | --- |
+| Production sitemap availability | Verified | `https://choosebettertech.com/sitemap.xml` is live and matches the repository sitemap as of 2026-07-10. |
+| Google Search Console submissions before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
+| Google Search Console submission for `https://choosebettertech.com/sitemap.xml` | Needs verification | Do not claim indexing or submission success without external Search Console evidence. |
+| Bing Webmaster Tools submission before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
+| Bing Webmaster Tools submission for `https://choosebettertech.com/sitemap.xml` | Needs verification | Do not claim indexing or submission success without external Bing Webmaster Tools evidence. |
 
 ## Volatile Information Watchlist
 
@@ -188,13 +191,13 @@ Post-cluster QA and maintenance for:
 
 ## Next Production Priorities
 
-1. Deploy the canonical-domain migration to production.
-2. Submit `https://choosebettertech.com/sitemap.xml` in Google Search Console.
-3. Submit `https://choosebettertech.com/sitemap.xml` in Bing Webmaster Tools.
-4. Confirm old temporary domains are not treated as canonical after deployment.
+1. Prepare Best Free Password Managers.
+2. Verify `https://choosebettertech.com/sitemap.xml` submission status in Google Search Console.
+3. Verify `https://choosebettertech.com/sitemap.xml` submission status in Bing Webmaster Tools.
+4. Monitor indexing status per published URL without inferring indexation from sitemap presence.
 5. Recheck volatile pricing, plan, coverage, and affiliate-status details before purchase-focused updates.
 6. Keep homepage curated as additional reviews and comparisons are published.
-7. Start next cluster planning only after volatile-data review.
+7. Continue distribution and KPI baseline work only with verified external platform data.
 
 ## Notes
 
