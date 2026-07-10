@@ -10,7 +10,7 @@ Last Updated: 2026-07-10
 | Field | Status |
 | --- | --- |
 | Phase | Traffic execution and cluster expansion |
-| Summary | Current site inventory, production deployment, and recent publication QA are reconciled; next work shifts to distribution, indexing verification, KPI baselines, and the next VPN decision article. |
+| Summary | Current site inventory, production deployment, and recent publication QA are reconciled; next work shifts to distribution, indexing verification, KPI baselines, and the next VPN existing-page optimization. |
 | Health | On Track |
 
 ## Current Sprint
@@ -31,15 +31,16 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Priority | Owner | Status |
 | --- | --- | --- |
 | Maintain current operational dashboards | Choose Better Tech | Active |
-| Prepare Are VPNs Worth It | Choose Better Tech | Next Up |
+| Run Free VPN vs Paid VPN evidence update | Choose Better Tech | Next Up |
 
 ## Current Task
 
 | Task | Status | Notes |
 | --- | --- | --- |
 | Operations documentation framework | Complete | Repo evidence shows active SOPs, dashboards, templates, and content inventory records. |
-| Best Free Password Managers | Verified live | Production URL verified; final desktop/mobile visual QA remains pending external review. |
-| Are VPNs Worth It | Planned | Next article; publishing date not scheduled. |
+| Best Free Password Managers | Final approved | Production URL verified; external desktop/mobile visual QA completed and final approval recorded. |
+| Are VPNs Worth It | Verified live | Production URL verified; desktop/mobile structural QA passed; external visual QA remains pending. |
+| Free VPN vs Paid VPN evidence update | Planned | Existing-page optimization; do not create a duplicate article. |
 
 ## Current Blockers
 
@@ -54,9 +55,9 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | --- | ---: | ---: | --- |
 | Reviews Published | 11 | TBD | Weekly |
 | Comparisons Published | 12 | TBD | Weekly |
-| Hubs / Guides Published | 13 | TBD | Weekly |
+| Hubs / Guides Published | 14 | TBD | Weekly |
 | Authority Pages Published | 3 | TBD | Weekly |
-| Total Editorial Content Assets | 36 | TBD | Weekly |
+| Total Editorial Content Assets | 37 | TBD | Weekly |
 | Indexed Assets | Needs verification | TBD | Weekly |
 | Organic Clicks | Not measured | TBD | Weekly |
 | Organic Impressions | Not measured | TBD | Weekly |
@@ -75,6 +76,7 @@ These statuses require platform access or manual confirmation outside the reposi
 | IndexNow key hosting | Verified | Root key file is live at `https://choosebettertech.com/344797edf51f48f38e9963412eff7a60.txt`. |
 | IndexNow URL submission | Reported complete | Current production sitemap URL set submitted on 2026-07-10; IndexNow API returned HTTP 202. Bing Webmaster Tools receipt still needs verification. |
 | IndexNow submission for Best Free Password Managers | Reported complete | `https://choosebettertech.com/best-free-password-managers` submitted on 2026-07-10; IndexNow API returned HTTP 200. Indexing still needs external verification. |
+| IndexNow submission for Are VPNs Worth It | Reported complete | `https://choosebettertech.com/are-vpns-worth-it` submitted on 2026-07-10; IndexNow API returned HTTP 200. Indexing still needs external verification. |
 | URL indexing status | Needs verification | No indexing success is claimed in this dashboard. |
 | Social distribution | Not scheduled | Pinterest, Instagram, and LinkedIn distribution need separate scheduling or confirmation. |
 | KPI performance | Not measured | Traffic, conversion, email, and revenue metrics need external platform data. |
@@ -88,8 +90,9 @@ These statuses require platform access or manual confirmation outside the reposi
 | 2026-07-10 | Best Password Managers for Beginners published and production deployment repaired | Content commit `67c7a23`; production trigger/deployment commit `135f90f`; final QA approved. |
 | 2026-07-10 | Are Data Removal Services Worth It? completed and final QA approved | Content/completion commit `ddcd971a73bbbda09b13fe5138697e2311504064`; production deployment verified. |
 | 2026-07-10 | Best Data Removal Services published and final QA approved | Content commit `4ec71893f827c4e2bf53851af9acea801824109d`; production deployment verified. |
-| 2026-07-10 | Best Free Password Managers published and production verified | Content commit `7ab525d3f061e008b6a912fa4257cd8bbc8285df`; production deployment Ready; external desktop/mobile visual QA remains pending. |
-| 2026-07-10 | Current live content inventory verified | 11 reviews, 12 comparisons, 13 hubs/guides, and 3 authority pages. |
+| 2026-07-10 | Best Free Password Managers published and final QA approved | Content commit `7ab525d3f061e008b6a912fa4257cd8bbc8285df`; production deployment Ready; external desktop/mobile visual QA completed and final approval recorded. |
+| 2026-07-10 | Are VPNs Worth It published and production verified | Content commit `50492d39388490ee214dbb4f3de685d0d9e6cf20`; production deployment Ready; production URL, sitemap entry, route bundle, and IndexNow submission verified. External visual QA remains pending. |
+| 2026-07-10 | Current live content inventory verified | 11 reviews, 12 comparisons, 14 hubs/guides, and 3 authority pages. |
 | TBD | Google Search Console configured | Indexing and search visibility tracking enabled. |
 | TBD | Google Analytics configured | Traffic measurement enabled. |
 | TBD | Bing Webmaster Tools configured | Bing indexing and visibility tracking enabled. |
@@ -102,7 +105,7 @@ These statuses require platform access or manual confirmation outside the reposi
 
 | Milestone | Target Date | Acceptance Criteria |
 | --- | --- | --- |
-| Are VPNs Worth It | TBD | Article source facts verified, implementation complete, production URL verified, and QA status recorded without inventing indexing or performance data. |
+| Free VPN vs Paid VPN evidence update | TBD | Existing route reviewed, current evidence verified, production URL reverified, and QA status recorded without inventing indexing or performance data. |
 
 ## Decision Log
 

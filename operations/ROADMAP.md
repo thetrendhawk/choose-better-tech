@@ -10,7 +10,7 @@ Last Updated: 2026-07-10
 | Phase | Theme | Primary Outcome |
 | --- | --- | --- |
 | Phase 1 | Foundation | Operational, analytics, legal, and publishing systems are in place. |
-| Phase 2 | VPN Authority Cluster | Maintain the published beginner VPN cluster and plan targeted follow-up assets. |
+| Phase 2 | VPN Authority Cluster | Maintain the published beginner VPN cluster, refresh existing guide assets, and plan targeted follow-up assets. |
 | Phase 3 | Password Manager Cluster | Maintain the published password-manager cluster, including free-plan guidance. |
 | Phase 4 | Data Removal Cluster | Maintain the completed data-removal cluster and monitor volatile plan/legal details. |
 | Phase 5 | Cloud Storage | Cover consumer and small-business cloud storage decisions. |
@@ -73,9 +73,10 @@ Last Updated: 2026-07-10
 | VPN Buying Guide | Published |
 | VPN Myths | Published |
 | Is Proton VPN Free Good Enough? | Published |
+| Are VPNs Worth It? | Published |
+| Free VPN vs Paid VPN evidence update | Next Up |
 | Best Free VPNs | Planned |
 | Best VPNs for Streaming | Planned |
-| Are VPNs Worth It? | Planned |
 | Best VPNs for Travel | Planned |
 | Do You Actually Need a VPN? | Planned |
 
@@ -84,6 +85,7 @@ Last Updated: 2026-07-10
 - [x] VPN cluster contains reviews, guides, comparisons, and explainers.
 - [x] Every VPN article links to related VPN assets.
 - [x] Affiliate disclosures are visible on commercial pages.
+- [x] Value-decision guide published without duplicating VPN buying, myths, or free-versus-paid intent.
 - [ ] Search indexing is monitored for every published article.
 - [ ] Refresh dates are assigned to each published article.
 
