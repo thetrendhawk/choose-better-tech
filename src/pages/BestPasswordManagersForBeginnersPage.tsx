@@ -333,6 +333,7 @@ export function BestPasswordManagersForBeginnersPage() {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" href="#quick-verdict">See Quick Verdict</a>
               <InternalLinkButton href="/password-managers">Open Password Manager Hub</InternalLinkButton>
+              <InternalLinkButton href="/best-free-password-managers">Compare Free Plans</InternalLinkButton>
             </div>
           </div>
 

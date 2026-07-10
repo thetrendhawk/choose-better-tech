@@ -221,6 +221,7 @@ export const roboFormReview: ReviewPageContent = {
     { question: "Is RoboForm better than NordPass?", answer: "It depends. RoboForm is stronger for form filling and low-cost personal use in the approved research, while NordPass may fit Nord ecosystem users and households that need six family seats." }
   ],
   relatedGuides: [
+    { title: "Best Free Password Managers", href: "/best-free-password-managers", description: "Compare RoboForm Free against Bitwarden Free, Proton Pass Free, NordPass Free, and browser-built-in managers." },
     { title: "Best Password Managers for Beginners", href: "/best-password-managers-for-beginners", description: "Compare RoboForm against 1Password, Bitwarden, NordPass, and Proton Pass by beginner fit." },
     { title: "Password Manager Decision Hub", href: "/password-managers", description: "Compare RoboForm against the current password-manager paths by fit." },
     { title: "1Password Review", href: "/reviews/1password-review", description: "Compare RoboForm against a polished premium password manager with Travel Mode and mature family workflows." },

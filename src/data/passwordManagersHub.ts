@@ -75,7 +75,7 @@ export const passwordManagersHub = {
       title: "I want a free password manager option",
       recommendation: "Start with Bitwarden",
       description: "Bitwarden has the strongest free-plan story in the approved research, while Proton Pass remains compelling for alias-focused privacy users.",
-      href: "/reviews/bitwarden-review"
+      href: "/best-free-password-managers"
     },
     {
       title: "I travel and want extra vault control",
@@ -166,6 +166,7 @@ export const passwordManagersHub = {
     }
   ],
   learningPath: [
+    { title: "Best Free Password Managers", href: "/best-free-password-managers", description: "Compare Bitwarden, Proton Pass, NordPass, RoboForm, and browser-built-in managers by free-plan limits and long-term usability." },
     { title: "Best Password Managers for Beginners", href: "/best-password-managers-for-beginners", description: "Compare the five current password-manager options by ease of use, free-plan value, privacy, recovery, and everyday fit." },
     { title: "How We Review Software", href: "/about/how-we-review-software", description: "Learn how Choose Better Tech separates verified facts, vendor claims, independent findings, and open questions." },
     { title: "Affiliate Disclosure", href: "/affiliate-disclosure", description: "Understand how affiliate relationships are disclosed without controlling editorial conclusions." },

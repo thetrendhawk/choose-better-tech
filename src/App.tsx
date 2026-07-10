@@ -8,6 +8,7 @@ const AboutPage = lazy(() => import("./pages/AboutPage").then((module) => ({ def
 const AffiliateDisclosurePage = lazy(() => import("./pages/AffiliateDisclosurePage").then((module) => ({ default: module.AffiliateDisclosurePage })));
 const AreDataRemovalServicesWorthItPage = lazy(() => import("./pages/AreDataRemovalServicesWorthItPage").then((module) => ({ default: module.AreDataRemovalServicesWorthItPage })));
 const BestDataRemovalServicesPage = lazy(() => import("./pages/BestDataRemovalServicesPage").then((module) => ({ default: module.BestDataRemovalServicesPage })));
+const BestFreePasswordManagersPage = lazy(() => import("./pages/BestFreePasswordManagersPage").then((module) => ({ default: module.BestFreePasswordManagersPage })));
 const BestVpnsForBeginnersPage = lazy(() => import("./pages/BestVpnsForBeginnersPage").then((module) => ({ default: module.BestVpnsForBeginnersPage })));
 const BestPasswordManagersForBeginnersPage = lazy(() => import("./pages/BestPasswordManagersForBeginnersPage").then((module) => ({ default: module.BestPasswordManagersForBeginnersPage })));
 const BitwardenReviewPage = lazy(() => import("./pages/BitwardenReviewPage").then((module) => ({ default: module.BitwardenReviewPage })));
@@ -84,6 +85,7 @@ export default function App() {
             <Route path="comparisons" element={<ComparisonsIndexPage />} />
             <Route path="are-data-removal-services-worth-it" element={<AreDataRemovalServicesWorthItPage />} />
             <Route path="best-data-removal-services" element={<BestDataRemovalServicesPage />} />
+            <Route path="best-free-password-managers" element={<BestFreePasswordManagersPage />} />
             <Route path="best-password-managers-for-beginners" element={<BestPasswordManagersForBeginnersPage />} />
             <Route path="guides/best-vpns-for-beginners" element={<BestVpnsForBeginnersPage />} />
             <Route path="guides/how-vpns-work" element={<VpnGuidePage slug="how-vpns-work" />} />

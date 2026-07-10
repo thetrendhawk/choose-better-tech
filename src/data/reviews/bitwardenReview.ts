@@ -220,6 +220,7 @@ export const bitwardenReview: ReviewPageContent = {
     { question: "Is Bitwarden worth paying for?", answer: "Often yes if you need integrated TOTP, attachments, emergency access, advanced two-step login options, vault-health tools, broader family sharing, or business controls. Many casual users may be fine on the free plan." }
   ],
   relatedGuides: [
+    { title: "Best Free Password Managers", href: "/best-free-password-managers", description: "Compare Bitwarden Free against Proton Pass Free, NordPass Free, RoboForm Free, and browser-built-in managers." },
     { title: "Best Password Managers for Beginners", href: "/best-password-managers-for-beginners", description: "Compare Bitwarden against 1Password, NordPass, Proton Pass, and RoboForm by beginner fit." },
     { title: "Password Manager Decision Hub", href: "/password-managers", description: "Compare Bitwarden against the existing password-manager paths by fit." },
     { title: "Bitwarden vs 1Password", href: "/comparisons/bitwarden-vs-1password", description: "Compare Bitwarden free value, transparency, and self-hosting against 1Password premium polish and family workflows." },

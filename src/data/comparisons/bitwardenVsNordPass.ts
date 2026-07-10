@@ -173,6 +173,7 @@ export const bitwardenVsNordPassComparison = {
     }
   ],
   relatedLinks: [
+    { title: "Best Free Password Managers", href: "/best-free-password-managers", description: "Compare Bitwarden Free and NordPass Free against other free password-manager options." },
     { title: "Bitwarden Review", href: "/reviews/bitwarden-review", description: "Read the full Bitwarden review." },
     { title: "NordPass Review", href: "/reviews/nordpass-review", description: "Read the full NordPass review." },
     { title: "Best Password Managers for Beginners", href: "/best-password-managers-for-beginners", description: "Compare the main beginner password-manager options by fit." },

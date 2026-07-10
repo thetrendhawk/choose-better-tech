@@ -173,6 +173,7 @@ export const bitwardenVsProtonPassComparison = {
     }
   ],
   relatedLinks: [
+    { title: "Best Free Password Managers", href: "/best-free-password-managers", description: "Compare Bitwarden Free and Proton Pass Free against other free password-manager options." },
     { title: "Bitwarden Review", href: "/reviews/bitwarden-review", description: "Read the full Bitwarden review." },
     { title: "Proton Pass Review", href: "/reviews/proton-pass-review", description: "Read the full Proton Pass review." },
     { title: "Best Password Managers for Beginners", href: "/best-password-managers-for-beginners", description: "Compare the main beginner password-manager options by fit." },
