@@ -115,34 +115,71 @@ const judgingCriteria = [
   "Limitations: look for plain language about public records, search engines, social media, forums, and original sources."
 ];
 
-const faqItems = [
+const questionsBeforePaying = [
+  "Does it cover the sites currently exposing me?",
+  "How does it count covered sites?",
+  "Does it repeat requests?",
+  "Are custom removals included?",
+  "Can I see evidence or status reports?",
+  "What information must I provide?",
+  "What happens to my information after cancellation?",
+  "Can I delete my account and associated records?",
+  "Is the price introductory?",
+  "Does it operate where I live?"
+];
+
+const decisionTestItems = [
+  "My information appears on more than five sites.",
+  "It has returned after removal.",
+  "I have multiple former addresses, emails, phone numbers, or aliases.",
+  "I have a personal safety concern.",
+  "I cannot commit several hours to opt-outs.",
+  "I want recurring monitoring.",
+  "I need family coverage.",
+  "I am willing to pay for convenience rather than guaranteed completeness."
+];
+
+const faqItems: Array<{ question: string; answer: string; link?: { href: string; label: string } }> = [
   {
-    question: "Are data removal services worth it?",
-    answer: "They can be worth paying for when you have broad exposure, limited time, elevated privacy concerns, or want ongoing monitoring and repeated removals. They are less compelling when you only have a few listings and are willing to handle opt-outs manually."
+    question: "Do data removal services really work?",
+    answer: "They can reduce exposure on supported data brokers and people-search sites, but results vary and removals may not last. Consumer Reports found manual opt-outs more effective overall than the services in its limited 2024 people-search study. A paid service's clearest value is discovery, delegation, reporting, and repeated maintenance."
   },
   {
-    question: "Can a data removal service delete me from the internet?",
-    answer: "No. These services can reduce exposure on supported data brokers and people-search sites, but they cannot erase every original source, public record, news item, social post, forum page, copied record, or search result."
+    question: "Can I remove my information for free?",
+    answer: "Often, yes. Many brokers and people-search sites provide free opt-out processes, and eligible government and search-engine tools are also free. The tradeoff is the time needed to find listings, verify your identity, track requests, and repeat them."
   },
   {
-    question: "Is manual opt-out better than paying?",
-    answer: "Sometimes. Consumer Reports found manual opt-outs performed better overall than the tested services in its 2024 people-search study, although manual work takes more time and is harder to repeat at scale."
+    question: "Can these services remove me completely from the internet?",
+    answer: "No. They can reduce exposure on supported brokers and people-search sites, but they cannot erase every original source, public record, news item, social post, forum page, copied record, or search result."
   },
   {
-    question: "Will my information come back after removal?",
+    question: "Why does my information come back?",
     answer: "It can. People-search sites and brokers may refresh from source data, duplicate records may remain, and suppression rules may not stop every future listing. This is why recurring monitoring matters."
   },
   {
-    question: "Can these services remove public records?",
-    answer: "Usually no. Public, court, and government records are different from broker listings. Removing a broker copy does not necessarily remove the original public source."
+    question: "How long do removals take?",
+    answer: "There is no reliable universal timeline. It depends on the broker, request method, identity verification, applicable law, provider workflow, and whether the listing is matched correctly. Treat any provider timeline as a plan-specific claim, not a guarantee."
   },
   {
-    question: "Can these services remove Google results?",
-    answer: "They may help remove the source page from a broker or submit limited search-cache requests where eligible, but Google Search removal is separate from deleting content at the original source."
+    question: "Is it safe to give a removal company my personal information?",
+    answer: "It creates a real privacy tradeoff because the provider needs identifying details to find and match records. Before paying, review what it collects, why it needs each field, its retention and deletion rules, account security, and what happens after cancellation."
   },
   {
-    question: "Which service should I start with?",
-    answer: "Use the Choose Better Tech data-removal hub if you are comparing services. In short: Incogni is the simple automation path, Optery is the proof/reporting path, and DeleteMe is the human-assisted support path."
+    question: "What happens when I cancel?",
+    answer: "Cancellation commonly ends future monitoring, rescans, and repeated requests, although exact consequences vary by provider and plan. Previously removed listings can return. Check access, retention, and account-deletion terms before subscribing."
+  },
+  {
+    question: "Do these services work outside the United States?",
+    answer: "Some do, but eligibility, broker coverage, and available legal rights vary by country and region. Confirm that the provider operates where you live and supports the specific sites exposing your information."
+  },
+  {
+    question: "Can they remove court records or news articles?",
+    answer: "Usually not. Court records, government pages, news coverage, forums, social posts, and original sources follow different rules. Removing a broker's copy or a search result does not delete the underlying record."
+  },
+  {
+    question: "Which data removal service is best?",
+    answer: "There is no universal winner. The better fit depends on the sites exposing you, your location, desired reporting, need for custom or human-assisted work, family coverage, privacy terms, and budget.",
+    link: { href: "/data-removal", label: "Compare fit-based options in the Data Removal Hub" }
   }
 ];
 
@@ -413,6 +450,41 @@ export function AreDataRemovalServicesWorthItPage() {
       </Section>
 
       <Section>
+        <SectionHeading eyebrow="Before you subscribe" title="Questions to Ask Before Paying" description="Get specific answers in writing when a provider's plan page or privacy policy is unclear." />
+        <div className="mt-8 grid gap-4 sm:grid-cols-2">
+          {questionsBeforePaying.map((question, index) => (
+            <div key={question} className="flex gap-4 rounded-lg border border-slate-200 bg-white p-5 shadow-soft">
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-brand-50 text-sm font-bold text-brand-700">{index + 1}</span>
+              <p className="pt-1 text-sm font-semibold leading-6 text-slate-800">{question}</p>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      <Section className="bg-slate-50">
+        <SectionHeading eyebrow="Editorial self-assessment" title="Practical Decision Test" description="Give yourself one point for each statement that applies." />
+        <div className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,1fr)_22rem]">
+          <ol className="grid gap-3 rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
+            {decisionTestItems.map((item, index) => (
+              <li key={item} className="flex gap-3 text-sm leading-6 text-slate-700">
+                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-brand-50 text-xs font-bold text-brand-700">{index + 1}</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ol>
+          <aside className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
+            <h3 className="text-lg font-bold text-slate-950">Interpret your score</h3>
+            <dl className="mt-5 grid gap-4 text-sm leading-6">
+              <div><dt className="font-bold text-slate-950">0–2 points</dt><dd className="text-slate-700">Start manually.</dd></div>
+              <div><dt className="font-bold text-slate-950">3–5 points</dt><dd className="text-slate-700">A paid service may be worthwhile.</dd></div>
+              <div><dt className="font-bold text-slate-950">6–8 points</dt><dd className="text-slate-700">A reputable ongoing service is worth serious consideration.</dd></div>
+            </dl>
+            <p className="mt-5 border-t border-slate-200 pt-5 text-xs leading-5 text-slate-600">This is a Choose Better Tech editorial decision aid—not a validated risk assessment, safety tool, or scientific score.</p>
+          </aside>
+        </div>
+      </Section>
+
+      <Section>
         <SectionHeading eyebrow="Service examples" title="Where Incogni, Optery, and DeleteMe Fit" description="These are examples from the existing Choose Better Tech data-removal cluster, not a new ranked roundup." />
         <div className="mt-8 grid gap-5 lg:grid-cols-3">
           <article className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
@@ -447,6 +519,7 @@ export function AreDataRemovalServicesWorthItPage() {
                 {faq.question}
               </h3>
               <p className="mt-3 text-base leading-7 text-slate-700">{faq.answer}</p>
+              {faq.link ? <Link className="mt-4 inline-flex text-sm font-semibold text-brand-700 hover:text-brand-800" to={faq.link.href}>{faq.link.label}</Link> : null}
             </article>
           ))}
         </div>
