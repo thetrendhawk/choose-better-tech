@@ -16,7 +16,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next operational action: complete external desktop/mobile visual QA for Best VPNs for Families
+- Next operational action: verify indexing signals for newly published URLs and plan the next distinct password-manager guide
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
@@ -25,7 +25,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | --- | ---: | --- |
 | Reviews | 11 | 3 VPN reviews, 5 password manager reviews, and 3 privacy tool reviews |
 | Comparisons | 12 | 3 VPN comparisons, 6 password manager comparisons, and 3 privacy tool comparisons |
-| Hubs / Guides | 19 | 3 decision hubs, 12 VPN guides, 2 password-manager guides, 1 data-removal decision guide, and 1 data-removal commercial investigation |
+| Hubs / Guides | 20 | 3 decision hubs, 12 VPN guides, 3 password-manager guides, 1 data-removal decision guide, and 1 data-removal commercial investigation |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
 
 ## Status Legend
@@ -46,13 +46,14 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Best Password Managers for Beginners | Final approved | `https://choosebettertech.com/best-password-managers-for-beginners` | `67c7a23` | Production deployment verified (`135f90f`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Best Free Password Managers | Final approved | `https://choosebettertech.com/best-free-password-managers` | `7ab525d3f061e008b6a912fa4257cd8bbc8285df` | Production deployment verified (`choose-better-tech-cuen099fz-aaron-s-evans-projects.vercel.app`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
+| Are Password Managers Safe? | Final approved | `https://choosebettertech.com/are-password-managers-safe` | `4b37e69923d962be65493a65559df02c2732bf55` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | FINAL APPROVED - ESTABLISHED LAYOUT PRECEDENT | 2026-07-11 |
 | Are VPNs Worth It? | Final approved | `https://choosebettertech.com/are-vpns-worth-it` | `50492d39388490ee214dbb4f3de685d0d9e6cf20` | Production deployment Ready (`choose-better-tech-gejsjzbrr-aaron-s-evans-projects.vercel.app`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Free VPN vs Paid VPN | Final approved | `https://choosebettertech.com/guides/free-vpn-vs-paid` | `8d25cb36aa420e8b597278ebfe0f3fd1805d0bda` | Production deployment Ready (`choose-better-tech-on30jcmij-aaron-s-evans-projects.vercel.app`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
 | Best Free VPNs | Final approved | `https://choosebettertech.com/best-free-vpns` | `b08d585539a077aee5932778e5d4acaa65f064fd` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
 | Best VPNs for Travel | Final approved | `https://choosebettertech.com/best-vpns-for-travel` | `5fe319dabbe08f96b8b64b9af03a53014f7fb69d` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
 | Best VPNs for Students | Final approved | `https://choosebettertech.com/best-vpns-for-students` | `5cd89630ffc652fe053cfada5b858d608421f43f` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
 | VPN Privacy Guide | Final approved | `https://choosebettertech.com/guides/vpn-privacy-guide` | `ba75870932a57a94814b4ed3398c4dd9ba063365` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
-| Best VPNs for Families | Verified live; visual QA pending | `https://choosebettertech.com/best-vpns-for-families` | `ca296e14b1c17bd31db2bb28e58e7f9141f4f062` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | VERIFIED LIVE - VISUAL QA PENDING | 2026-07-11 |
+| Best VPNs for Families | Final approved | `https://choosebettertech.com/best-vpns-for-families` | `ca296e14b1c17bd31db2bb28e58e7f9141f4f062` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
 | Are Data Removal Services Worth It? | Final approved | `https://choosebettertech.com/are-data-removal-services-worth-it` | `ddcd971a73bbbda09b13fe5138697e2311504064` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Best Data Removal Services | Final approved | `https://choosebettertech.com/best-data-removal-services` | `4ec71893f827c4e2bf53851af9acea801824109d` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 
@@ -67,6 +68,10 @@ External visual QA for `Best VPNs for Travel` covered desktop and mobile hero, q
 External visual QA for `Best VPNs for Students` covered desktop and mobile hero, quick recommendations, comparison table, all provider sections, student-scenario guidance, free-VPN guidance, verified student-discount guidance, campus and dorm guidance, streaming and gaming guidance, study-abroad guidance, short-term versus long-term plans, student checklist, FAQ, source notes, final recommendation, newsletter/footer, responsive table containment, and no page-level horizontal overflow. Final verdict: APPROVED.
 
 External visual QA for `VPN Privacy Guide` covered desktop and mobile hero, quick answer, visibility comparison table, logging section, privacy-policy section, audit guidance, jurisdiction and ownership guidance, open-source and transparency guidance, DNS/IPv6/WebRTC/leak sections, provider examples, privacy red flags, checklist, FAQ, sources, final takeaway, disclosure, newsletter/footer, responsive table containment, and no page-level horizontal overflow. Editorial, affiliate, evidence, desktop, and mobile QA passed. Final verdict: APPROVED.
+
+External visual QA for `Best VPNs for Families` covered desktop/mobile hero, quick recommendations, comparison table, provider sections, household scenarios, parental-control guidance, unlimited-device explanation, smart-TV/streaming-device guidance, gaming guidance, children-device guidance, family-travel guidance, router guidance, free-VPN guidance, checklist, FAQ, sources, final recommendation, disclosure, newsletter/footer, and no page-level horizontal overflow. Final verdict: APPROVED.
+
+`Are Password Managers Safe?` final approval used established layout precedent rather than separate external screenshot QA because the page introduced no shared component or global style changes, uses existing article layout patterns, passed desktop and 390px mobile structural rendering, passed FAQ/schema parity, and showed no page-level horizontal overflow. Final verdict: FINAL APPROVED - ESTABLISHED LAYOUT PRECEDENT.
 
 ## VPN Cluster Asset Inventory
 
@@ -88,7 +93,7 @@ External visual QA for `VPN Privacy Guide` covered desktop and mobile hero, quic
 | Best VPNs for Students | `/best-vpns-for-students` | Guide | N/A | Current official, student-discount, campus-policy, and guidance sources checked | N/A | Yes | Final approved | Yes | Mixed / centralized resolver | 2026-07-11 | Production URL, direct refresh, H1, quick recommendations, comparison table, all six provider sections, student scenarios, free-VPN guidance, discount guidance, campus/dorm guidance, streaming/gaming guidance, study-abroad guidance, checklist, FAQ/schema parity, affiliate isolation, sitemap entry, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
 | Best VPNs for Travel | `/best-vpns-for-travel` | Guide | N/A | Current official and guidance sources checked | N/A | Yes | Final approved | Yes | Mixed / centralized resolver | 2026-07-11 | Production URL, direct refresh, quick verdict, comparison table, all provider sections, FAQ, affiliate isolation, sitemap entry, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
 | VPN Privacy Guide | `/guides/vpn-privacy-guide` | Guide | N/A | `docs/research/vpn-privacy-guide-research.md` | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-11 | Production URL, direct refresh, cache-bypassed fetch, H1, quick answer, visibility comparison table, logging, privacy policy, audits, jurisdiction, ownership, open-source, transparency, DNS/IPv6/WebRTC/leaks, provider examples, red flags, checklist, FAQ/schema parity, final takeaway, disclosure, newsletter/footer, internal links, affiliate isolation, sitemap entry, IndexNow submission, desktop/mobile structural QA, and external visual QA complete. |
-| Best VPNs for Families | `/best-vpns-for-families` | Guide | N/A | `docs/research/best-vpns-for-families-research.md` | N/A | Yes | Verified live; external visual QA pending | Yes | Mixed / centralized resolver | 2026-07-11 | Production URL, direct refresh, H1, quick recommendations, comparison table, all seven provider sections, household scenarios, parental-control caveat, unlimited-device guidance, smart-TV/streaming-device guidance, gaming guidance, child-device guidance, family travel guidance, router guidance, free-VPN guidance, checklist, FAQ/schema parity, internal links, affiliate isolation, sitemap entry, IndexNow submission, desktop structural QA, and mobile no-overflow checks passed. External visual QA pending. |
+| Best VPNs for Families | `/best-vpns-for-families` | Guide | N/A | `docs/research/best-vpns-for-families-research.md` | N/A | Yes | Final approved | Yes | Mixed / centralized resolver | 2026-07-11 | Production URL, direct refresh, H1, quick recommendations, comparison table, all seven provider sections, household scenarios, parental-control caveat, unlimited-device guidance, smart-TV/streaming-device guidance, gaming guidance, child-device guidance, family travel guidance, router guidance, free-VPN guidance, checklist, FAQ/schema parity, internal links, affiliate isolation, sitemap entry, IndexNow submission, desktop structural QA, mobile no-overflow checks, and external visual QA complete. |
 | VPN Myths | `/guides/vpn-myths` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Is Proton VPN Free Good Enough? | `/guides/is-proton-vpn-free-good-enough` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 
@@ -97,6 +102,7 @@ External visual QA for `VPN Privacy Guide` covered desktop and mobile hero, quic
 | Asset | Route | Type | Raw Research | Canonical Research | Editorial Brief | Built | QA Status | Published | Affiliate Status | Last Verified | Next Action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Password Manager Decision Hub | `/password-managers` | Hub | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Are Password Managers Safe? | `/are-password-managers-safe` | Educational Guide | N/A | `docs/research/are-password-managers-safe-research.md` | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-11 | Production URL, direct refresh, H1, quick answer, risk table, breach guidance, zero-knowledge guidance, provider examples, FAQ/schema parity, sources, final takeaway, internal links, affiliate isolation, sitemap entry, IndexNow submission, desktop/mobile structural QA, and established-layout visual approval complete. |
 | Best Password Managers for Beginners | `/best-password-managers-for-beginners` | Guide | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | Mixed / centralized resolver | 2026-07-10 | Recheck current plan limits, pricing, recovery options, platform support, affiliate CTA behavior, and official source facts before the next purchase-focused refresh |
 | Best Free Password Managers | `/best-free-password-managers` | Guide | N/A | Source assets complete | N/A | Yes | Verified live; external visual QA pending | Yes | Mixed / centralized resolver | 2026-07-10 | Monitor free-plan limits, device/session restrictions, passkey support, sharing, export behavior, and affiliate CTA behavior before the next refresh |
 | 1Password Review | `/reviews/1password-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-02 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
@@ -187,6 +193,7 @@ External visual QA for `VPN Privacy Guide` covered desktop and mobile hero, quic
 | IndexNow submission for `https://choosebettertech.com/best-vpns-for-students` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | IndexNow submission for `https://choosebettertech.com/guides/vpn-privacy-guide` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | IndexNow submission for `https://choosebettertech.com/best-vpns-for-families` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
+| IndexNow submission for `https://choosebettertech.com/are-password-managers-safe` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | Google Search Console submissions before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
 | Google Search Console submission for `https://choosebettertech.com/sitemap.xml` | Needs verification | Do not claim indexing or submission success without external Search Console evidence. |
 | Bing Webmaster Tools submission before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
@@ -222,6 +229,7 @@ External visual QA for `VPN Privacy Guide` covered desktop and mobile hero, quic
 - Recheck Best VPNs for Students student-discount availability, free-plan limits, campus-network guidance, device limits, streaming/gaming caveats, study-abroad guidance, and renewal pricing before future refreshes.
 - Recheck VPN Privacy Guide privacy policies, logging definitions, audit scope/dates, ownership, jurisdiction, transparency reports, warrant canaries, app telemetry, DNS/IPv6/leak protection, and legal-request handling before future refreshes.
 - Recheck Best VPNs for Families device limits, household-sharing terms, router support, smart-TV and streaming-device apps, streaming compatibility, renewal pricing, refund terms, and free-plan limits before future refreshes.
+- Recheck Are Password Managers Safe? provider security models, audit status, incident updates, passkey support, recovery details, and browser-extension research before future refreshes.
 - Verify Proton VPN support availability and Swiss targeted logging nuance during the next VPN QA pass.
 - Verify active Proton VPN and Proton Pass affiliate CTAs and disclosures without changing editorial conclusions.
 - Verify Surfshark antivirus-data minimization status and Dausos maturity/follow-up review status during the next Surfshark refresh.
@@ -234,13 +242,13 @@ External visual QA for `VPN Privacy Guide` covered desktop and mobile hero, quic
 
 ## Next Production Priorities
 
-1. Complete external desktop/mobile visual QA for Best VPNs for Families.
-2. Verify `https://choosebettertech.com/sitemap.xml` submission status in Google Search Console.
-3. Verify `https://choosebettertech.com/sitemap.xml` and IndexNow receipt status in Bing Webmaster Tools.
-4. Monitor indexing status per published URL without inferring indexation from sitemap or IndexNow submission.
-5. Recheck volatile pricing, plan, coverage, and affiliate-status details before purchase-focused updates.
-6. Keep homepage curated as additional reviews and comparisons are published.
-7. Plan the next distinct VPN opportunity after Best VPNs for Families without choosing solely by affiliate value.
+1. Verify `https://choosebettertech.com/sitemap.xml` submission status in Google Search Console.
+2. Verify `https://choosebettertech.com/sitemap.xml` and IndexNow receipt status in Bing Webmaster Tools.
+3. Monitor indexing status per published URL without inferring indexation from sitemap or IndexNow submission.
+4. Recheck volatile pricing, plan, coverage, security, and affiliate-status details before purchase-focused updates.
+5. Keep homepage curated as additional reviews and comparisons are published.
+6. Plan `Password Manager vs Browser Passwords` as the next distinct password-manager educational guide.
+7. Plan the next distinct VPN opportunity after the now-approved family VPN guide without choosing solely by affiliate value.
 
 ## Notes
 
