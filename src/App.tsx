@@ -11,6 +11,7 @@ const AreVpnsWorthItPage = lazy(() => import("./pages/AreVpnsWorthItPage").then(
 const BestDataRemovalServicesPage = lazy(() => import("./pages/BestDataRemovalServicesPage").then((module) => ({ default: module.BestDataRemovalServicesPage })));
 const BestFreePasswordManagersPage = lazy(() => import("./pages/BestFreePasswordManagersPage").then((module) => ({ default: module.BestFreePasswordManagersPage })));
 const BestFreeVpnsPage = lazy(() => import("./pages/BestFreeVpnsPage").then((module) => ({ default: module.BestFreeVpnsPage })));
+const BestVpnsForFamiliesPage = lazy(() => import("./pages/BestVpnsForFamiliesPage").then((module) => ({ default: module.BestVpnsForFamiliesPage })));
 const BestVpnsForStudentsPage = lazy(() => import("./pages/BestVpnsForStudentsPage").then((module) => ({ default: module.BestVpnsForStudentsPage })));
 const BestVpnsForTravelPage = lazy(() => import("./pages/BestVpnsForTravelPage").then((module) => ({ default: module.BestVpnsForTravelPage })));
 const BestVpnsForBeginnersPage = lazy(() => import("./pages/BestVpnsForBeginnersPage").then((module) => ({ default: module.BestVpnsForBeginnersPage })));
@@ -93,6 +94,7 @@ export default function App() {
             <Route path="best-data-removal-services" element={<BestDataRemovalServicesPage />} />
             <Route path="best-free-password-managers" element={<BestFreePasswordManagersPage />} />
             <Route path="best-free-vpns" element={<BestFreeVpnsPage />} />
+            <Route path="best-vpns-for-families" element={<BestVpnsForFamiliesPage />} />
             <Route path="best-vpns-for-students" element={<BestVpnsForStudentsPage />} />
             <Route path="best-vpns-for-travel" element={<BestVpnsForTravelPage />} />
             <Route path="best-password-managers-for-beginners" element={<BestPasswordManagersForBeginnersPage />} />

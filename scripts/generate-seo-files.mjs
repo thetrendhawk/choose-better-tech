@@ -25,6 +25,7 @@ const routes = [
   "/best-data-removal-services",
   "/best-free-password-managers",
   "/best-free-vpns",
+  "/best-vpns-for-families",
   "/best-vpns-for-students",
   "/best-vpns-for-travel",
   "/best-password-managers-for-beginners",

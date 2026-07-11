@@ -43,9 +43,9 @@ export const vpnDecisionHub = {
     },
     {
       title: "I want the best value for a household",
-      recommendation: "Start with Surfshark",
-      description: "Best fit when you want to cover many devices and care about price-to-feature value.",
-      href: "/reviews/surfshark-review"
+      recommendation: "Read Best VPNs for Families",
+      description: "Best fit when you want to compare household device limits, account sharing, routers, smart TVs, streaming devices, and renewal risk.",
+      href: "/best-vpns-for-families"
     },
     {
       title: "I care most about streaming",
@@ -108,6 +108,7 @@ export const vpnDecisionHub = {
     { title: "How VPNs Work", href: "/guides/how-vpns-work", description: "Learn what a VPN can and cannot protect." },
     { title: "VPN Privacy Guide", href: "/guides/vpn-privacy-guide", description: "Evaluate VPN logging, audits, ownership, jurisdiction, transparency reports, account data, leaks, and trust claims." },
     { title: "Best Free VPNs", href: "/best-free-vpns", description: "Compare legitimate permanent free VPN tiers by fit, limits, privacy, and upgrade pressure." },
+    { title: "Best VPNs for Families", href: "/best-vpns-for-families", description: "Choose a VPN for household device limits, shared accounts, routers, smart TVs, streaming devices, privacy, and family travel." },
     { title: "Best VPNs for Students", href: "/best-vpns-for-students", description: "Choose a VPN for student budgets, dorm and campus Wi-Fi, multiple devices, free-plan limits, streaming, and study abroad." },
     { title: "Best VPNs for Travel", href: "/best-vpns-for-travel", description: "Choose a VPN for public Wi-Fi, international travel, many devices, streaming abroad, and short-term trips." },
     { title: "Free VPN vs Paid VPN", href: "/guides/free-vpn-vs-paid", description: "Understand free-plan tradeoffs before installing a VPN." },

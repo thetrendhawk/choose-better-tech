@@ -5,6 +5,7 @@ export const vpnHubLinks = {
   worthIt: "/are-vpns-worth-it",
   bestVpns: "/guides/best-vpns-for-beginners",
   bestFreeVpns: "/best-free-vpns",
+  bestFamilyVpns: "/best-vpns-for-families",
   bestTravelVpns: "/best-vpns-for-travel",
   protonReview: "/reviews/proton-vpn-review",
   howVpnsWork: "/guides/how-vpns-work",

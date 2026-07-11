@@ -197,6 +197,7 @@ export const surfsharkReview: ReviewPageContent = {
     { title: "Are VPNs Worth It?", href: "/are-vpns-worth-it", description: "Decide whether a VPN solves a real problem before buying another subscription." },
     { title: "VPN Decision Hub", href: "/vpn", description: "Choose between NordVPN, Proton VPN, and Surfshark by need." },
     { title: "Best VPNs for Beginners", href: "/guides/best-vpns-for-beginners", description: "Compare beginner VPN options by use case." },
+    { title: "Best VPNs for Families", href: "/best-vpns-for-families", description: "Compare household VPN choices by unlimited-device fit, shared accounts, routers, smart TVs, privacy, and family travel." },
     { title: "Best VPNs for Students", href: "/best-vpns-for-students", description: "Compare student VPN choices by many-device fit, budgets, campus Wi-Fi, streaming, and study abroad." },
     { title: "Best VPNs for Travel", href: "/best-vpns-for-travel", description: "Compare travel VPN choices for public Wi-Fi, trips abroad, many devices, and short-term plans." },
     { title: "NordVPN Review", href: "/reviews/nordvpn-review", description: "Compare Surfshark against a premium mainstream VPN." },
