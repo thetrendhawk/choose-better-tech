@@ -323,7 +323,8 @@ export function BestFreeVpnsPage() {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" href="#quick-recommendations">See Quick Picks</a>
               <InternalLinkButton href="/guides/free-vpn-vs-paid" variant="secondary">Free vs Paid VPNs</InternalLinkButton>
-              <InternalLinkButton href="/best-vpns-for-travel" variant="secondary">Travel VPNs</InternalLinkButton>
+            <InternalLinkButton href="/best-vpns-for-students" variant="secondary">Student VPNs</InternalLinkButton>
+            <InternalLinkButton href="/best-vpns-for-travel" variant="secondary">Travel VPNs</InternalLinkButton>
               <InternalLinkButton href="/are-vpns-worth-it" variant="secondary">Do You Need a VPN?</InternalLinkButton>
             </div>
           </div>
@@ -441,6 +442,7 @@ export function BestFreeVpnsPage() {
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <InternalLinkButton href="/guides/free-vpn-vs-paid">Compare Free vs Paid</InternalLinkButton>
             <InternalLinkButton href="/vpn" variant="secondary">Open VPN Decision Hub</InternalLinkButton>
+            <InternalLinkButton href="/best-vpns-for-students" variant="secondary">Student VPNs</InternalLinkButton>
             <InternalLinkButton href="/best-vpns-for-travel" variant="secondary">Compare Travel VPNs</InternalLinkButton>
             <InternalLinkButton href="/guides/best-vpns-for-beginners" variant="secondary">Compare Beginner VPNs</InternalLinkButton>
           </div>

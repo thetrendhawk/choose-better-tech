@@ -189,6 +189,7 @@ export const protonVpnReview: ReviewPageContent = {
     { title: "VPN Decision Hub", href: "/vpn", description: "Choose between NordVPN, Proton VPN, and Surfshark by need." },
     { title: "Best VPNs for Beginners", href: "/guides/best-vpns-for-beginners", description: "Compare beginner VPN options by use case." },
     { title: "Best Free VPNs", href: "/best-free-vpns", description: "Compare Proton VPN Free with other legitimate free VPN tiers." },
+    { title: "Best VPNs for Students", href: "/best-vpns-for-students", description: "Compare student VPN choices by free plans, student discounts, campus Wi-Fi, privacy, and study abroad." },
     { title: "Best VPNs for Travel", href: "/best-vpns-for-travel", description: "Compare travel VPN choices for public Wi-Fi, trips abroad, privacy, and short-term plans." },
     { title: "NordVPN Review", href: "/reviews/nordvpn-review", description: "Compare Proton VPN against a mainstream speed and streaming alternative." },
     { title: "NordVPN vs ProtonVPN", href: "/comparisons/nordvpn-vs-protonvpn", description: "Compare the two VPNs by privacy, speed, support, free plans, and tradeoffs." },

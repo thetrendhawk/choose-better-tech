@@ -23,15 +23,15 @@ These counts use published editorial routes in the current repository and sitema
 | --- | ---: | --- | --- |
 | Reviews | 11 | Product review routes under `/reviews/` | Repo route index and production sitemap |
 | Comparisons | 12 | Pairwise comparison routes under `/comparisons/` | Repo route index and production sitemap |
-| Hubs / Guides | 16 | Decision hubs and published guide routes | Repo routes, content dashboard, and production sitemap |
+| Hubs / Guides | 17 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
 | Authority Pages | 3 | About, How We Review Software, and Affiliate Disclosure | Repo routes and production sitemap |
-| Total Editorial Content Assets | 39 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
+| Total Editorial Content Assets | 40 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
 
 ## Content KPIs
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 11 | 12 | 16 | 39 | Needs verification | Baseline reflects current repository routes and production sitemap as of 2026-07-11. Indexing status is not inferred from sitemap presence or IndexNow submission. |
+| 2026-07 | 11 | 12 | 17 | 40 | Needs verification | Baseline reflects current repository routes and generated sitemap as of 2026-07-11. Indexing status is not inferred from sitemap presence or IndexNow submission. |
 
 ## Organic Search KPIs
 
@@ -73,4 +73,4 @@ These counts use published editorial routes in the current repository and sitema
 
 | Month | Publishing Goal | Traffic Goal | Affiliate Goal | Revenue Goal | Status |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07 | Maintain current published assets, complete Best VPNs for Travel external visual QA, and plan Best VPNs for Students as the next distinct VPN opportunity | Establish baseline without inventing traffic data | Track verified applications only | Establish baseline when revenue data exists | Active |
+| 2026-07 | Maintain current published assets, publish Best VPNs for Students, and keep external visual QA separate from structural production verification | Establish baseline without inventing traffic data | Track verified applications only | Establish baseline when revenue data exists | Active |

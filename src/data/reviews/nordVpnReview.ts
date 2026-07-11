@@ -181,6 +181,7 @@ export const nordVpnReview: ReviewPageContent = {
     { title: "Are VPNs Worth It?", href: "/are-vpns-worth-it", description: "Decide whether a VPN solves a real problem before choosing a paid provider." },
     { title: "VPN Decision Hub", href: "/vpn", description: "Choose between NordVPN, Proton VPN, and Surfshark by need." },
     { title: "Best VPNs for Beginners", href: "/guides/best-vpns-for-beginners", description: "Compare beginner VPN options by use case." },
+    { title: "Best VPNs for Students", href: "/best-vpns-for-students", description: "Compare student VPN choices by budget, campus Wi-Fi, streaming, devices, and study abroad." },
     { title: "Best VPNs for Travel", href: "/best-vpns-for-travel", description: "Compare travel VPN choices for public Wi-Fi, trips abroad, many devices, and short-term plans." },
     { title: "Proton VPN Review", href: "/reviews/proton-vpn-review", description: "Compare NordVPN against a privacy-focused alternative." },
     { title: "NordVPN vs ProtonVPN", href: "/comparisons/nordvpn-vs-protonvpn", description: "Compare the two VPNs by privacy, speed, support, free plans, and tradeoffs." },
