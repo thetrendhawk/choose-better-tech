@@ -198,6 +198,7 @@ export const protonVpnReview: ReviewPageContent = {
     { title: "Free VPN vs Paid VPN", href: "/guides/free-vpn-vs-paid", description: "Understand free-plan risks and paid-plan tradeoffs." },
     { title: "VPN Buying Guide", href: "/guides/vpn-buying-guide", description: "Use a practical checklist before choosing a VPN." },
     { title: "How VPNs Work", href: "/guides/how-vpns-work", description: "Learn what VPNs can and cannot protect." },
+    { title: "VPN Privacy Guide", href: "/guides/vpn-privacy-guide", description: "Evaluate no-logs claims, audits, ownership, jurisdiction, and VPN trust before choosing a provider." },
     { title: "VPN Myths", href: "/guides/vpn-myths", description: "Avoid exaggerated VPN marketing claims." }
   ],
   finalCtaHeadline: "Compare Proton VPN's free and paid options",

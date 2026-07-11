@@ -10,6 +10,7 @@ export const vpnHubLinks = {
   howVpnsWork: "/guides/how-vpns-work",
   freeVsPaid: "/guides/free-vpn-vs-paid",
   buyingGuide: "/guides/vpn-buying-guide",
+  privacyGuide: "/guides/vpn-privacy-guide",
   myths: "/guides/vpn-myths",
   protonFree: "/guides/is-proton-vpn-free-good-enough"
 };
@@ -24,6 +25,7 @@ const commonRelated = [
   { title: "How VPNs Work", href: vpnHubLinks.howVpnsWork, description: "Learn what a VPN does and does not protect." },
   { title: "Free VPN vs Paid VPN", href: vpnHubLinks.freeVsPaid, description: "Understand the tradeoffs before choosing a free app." },
   { title: "VPN Buying Guide", href: vpnHubLinks.buyingGuide, description: "Use a practical checklist for choosing your first VPN." },
+  { title: "VPN Privacy Guide", href: vpnHubLinks.privacyGuide, description: "Evaluate VPN logging, audits, ownership, jurisdiction, account data, leaks, and trust claims." },
   { title: "VPN Myths", href: vpnHubLinks.myths, description: "Avoid common misunderstandings about privacy and security." },
   { title: "Is Proton VPN Free Good Enough?", href: vpnHubLinks.protonFree, description: "Decide when Proton's free plan is enough." }
 ];

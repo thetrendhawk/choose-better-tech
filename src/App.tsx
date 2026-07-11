@@ -50,6 +50,7 @@ const SurfsharkReviewPage = lazy(() => import("./pages/SurfsharkReviewPage").the
 const TermsPage = lazy(() => import("./pages/TermsPage").then((module) => ({ default: module.TermsPage })));
 const VpnDecisionHubPage = lazy(() => import("./pages/VpnDecisionHubPage").then((module) => ({ default: module.VpnDecisionHubPage })));
 const VpnGuidePage = lazy(() => import("./pages/VpnGuidePage").then((module) => ({ default: module.VpnGuidePage })));
+const VpnPrivacyGuidePage = lazy(() => import("./pages/VpnPrivacyGuidePage").then((module) => ({ default: module.VpnPrivacyGuidePage })));
 
 function RouteFallback() {
   return (
@@ -99,6 +100,7 @@ export default function App() {
             <Route path="guides/how-vpns-work" element={<VpnGuidePage slug="how-vpns-work" />} />
             <Route path="guides/free-vpn-vs-paid" element={<VpnGuidePage slug="free-vpn-vs-paid" />} />
             <Route path="guides/vpn-buying-guide" element={<VpnGuidePage slug="vpn-buying-guide" />} />
+            <Route path="guides/vpn-privacy-guide" element={<VpnPrivacyGuidePage />} />
             <Route path="guides/vpn-myths" element={<VpnGuidePage slug="vpn-myths" />} />
             <Route path="guides/is-proton-vpn-free-good-enough" element={<VpnGuidePage slug="is-proton-vpn-free-good-enough" />} />
             <Route path="comparisons/nordvpn-vs-protonvpn" element={<NordVpnVsProtonVpnPage />} />

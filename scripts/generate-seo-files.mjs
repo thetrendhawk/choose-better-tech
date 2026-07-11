@@ -32,6 +32,7 @@ const routes = [
   "/guides/how-vpns-work",
   "/guides/free-vpn-vs-paid",
   "/guides/vpn-buying-guide",
+  "/guides/vpn-privacy-guide",
   "/guides/vpn-myths",
   "/guides/is-proton-vpn-free-good-enough",
   "/comparisons/nordvpn-vs-protonvpn",

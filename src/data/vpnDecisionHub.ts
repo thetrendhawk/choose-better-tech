@@ -37,9 +37,9 @@ export const vpnDecisionHub = {
     },
     {
       title: "I want the strongest privacy transparency",
-      recommendation: "Start with Proton VPN",
-      description: "Best fit when open-source apps, no-logs audits, Swiss jurisdiction, and transparency reporting matter most.",
-      href: "/reviews/proton-vpn-review"
+      recommendation: "Read the privacy guide first",
+      description: "Use this when no-logs claims, audits, jurisdiction, ownership, account data, and VPN trust are the real decision.",
+      href: "/guides/vpn-privacy-guide"
     },
     {
       title: "I want the best value for a household",
@@ -106,6 +106,7 @@ export const vpnDecisionHub = {
   learningPath: [
     { title: "Are VPNs Worth It?", href: "/are-vpns-worth-it", description: "Decide whether a VPN solves a real privacy, travel, network, or location problem for you." },
     { title: "How VPNs Work", href: "/guides/how-vpns-work", description: "Learn what a VPN can and cannot protect." },
+    { title: "VPN Privacy Guide", href: "/guides/vpn-privacy-guide", description: "Evaluate VPN logging, audits, ownership, jurisdiction, transparency reports, account data, leaks, and trust claims." },
     { title: "Best Free VPNs", href: "/best-free-vpns", description: "Compare legitimate permanent free VPN tiers by fit, limits, privacy, and upgrade pressure." },
     { title: "Best VPNs for Students", href: "/best-vpns-for-students", description: "Choose a VPN for student budgets, dorm and campus Wi-Fi, multiple devices, free-plan limits, streaming, and study abroad." },
     { title: "Best VPNs for Travel", href: "/best-vpns-for-travel", description: "Choose a VPN for public Wi-Fi, international travel, many devices, streaming abroad, and short-term trips." },
