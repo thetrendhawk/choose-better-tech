@@ -10,7 +10,7 @@ Last Updated: 2026-07-11
 | Field | Status |
 | --- | --- |
 | Phase | Traffic execution and cluster expansion |
-| Summary | Current site inventory, production deployment, and recent publication QA are reconciled; next work shifts to Best VPNs for Students external visual QA, distribution, indexing verification, and KPI baselines. |
+| Summary | Current site inventory, production deployment, and recent publication QA are reconciled; next work shifts to VPN Privacy Guide external visual QA, distribution, indexing verification, and KPI baselines. |
 | Health | On Track |
 
 ## Current Sprint
@@ -31,7 +31,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Priority | Owner | Status |
 | --- | --- | --- |
 | Maintain current operational dashboards | Choose Better Tech | Active |
-| Complete external visual QA for Best VPNs for Students | Choose Better Tech | Next Up |
+| Complete external visual QA for VPN Privacy Guide | Choose Better Tech | Next Up |
 
 ## Current Task
 
@@ -43,7 +43,8 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Free VPN vs Paid VPN evidence update | Final approved | Existing route refreshed without a duplicate article; production URL, direct refresh, sitemap, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
 | Best Free VPNs | Final approved | Production URL, route refresh, sitemap, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
 | Best VPNs for Travel | Final approved | Production URL, direct refresh, sitemap entry, IndexNow submission, desktop structural QA, mobile structural QA, affiliate isolation, internal review link checks, and external desktop/mobile visual QA complete. |
-| Best VPNs for Students | Verified live; visual QA pending | Distinct student-focused VPN guide drafted, integrated, pushed, production verified, submitted to IndexNow, and structurally QA'd. Final approval cannot be recorded until external desktop/mobile visual QA is complete. |
+| Best VPNs for Students | Final approved | Distinct student-focused VPN guide drafted, integrated, pushed, production verified, submitted to IndexNow, structurally QA'd, and externally visually approved on desktop and mobile. |
+| VPN Privacy Guide | Verified live; visual QA pending | Educational privacy guide researched, implemented, pushed, production verified, submitted to IndexNow, and structurally QA'd. Final approval cannot be recorded until external desktop/mobile visual QA is complete. |
 
 ## Current Blockers
 
@@ -58,9 +59,9 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | --- | ---: | ---: | --- |
 | Reviews Published | 11 | TBD | Weekly |
 | Comparisons Published | 12 | TBD | Weekly |
-| Hubs / Guides Published | 17 | TBD | Weekly |
+| Hubs / Guides Published | 18 | TBD | Weekly |
 | Authority Pages Published | 3 | TBD | Weekly |
-| Total Editorial Content Assets | 40 | TBD | Weekly |
+| Total Editorial Content Assets | 41 | TBD | Weekly |
 | Indexed Assets | Needs verification | TBD | Weekly |
 | Organic Clicks | Not measured | TBD | Weekly |
 | Organic Impressions | Not measured | TBD | Weekly |
@@ -84,6 +85,7 @@ These statuses require platform access or manual confirmation outside the reposi
 | IndexNow submission for Best Free VPNs | Reported complete | `https://choosebettertech.com/best-free-vpns` submitted on 2026-07-11; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | IndexNow submission for Best VPNs for Travel | Reported complete | `https://choosebettertech.com/best-vpns-for-travel` submitted on 2026-07-11; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | IndexNow submission for Best VPNs for Students | Reported complete | `https://choosebettertech.com/best-vpns-for-students` submitted on 2026-07-11; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
+| IndexNow submission for VPN Privacy Guide | Reported complete | `https://choosebettertech.com/guides/vpn-privacy-guide` submitted on 2026-07-11; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | URL indexing status | Needs verification | No indexing success is claimed in this dashboard. |
 | Social distribution | Not scheduled | Pinterest, Instagram, and LinkedIn distribution need separate scheduling or confirmation. |
 | KPI performance | Not measured | Traffic, conversion, email, and revenue metrics need external platform data. |
@@ -102,8 +104,9 @@ These statuses require platform access or manual confirmation outside the reposi
 | 2026-07-11 | Free VPN vs Paid VPN refreshed and final approved | Existing route retained at `https://choosebettertech.com/guides/free-vpn-vs-paid`; content commit `8d25cb36aa420e8b597278ebfe0f3fd1805d0bda`; production deployment Ready; production URL, route refresh, mobile structural layout, sitemap entry, bundle content, IndexNow submission, and external visual QA verified. |
 | 2026-07-11 | Best Free VPNs published and final approved | Production URL `https://choosebettertech.com/best-free-vpns`; content commit `b08d585539a077aee5932778e5d4acaa65f064fd`; production URL, route refresh, mobile structural layout, sitemap entry, bundle content, IndexNow submission, and external visual QA verified. |
 | 2026-07-11 | Best VPNs for Travel published and final approved | Production URL `https://choosebettertech.com/best-vpns-for-travel`; content commit `5fe319dabbe08f96b8b64b9af03a53014f7fb69d`; production URL, direct refresh, mobile structural layout, sitemap entry, rendered content, internal review link, IndexNow submission, and external desktop/mobile visual QA verified. |
-| 2026-07-11 | Best VPNs for Students published and production verified | Production URL `https://choosebettertech.com/best-vpns-for-students`; content commit `5cd89630ffc652fe053cfada5b858d608421f43f`; production URL, direct refresh, rendered content, sitemap entry, IndexNow submission, FAQ/schema parity, internal links, affiliate isolation, and mobile no-overflow checks passed. External visual QA remains pending. |
-| 2026-07-11 | Current live content inventory verified | 11 reviews, 12 comparisons, 16 hubs/guides, and 3 authority pages. |
+| 2026-07-11 | Best VPNs for Students published and final approved | Production URL `https://choosebettertech.com/best-vpns-for-students`; content commit `5cd89630ffc652fe053cfada5b858d608421f43f`; production URL, direct refresh, rendered content, sitemap entry, IndexNow submission, FAQ/schema parity, internal links, affiliate isolation, mobile no-overflow checks, and external desktop/mobile visual QA passed. |
+| 2026-07-11 | VPN Privacy Guide published and production verified | Production URL `https://choosebettertech.com/guides/vpn-privacy-guide`; content commit `ba75870932a57a94814b4ed3398c4dd9ba063365`; production URL, direct refresh, cache-bypassed fetch, rendered content, sitemap entry, IndexNow submission, FAQ/schema parity, internal links, affiliate isolation, desktop structural QA, and mobile no-overflow checks passed. External visual QA remains pending. |
+| 2026-07-11 | Current live content inventory verified | 11 reviews, 12 comparisons, 18 hubs/guides, and 3 authority pages. |
 | TBD | Google Search Console configured | Indexing and search visibility tracking enabled. |
 | TBD | Google Analytics configured | Traffic measurement enabled. |
 | TBD | Bing Webmaster Tools configured | Bing indexing and visibility tracking enabled. |
@@ -116,7 +119,7 @@ These statuses require platform access or manual confirmation outside the reposi
 
 | Milestone | Target Date | Acceptance Criteria |
 | --- | --- | --- |
-| Best VPNs for Students external visual QA | TBD | External desktop/mobile review confirms the production page layout, tables, CTAs, disclosure, footer, and responsive behavior. |
+| VPN Privacy Guide external visual QA | TBD | External desktop/mobile review confirms the production page layout, tables, source links, disclosure, newsletter/footer, and responsive behavior before final approval. |
 
 ## Decision Log
 

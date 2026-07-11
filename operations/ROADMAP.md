@@ -78,7 +78,8 @@ Last Updated: 2026-07-11
 | Best Free VPNs | Final approved |
 | Best VPNs for Streaming | Planned |
 | Best VPNs for Travel | Final approved |
-| Best VPNs for Students | Verified live - visual QA pending |
+| Best VPNs for Students | Final approved |
+| VPN Privacy Guide | Verified live - visual QA pending |
 | Do You Actually Need a VPN? | Planned |
 
 ### Completion Checklist
@@ -90,6 +91,7 @@ Last Updated: 2026-07-11
 - [x] Free VPN vs Paid VPN refreshed on the existing route without duplicating the article or changing the slug.
 - [x] Best Free VPNs published as a distinct product-selection guide.
 - [x] Best VPNs for Travel published as a distinct travel/public-Wi-Fi/location-access guide.
+- [x] VPN Privacy Guide published as a distinct trust, logging, audits, ownership, jurisdiction, and threat-model guide.
 - [ ] Search indexing is monitored for every published article.
 - [ ] Refresh dates are assigned to each published article.
 
@@ -275,4 +277,5 @@ Last Updated: 2026-07-11
 | 2 | Free VPN vs Paid VPN | Final approved | Existing route retained; production verified after evidence refresh; external desktop/mobile visual QA approved. |
 | 3 | Best Free VPNs | Final approved | Product-selection guide published, production verified, and external desktop/mobile visual QA approved. |
 | 4 | Best VPNs for Travel | Final approved | Published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile structural QA passed, and external desktop/mobile visual QA approved. |
-| 5 | Best VPNs for Students | Verified live - visual QA pending | Published, production verified, sitemap entry live, IndexNow submitted, and desktop/mobile structural QA passed. |
+| 5 | Best VPNs for Students | Final approved | Published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile structural QA passed, and external desktop/mobile visual QA approved. |
+| 6 | VPN Privacy Guide | Verified live - visual QA pending | Published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile structural QA passed, and external visual QA pending. |
