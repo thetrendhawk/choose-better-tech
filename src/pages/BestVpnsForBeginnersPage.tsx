@@ -83,6 +83,7 @@ const comparisonLinks = [
 
 const educationLinks = [
   { title: "Are VPNs Worth It?", href: "/are-vpns-worth-it", description: "Decide whether you need a VPN before comparing paid products." },
+  { title: "Best Free VPNs", href: "/best-free-vpns", description: "Compare legitimate no-cost VPN tiers before installing a free app." },
   { title: "How VPNs Work", href: "/guides/how-vpns-work", description: "Understand what a VPN can and cannot protect before choosing one." },
   { title: "Free VPN vs Paid VPN", href: "/guides/free-vpn-vs-paid", description: "Compare free-plan limits, paid-plan benefits, and provider trust signals." },
   { title: "VPN Buying Guide", href: "/guides/vpn-buying-guide", description: "Use a practical checklist for privacy, audits, features, pricing, and fit." },
