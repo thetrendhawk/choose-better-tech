@@ -16,7 +16,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next operational action: publish and verify Best VPNs for Students
+- Next operational action: complete external desktop/mobile visual QA for Best VPNs for Students
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
@@ -50,7 +50,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | Free VPN vs Paid VPN | Final approved | `https://choosebettertech.com/guides/free-vpn-vs-paid` | `8d25cb36aa420e8b597278ebfe0f3fd1805d0bda` | Production deployment Ready (`choose-better-tech-on30jcmij-aaron-s-evans-projects.vercel.app`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
 | Best Free VPNs | Final approved | `https://choosebettertech.com/best-free-vpns` | `b08d585539a077aee5932778e5d4acaa65f064fd` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
 | Best VPNs for Travel | Final approved | `https://choosebettertech.com/best-vpns-for-travel` | `5fe319dabbe08f96b8b64b9af03a53014f7fb69d` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
-| Best VPNs for Students | Built; production verification pending | `https://choosebettertech.com/best-vpns-for-students` | Pending commit | Pending production deployment | Approved for publication draft | Passed | Passed | Passed | Passed | VERIFIED LOCAL - PRODUCTION PENDING | 2026-07-11 |
+| Best VPNs for Students | Verified live; visual QA pending | `https://choosebettertech.com/best-vpns-for-students` | `5cd89630ffc652fe053cfada5b858d608421f43f` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | VERIFIED LIVE - VISUAL QA PENDING | 2026-07-11 |
 | Are Data Removal Services Worth It? | Final approved | `https://choosebettertech.com/are-data-removal-services-worth-it` | `ddcd971a73bbbda09b13fe5138697e2311504064` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Best Data Removal Services | Final approved | `https://choosebettertech.com/best-data-removal-services` | `4ec71893f827c4e2bf53851af9acea801824109d` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 
@@ -79,7 +79,7 @@ External visual QA for `Best VPNs for Travel` covered desktop and mobile hero, q
 | How VPNs Work | `/guides/how-vpns-work` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Free VPN vs Paid VPN | `/guides/free-vpn-vs-paid` | Guide | N/A | Source assets complete | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-11 | Existing route refreshed; production URL, direct refresh, source notes, comparison table, FAQ, affiliate isolation, sitemap entry, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
 | Best Free VPNs | `/best-free-vpns` | Guide | N/A | Current official and guidance sources checked | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-11 | Production URL, direct refresh, comparison table, FAQ, affiliate isolation, sitemap entry, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
-| Best VPNs for Students | `/best-vpns-for-students` | Guide | N/A | Current official, student-discount, campus-policy, and guidance sources checked | N/A | Yes | Built; production verification pending | Pending production verification | Mixed / centralized resolver | 2026-07-11 | Local route, H1, quick recommendations, comparison table, all six provider sections, student scenarios, free-VPN guidance, discount guidance, campus/dorm guidance, streaming/gaming guidance, study-abroad guidance, checklist, FAQ/schema parity, affiliate isolation, sitemap entry, desktop structural QA, and mobile structural QA verified. Production deployment, IndexNow, and external visual QA pending. |
+| Best VPNs for Students | `/best-vpns-for-students` | Guide | N/A | Current official, student-discount, campus-policy, and guidance sources checked | N/A | Yes | Verified live; external visual QA pending | Yes | Mixed / centralized resolver | 2026-07-11 | Production URL, direct refresh, H1, quick recommendations, comparison table, all six provider sections, student scenarios, free-VPN guidance, discount guidance, campus/dorm guidance, streaming/gaming guidance, study-abroad guidance, checklist, FAQ/schema parity, affiliate isolation, sitemap entry, IndexNow submission, desktop structural QA, and mobile structural QA verified. External visual QA pending. |
 | Best VPNs for Travel | `/best-vpns-for-travel` | Guide | N/A | Current official and guidance sources checked | N/A | Yes | Final approved | Yes | Mixed / centralized resolver | 2026-07-11 | Production URL, direct refresh, quick verdict, comparison table, all provider sections, FAQ, affiliate isolation, sitemap entry, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
 | VPN Myths | `/guides/vpn-myths` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Is Proton VPN Free Good Enough? | `/guides/is-proton-vpn-free-good-enough` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
@@ -176,6 +176,7 @@ External visual QA for `Best VPNs for Travel` covered desktop and mobile hero, q
 | IndexNow submission for `https://choosebettertech.com/guides/free-vpn-vs-paid` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; first JSON attempt returned HTTP 400, then the single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | IndexNow submission for `https://choosebettertech.com/best-free-vpns` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | IndexNow submission for `https://choosebettertech.com/best-vpns-for-travel` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
+| IndexNow submission for `https://choosebettertech.com/best-vpns-for-students` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | Google Search Console submissions before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
 | Google Search Console submission for `https://choosebettertech.com/sitemap.xml` | Needs verification | Do not claim indexing or submission success without external Search Console evidence. |
 | Bing Webmaster Tools submission before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
@@ -221,13 +222,13 @@ External visual QA for `Best VPNs for Travel` covered desktop and mobile hero, q
 
 ## Next Production Priorities
 
-1. Publish and verify Best VPNs for Students.
+1. Complete external desktop/mobile visual QA for Best VPNs for Students.
 2. Verify `https://choosebettertech.com/sitemap.xml` submission status in Google Search Console.
 3. Verify `https://choosebettertech.com/sitemap.xml` and IndexNow receipt status in Bing Webmaster Tools.
 4. Monitor indexing status per published URL without inferring indexation from sitemap or IndexNow submission.
 5. Recheck volatile pricing, plan, coverage, and affiliate-status details before purchase-focused updates.
 6. Keep homepage curated as additional reviews and comparisons are published.
-7. Plan the next distinct VPN opportunity after Best VPNs for Students.
+7. Plan the next distinct VPN opportunity after Best VPNs for Students without choosing solely by affiliate value.
 
 ## Notes
 

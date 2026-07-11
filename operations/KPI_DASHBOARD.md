@@ -73,4 +73,4 @@ These counts use published editorial routes in the current repository and sitema
 
 | Month | Publishing Goal | Traffic Goal | Affiliate Goal | Revenue Goal | Status |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07 | Maintain current published assets, publish Best VPNs for Students, and keep external visual QA separate from structural production verification | Establish baseline without inventing traffic data | Track verified applications only | Establish baseline when revenue data exists | Active |
+| 2026-07 | Maintain current published assets, complete Best VPNs for Students external visual QA, and keep external visual QA separate from structural production verification | Establish baseline without inventing traffic data | Track verified applications only | Establish baseline when revenue data exists | Active |
