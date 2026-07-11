@@ -16,7 +16,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next operational action: verify indexing signals for newly published URLs and plan the next distinct password-manager guide
+- Next operational action: verify indexing signals for newly published URLs and plan the next distinct password-manager family guide
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
@@ -25,7 +25,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | --- | ---: | --- |
 | Reviews | 11 | 3 VPN reviews, 5 password manager reviews, and 3 privacy tool reviews |
 | Comparisons | 12 | 3 VPN comparisons, 6 password manager comparisons, and 3 privacy tool comparisons |
-| Hubs / Guides | 20 | 3 decision hubs, 12 VPN guides, 3 password-manager guides, 1 data-removal decision guide, and 1 data-removal commercial investigation |
+| Hubs / Guides | 21 | 3 decision hubs, 12 VPN guides, 4 password-manager guides, 1 data-removal decision guide, and 1 data-removal commercial investigation |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
 
 ## Status Legend
@@ -47,6 +47,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | Best Password Managers for Beginners | Final approved | `https://choosebettertech.com/best-password-managers-for-beginners` | `67c7a23` | Production deployment verified (`135f90f`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Best Free Password Managers | Final approved | `https://choosebettertech.com/best-free-password-managers` | `7ab525d3f061e008b6a912fa4257cd8bbc8285df` | Production deployment verified (`choose-better-tech-cuen099fz-aaron-s-evans-projects.vercel.app`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Are Password Managers Safe? | Final approved | `https://choosebettertech.com/are-password-managers-safe` | `4b37e69923d962be65493a65559df02c2732bf55` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | FINAL APPROVED - ESTABLISHED LAYOUT PRECEDENT | 2026-07-11 |
+| Password Manager vs Browser Passwords | Final approved | `https://choosebettertech.com/password-manager-vs-browser-passwords` | `433637de196a82dbdb528abea2a0074acfa14dbf` | Production deployment Ready (`choose-better-tech-5iypo9jqc-aaron-s-evans-projects.vercel.app`; `dpl_CDwh1F9YJNyvbNSuHASyMwEVWzth`) | Approved | Passed | Passed | Passed | Passed | FINAL APPROVED - ESTABLISHED LAYOUT PRECEDENT | 2026-07-11 |
 | Are VPNs Worth It? | Final approved | `https://choosebettertech.com/are-vpns-worth-it` | `50492d39388490ee214dbb4f3de685d0d9e6cf20` | Production deployment Ready (`choose-better-tech-gejsjzbrr-aaron-s-evans-projects.vercel.app`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Free VPN vs Paid VPN | Final approved | `https://choosebettertech.com/guides/free-vpn-vs-paid` | `8d25cb36aa420e8b597278ebfe0f3fd1805d0bda` | Production deployment Ready (`choose-better-tech-on30jcmij-aaron-s-evans-projects.vercel.app`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
 | Best Free VPNs | Final approved | `https://choosebettertech.com/best-free-vpns` | `b08d585539a077aee5932778e5d4acaa65f064fd` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
@@ -72,6 +73,8 @@ External visual QA for `VPN Privacy Guide` covered desktop and mobile hero, quic
 External visual QA for `Best VPNs for Families` covered desktop/mobile hero, quick recommendations, comparison table, provider sections, household scenarios, parental-control guidance, unlimited-device explanation, smart-TV/streaming-device guidance, gaming guidance, children-device guidance, family-travel guidance, router guidance, free-VPN guidance, checklist, FAQ, sources, final recommendation, disclosure, newsletter/footer, and no page-level horizontal overflow. Final verdict: APPROVED.
 
 `Are Password Managers Safe?` final approval used established layout precedent rather than separate external screenshot QA because the page introduced no shared component or global style changes, uses existing article layout patterns, passed desktop and 390px mobile structural rendering, passed FAQ/schema parity, and showed no page-level horizontal overflow. Final verdict: FINAL APPROVED - ESTABLISHED LAYOUT PRECEDENT.
+
+`Password Manager vs Browser Passwords` final approval used established layout precedent rather than separate external screenshot QA because the page introduced no shared component or global style changes, uses existing article layout patterns, passed production desktop and 390px mobile structural rendering, passed FAQ/schema parity, passed 25-source-link verification, passed internal-route checks, and showed no page-level horizontal overflow. Final verdict: FINAL APPROVED - ESTABLISHED LAYOUT PRECEDENT.
 
 ## VPN Cluster Asset Inventory
 
@@ -103,6 +106,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Password Manager Decision Hub | `/password-managers` | Hub | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Are Password Managers Safe? | `/are-password-managers-safe` | Educational Guide | N/A | `docs/research/are-password-managers-safe-research.md` | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-11 | Production URL, direct refresh, H1, quick answer, risk table, breach guidance, zero-knowledge guidance, provider examples, FAQ/schema parity, sources, final takeaway, internal links, affiliate isolation, sitemap entry, IndexNow submission, desktop/mobile structural QA, and established-layout visual approval complete. |
+| Password Manager vs Browser Passwords | `/password-manager-vs-browser-passwords` | Educational Comparison | N/A | `docs/research/password-manager-vs-browser-passwords-research.md` | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-11 | Production URL, direct refresh, H1, quick verdict, side-by-side comparison table, Apple Passwords, Google Password Manager, Microsoft Edge, Firefox/Samsung, dedicated-manager advantages and friction, passkeys, autofill, recovery, sharing, portability, privacy, user-type guidance, migration checklist, 25 FAQs, 25 source links, FAQ/schema parity, internal links, affiliate isolation, sitemap entry, IndexNow submission, desktop/mobile structural QA, and established-layout visual approval complete. |
 | Best Password Managers for Beginners | `/best-password-managers-for-beginners` | Guide | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | Mixed / centralized resolver | 2026-07-10 | Recheck current plan limits, pricing, recovery options, platform support, affiliate CTA behavior, and official source facts before the next purchase-focused refresh |
 | Best Free Password Managers | `/best-free-password-managers` | Guide | N/A | Source assets complete | N/A | Yes | Verified live; external visual QA pending | Yes | Mixed / centralized resolver | 2026-07-10 | Monitor free-plan limits, device/session restrictions, passkey support, sharing, export behavior, and affiliate CTA behavior before the next refresh |
 | 1Password Review | `/reviews/1password-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-02 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
@@ -194,6 +198,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | IndexNow submission for `https://choosebettertech.com/guides/vpn-privacy-guide` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | IndexNow submission for `https://choosebettertech.com/best-vpns-for-families` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | IndexNow submission for `https://choosebettertech.com/are-password-managers-safe` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
+| IndexNow submission for `https://choosebettertech.com/password-manager-vs-browser-passwords` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | Google Search Console submissions before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
 | Google Search Console submission for `https://choosebettertech.com/sitemap.xml` | Needs verification | Do not claim indexing or submission success without external Search Console evidence. |
 | Bing Webmaster Tools submission before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
@@ -230,6 +235,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 - Recheck VPN Privacy Guide privacy policies, logging definitions, audit scope/dates, ownership, jurisdiction, transparency reports, warrant canaries, app telemetry, DNS/IPv6/leak protection, and legal-request handling before future refreshes.
 - Recheck Best VPNs for Families device limits, household-sharing terms, router support, smart-TV and streaming-device apps, streaming compatibility, renewal pricing, refund terms, and free-plan limits before future refreshes.
 - Recheck Are Password Managers Safe? provider security models, audit status, incident updates, passkey support, recovery details, and browser-extension research before future refreshes.
+- Recheck Password Manager vs Browser Passwords browser/OS password-manager capabilities, passkey sync, export/import behavior, sharing, recovery, emergency access, browser-extension research, and dedicated-manager plan details before future refreshes.
 - Verify Proton VPN support availability and Swiss targeted logging nuance during the next VPN QA pass.
 - Verify active Proton VPN and Proton Pass affiliate CTAs and disclosures without changing editorial conclusions.
 - Verify Surfshark antivirus-data minimization status and Dausos maturity/follow-up review status during the next Surfshark refresh.
@@ -247,7 +253,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 3. Monitor indexing status per published URL without inferring indexation from sitemap or IndexNow submission.
 4. Recheck volatile pricing, plan, coverage, security, and affiliate-status details before purchase-focused updates.
 5. Keep homepage curated as additional reviews and comparisons are published.
-6. Plan `Password Manager vs Browser Passwords` as the next distinct password-manager educational guide.
+6. Plan `Best Password Managers for Families` as the next distinct password-manager guide, focusing on shared vaults, recovery, emergency access, permissions, household offboarding, and family-plan limits.
 7. Plan the next distinct VPN opportunity after the now-approved family VPN guide without choosing solely by affiliate value.
 
 ## Notes
