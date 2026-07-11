@@ -16,7 +16,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next operational action: Free VPN vs Paid VPN evidence update / existing-page optimization
+- Next operational action: external visual QA for the refreshed Free VPN vs Paid VPN guide
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
@@ -46,9 +46,12 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Best Password Managers for Beginners | Final approved | `https://choosebettertech.com/best-password-managers-for-beginners` | `67c7a23` | Production deployment verified (`135f90f`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Best Free Password Managers | Final approved | `https://choosebettertech.com/best-free-password-managers` | `7ab525d3f061e008b6a912fa4257cd8bbc8285df` | Production deployment verified (`choose-better-tech-cuen099fz-aaron-s-evans-projects.vercel.app`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
-| Are VPNs Worth It? | Verified live | `https://choosebettertech.com/are-vpns-worth-it` | `50492d39388490ee214dbb4f3de685d0d9e6cf20` | Production deployment Ready (`choose-better-tech-gejsjzbrr-aaron-s-evans-projects.vercel.app`) | Approved | Structural QA passed; visual QA pending external review | Structural QA passed; visual QA pending external review | Passed | Passed | VERIFIED LIVE - VISUAL QA PENDING | 2026-07-10 |
+| Are VPNs Worth It? | Final approved | `https://choosebettertech.com/are-vpns-worth-it` | `50492d39388490ee214dbb4f3de685d0d9e6cf20` | Production deployment Ready (`choose-better-tech-gejsjzbrr-aaron-s-evans-projects.vercel.app`) | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
+| Free VPN vs Paid VPN | Verified live - visual QA pending | `https://choosebettertech.com/guides/free-vpn-vs-paid` | `8d25cb36aa420e8b597278ebfe0f3fd1805d0bda` | Production deployment Ready (`choose-better-tech-on30jcmij-aaron-s-evans-projects.vercel.app`) | Approved | Structural QA passed | Structural QA passed | Passed | Passed | VERIFIED LIVE - VISUAL QA PENDING | 2026-07-11 |
 | Are Data Removal Services Worth It? | Final approved | `https://choosebettertech.com/are-data-removal-services-worth-it` | `ddcd971a73bbbda09b13fe5138697e2311504064` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Best Data Removal Services | Final approved | `https://choosebettertech.com/best-data-removal-services` | `4ec71893f827c4e2bf53851af9acea801824109d` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
+
+External visual QA for `Are VPNs Worth It?` covered the full desktop layout, full mobile layout, hero and quick-answer section, worth-it versus probably-unnecessary cards, HTTPS section, public Wi-Fi section, privacy and ISP visibility, free versus paid discussion, scenario cards, decision framework, product-fit section, FAQ, sources, final recommendation, newsletter signup, and footer.
 
 ## VPN Cluster Asset Inventory
 
@@ -61,11 +64,11 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | NordVPN vs Proton VPN | `/comparisons/nordvpn-vs-protonvpn` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | NordVPN vs Surfshark | `/comparisons/nordvpn-vs-surfshark` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Proton VPN vs Surfshark | `/comparisons/proton-vpn-vs-surfshark` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
-| Are VPNs Worth It? | `/are-vpns-worth-it` | Guide | N/A | Source assets complete | N/A | Yes | Verified live; external visual QA pending | Yes | INTERNAL_ONLY | 2026-07-10 | Complete external visual review before final approval; monitor VPN value-decision claims, HTTPS context, free-plan limits, and affiliate CTA behavior during refresh |
+| Are VPNs Worth It? | `/are-vpns-worth-it` | Guide | N/A | Source assets complete | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-10 | Monitor VPN value-decision claims, HTTPS context, free-plan limits, and affiliate CTA behavior during future refreshes |
 | Best VPNs for Beginners | `/guides/best-vpns-for-beginners` | Guide | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | VPN Buying Guide | `/guides/vpn-buying-guide` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | How VPNs Work | `/guides/how-vpns-work` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
-| Free VPN vs Paid VPN | `/guides/free-vpn-vs-paid` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+| Free VPN vs Paid VPN | `/guides/free-vpn-vs-paid` | Guide | N/A | Source assets complete | N/A | Yes | Verified live; external visual QA pending | Yes | INTERNAL_ONLY | 2026-07-11 | Existing route refreshed; production URL, direct refresh, source notes, comparison table, FAQ, affiliate isolation, sitemap entry, IndexNow submission, desktop structural QA, and mobile structural QA verified. External visual QA remains pending. |
 | VPN Myths | `/guides/vpn-myths` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Is Proton VPN Free Good Enough? | `/guides/is-proton-vpn-free-good-enough` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 
@@ -158,6 +161,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | IndexNow bulk URL submission | Reported complete | Current production sitemap URL set was submitted to `https://api.indexnow.org/IndexNow`; API returned HTTP 202 on 2026-07-10. Verify receipt in Bing Webmaster Tools. |
 | IndexNow submission for `https://choosebettertech.com/best-free-password-managers` | Reported complete | URL submitted to `https://api.indexnow.org/IndexNow`; API returned HTTP 200 on 2026-07-10. This confirms submission only, not indexing. |
 | IndexNow submission for `https://choosebettertech.com/are-vpns-worth-it` | Reported complete | URL submitted to `https://api.indexnow.org/IndexNow`; API returned HTTP 200 on 2026-07-10. This confirms submission only, not indexing. |
+| IndexNow submission for `https://choosebettertech.com/guides/free-vpn-vs-paid` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; first JSON attempt returned HTTP 400, then the single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | Google Search Console submissions before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
 | Google Search Console submission for `https://choosebettertech.com/sitemap.xml` | Needs verification | Do not claim indexing or submission success without external Search Console evidence. |
 | Bing Webmaster Tools submission before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
@@ -187,6 +191,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 ## Open Editorial Questions
 
 - Recheck VPN pricing, streaming compatibility, device limits, server counts, country counts, and refund terms before active promotion.
+- Recheck Proton VPN Free plan limits, free locations, device/session limits, paid feature differences, streaming/P2P support, and server-assignment behavior before each Free VPN vs Paid VPN refresh.
 - Verify Proton VPN support availability and Swiss targeted logging nuance during the next VPN QA pass.
 - Verify active Proton VPN and Proton Pass affiliate CTAs and disclosures without changing editorial conclusions.
 - Verify Surfshark antivirus-data minimization status and Dausos maturity/follow-up review status during the next Surfshark refresh.
@@ -199,13 +204,13 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 
 ## Next Production Priorities
 
-1. Run Free VPN vs Paid VPN evidence update / existing-page optimization.
+1. Complete external desktop and mobile visual QA for the refreshed Free VPN vs Paid VPN guide.
 2. Verify `https://choosebettertech.com/sitemap.xml` submission status in Google Search Console.
 3. Verify `https://choosebettertech.com/sitemap.xml` and IndexNow receipt status in Bing Webmaster Tools.
 4. Monitor indexing status per published URL without inferring indexation from sitemap or IndexNow submission.
 5. Recheck volatile pricing, plan, coverage, and affiliate-status details before purchase-focused updates.
 6. Keep homepage curated as additional reviews and comparisons are published.
-7. Continue distribution and KPI baseline work only with verified external platform data.
+7. Plan the next distinct VPN opportunity: Best Free VPNs, without duplicating Free VPN vs Paid VPN or Proton VPN Free intent.
 
 ## Notes
 

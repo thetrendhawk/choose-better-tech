@@ -74,7 +74,7 @@ Last Updated: 2026-07-10
 | VPN Myths | Published |
 | Is Proton VPN Free Good Enough? | Published |
 | Are VPNs Worth It? | Published |
-| Free VPN vs Paid VPN evidence update | Next Up |
+| Free VPN vs Paid VPN evidence update | Refreshed - visual QA pending |
 | Best Free VPNs | Planned |
 | Best VPNs for Streaming | Planned |
 | Best VPNs for Travel | Planned |
@@ -86,6 +86,7 @@ Last Updated: 2026-07-10
 - [x] Every VPN article links to related VPN assets.
 - [x] Affiliate disclosures are visible on commercial pages.
 - [x] Value-decision guide published without duplicating VPN buying, myths, or free-versus-paid intent.
+- [x] Free VPN vs Paid VPN refreshed on the existing route without duplicating the article or changing the slug.
 - [ ] Search indexing is monitored for every published article.
 - [ ] Refresh dates are assigned to each published article.
 
@@ -267,6 +268,6 @@ Last Updated: 2026-07-10
 
 | Order | Work Item | Status | Notes |
 | ---: | --- | --- | --- |
-| 1 | Are VPNs Worth It? | Next Up | Next planned article; publishing date not scheduled. |
-| 2 | Free VPN vs Paid VPN | Published | Already live; treat near-term work as refresh, QA, or distribution follow-up rather than a new article build. |
-| 3 | Best Free VPNs | Planned | Future VPN guide; keep after Are VPNs Worth It unless roadmap priorities change. |
+| 1 | Are VPNs Worth It? | Final approved | Published, production verified, and external desktop/mobile visual QA approved. |
+| 2 | Free VPN vs Paid VPN | Refreshed - visual QA pending | Existing route retained; production verified after evidence refresh. External desktop/mobile screenshot review remains the next QA step. |
+| 3 | Best Free VPNs | Recommended Next | Next distinct VPN opportunity because it can answer product-selection intent without duplicating Free VPN vs Paid VPN or Proton VPN Free. |

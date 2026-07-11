@@ -73,4 +73,4 @@ These counts use published editorial routes in the current repository and sitema
 
 | Month | Publishing Goal | Traffic Goal | Affiliate Goal | Revenue Goal | Status |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07 | Maintain current published assets and run Free VPN vs Paid VPN evidence update | Establish baseline without inventing traffic data | Track verified applications only | Establish baseline when revenue data exists | Active |
+| 2026-07 | Maintain current published assets, complete Free VPN vs Paid VPN refresh QA, and plan Best Free VPNs as the next distinct VPN opportunity | Establish baseline without inventing traffic data | Track verified applications only | Establish baseline when revenue data exists | Active |

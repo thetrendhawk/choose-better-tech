@@ -10,7 +10,7 @@ Last Updated: 2026-07-10
 | Field | Status |
 | --- | --- |
 | Phase | Traffic execution and cluster expansion |
-| Summary | Current site inventory, production deployment, and recent publication QA are reconciled; next work shifts to distribution, indexing verification, KPI baselines, and the next VPN existing-page optimization. |
+| Summary | Current site inventory, production deployment, and recent publication QA are reconciled; next work shifts to distribution, indexing verification, KPI baselines, external visual QA for the refreshed Free VPN vs Paid guide, and the next distinct VPN opportunity. |
 | Health | On Track |
 
 ## Current Sprint
@@ -31,7 +31,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Priority | Owner | Status |
 | --- | --- | --- |
 | Maintain current operational dashboards | Choose Better Tech | Active |
-| Run Free VPN vs Paid VPN evidence update | Choose Better Tech | Next Up |
+| Complete external visual QA for refreshed Free VPN vs Paid VPN guide | Choose Better Tech | Next Up |
 
 ## Current Task
 
@@ -39,8 +39,8 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | --- | --- | --- |
 | Operations documentation framework | Complete | Repo evidence shows active SOPs, dashboards, templates, and content inventory records. |
 | Best Free Password Managers | Final approved | Production URL verified; external desktop/mobile visual QA completed and final approval recorded. |
-| Are VPNs Worth It | Verified live | Production URL verified; desktop/mobile structural QA passed; external visual QA remains pending. |
-| Free VPN vs Paid VPN evidence update | Planned | Existing-page optimization; do not create a duplicate article. |
+| Are VPNs Worth It | Final approved | Production URL verified; external desktop/mobile visual QA completed; editorial, affiliate, evidence, desktop, and mobile QA passed. |
+| Free VPN vs Paid VPN evidence update | Verified live - visual QA pending | Existing route refreshed without a duplicate article; production URL, direct refresh, sitemap, IndexNow submission, desktop structural QA, and mobile structural QA verified. |
 
 ## Current Blockers
 
@@ -77,6 +77,7 @@ These statuses require platform access or manual confirmation outside the reposi
 | IndexNow URL submission | Reported complete | Current production sitemap URL set submitted on 2026-07-10; IndexNow API returned HTTP 202. Bing Webmaster Tools receipt still needs verification. |
 | IndexNow submission for Best Free Password Managers | Reported complete | `https://choosebettertech.com/best-free-password-managers` submitted on 2026-07-10; IndexNow API returned HTTP 200. Indexing still needs external verification. |
 | IndexNow submission for Are VPNs Worth It | Reported complete | `https://choosebettertech.com/are-vpns-worth-it` submitted on 2026-07-10; IndexNow API returned HTTP 200. Indexing still needs external verification. |
+| IndexNow submission for Free VPN vs Paid VPN | Reported complete | `https://choosebettertech.com/guides/free-vpn-vs-paid` submitted on 2026-07-11; IndexNow single-URL API returned HTTP 200 after an initial JSON submission returned HTTP 400. Indexing still needs external verification. |
 | URL indexing status | Needs verification | No indexing success is claimed in this dashboard. |
 | Social distribution | Not scheduled | Pinterest, Instagram, and LinkedIn distribution need separate scheduling or confirmation. |
 | KPI performance | Not measured | Traffic, conversion, email, and revenue metrics need external platform data. |
@@ -91,7 +92,8 @@ These statuses require platform access or manual confirmation outside the reposi
 | 2026-07-10 | Are Data Removal Services Worth It? completed and final QA approved | Content/completion commit `ddcd971a73bbbda09b13fe5138697e2311504064`; production deployment verified. |
 | 2026-07-10 | Best Data Removal Services published and final QA approved | Content commit `4ec71893f827c4e2bf53851af9acea801824109d`; production deployment verified. |
 | 2026-07-10 | Best Free Password Managers published and final QA approved | Content commit `7ab525d3f061e008b6a912fa4257cd8bbc8285df`; production deployment Ready; external desktop/mobile visual QA completed and final approval recorded. |
-| 2026-07-10 | Are VPNs Worth It published and production verified | Content commit `50492d39388490ee214dbb4f3de685d0d9e6cf20`; production deployment Ready; production URL, sitemap entry, route bundle, and IndexNow submission verified. External visual QA remains pending. |
+| 2026-07-10 | Are VPNs Worth It published and final approved | Content commit `50492d39388490ee214dbb4f3de685d0d9e6cf20`; production deployment Ready; production URL, sitemap entry, route bundle, and IndexNow submission verified. External desktop/mobile visual QA completed and final verdict approved. |
+| 2026-07-11 | Free VPN vs Paid VPN refreshed and production verified | Existing route retained at `https://choosebettertech.com/guides/free-vpn-vs-paid`; content commit `8d25cb36aa420e8b597278ebfe0f3fd1805d0bda`; production deployment Ready; production URL, route refresh, mobile structural layout, sitemap entry, bundle content, and IndexNow submission verified. External visual QA remains pending. |
 | 2026-07-10 | Current live content inventory verified | 11 reviews, 12 comparisons, 14 hubs/guides, and 3 authority pages. |
 | TBD | Google Search Console configured | Indexing and search visibility tracking enabled. |
 | TBD | Google Analytics configured | Traffic measurement enabled. |
@@ -105,7 +107,7 @@ These statuses require platform access or manual confirmation outside the reposi
 
 | Milestone | Target Date | Acceptance Criteria |
 | --- | --- | --- |
-| Free VPN vs Paid VPN evidence update | TBD | Existing route reviewed, current evidence verified, production URL reverified, and QA status recorded without inventing indexing or performance data. |
+| External visual QA for refreshed Free VPN vs Paid VPN | TBD | Desktop and mobile screenshots reviewed externally; only then mark the refreshed guide final approved. |
 
 ## Decision Log
 
