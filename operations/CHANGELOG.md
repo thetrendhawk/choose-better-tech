@@ -48,6 +48,7 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 | 2026-07-11 | Content | Best Free VPNs published | Content commit `b08d585539a077aee5932778e5d4acaa65f064fd`; production URL `https://choosebettertech.com/best-free-vpns`; article compares legitimate free VPN tiers without hard-coded affiliate links or paid-placement recommendations. |
 | 2026-07-11 | Deployment | Best Free VPNs production URL verified | Canonical production URL, direct route refresh, mobile structural layout, route bundle, and sitemap entry verified. External visual QA remains pending. |
 | 2026-07-11 | Indexing | Best Free VPNs submitted to IndexNow | `https://choosebettertech.com/best-free-vpns` submitted through the IndexNow single-URL endpoint; API returned HTTP 200. This confirms submission only, not indexing. |
+| 2026-07-11 | QA | Best Free VPNs final visual QA approved | External desktop/mobile visual review completed for hero, quick recommendations, comparison table, all five provider sections, safety guidance, unlimited-versus-limited data guidance, streaming guidance, travel guidance, student guidance, public Wi-Fi guidance, upgrade guidance, FAQ, source links, final recommendation, buyer checklist, newsletter/footer, responsive table containment, and page-level horizontal overflow. Final verdict: APPROVED. |
 
 ## Future Entries
 

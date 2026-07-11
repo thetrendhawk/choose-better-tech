@@ -107,6 +107,7 @@ export const vpnDecisionHub = {
     { title: "Are VPNs Worth It?", href: "/are-vpns-worth-it", description: "Decide whether a VPN solves a real privacy, travel, network, or location problem for you." },
     { title: "How VPNs Work", href: "/guides/how-vpns-work", description: "Learn what a VPN can and cannot protect." },
     { title: "Best Free VPNs", href: "/best-free-vpns", description: "Compare legitimate permanent free VPN tiers by fit, limits, privacy, and upgrade pressure." },
+    { title: "Best VPNs for Travel", href: "/best-vpns-for-travel", description: "Choose a VPN for public Wi-Fi, international travel, many devices, streaming abroad, and short-term trips." },
     { title: "Free VPN vs Paid VPN", href: "/guides/free-vpn-vs-paid", description: "Understand free-plan tradeoffs before installing a VPN." },
     { title: "VPN Buying Guide", href: "/guides/vpn-buying-guide", description: "Use a practical checklist for comparing providers." },
     { title: "VPN Myths", href: "/guides/vpn-myths", description: "Avoid exaggerated claims about anonymity and security." },

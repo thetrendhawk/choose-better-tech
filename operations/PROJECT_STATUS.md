@@ -10,7 +10,7 @@ Last Updated: 2026-07-11
 | Field | Status |
 | --- | --- |
 | Phase | Traffic execution and cluster expansion |
-| Summary | Current site inventory, production deployment, and recent publication QA are reconciled; next work shifts to distribution, indexing verification, KPI baselines, external visual QA for Best Free VPNs, and the next distinct VPN opportunity. |
+| Summary | Current site inventory, production deployment, and recent publication QA are reconciled; next work shifts to distribution, indexing verification, KPI baselines, and the next distinct VPN travel opportunity. |
 | Health | On Track |
 
 ## Current Sprint
@@ -31,7 +31,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Priority | Owner | Status |
 | --- | --- | --- |
 | Maintain current operational dashboards | Choose Better Tech | Active |
-| Complete external visual QA for Best Free VPNs | Choose Better Tech | Next Up |
+| Publish and structurally QA Best VPNs for Travel | Choose Better Tech | Next Up |
 
 ## Current Task
 
@@ -41,7 +41,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Best Free Password Managers | Final approved | Production URL verified; external desktop/mobile visual QA completed and final approval recorded. |
 | Are VPNs Worth It | Final approved | Production URL verified; external desktop/mobile visual QA completed; editorial, affiliate, evidence, desktop, and mobile QA passed. |
 | Free VPN vs Paid VPN evidence update | Final approved | Existing route refreshed without a duplicate article; production URL, direct refresh, sitemap, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
-| Best Free VPNs | Verified live - visual QA pending | Production URL, route refresh, sitemap, IndexNow submission, desktop structural QA, and mobile structural QA verified. External visual QA remains pending. |
+| Best Free VPNs | Final approved | Production URL, route refresh, sitemap, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
 
 ## Current Blockers
 
@@ -110,7 +110,7 @@ These statuses require platform access or manual confirmation outside the reposi
 
 | Milestone | Target Date | Acceptance Criteria |
 | --- | --- | --- |
-| External visual QA for Best Free VPNs | TBD | Desktop and mobile screenshots reviewed externally; only then mark the new guide final approved. |
+| Best VPNs for Travel publication | TBD | Article built, production URL verified, sitemap entry live, IndexNow submitted, and desktop/mobile structural QA complete. |
 
 ## Decision Log
 
