@@ -343,7 +343,7 @@ export function BestVpnsForTravelPage() {
     </section>
 
     <Section id="quick-recommendations">
-      <SectionHeading eyebrow="Quick recommendations" title="Best Travel VPNs by Fit" description="These labels are based on travel use cases, not commissions. Non-affiliate providers are included where the evidence supports them." />
+      <SectionHeading eyebrow="Quick verdict" title="Best Travel VPNs by Fit" description="These labels are based on travel use cases, not commissions. Non-affiliate providers are included where the evidence supports them." />
       <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
         {providers.map((provider) => <article key={provider.name} className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft"><p className="text-sm font-semibold uppercase tracking-wide text-brand-700">{provider.label}</p><h3 className="mt-3 text-xl font-bold text-slate-950">{provider.name}</h3><p className="mt-3 text-sm leading-6 text-slate-700">{provider.bestFor}</p><p className="mt-3 text-sm leading-6 text-slate-600"><strong>Limitation:</strong> {provider.limitation}</p>{provider.reviewHref ? <Link className="mt-4 inline-flex font-semibold text-brand-700 hover:text-brand-800" to={provider.reviewHref}>Read review</Link> : null}</article>)}
       </div>
