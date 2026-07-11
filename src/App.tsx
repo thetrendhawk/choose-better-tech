@@ -41,6 +41,7 @@ const OnePasswordVsProtonPassPage = lazy(() => import("./pages/OnePasswordVsProt
 const OpteryReviewPage = lazy(() => import("./pages/OpteryReviewPage").then((module) => ({ default: module.OpteryReviewPage })));
 const OpteryVsDeleteMePage = lazy(() => import("./pages/OpteryVsDeleteMePage").then((module) => ({ default: module.OpteryVsDeleteMePage })));
 const PasswordManagersHubPage = lazy(() => import("./pages/PasswordManagersHubPage").then((module) => ({ default: module.PasswordManagersHubPage })));
+const PasswordManagerVsBrowserPasswordsPage = lazy(() => import("./pages/PasswordManagerVsBrowserPasswordsPage").then((module) => ({ default: module.PasswordManagerVsBrowserPasswordsPage })));
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage").then((module) => ({ default: module.PrivacyPage })));
 const ProtonPassReviewPage = lazy(() => import("./pages/ProtonPassReviewPage").then((module) => ({ default: module.ProtonPassReviewPage })));
 const ProtonPassVsNordPassPage = lazy(() => import("./pages/ProtonPassVsNordPassPage").then((module) => ({ default: module.ProtonPassVsNordPassPage })));
@@ -95,6 +96,7 @@ export default function App() {
             <Route path="are-vpns-worth-it" element={<AreVpnsWorthItPage />} />
             <Route path="best-data-removal-services" element={<BestDataRemovalServicesPage />} />
             <Route path="best-free-password-managers" element={<BestFreePasswordManagersPage />} />
+            <Route path="password-manager-vs-browser-passwords" element={<PasswordManagerVsBrowserPasswordsPage />} />
             <Route path="best-free-vpns" element={<BestFreeVpnsPage />} />
             <Route path="best-vpns-for-families" element={<BestVpnsForFamiliesPage />} />
             <Route path="best-vpns-for-students" element={<BestVpnsForStudentsPage />} />
