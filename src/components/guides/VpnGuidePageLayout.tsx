@@ -103,6 +103,29 @@ export function VpnGuidePageLayout({ guide }: { guide: VpnGuideContent }) {
         </div>
       </Section>
 
+      {guide.comparison ? (
+        <Section className="bg-slate-50">
+          <SectionHeading title={guide.comparison.title} description={guide.comparison.description} />
+          <div className="mt-8 overflow-x-auto rounded-lg border border-slate-200 bg-white shadow-soft">
+            <table className="w-full min-w-[760px] border-collapse text-left text-sm">
+              <thead className="bg-slate-950 text-white">
+                <tr>
+                  {guide.comparison.columns.map((column) => <th key={column} className="px-4 py-4 font-semibold" scope="col">{column}</th>)}
+                </tr>
+              </thead>
+              <tbody>
+                {guide.comparison.rows.map((row) => (
+                  <tr key={row.label} className="border-b border-slate-200 last:border-0">
+                    <th className="px-4 py-4 font-semibold text-slate-950" scope="row">{row.label}</th>
+                    {row.cells.map((cell) => <td key={cell} className="px-4 py-4 align-top text-slate-700">{cell}</td>)}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </Section>
+      ) : null}
+
       <Section className="bg-slate-50">
         <SectionHeading title="Practical Examples" />
         <div className="mt-8 grid gap-5 md:grid-cols-3">
@@ -122,12 +145,30 @@ export function VpnGuidePageLayout({ guide }: { guide: VpnGuideContent }) {
         </div>
       </Section>
 
+      {guide.productFit ? (
+        <Section className="bg-slate-50">
+          <SectionHeading title="Product Fit" description="Provider examples are secondary to the free-versus-paid decision. Use them only after you know what problem you are solving." />
+          <div className="mt-8 grid gap-5 md:grid-cols-3">
+            {guide.productFit.map((item) => <Link key={item.href} className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft transition-colors hover:border-brand-200 hover:bg-brand-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to={item.href}><h3 className="text-lg font-bold text-slate-950">{item.title}</h3><p className="mt-3 text-sm leading-6 text-slate-700">{item.description}</p></Link>)}
+          </div>
+        </Section>
+      ) : null}
+
       <Section className="bg-slate-50">
         <SectionHeading title="FAQ" />
         <div className="mt-8 grid gap-4">
           {guide.faqs.map((faq) => <article key={faq.question} className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h2 className="text-lg font-bold text-slate-950">{faq.question}</h2><p className="mt-3 text-base leading-7 text-slate-700">{faq.answer}</p></article>)}
         </div>
       </Section>
+
+      {guide.sourceNotes ? (
+        <Section>
+          <SectionHeading title="Source Notes" description="Current facts should be rechecked before purchase because VPN plans, limits, locations, support, and streaming access can change." />
+          <div className="mt-8 grid gap-4 md:grid-cols-2">
+            {guide.sourceNotes.map((source) => <a key={source.href} className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft transition-colors hover:border-brand-200 hover:bg-brand-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" href={source.href} target="_blank" rel="noreferrer"><h3 className="text-base font-semibold text-slate-950">{source.title}</h3><p className="mt-2 text-sm leading-6 text-slate-600">{source.description}</p></a>)}
+          </div>
+        </Section>
+      ) : null}
 
       <Section>
         <SectionHeading title="Related Guides" description="Continue through the VPN knowledge hub." />

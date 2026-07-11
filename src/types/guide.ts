@@ -28,6 +28,16 @@ export type GuideDecisionItem = {
   reasoning: string;
 };
 
+export type GuideComparison = {
+  title: string;
+  description?: string;
+  columns: string[];
+  rows: {
+    label: string;
+    cells: string[];
+  }[];
+};
+
 export type VpnGuideContent = {
   slug: string;
   path: string;
@@ -40,7 +50,10 @@ export type VpnGuideContent = {
   keyTakeaways: string[];
   examples: GuideCard[];
   sections: GuideSection[];
+  comparison?: GuideComparison;
   decisionFramework: GuideDecisionItem[];
+  productFit?: GuideLink[];
+  sourceNotes?: GuideLink[];
   faqs: GuideFaq[];
   relatedGuides: GuideLink[];
   cta: {

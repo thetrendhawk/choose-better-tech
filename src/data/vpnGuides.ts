@@ -104,65 +104,211 @@ export const vpnGuides: VpnGuideContent[] = [
     slug: "free-vpn-vs-paid",
     path: vpnHubLinks.freeVsPaid,
     categoryLabel: "VPN Buying Guide",
-    title: "Free VPN vs Paid VPN: What Beginners Should Know",
-    description: "A beginner-friendly comparison of free and paid VPNs, including privacy risks, safety checks, speed limits, and when a reputable free tier may be enough.",
-    subtitle: "A practical guide to the real tradeoffs between free VPN apps, reputable free tiers, and paid VPN subscriptions.",
-    updatedAt: "2026-07-01",
+    title: "Free VPN vs Paid VPN: Which Is Better in 2026?",
+    description: "Compare free and paid VPNs by data limits, speed, streaming, privacy, devices, server access, and value to decide which option fits your needs.",
+    subtitle: "A reputable free VPN may be enough for light use. Paid plans become more valuable when you need reliable speed, streaming, more locations, and multiple devices.",
+    updatedAt: "2026-07-10",
     executiveSummary: [
-      "Free VPNs are not automatically unsafe, but the category deserves caution. Research cited in the project found many Android VPN apps with malware indicators, tracking libraries, excessive permissions, missing encryption, and DNS or IPv6 leaks.",
-      "A reputable free tier from a privacy-focused provider can be useful for light browsing or public Wi-Fi protection, especially when it has the same core no-logs policy and encryption model as paid tiers. Proton VPN is the main example in the research package.",
-      "Paid VPNs are usually the better fit for streaming, higher speeds, more devices, broader server choice, P2P, and advanced features. They are not automatically trustworthy, so buyers should still check audits, logging policies, jurisdiction, and protocol support."
+      "A reputable free VPN can be enough for occasional browsing, light public Wi-Fi use, students with modest needs, testing whether a VPN fits your workflow, or privacy-conscious users who cannot pay yet.",
+      "A paid VPN becomes more worthwhile when you use a VPN daily, need steadier speed, want more server choice, stream often, travel frequently, cover several devices, or want fewer plan restrictions.",
+      "Free does not automatically mean unsafe, and paid does not automatically mean trustworthy. The real question is the provider's business model, limits, technical safeguards, transparency, and whether the restrictions create real friction for you.",
+      "This guide is the free-versus-paid decision layer. If you are still asking whether you need a VPN at all, start with the Are VPNs Worth It guide first."
     ],
     keyTakeaways: [
-      "A random free VPN can be worse than no VPN if it logs, injects ads, leaks traffic, or lacks proper encryption.",
-      "EFF warns against ultra-cheap or lifetime VPNs when the business model is unclear.",
-      "Paid plans usually improve speed, location choice, device support, streaming, P2P, and support.",
-      "A reputable free tier can be acceptable for light use when privacy evidence is strong.",
-      "Pricing alone does not prove safety; independent audits and transparent policies matter."
+      "A reputable free tier is different from a temporary trial, a money-back period, or an opaque free app with an unclear business model.",
+      "Free VPNs commonly limit locations, server choice, streaming, support, advanced features, or simultaneous connections even when data is unlimited.",
+      "Paid VPNs usually add broader server access, streaming support, device flexibility, customer support, and more reliable long-term use.",
+      "Proton VPN Free is the main legitimate free-plan case study in the current CBT VPN cluster, but it still has meaningful limits.",
+      "Affiliate status must not decide whether a free or paid option is recommended."
     ],
     examples: [
-      { title: "Random Free App", description: "The research cites VPN apps with tracking libraries, excessive permissions, leaks, and even missing encrypted tunnels." },
-      { title: "Reputable Free Tier", description: "Proton's free tier is presented as a constrained but privacy-oriented option funded by a larger paid ecosystem." },
-      { title: "Paid Subscription", description: "A paid VPN can align incentives around subscriptions, but users still need to verify privacy and security claims." }
+      { title: "Free can be enough", description: "Occasional browsing, light travel use, a student budget, or a backup VPN can fit a reputable free plan when its location and device limits do not get in the way." },
+      { title: "Paid can be worth it", description: "Daily use, streaming attempts, frequent travel, households, several devices, P2P, and advanced privacy features usually push readers toward paid plans." },
+      { title: "Either can be wrong", description: "A bad free app can undermine privacy, but a paid subscription can also disappoint if ownership, logging, support, cancellation, or streaming claims are weak." }
     ],
     sections: [
       {
-        id: "free-risks",
-        title: "Why Free VPNs Require Extra Scrutiny",
+        id: "what-counts",
+        title: "What Counts as a Free VPN?",
         body: [
-          "The strongest warning in the research comes from empirical Android VPN app analysis. The study found serious issues across many consumer VPN apps, including malware indicators, tracking libraries, unencrypted tunnels, and traffic leaks.",
-          "The problem is not the word free by itself. The problem is a business model where a service with real infrastructure costs may be funded by ads, analytics, data resale, or other practices that conflict with privacy."
+          "A free VPN can mean several different things. A permanent free tier is an ongoing no-cost plan with limits. A temporary trial is usually short-lived and may require payment details. A money-back guarantee is not a free plan because you pay first and must follow refund terms.",
+          "Other models include ad-supported apps, freemium plans funded by paid subscribers, open-source tools with separate infrastructure needs, and opaque free apps where the business model is hard to verify."
         ],
-        bullets: ["Check the business model", "Avoid lifetime deals that seem too cheap", "Read the logging policy", "Look for audits and clear protocol support"]
+        bullets: ["Permanent free tier", "Temporary trial", "Money-back period", "Freemium plan", "Ad-supported service", "Open-source tool", "Unknown free app with unclear incentives"]
       },
       {
-        id: "paid-benefits",
-        title: "What Paid VPNs Usually Add",
+        id: "when-free-is-enough",
+        title: "When a Free VPN Is Enough",
         body: [
-          "Paid plans commonly add more server locations, higher speeds, more simultaneous devices, streaming support, P2P support, advanced privacy features, and priority support.",
-          "Those benefits matter if you use a VPN every day, stream while traveling, protect several devices, or need reliable performance. For occasional public Wi-Fi use, a reputable free tier may be enough."
+          "A reputable free VPN can be enough when your needs are light and predictable. Think occasional public Wi-Fi, basic browsing, testing whether you like using a VPN, or a backup option for travel.",
+          "Free is also reasonable for users with a strict budget, students, and people who value privacy but do not need streaming, P2P, many locations, several devices, or high-touch support."
+        ],
+        note: "If a free plan's limits do not cause real friction, paying may be unnecessary."
+      },
+      {
+        id: "when-paid-is-worth-it",
+        title: "When a Paid VPN Is Worth It",
+        body: [
+          "A paid VPN makes more sense when the free plan gets in the way. Daily use, frequent travel, streaming, gaming where route or location matters, multiple devices, households, support, and reliability are the common reasons to pay.",
+          "Paid plans usually offer broader server networks, more countries, paid streaming support, P2P support, specialty servers, split tunneling, advanced privacy features, and fewer usage restrictions. Not every provider includes every feature, so the current plan page still matters."
         ]
       },
       {
-        id: "not-automatic",
-        title: "Paid Does Not Automatically Mean Private",
+        id: "common-limits",
+        title: "Common Free-Plan Limitations",
         body: [
-          "The research is clear that buyers still need to evaluate paid VPNs. A subscription fee can improve incentives, but it does not prove a no-logs claim, strong implementation, or a privacy-friendly jurisdiction.",
-          "Look for published privacy policies, independent audits, open-source clients where available, leak protection, kill switches, and standards-based protocols."
+          "Free plans often limit data, speed, available locations, manual server choice, simultaneous connections, support, streaming, torrenting, specialty servers, or advanced features. Some services also use upgrade prompts or reserve their best servers for paid customers.",
+          "Proton VPN is unusual because its current official documentation says Free has unlimited data, no ads, no activity logs, access to servers in 10 countries, one VPN connection, and random server assignment with a cooldown when changing servers."
+        ],
+        bullets: ["Data caps or speed differences", "Limited locations or automatic server selection", "One-device or one-session limits", "Reduced support", "Streaming or P2P restrictions", "Fewer advanced features"]
+      },
+      {
+        id: "privacy-business-model",
+        title: "Privacy and Business-Model Differences",
+        body: [
+          "A VPN does not remove trust. It shifts some trust away from your ISP or local network and toward the VPN provider. That is why ownership, privacy policy, logging claims, audits, app permissions, and business model matter.",
+          "Some reputable free tiers are funded by paid subscribers. Other free apps may rely on ads, analytics, third-party data sharing, or unclear monetization. The FTC has warned that VPN apps may share information with third parties, especially when advertising or other monetization supports the service.",
+          "Paid plans can align incentives around subscription revenue, but payment alone does not prove privacy. A paid VPN can still have weak policies, poor ownership transparency, bad support, or disappointing technical implementation."
         ]
-      }
+      },
+      {
+        id: "are-free-vpns-safe",
+        title: "Are Free VPNs Safe?",
+        body: [
+          "Some reputable providers offer safe free tiers, but the free VPN category deserves extra scrutiny. The CSIRO/ICSI/UC Berkeley/UNSW research on Android VPN apps found serious privacy and security problems across many apps that used Android's VPN permission.",
+          "The practical rule is not 'never free.' It is 'never install a free VPN until you understand who runs it, how it is funded, what it logs, what permissions it asks for, and what limits apply.'"
+        ],
+        note: "Avoid absolute claims. Free versus paid is a signal to investigate, not proof of safety or danger."
+      },
+      {
+        id: "proton-case-study",
+        title: "Proton VPN Free as a Case Study",
+        body: [
+          "Proton VPN Free is the strongest legitimate free-plan example in the current CBT VPN cluster. Current Proton documentation describes it as a permanent free tier with no data limits, no ads, no activity logs, DNS leak protection, kill switch or always-on VPN support, one VPN connection, and access to free servers in 10 countries.",
+          "The limits still matter. Free users do not get the full paid server network, paid streaming positioning, paid P2P servers, Secure Core, NetShield, more simultaneous connections, or the same control over server choice. Current Proton support says free server changes are randomly assigned and subject to cooldowns.",
+          "That makes Proton VPN Free useful for light privacy, public Wi-Fi, censorship circumvention, or testing, but not a complete replacement for paid plans if streaming, torrenting, multi-device use, location choice, or advanced privacy features are priorities."
+        ]
+      },
+      {
+        id: "trials-refunds",
+        title: "Free Trials and Money-Back Guarantees Are Different",
+        body: [
+          "A trial is not the same thing as a permanent free plan. Trials usually expire. Money-back guarantees require payment first and may include cancellation rules, refund windows, region differences, payment-method requirements, or renewal timing that readers need to track.",
+          "Use a trial or refund window only if you are comfortable checking the terms, testing quickly, and cancelling before the plan renews if it does not fit."
+        ]
+      },
+      {
+        id: "streaming",
+        title: "Free VPNs for Streaming",
+        body: [
+          "Free VPNs often struggle with streaming because of limited locations, crowded servers, streaming blocks, speed differences, or data caps. Some free plans also do not position streaming as a supported free-tier feature.",
+          "Paid VPNs are usually better for streaming, but they still do not guarantee access. Streaming services change detection and licensing rules, and a paid server that works today may fail later."
+        ]
+      },
+      {
+        id: "travel-students-households",
+        title: "Travel, Students, and Households",
+        body: [
+          "For occasional travel, a reputable free VPN can be a useful backup if you install it before departure, test it on your own devices, and understand local laws and network restrictions. Frequent travel usually favors paid plans because reliability, location choice, and support matter more.",
+          "Students may be well served by a reputable free plan for campus Wi-Fi and light browsing, especially when subscription fatigue is real. Streaming, gaming, multiple devices, and dorm-device sprawl can push the decision toward paid.",
+          "Households usually outgrow free VPNs faster than individuals. Multiple users, smart TVs, phones, laptops, tablets, routers, and support needs make paid plans more practical."
+        ]
+      },
+      {
+        id: "paid-adds-and-limits",
+        title: "What Paid VPNs Add, and What They Do Not Guarantee",
+        body: [
+          "Paid VPNs usually add broader server access, more countries, streaming support, higher or uncapped usage, better speed consistency, more simultaneous devices, customer support, advanced protocols, specialty servers, split tunneling, threat-blocking extras, and dedicated IP options.",
+          "Paid VPNs do not guarantee anonymity, perfect privacy, malware protection, streaming access, faster speeds on every route, trustworthy ownership, honest logging, easy cancellation, or good support. Those claims still need evidence."
+        ]
+      },
+      {
+        id: "choose-safely",
+        title: "How to Choose a Free VPN Safely",
+        body: [
+          "Before installing any free VPN, verify that the company is identifiable, the privacy policy is clear, the business model makes sense, official app-store listings exist, permissions are minimal, limits are transparent, and support documentation is available.",
+          "Look for audits where available, clear account deletion or export options, and no impossible claims. Be especially cautious with sideloaded apps, fake brand names, lifetime promises, and providers that hide ownership."
+        ],
+        bullets: ["Identifiable company", "Clear privacy policy", "Clear business model", "Official app-store presence", "Minimal permissions", "Transparent limits", "Support documentation", "Audits where available", "Account deletion options", "No suspicious sideloading"]
+      },
+      {
+        id: "decide-whether-to-pay",
+        title: "How to Decide Whether to Pay",
+        body: [
+          "Step 1: Identify exactly what the free plan cannot do. Step 2: Decide whether that restriction causes real friction. Step 3: Compare the paid upgrade with competing free and paid options.",
+          "Step 4: Check renewal pricing, cancellation, refund terms, device limits, platform support, and streaming claims. Step 5: If a refund window exists, test the service quickly on the devices, networks, and use cases that matter to you."
+        ]
+      },
+      {
+        id: "distinct-intent",
+        title: "How This Guide Differs From the Rest of the VPN Cluster",
+        body: [
+          "This page answers whether you should use a free VPN or pay for one. Are VPNs Worth It asks whether a VPN solves a real problem for you at all. Is Proton VPN Free Good Enough focuses on one provider's free plan. Best VPNs for Beginners compares provider fit. The VPN Buying Guide gives a broader checklist for choosing any VPN.",
+          "Keeping those intents separate prevents this page from becoming a hidden roundup or a duplicate buying guide."
+        ]
+      },
     ],
+    comparison: {
+      title: "Free VPN Versus Paid VPN Comparison",
+      description: "Use this as a practical decision table, not a universal rule. A reputable free plan can beat a weak paid service, and a good paid plan can be overkill for light use.",
+      columns: ["Category", "Free VPN", "Paid VPN", "Why it matters"],
+      rows: [
+        { label: "Price", cells: ["No monthly cost, but may have limits or a different monetization model.", "Subscription cost, often with renewal pricing and refund terms to check.", "The cheapest choice is not automatically the most private or useful."] },
+        { label: "Data", cells: ["May be capped, though Proton VPN Free currently states unlimited bandwidth and data.", "Usually higher or uncapped for consumer paid plans.", "Data limits decide whether everyday browsing, travel, and streaming are realistic."] },
+        { label: "Speed", cells: ["May be slower because of load, fewer servers, or plan priority.", "Usually better speed consistency and more server choice.", "Speed matters for video calls, travel, streaming, and daily use."] },
+        { label: "Server locations", cells: ["Often limited, automatic, or unavailable for manual selection.", "Usually broader country and city choice.", "Location choice affects travel, latency, and access to home-region services."] },
+        { label: "Streaming", cells: ["Often limited or unreliable; no guarantee.", "More commonly supported, but still not guaranteed.", "Streaming access changes often and should be tested before committing."] },
+        { label: "Devices", cells: ["Often one connection or fewer simultaneous sessions.", "Usually more simultaneous devices; Surfshark currently positions its plans around unlimited devices.", "Households and multi-device users usually need more flexibility."] },
+        { label: "Support", cells: ["May be limited or lower priority.", "Usually better support access.", "Support matters when a VPN fails while traveling or streaming."] },
+        { label: "Privacy model", cells: ["Can be reputable when funded transparently, but opaque apps need extra scrutiny.", "Subscription funding can align incentives, but does not prove privacy.", "Trust depends on policy, ownership, audits, and implementation."] },
+        { label: "Features", cells: ["Usually fewer advanced features.", "Often adds Secure Core-style routing, threat blocking, split tunneling, specialty servers, P2P, or dedicated IP options depending on provider.", "Advanced features matter only when they solve your actual use case."] },
+        { label: "Reliability", cells: ["Good enough for light use; less predictable for heavy use.", "Usually more reliable for daily use and travel.", "Reliability is often the real reason to pay."] },
+        { label: "Best fit", cells: ["Occasional browsing, students, testing, backup use, and modest needs.", "Daily users, travelers, streamers, households, and people who want fewer restrictions.", "Fit matters more than a universal free-versus-paid answer."] }
+      ]
+    },
     decisionFramework: [
-      { label: "Occasional public Wi-Fi", recommendation: "A reputable free tier may be enough.", reasoning: "Light browsing can fit a constrained plan if privacy evidence is strong." },
-      { label: "Streaming or torrenting", recommendation: "Use a paid plan.", reasoning: "Free tiers commonly limit speed, location choice, streaming support, and P2P features." },
-      { label: "Unknown free VPN app", recommendation: "Avoid until verified.", reasoning: "Research shows many app-store VPNs fail core privacy and security expectations." },
-      { label: "Several devices", recommendation: "Compare paid plans.", reasoning: "Paid VPNs usually provide more connections and better device support." }
+      { label: "I only use a VPN occasionally.", recommendation: "Start with a reputable free tier.", reasoning: "Light, occasional use may not justify another subscription if limits do not create friction." },
+      { label: "I need a VPN every day.", recommendation: "A paid plan is more likely to fit.", reasoning: "Daily use makes speed, server choice, support, and reliability more important." },
+      { label: "I am a student.", recommendation: "Try reputable free first.", reasoning: "Campus Wi-Fi and budget pressure can make free practical unless streaming, gaming, or devices push beyond limits." },
+      { label: "I travel a few times a year.", recommendation: "Free can work as a backup; paid is better for reliability.", reasoning: "Install and test before departure, and check local laws." },
+      { label: "I stream frequently.", recommendation: "Compare paid plans.", reasoning: "Free streaming support is often limited, and even paid VPN streaming can change." },
+      { label: "I use several devices.", recommendation: "Paid usually fits better.", reasoning: "Free plans commonly restrict simultaneous connections." },
+      { label: "I need a VPN for my household.", recommendation: "Paid usually fits better.", reasoning: "Multiple users, devices, and support needs outgrow most free plans." },
+      { label: "I want maximum privacy.", recommendation: "Evaluate evidence, not price.", reasoning: "Audits, logging policy, ownership, apps, and threat model matter more than free versus paid labels." },
+      { label: "I only want to test VPNs.", recommendation: "Use a reputable free tier or a carefully tracked refund window.", reasoning: "Do not confuse a trial or refund period with a permanent free plan." },
+      { label: "I am trying to reduce subscriptions.", recommendation: "Use free if limits are acceptable.", reasoning: "Pay only when a specific restriction causes enough friction to justify the cost." }
+    ],
+    productFit: [
+      { title: "Proton VPN", href: vpnHubLinks.protonReview, description: "Best current CBT case study for a legitimate free plan and privacy-focused paid fit. Verify current free limits before relying on it." },
+      { title: "NordVPN", href: "/reviews/nordvpn-review", description: "A broad mainstream paid fit when beginners want polished apps, all-around usability, and fewer free-plan restrictions." },
+      { title: "Surfshark", href: "/reviews/surfshark-review", description: "A value and household-oriented paid fit, especially where many devices matter more than a free tier." }
+    ],
+    sourceNotes: [
+      { title: "Proton VPN Free", href: "https://protonvpn.com/free-vpn", description: "Official Proton page checked for free-tier claims such as no ads, no data limits, and paid-user subsidy." },
+      { title: "Proton VPN plans", href: "https://protonvpn.com/support/proton-vpn-plans", description: "Official Proton support page checked for Free and Plus feature differences, server access, device limits, and paid features." },
+      { title: "Proton VPN bandwidth limits", href: "https://protonvpn.com/support/does-protonvpn-have-bandwidth-limit", description: "Official Proton support page checked for bandwidth/data-limit language." },
+      { title: "Proton free server changes", href: "https://protonvpn.com/support/change-server-free-plan", description: "Official Proton support page checked for random server assignment and cooldown behavior." },
+      { title: "FTC VPN app guidance", href: "https://www.ftc.gov/business-guidance/blog/2018/02/market-vpn-app", description: "Government guidance checked for VPN app privacy and third-party-sharing cautions." },
+      { title: "EFF VPN decision guidance", href: "https://ssd.eff.org/module/choosing-vpn-thats-right-you", description: "Civil-society guidance checked for VPN trust-shifting and provider-evaluation framing." },
+      { title: "Android VPN app research", href: "https://www.icsi.berkeley.edu/icsi/news/2017/02/android-vpn", description: "Independent research summary checked for privacy and security risks in many Android VPN apps." },
+      { title: "NordVPN device support", href: "https://support.nordvpn.com/hc/en-us/articles/19476515228305-How-many-devices-can-I-use-with-NordVPN", description: "Official support checked for current simultaneous-device language." },
+      { title: "Surfshark device support", href: "https://support.surfshark.com/hc/en-us/articles/360003069434-How-many-devices-can-I-use-with-Surfshark-simultaneously", description: "Official support checked for current unlimited-device language." }
     ],
     faqs: [
-      { question: "Are free VPNs safe?", answer: "Some are risky, and a few reputable free tiers may be acceptable. The safest answer is to judge the provider, business model, audits, logging policy, and technical safeguards rather than assuming all free VPNs are equal." },
-      { question: "Is no VPN better than a bad free VPN?", answer: "Often, yes. A VPN that tracks users, leaks traffic, injects ads, or lacks encryption can reduce privacy instead of improving it." },
-      { question: "What do paid VPNs usually provide?", answer: "Paid plans usually add more locations, better speeds, more devices, streaming support, P2P support, advanced privacy features, and stronger customer support." },
-      { question: "Is Proton VPN Free different from random free VPNs?", answer: "The research treats Proton VPN Free differently because it has published no-logs policies, audits, open-source apps, and a paid ecosystem funding the free tier. It still has limits." }
+      { question: "Are free VPNs safe?", answer: "Some reputable free tiers can be safe enough for light use, but unknown free apps deserve extra scrutiny. Check ownership, business model, privacy policy, app permissions, audits where available, and technical safeguards before installing one." },
+      { question: "Are all free VPNs bad?", answer: "No. Free is not automatically bad. A permanent free tier from a transparent provider is different from an opaque free app funded by ads, analytics, or unclear data practices." },
+      { question: "Is Proton VPN Free really free?", answer: "Current Proton documentation describes Proton VPN Free as a permanent free tier with no data limits and no ads. It still has limits around server choice, one VPN connection, paid streaming positioning, P2P, and advanced paid features." },
+      { question: "Do free VPNs sell your data?", answer: "Some free VPNs may share information with third parties or rely on advertising, but it is not accurate to say every free VPN sells data. Review the provider's privacy policy, business model, and independent evidence." },
+      { question: "Are paid VPNs faster?", answer: "Paid plans are usually better positioned for speed because they offer more servers, less congestion, and fewer restrictions. They still do not guarantee faster speeds on every network or route." },
+      { question: "Do free VPNs work for streaming?", answer: "Sometimes, but they are usually less reliable for streaming because of limited locations, congestion, blocks, or plan restrictions. Paid VPNs may work better, but streaming access is never guaranteed." },
+      { question: "Can I use a free VPN while traveling?", answer: "Yes, for light use if the provider works in your destination and you install and test it before leaving. Frequent travelers usually benefit from paid reliability, support, and location choice." },
+      { question: "Is a free VPN enough for students?", answer: "Often, yes, if the student mainly needs light browsing on campus Wi-Fi and has modest device or streaming needs. A paid plan becomes more useful for several devices, heavy streaming, gaming, or regular travel." },
+      { question: "Is a paid VPN worth it?", answer: "A paid VPN is worth it when broader server access, speed, streaming, reliability, device support, support, or regular use justify the cost. It is unnecessary if a reputable free plan already fits your needs." },
+      { question: "What is the difference between a free VPN and a free trial?", answer: "A free VPN tier is an ongoing no-cost plan. A free trial is temporary, and a money-back guarantee usually requires payment first. Always check cancellation and refund terms." },
+      { question: "Can I use a free VPN on multiple devices?", answer: "Sometimes, but many free plans limit simultaneous connections. Proton VPN Free currently lists one VPN connection, while paid providers commonly support more devices." },
+      { question: "Do paid VPNs protect privacy better?", answer: "Not automatically. Paid plans can have better incentives and features, but privacy still depends on logging policy, ownership, audits, app design, jurisdiction, and technical implementation." },
+      { question: "What should I check before installing a free VPN?", answer: "Check the company, privacy policy, business model, permissions, official app-store presence, limits, support docs, account deletion options, audits where available, and whether the claims sound realistic." },
+      { question: "When should I upgrade from free to paid?", answer: "Upgrade when a free-plan restriction creates real friction: streaming, speed, location choice, devices, support, P2P, advanced features, or daily reliability." }
     ],
     relatedGuides: relatedWithout(vpnHubLinks.freeVsPaid),
     cta: {
