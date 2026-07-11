@@ -3,7 +3,7 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-10
+Last Updated: 2026-07-11
 
 ## Roadmap Summary
 
@@ -74,8 +74,8 @@ Last Updated: 2026-07-10
 | VPN Myths | Published |
 | Is Proton VPN Free Good Enough? | Published |
 | Are VPNs Worth It? | Published |
-| Free VPN vs Paid VPN evidence update | Refreshed - visual QA pending |
-| Best Free VPNs | Planned |
+| Free VPN vs Paid VPN evidence update | Final approved |
+| Best Free VPNs | Published - visual QA pending |
 | Best VPNs for Streaming | Planned |
 | Best VPNs for Travel | Planned |
 | Do You Actually Need a VPN? | Planned |
@@ -87,6 +87,7 @@ Last Updated: 2026-07-10
 - [x] Affiliate disclosures are visible on commercial pages.
 - [x] Value-decision guide published without duplicating VPN buying, myths, or free-versus-paid intent.
 - [x] Free VPN vs Paid VPN refreshed on the existing route without duplicating the article or changing the slug.
+- [x] Best Free VPNs published as a distinct product-selection guide.
 - [ ] Search indexing is monitored for every published article.
 - [ ] Refresh dates are assigned to each published article.
 
@@ -269,5 +270,6 @@ Last Updated: 2026-07-10
 | Order | Work Item | Status | Notes |
 | ---: | --- | --- | --- |
 | 1 | Are VPNs Worth It? | Final approved | Published, production verified, and external desktop/mobile visual QA approved. |
-| 2 | Free VPN vs Paid VPN | Refreshed - visual QA pending | Existing route retained; production verified after evidence refresh. External desktop/mobile screenshot review remains the next QA step. |
-| 3 | Best Free VPNs | Recommended Next | Next distinct VPN opportunity because it can answer product-selection intent without duplicating Free VPN vs Paid VPN or Proton VPN Free. |
+| 2 | Free VPN vs Paid VPN | Final approved | Existing route retained; production verified after evidence refresh; external desktop/mobile visual QA approved. |
+| 3 | Best Free VPNs | Verified live - visual QA pending | Product-selection guide published and production verified. External desktop/mobile screenshot review remains the next QA step. |
+| 4 | Best VPNs for Travel | Recommended Next | Next distinct VPN opportunity because it can address travel, public Wi-Fi, location access, and device-use context without duplicating free-plan or beginner-buyer intent. |

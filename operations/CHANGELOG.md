@@ -3,7 +3,7 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-10
+Last Updated: 2026-07-11
 
 ## Purpose
 
@@ -44,6 +44,10 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 | 2026-07-11 | Content | Free VPN vs Paid VPN refreshed | Existing route retained at `https://choosebettertech.com/guides/free-vpn-vs-paid`; content commit `8d25cb36aa420e8b597278ebfe0f3fd1805d0bda`; refreshed article answers free-tier, trial, freemium, unsafe free app, and paid-plan tradeoffs without creating a duplicate page. |
 | 2026-07-11 | Deployment | Free VPN vs Paid VPN production deployment verified | Vercel production deployment `choose-better-tech-on30jcmij-aaron-s-evans-projects.vercel.app` reached Ready; canonical production URL, direct route refresh, mobile structural layout, route bundle, and sitemap entry verified. External visual QA remains pending. |
 | 2026-07-11 | Indexing | Free VPN vs Paid VPN submitted to IndexNow | `https://choosebettertech.com/guides/free-vpn-vs-paid` submitted through the IndexNow single-URL endpoint; API returned HTTP 200 after an initial JSON request returned HTTP 400. This confirms submission only, not indexing. |
+| 2026-07-11 | QA | Free VPN vs Paid VPN final visual QA approved | External desktop/mobile visual review completed for the hero, quick verdict, free-versus-paid comparison, decision guidance, Proton VPN Free case study, product-fit blocks, FAQ, source notes, related guides, final CTA, newsletter/footer, mobile table containment, and page-level horizontal overflow. Final verdict: APPROVED. |
+| 2026-07-11 | Content | Best Free VPNs published | Content commit `b08d585539a077aee5932778e5d4acaa65f064fd`; production URL `https://choosebettertech.com/best-free-vpns`; article compares legitimate free VPN tiers without hard-coded affiliate links or paid-placement recommendations. |
+| 2026-07-11 | Deployment | Best Free VPNs production URL verified | Canonical production URL, direct route refresh, mobile structural layout, route bundle, and sitemap entry verified. External visual QA remains pending. |
+| 2026-07-11 | Indexing | Best Free VPNs submitted to IndexNow | `https://choosebettertech.com/best-free-vpns` submitted through the IndexNow single-URL endpoint; API returned HTTP 200. This confirms submission only, not indexing. |
 
 ## Future Entries
 
