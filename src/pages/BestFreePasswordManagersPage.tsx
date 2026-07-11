@@ -640,9 +640,10 @@ export function BestFreePasswordManagersPage() {
           <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">Final recommendation</p>
           <h2 className="mt-3 text-3xl font-bold text-slate-950">Choose the Free Plan That Will Still Work Next Month</h2>
           <p className="mt-4 text-base leading-8 text-slate-700">For most people, that means Bitwarden Free. Choose Proton Pass Free if privacy tools, aliases, and the Proton ecosystem matter more. Use NordPass Free only if one active session is acceptable. Use RoboForm Free if you are mostly on one device and value form filling. Use a browser-built-in manager if zero setup matters more than portability.</p>
-          <p className="mt-4 text-base leading-8 text-slate-700">For the broader paid-versus-free decision, read the full <Link className="font-semibold text-brand-700 hover:text-brand-800" to="/best-password-managers-for-beginners">Best Password Managers for Beginners</Link> guide and the individual reviews before choosing.</p>
+          <p className="mt-4 text-base leading-8 text-slate-700">For the broader paid-versus-free decision, read the full <Link className="font-semibold text-brand-700 hover:text-brand-800" to="/best-password-managers-for-beginners">Best Password Managers for Beginners</Link> guide and the <Link className="font-semibold text-brand-700 hover:text-brand-800" to="/are-password-managers-safe">password-manager safety guide</Link> before choosing.</p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <InternalLinkButton href="/password-managers">Open Password Manager Hub</InternalLinkButton>
+            <InternalLinkButton href="/are-password-managers-safe">Read the Safety Guide</InternalLinkButton>
             <InternalLinkButton href="/reviews/bitwarden-review">Read the Bitwarden Review</InternalLinkButton>
           </div>
         </div>

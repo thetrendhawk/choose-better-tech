@@ -166,6 +166,7 @@ export const passwordManagersHub = {
     }
   ],
   learningPath: [
+    { title: "Are Password Managers Safe?", href: "/are-password-managers-safe", description: "Understand vault security, breaches, zero knowledge, master passwords, MFA, autofill, passkeys, and recovery before choosing a manager." },
     { title: "Best Free Password Managers", href: "/best-free-password-managers", description: "Compare Bitwarden, Proton Pass, NordPass, RoboForm, and browser-built-in managers by free-plan limits and long-term usability." },
     { title: "Best Password Managers for Beginners", href: "/best-password-managers-for-beginners", description: "Compare the five current password-manager options by ease of use, free-plan value, privacy, recovery, and everyday fit." },
     { title: "How We Review Software", href: "/about/how-we-review-software", description: "Learn how Choose Better Tech separates verified facts, vendor claims, independent findings, and open questions." },
