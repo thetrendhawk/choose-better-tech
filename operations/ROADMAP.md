@@ -77,7 +77,7 @@ Last Updated: 2026-07-11
 | Free VPN vs Paid VPN evidence update | Final approved |
 | Best Free VPNs | Final approved |
 | Best VPNs for Streaming | Planned |
-| Best VPNs for Travel | Planned |
+| Best VPNs for Travel | Published - visual QA pending |
 | Do You Actually Need a VPN? | Planned |
 
 ### Completion Checklist
@@ -88,6 +88,7 @@ Last Updated: 2026-07-11
 - [x] Value-decision guide published without duplicating VPN buying, myths, or free-versus-paid intent.
 - [x] Free VPN vs Paid VPN refreshed on the existing route without duplicating the article or changing the slug.
 - [x] Best Free VPNs published as a distinct product-selection guide.
+- [x] Best VPNs for Travel published as a distinct travel/public-Wi-Fi/location-access guide.
 - [ ] Search indexing is monitored for every published article.
 - [ ] Refresh dates are assigned to each published article.
 
@@ -272,4 +273,5 @@ Last Updated: 2026-07-11
 | 1 | Are VPNs Worth It? | Final approved | Published, production verified, and external desktop/mobile visual QA approved. |
 | 2 | Free VPN vs Paid VPN | Final approved | Existing route retained; production verified after evidence refresh; external desktop/mobile visual QA approved. |
 | 3 | Best Free VPNs | Final approved | Product-selection guide published, production verified, and external desktop/mobile visual QA approved. |
-| 4 | Best VPNs for Travel | Recommended Next | Next distinct VPN opportunity because it can address travel, public Wi-Fi, location access, and device-use context without duplicating free-plan or beginner-buyer intent. |
+| 4 | Best VPNs for Travel | Verified live - visual QA pending | Published, production verified, sitemap entry live, IndexNow submitted, and desktop/mobile structural QA passed. |
+| 5 | Best VPNs for Students | Recommended Next | Distinct VPN opportunity because it can address budget, campus networks, study abroad, free-plan fit, and multi-device needs without duplicating travel or free-plan-only intent. |

@@ -49,6 +49,9 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 | 2026-07-11 | Deployment | Best Free VPNs production URL verified | Canonical production URL, direct route refresh, mobile structural layout, route bundle, and sitemap entry verified. External visual QA remains pending. |
 | 2026-07-11 | Indexing | Best Free VPNs submitted to IndexNow | `https://choosebettertech.com/best-free-vpns` submitted through the IndexNow single-URL endpoint; API returned HTTP 200. This confirms submission only, not indexing. |
 | 2026-07-11 | QA | Best Free VPNs final visual QA approved | External desktop/mobile visual review completed for hero, quick recommendations, comparison table, all five provider sections, safety guidance, unlimited-versus-limited data guidance, streaming guidance, travel guidance, student guidance, public Wi-Fi guidance, upgrade guidance, FAQ, source links, final recommendation, buyer checklist, newsletter/footer, responsive table containment, and page-level horizontal overflow. Final verdict: APPROVED. |
+| 2026-07-11 | Content | Best VPNs for Travel published | Content commit `5fe319dabbe08f96b8b64b9af03a53014f7fb69d`; production URL `https://choosebettertech.com/best-vpns-for-travel`; article compares six travel VPN candidates using current official facts, existing CBT VPN research, and public Wi-Fi/travel safety guidance. |
+| 2026-07-11 | Deployment | Best VPNs for Travel production URL verified | Canonical production URL, direct route refresh, desktop render, mobile structural layout, sitemap entry, rendered content, internal review link, affiliate disclosure, and no-404 behavior verified. External visual QA remains pending. |
+| 2026-07-11 | Indexing | Best VPNs for Travel submitted to IndexNow | `https://choosebettertech.com/best-vpns-for-travel` submitted through the IndexNow single-URL endpoint; API returned HTTP 200. This confirms submission only, not indexing. |
 
 ## Future Entries
 
