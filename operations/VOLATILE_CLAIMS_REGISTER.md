@@ -1,6 +1,6 @@
 # Choose Better Tech Volatile Claims Register
 
-Version: 1.0
+Version: 1.1
 Status: Active
 Owner: Choose Better Tech
 Effective Date: 2026-07-12
@@ -22,6 +22,21 @@ Do not add a claim without its exact source and checked date. Do not infer curre
 - Define a concrete refresh trigger, such as a scheduled review, provider announcement, plan-page change, ownership change, audit release, or incident update.
 - Use a current status such as `Current`, `Needs verification`, `Refresh due`, `Superseded`, or `Removed`.
 - Preserve significant history in Notes rather than silently overwriting a materially changed claim.
+- Link every Critical or High volatile claim to the article-specific claim ledger required by `operations/CLAIM_LEDGER_STANDARD.md`.
+- Do not permit Evidence QA while a Critical or High volatile claim is unreviewed, expired, or missing its source, checked date, qualification, or refresh trigger.
+- Pause new publication when the expired-claim backlog triggers `operations/PUBLISHING_CAPACITY_AND_BATCH_POLICY.md`.
+- Apply substantive-date and correction handling from `operations/UPDATE_CORRECTIONS_AND_DATE_POLICY.md` when a refreshed claim changes reader meaning or the article verdict.
+
+## Claim-Ledger Relationship
+
+This register tracks reusable volatile facts across the site. It does not replace the article-specific claim ledger. The claim ledger records article location, importance, reviewer status, conflicts, and direct traceability; this register supports ongoing refresh scheduling.
+
+## Refresh and Incident Controls
+
+- A changed volatile fact does not automatically justify advancing `dateModified`; the update must meet the substantive-change standard.
+- Materially wrong security, privacy, ownership, affiliate, legal, plan, or pricing claims require correction review.
+- A serious unresolved volatile-claim defect may trigger the rollback or kill-switch policy.
+- Search or indexing anomalies do not prove a volatile claim is wrong, but a serious anomaly pauses publication while investigated.
 
 ## Register
 

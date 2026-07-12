@@ -1,6 +1,6 @@
 # Choose Better Tech Publishing Workflow
 
-Version: 1.0
+Version: 1.1
 Status: Binding
 Owner: Choose Better Tech
 Effective Date: 2026-07-12
@@ -14,16 +14,17 @@ This is the binding end-to-end workflow for substantial Choose Better Tech publi
 | Stage | Required inputs | Required outputs | Pass conditions | Failure status |
 | --- | --- | --- | --- | --- |
 | 1. Intent and duplicate check | Current roadmap, content inventory, routes, sitemap, existing page copy | Distinct search intent, adjacent-page list, proposed slug, duplicate-route and duplicate-intent results | No unresolved route or primary-intent conflict | `BLOCKED` |
-| 2. Research | Approved intent, article type, candidate scope, source hierarchy | Complete research record at `docs/research/<slug>-research.md` | All required research-record sections are present and evidence is traceable | `RESEARCH INCOMPLETE` |
+| 2. Research | Approved intent, article type, candidate scope, source hierarchy | Complete research record at `docs/research/<slug>-research.md` and required claim ledger | All required sections are present, evidence is traceable, and Original Contribution is `PASS` | `RESEARCH INCOMPLETE` |
 | 3. Research review | Completed research record | Reviewed candidate set, conflicts, gaps, inclusion/exclusion logic, supported provisional conclusions | Evidence supports the planned structure and conclusions | `RESEARCH INCOMPLETE` |
 | 4. Editorial plan | Approved research record and editorial standards | Reader question, outline, fit labels, limitations, evidence plan, internal-link plan, prohibited claims | Plan matches distinct intent and evidence | `RESEARCH COMPLETE — DRAFT NOT STARTED` |
 | 5. Draft | Approved editorial plan and research record | Complete reader-first draft with visible evidence and testing disclosure | Required sections are complete; unsupported gaps are not hidden | `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED` |
-| 6. Evidence audit | Draft, research record, sources, volatile-claims register | Claim-by-claim audit, source conflict review, updated checked dates and refresh triggers | Important claims are traceable; volatile claims are current and qualified | `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED` |
-| 7. Editorial audit | Evidence-audited draft and editorial standards | Accuracy, fit, tone, limitations, conclusion, testing, breach, security, and privacy review | Editorial standards pass with no unsupported certainty | `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED` |
+| 6. Evidence audit | Draft, research record, claim ledger, sources, volatile-claims register | Claim-by-claim audit, source conflict review, updated checked dates and refresh triggers | Important claims are traceable; all Critical and High claims are reviewed; volatile claims are current and qualified | `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED` |
+| 7. Independent editorial audit and score | Evidence-audited draft, research record, claim ledger, standards | Independent reviewer report and article quality scorecard | Reviewer approves deployment; score is at least 34/40 and all category floors pass | `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED` |
 | 8. Affiliate audit | Draft, CTA plan, affiliate registry | Affiliate-independence review and raw-link scan plan | Affiliate state did not shape editorial output; CTAs are restrained and correctly placed | `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED` |
 | 9. Implementation | Approved draft, existing page patterns, route/SEO/schema conventions | Page implementation, route, metadata, canonical, schema, discovery links, sitemap-generation update | Established patterns are reused; scope is limited; content and code are readable | `BLOCKED` |
 | 10. Technical validation | Implemented changes and repository scripts | Complete validation log | All mandatory commands and checks pass | `BLOCKED` |
-| 11. Commit and push | Validated working tree and intended file list | Content commit, optional separate operations commit, push result | Intended changes are committed and pushed to `main` | `READY TO DEPLOY` |
+| 11. Branch and pull request | Validated working tree, author report, independent review, scorecard, intended file list | Dedicated branch, research commit, implementation commit, pull request, reviewer decision | Pull request is approved and required corrections are resolved | `READY TO DEPLOY` |
+| 11a. Merge and push | Approved pull request | Merge commit and remote result | Approved work is merged to `main`; a direct-to-main emergency exception is documented if explicitly authorized | `READY TO DEPLOY` |
 | 12. Verify origin/main | Local commit hashes, remote branch | Remote head and containment evidence | `origin/main` contains the content commit | `BLOCKED` |
 | 13. Verify Vercel deployment | Remote commit and Vercel project access | Ready deployment and deployed-commit evidence | Vercel is Ready and deployed the content commit or a later containing commit | `BLOCKED` |
 | 14. Verify live production | Ready deployment and canonical production URL | Live HTTP and rendered-page verification | URL returns 200 and required production content renders without internal 404 | `BLOCKED` |
@@ -60,6 +61,42 @@ Also require:
 - page-level horizontal-overflow check.
 
 Any failed mandatory check blocks deployment until corrected and rerun.
+
+## Advanced Editorial Gates
+
+Before implementation or deployment, enforce:
+
+- `operations/ORIGINAL_CONTRIBUTION_STANDARD.md`;
+- `operations/CLAIM_LEDGER_STANDARD.md`;
+- `operations/ARTICLE_QUALITY_SCORECARD.md`;
+- `operations/INDEPENDENT_REVIEW_PROTOCOL.md`;
+- `operations/HANDS_ON_TESTING_STANDARD.md`.
+
+The author and independent reviewer must be separate passes. A conditional scorecard result does not permit deployment.
+
+## Branch and Pull-Request Workflow
+
+Major new content defaults to a dedicated branch and pull request:
+
+1. create the branch;
+2. commit research first;
+3. commit article implementation separately;
+4. open a pull request using `.github/pull_request_template.md`;
+5. complete the author report, claim ledger, independent review, and scorecard;
+6. correct failures and rescore;
+7. obtain approval;
+8. merge to `main`;
+9. verify deployment and production.
+
+Direct-to-main publication for major new content is prohibited unless the project owner explicitly authorizes a documented emergency exception. This governance-only installation is an approved Markdown exception.
+
+## Capacity, Portfolio, and Anomaly Pauses
+
+Publication must comply with `operations/PUBLISHING_CAPACITY_AND_BATCH_POLICY.md`. New clusters require `operations/TOPIC_CLUSTER_APPROVAL_POLICY.md`. Pause when required by `operations/SITEWIDE_QUALITY_AUDIT_POLICY.md`, `operations/SEARCH_MONITORING_AND_ANOMALY_POLICY.md`, or `operations/ROLLBACK_AND_KILL_SWITCH_POLICY.md`.
+
+## Dates and Corrections
+
+Do not advance `dateModified` or a visible update date for superficial changes. Follow `operations/UPDATE_CORRECTIONS_AND_DATE_POLICY.md` for substantive updates and corrections.
 
 ## Commit Workflow
 

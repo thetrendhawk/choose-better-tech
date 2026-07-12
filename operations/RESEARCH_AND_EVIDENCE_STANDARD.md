@@ -1,6 +1,6 @@
 # Choose Better Tech Research and Evidence Standard
 
-Version: 1.0
+Version: 1.1
 Status: Binding
 Owner: Choose Better Tech
 Effective Date: 2026-07-12
@@ -42,6 +42,10 @@ Every research record must include:
 - hands-on testing status;
 - prohibited claims;
 - refresh triggers.
+
+Every substantial research record must also contain the Original Contribution fields defined in `operations/ORIGINAL_CONTRIBUTION_STANDARD.md`. A failing contribution assessment leaves the work at `RESEARCH INCOMPLETE`.
+
+Major rankings, comparisons, reviews, and security/privacy guides must include the claim ledger defined in `operations/CLAIM_LEDGER_STANDARD.md` either in the research record or at `docs/research/<slug>-claim-ledger.md`.
 
 ## Evidence Burden by Article Type
 
@@ -155,6 +159,8 @@ Independent sources are needed where possible for:
 
 Every important factual claim should be traceable to a source in the research record. High-impact claims must be supported by the strongest available evidence.
 
+Critical and High claims must be explicitly reviewed in the claim ledger. No major article may pass Evidence QA while one remains unreviewed.
+
 ## Visible Evidence Section
 
 Every substantial ranking, comparison, review, or educational guide must include a visible `Sources`, `Evidence checked`, or `Research sources` section.
@@ -241,3 +247,12 @@ Research is complete only when the evidence supports the planned article structu
 If the evidence does not support them, the status must remain:
 
 `RESEARCH INCOMPLETE`
+
+Research completion additionally requires:
+
+- `Original Contribution: PASS`;
+- the required claim ledger complete enough for review;
+- candidate completeness and inclusion/exclusion reasoning appropriate to the article type;
+- an accurate testing plan and prohibited-language list under `operations/HANDS_ON_TESTING_STANDARD.md`.
+
+The independent reviewer must recheck Critical claims, excluded candidates, source quality, and testing transparency under `operations/INDEPENDENT_REVIEW_PROTOCOL.md`.

@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-12 — Advanced publishing quality guardrails installed
+
+- Added binding standards for original contribution, the 34/40 article quality scorecard, claim ledgers, independent review, author/reviewer separation, capacity limits, hands-on testing, substantive dates and corrections, rollback, authorship and AI transparency, sitewide audits, topic-cluster approval, and search-anomaly response.
+- Added `.github/pull_request_template.md` and made dedicated branches and pull requests the default for future major content; direct-to-main major publication now requires an explicit documented emergency exception.
+- Updated the five canonical publishing standards so every new gate is fail-closed and cross-referenced without weakening existing evidence, deployment, production, visual, affiliate, or operations requirements.
+- GitHub branch-protection status could not be verified because GitHub CLI authentication was unavailable; recommended settings remain a manual repository-settings task.
+- No article, route, UI, affiliate data, content count, sitemap, or application code changed. The five-page remediation had already been completed before this governance installation and was not rerun.
+
 ### 2026-07-12 — Five-page automation-content remediation completed
 
 - Completed independent canonical remediation for Best VPNs for Streaming, Best Cloud Storage for Beginners, Google Drive vs Dropbox, Best Password Managers for Privacy, and How Password Managers Actually Work.

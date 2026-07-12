@@ -40,6 +40,7 @@ Last Updated: 2026-07-12
 | Initial VPN guide | Complete |
 | Operations documentation framework | Complete |
 | Canonical publishing standards | Complete |
+| Advanced publishing quality guardrails | Complete |
 | Five-article remediation | Complete |
 
 ### Completion Checklist
@@ -47,6 +48,13 @@ Last Updated: 2026-07-12
 - [x] Operations framework created.
 - [x] Canonical editorial, research/evidence, publishing-workflow, automation-contract, and volatile-claims standards installed.
 - [x] Fail-closed automation rules established for all future publishing tasks.
+- [x] Original-contribution, claim-ledger, article-scorecard, and independent-review gates installed.
+- [x] Major-content branch and pull-request workflow installed.
+- [x] Capacity, testing, corrections, rollback, transparency, sitewide-audit, topic-cluster, and search-anomaly policies installed.
+- [ ] Configure and verify GitHub `main` branch protection: pull request required, at least one approval, stale approvals dismissed, required checks, up-to-date branch, force-push and deletion blocks, and direct-push restrictions where practical.
+- [ ] Create a public `/editorial-policy-and-corrections` page in a dedicated task.
+- [ ] Connect or verify Search Console monitoring and establish anomaly baselines.
+- [ ] Automate volatile-claim refresh reminders in a later task.
 - [ ] Canonical identity document imported.
 - [ ] Canonical affiliate playbook imported.
 - [x] Initial KPI dashboard baseline recorded.

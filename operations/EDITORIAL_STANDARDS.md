@@ -1,6 +1,6 @@
 # Choose Better Tech Editorial Standards
 
-Version: 1.0
+Version: 1.1
 Status: Binding
 Owner: Choose Better Tech
 Effective Date: 2026-07-12
@@ -70,6 +70,8 @@ Never imply hands-on testing unless it actually occurred. Clearly distinguish:
 - visual or site testing.
 
 If no hands-on product testing occurred, say so explicitly.
+
+The language and record requirements in `operations/HANDS_ON_TESTING_STANDARD.md` are binding. Documentation-only work must not use experiential superlatives or imply actual product testing.
 
 ## Fit-Based Recommendations
 
@@ -149,6 +151,26 @@ When an error is found:
 - update the checked date;
 - preserve significant correction history when appropriate;
 - do not silently rewrite major conclusions without documentation.
+
+Substantive dates, material corrections, and public correction notes must follow `operations/UPDATE_CORRECTIONS_AND_DATE_POLICY.md`. Emergency removal, `noindex`, rollback, and publication-pause decisions must follow `operations/ROLLBACK_AND_KILL_SWITCH_POLICY.md`.
+
+## Original Contribution and Quality Gates
+
+Every substantial page must pass `operations/ORIGINAL_CONTRIBUTION_STANDARD.md` before drafting. Before deployment it must also:
+
+- satisfy the applicable claim-ledger requirement in `operations/CLAIM_LEDGER_STANDARD.md`;
+- score at least `34/40` with all category floors satisfied under `operations/ARTICLE_QUALITY_SCORECARD.md`;
+- receive an independent reviewer decision of `APPROVE FOR DEPLOYMENT` under `operations/INDEPENDENT_REVIEW_PROTOCOL.md`.
+
+The author may not provide their own final independent approval.
+
+## Transparency
+
+Authorship, automation, testing, sourcing, affiliate, reviewer, substantive-date, and corrections representations must comply with `operations/AUTHORSHIP_AI_AND_TRANSPARENCY_POLICY.md`.
+
+## Portfolio Discipline
+
+New content pillars require approval under `operations/TOPIC_CLUSTER_APPROVAL_POLICY.md`. Sitewide audits and search anomalies may pause publication under `operations/SITEWIDE_QUALITY_AUDIT_POLICY.md`, `operations/SEARCH_MONITORING_AND_ANOMALY_POLICY.md`, and `operations/PUBLISHING_CAPACITY_AND_BATCH_POLICY.md`.
 
 ## Publication Labels
 

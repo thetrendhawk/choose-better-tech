@@ -1,6 +1,6 @@
 # Choose Better Tech Automation Publishing Contract
 
-Version: 1.0
+Version: 1.1
 Status: Binding
 Owner: Choose Better Tech
 Effective Date: 2026-07-12
@@ -18,6 +18,18 @@ The current repository standards are authoritative. Automation must read the cur
 - `operations/PUBLISHING_WORKFLOW.md`;
 - `operations/AUTOMATION_PUBLISHING_CONTRACT.md`;
 - `operations/VOLATILE_CLAIMS_REGISTER.md`;
+- `operations/ORIGINAL_CONTRIBUTION_STANDARD.md`;
+- `operations/ARTICLE_QUALITY_SCORECARD.md`;
+- `operations/CLAIM_LEDGER_STANDARD.md`;
+- `operations/INDEPENDENT_REVIEW_PROTOCOL.md`;
+- `operations/PUBLISHING_CAPACITY_AND_BATCH_POLICY.md`;
+- `operations/HANDS_ON_TESTING_STANDARD.md`;
+- `operations/UPDATE_CORRECTIONS_AND_DATE_POLICY.md`;
+- `operations/ROLLBACK_AND_KILL_SWITCH_POLICY.md`;
+- `operations/AUTHORSHIP_AI_AND_TRANSPARENCY_POLICY.md`;
+- `operations/SITEWIDE_QUALITY_AUDIT_POLICY.md`;
+- `operations/TOPIC_CLUSTER_APPROVAL_POLICY.md`;
+- `operations/SEARCH_MONITORING_AND_ANOMALY_POLICY.md`;
 - all six publication operations documents named in the publishing workflow.
 
 ## Fail-Closed Behavior
@@ -58,6 +70,8 @@ Do not, unless explicitly authorized:
 - No winner without defensible comparative evidence.
 - Candidate inclusion and exclusion must be documented.
 - Evidence gaps and source conflicts must remain visible.
+- No draft may begin without `Original Contribution: PASS`.
+- Major content requires a complete claim ledger with all Critical and High claims reviewed.
 
 ## Editorial Contract
 
@@ -119,6 +133,28 @@ Until automation has demonstrated consistent compliance, do not autonomously res
 For major content, default to one article per workflow.
 
 A multi-page remediation batch may audit all pages together, but each page must receive independent research, commits, QA, deployment verification, and final status.
+
+The limits and automatic pauses in `operations/PUBLISHING_CAPACITY_AND_BATCH_POLICY.md` are binding. Do not autonomously publish multiple major articles in one run or more than two substantial pages in a calendar day without explicit authorization.
+
+## Independent Approval Contract
+
+- The author and independent reviewer must be separate passes.
+- The author cannot approve their own work.
+- The reviewer must challenge the verdict rather than confirm it.
+- Major content requires an independent-review report and article quality scorecard.
+- A score below `34/40`, a prohibited zero, a ranking/comparison category-floor failure, or a conditional pass blocks deployment.
+
+## Branch and Pull-Request Contract
+
+Major new content defaults to a dedicated branch and pull request. Commit research before implementation, complete the independent review and scorecard, correct failures, obtain approval, merge to `main`, and then verify production. Direct-to-main publication is prohibited unless the project owner explicitly authorizes and documents an emergency exception.
+
+## Testing, Dates, and Emergency Controls
+
+- Apply `operations/HANDS_ON_TESTING_STANDARD.md` before using experiential or performance language.
+- Apply `operations/UPDATE_CORRECTIONS_AND_DATE_POLICY.md` before changing substantive dates or recording corrections.
+- Apply `operations/ROLLBACK_AND_KILL_SWITCH_POLICY.md` when reader safety, trust, legality, indexing, or rendering requires emergency action.
+- Pause on serious search anomalies under `operations/SEARCH_MONITORING_AND_ANOMALY_POLICY.md`.
+- Require cluster approval and scheduled sitewide audits under the applicable binding policies.
 
 ## Human Review Mode
 
