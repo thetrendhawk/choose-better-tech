@@ -49,9 +49,9 @@ export const passwordManagersHub = {
     },
     {
       title: "I want the strongest privacy transparency",
-      recommendation: "Compare Bitwarden and Proton Pass",
+      recommendation: "Use the privacy guide",
       description: "Bitwarden is strongest for transparency, value, and self-hosting; Proton Pass is strongest for privacy ecosystem, aliases, and Swiss privacy framing.",
-      href: "/reviews/bitwarden-review"
+      href: "/best-password-managers-for-privacy"
     },
     {
       title: "I want self-hosting or technical flexibility",
@@ -172,6 +172,8 @@ export const passwordManagersHub = {
     }
   ],
   learningPath: [
+    { title: "How Password Managers Actually Work", href: "/guides/how-password-managers-work", description: "Follow a credential from key derivation and local encryption through cloud sync, autofill, sharing, recovery, and export." },
+    { title: "Best Password Managers for Privacy", href: "/best-password-managers-for-privacy", description: "Compare encrypted metadata, aliases, open-source evidence, audits, telemetry, account data, recovery, and portability." },
     { title: "Are Password Managers Safe?", href: "/are-password-managers-safe", description: "Understand vault security, breaches, zero knowledge, master passwords, MFA, autofill, passkeys, and recovery before choosing a manager." },
     { title: "Password Manager vs Browser Passwords", href: "/password-manager-vs-browser-passwords", description: "Decide whether Apple Passwords, Google Password Manager, Edge, Firefox, or Samsung Pass is enough, or whether a dedicated password manager is worth the switch." },
     { title: "Best Password Managers for Families", href: "/best-password-managers-for-families", description: "Compare family plans by shared vaults, private vaults, member limits, recovery, emergency access, children and teens, offboarding, and mixed-device fit." },

@@ -18,6 +18,7 @@ const BestVpnsForTravelPage = lazy(() => import("./pages/BestVpnsForTravelPage")
 const BestVpnsForBeginnersPage = lazy(() => import("./pages/BestVpnsForBeginnersPage").then((module) => ({ default: module.BestVpnsForBeginnersPage })));
 const BestPasswordManagersForBeginnersPage = lazy(() => import("./pages/BestPasswordManagersForBeginnersPage").then((module) => ({ default: module.BestPasswordManagersForBeginnersPage })));
 const BestPasswordManagersForFamiliesPage = lazy(() => import("./pages/BestPasswordManagersForFamiliesPage").then((module) => ({ default: module.BestPasswordManagersForFamiliesPage })));
+const BestPasswordManagersForPrivacyPage = lazy(() => import("./pages/BestPasswordManagersForPrivacyPage").then((module) => ({ default: module.BestPasswordManagersForPrivacyPage })));
 const BitwardenReviewPage = lazy(() => import("./pages/BitwardenReviewPage").then((module) => ({ default: module.BitwardenReviewPage })));
 const BitwardenVsNordPassPage = lazy(() => import("./pages/BitwardenVsNordPassPage").then((module) => ({ default: module.BitwardenVsNordPassPage })));
 const BitwardenVsOnePasswordPage = lazy(() => import("./pages/BitwardenVsOnePasswordPage").then((module) => ({ default: module.BitwardenVsOnePasswordPage })));
@@ -43,6 +44,7 @@ const OpteryReviewPage = lazy(() => import("./pages/OpteryReviewPage").then((mod
 const OpteryVsDeleteMePage = lazy(() => import("./pages/OpteryVsDeleteMePage").then((module) => ({ default: module.OpteryVsDeleteMePage })));
 const PasswordManagersHubPage = lazy(() => import("./pages/PasswordManagersHubPage").then((module) => ({ default: module.PasswordManagersHubPage })));
 const PasswordManagerVsBrowserPasswordsPage = lazy(() => import("./pages/PasswordManagerVsBrowserPasswordsPage").then((module) => ({ default: module.PasswordManagerVsBrowserPasswordsPage })));
+const HowPasswordManagersWorkPage = lazy(() => import("./pages/HowPasswordManagersWorkPage").then((module) => ({ default: module.HowPasswordManagersWorkPage })));
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage").then((module) => ({ default: module.PrivacyPage })));
 const ProtonPassReviewPage = lazy(() => import("./pages/ProtonPassReviewPage").then((module) => ({ default: module.ProtonPassReviewPage })));
 const ProtonPassVsNordPassPage = lazy(() => import("./pages/ProtonPassVsNordPassPage").then((module) => ({ default: module.ProtonPassVsNordPassPage })));
@@ -104,6 +106,8 @@ export default function App() {
             <Route path="best-vpns-for-travel" element={<BestVpnsForTravelPage />} />
             <Route path="best-password-managers-for-beginners" element={<BestPasswordManagersForBeginnersPage />} />
             <Route path="best-password-managers-for-families" element={<BestPasswordManagersForFamiliesPage />} />
+            <Route path="best-password-managers-for-privacy" element={<BestPasswordManagersForPrivacyPage />} />
+            <Route path="guides/how-password-managers-work" element={<HowPasswordManagersWorkPage />} />
             <Route path="guides/best-vpns-for-beginners" element={<BestVpnsForBeginnersPage />} />
             <Route path="guides/how-vpns-work" element={<VpnGuidePage slug="how-vpns-work" />} />
             <Route path="guides/free-vpn-vs-paid" element={<VpnGuidePage slug="free-vpn-vs-paid" />} />

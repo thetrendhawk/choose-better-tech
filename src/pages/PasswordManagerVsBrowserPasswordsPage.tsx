@@ -399,7 +399,7 @@ export function PasswordManagerVsBrowserPasswordsPage() {
 
       <Section>
         <SectionHeading eyebrow="Family" title="Family Sharing and Household Workflows" />
-        <p className="mt-6 max-w-4xl text-base leading-8 text-slate-700">Browser sharing can be enough for a few logins. Google supports family-group password sharing, and Apple supports sharing with trusted people. Dedicated family plans usually become better when you need separate vaults, shared vaults, permission levels, organizer recovery, emergency access, child-account boundaries, and offboarding when someone should no longer have access. For the family-specific ranking, use <TextLink href="/best-password-managers-for-families">Best Password Managers for Families</TextLink>.</p>
+        <p className="mt-6 max-w-4xl text-base leading-8 text-slate-700">For the encryption and synchronization model behind both options, read <TextLink href="/guides/how-password-managers-work">How Password Managers Actually Work</TextLink>. Browser sharing can be enough for a few logins. Google supports family-group password sharing, and Apple supports sharing with trusted people. Dedicated family plans usually become better when you need separate vaults, shared vaults, permission levels, organizer recovery, emergency access, child-account boundaries, and offboarding when someone should no longer have access. For the family-specific ranking, use <TextLink href="/best-password-managers-for-families">Best Password Managers for Families</TextLink>.</p>
       </Section>
 
       <Section className="bg-slate-50">
