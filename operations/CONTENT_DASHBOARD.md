@@ -131,7 +131,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 
 | Asset | Route | Type | Raw Research | Canonical Research | Editorial Brief | Built | QA Status | Published | Affiliate Status | Last Verified | Next Action |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Best Cloud Storage for Beginners | `/best-cloud-storage-for-beginners` | Guide | N/A | `docs/research/best-cloud-storage-for-beginners-research.md` | N/A | Yes | Live — remediation in progress | Yes | INTERNAL_ONLY | 2026-07-12 | Rebuild required within the established layout. Shared audit: `docs/audits/automation-content-audit-2026-07-12.md`. Final verdict: NOT FINAL APPROVED. |
+| Best Cloud Storage for Beginners | `/best-cloud-storage-for-beginners` | Guide | N/A | `docs/research/best-cloud-storage-for-beginners-research.md` | N/A | Yes | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Yes | INTERNAL_ONLY | 2026-07-12 | Nine-candidate canonical research and readable article rebuild complete. Content commit `343f243`; exact Vercel deployment `5416851685` succeeded. Production desktop/mobile, 22-FAQ schema parity, 27 external-source links, internal link, sitemap, IndexNow, affiliate-isolation, and no-overflow checks passed. |
 | Google Drive vs Dropbox | `/comparisons/google-drive-vs-dropbox` | Comparison | N/A | `docs/research/google-drive-vs-dropbox-research.md` | N/A | Yes | Live — remediation in progress | Yes | INTERNAL_ONLY | 2026-07-12 | Major remediation required. Shared audit: `docs/audits/automation-content-audit-2026-07-12.md`. Final verdict: NOT FINAL APPROVED. |
 
 ## Data Removal Cluster Asset Inventory
@@ -269,7 +269,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 3. Monitor indexing status per published URL without inferring indexation from sitemap or IndexNow submission.
 4. Recheck volatile pricing, plan, coverage, security, and affiliate-status details before purchase-focused updates.
 5. Keep homepage curated as additional reviews and comparisons are published.
-6. Complete the five-page automation-content remediation, one page at a time, beginning with Best VPNs for Streaming.
+6. Complete the five-page automation-content remediation, one page at a time. Best VPNs for Streaming and Best Cloud Storage for Beginners are complete; Google Drive vs Dropbox is next.
 7. Resume new-article planning only after every remediated page has an independent final status.
 
 ## Notes
