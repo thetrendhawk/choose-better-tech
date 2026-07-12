@@ -31,7 +31,7 @@ These counts use published editorial routes in the current repository and sitema
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 11 | 13 | 26 | 50 | Needs verification | Inventory counts are unchanged. Four audited pages completed independent canonical remediation; How Password Managers Actually Work is the final page still live with remediation in progress. Indexing status is not inferred from sitemap presence or IndexNow submission. |
+| 2026-07 | 11 | 13 | 26 | 50 | Needs verification | Inventory counts are unchanged. All five audited automation-published pages completed independent canonical remediation and final approval. Indexing status is not inferred from sitemap presence or IndexNow submission. |
 
 ## Organic Search KPIs
 
@@ -73,4 +73,4 @@ These counts use published editorial routes in the current repository and sitema
 
 | Month | Publishing Goal | Traffic Goal | Affiliate Goal | Revenue Goal | Status |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07 | Complete the five-page remediation with independent research, validation, deployment verification, and final status for each page. | Establish baseline without inventing traffic data | Track verified applications only | Establish baseline when revenue data exists | Active |
+| 2026-07 | Five-page remediation complete; monitor refreshed assets and select the next roadmap item under canonical standards. | Establish baseline without inventing traffic data | Track verified applications only | Establish baseline when revenue data exists | On track |

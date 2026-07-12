@@ -10,7 +10,7 @@ Last Updated: 2026-07-12
 | Field | Status |
 | --- | --- |
 | Phase | Traffic execution and cluster expansion |
-| Summary | Canonical publishing standards are active. Four of five audited pages completed independent remediation and final approval; How Password Managers Actually Work is the final remaining page. |
+| Summary | Canonical publishing standards are active. All five audited automation-published pages completed independent remediation and final approval. |
 | Health | On Track |
 
 ## Current Sprint
@@ -31,7 +31,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Priority | Owner | Status |
 | --- | --- | --- |
 | Maintain current operational dashboards | Choose Better Tech | Active |
-| Complete the five-article remediation under the canonical standards | Choose Better Tech | Active |
+| Monitor the five remediated pages and select the next roadmap item | Choose Better Tech | Active |
 | Verify indexing signals for newly published URLs | Choose Better Tech | Next Up |
 | Choose next distinct cluster opportunity | Choose Better Tech | Next Up |
 
@@ -41,7 +41,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | --- | --- | --- |
 | Operations documentation framework | Complete | Repo evidence shows active SOPs, dashboards, templates, and content inventory records. |
 | Canonical publishing standards | Complete | Editorial, research/evidence, publishing-workflow, automation-contract, and volatile-claims standards installed. No article or application code changed. |
-| Five-article remediation | Live — remediation in progress | Shared audit complete. Four pages passed independently; How Password Managers Actually Work remains. |
+| Five-article remediation | Complete | Shared audit and all five independent research, content, validation, deployment, production, sitemap, IndexNow, visual, and operations gates passed. |
 | Best Free Password Managers | Final approved | Production URL verified; external desktop/mobile visual QA completed and final approval recorded. |
 | Are VPNs Worth It | Final approved | Production URL verified; external desktop/mobile visual QA completed; editorial, affiliate, evidence, desktop, and mobile QA passed. |
 | Free VPN vs Paid VPN evidence update | Final approved | Existing route refreshed without a duplicate article; production URL, direct refresh, sitemap, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
@@ -54,7 +54,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Password Manager vs Browser Passwords | Final approved | Educational browser-versus-dedicated comparison researched, implemented, pushed, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, FAQ/schema parity, 25-source-link verification, affiliate isolation, internal-link checks, and no-overflow checks passed. |
 | Best Password Managers for Families | Final approved | Family password-manager guide researched, implemented, pushed, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile screenshot QA, FAQ/schema parity, 24-source-link verification, affiliate isolation, internal-link checks, and no-overflow checks passed. |
 | Best Password Managers for Privacy | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Twelve-candidate research and readable article rebuild complete. Content commit `93619fd`; exact Vercel deployment `5416997380` succeeded. Production desktop/mobile, provider-section, FAQ/schema, evidence-link, internal-link, sitemap, IndexNow, affiliate-isolation, and no-overflow checks passed. |
-| How Password Managers Actually Work | Live — remediation in progress | Moderate remediation required. Final verdict: NOT FINAL APPROVED. |
+| How Password Managers Actually Work | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Canonical research and readable educational rebuild complete. Content commit `edaf4a4`; exact Vercel deployment `5417068406` succeeded. Production desktop/mobile, FAQ/schema, evidence-link, hub-link, sitemap, IndexNow, no-commercial-component, and no-overflow checks passed. |
 | Best VPNs for Streaming | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Canonical research and article rebuilt; content commit `0e50c0e`; exact Vercel deployment succeeded; production desktop/mobile, schema, affiliate, sitemap, and IndexNow checks passed. |
 | Best Cloud Storage for Beginners | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Nine-candidate research and readable article rebuild complete. Content commit `343f243`; exact Vercel deployment `5416851685` succeeded. Production desktop/mobile, FAQ/schema, evidence-link, internal-link, sitemap, IndexNow, affiliate-isolation, and no-overflow checks passed. |
 | Google Drive vs Dropbox | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Canonical pairwise research and readable article rebuild complete. Content commit `fcbb2dc`; exact Vercel deployment `5416929816` succeeded. Production desktop/mobile, FAQ/schema, evidence-link, broader-guide, sitemap, IndexNow, affiliate-isolation, and no-overflow checks passed. |
@@ -104,7 +104,7 @@ These statuses require platform access or manual confirmation outside the reposi
 | IndexNow submission for Password Manager vs Browser Passwords | Reported complete | `https://choosebettertech.com/password-manager-vs-browser-passwords` submitted on 2026-07-11; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | IndexNow submission for Best Password Managers for Families | Reported complete | `https://choosebettertech.com/best-password-managers-for-families` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | IndexNow submission for Best Password Managers for Privacy | Complete | `https://choosebettertech.com/best-password-managers-for-privacy` submitted after exact production verification on 2026-07-12; live key matched and IndexNow returned HTTP 200. This confirms submission acceptance only; indexing still needs external verification. |
-| IndexNow submission for How Password Managers Actually Work | Reported complete | `https://choosebettertech.com/guides/how-password-managers-work` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
+| IndexNow submission for How Password Managers Actually Work | Complete | `https://choosebettertech.com/guides/how-password-managers-work` submitted after exact production verification on 2026-07-12; live key matched and IndexNow returned HTTP 200. This confirms submission acceptance only; indexing still needs external verification. |
 | IndexNow submission for Best VPNs for Streaming | Reported complete | `https://choosebettertech.com/best-vpns-for-streaming` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | IndexNow submission for Best Cloud Storage for Beginners | Complete | `https://choosebettertech.com/best-cloud-storage-for-beginners` submitted after exact production verification on 2026-07-12; live key matched and IndexNow returned HTTP 200. This confirms submission acceptance only; indexing still needs external verification. |
 | IndexNow submission for Google Drive vs Dropbox | Complete | `https://choosebettertech.com/comparisons/google-drive-vs-dropbox` submitted after exact production verification on 2026-07-12; live key matched and IndexNow returned HTTP 200. This confirms submission acceptance only; indexing still needs external verification. |
@@ -146,7 +146,7 @@ These statuses require platform access or manual confirmation outside the reposi
 
 | Milestone | Target Date | Acceptance Criteria |
 | --- | --- | --- |
-| Complete five-page remediation | TBD | Each page independently passes evidence, editorial, affiliate, validation, deployment, live production, sitemap, structural, visual, and operations gates. |
+| Complete five-page remediation | Complete 2026-07-12 | Each page independently passed evidence, editorial, affiliate, validation, deployment, live production, sitemap, structural, visual, and operations gates. |
 
 ## Decision Log
 

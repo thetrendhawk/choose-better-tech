@@ -40,7 +40,7 @@ Last Updated: 2026-07-12
 | Initial VPN guide | Complete |
 | Operations documentation framework | Complete |
 | Canonical publishing standards | Complete |
-| Five-article remediation | Live — remediation in progress |
+| Five-article remediation | Complete |
 
 ### Completion Checklist
 
@@ -132,7 +132,7 @@ Last Updated: 2026-07-12
 | Password Manager vs Browser Passwords | Final approved |
 | Best Password Managers for Families | Final approved |
 | Best Password Managers for Privacy | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
-| How Password Managers Actually Work | Live — remediation in progress |
+| How Password Managers Actually Work | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
 
 ### Completion Checklist
 
@@ -300,5 +300,5 @@ Last Updated: 2026-07-12
 | 9 | Password Manager vs Browser Passwords | Final approved | Educational browser-versus-dedicated comparison published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile structural QA passed, and established-layout visual approval recorded. |
 | 10 | Best Password Managers for Families | Final approved | Family password-manager guide published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile screenshot QA passed, FAQ/schema parity passed, and established-layout visual approval recorded. |
 | 11 | Best Password Managers for Privacy | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Canonical twelve-candidate research and readable page rebuild complete; exact production deployment, desktop/mobile structural QA, schema, evidence, sitemap, and IndexNow checks passed. |
-| 12 | How Password Managers Actually Work | Live — remediation in progress | Moderate remediation; final verdict NOT FINAL APPROVED until all independent gates pass. |
-| 13 | Five-article remediation | Live — remediation in progress | Four audited pages completed independent remediation. Final remaining page: How Password Managers Actually Work. |
+| 12 | How Password Managers Actually Work | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Canonical technical research and readable educational rebuild complete; exact production deployment, desktop/mobile structural QA, schema, evidence, sitemap, and IndexNow checks passed. |
+| 13 | Five-article remediation | Complete | All five pages independently passed research, editorial, affiliate, validation, exact deployment, production, sitemap, IndexNow, structural, visual, and operations gates. |

@@ -11,6 +11,26 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-12 — Five-page automation-content remediation completed
+
+- Completed independent canonical remediation for Best VPNs for Streaming, Best Cloud Storage for Beginners, Google Drive vs Dropbox, Best Password Managers for Privacy, and How Password Managers Actually Work.
+- Each page received its own research refresh, content commit, validation run, exact production-deployment verification, desktop/mobile structural QA, sitemap check, IndexNow submission, volatile-claim updates where applicable, and six-document operations reconciliation.
+- No page inherited final approval from another page. All five final verdicts are `FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT`.
+- Search-engine indexing remains `Needs verification`; sitemap presence and IndexNow acceptance were not treated as indexing confirmation.
+
+### 2026-07-12 — How Password Managers Actually Work canonical remediation completed
+
+- Replaced the short vendor-heavy note with canonical technical research covering salts, KDFs, authentication, encryption, local key storage, biometrics, synchronization, autofill, sharing, recovery types, MFA, passkeys, exports, self-hosting, breaches, malware, and malicious-update boundaries.
+- Added a claim-to-source matrix and authoritative/academic evidence from NIST, FIDO, Apple, Android, CERT, USENIX, provider white papers, and current support documentation.
+- Rebuilt the page in readable TypeScript and JSX with an eight-step lifecycle, two technical matrices, seven recovery categories, failure modes, 27 FAQs, and 26 visible evidence links.
+- Removed the affiliate disclosure and retained no affiliate or commercial CTA on the educational page.
+- Lint, optional tests, production build, diff, affiliate-isolation, unsupported-claim, commercial-component, route, sitemap, canonical, and schema checks passed.
+- Content commit `edaf4a4`; exact production deployment `5417068406` completed successfully.
+- Production desktop and 390px mobile checks passed with no page-level overflow; both tables are contained and the Password Manager Hub link works.
+- The live sitemap contains the canonical URL, the live IndexNow key matched, and single-URL submission returned HTTP 200. This is submission acceptance, not indexing confirmation.
+- No shared component or global style changed. External screenshots were not required under established-layout precedent.
+- Final verdict: `FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT`.
+
 ### 2026-07-12 — Best Password Managers for Privacy canonical remediation completed
 
 - Expanded the five-provider note into a canonical twelve-candidate privacy review covering Proton Pass, Bitwarden, 1Password, KeePassXC, NordPass, Enpass, Dashlane, Keeper, RoboForm, Apple Passwords, Google Password Manager, and LastPass incident context.
