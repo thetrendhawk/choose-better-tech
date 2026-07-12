@@ -3,7 +3,7 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-11
+Last Updated: 2026-07-12
 
 ## Reporting Cadence
 
@@ -23,15 +23,15 @@ These counts use published editorial routes in the current repository and sitema
 | --- | ---: | --- | --- |
 | Reviews | 11 | Product review routes under `/reviews/` | Repo route index and production sitemap |
 | Comparisons | 12 | Pairwise comparison routes under `/comparisons/` | Repo route index and production sitemap |
-| Hubs / Guides | 21 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
+| Hubs / Guides | 22 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
 | Authority Pages | 3 | About, How We Review Software, and Affiliate Disclosure | Repo routes and production sitemap |
-| Total Editorial Content Assets | 44 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
+| Total Editorial Content Assets | 45 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
 
 ## Content KPIs
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 11 | 12 | 21 | 44 | Needs verification | Baseline reflects current repository routes and generated sitemap as of 2026-07-11 after Password Manager vs Browser Passwords publication. Indexing status is not inferred from sitemap presence or IndexNow submission. |
+| 2026-07 | 11 | 12 | 22 | 45 | Needs verification | Baseline reflects current repository routes, generated sitemap, and production verification as of 2026-07-12 after Best Password Managers for Families publication. Indexing status is not inferred from sitemap presence or IndexNow submission. |
 
 ## Organic Search KPIs
 
@@ -73,4 +73,4 @@ These counts use published editorial routes in the current repository and sitema
 
 | Month | Publishing Goal | Traffic Goal | Affiliate Goal | Revenue Goal | Status |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07 | Maintain current published assets, verify indexing signals, and plan Best Password Managers for Families as the next distinct password-manager guide. | Establish baseline without inventing traffic data | Track verified applications only | Establish baseline when revenue data exists | Active |
+| 2026-07 | Maintain current published assets, verify indexing signals, and plan Best Password Managers for Privacy as the next distinct password-manager guide. | Establish baseline without inventing traffic data | Track verified applications only | Establish baseline when revenue data exists | Active |

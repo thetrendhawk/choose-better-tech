@@ -3,7 +3,7 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-11
+Last Updated: 2026-07-12
 
 ## Purpose
 
@@ -75,6 +75,10 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 | 2026-07-11 | Deployment | Password Manager vs Browser Passwords production URL verified | Vercel production deployment `dpl_CDwh1F9YJNyvbNSuHASyMwEVWzth` reached Ready at `choose-better-tech-5iypo9jqc-aaron-s-evans-projects.vercel.app`; canonical production URL, cache-bypassed render, H1, meta description, canonical tag, quick verdict, side-by-side comparison, platform sections, dedicated-manager tradeoffs, migration checklist, sources, FAQ/schema parity, internal links, sitemap entry, and no page-level horizontal overflow verified. |
 | 2026-07-11 | Indexing | Password Manager vs Browser Passwords submitted to IndexNow | `https://choosebettertech.com/password-manager-vs-browser-passwords` submitted through the IndexNow single-URL endpoint; API returned HTTP 200. This confirms submission only, not indexing. |
 | 2026-07-11 | QA | Password Manager vs Browser Passwords final approved | Editorial, affiliate, and evidence QA passed; desktop/mobile structural QA passed; raw affiliate URL scan found no leaks outside the centralized registry; unsupported-claim scan passed; external screenshot QA was not required because the page used established layout patterns and no shared component/global changes. Final verdict: FINAL APPROVED - ESTABLISHED LAYOUT PRECEDENT. |
+| 2026-07-12 | Content | Best Password Managers for Families published | Content commit `8873bd3806d582904103e94348ae6706ea0bd657`; production URL `https://choosebettertech.com/best-password-managers-for-families`; research record `docs/research/best-password-managers-for-families-research.md`; article compares family password managers by shared vaults, private vaults, member limits, permissions, recovery, emergency access, child and teen boundaries, offboarding, security, and price. |
+| 2026-07-12 | Deployment | Best Password Managers for Families production URL verified | Vercel production deployment `dpl_BmX4LFReQHG8nyHi1V9W7YHmzrA9` reached Ready at `choose-better-tech-pd5c9vmwb-aaron-s-evans-projects.vercel.app`; canonical production URL, cache-bypassed desktop/mobile render, H1, meta description, canonical tag, quick recommendations, comparison table, provider sections, family-scenario sections, FAQ/schema parity, internal links, sitemap entry, and no page-level horizontal overflow verified. |
+| 2026-07-12 | Indexing | Best Password Managers for Families submitted to IndexNow | `https://choosebettertech.com/best-password-managers-for-families` submitted through the IndexNow single-URL endpoint; API returned HTTP 200. This confirms submission only, not indexing. |
+| 2026-07-12 | QA | Best Password Managers for Families final approved | Editorial, affiliate, and evidence QA passed; desktop/mobile screenshot QA passed; raw affiliate URL scan found no leaks outside the centralized registry; unsupported-claim scan passed; 24 visible FAQs matched 24 FAQ schema entries; 24 source links verified; established-layout visual approval recorded. Final verdict: FINAL APPROVED - ESTABLISHED LAYOUT PRECEDENT. |
 
 ## Future Entries
 
