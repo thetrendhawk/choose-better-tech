@@ -11,6 +11,16 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-12 — Streaming VPN guide and Cloud Storage phase opened
+
+- Published `Best VPNs for Streaming` at `/best-vpns-for-streaming` with cautious device, Smart DNS, household, reliability, privacy, and refund guidance.
+- Published `Best Cloud Storage for Beginners` at `/best-cloud-storage-for-beginners`, opening the planned Cloud Storage phase with Google Drive, Dropbox, iCloud Drive, OneDrive, and Proton Drive.
+- Published `Google Drive vs Dropbox` at `/comparisons/google-drive-vs-dropbox` as the first cloud-storage comparison.
+- Content commit: `aef71d3`.
+- All three production routes passed H1/title/canonical, schema, FAQ, sitemap, direct-route, desktop, 390px mobile, responsive-table, and no-overflow checks.
+- IndexNow single-URL submissions returned HTTP 200 for all three pages; indexing remains externally unverified.
+- Risk-based visual QA approved all three pages by established-layout precedent.
+
 ### 2026-07-12 — Password-manager privacy and architecture guides published
 
 - Published `Best Password Managers for Privacy` at `/best-password-managers-for-privacy` with a current research record covering encrypted metadata, aliases, open-source evidence, audits, telemetry, account data, recovery, ownership, and portability.

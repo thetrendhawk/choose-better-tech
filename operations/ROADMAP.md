@@ -76,7 +76,7 @@ Last Updated: 2026-07-12
 | Are VPNs Worth It? | Published |
 | Free VPN vs Paid VPN evidence update | Final approved |
 | Best Free VPNs | Final approved |
-| Best VPNs for Streaming | Planned |
+| Best VPNs for Streaming | Final approved |
 | Best VPNs for Travel | Final approved |
 | Best VPNs for Students | Final approved |
 | VPN Privacy Guide | Final approved |
@@ -186,8 +186,8 @@ Last Updated: 2026-07-12
 
 | Deliverable | Status |
 | --- | --- |
-| Best Cloud Storage for Beginners | Planned |
-| Google Drive vs Dropbox | Planned |
+| Best Cloud Storage for Beginners | Final approved |
+| Google Drive vs Dropbox | Final approved |
 | Proton Drive Review | Planned |
 | iCloud vs Google Drive | Planned |
 | Best Secure Cloud Storage | Planned |
@@ -195,8 +195,9 @@ Last Updated: 2026-07-12
 ### Completion Checklist
 
 - [ ] Category research completed.
-- [ ] Editorial brief created for first article.
-- [ ] At least one review and one comparison published.
+- [x] Category research completed.
+- [x] Editorial framework created for first article.
+- [x] At least one guide and one comparison published.
 - [ ] Affiliate opportunities scored.
 - [ ] Performance reviewed after indexing.
 

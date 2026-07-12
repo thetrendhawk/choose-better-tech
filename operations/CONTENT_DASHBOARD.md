@@ -24,8 +24,8 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | Content Type | Count | Notes |
 | --- | ---: | --- |
 | Reviews | 11 | 3 VPN reviews, 5 password manager reviews, and 3 privacy tool reviews |
-| Comparisons | 12 | 3 VPN comparisons, 6 password manager comparisons, and 3 privacy tool comparisons |
-| Hubs / Guides | 24 | 3 decision hubs, 12 VPN guides, 7 password-manager guides, 1 data-removal decision guide, and 1 data-removal commercial investigation |
+| Comparisons | 13 | 3 VPN comparisons, 6 password manager comparisons, 3 privacy tool comparisons, and 1 cloud-storage comparison |
+| Hubs / Guides | 26 | 3 decision hubs, 13 VPN guides, 7 password-manager guides, 1 cloud-storage guide, 1 data-removal decision guide, and 1 data-removal commercial investigation |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
 
 ## Status Legend
@@ -100,6 +100,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | Best VPNs for Travel | `/best-vpns-for-travel` | Guide | N/A | Current official and guidance sources checked | N/A | Yes | Final approved | Yes | Mixed / centralized resolver | 2026-07-11 | Production URL, direct refresh, quick verdict, comparison table, all provider sections, FAQ, affiliate isolation, sitemap entry, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
 | VPN Privacy Guide | `/guides/vpn-privacy-guide` | Guide | N/A | `docs/research/vpn-privacy-guide-research.md` | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-11 | Production URL, direct refresh, cache-bypassed fetch, H1, quick answer, visibility comparison table, logging, privacy policy, audits, jurisdiction, ownership, open-source, transparency, DNS/IPv6/WebRTC/leaks, provider examples, red flags, checklist, FAQ/schema parity, final takeaway, disclosure, newsletter/footer, internal links, affiliate isolation, sitemap entry, IndexNow submission, desktop/mobile structural QA, and external visual QA complete. |
 | Best VPNs for Families | `/best-vpns-for-families` | Guide | N/A | `docs/research/best-vpns-for-families-research.md` | N/A | Yes | Final approved | Yes | Mixed / centralized resolver | 2026-07-11 | Production URL, direct refresh, H1, quick recommendations, comparison table, all seven provider sections, household scenarios, parental-control caveat, unlimited-device guidance, smart-TV/streaming-device guidance, gaming guidance, child-device guidance, family travel guidance, router guidance, free-VPN guidance, checklist, FAQ/schema parity, internal links, affiliate isolation, sitemap entry, IndexNow submission, desktop structural QA, mobile no-overflow checks, and external visual QA complete. |
+| Best VPNs for Streaming | `/best-vpns-for-streaming` | Guide | N/A | `docs/research/best-vpns-for-streaming-research.md` | N/A | Yes | Final approved | Yes | Mixed / centralized resolver | 2026-07-12 | Production H1/title/canonical, responsive table, 16 FAQs, four schemas, internal links, affiliate isolation, sitemap entry, IndexNow HTTP 200, desktop/mobile structural QA, and established-layout visual approval complete. |
 | VPN Myths | `/guides/vpn-myths` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Is Proton VPN Free Good Enough? | `/guides/is-proton-vpn-free-good-enough` | Guide | N/A | N/A | N/A | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 
@@ -125,6 +126,13 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | Bitwarden vs 1Password | `/comparisons/bitwarden-vs-1password` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Bitwarden vs Proton Pass | `/comparisons/bitwarden-vs-proton-pass` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
 | Bitwarden vs NordPass | `/comparisons/bitwarden-vs-nordpass` | Comparison | N/A | Source assets complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-04 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |
+
+## Cloud Storage Cluster Asset Inventory
+
+| Asset | Route | Type | Raw Research | Canonical Research | Editorial Brief | Built | QA Status | Published | Affiliate Status | Last Verified | Next Action |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Best Cloud Storage for Beginners | `/best-cloud-storage-for-beginners` | Guide | N/A | `docs/research/best-cloud-storage-for-beginners-research.md` | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-12 | Recheck free storage, quota sharing, plan limits, recovery, privacy, platform support, and pricing before refresh. |
+| Google Drive vs Dropbox | `/comparisons/google-drive-vs-dropbox` | Comparison | N/A | `docs/research/google-drive-vs-dropbox-research.md` | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-12 | Recheck storage limits, plan names, recovery windows, sharing, privacy language, and pricing before refresh. |
 
 ## Data Removal Cluster Asset Inventory
 

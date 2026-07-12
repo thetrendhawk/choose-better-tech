@@ -22,16 +22,16 @@ These counts use published editorial routes in the current repository and sitema
 | Content Type | Count | Definition | Verification Source |
 | --- | ---: | --- | --- |
 | Reviews | 11 | Product review routes under `/reviews/` | Repo route index and production sitemap |
-| Comparisons | 12 | Pairwise comparison routes under `/comparisons/` | Repo route index and production sitemap |
-| Hubs / Guides | 24 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
+| Comparisons | 13 | Pairwise comparison routes under `/comparisons/` | Repo route index and production sitemap |
+| Hubs / Guides | 26 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
 | Authority Pages | 3 | About, How We Review Software, and Affiliate Disclosure | Repo routes and production sitemap |
-| Total Editorial Content Assets | 47 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
+| Total Editorial Content Assets | 50 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
 
 ## Content KPIs
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 11 | 12 | 24 | 47 | Needs verification | Baseline reflects current repository routes, generated sitemap, and production verification as of 2026-07-12 after Best Password Managers for Privacy and How Password Managers Actually Work publication. Indexing status is not inferred from sitemap presence or IndexNow submission. |
+| 2026-07 | 11 | 13 | 26 | 50 | Needs verification | Baseline reflects current repository routes, generated sitemap, and production verification as of 2026-07-12 after Best VPNs for Streaming, Best Cloud Storage for Beginners, and Google Drive vs Dropbox publication. Indexing status is not inferred from sitemap presence or IndexNow submission. |
 
 ## Organic Search KPIs
 

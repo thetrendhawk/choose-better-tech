@@ -10,7 +10,7 @@ Last Updated: 2026-07-12
 | Field | Status |
 | --- | --- |
 | Phase | Traffic execution and cluster expansion |
-| Summary | Current site inventory and publication QA are reconciled; Best Password Managers for Privacy and How Password Managers Actually Work are live, submitted to IndexNow, and final approved under established-layout precedent. |
+| Summary | Current site inventory and publication QA are reconciled; Best VPNs for Streaming and the first two Cloud Storage assets are live, submitted to IndexNow, and final approved under established-layout precedent. |
 | Health | On Track |
 
 ## Current Sprint
@@ -52,6 +52,9 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Best Password Managers for Families | Final approved | Family password-manager guide researched, implemented, pushed, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile screenshot QA, FAQ/schema parity, 24-source-link verification, affiliate isolation, internal-link checks, and no-overflow checks passed. |
 | Best Password Managers for Privacy | Final approved | Privacy-focused ranking researched, implemented, pushed, Vercel Ready, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, affiliate isolation, and no-overflow checks passed. |
 | How Password Managers Actually Work | Final approved | Educational architecture guide researched, implemented, pushed, Vercel Ready, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, affiliate isolation, and no-overflow checks passed. |
+| Best VPNs for Streaming | Final approved | Streaming-focused VPN ranking researched, implemented, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, affiliate isolation, and no-overflow checks passed. |
+| Best Cloud Storage for Beginners | Final approved | First cloud-storage guide researched, implemented, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, and no-overflow checks passed. |
+| Google Drive vs Dropbox | Final approved | First cloud-storage comparison researched, implemented, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, and no-overflow checks passed. |
 
 ## Current Blockers
 
@@ -65,10 +68,10 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | KPI | Current Value | Target | Reporting Cadence |
 | --- | ---: | ---: | --- |
 | Reviews Published | 11 | TBD | Weekly |
-| Comparisons Published | 12 | TBD | Weekly |
-| Hubs / Guides Published | 24 | TBD | Weekly |
+| Comparisons Published | 13 | TBD | Weekly |
+| Hubs / Guides Published | 26 | TBD | Weekly |
 | Authority Pages Published | 3 | TBD | Weekly |
-| Total Editorial Content Assets | 47 | TBD | Weekly |
+| Total Editorial Content Assets | 50 | TBD | Weekly |
 | Indexed Assets | Needs verification | TBD | Weekly |
 | Organic Clicks | Not measured | TBD | Weekly |
 | Organic Impressions | Not measured | TBD | Weekly |
@@ -99,6 +102,9 @@ These statuses require platform access or manual confirmation outside the reposi
 | IndexNow submission for Best Password Managers for Families | Reported complete | `https://choosebettertech.com/best-password-managers-for-families` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | IndexNow submission for Best Password Managers for Privacy | Reported complete | `https://choosebettertech.com/best-password-managers-for-privacy` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | IndexNow submission for How Password Managers Actually Work | Reported complete | `https://choosebettertech.com/guides/how-password-managers-work` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
+| IndexNow submission for Best VPNs for Streaming | Reported complete | `https://choosebettertech.com/best-vpns-for-streaming` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
+| IndexNow submission for Best Cloud Storage for Beginners | Reported complete | `https://choosebettertech.com/best-cloud-storage-for-beginners` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
+| IndexNow submission for Google Drive vs Dropbox | Reported complete | `https://choosebettertech.com/comparisons/google-drive-vs-dropbox` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | URL indexing status | Needs verification | No indexing success is claimed in this dashboard. |
 | Social distribution | Not scheduled | Pinterest, Instagram, and LinkedIn distribution need separate scheduling or confirmation. |
 | KPI performance | Not measured | Traffic, conversion, email, and revenue metrics need external platform data. |
