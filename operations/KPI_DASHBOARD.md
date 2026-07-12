@@ -31,7 +31,7 @@ These counts use published editorial routes in the current repository and sitema
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 11 | 13 | 26 | 50 | Needs verification | Inventory counts are unchanged. Five automation-published pages are live but in remediation and are not final approved under the canonical standards. Indexing status is not inferred from sitemap presence or IndexNow submission. |
+| 2026-07 | 11 | 13 | 26 | 50 | Needs verification | Inventory counts are unchanged. Best VPNs for Streaming completed canonical remediation; four earlier automation-published pages remain live with remediation in progress. Indexing status is not inferred from sitemap presence or IndexNow submission. |
 
 ## Organic Search KPIs
 

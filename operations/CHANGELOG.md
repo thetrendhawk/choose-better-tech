@@ -11,6 +11,17 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-12 — Best VPNs for Streaming canonical remediation completed
+
+- Replaced the minimal research record with a canonical ten-candidate evidence review and explicit inclusion/exclusion logic.
+- Rebuilt the page in readable TypeScript and JSX with six full provider sections, device/setup matrix, scenarios, pricing/renewal context, exclusions, methodology, testing disclosure, and 26 visible evidence links.
+- Narrowed the primary label from an unsupported reliability-style winner to `Best documented mainstream fit`; no hands-on streaming, speed, TV, router, refund, or support testing is claimed.
+- Content commit `0e50c0e38815a416e695f989c1ea6a4c6b4d790b`; Vercel production deployment `5416718907` succeeded at `choose-better-tech-5ulu7erqi-aaron-s-evans-projects.vercel.app`.
+- Canonical production desktop and approximately 390px structural QA passed with no page-level overflow; the device table remains horizontally contained; 18 visible FAQs match FAQ schema.
+- Affiliate buttons remain centralized and limited to the top recommendation cards; raw affiliate scan passed; sitemap verified; IndexNow returned HTTP 200.
+- Final verdict: `FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT`.
+- Local in-app browser QA was unavailable because localhost navigation was blocked; the production-domain browser checks passed and are the visual-QA basis.
+
 ### 2026-07-12 — Five-page automation-content remediation audit completed
 
 - Audited Best Password Managers for Privacy, How Password Managers Actually Work, Best VPNs for Streaming, Best Cloud Storage for Beginners, and Google Drive vs Dropbox against the canonical standards.
