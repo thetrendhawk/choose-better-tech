@@ -16,7 +16,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next operational action: verify indexing signals for newly published URLs and plan the next distinct password-manager privacy guide
+- Next operational action: verify indexing signals for newly published URLs and choose the next distinct cluster opportunity from the roadmap
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
@@ -25,7 +25,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | --- | ---: | --- |
 | Reviews | 11 | 3 VPN reviews, 5 password manager reviews, and 3 privacy tool reviews |
 | Comparisons | 12 | 3 VPN comparisons, 6 password manager comparisons, and 3 privacy tool comparisons |
-| Hubs / Guides | 22 | 3 decision hubs, 12 VPN guides, 5 password-manager guides, 1 data-removal decision guide, and 1 data-removal commercial investigation |
+| Hubs / Guides | 24 | 3 decision hubs, 12 VPN guides, 7 password-manager guides, 1 data-removal decision guide, and 1 data-removal commercial investigation |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
 
 ## Status Legend
@@ -111,6 +111,8 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | Are Password Managers Safe? | `/are-password-managers-safe` | Educational Guide | N/A | `docs/research/are-password-managers-safe-research.md` | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-11 | Production URL, direct refresh, H1, quick answer, risk table, breach guidance, zero-knowledge guidance, provider examples, FAQ/schema parity, sources, final takeaway, internal links, affiliate isolation, sitemap entry, IndexNow submission, desktop/mobile structural QA, and established-layout visual approval complete. |
 | Password Manager vs Browser Passwords | `/password-manager-vs-browser-passwords` | Educational Comparison | N/A | `docs/research/password-manager-vs-browser-passwords-research.md` | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-11 | Production URL, direct refresh, H1, quick verdict, side-by-side comparison table, Apple Passwords, Google Password Manager, Microsoft Edge, Firefox/Samsung, dedicated-manager advantages and friction, passkeys, autofill, recovery, sharing, portability, privacy, user-type guidance, migration checklist, 25 FAQs, 25 source links, FAQ/schema parity, internal links, affiliate isolation, sitemap entry, IndexNow submission, desktop/mobile structural QA, and established-layout visual approval complete. |
 | Best Password Managers for Families | `/best-password-managers-for-families` | Guide | N/A | `docs/research/best-password-managers-for-families-research.md` | N/A | Yes | Final approved | Yes | Mixed / centralized resolver | 2026-07-12 | Production URL, direct live render, H1, meta description, canonical tag, quick recommendations, comparison table, five primary provider sections, built-in alternatives, household scenarios, child/teen guidance, recovery and emergency access guidance, offboarding, free-plan guidance, security checklist, 24 FAQs, 24 source links, FAQ/schema parity, internal links, affiliate isolation, sitemap entry, IndexNow submission, desktop/mobile structural QA, and established-layout visual approval complete. |
+| Best Password Managers for Privacy | `/best-password-managers-for-privacy` | Guide | N/A | `docs/research/best-password-managers-for-privacy-research.md` | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-12 | Production URL, Vercel Ready deployment, H1/title/canonical, quick picks, responsive comparison table, 20 FAQs, four schemas, internal links, affiliate isolation, sitemap entry, IndexNow HTTP 200, desktop/mobile structural QA, and established-layout visual approval complete. |
+| How Password Managers Actually Work | `/guides/how-password-managers-work` | Educational Guide | N/A | `docs/research/how-password-managers-work-research.md` | N/A | Yes | Final approved | Yes | INTERNAL_ONLY | 2026-07-12 | Production URL, Vercel Ready deployment, H1/title/canonical, password lifecycle, responsive architecture table, 24 FAQs, three schemas, internal links, affiliate isolation, sitemap entry, IndexNow HTTP 200, desktop/mobile structural QA, and established-layout visual approval complete. |
 | Best Password Managers for Beginners | `/best-password-managers-for-beginners` | Guide | N/A | Source assets complete | N/A | Yes | Site QA complete | Yes | Mixed / centralized resolver | 2026-07-10 | Recheck current plan limits, pricing, recovery options, platform support, affiliate CTA behavior, and official source facts before the next purchase-focused refresh |
 | Best Free Password Managers | `/best-free-password-managers` | Guide | N/A | Source assets complete | N/A | Yes | Verified live; external visual QA pending | Yes | Mixed / centralized resolver | 2026-07-10 | Monitor free-plan limits, device/session restrictions, passkey support, sharing, export behavior, and affiliate CTA behavior before the next refresh |
 | 1Password Review | `/reviews/1password-review` | Review | Complete | Complete | Complete | Yes | Site QA complete | Yes | INTERNAL_ONLY | 2026-07-02 | Monitor volatile details, internal links, metadata, and disclosure behavior during the next refresh |

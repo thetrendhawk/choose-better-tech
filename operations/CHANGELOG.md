@@ -11,6 +11,16 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-12 — Password-manager privacy and architecture guides published
+
+- Published `Best Password Managers for Privacy` at `/best-password-managers-for-privacy` with a current research record covering encrypted metadata, aliases, open-source evidence, audits, telemetry, account data, recovery, ownership, and portability.
+- Published `How Password Managers Actually Work` at `/guides/how-password-managers-work` with a current research record covering key derivation, client-side encryption, authentication, cloud synchronization, local unlock, autofill, sharing, recovery, MFA, passkeys, and exports.
+- Content commit: `fd0a2ab`.
+- Vercel production deployment `dpl_Ai6vGdvLeqHTLZr8kxReb8hJZkg9` reached Ready and serves both routes on the canonical domain.
+- Both pages passed live H1/title/canonical, schema, FAQ, sitemap, direct-route, desktop, 390px mobile, table-containment, affiliate-isolation, and no-overflow checks.
+- IndexNow single-URL submissions returned HTTP 200 for both pages; indexing remains externally unverified.
+- Risk-based visual QA approved both pages by established-layout precedent; no new shared component or global style was introduced.
+
 | Date | Category | Milestone | Notes |
 | --- | --- | --- | --- |
 | TBD | Website | Website launched | Choose Better Tech public site established. |

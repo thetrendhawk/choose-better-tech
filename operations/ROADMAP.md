@@ -127,8 +127,8 @@ Last Updated: 2026-07-12
 | Are Password Managers Safe? | Final approved |
 | Password Manager vs Browser Passwords | Final approved |
 | Best Password Managers for Families | Final approved |
-| Best Password Managers for Privacy | Planned |
-| How Password Managers Actually Work | Planned |
+| Best Password Managers for Privacy | Final approved |
+| How Password Managers Actually Work | Final approved |
 
 ### Completion Checklist
 
@@ -138,6 +138,8 @@ Last Updated: 2026-07-12
 - [x] Password-manager safety guide published without duplicating buying-guide or free-plan intent.
 - [x] Browser-versus-dedicated password manager guide published without duplicating safety, beginner, free-plan, review, or product-comparison intent.
 - [x] Family password-manager guide published without duplicating safety, beginner, free-plan, browser-versus-dedicated, review, or product-comparison intent.
+- [x] Privacy-focused password-manager ranking published with metadata, telemetry, alias, audit, recovery, and portability distinctions.
+- [x] Password-manager architecture explainer published without duplicating the safety guide or commercial rankings.
 - [x] Affiliate program research completed where current records support active/inactive status.
 - [ ] Application log updated.
 
@@ -292,4 +294,5 @@ Last Updated: 2026-07-12
 | 8 | Are Password Managers Safe? | Final approved | Educational security guide published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile structural QA passed, and established-layout visual approval recorded. |
 | 9 | Password Manager vs Browser Passwords | Final approved | Educational browser-versus-dedicated comparison published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile structural QA passed, and established-layout visual approval recorded. |
 | 10 | Best Password Managers for Families | Final approved | Family password-manager guide published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile screenshot QA passed, FAQ/schema parity passed, and established-layout visual approval recorded. |
-| 11 | Best Password Managers for Privacy | Planned | Recommended next distinct password-manager guide focused on privacy policies, metadata handling, open-source evidence, audits, aliases, legal-process nuance, telemetry, and cross-provider transparency. |
+| 11 | Best Password Managers for Privacy | Final approved | Published with privacy policies, encrypted metadata, open-source evidence, audits, aliases, telemetry, account-data, recovery, and portability distinctions. |
+| 12 | How Password Managers Actually Work | Final approved | Published as a distinct technical explainer covering key derivation, authentication, local encryption, encrypted sync, autofill, sharing, recovery, MFA, passkeys, and exports. |

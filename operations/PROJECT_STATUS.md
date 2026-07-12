@@ -10,7 +10,7 @@ Last Updated: 2026-07-12
 | Field | Status |
 | --- | --- |
 | Phase | Traffic execution and cluster expansion |
-| Summary | Current site inventory, production deployment, and recent publication QA are reconciled; Best Password Managers for Families is live, submitted to IndexNow, and final approved; next work shifts to indexing verification, distribution, KPI baselines, and a distinct password-manager privacy guide. |
+| Summary | Current site inventory and publication QA are reconciled; Best Password Managers for Privacy and How Password Managers Actually Work are live, submitted to IndexNow, and final approved under established-layout precedent. |
 | Health | On Track |
 
 ## Current Sprint
@@ -32,7 +32,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | --- | --- | --- |
 | Maintain current operational dashboards | Choose Better Tech | Active |
 | Verify indexing signals for newly published URLs | Choose Better Tech | Next Up |
-| Plan Best Password Managers for Privacy | Choose Better Tech | Next Up |
+| Choose next distinct cluster opportunity | Choose Better Tech | Next Up |
 
 ## Current Task
 
@@ -50,6 +50,8 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Are Password Managers Safe? | Final approved | Educational security guide researched, implemented, pushed, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, FAQ/schema parity, affiliate isolation, and no-overflow checks passed. |
 | Password Manager vs Browser Passwords | Final approved | Educational browser-versus-dedicated comparison researched, implemented, pushed, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, FAQ/schema parity, 25-source-link verification, affiliate isolation, internal-link checks, and no-overflow checks passed. |
 | Best Password Managers for Families | Final approved | Family password-manager guide researched, implemented, pushed, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile screenshot QA, FAQ/schema parity, 24-source-link verification, affiliate isolation, internal-link checks, and no-overflow checks passed. |
+| Best Password Managers for Privacy | Final approved | Privacy-focused ranking researched, implemented, pushed, Vercel Ready, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, affiliate isolation, and no-overflow checks passed. |
+| How Password Managers Actually Work | Final approved | Educational architecture guide researched, implemented, pushed, Vercel Ready, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, affiliate isolation, and no-overflow checks passed. |
 
 ## Current Blockers
 
@@ -64,9 +66,9 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | --- | ---: | ---: | --- |
 | Reviews Published | 11 | TBD | Weekly |
 | Comparisons Published | 12 | TBD | Weekly |
-| Hubs / Guides Published | 22 | TBD | Weekly |
+| Hubs / Guides Published | 24 | TBD | Weekly |
 | Authority Pages Published | 3 | TBD | Weekly |
-| Total Editorial Content Assets | 45 | TBD | Weekly |
+| Total Editorial Content Assets | 47 | TBD | Weekly |
 | Indexed Assets | Needs verification | TBD | Weekly |
 | Organic Clicks | Not measured | TBD | Weekly |
 | Organic Impressions | Not measured | TBD | Weekly |
@@ -95,6 +97,8 @@ These statuses require platform access or manual confirmation outside the reposi
 | IndexNow submission for Are Password Managers Safe? | Reported complete | `https://choosebettertech.com/are-password-managers-safe` submitted on 2026-07-11; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | IndexNow submission for Password Manager vs Browser Passwords | Reported complete | `https://choosebettertech.com/password-manager-vs-browser-passwords` submitted on 2026-07-11; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | IndexNow submission for Best Password Managers for Families | Reported complete | `https://choosebettertech.com/best-password-managers-for-families` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
+| IndexNow submission for Best Password Managers for Privacy | Reported complete | `https://choosebettertech.com/best-password-managers-for-privacy` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
+| IndexNow submission for How Password Managers Actually Work | Reported complete | `https://choosebettertech.com/guides/how-password-managers-work` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | URL indexing status | Needs verification | No indexing success is claimed in this dashboard. |
 | Social distribution | Not scheduled | Pinterest, Instagram, and LinkedIn distribution need separate scheduling or confirmation. |
 | KPI performance | Not measured | Traffic, conversion, email, and revenue metrics need external platform data. |
