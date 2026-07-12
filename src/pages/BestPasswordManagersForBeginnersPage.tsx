@@ -486,7 +486,7 @@ export function BestPasswordManagersForBeginnersPage() {
           <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
             <h3 className="text-lg font-bold text-slate-950">Remember the Basics</h3>
             <BulletList items={["No password manager is 100% risk-free.", "The account password must be strong and unique.", "MFA should be enabled where available.", "Recovery codes or files should be stored safely.", "Apps and extensions should stay updated."]} />
-            <p className="mt-5 text-sm leading-6 text-slate-600">For the deeper security model, read <Link className="font-semibold text-brand-700 hover:text-brand-800" to="/are-password-managers-safe">Are Password Managers Safe?</Link>. For the built-in browser versus dedicated-vault decision, read <Link className="font-semibold text-brand-700 hover:text-brand-800" to="/password-manager-vs-browser-passwords">Password Manager vs Browser Passwords</Link>.</p>
+            <p className="mt-5 text-sm leading-6 text-slate-600">For the deeper security model, read <Link className="font-semibold text-brand-700 hover:text-brand-800" to="/are-password-managers-safe">Are Password Managers Safe?</Link>. For the built-in browser versus dedicated-vault decision, read <Link className="font-semibold text-brand-700 hover:text-brand-800" to="/password-manager-vs-browser-passwords">Password Manager vs Browser Passwords</Link>. For shared vaults, family recovery, and offboarding, read <Link className="font-semibold text-brand-700 hover:text-brand-800" to="/best-password-managers-for-families">Best Password Managers for Families</Link>.</p>
           </div>
         </div>
       </Section>
@@ -527,6 +527,7 @@ export function BestPasswordManagersForBeginnersPage() {
           <p className="mt-4 text-base leading-7 text-slate-700">Do not treat this as a permanent ranking of brands. Treat it as a decision path. Read the full reviews, check the current plan details, and choose the product that matches how you will actually use it.</p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <InternalLinkButton href="/password-managers">Use the Password Manager Hub</InternalLinkButton>
+            <InternalLinkButton href="/best-password-managers-for-families">Compare Family Plans</InternalLinkButton>
             <InternalLinkButton href="/password-manager-vs-browser-passwords">Compare Browser Passwords</InternalLinkButton>
             <InternalLinkButton href="/are-password-managers-safe">Read the Safety Guide</InternalLinkButton>
             <InternalLinkButton href="/reviews">Browse All Reviews</InternalLinkButton>

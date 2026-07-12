@@ -17,6 +17,7 @@ const BestVpnsForStudentsPage = lazy(() => import("./pages/BestVpnsForStudentsPa
 const BestVpnsForTravelPage = lazy(() => import("./pages/BestVpnsForTravelPage").then((module) => ({ default: module.BestVpnsForTravelPage })));
 const BestVpnsForBeginnersPage = lazy(() => import("./pages/BestVpnsForBeginnersPage").then((module) => ({ default: module.BestVpnsForBeginnersPage })));
 const BestPasswordManagersForBeginnersPage = lazy(() => import("./pages/BestPasswordManagersForBeginnersPage").then((module) => ({ default: module.BestPasswordManagersForBeginnersPage })));
+const BestPasswordManagersForFamiliesPage = lazy(() => import("./pages/BestPasswordManagersForFamiliesPage").then((module) => ({ default: module.BestPasswordManagersForFamiliesPage })));
 const BitwardenReviewPage = lazy(() => import("./pages/BitwardenReviewPage").then((module) => ({ default: module.BitwardenReviewPage })));
 const BitwardenVsNordPassPage = lazy(() => import("./pages/BitwardenVsNordPassPage").then((module) => ({ default: module.BitwardenVsNordPassPage })));
 const BitwardenVsOnePasswordPage = lazy(() => import("./pages/BitwardenVsOnePasswordPage").then((module) => ({ default: module.BitwardenVsOnePasswordPage })));
@@ -102,6 +103,7 @@ export default function App() {
             <Route path="best-vpns-for-students" element={<BestVpnsForStudentsPage />} />
             <Route path="best-vpns-for-travel" element={<BestVpnsForTravelPage />} />
             <Route path="best-password-managers-for-beginners" element={<BestPasswordManagersForBeginnersPage />} />
+            <Route path="best-password-managers-for-families" element={<BestPasswordManagersForFamiliesPage />} />
             <Route path="guides/best-vpns-for-beginners" element={<BestVpnsForBeginnersPage />} />
             <Route path="guides/how-vpns-work" element={<VpnGuidePage slug="how-vpns-work" />} />
             <Route path="guides/free-vpn-vs-paid" element={<VpnGuidePage slug="free-vpn-vs-paid" />} />

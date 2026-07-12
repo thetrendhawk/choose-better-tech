@@ -43,9 +43,9 @@ export const passwordManagersHub = {
     },
     {
       title: "I want the most polished family password manager",
-      recommendation: "Start with 1Password",
-      description: "Best fit when family sharing, recovery workflows, organizer controls, cross-platform polish, and a mature premium experience matter most.",
-      href: "/reviews/1password-review"
+      recommendation: "Compare the family guide",
+      description: "Best fit when shared vaults, private vaults, recovery workflows, organizer controls, child and teen boundaries, and offboarding matter most.",
+      href: "/best-password-managers-for-families"
     },
     {
       title: "I want the strongest privacy transparency",
@@ -174,6 +174,7 @@ export const passwordManagersHub = {
   learningPath: [
     { title: "Are Password Managers Safe?", href: "/are-password-managers-safe", description: "Understand vault security, breaches, zero knowledge, master passwords, MFA, autofill, passkeys, and recovery before choosing a manager." },
     { title: "Password Manager vs Browser Passwords", href: "/password-manager-vs-browser-passwords", description: "Decide whether Apple Passwords, Google Password Manager, Edge, Firefox, or Samsung Pass is enough, or whether a dedicated password manager is worth the switch." },
+    { title: "Best Password Managers for Families", href: "/best-password-managers-for-families", description: "Compare family plans by shared vaults, private vaults, member limits, recovery, emergency access, children and teens, offboarding, and mixed-device fit." },
     { title: "Best Free Password Managers", href: "/best-free-password-managers", description: "Compare Bitwarden, Proton Pass, NordPass, RoboForm, and browser-built-in managers by free-plan limits and long-term usability." },
     { title: "Best Password Managers for Beginners", href: "/best-password-managers-for-beginners", description: "Compare the five current password-manager options by ease of use, free-plan value, privacy, recovery, and everyday fit." },
     { title: "How We Review Software", href: "/about/how-we-review-software", description: "Learn how Choose Better Tech separates verified facts, vendor claims, independent findings, and open questions." },

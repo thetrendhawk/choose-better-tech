@@ -31,6 +31,7 @@ const routes = [
   "/best-vpns-for-students",
   "/best-vpns-for-travel",
   "/best-password-managers-for-beginners",
+  "/best-password-managers-for-families",
   "/guides/best-vpns-for-beginners",
   "/guides/how-vpns-work",
   "/guides/free-vpn-vs-paid",
