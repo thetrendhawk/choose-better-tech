@@ -15,6 +15,9 @@ const BestFreeVpnsPage = lazy(() => import("./pages/BestFreeVpnsPage").then((mod
 const BestVpnsForFamiliesPage = lazy(() => import("./pages/BestVpnsForFamiliesPage").then((module) => ({ default: module.BestVpnsForFamiliesPage })));
 const BestVpnsForStudentsPage = lazy(() => import("./pages/BestVpnsForStudentsPage").then((module) => ({ default: module.BestVpnsForStudentsPage })));
 const BestVpnsForTravelPage = lazy(() => import("./pages/BestVpnsForTravelPage").then((module) => ({ default: module.BestVpnsForTravelPage })));
+const BestVpnsForStreamingPage = lazy(() => import("./pages/BestVpnsForStreamingPage").then((module) => ({ default: module.BestVpnsForStreamingPage })));
+const BestCloudStorageForBeginnersPage = lazy(() => import("./pages/BestCloudStorageForBeginnersPage").then((module) => ({ default: module.BestCloudStorageForBeginnersPage })));
+const GoogleDriveVsDropboxPage = lazy(() => import("./pages/GoogleDriveVsDropboxPage").then((module) => ({ default: module.GoogleDriveVsDropboxPage })));
 const BestVpnsForBeginnersPage = lazy(() => import("./pages/BestVpnsForBeginnersPage").then((module) => ({ default: module.BestVpnsForBeginnersPage })));
 const BestPasswordManagersForBeginnersPage = lazy(() => import("./pages/BestPasswordManagersForBeginnersPage").then((module) => ({ default: module.BestPasswordManagersForBeginnersPage })));
 const BestPasswordManagersForFamiliesPage = lazy(() => import("./pages/BestPasswordManagersForFamiliesPage").then((module) => ({ default: module.BestPasswordManagersForFamiliesPage })));
@@ -104,6 +107,9 @@ export default function App() {
             <Route path="best-vpns-for-families" element={<BestVpnsForFamiliesPage />} />
             <Route path="best-vpns-for-students" element={<BestVpnsForStudentsPage />} />
             <Route path="best-vpns-for-travel" element={<BestVpnsForTravelPage />} />
+            <Route path="best-vpns-for-streaming" element={<BestVpnsForStreamingPage />} />
+            <Route path="best-cloud-storage-for-beginners" element={<BestCloudStorageForBeginnersPage />} />
+            <Route path="comparisons/google-drive-vs-dropbox" element={<GoogleDriveVsDropboxPage />} />
             <Route path="best-password-managers-for-beginners" element={<BestPasswordManagersForBeginnersPage />} />
             <Route path="best-password-managers-for-families" element={<BestPasswordManagersForFamiliesPage />} />
             <Route path="best-password-managers-for-privacy" element={<BestPasswordManagersForPrivacyPage />} />

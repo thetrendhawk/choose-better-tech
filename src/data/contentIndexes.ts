@@ -40,6 +40,13 @@ export const reviewGroups: ArticleGroup[] = [
 
 export const comparisonGroups: ArticleGroup[] = [
   {
+    title: "Cloud Storage Comparisons",
+    description: "Beginner-friendly cloud storage comparisons focused on sync, collaboration, privacy, recovery, ecosystem fit, and value.",
+    articles: [
+      { key: "google-drive-vs-dropbox", title: "Google Drive vs Dropbox", excerpt: "Compare free storage, file sync, sharing, collaboration, privacy, recovery, ecosystem fit, and paid value.", href: "/comparisons/google-drive-vs-dropbox", status: "Published Comparison" }
+    ]
+  },
+  {
     title: "VPN Comparisons",
     description: "Reader-fit VPN comparisons that explain privacy, value, streaming, performance, usability, and uncertainty without declaring a universal winner.",
     articles: [

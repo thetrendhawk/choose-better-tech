@@ -104,6 +104,7 @@ export const vpnDecisionHub = {
     }
   ],
   learningPath: [
+    { title: "Best VPNs for Streaming", href: "/best-vpns-for-streaming", description: "Compare streaming fit by native TV apps, routers, Smart DNS distinctions, device rules, privacy, support, and refund terms." },
     { title: "Are VPNs Worth It?", href: "/are-vpns-worth-it", description: "Decide whether a VPN solves a real privacy, travel, network, or location problem for you." },
     { title: "How VPNs Work", href: "/guides/how-vpns-work", description: "Learn what a VPN can and cannot protect." },
     { title: "VPN Privacy Guide", href: "/guides/vpn-privacy-guide", description: "Evaluate VPN logging, audits, ownership, jurisdiction, transparency reports, account data, leaks, and trust claims." },

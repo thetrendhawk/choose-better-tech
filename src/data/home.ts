@@ -19,6 +19,8 @@ export const featuredReviews: ArticlePreview[] = [
 ];
 
 export const featuredGuides: ArticlePreview[] = [
+  { key: "best-cloud-storage-for-beginners", title: "Best Cloud Storage for Beginners", excerpt: "A beginner-first guide to Google Drive, Dropbox, iCloud Drive, OneDrive, and Proton Drive by sync, sharing, collaboration, privacy, recovery, and ecosystem fit.", href: "/best-cloud-storage-for-beginners", status: "Published Guide" },
+  { key: "best-vpns-for-streaming", title: "Best VPNs for Streaming", excerpt: "A cautious comparison of streaming VPNs by device support, Smart DNS distinctions, household limits, reliability, privacy, and refund terms.", href: "/best-vpns-for-streaming", status: "Published Guide" },
   { key: "are-vpns-worth-it", title: "Are VPNs Worth It?", excerpt: "A skeptical, practical decision guide explaining when a VPN is worth paying for, when it is unnecessary, and what it cannot protect.", href: "/are-vpns-worth-it", status: "Published Guide" },
   { key: "vpn-privacy-guide", title: "VPN Privacy Guide", excerpt: "A practical guide to VPN logging, audits, ownership, jurisdiction, leaks, account data, and the limits of online privacy.", href: "/guides/vpn-privacy-guide", status: "Published Guide" },
   { key: "best-vpns-for-families", title: "Best VPNs for Families", excerpt: "A household-focused VPN guide for device limits, shared accounts, routers, smart TVs, streaming devices, privacy, and renewal pricing.", href: "/best-vpns-for-families", status: "Published Guide" },
@@ -45,6 +47,13 @@ export const featuredGuides: ArticlePreview[] = [
 ];
 
 export const featuredComparisons: ArticlePreview[] = [
+  {
+    key: "google-drive-vs-dropbox",
+    title: "Google Drive vs Dropbox",
+    excerpt: "A practical comparison of free storage, file sync, collaboration, privacy, recovery, ecosystem fit, and paid value.",
+    href: "/comparisons/google-drive-vs-dropbox",
+    status: "Published Comparison"
+  },
   {
     key: "nordvpn-vs-protonvpn",
     title: "NordVPN vs ProtonVPN",
