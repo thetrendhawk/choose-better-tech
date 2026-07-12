@@ -39,10 +39,14 @@ Last Updated: 2026-07-12
 | Initial VPN review | Complete |
 | Initial VPN guide | Complete |
 | Operations documentation framework | Complete |
+| Canonical publishing standards | Complete |
+| Five-article remediation | Pending |
 
 ### Completion Checklist
 
 - [x] Operations framework created.
+- [x] Canonical editorial, research/evidence, publishing-workflow, automation-contract, and volatile-claims standards installed.
+- [x] Fail-closed automation rules established for all future publishing tasks.
 - [ ] Canonical identity document imported.
 - [ ] Canonical affiliate playbook imported.
 - [x] Initial KPI dashboard baseline recorded.
@@ -297,3 +301,4 @@ Last Updated: 2026-07-12
 | 10 | Best Password Managers for Families | Final approved | Family password-manager guide published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile screenshot QA passed, FAQ/schema parity passed, and established-layout visual approval recorded. |
 | 11 | Best Password Managers for Privacy | Final approved | Published with privacy policies, encrypted metadata, open-source evidence, audits, aliases, telemetry, account-data, recovery, and portability distinctions. |
 | 12 | How Password Managers Actually Work | Final approved | Published as a distinct technical explainer covering key derivation, authentication, local encryption, encrypted sync, autofill, sharing, recovery, MFA, passkeys, and exports. |
+| 13 | Five-article remediation audit | Pending | Audit and remediate each page independently under the canonical standards; no remediation began during standards installation. |

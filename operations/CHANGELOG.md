@@ -11,6 +11,13 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-12 — Canonical publishing standards installed
+
+- Added binding editorial, research/evidence, publishing-workflow, automation, and volatile-claims standards under `operations/`.
+- Automation is now governed by fail-closed publishing rules: missing mandatory evidence, validation, deployment verification, or operations updates stops the workflow with the correct incomplete status.
+- The five-article remediation remains pending and was not started in this task.
+- No article content or application code changed, and no page was published in this task.
+
 ### 2026-07-12 — Streaming VPN guide and Cloud Storage phase opened
 
 - Published `Best VPNs for Streaming` at `/best-vpns-for-streaming` with cautious device, Smart DNS, household, reliability, privacy, and refund guidance.

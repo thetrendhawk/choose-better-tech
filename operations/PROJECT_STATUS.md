@@ -10,7 +10,7 @@ Last Updated: 2026-07-12
 | Field | Status |
 | --- | --- |
 | Phase | Traffic execution and cluster expansion |
-| Summary | Current site inventory and publication QA are reconciled; Best VPNs for Streaming and the first two Cloud Storage assets are live, submitted to IndexNow, and final approved under established-layout precedent. |
+| Summary | Current site inventory and publication QA are reconciled; canonical publishing standards are installed, and future automation is governed by binding fail-closed rules. The five-article remediation remains pending. |
 | Health | On Track |
 
 ## Current Sprint
@@ -31,6 +31,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Priority | Owner | Status |
 | --- | --- | --- |
 | Maintain current operational dashboards | Choose Better Tech | Active |
+| Complete the five-article remediation audit under the canonical standards | Choose Better Tech | Next Up |
 | Verify indexing signals for newly published URLs | Choose Better Tech | Next Up |
 | Choose next distinct cluster opportunity | Choose Better Tech | Next Up |
 
@@ -39,6 +40,8 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Task | Status | Notes |
 | --- | --- | --- |
 | Operations documentation framework | Complete | Repo evidence shows active SOPs, dashboards, templates, and content inventory records. |
+| Canonical publishing standards | Complete | Editorial, research/evidence, publishing-workflow, automation-contract, and volatile-claims standards installed. No article or application code changed. |
+| Five-article remediation | Pending | Remediation remains unstarted and must follow the canonical fail-closed workflow with independent evidence and status for each page. |
 | Best Free Password Managers | Final approved | Production URL verified; external desktop/mobile visual QA completed and final approval recorded. |
 | Are VPNs Worth It | Final approved | Production URL verified; external desktop/mobile visual QA completed; editorial, affiliate, evidence, desktop, and mobile QA passed. |
 | Free VPN vs Paid VPN evidence update | Final approved | Existing route refreshed without a duplicate article; production URL, direct refresh, sitemap, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
