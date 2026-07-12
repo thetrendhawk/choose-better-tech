@@ -11,6 +11,17 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-12 — Google Drive vs Dropbox canonical remediation completed
+
+- Replaced the six-source summary with a canonical pairwise research record covering quota accounting, platforms, sync, offline files, collaboration, ownership, recovery, privacy, file-size limits, paid structure, and migration.
+- Rebuilt the compressed comparison in readable TypeScript and JSX with a 15-row decision table, ownership and team-space distinctions, full evidence sections, scenarios, migration checklist, 24 FAQs, and 25 visible evidence links.
+- Lint, optional tests, production build, diff, affiliate-isolation, unsupported-claim, route, sitemap, canonical, and schema checks passed.
+- Content commit `fcbb2dc`; exact production deployment `5416929816` completed successfully.
+- Production desktop and 390px mobile checks passed with no page-level overflow; the comparison table is contained in an established horizontal scroller and the broader cloud guide link works.
+- The live sitemap contains the canonical URL, the live IndexNow key matched, and single-URL submission returned HTTP 200. This is submission acceptance, not indexing confirmation.
+- No shared component or global style changed. External screenshots were not required under established-layout precedent.
+- Final verdict: `FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT`.
+
 ### 2026-07-12 — Best Cloud Storage for Beginners canonical remediation completed
 
 - Replaced the minimal five-brand research note with a canonical nine-candidate evidence review covering Google Drive, Dropbox, iCloud Drive, OneDrive, Proton Drive, Sync.com, pCloud, Box, and MEGA.

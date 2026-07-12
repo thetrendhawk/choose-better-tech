@@ -191,7 +191,7 @@ Last Updated: 2026-07-12
 | Deliverable | Status |
 | --- | --- |
 | Best Cloud Storage for Beginners | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
-| Google Drive vs Dropbox | Live — remediation in progress |
+| Google Drive vs Dropbox | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
 | Proton Drive Review | Planned |
 | iCloud vs Google Drive | Planned |
 | Best Secure Cloud Storage | Planned |
@@ -301,4 +301,4 @@ Last Updated: 2026-07-12
 | 10 | Best Password Managers for Families | Final approved | Family password-manager guide published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile screenshot QA passed, FAQ/schema parity passed, and established-layout visual approval recorded. |
 | 11 | Best Password Managers for Privacy | Live — remediation in progress | Major remediation; final verdict NOT FINAL APPROVED until all independent gates pass. |
 | 12 | How Password Managers Actually Work | Live — remediation in progress | Moderate remediation; final verdict NOT FINAL APPROVED until all independent gates pass. |
-| 13 | Five-article remediation | Live — remediation in progress | Best VPNs for Streaming and Best Cloud Storage for Beginners completed independent remediation; three pages remain. Next: Google Drive vs Dropbox. |
+| 13 | Five-article remediation | Live — remediation in progress | Best VPNs for Streaming and both cloud-storage pages completed independent remediation; two password-manager pages remain. Next: Best Password Managers for Privacy. |
