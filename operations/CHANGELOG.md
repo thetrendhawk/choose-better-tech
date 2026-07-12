@@ -11,6 +11,17 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-12 — Best Password Managers for Privacy canonical remediation completed
+
+- Expanded the five-provider note into a canonical twelve-candidate privacy review covering Proton Pass, Bitwarden, 1Password, KeePassXC, NordPass, Enpass, Dashlane, Keeper, RoboForm, Apple Passwords, Google Password Manager, and LastPass incident context.
+- Rebuilt the page in readable TypeScript and JSX with six full provider sections, six explicit exclusions, encrypted-field and operating-model matrix, telemetry/account/recovery/export context, scenarios, 24 FAQs, and 34 visible evidence links.
+- Lint, optional tests, production build, diff, affiliate-isolation, unsupported-claim, route, sitemap, canonical, and schema checks passed.
+- Content commit `93619fd`; exact production deployment `5416997380` completed successfully.
+- Production desktop and 390px mobile checks passed with no page-level overflow; the privacy table is contained and the Proton Pass review link works.
+- The live sitemap contains the canonical URL, the live IndexNow key matched, and single-URL submission returned HTTP 200. This is submission acceptance, not indexing confirmation.
+- No provider affiliate CTA, shared component, or global style changed. External screenshots were not required under established-layout precedent.
+- Final verdict: `FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT`.
+
 ### 2026-07-12 — Google Drive vs Dropbox canonical remediation completed
 
 - Replaced the six-source summary with a canonical pairwise research record covering quota accounting, platforms, sync, offline files, collaboration, ownership, recovery, privacy, file-size limits, paid structure, and migration.
