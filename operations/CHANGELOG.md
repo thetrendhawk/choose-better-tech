@@ -11,6 +11,13 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-12 — Five-page automation-content remediation audit completed
+
+- Audited Best Password Managers for Privacy, How Password Managers Actually Work, Best VPNs for Streaming, Best Cloud Storage for Beginners, and Google Drive vs Dropbox against the canonical standards.
+- Recorded the shared audit at `docs/audits/automation-content-audit-2026-07-12.md` before editing article implementations.
+- Withdrew final approval for all five pages while remediation is active; current publication status is `Live — remediation in progress` and final verdict is `NOT FINAL APPROVED`.
+- Remediation order begins with Best VPNs for Streaming, followed by the two cloud-storage pages, the privacy ranking, and the educational password-manager explainer.
+
 ### 2026-07-12 — Canonical publishing standards installed
 
 - Added binding editorial, research/evidence, publishing-workflow, automation, and volatile-claims standards under `operations/`.

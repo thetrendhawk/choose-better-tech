@@ -40,7 +40,7 @@ Last Updated: 2026-07-12
 | Initial VPN guide | Complete |
 | Operations documentation framework | Complete |
 | Canonical publishing standards | Complete |
-| Five-article remediation | Pending |
+| Five-article remediation | Live — remediation in progress |
 
 ### Completion Checklist
 
@@ -80,7 +80,7 @@ Last Updated: 2026-07-12
 | Are VPNs Worth It? | Published |
 | Free VPN vs Paid VPN evidence update | Final approved |
 | Best Free VPNs | Final approved |
-| Best VPNs for Streaming | Final approved |
+| Best VPNs for Streaming | Live — remediation in progress |
 | Best VPNs for Travel | Final approved |
 | Best VPNs for Students | Final approved |
 | VPN Privacy Guide | Final approved |
@@ -131,8 +131,8 @@ Last Updated: 2026-07-12
 | Are Password Managers Safe? | Final approved |
 | Password Manager vs Browser Passwords | Final approved |
 | Best Password Managers for Families | Final approved |
-| Best Password Managers for Privacy | Final approved |
-| How Password Managers Actually Work | Final approved |
+| Best Password Managers for Privacy | Live — remediation in progress |
+| How Password Managers Actually Work | Live — remediation in progress |
 
 ### Completion Checklist
 
@@ -190,8 +190,8 @@ Last Updated: 2026-07-12
 
 | Deliverable | Status |
 | --- | --- |
-| Best Cloud Storage for Beginners | Final approved |
-| Google Drive vs Dropbox | Final approved |
+| Best Cloud Storage for Beginners | Live — remediation in progress |
+| Google Drive vs Dropbox | Live — remediation in progress |
 | Proton Drive Review | Planned |
 | iCloud vs Google Drive | Planned |
 | Best Secure Cloud Storage | Planned |
@@ -299,6 +299,6 @@ Last Updated: 2026-07-12
 | 8 | Are Password Managers Safe? | Final approved | Educational security guide published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile structural QA passed, and established-layout visual approval recorded. |
 | 9 | Password Manager vs Browser Passwords | Final approved | Educational browser-versus-dedicated comparison published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile structural QA passed, and established-layout visual approval recorded. |
 | 10 | Best Password Managers for Families | Final approved | Family password-manager guide published, production verified, sitemap entry live, IndexNow submitted, desktop/mobile screenshot QA passed, FAQ/schema parity passed, and established-layout visual approval recorded. |
-| 11 | Best Password Managers for Privacy | Final approved | Published with privacy policies, encrypted metadata, open-source evidence, audits, aliases, telemetry, account-data, recovery, and portability distinctions. |
-| 12 | How Password Managers Actually Work | Final approved | Published as a distinct technical explainer covering key derivation, authentication, local encryption, encrypted sync, autofill, sharing, recovery, MFA, passkeys, and exports. |
-| 13 | Five-article remediation audit | Pending | Audit and remediate each page independently under the canonical standards; no remediation began during standards installation. |
+| 11 | Best Password Managers for Privacy | Live — remediation in progress | Major remediation; final verdict NOT FINAL APPROVED until all independent gates pass. |
+| 12 | How Password Managers Actually Work | Live — remediation in progress | Moderate remediation; final verdict NOT FINAL APPROVED until all independent gates pass. |
+| 13 | Five-article remediation | Live — remediation in progress | Shared audit complete. Repair order: streaming, beginner cloud storage, Google Drive vs Dropbox, privacy ranking, password-manager explainer. |

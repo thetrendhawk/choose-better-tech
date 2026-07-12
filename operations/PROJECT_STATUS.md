@@ -10,7 +10,7 @@ Last Updated: 2026-07-12
 | Field | Status |
 | --- | --- |
 | Phase | Traffic execution and cluster expansion |
-| Summary | Current site inventory and publication QA are reconciled; canonical publishing standards are installed, and future automation is governed by binding fail-closed rules. The five-article remediation remains pending. |
+| Summary | Canonical publishing standards are active. The shared audit for five earlier automation-published pages is complete, and each page is live with remediation in progress rather than final approved. |
 | Health | On Track |
 
 ## Current Sprint
@@ -31,7 +31,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Priority | Owner | Status |
 | --- | --- | --- |
 | Maintain current operational dashboards | Choose Better Tech | Active |
-| Complete the five-article remediation audit under the canonical standards | Choose Better Tech | Next Up |
+| Complete the five-article remediation under the canonical standards | Choose Better Tech | Active |
 | Verify indexing signals for newly published URLs | Choose Better Tech | Next Up |
 | Choose next distinct cluster opportunity | Choose Better Tech | Next Up |
 
@@ -41,7 +41,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | --- | --- | --- |
 | Operations documentation framework | Complete | Repo evidence shows active SOPs, dashboards, templates, and content inventory records. |
 | Canonical publishing standards | Complete | Editorial, research/evidence, publishing-workflow, automation-contract, and volatile-claims standards installed. No article or application code changed. |
-| Five-article remediation | Pending | Remediation remains unstarted and must follow the canonical fail-closed workflow with independent evidence and status for each page. |
+| Five-article remediation | Live — remediation in progress | Shared audit complete at `docs/audits/automation-content-audit-2026-07-12.md`; pages will be repaired one at a time with independent commits, deployment verification, QA, and final status. |
 | Best Free Password Managers | Final approved | Production URL verified; external desktop/mobile visual QA completed and final approval recorded. |
 | Are VPNs Worth It | Final approved | Production URL verified; external desktop/mobile visual QA completed; editorial, affiliate, evidence, desktop, and mobile QA passed. |
 | Free VPN vs Paid VPN evidence update | Final approved | Existing route refreshed without a duplicate article; production URL, direct refresh, sitemap, IndexNow submission, desktop structural QA, mobile structural QA, and external visual QA complete. |
@@ -53,11 +53,11 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Are Password Managers Safe? | Final approved | Educational security guide researched, implemented, pushed, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, FAQ/schema parity, affiliate isolation, and no-overflow checks passed. |
 | Password Manager vs Browser Passwords | Final approved | Educational browser-versus-dedicated comparison researched, implemented, pushed, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, FAQ/schema parity, 25-source-link verification, affiliate isolation, internal-link checks, and no-overflow checks passed. |
 | Best Password Managers for Families | Final approved | Family password-manager guide researched, implemented, pushed, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile screenshot QA, FAQ/schema parity, 24-source-link verification, affiliate isolation, internal-link checks, and no-overflow checks passed. |
-| Best Password Managers for Privacy | Final approved | Privacy-focused ranking researched, implemented, pushed, Vercel Ready, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, affiliate isolation, and no-overflow checks passed. |
-| How Password Managers Actually Work | Final approved | Educational architecture guide researched, implemented, pushed, Vercel Ready, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, affiliate isolation, and no-overflow checks passed. |
-| Best VPNs for Streaming | Final approved | Streaming-focused VPN ranking researched, implemented, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, affiliate isolation, and no-overflow checks passed. |
-| Best Cloud Storage for Beginners | Final approved | First cloud-storage guide researched, implemented, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, and no-overflow checks passed. |
-| Google Drive vs Dropbox | Final approved | First cloud-storage comparison researched, implemented, production verified, submitted to IndexNow, and approved by established-layout precedent after desktop/mobile structural QA, schema/FAQ parity, and no-overflow checks passed. |
+| Best Password Managers for Privacy | Live — remediation in progress | Major remediation required. Final verdict: NOT FINAL APPROVED. |
+| How Password Managers Actually Work | Live — remediation in progress | Moderate remediation required. Final verdict: NOT FINAL APPROVED. |
+| Best VPNs for Streaming | Live — remediation in progress | Major remediation required and first in the repair sequence. Final verdict: NOT FINAL APPROVED. |
+| Best Cloud Storage for Beginners | Live — remediation in progress | Rebuild required within the established layout. Final verdict: NOT FINAL APPROVED. |
+| Google Drive vs Dropbox | Live — remediation in progress | Major remediation required. Final verdict: NOT FINAL APPROVED. |
 
 ## Current Blockers
 
@@ -146,7 +146,7 @@ These statuses require platform access or manual confirmation outside the reposi
 
 | Milestone | Target Date | Acceptance Criteria |
 | --- | --- | --- |
-| Best Password Managers for Privacy planning | TBD | Confirm distinct privacy and transparency search intent, source requirements, route strategy, and internal-link opportunities without duplicating the safety, family, beginner, free-plan, or browser-versus-dedicated guides. |
+| Complete five-page remediation | TBD | Each page independently passes evidence, editorial, affiliate, validation, deployment, live production, sitemap, structural, visual, and operations gates. |
 
 ## Decision Log
 
