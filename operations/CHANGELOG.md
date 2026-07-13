@@ -11,6 +11,15 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-13 — iCloud vs Google Drive published and final approved
+
+- Published `iCloud vs Google Drive: Which Is Better in 2026?` at `https://choosebettertech.com/comparisons/icloud-vs-google-drive` from the approved canonical research, 33-claim ledger, original-contribution PASS, and monetization-independence PASS.
+- Independent article review required explicit support-testing limits and claim-ledger reconciliation; both corrections were completed. The score advanced from 37/40 pre-deployment to 39/40 after production, visual, and operations closeout.
+- Article PR #7 merged as `dea4e31e312506811b4a45075b4418cb115fce1b`; homepage discovery correction PR #8 merged as `2b53c6af3bae19ee6e77f1901f4f8a28a0d2a103`; comparison-count correction PR #9 merged as `c690f0dbc90fcc91a3c8cc05bdbec2f0ce6a23b0`. Final Vercel deployment `5430719168` completed successfully.
+- Production title, H1, canonical, deep-route refresh, 20 visible FAQs and matching FAQ schema, internal links, sitemap, desktop/390px containment, responsive comparison table, and no page-level overflow passed. External desktop/mobile article and modified-homepage screenshots passed.
+- No tracked Apple or Google affiliate link was added. IndexNow returned HTTP 200, confirming submission acceptance only; indexing remains Needs verification.
+- Production QA caught and corrected two integration defects before final approval: the homepage comparison allowlist omitted the new page, and the Hero comparison count was stale.
+
 ### 2026-07-13 — iCloud vs Google Drive research approved for drafting
 
 - Created `docs/research/icloud-vs-google-drive-research.md`, a canonical workflow-level comparison covering shared quotas, files, photos, device backups, platforms, encryption modes, family roles, ownership, recovery, versions, exports, migration, cancellation, and conditional fit.

@@ -16,7 +16,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next operational action: draft iCloud vs Google Drive from its independently approved research package in a separate content task
+- Next operational action: begin Best Secure Cloud Storage deep research; drafting remains unauthorized until its research gates pass
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
@@ -24,7 +24,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | Content Type | Count | Notes |
 | --- | ---: | --- |
 | Reviews | 12 | 3 VPN reviews, 5 password manager reviews, 3 privacy tool reviews, and 1 cloud-storage review |
-| Comparisons | 13 | 3 VPN comparisons, 6 password manager comparisons, 3 privacy tool comparisons, and 1 cloud-storage comparison |
+| Comparisons | 14 | 3 VPN comparisons, 6 password manager comparisons, 3 privacy tool comparisons, and 2 cloud-storage comparisons |
 | Hubs / Guides | 26 | 3 decision hubs, 13 VPN guides, 7 password-manager guides, 1 cloud-storage guide, 1 data-removal decision guide, and 1 data-removal commercial investigation |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
 
@@ -59,6 +59,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | Are Data Removal Services Worth It? | Final approved | `https://choosebettertech.com/are-data-removal-services-worth-it` | `ddcd971a73bbbda09b13fe5138697e2311504064` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Best Data Removal Services | Final approved | `https://choosebettertech.com/best-data-removal-services` | `4ec71893f827c4e2bf53851af9acea801824109d` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Proton Drive Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA | `https://choosebettertech.com/reviews/proton-drive-review` | `9d6b48e` plus corrections through PR #4 | Production deployment `5425319112` verified for merge commit `c2f4ad28ddcc72c756bffd66736ace388f97bbbc` | Approved, 38/40 pre-deployment and 39/40 final | Passed | Passed | Passed | Passed | FINAL APPROVED — EXTERNAL SCREENSHOT QA | 2026-07-13 |
+| iCloud vs Google Drive | FINAL APPROVED — EXTERNAL SCREENSHOT QA | `https://choosebettertech.com/comparisons/icloud-vs-google-drive` | `6d916728cb1cfcb41ff87580a21d9687bd7e7522` | Final production deployment `5430719168` verified after PRs #7, #8, and #9 | Approved, 37/40 pre-deployment and 39/40 final | Passed | Passed | Passed | Passed | FINAL APPROVED — EXTERNAL SCREENSHOT QA | 2026-07-13 |
 
 External visual QA for `Are VPNs Worth It?` covered the full desktop layout, full mobile layout, hero and quick-answer section, worth-it versus probably-unnecessary cards, HTTPS section, public Wi-Fi section, privacy and ISP visibility, free versus paid discussion, scenario cards, decision framework, product-fit section, FAQ, sources, final recommendation, newsletter signup, and footer.
 
@@ -135,6 +136,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | Best Cloud Storage for Beginners | `/best-cloud-storage-for-beginners` | Guide | N/A | `docs/research/best-cloud-storage-for-beginners-research.md` | N/A | Yes | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Yes | INTERNAL_ONLY | 2026-07-12 | Nine-candidate canonical research and readable article rebuild complete. Content commit `343f243`; exact Vercel deployment `5416851685` succeeded. Production desktop/mobile, 22-FAQ schema parity, 27 external-source links, internal link, sitemap, IndexNow, affiliate-isolation, and no-overflow checks passed. |
 | Google Drive vs Dropbox | `/comparisons/google-drive-vs-dropbox` | Comparison | N/A | `docs/research/google-drive-vs-dropbox-research.md` | N/A | Yes | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Yes | INTERNAL_ONLY | 2026-07-12 | Canonical pairwise research and readable article rebuild complete. Content commit `fcbb2dc`; exact Vercel deployment `5416929816` succeeded. Production desktop/mobile, 24-FAQ schema parity, 25 evidence links, broader-guide link, sitemap, IndexNow, affiliate-isolation, and no-overflow checks passed. |
 | Proton Drive Review | `/reviews/proton-drive-review` | Review | N/A | `docs/research/proton-drive-review-research.md` | N/A | Yes | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Yes | No verified Proton Drive affiliate; official link is non-affiliate | 2026-07-13 | Claim ledger and independent review complete; score 38/40 pre-deployment and 39/40 final after operations completion. PR #4 merged as `c2f4ad2`; Vercel deployment `5425319112` succeeded. Production title, H1, canonical, content, FAQ/schema parity, three responsive tables, internal links, sitemap, IndexNow HTTP 200, desktop/mobile containment, homepage Hero count, external desktop/mobile screenshots, and no-overflow checks passed. |
+| iCloud vs Google Drive | `/comparisons/icloud-vs-google-drive` | Comparison | N/A | `docs/research/icloud-vs-google-drive-research.md` | N/A | Yes | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Yes | No tracked Apple or Google link; product destinations are non-affiliate | 2026-07-13 | 33-claim ledger, original-contribution and monetization-independence gates, independent review, 37/40 pre-deployment and 39/40 final score passed. PR #7 merged as `dea4e31`; homepage discovery PR #8 as `2b53c6a`; count correction PR #9 as `c690f0d`; final deployment `5430719168` passed production desktop/mobile screenshots, canonical, schemas, links, sitemap, IndexNow HTTP 200, table containment, and no-overflow checks. |
 
 ## Data Removal Cluster Asset Inventory
 
@@ -217,6 +219,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | IndexNow submission for `https://choosebettertech.com/password-manager-vs-browser-passwords` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | IndexNow submission for `https://choosebettertech.com/best-password-managers-for-families` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-12. This confirms submission only, not indexing. |
 | IndexNow submission for `https://choosebettertech.com/reviews/proton-drive-review` | Complete | Submitted after exact production verification on 2026-07-13; live key matched and the single-URL endpoint returned HTTP 200. This confirms acceptance only, not indexing. |
+| IndexNow submission for `https://choosebettertech.com/comparisons/icloud-vs-google-drive` | Complete | Submitted after exact production verification on 2026-07-13; live key matched and the single-URL endpoint returned HTTP 200. This confirms acceptance only, not indexing. |
 | Google Search Console submissions before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
 | Google Search Console submission for `https://choosebettertech.com/sitemap.xml` | Needs verification | Do not claim indexing or submission success without external Search Console evidence. |
 | Bing Webmaster Tools submission before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
@@ -273,7 +276,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 4. Recheck volatile pricing, plan, coverage, security, and affiliate-status details before purchase-focused updates.
 5. Keep homepage curated as additional reviews and comparisons are published.
 6. Monitor the five independently remediated pages for indexing, source drift, and volatile-claim changes.
-7. Resume new-article planning from the current roadmap without using affiliate value as the deciding factor.
+7. Begin Best Secure Cloud Storage deep research only, including its candidate set, claim ledger, original-contribution gate, independent review, and parallel monetization research before drafting.
 
 ## Notes
 
