@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-13 — Cybersecurity Tools cluster approved for two-article autopilot run
+
+- Approved the Cybersecurity Tools cluster for Best Antivirus Software followed by TotalAV Review.
+- Added a shared consumer-antivirus dossier covering current multi-lab evidence, built-in Defender, candidate dispositions, subscription treatment, privacy/enforcement evidence, U.S. Kaspersky restrictions, and hands-on-testing limits.
+- Added a parallel monetization opportunity map covering direct programs, networks, sponsorship, advertising, newsletters, owned tools, and ethical gates; `Monetization Independence Check: PASS`.
+- Separate governance review required and completed corrections for Avast privacy history, the Kaspersky geographic/legal boundary, and prohibited untested usability claims before returning `APPROVE FOR MERGE`.
+- No article, route, UI, sitemap, affiliate registry, tracked link, application, outreach, or production content change occurred.
+
 ### 2026-07-13 — Best Secure Cloud Storage published; three-article automation run complete
 
 - Published `Best Secure Cloud Storage in 2026` at `https://choosebettertech.com/best-secure-cloud-storage` through PR #12 and squash merge `03836ae9780c343c41a5c37c6625d25a820ffe3a`.
