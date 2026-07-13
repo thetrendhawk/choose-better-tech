@@ -21,17 +21,17 @@ These counts use published editorial routes in the current repository and sitema
 
 | Content Type | Count | Definition | Verification Source |
 | --- | ---: | --- | --- |
-| Reviews | 12 | Product review routes under `/reviews/` | Repo route index and production sitemap |
+| Reviews | 13 | Product review routes under `/reviews/` | Repo route index and production sitemap |
 | Comparisons | 14 | Pairwise comparison routes under `/comparisons/` | Repo route index and production sitemap |
 | Hubs / Guides | 28 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
 | Authority Pages | 3 | About, How We Review Software, and Affiliate Disclosure | Repo routes and production sitemap |
-| Total Editorial Content Assets | 54 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
+| Total Editorial Content Assets | 55 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
 
 ## Content KPIs
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 12 | 14 | 28 | 54 | Needs verification | The Cloud Storage run is complete. Best Antivirus Software is the first final-approved asset in the Cybersecurity Tools autopilot run, with 32 reviewed Critical/High claims, 39/40 score, exact deployment, production QA, sitemap, and IndexNow acceptance. Indexing is not inferred from submission. |
+| 2026-07 | 13 | 14 | 28 | 55 | Needs verification | The two-article Cybersecurity Tools autopilot run is complete. Best Antivirus Software and TotalAV Review independently passed research, claim ledgers, reviewer corrections, 39/40 scores, PRs, exact deployments, production visual QA, sitemap, IndexNow, and operations gates. Indexing is not inferred from submission. |
 
 ## Organic Search KPIs
 

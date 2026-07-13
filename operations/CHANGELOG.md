@@ -285,6 +285,9 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 | 2026-07-13 | QA | Best Antivirus Software final approved | Production desktop and 390px structural checks, table containment, zero page-level overflow, external article/homepage screenshots, schema, internal links, and affiliate isolation passed. Final score 39/40; status FINAL APPROVED — EXTERNAL SCREENSHOT QA. |
 | 2026-07-13 | Research | TotalAV Review research and review completed | Dedicated research record, 28-row Critical/High claim ledger, independent research review, article review, original-contribution and monetization-independence checks, and 38/40 pre-deployment score passed. |
 | 2026-07-13 | Content | TotalAV Review prepared for deployment | Provider review, route, review index, homepage discovery, reciprocal ranking link, sitemap, and accurate prospective review count completed without a tracked product link; lint/build and local desktop/390px checks passed. |
+| 2026-07-13 | Deployment | TotalAV Review production verified | PR #17 merged as `71de302f4bf1da6cb72565430f7ec5007b7f5faf`; exact Vercel deployment `5432555515` succeeded; custom route, canonical, H1, homepage, review library, reciprocal link, and sitemap passed. |
+| 2026-07-13 | Indexing | TotalAV Review submitted to IndexNow | Single-URL submission returned HTTP 200. This confirms acceptance only; indexing remains Needs verification. |
+| 2026-07-13 | QA | TotalAV Review and Cybersecurity Tools autopilot run final approved | Article/homepage desktop and 390px screenshots, contained table, zero page-level overflow, schema, affiliate isolation, 28/28 claims, and six-document operations reconciliation passed. TotalAV final score 39/40; both authorized articles are complete. |
 
 | Date | Category | Milestone | Notes |
 | --- | --- | --- | --- |
