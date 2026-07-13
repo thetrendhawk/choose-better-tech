@@ -142,3 +142,74 @@ The full 40-point article scorecard is not applicable at this research-only stag
 `RETURN FOR CORRECTION`
 
 Drafting is not authorized. No article, route, sitemap, affiliate, deployment, IndexNow, or publication work may start. After the author completes the corrections, a fresh independent pass must recheck every Critical/High claim and issue one of the allowed research-gate decisions.
+
+## Second Independent Pass — 2026-07-13
+
+### Scope of Re-review
+
+The corrected dossier, Proton Drive research record, expanded 37-row claim ledger, first-pass report, binding standards, correction commit `de8ddef`, operations changes, and full PR diff were re-read. Every Critical/High claim was reopened. The revised verdict was treated as a hypothesis rather than inherited as true.
+
+### Corrections Verified
+
+The author materially resolved the research defects from the first pass:
+
+1. **Audits:** The record now identifies the public 2022 Securitum iOS and Android reports, exact testing/report dates, app/API scope, exclusions, finding counts, notable Low/Informational findings, `RETEST DATE N/A`, and the absence of public remediation/retest evidence. It correctly states that these reports do not validate the current 2026 Windows, macOS, web, server, or shared-SDK implementation.
+2. **Incident claim:** The unsupported negative incident conclusion was replaced by a bounded source-set statement and an explicit prohibition on “never breached” or perfect-record language.
+3. **Sharing/privacy wording:** The public-link statement now distinguishes creator/link metadata, invited-user identity, and the absence of evidence that every public-link recipient is identified.
+4. **Ownership and business model:** The record now covers Proton AG, Proton Foundation control/primary-shareholder claims, the for-profit/non-profit hybrid, crowdfunding/no-VC history as attributed Proton claims, and Drive's relationship to the wider Proton account and bundles.
+5. **Key hierarchy:** Address, share, node, passphrase, session-key, signature, and URL-sharing roles are mapped. The record also clearly says current account-key derivation parameters, local key storage, recovery paths, and 2026 shared-SDK implementation are not fully established by the older architecture document.
+6. **Privacy/request map:** Search, upload/file-request limits, diagnostics/telemetry, account/IP/access data, abuse handling, legal requests, server locations, and encrypted backup retention are mapped with explicit Not verified fields.
+7. **Family/business offboarding:** Family removal/trial/administrator behavior and organization-created-user deletion/admin-access risks are documented; ownership transfer, bulk export, link survival, and some invited-account behavior remain explicitly unresolved.
+8. **Independent evidence:** The two direct Securitum reports are separated from Proton's summary and from third-party editorial context. No current complete-service independent audit is claimed.
+9. **Competing coverage:** The record now names the coverage reviewed and states that it was used to identify topic gaps rather than as evidence for Proton facts.
+10. **Dossier pricing:** All 12 candidates have provider-specific current official plan evidence or an explicit Not verified value, with currency/promotion/renewal qualifications and official source links. No cross-provider price winner is claimed.
+11. **Research status:** The corrected records remained fail-closed pending this re-review. Counts and publication status were not advanced.
+
+### Claim Recheck Result
+
+All 37 ledger rows now have explicit second-pass status:
+
+- `Approved`: 6
+- `Approved with qualification`: 31
+- `Pending`: 0
+- `Return for correction`: 0
+
+The qualifications are substantive drafting constraints. In particular, architecture and performance remain vendor claims; audits are dated and scoped; exact Drive Plus pricing remains unverified; incident history is incomplete; business ownership transfer and bulk export remain unknown; and no product behavior was hands-on tested.
+
+### Revised Verdict Challenge
+
+The corrected evidence supports a bounded provisional conclusion: Proton Drive can be framed as a strong documentation-based privacy fit for some users, but not as the universal best, safest, fastest, or most private storage service. The conclusion survives because the research now gives equal weight to server-visible metadata, recovery failure modes, Linux client type, collaboration limits, dated audit scope, business-admin access, downgrade risk, pricing uncertainty, and portability gaps.
+
+The conclusion does not authorize a score, broad secure-storage ranking, experiential claim, or negative incident claim. Those limits are adequately recorded.
+
+### Residual Evidence Limitations
+
+The following limitations are acceptable for documentation-based drafting only if visible in the eventual article:
+
+- no current public audit of the complete 2026 service and shared SDK;
+- no comprehensive incident history;
+- no hands-on sync, performance, conflict, photo, recovery, migration, billing, cancellation, support, or offboarding test;
+- no exact Drive Plus regional checkout/renewal price;
+- no verified business ownership-transfer or organization-wide bulk export workflow;
+- no verified post-Family-trial live behavior;
+- no full current implementation mapping for every source repository, client build, server, or telemetry event.
+
+These are constraints, not permission to infer favorable behavior.
+
+### Scope and Operations Verification
+
+The PR contains only research, reviewer, and operations-documentation files. It contains no article, application code, route, sitemap, affiliate registry, UI, IndexNow, or content-count change. The production canonical site was not changed.
+
+One material record-accuracy issue remains: pushing the research PR automatically triggered a successful Vercel **Preview** deployment for commit `de8ddef` at `https://choose-better-tech-i4mokrkzj-aaron-s-evans-projects.vercel.app`. No Vercel production deployment was requested or verified, and the production canonical was unchanged. Operations and first-pass wording that say “no deployment” are therefore inaccurate. They must say **no production deployment; automatic PR preview deployment only**. This distinction matters under the project's production-truth and automation-contract rules.
+
+### Required Correction After Second Pass
+
+1. Reconcile every affected operations, changelog, PR, and reviewer scope statement from “no deployment” to “no production deployment; automatic Vercel PR preview deployment occurred; production canonical unchanged.”
+2. Do not change publication counts, create an article, alter the app, submit IndexNow, or describe the preview as publication.
+3. After the wording correction, perform a narrow independent verification that the preview/production boundary is accurately recorded and no production deployment occurred.
+
+### Second-Pass Final Decision
+
+`RETURN FOR CORRECTION`
+
+The research evidence and all 37 claim rows are now sufficient for drafting with their recorded qualifications. Drafting remains blocked solely because the workflow record incorrectly says no deployment despite the automatic Vercel Preview deployment. A narrow fresh pass may approve drafting after that scope/status wording is corrected and independently verified.
