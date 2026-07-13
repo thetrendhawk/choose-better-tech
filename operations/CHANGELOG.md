@@ -11,6 +11,15 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-13 — Best Secure Cloud Storage approved for deployment
+
+- Implemented the threat-model-first major ranking at `/best-secure-cloud-storage` from the approved canonical research and expanded 50-claim Critical/High ledger.
+- Added explicit plan/pricing context, the iCloud Advanced Data Protection mainstream boundary, 20 visible FAQs with matching schema, grouped visible sources, reciprocal Cloud Storage links, sitemap support, and homepage discovery; the guide count changes from 26 to 27 only when production publication succeeds.
+- Independent article review required two reader-facing correction rounds and final claim-ledger reconciliation before returning `APPROVE FOR DEPLOYMENT` at 39/40.
+- Lint, TypeScript production build, diff, internal-link, schema, FAQ parity, sitemap, affiliate-isolation, desktop/390px containment, table containment, and external local article/homepage screenshot checks passed.
+- No tracked product link or commercial CTA was added; `Monetization Independence Check: PASS`. The existing malformed `lucide-react` source map still prevents the local development server, but the production build and preview passed.
+- Publication, exact-commit Vercel verification, live screenshots, IndexNow submission, and final operations reconciliation remain pending.
+
 ### 2026-07-13 — Best Secure Cloud Storage research approved for drafting
 
 - Created a threat-model-first canonical research record covering 20 providers, baselines, overlays, backup, and self-hosted options.

@@ -708,6 +708,10 @@ export function ProtonDriveReviewPage() {
                 iCloud vs Google Drive comparison
               </InternalLink>.
             </p>
+            <p className="mt-4 max-w-4xl leading-7 text-slate-700">
+              Comparing encrypted providers and client-side vaults? See our{" "}
+              <InternalLink to="/best-secure-cloud-storage">Best Secure Cloud Storage guide</InternalLink>.
+            </p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
               <a
                 className="inline-flex min-h-11 items-center justify-center rounded-lg bg-teal-700 px-5 py-3 font-bold text-white transition hover:bg-teal-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-teal-700"

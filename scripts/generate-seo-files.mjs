@@ -32,6 +32,7 @@ const routes = [
   "/best-vpns-for-travel",
   "/best-vpns-for-streaming",
   "/best-cloud-storage-for-beginners",
+  "/best-secure-cloud-storage",
   "/best-password-managers-for-beginners",
   "/best-password-managers-for-families",
   "/best-password-managers-for-privacy",
