@@ -33,7 +33,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Maintain current operational dashboards | Choose Better Tech | Active |
 | Apply advanced guardrails to all future major content | Choose Better Tech | Active |
 | Apply the binding monetization-research standard to substantial clusters and commercial articles | Choose Better Tech | Active |
-| Monitor the five remediated pages and select the next roadmap item | Choose Better Tech | Active |
+| Draft iCloud vs Google Drive from the approved research package in a separate content task | Choose Better Tech | Next Up |
 | Verify indexing signals for newly published URLs | Choose Better Tech | Next Up |
 | Choose next distinct cluster opportunity | Choose Better Tech | Next Up |
 
@@ -51,6 +51,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Cloud Storage monetization map | Complete | Provider, direct-program, network, advertising, sponsorship, lead-generation, newsletter, owned-product, licensing, and service opportunities are recorded at `docs/monetization/cloud-storage-monetization-opportunity-map.md`; `Monetization Independence Check: PASS`. No application, outreach, tracked affiliate URL, CTA, ranking, or verdict change occurred. |
 | Proton Drive drafting gate | Complete | Research, monetization-independence, original-contribution, claim-ledger, independent-review, and publication gates passed. |
 | Proton Drive Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #4 merged as `c2f4ad28ddcc72c756bffd66736ace388f97bbbc`; exact Vercel production deployment `5425319112` succeeded. Independent review scored 38/40 before deployment and 39/40 after operations completion. Production title, H1, canonical, key content, FAQ/schema parity, internal links, sitemap, desktop and 390px containment, homepage Hero count, external desktop/mobile screenshots, no page overflow, and IndexNow HTTP 200 passed. The official Proton link is non-affiliate and indexing remains Needs verification. |
+| iCloud vs Google Drive research gate | APPROVE FOR DRAFTING | Canonical comparison research, 33-claim ledger, article monetization supplement, original-contribution PASS, monetization-independence PASS, and independent research review complete. The first reviewer pass required three material corrections; the second pass approved drafting. No draft, article, route, sitemap, UI, affiliate, count, deployment, IndexNow, or publication change occurred. |
 | Five-article remediation | Complete | Shared audit and all five independent research, content, validation, deployment, production, sitemap, IndexNow, visual, and operations gates passed. |
 | Best Free Password Managers | Final approved | Production URL verified; external desktop/mobile visual QA completed and final approval recorded. |
 | Are VPNs Worth It | Final approved | Production URL verified; external desktop/mobile visual QA completed; editorial, affiliate, evidence, desktop, and mobile QA passed. |

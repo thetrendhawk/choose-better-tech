@@ -16,7 +16,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next operational action: begin research for iCloud vs Google Drive after the Proton Drive Review publication closeout
+- Next operational action: draft iCloud vs Google Drive from its independently approved research package in a separate content task
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts

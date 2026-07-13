@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-13 — iCloud vs Google Drive research approved for drafting
+
+- Created `docs/research/icloud-vs-google-drive-research.md`, a canonical workflow-level comparison covering shared quotas, files, photos, device backups, platforms, encryption modes, family roles, ownership, recovery, versions, exports, migration, cancellation, and conditional fit.
+- Created a 33-claim Critical/High ledger and `docs/monetization/icloud-vs-google-drive-monetization-supplement.md`; Original Contribution and Monetization Independence both passed.
+- The first independent review returned the package for three material corrections: exact UK ADP scope, direct backup-safety traceability, and a less certain iCloud+ program classification. All corrections were completed and a fresh review returned `APPROVE FOR DRAFTING`.
+- Preserved unresolved generic iCloud Drive versioning, Android/Linux client, exact annual Google One pricing, migration fidelity, audit, performance, support, recovery, cancellation, and billing gaps rather than inventing conclusions.
+- No article, route, UI, sitemap, affiliate registry, tracked link, CTA, content count, deployment, IndexNow, or live-site change occurred. Drafting remains not started.
+
 ### 2026-07-13 — Proton Drive Review published and final approved
 
 - Published `Proton Drive Review 2026: Private Cloud Storage With Tradeoffs` at `https://choosebettertech.com/reviews/proton-drive-review` from the approved shared dossier, dedicated research record, and 37-claim ledger.
