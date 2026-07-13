@@ -123,7 +123,7 @@ Rendered structural evidence was reviewed at desktop and approximately 390 px:
 - internal and external links are keyboard-accessible and visibly styled;
 - no clipped control or console error was reported in the structural evidence.
 
-The tables require horizontal scrolling on mobile, but that overflow is contained and matches the established responsive-table pattern. External screenshot QA is not required at this pre-deployment gate because no new shared layout component was introduced and the established pattern passed structural checks.
+The tables require horizontal scrolling on mobile, but that overflow is contained and matches the established responsive-table pattern. At the pre-deployment gate, external screenshot QA had not yet been completed. Because the publication also updated the shared homepage Hero review count, the binding workflow required external production screenshot QA before final approval. That later gate is recorded in the post-deployment addendum below.
 
 ## Code-Quality Check
 
@@ -147,4 +147,41 @@ Publication operations, production deployment, live sitemap verification, IndexN
 
 `APPROVE FOR DEPLOYMENT`
 
-The corrected article passes the independent editorial gate and the 38/40 scorecard. This decision authorizes the normal pull-request merge and deployment workflow only. It does not itself establish publication, production verification, indexing, or final approval.
+The corrected article passed the independent editorial gate and the pre-deployment 38/40 scorecard. This historical decision authorized the normal pull-request merge and deployment workflow only. It did not itself establish publication, production verification, indexing, or final approval.
+
+## Post-Deployment Independent Addendum — 2026-07-13
+
+### Deployment and Production Evidence Rechecked
+
+- PR #4 squash-merged as `c2f4ad28ddcc72c756bffd66736ace388f97bbbc`.
+- Vercel production deployment `5425319112` completed successfully at `https://choose-better-tech-5we4k586s-aaron-s-evans-projects.vercel.app` and serves the canonical domain.
+- The canonical article route and a cache-bypassed deep-route request returned HTTP 200.
+- The rendered page exposes the expected title, H1, canonical, key sections, 12 visible FAQs, FAQ/schema parity, and three responsive tables.
+- The production sitemap returned HTTP 200 and contained the exact canonical article URL.
+- The live IndexNow key matched and the single-URL submission returned HTTP 200. This is acceptance for processing only; indexing remains `Needs verification`.
+
+### External Production Screenshot QA
+
+The earlier pre-deployment statement that screenshot QA was not required is superseded. The shared homepage Hero changed from 11 to 12 Reviews, so external production screenshot QA was required and completed.
+
+Evidence reviewed:
+
+- article desktop capture at 1280 × 900;
+- article mobile capture at 390 × 844;
+- homepage desktop capture showing the shared Hero with `12 Reviews`;
+- homepage mobile capture showing the shared Hero statistic stacking responsively;
+- accompanying DOM checks for three contained article tables, 12 FAQs, zero page-level overflow, and zero clipped controls.
+
+The captures show correct header and hero rendering, readable hierarchy, responsive stacking, contained table overflow, and no visible clipping or page-level horizontal overflow. External screenshot QA: **PASS**.
+
+### Operations Reconciliation
+
+All six required operations documents now record the merge commit, exact deployment, production checks, sitemap status, IndexNow limitation, external screenshot QA, 12-review/51-editorial-asset counts, non-affiliate Proton link, and indexing status accurately. The next Cloud Storage action is iCloud vs Google Drive research.
+
+The final score is therefore updated from the pre-deployment 38/40 to **39/40**: Operations completeness increases from 1 to 2, while Independent evidence remains 1 because the public independent audit evidence is dated and scoped.
+
+### Final Post-Deployment Decision
+
+`FINAL APPROVED — EXTERNAL SCREENSHOT QA`
+
+The production, visual, and operations gates are complete. IndexNow acceptance is not represented as indexing confirmation.

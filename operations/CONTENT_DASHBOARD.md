@@ -7,7 +7,7 @@
 | Document Type | Operations Dashboard |
 | Status | Active |
 | Owner | Choose Better Tech |
-| Last Updated | 2026-07-12 |
+| Last Updated | 2026-07-13 |
 
 ## Current Strategic Focus
 
@@ -16,14 +16,14 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next operational action: monitor the five independently remediated pages and resume roadmap planning under the canonical fail-closed standards
+- Next operational action: begin research for iCloud vs Google Drive after the Proton Drive Review publication closeout
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
 
 | Content Type | Count | Notes |
 | --- | ---: | --- |
-| Reviews | 11 | 3 VPN reviews, 5 password manager reviews, and 3 privacy tool reviews |
+| Reviews | 12 | 3 VPN reviews, 5 password manager reviews, 3 privacy tool reviews, and 1 cloud-storage review |
 | Comparisons | 13 | 3 VPN comparisons, 6 password manager comparisons, 3 privacy tool comparisons, and 1 cloud-storage comparison |
 | Hubs / Guides | 26 | 3 decision hubs, 13 VPN guides, 7 password-manager guides, 1 cloud-storage guide, 1 data-removal decision guide, and 1 data-removal commercial investigation |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
@@ -58,6 +58,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | Best VPNs for Families | Final approved | `https://choosebettertech.com/best-vpns-for-families` | `ca296e14b1c17bd31db2bb28e58e7f9141f4f062` | Production URL verified; Vercel CLI unavailable locally | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-11 |
 | Are Data Removal Services Worth It? | Final approved | `https://choosebettertech.com/are-data-removal-services-worth-it` | `ddcd971a73bbbda09b13fe5138697e2311504064` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
 | Best Data Removal Services | Final approved | `https://choosebettertech.com/best-data-removal-services` | `4ec71893f827c4e2bf53851af9acea801824109d` | Production deployment verified | Approved | Passed | Passed | Passed | Passed | APPROVED | 2026-07-10 |
+| Proton Drive Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA | `https://choosebettertech.com/reviews/proton-drive-review` | `9d6b48e` plus corrections through PR #4 | Production deployment `5425319112` verified for merge commit `c2f4ad28ddcc72c756bffd66736ace388f97bbbc` | Approved, 38/40 pre-deployment and 39/40 final | Passed | Passed | Passed | Passed | FINAL APPROVED — EXTERNAL SCREENSHOT QA | 2026-07-13 |
 
 External visual QA for `Are VPNs Worth It?` covered the full desktop layout, full mobile layout, hero and quick-answer section, worth-it versus probably-unnecessary cards, HTTPS section, public Wi-Fi section, privacy and ISP visibility, free versus paid discussion, scenario cards, decision framework, product-fit section, FAQ, sources, final recommendation, newsletter signup, and footer.
 
@@ -133,6 +134,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Best Cloud Storage for Beginners | `/best-cloud-storage-for-beginners` | Guide | N/A | `docs/research/best-cloud-storage-for-beginners-research.md` | N/A | Yes | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Yes | INTERNAL_ONLY | 2026-07-12 | Nine-candidate canonical research and readable article rebuild complete. Content commit `343f243`; exact Vercel deployment `5416851685` succeeded. Production desktop/mobile, 22-FAQ schema parity, 27 external-source links, internal link, sitemap, IndexNow, affiliate-isolation, and no-overflow checks passed. |
 | Google Drive vs Dropbox | `/comparisons/google-drive-vs-dropbox` | Comparison | N/A | `docs/research/google-drive-vs-dropbox-research.md` | N/A | Yes | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Yes | INTERNAL_ONLY | 2026-07-12 | Canonical pairwise research and readable article rebuild complete. Content commit `fcbb2dc`; exact Vercel deployment `5416929816` succeeded. Production desktop/mobile, 24-FAQ schema parity, 25 evidence links, broader-guide link, sitemap, IndexNow, affiliate-isolation, and no-overflow checks passed. |
+| Proton Drive Review | `/reviews/proton-drive-review` | Review | N/A | `docs/research/proton-drive-review-research.md` | N/A | Yes | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Yes | No verified Proton Drive affiliate; official link is non-affiliate | 2026-07-13 | Claim ledger and independent review complete; score 38/40 pre-deployment and 39/40 final after operations completion. PR #4 merged as `c2f4ad2`; Vercel deployment `5425319112` succeeded. Production title, H1, canonical, content, FAQ/schema parity, three responsive tables, internal links, sitemap, IndexNow HTTP 200, desktop/mobile containment, homepage Hero count, external desktop/mobile screenshots, and no-overflow checks passed. |
 
 ## Data Removal Cluster Asset Inventory
 
@@ -214,6 +216,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | IndexNow submission for `https://choosebettertech.com/are-password-managers-safe` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | IndexNow submission for `https://choosebettertech.com/password-manager-vs-browser-passwords` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-11. This confirms submission only, not indexing. |
 | IndexNow submission for `https://choosebettertech.com/best-password-managers-for-families` | Reported complete | URL submitted to `https://api.indexnow.org/indexnow`; single-URL endpoint returned HTTP 200 on 2026-07-12. This confirms submission only, not indexing. |
+| IndexNow submission for `https://choosebettertech.com/reviews/proton-drive-review` | Complete | Submitted after exact production verification on 2026-07-13; live key matched and the single-URL endpoint returned HTTP 200. This confirms acceptance only, not indexing. |
 | Google Search Console submissions before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |
 | Google Search Console submission for `https://choosebettertech.com/sitemap.xml` | Needs verification | Do not claim indexing or submission success without external Search Console evidence. |
 | Bing Webmaster Tools submission before primary-domain migration | Reported complete | Exact submission timestamps are not recorded in this dashboard. |

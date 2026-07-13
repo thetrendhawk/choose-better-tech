@@ -3,7 +3,7 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-12
+Last Updated: 2026-07-13
 
 ## Roadmap Summary
 
@@ -201,7 +201,7 @@ Last Updated: 2026-07-12
 | --- | --- |
 | Best Cloud Storage for Beginners | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
 | Google Drive vs Dropbox | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
-| Proton Drive Review | RESEARCH COMPLETE — DRAFT NOT STARTED; independent decision `APPROVE FOR DRAFTING` |
+| Proton Drive Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
 | iCloud vs Google Drive | Approved — research not started |
 | Best Secure Cloud Storage | Approved — research not started |
 
@@ -222,9 +222,9 @@ Last Updated: 2026-07-12
 2. iCloud vs Google Drive
 3. Best Secure Cloud Storage
 
-Research checkpoint (2026-07-13): the shared 12-provider dossier, Proton Drive review research record, 37-claim ledger, corrections, and independent review are complete. The final reviewer decision is `APPROVE FOR DRAFTING`. No article draft or production implementation has started; Proton Drive remains first in sequence.
+Publication checkpoint (2026-07-13): Proton Drive Review passed its shared dossier, dedicated research, 37-claim ledger, original-contribution, monetization-independence, independent-review, 38/40 pre-deployment and 39/40 final scorecards, PR, exact deployment, production, sitemap, IndexNow, desktop, mobile, and external screenshot gates. It is final approved; iCloud vs Google Drive is next for research.
 
-Monetization checkpoint (2026-07-13): the binding parallel-workstream standard and Cloud Storage opportunity map are complete. No program application, vendor outreach, negotiation, tracked affiliate URL, CTA, ranking, or verdict change occurred. Proton Drive's editorial conclusion remains independent. Proton Drive drafting is ready only after the monetization-governance pull request receives independent approval and merges.
+Monetization checkpoint (2026-07-13): the binding parallel-workstream standard and Cloud Storage opportunity map are complete. No program application, vendor outreach, negotiation, tracked Proton Drive URL, ranking, or verdict change occurred. The published review uses a non-affiliate official Proton destination and preserves the independently reached verdict.
 
 Each article requires its own research record, claim ledger, branch, pull request, independent review, and 34/40 scorecard pass. Work proceeds one article at a time.
 

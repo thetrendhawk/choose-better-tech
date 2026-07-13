@@ -29,12 +29,12 @@
 | 17 | Code maintainability | 2 | Readable TypeScript/JSX, data arrays for repeated structures, semantic sections, no dependency/global-style change, no compressed generated component. |
 | 18 | Technical SEO | 2 | Unique route/title/description/canonical, Article/Breadcrumb/FAQ schema, exact FAQ parity, sitemap wiring, no fake rating, and no noindex defect found. |
 | 19 | Accessibility and responsive behavior | 2 | Semantic headings/tables/details, keyboard-visible links/CTA, contained table scrolling, desktop and 390px structural pass, and no page-level overflow or clipped control. |
-| 20 | Operations completeness | 1 | Volatile register, content count, discovery, route, and sitemap implementation are present; all six publication operations records correctly remain pending until merge/deployment/live verification. |
+| 20 | Operations completeness | 2 | All six publication operations records reconcile the merge, exact deployment, production checks, sitemap, IndexNow acceptance limitation, external screenshot QA, content counts, monetization state, indexing uncertainty, and next roadmap action. |
 
 ## Score
 
-- Total: **38/40**
-- Minimum threshold: **Passed** (`38 >= 34`)
+- Total: **39/40**
+- Minimum threshold: **Passed** (`39 >= 34`)
 - Prohibited-zero gate: **Passed**; no category scored `0`.
 - Original contribution: **Passed** (`2`).
 - Research depth: **Passed** (`2`).
@@ -47,8 +47,7 @@
 
 ## Deficiencies
 
-- Independent evidence remains limited to dated, scoped public mobile audits; this is a permanent evidence limitation, not a hidden defect.
-- Final operations reconciliation cannot be complete before merge, deployment, production QA, sitemap verification, and IndexNow handling.
+- Independent evidence remains limited to dated, scoped public mobile audits; this limitation is already disclosed and prevents a perfect score.
 
 ## Required Corrections
 
@@ -64,4 +63,22 @@ No unresolved correction blocks deployment.
 
 `PASS`
 
-Independent reviewer decision: `APPROVE FOR DEPLOYMENT`.
+Pre-deployment independent reviewer decision: `APPROVE FOR DEPLOYMENT`.
+
+## Post-Deployment Rescore — 2026-07-13
+
+- PR #4 merge: `c2f4ad28ddcc72c756bffd66736ace388f97bbbc`.
+- Vercel production deployment: `5425319112`, successful.
+- Live route, cache-bypassed deep route, and production sitemap: HTTP 200.
+- Exact canonical URL present in the production sitemap.
+- Rendered title, H1, canonical, key sections, 12 FAQs, and three tables verified.
+- Desktop and 390px structural checks: no page-level overflow; table overflow contained.
+- External production screenshots: article desktop 1280 × 900, article mobile 390 × 844, homepage desktop, and homepage mobile all passed with no visible clipping; the shared Hero correctly displays `12 Reviews`.
+- IndexNow key matched and submission returned HTTP 200; indexing remains `Needs verification`.
+- Operations inventory: 12 reviews and 51 editorial assets.
+
+Operations completeness is rescored from 1 to 2. No other category changes.
+
+Updated total: **39/40**.
+
+Final post-deployment status: `FINAL APPROVED — EXTERNAL SCREENSHOT QA`.
