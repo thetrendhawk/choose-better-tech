@@ -56,6 +56,7 @@ const routes = [
   "/comparisons/incogni-vs-deleteme",
   "/comparisons/optery-vs-deleteme",
   "/comparisons/google-drive-vs-dropbox",
+  "/comparisons/icloud-vs-google-drive",
   "/reviews/nordvpn-review",
   "/reviews/proton-vpn-review",
   "/reviews/proton-drive-review",

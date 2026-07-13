@@ -578,6 +578,12 @@ export function GoogleDriveVsDropboxPage() {
                 Best Cloud Storage for Beginners
               </InternalLink>.
             </p>
+            <p className="mt-4 max-w-4xl leading-7 text-slate-700">
+              Comparing Google with Apple's ecosystem instead? Read{" "}
+              <InternalLink to="/comparisons/icloud-vs-google-drive">
+                iCloud vs Google Drive
+              </InternalLink>.
+            </p>
           </div>
           <div className="mt-8"><AffiliateDisclosure /></div>
         </Container>
