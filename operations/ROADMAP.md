@@ -262,7 +262,7 @@ This is optional polish, not remediation. Preserve the current content depth and
 | Deliverable | Status |
 | --- | --- |
 | Best Antivirus Software | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
-| TotalAV Review | Pre-deployment QA passed — publication PR next |
+| TotalAV Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
 | Is Antivirus Still Necessary? | Planned |
 | Windows Defender vs Paid Antivirus | Planned |
 | Best PC Cleanup Tools | Planned |

@@ -36,3 +36,19 @@
 - Monetization Independence Check: `PASS`
 - Reviewer decision: `APPROVE FOR DEPLOYMENT`
 
+## Post-deployment rescore — 2026-07-13
+
+- PR #17 merge: `71de302f4bf1da6cb72565430f7ec5007b7f5faf`.
+- Exact Vercel production deployment: `5432555515`, successful.
+- Custom route, cache-bypassed deep route, canonical, H1, key sections, review library, reciprocal ranking link, and production sitemap passed.
+- Desktop and 390px production checks show zero page-level overflow; table overflow is contained.
+- External article desktop/mobile and modified homepage screenshots passed; homepage shows `13 Reviews` and the new Featured Review.
+- IndexNow returned HTTP 200; indexing remains `Needs verification`.
+- Six operations records reconcile 13 reviews, 14 comparisons, 28 guides/hubs, and 55 editorial assets.
+
+Operations completeness is rescored from `1` to `2`. No other category changes.
+
+Updated total: **39/40**.
+
+Final status: `FINAL APPROVED — EXTERNAL SCREENSHOT QA`.
+
