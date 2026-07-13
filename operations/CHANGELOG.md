@@ -280,6 +280,9 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 | 2026-07-13 | Research | Best Antivirus Software research and review completed | Shared antivirus dossier, dedicated research record, 32-row Critical/High claim ledger, independent research review, article review, monetization-independence check, and 38/40 pre-deployment score passed. |
 | 2026-07-13 | Content | Best Antivirus Software prepared for deployment | New evidence-led guide, route, sitemap entry, homepage Featured Guide, and accurate guide count completed without tracked antivirus links; lint, build, desktop, and 390px structural checks passed. |
+| 2026-07-13 | Deployment | Best Antivirus Software production verified | PR #15 merged as `c702c35816ab2ecbce736f74d3250d1a73d8982d`; exact Vercel deployment `5432407193` reached success; custom route, cache-bypassed deep route, canonical, H1, key sections, homepage discovery/count, and sitemap passed. |
+| 2026-07-13 | Indexing | Best Antivirus Software submitted to IndexNow | Single-URL submission returned HTTP 200. This confirms acceptance only; indexing remains Needs verification. |
+| 2026-07-13 | QA | Best Antivirus Software final approved | Production desktop and 390px structural checks, table containment, zero page-level overflow, external article/homepage screenshots, schema, internal links, and affiliate isolation passed. Final score 39/40; status FINAL APPROVED — EXTERNAL SCREENSHOT QA. |
 
 | Date | Category | Milestone | Notes |
 | --- | --- | --- | --- |

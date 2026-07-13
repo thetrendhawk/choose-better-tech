@@ -23,15 +23,15 @@ These counts use published editorial routes in the current repository and sitema
 | --- | ---: | --- | --- |
 | Reviews | 12 | Product review routes under `/reviews/` | Repo route index and production sitemap |
 | Comparisons | 14 | Pairwise comparison routes under `/comparisons/` | Repo route index and production sitemap |
-| Hubs / Guides | 27 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
+| Hubs / Guides | 28 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
 | Authority Pages | 3 | About, How We Review Software, and Affiliate Disclosure | Repo routes and production sitemap |
-| Total Editorial Content Assets | 53 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
+| Total Editorial Content Assets | 54 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
 
 ## Content KPIs
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 12 | 14 | 27 | 53 | Needs verification | The three-article Cloud Storage automation run is complete. Proton Drive Review, iCloud vs Google Drive, and Best Secure Cloud Storage independently passed research, review, scorecard, PR, exact deployment, production, visual, sitemap, and IndexNow gates. Best Secure Cloud Storage finished at 39/40 with 50 reviewed Critical/High claims. Indexing is not inferred from sitemap presence or submission. |
+| 2026-07 | 12 | 14 | 28 | 54 | Needs verification | The Cloud Storage run is complete. Best Antivirus Software is the first final-approved asset in the Cybersecurity Tools autopilot run, with 32 reviewed Critical/High claims, 39/40 score, exact deployment, production QA, sitemap, and IndexNow acceptance. Indexing is not inferred from submission. |
 
 ## Organic Search KPIs
 
