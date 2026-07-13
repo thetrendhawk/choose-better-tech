@@ -123,9 +123,9 @@ Original Contribution: A field-level privacy, recovery, administration, and port
 
 Evidence of Contribution: The research normalizes exactly which fields Proton says it encrypts; records remaining metadata; maps password reset separately from data recovery; distinguishes personal privacy from managed-business admin access; reconciles Free-storage and performance-claim ambiguity; and converts import/export documentation into a practical lock-in assessment.
 
-Competing Coverage Reviewed: Existing CBT cloud-storage research and representative provider positioning were reviewed for topic overlap and common comparison fields. No competing article was used as evidence for Proton facts.
+Competing Coverage Reviewed: Existing CBT records `best-cloud-storage-for-beginners-research.md` and `google-drive-vs-dropbox-research.md`; TechRadar's Proton Drive review (updated 2024-07-08); Digital Trends' 2025 hands-on review; Cloudwards' 2026 review; and The Independent's 2025 review. These pages were used only to identify coverage patterns and gaps, never as evidence for Proton plan, architecture, privacy, or legal claims.
 
-Information Gap: Most summaries collapse “end-to-end encrypted” into a universal privacy claim and omit recovery, business administration, dynamic pricing, Linux client type, downgrade deletion risk, and what does not migrate.
+Information Gap: The competing coverage commonly emphasizes privacy, price, and app experience but does not consistently provide a current field-level metadata table, key hierarchy, scoped public-audit findings, Foundation/control structure, business-admin/offboarding model, Linux CLI-versus-GUI distinction, downgrade deletion risk, or structured account/data-recovery and portability analysis.
 
 Pass/Fail: **PASS**
 
@@ -135,11 +135,17 @@ Pass/Fail: **PASS**
 - Proton’s current privacy policy lists Proton AG at Route de la Galaise 32, 1228 Plan-les-Ouates, Geneva, Switzerland.
 - Proton states that Swiss law governs the general privacy relationship and identifies Proton Europe sàrl as its EU representative.
 - The general privacy policy was last modified 2026-05-12; the Drive-specific privacy policy was last modified 2025-07-31 when checked.
+- Proton says the non-profit Proton Foundation is Proton AG's primary/largest voting shareholder and can block changes of control. Proton AG remains the for-profit operating company.
+- Proton describes a hybrid model in which subscriptions fund a profitable operating business while the Foundation supervises the mission. This is Proton's own governance/business-model description, not an independent financial audit.
+- Proton says it began with a 2014 crowdfunding campaign of more than $500,000 from about 10,000 contributors and had no venture-capital investors when it announced the Foundation transition in 2024. Treat both as attributed company history and recheck if ownership or funding changes.
+- Drive uses the same Proton Account and is sold both as a Drive-focused plan and inside broader bundles with Mail, VPN, Pass, Calendar, Docs, and Sheets. A bundle can improve value for existing Proton users while increasing account and ecosystem dependence.
 
 Sources:
 
 - https://proton.me/legal/privacy
 - https://proton.me/drive/privacy-policy
+- https://proton.me/blog/proton-non-profit-foundation
+- https://proton.me/support/proton-plans
 
 Qualification: Swiss jurisdiction is relevant but not a substitute for architecture analysis, account security, or a verified legal opinion. Do not claim that Switzerland makes stored data categorically immune from legal process.
 
@@ -163,6 +169,29 @@ Sources:
 - https://proton.me/blog/proton-drive-threat-model
 - https://proton.me/blog/drive-sdk-june-2026
 
+### Documented key hierarchy
+
+The older public security model describes:
+
+- a Proton address key associated with each account address and used to grant and authenticate share access;
+- a random 32-byte share passphrase and asymmetric share key;
+- the share key locked by the share passphrase, with that passphrase encrypted and signed by a member's address key;
+- one encrypted copy of the share passphrase for each share member;
+- a symmetric session key for payload encryption, wrapped for authorized asymmetric keys or passwords;
+- per-file and per-folder node keys and node passphrases;
+- each node passphrase encrypted by its parent node key or the share key at a share root;
+- file blocks encrypted with the file's node key and uploader signatures intended to detect malicious tree/content substitution;
+- URL-sharing passwords generated or entered by the user, with the decryption secret withheld from the server under the documented design.
+
+The article does not by itself document every current account-key derivation parameter, local key-store implementation, recovery-key path, or 2026 SDK change. Proton separately documents Secure Remote Password authentication and password/data-recovery behavior, but those should not be collapsed into the file-tree key hierarchy. The June 2026 shared SDK is described as a rebuilt common engine; no current public diff or independent assessment was found that revalidates every older architecture statement against the deployed 2026 clients.
+
+Sources:
+
+- https://proton.me/blog/protondrive-security
+- https://proton.me/blog/centalized-vs-p2p-protondrive
+- https://proton.me/blog/drive-sdk-june-2026
+- https://proton.me/support/set-account-recovery-methods
+
 ### Documented server-visible or operational fields
 
 The Drive privacy policy says Proton stores or can process operational metadata including:
@@ -176,9 +205,35 @@ The Drive privacy policy says Proton stores or can process operational metadata 
 - link creator;
 - account, payment, fraud-prevention, and service data described in the broader Proton privacy policy.
 
-The policy also says Proton can access shared content when a third party supplies the public URL and any password, for example in an abuse report. Public sharing is therefore not anonymous and does not make content inaccessible to everyone except named recipients.
+The policy also says Proton can access shared content when a third party supplies the public URL and any password, for example in an abuse report. Proton can associate documented operational link metadata with the creator, while invited workflows can disclose account/email identity. This does not prove that every public-link recipient is identified; avoid a universal anonymity claim.
 
 Source: https://proton.me/drive/privacy-policy
+
+### Field-level privacy, operations, and request map
+
+| Field/workflow | What current public evidence supports | Evidence limit |
+| --- | --- | --- |
+| File content | E2EE before upload under Proton's documented design | No CBT cryptographic verification |
+| Filenames/folder names/thumbnails | Drive policy says E2EE | No current independent 2026 full-client audit |
+| File size | Policy says encrypted size is stored; support simplifies this as file size not encrypted | Proton can process a size value; exact leakage relationship requires technical verification |
+| Creation/modification times, permissions, uploader | Stored or processed as operational metadata | Retention details beyond policy are Not verified |
+| Public-link events | Creation/last access, count, and creator documented | Does not establish every recipient's identity |
+| Invited sharing | Email/account and role are part of the workflow | Identity disclosure differs from bearer public links |
+| Search | Web Drive can search partial/full filenames in `My files`; current Sheets support says `Shared with me` and Trash are excluded from Drive search | Mobile/client parity and search-index implementation are Not verified |
+| File requests/uploads | An Editor public link or editable shared folder can allow uploads; no separate dedicated file-request product was verified | Do not claim recipient-anonymous drop-box behavior or ownership semantics beyond sharing docs |
+| Diagnostics/telemetry | General Proton policy permits limited app/service data and optional diagnostics where applicable | Drive-specific event schema, retention, identifiers, and opt-out behavior are Not verified |
+| IP/access/account data | General policy covers account creation, security, fraud/abuse, payment, and service-access data | Exact Drive-specific log fields and retention are Not verified |
+| Abuse handling | Shared content can be reviewed if a third party supplies URL/password; hash-based malicious-file checks can be user initiated | Broader abuse workflows and disclosure volumes are Not verified |
+| Legal requests | Proton says Swiss law applies and it must respond to valid Swiss orders | No claim that Swiss jurisdiction blocks all requests; Drive-specific transparency counts are Not verified |
+| Storage/backups | Drive policy lists servers in Switzerland, Germany, and Norway; offline backups are encrypted and retained up to 30 days | File placement by user/plan is not exposed; deletion timing across backups is policy-based, not tested |
+
+Additional sources:
+
+- https://proton.me/support/sheets-search
+- https://proton.me/support/share-proton-drive-account
+- https://proton.me/support/proton-drive-malware-protection
+- https://proton.me/legal/privacy
+- https://proton.me/blog/proton-drive-threat-model
 
 ### Threat-model boundaries
 
@@ -271,6 +326,8 @@ Sources:
 
 Proton Drive supports meaningful sharing and collaborative editing. The evidence does not support calling it the best collaboration platform, a full Google Workspace replacement, or a business document-management leader. Public links transfer trust to possession of the link and password. Revocation cannot claw back copies already downloaded.
 
+No separate dedicated file-request object was verified. Proton documents using Editor access on a public link or shared folder so another person can upload files. The draft should call this an upload-capable shared folder or link, not imply an independently verified anonymous intake workflow.
+
 ## Deleted Files, Versions, and Recovery
 
 ### Version history
@@ -361,7 +418,17 @@ Account deletion permanently deletes the Proton account and data across Proton s
 
 ### Families
 
-Duo and Family use shared storage with separate Proton accounts rather than one shared login. Proton explicitly advises against sharing a single Drive account. Exact family permissions, private spaces, member removal, and storage reallocation require plan-level verification before recommendations.
+Duo and Family use shared storage with separate Proton accounts rather than one shared login. Proton explicitly advises against sharing a single Drive account. The current Family guide says:
+
+- Family supports up to six members and 3 TB pooled storage allocated by the primary administrator;
+- invited members are private users, and the administrator cannot see their files unless they share them;
+- a removed member keeps their data and moves to a 30-day Proton Unlimited trial;
+- a member who voluntarily leaves also keeps files/folders during that trial but loses Family storage/features;
+- the primary administrator cannot currently be changed.
+
+After the 30-day trial, ordinary downgrade/over-quota rules become relevant if the departing member's data exceeds the resulting plan. Exact post-trial automation was not account-tested.
+
+Source: https://proton.me/support/get-started-proton-family
 
 ### Managed businesses
 
@@ -375,7 +442,25 @@ Sources:
 
 This does not make the consumer encryption description false; it means managed-business authority changes the access model. The review must not imply that business administrators can never access user files.
 
-Exact offboarding, ownership transfer, and organization-data export behavior remain Not verified.
+### Business offboarding
+
+Current official evidence distinguishes several operations:
+
+- reducing paid license count can create prorated account credit but is not the same as removing an organization identity;
+- removing/deleting an organization-created user can permanently delete that user's account, address, and all account data;
+- existing accounts added to an organization can be removed from the organization when plan limits change, while organization-created members can receive 0 MB allocations under over-limit conditions;
+- admins on supported Drive business plans can access managed user Drive data before removal through the documented sign-in capability;
+- private/non-private organization-user rules are separately documented and should not be generalized from Mail to every Drive plan without plan-specific confirmation.
+
+Sources:
+
+- https://proton.me/support/add-remove-users
+- https://proton.me/support/vpn-manage-users
+- https://proton.me/support/private-users
+- https://proton.me/support/access-account-proton-drive
+- https://proton.me/support/free-plan-limits
+
+Not verified: a supported workflow to transfer Drive file ownership to another user; a complete organization-wide Drive export; whether links or permissions survive user deletion; exact behavior for every invited-existing-account versus organization-created-account removal path. The safe operational recommendation is to export or transfer required data and rotate/rebuild sharing before deletion, not assume automatic ownership transfer.
 
 ## Import, Export, and Portability
 
@@ -407,18 +492,43 @@ File-level lock-in is moderate because ordinary files and Proton-created documen
 
 ## Audits, Open Source, Bug Bounty, and Incidents
 
-- Proton publishes client/SDK source code and states that Drive apps are open source. Exact client, SDK, build, and server coverage must be described rather than generalized to “the entire service.”
+- Proton publishes mobile, web, desktop, and SDK source repositories and states that Drive apps are open source. Exact client, SDK, build, and server coverage must be described rather than generalized to “the entire service.”
 - Proton maintains a public bug-bounty and vulnerability-disclosure program.
 - Proton announced a SOC 2 Type II attestation by Schellman in 2025. This addresses scoped operational controls, not a product-specific cryptographic guarantee.
-- Proton pages refer to independent audits, but the latest publicly accessible Drive-specific audit report, date, full scope, and remediation status were not verified in this pass.
-- No material Proton Drive breach exposing decrypted customer vault contents was verified from authoritative sources in this research. This must not be rewritten as “Proton Drive has never been breached” or “has a perfect security record.”
+- Proton's March 2023 open-source announcement links public Securitum mobile-app audits performed in 2022:
+  - iOS: testing 2022-08-23 through 2022-09-06; report v1.0 dated 2022-09-07; app and automated source analysis, explicitly excluding API/backend; 0 Critical/High/Medium, 1 Low, and 4 Informational findings.
+  - Android: testing 2022-07-29 through 2022-08-22; report v1.0 dated 2022-08-22; app, REST API, and automated source analysis; 0 Critical/High/Medium, 2 Low, and 6 Informational findings.
+- The iOS Low finding concerned unencrypted cookies/HTTP responses in app files under a physical-device-access prerequisite. The Android Low findings concerned similar local artifacts/certificates and an API CORS configuration. Informational items covered rooted/jailbroken warnings, local access safeguards, app-integrity protections, minimize-screen masking on Android, and one API header item.
+- Both report covers say `RETEST DATE N/A`; the PDFs do not provide retest/remediation evidence. Proton's later summary says there were no outstanding vulnerabilities, but that vendor summary does not replace a public retest record.
+- These dated mobile audits do not validate the current Windows, macOS, web, server, or 2026 shared-SDK implementation.
+- A comprehensive incident-history conclusion was not established. The research reviewed Proton's current security, privacy, threat-model, open-source, audit, and bug-bounty disclosures and did not identify a Drive incident report within that bounded source set, but this is not evidence that no incident occurred. The future draft should omit a “never breached” or negative-incident claim unless a reproducible broader incident review is completed.
 
 Sources:
 
 - https://proton.me/security/bug-bounty
 - https://proton.me/blog/soc-2
+- https://proton.me/blog/drive-mobile-apps-open-source
+- https://res.cloudinary.com/dbulfrlrz/images/v1707564693/wp-pme/Securitum_Proton_Drive_mobile_iOS/Securitum_Proton_Drive_mobile_iOS.pdf?_i=AA
+- https://res.cloudinary.com/dbulfrlrz/images/v1707564691/wp-pme/Securitum_Proton_Drive_mobile_Android/Securitum_Proton_Drive_mobile_Android.pdf?_i=AA
 - https://github.com/ProtonDriveApps/sdk-tech-demo
 - https://proton.me/drive
+
+## Independent Sources Reviewed
+
+### Direct independent product evidence
+
+- Securitum, Proton Drive iOS audit report v1.0 (2022-09-07): narrow mobile-app/source scope, backend excluded, findings and no-retest status recorded above.
+- Securitum, Proton Drive Android audit report v1.0 (2022-08-22): Android app, selected REST API, and source scope, findings and no-retest status recorded above.
+- Schellman's SOC 2 Type II work is described by Proton; the full attestation/report was not publicly reviewed in this pass, so only Proton's announcement and the limited control-attestation interpretation are supported.
+
+### Independent editorial/testing context — not factual sources for the CBT review
+
+- TechRadar review, updated 2024-07-08: documented its own Windows/web speed, recovery, and version tests. Its results are dated and environment-specific and are not imported as CBT performance evidence.
+- Digital Trends review (2025), Cloudwards review (2026), and The Independent review (2025): reviewed for coverage patterns and usability questions only. Their experiential conclusions are not adopted without CBT testing.
+
+### Evidence limitation
+
+No current independent audit of the complete 2026 Proton Drive service, shared SDK, all desktop/web clients, deployment pipeline, and server infrastructure was found. No independent CBT security, performance, migration, recovery, or support testing occurred.
 
 ## Performance Evidence
 
@@ -551,7 +661,7 @@ No Proton Drive affiliate relationship was verified in the centralized registry.
 | Sharing/editor limits | Current support verified | Recheck before table/publication |
 | Refund language | Qualified official wording verified | Recheck governing terms before publication |
 | Downgrade behavior | Current support verified | Recheck before cancellation/value section |
-| Audits/attestations | SOC 2 announcement verified; latest Drive-specific report unresolved | Recheck before security verdict |
+| Audits/attestations | 2022 Securitum iOS/Android reports and 2025 SOC 2 announcement reviewed; current full-service audit unresolved | Recheck before security verdict and after any new report |
 | Docs/Sheets formats | Current support verified | Recheck release notes and before migration claims |
 | Business admin access | Current support verified | Recheck plan eligibility and admin docs |
 | Performance improvements | Vendor claims only | Do not convert to CBT result without independent test |
@@ -563,17 +673,18 @@ No Proton Drive affiliate relationship was verified in the centralized registry.
 3. **Linux:** the CLI is released, while the rebuilt-engine post says broader Linux support is coming. Do not infer a GUI desktop app.
 4. **Pricing:** the current pricing page did not expose every numeric checkout price. Exact Drive Plus pricing remains Not verified.
 5. **Business storage examples:** one support example appears inconsistent with updated per-user allocations. Use the explicit current plan table, not the stale example.
-6. **Audit scope:** broad “regularly audited” language exists, but the latest public Drive-specific report and remediation status were not verified.
+6. **Audit scope:** Proton's broad “regularly audited” language must be narrowed to the public 2022 Securitum mobile reports and any later report actually reviewed. The public reports show findings and no retest date; Proton's 2023 summary says there were no outstanding vulnerabilities.
+7. **Incident history:** the bounded official-source review did not surface a Drive incident report, but a comprehensive incident history remains unresolved. No negative incident claim is authorized.
 
 ## Unresolved Evidence Gaps
 
 - exact current Drive Plus monthly/annual price by region and renewal;
 - automatic Trash-expiry timing, if any;
-- latest public Proton Drive-specific audit report, scope, and remediation;
+- current post-2022 full-service, desktop, web, shared-SDK audit and public remediation/retest evidence;
 - complete source-code/build/server coverage behind “open source” wording;
-- comprehensive Proton Drive incident history;
-- family member removal and data ownership behavior;
-- business offboarding, ownership transfer, and bulk organization export;
+- comprehensive reproducible Proton Drive incident history;
+- post-Family-trial over-quota timing and member data behavior under live account conditions;
+- business ownership transfer, link survival, and bulk organization export;
 - large-library export reliability;
 - sync conflict behavior;
 - real-world performance and battery use;
@@ -605,10 +716,10 @@ These gaps constrain the draft; they do not justify guesses.
 
 ## Research Completion Gate
 
-- Required sections present: PASS
+- Required sections present: corrected; fresh independent review pending
 - Original Contribution: PASS
 - Distinct intent and duplicate check: PASS
-- Critical/High claim ledger complete for independent review: PASS
+- Critical/High claim ledger corrected and expanded; fresh independent review pending
 - Candidate/context completeness appropriate to a provider review: PASS
 - Testing disclosure and prohibited claims: PASS
 - Unresolved gaps preserved: PASS
@@ -616,6 +727,6 @@ These gaps constrain the draft; they do not justify guesses.
 
 ## Research Status
 
-`RESEARCH COMPLETE — DRAFT NOT STARTED`
+`RESEARCH INCOMPLETE — INDEPENDENT RE-REVIEW PENDING`
 
-This status authorizes independent research review and, only after reviewer approval, a later drafting task. It does not authorize article creation, route changes, sitemap changes, affiliate changes, deployment, IndexNow, or publication.
+This status authorizes only the fresh independent research review. It does not authorize drafting, article creation, route changes, sitemap changes, affiliate changes, deployment, IndexNow, or publication.

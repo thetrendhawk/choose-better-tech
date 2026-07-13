@@ -23,11 +23,13 @@ The dossier is not a ranking. It does not declare a safest, most private, fastes
 - online-only or placeholder files;
 - public-link and invited-user sharing;
 - document collaboration where bundled;
-- photo backup where the service supports it;
+- photo-library and automatic photo-backup workflows where the service supports them;
 - deleted-file and version recovery;
 - client-side or end-to-end encryption;
+- client-side encryption layered over a mainstream storage provider;
 - mainstream provider-managed encryption;
 - individual, family, and small-team plans;
+- business document management where it materially changes ownership, administration, retention, or offboarding;
 - import, export, and switching friction.
 
 ### Not equivalent and not to be conflated
@@ -61,7 +63,12 @@ The dossier is not a ranking. It does not declare a safest, most private, fastes
 | Mixed-device household | Cross-platform apps, sharing, and recovery | Underestimating platform gaps or family roles |
 | Linux user | Native workflow, CLI, mount, or sync support | Treating a CLI or web app as a full desktop sync client |
 | Photographer | Automatic photo backup, albums, formats, and export | Assuming photo backup covers every folder and format |
-| Collaborator/small team | Permissions, live editing, ownership, offboarding | Choosing privacy architecture without checking workflow depth |
+| Freelancer | Client sharing, file requests, ownership, and predictable billing | Giving clients links without checking expiry, revocation, or download rights |
+| Small business | Permissions, administration, recovery, ownership, and offboarding | Applying consumer privacy claims to managed accounts |
+| Journalist or activist | Adversary-aware confidentiality, metadata, device security, and safe sharing | Treating encrypted storage as a complete operational-security plan |
+| Sensitive-document user | Field-level encryption, recovery, and sharing discipline | Assuming E2EE protects an unlocked or infected device |
+| Collaboration-first team | Live editing, comments, permissions, and native formats | Choosing privacy architecture without checking workflow depth |
+| Portability-first user | Open formats, bulk export, metadata, and switching | Assuming downloaded bytes preserve workflow state |
 | Switcher | Import/export, native-document conversion, and lock-in | Forgetting permissions, versions, links, and metadata do not migrate cleanly |
 
 ## Candidate Landscape
@@ -85,20 +92,23 @@ Affiliate availability did not determine this set. A strong non-affiliate provid
 
 ## Evaluation Framework
 
-1. Account ownership and jurisdiction.
-2. File-content, filename, folder-name, and metadata encryption.
-3. Key generation, storage, recovery, and provider-access model.
-4. Platform support and the precise kind of client available.
-5. Sync behavior, online-only files, and offline access.
-6. Sharing, permissions, public links, and collaboration.
-7. Deleted-file, version, and account recovery.
-8. Storage accounting, file-size limits, and transfer limits.
-9. Free, monthly, annual, family, team, and lifetime plan structure.
-10. Renewal, cancellation, downgrade, and over-quota consequences.
-11. Import, export, native-document conversion, and switching friction.
-12. Independent audits, incident history, and public security evidence.
-13. Documentation quality and important unknowns.
-14. Fit for mainstream convenience versus privacy-focused threat models.
+1. Account ownership, jurisdiction, business model, and transparency.
+2. Encryption in transit, provider-side encryption at rest, client-side encryption, and E2EE.
+3. File-content, filename, folder-name, thumbnail, size, timestamp, sharing, and account-metadata protection.
+4. Key generation, key storage, account recovery, data recovery, and provider-access model.
+5. Platform support and the precise client type, including Linux, mobile, browser, CLI, and virtual-drive distinctions.
+6. Sync behavior, selective sync, online-only files, offline access, conflict handling, and independent-backup needs.
+7. Sharing, link passwords/expiry, file requests, permissions, collaboration, file ownership, and offboarding.
+8. Deleted-file, version, ransomware, and whole-account recovery.
+9. Storage accounting, file-size limits, transfer limits, and photo-library behavior.
+10. Family sharing, member privacy, pooled storage, and organizer powers.
+11. Business administration, retention, user removal, export, and employee departure.
+12. Free, monthly, annual, family, team, promotional, and lifetime plan structure.
+13. Renewal, taxes, regional variation, refunds, trials, cancellation, downgrade, over-quota behavior, and account deletion.
+14. Import, export, proprietary/native-document conversion, permissions, comments, versions, albums, and switching friction.
+15. Independent audits, incident history, vulnerability disclosure, and public security evidence.
+16. Support documentation and independently tested support quality where available.
+17. Fit for mainstream convenience, collaboration, portability, and privacy-focused threat models.
 
 ## Source Hierarchy
 
@@ -190,6 +200,32 @@ Every planned comparison should capture:
 - plan names, quotas, and promotions are volatile and must be rechecked at drafting and publication.
 
 No cross-provider price winner is established by this dossier.
+
+### Provider-specific current official plan evidence
+
+Checked 2026-07-13. Prices below are source-displayed examples, not a promise of the reader's checkout price. Currency, tax, promotion, renewal, and region must be rechecked before any article table. `Not verified` means the current official page did not expose a sufficiently unambiguous value in this pass; it does not mean no paid plan exists.
+
+| Provider | Free/start point | Current official paid-plan evidence | Billing/renewal qualification | Official source |
+| --- | --- | --- | --- | --- |
+| Proton Drive | 2 GB Drive by default; setup tasks can unlock 5 GB | Drive Plus 200 GB; Unlimited 500 GB; Duo 2 TB/2 users; Family 3 TB/6 users | Exact Drive Plus checkout price Not verified; region/currency dynamic; recheck bundles and renewal | https://proton.me/support/increase-storage-space ; https://proton.me/drive/pricing ; https://proton.me/support/proton-plans |
+| Google One | 15 GB shared across Drive, Gmail, and Photos | US-facing plan page displayed Basic 100 GB at US$1.99/month | Annual price and taxes Not verified in this pass; family sharing up to five others; AI bundles change plan mix | https://one.google.com/about/plans ; https://one.google.com/about/ |
+| iCloud+ | 5 GB shared iCloud storage | US monthly: 50 GB $0.99; 200 GB $2.99; 2 TB $9.99; 6 TB $29.99; 12 TB $59.99 | Monthly; regional tables and tax treatment differ; share with up to five family members | https://support.apple.com/en-us/108047 |
+| OneDrive / Microsoft 365 | 5 GB OneDrive | US Microsoft 365 Basic: 100 GB at $1.99/month or $19.99/year; Personal and Family bundle storage/prices also displayed | Auto-renewing; plan availability/price can be market dependent; bundle value is not storage-only | https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans |
+| Dropbox | Basic 2 GB | Plus, Family, and Professional tiers verified; exact US checkout price Not verified from a stable official US rendering | Monthly/annual toggle and promotions can change displayed effective price | https://www.dropbox.com/plans ; https://help.dropbox.com/plans/dropbox-basic-faq |
+| Sync.com | 5 GB free account documented | Personal page displayed 150 GB at $4 monthly or $3.50/month billed annually; 1 TB and 5 TB tiers also displayed | Page carried a first-year promotion; normal and renewal price must be captured at checkout | https://www.sync.com/free-cloud-storage/ ; https://www.sync.com/pricing-individual/ |
+| Tresorit | Free Basic account documented | Personal/Professional/Business subscriptions and a 14-day trial verified; exact current checkout price Not verified | Trial converts to selected paid billing cycle unless canceled | https://support.tresorit.com/hc/en-us/articles/360020566694-Account-vs-subscription ; https://support.tresorit.com/hc/en-us/articles/216113977-About-Tresorit-free-trials ; https://tresorit.com/pricing |
+| pCloud | Free allowance is signup/action dependent; exact usable amount Not verified | Subscription and lifetime 500 GB/2 TB/10 TB structures verified; page displayed promotional one-time prices | Promotions are volatile; “lifetime” means account owner's lifetime or 99 years under terms; Crypto can be separately priced | https://www.pcloud.com/cloud-storage-pricing-plans.html ; https://www.pcloud.com/help/drive-help-center/how-to-set-up-a-crypto-folder-for-desktop ; https://www.pcloud.com/terms_and_conditions.html |
+| MEGA | Exact current signup allowance Not verified in this pass | Pro plan structure verified; exact currency/price and transfer allowances Not verified | Transfer quotas and promotional/account-specific allowances require live checkout | https://mega.io/pricing ; https://help.mega.io/plans-storage/space-storage |
+| Box | Individual: 10 GB, 250 MB upload, one version | US page displayed Personal Pro 100 GB at $14 monthly or $10/month on annual billing | Individual and business pricing differ; business plans have minimum seats | https://www.box.com/pricing/individual |
+| Filen | New-account free 10 GB is no longer automatic in every case; eligibility is assessed at signup | Pro I 200 GiB €1.99/month; Pro II 500 GiB €3.99/month; Pro III 2 TiB €8.99/month displayed | Annual/lifetime and stacked plans exist; exact renewal/promotion context must be rechecked | https://filen.io/pricing ; https://filen.io/hub/status-update-february-march-2026/ |
+| Internxt | 1 GB free | Current help page: Essential 1 TB €1.99 first month then €9.99/month; Premium 3 TB €3.99 then €19.99; Ultimate 5 TB €1.99 then €29.99 | “Annual” commitment is billed monthly; first-month promotion only; lifetime prices dynamic | https://internxt.com/pricing ; https://help.internxt.com/en/articles/15430964-how-do-internxt-annual-subscriptions-and-introductory-discounts-work |
+
+### Pricing evidence limits
+
+- The table normalizes only facts the official sources exposed clearly on 2026-07-13.
+- It does not compare effective cost per terabyte because promotions, bundles, taxes, and renewal inputs are not normalized enough.
+- Dropbox, Tresorit, MEGA, and Drive Plus numeric checkout prices remain `Not verified` rather than inferred from third-party pages.
+- Specialist-provider “lifetime” plans require terms and provider-continuity analysis, not a simple savings calculation.
 
 ## Sync Versus Backup
 
@@ -321,27 +357,38 @@ Recommended future test fixture:
 
 ### Mainstream baselines
 
+- https://one.google.com/about/plans
 - https://support.google.com/googleone/answer/6374270
 - https://support.google.com/drive/answer/10375054
+- https://support.apple.com/en-us/108047
 - https://support.apple.com/en-us/121314
 - https://support.apple.com/en-us/102651
+- https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans
 - https://support.microsoft.com/en-us/onedrive/microsoft-storage-faqs
+- https://www.dropbox.com/plans
 - https://help.dropbox.com/delete-restore/version-history-overview
 
 ### Privacy and specialist candidates
 
 - https://www.sync.com/security/
+- https://www.sync.com/pricing-individual/
 - https://support.tresorit.com/hc/article_attachments/4410825833106
 - https://tresorit.com/blog/content/files/2022/10/Tresorit_EY_3rd_Party_Memo-1.pdf
+- https://tresorit.com/pricing
 - https://www.pcloud.com/help/drive-help-center/how-to-set-up-a-crypto-folder-for-desktop
+- https://www.pcloud.com/cloud-storage-pricing-plans.html
 - https://mega.io/security
+- https://mega.io/pricing
 - https://cdn.filen.io/whitepaper.pdf
+- https://filen.io/pricing
+- https://filen.io/hub/status-update-february-march-2026/
 - https://internxt.com/whitepaper/internxt-white-paper-1.pdf
 - https://internxt.com/pricing
+- https://help.internxt.com/en/articles/15430964-how-do-internxt-annual-subscriptions-and-introductory-discounts-work
 - https://www.box.com/pricing/individual
 
 ## Dossier Status
 
-`RESEARCH COMPLETE — CATEGORY DOSSIER ONLY`
+`RESEARCH CORRECTIONS COMPLETE — INDEPENDENT RE-REVIEW PENDING`
 
-This record supports provider-review drafting and subsequent comparison/ranking research. It does not authorize a secure-storage ranking, article implementation, route, deployment, or publication claim.
+This record does not authorize provider-review drafting until the fresh independent pass approves the corrected package. It never authorizes a secure-storage ranking, article implementation, route, deployment, or publication claim by itself.

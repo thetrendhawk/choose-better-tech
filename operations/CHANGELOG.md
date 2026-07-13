@@ -14,9 +14,9 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 ### 2026-07-13 — Cloud Storage dossier and Proton Drive review research completed
 
 - Created the shared 12-provider Cloud Storage landscape dossier at `docs/research/cloud-storage-landscape-dossier-2026-07-13.md` for the approved Proton Drive Review, iCloud vs Google Drive, and Best Secure Cloud Storage sequence.
-- Completed `docs/research/proton-drive-review-research.md` and its Critical/High claim ledger without drafting or implementing the review.
+- Created `docs/research/proton-drive-review-research.md` and its Critical/High claim ledger without drafting or implementing the review; the first independent pass returned the package for correction.
 - Preserved unresolved pricing, audit, Linux-client, recovery, business-offboarding, performance, and migration evidence gaps rather than inventing certainty.
-- Kept the Proton Drive workflow at `RESEARCH COMPLETE — DRAFT NOT STARTED` pending a separate independent reviewer decision.
+- Recorded the first reviewer decision `RETURN FOR CORRECTION`; drafting remains blocked until a fresh independent pass returns `APPROVE FOR DRAFTING`.
 - No article, route, UI, sitemap, affiliate, content-count, deployment, IndexNow, or live-site change occurred.
 
 ### 2026-07-12 — Sitewide audit completed and Cloud Storage cluster approved
