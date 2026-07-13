@@ -130,6 +130,7 @@ const sourceGroups = [
       ["Downgrade and over-quota behavior", "https://proton.me/support/free-plan-limits"],
       ["Account and data recovery methods", "https://proton.me/support/set-account-recovery-methods"],
       ["Drive data recovery", "https://proton.me/support/drive-data-recovery"],
+      ["Deleting a Proton account", "https://proton.me/support/delete-account"],
       ["Proton Drive CLI", "https://proton.me/support/drive-cli"]
     ]
   },
@@ -499,6 +500,26 @@ export function ProtonDriveReviewPage() {
                 Sync, uploads, and photo backup stop when the lower limit is exceeded. Proton warns
                 that unresolved excess data can be deleted after 12 months, potentially across an
                 affected app because it cannot selectively decrypt and remove particular files.
+              </p>
+            </article>
+          </div>
+          <div className="mt-7 grid gap-5 md:grid-cols-2">
+            <article className="rounded-2xl border bg-white p-5">
+              <h3 className="font-black">Cancellation is not the same as deleting your account</h3>
+              <p className="mt-2 leading-7 text-slate-700">
+                Ending a paid plan can move the account onto lower limits, so export or reduce data
+                before a downgrade leaves it over quota. Deleting the Proton account is much more
+                consequential: Proton says it permanently deletes data across Proton services, not
+                only Drive, and the username is not recycled.
+              </p>
+            </article>
+            <article className="rounded-2xl border bg-white p-5">
+              <h3 className="font-black">Support quality remains untested</h3>
+              <p className="mt-2 leading-7 text-slate-700">
+                Proton publishes a substantial support library, which supplied much of the plan and
+                workflow evidence in this review. CBT did not open a support case or measure response
+                time, resolution quality, refund handling, or cancellation assistance, so we do not
+                score customer support.
               </p>
             </article>
           </div>
