@@ -261,18 +261,18 @@ This is optional polish, not remediation. Preserve the current content depth and
 
 | Deliverable | Status |
 | --- | --- |
-| Best Antivirus Software | Planned |
-| TotalAV Review | Planned |
+| Best Antivirus Software | Cluster approved — article research next |
+| TotalAV Review | Cluster approved — follows Best Antivirus Software |
 | Is Antivirus Still Necessary? | Planned |
 | Windows Defender vs Paid Antivirus | Planned |
 | Best PC Cleanup Tools | Planned |
 
 ### Completion Checklist
 
-- [ ] Research distinguishes safety, performance, and privacy claims.
-- [ ] Review criteria documented.
+- [x] Research distinguishes safety, performance, and privacy claims in the shared consumer-antivirus dossier.
+- [x] Review criteria documented.
 - [ ] At least one article published in the cluster.
-- [ ] Affiliate readiness reviewed before applications.
+- [x] Affiliate and broader monetization readiness reviewed independently; no application or commercial implementation authorized.
 - [ ] Refresh cadence assigned.
 
 ## Phase 7: AI Productivity
