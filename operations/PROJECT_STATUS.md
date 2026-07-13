@@ -33,7 +33,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Maintain current operational dashboards | Choose Better Tech | Active |
 | Apply advanced guardrails to all future major content | Choose Better Tech | Active |
 | Apply the binding monetization-research standard to substantial clusters and commercial articles | Choose Better Tech | Active |
-| Draft iCloud vs Google Drive from the approved research package in a separate content task | Choose Better Tech | Next Up |
+| Begin Best Secure Cloud Storage deep research; do not draft before the research gates pass | Choose Better Tech | Next Up |
 | Verify indexing signals for newly published URLs | Choose Better Tech | Next Up |
 | Choose next distinct cluster opportunity | Choose Better Tech | Next Up |
 
@@ -46,12 +46,12 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Advanced quality guardrails | Complete | Original-contribution, claim-ledger, scorecard, independent-review, PR, capacity, testing, corrections, rollback, transparency, audit, cluster, and search-anomaly policies installed. No article content or counts changed. |
 | Monetization research standard | Complete | Binding parallel-workstream standard created at `operations/MONETIZATION_RESEARCH_STANDARD.md` and linked from the five canonical publishing standards. Research does not authorize applications, outreach, tracked links, CTAs, rankings, or verdict changes. |
 | Sitewide quality audit | Complete | All 50 editorial assets audited at `docs/audits/sitewide-quality-audit-2026-07-12.md`; independent reviewer decision `APPROVE FOR MERGE`; no P0 defect or automatic page action was found. |
-| Cloud Storage cluster approval | Approved | Formal approval recorded at `docs/strategy/cloud-storage-cluster-approval.md`; Proton Drive Review is complete, and iCloud vs Google Drive is next, followed by Best Secure Cloud Storage. |
+| Cloud Storage cluster approval | Approved | Formal approval recorded at `docs/strategy/cloud-storage-cluster-approval.md`; Proton Drive Review and iCloud vs Google Drive are complete, and Best Secure Cloud Storage research is next. |
 | Cloud Storage landscape dossier | Research complete | Shared 12-provider category dossier completed at `docs/research/cloud-storage-landscape-dossier-2026-07-13.md` after provider-specific pricing normalization and independent review. No secure-storage ranking was finalized. |
 | Cloud Storage monetization map | Complete | Provider, direct-program, network, advertising, sponsorship, lead-generation, newsletter, owned-product, licensing, and service opportunities are recorded at `docs/monetization/cloud-storage-monetization-opportunity-map.md`; `Monetization Independence Check: PASS`. No application, outreach, tracked affiliate URL, CTA, ranking, or verdict change occurred. |
 | Proton Drive drafting gate | Complete | Research, monetization-independence, original-contribution, claim-ledger, independent-review, and publication gates passed. |
 | Proton Drive Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #4 merged as `c2f4ad28ddcc72c756bffd66736ace388f97bbbc`; exact Vercel production deployment `5425319112` succeeded. Independent review scored 38/40 before deployment and 39/40 after operations completion. Production title, H1, canonical, key content, FAQ/schema parity, internal links, sitemap, desktop and 390px containment, homepage Hero count, external desktop/mobile screenshots, no page overflow, and IndexNow HTTP 200 passed. The official Proton link is non-affiliate and indexing remains Needs verification. |
-| iCloud vs Google Drive research gate | APPROVE FOR DRAFTING | Canonical comparison research, 33-claim ledger, article monetization supplement, original-contribution PASS, monetization-independence PASS, and independent research review complete. The first reviewer pass required three material corrections; the second pass approved drafting. No draft, article, route, sitemap, UI, affiliate, count, deployment, IndexNow, or publication change occurred. |
+| iCloud vs Google Drive | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #7 merged as `dea4e31e312506811b4a45075b4418cb115fce1b`; homepage discovery PR #8 merged as `2b53c6af3bae19ee6e77f1901f4f8a28a0d2a103`; comparison-count PR #9 merged as `c690f0dbc90fcc91a3c8cc05bdbec2f0ce6a23b0`. Final deployment `5430719168`, live canonical/deep route, 20-FAQ schema parity, links, sitemap, IndexNow HTTP 200, desktop/mobile containment, external article/homepage screenshots, no overflow, and 39/40 final score passed. Indexing remains Needs verification. |
 | Five-article remediation | Complete | Shared audit and all five independent research, content, validation, deployment, production, sitemap, IndexNow, visual, and operations gates passed. |
 | Best Free Password Managers | Final approved | Production URL verified; external desktop/mobile visual QA completed and final approval recorded. |
 | Are VPNs Worth It | Final approved | Production URL verified; external desktop/mobile visual QA completed; editorial, affiliate, evidence, desktop, and mobile QA passed. |
@@ -100,10 +100,10 @@ The solo-safe configuration is intentional and is not a defect. Requiring one ap
 | KPI | Current Value | Target | Reporting Cadence |
 | --- | ---: | ---: | --- |
 | Reviews Published | 12 | TBD | Weekly |
-| Comparisons Published | 13 | TBD | Weekly |
+| Comparisons Published | 14 | TBD | Weekly |
 | Hubs / Guides Published | 26 | TBD | Weekly |
 | Authority Pages Published | 3 | TBD | Weekly |
-| Total Editorial Content Assets | 51 | TBD | Weekly |
+| Total Editorial Content Assets | 52 | TBD | Weekly |
 | Indexed Assets | Needs verification | TBD | Weekly |
 | Organic Clicks | Not measured | TBD | Weekly |
 | Organic Impressions | Not measured | TBD | Weekly |
@@ -138,6 +138,7 @@ These statuses require platform access or manual confirmation outside the reposi
 | IndexNow submission for Best Cloud Storage for Beginners | Complete | `https://choosebettertech.com/best-cloud-storage-for-beginners` submitted after exact production verification on 2026-07-12; live key matched and IndexNow returned HTTP 200. This confirms submission acceptance only; indexing still needs external verification. |
 | IndexNow submission for Google Drive vs Dropbox | Complete | `https://choosebettertech.com/comparisons/google-drive-vs-dropbox` submitted after exact production verification on 2026-07-12; live key matched and IndexNow returned HTTP 200. This confirms submission acceptance only; indexing still needs external verification. |
 | IndexNow submission for Proton Drive Review | Complete | `https://choosebettertech.com/reviews/proton-drive-review` submitted after exact production verification on 2026-07-13; live key matched and IndexNow returned HTTP 200. This confirms submission acceptance only; indexing still needs external verification. |
+| IndexNow submission for iCloud vs Google Drive | Complete | `https://choosebettertech.com/comparisons/icloud-vs-google-drive` submitted after exact production verification on 2026-07-13; live key matched and IndexNow returned HTTP 200. This confirms submission acceptance only; indexing still needs external verification. |
 | URL indexing status | Needs verification | No indexing success is claimed in this dashboard. |
 | Social distribution | Not scheduled | Pinterest, Instagram, and LinkedIn distribution need separate scheduling or confirmation. |
 | KPI performance | Not measured | Traffic, conversion, email, and revenue metrics need external platform data. |
@@ -164,6 +165,7 @@ These statuses require platform access or manual confirmation outside the reposi
 | 2026-07-11 | Password Manager vs Browser Passwords published and final approved | Production URL `https://choosebettertech.com/password-manager-vs-browser-passwords`; content commit `433637de196a82dbdb528abea2a0074acfa14dbf`; Vercel production deployment `dpl_CDwh1F9YJNyvbNSuHASyMwEVWzth` Ready at `choose-better-tech-5iypo9jqc-aaron-s-evans-projects.vercel.app`; production URL, sitemap entry, IndexNow submission, FAQ/schema parity, 25-source-link verification, internal links, affiliate isolation, desktop/mobile structural QA, and established-layout visual approval passed. Final verdict: FINAL APPROVED - ESTABLISHED LAYOUT PRECEDENT. |
 | 2026-07-12 | Best Password Managers for Families published and final approved | Production URL `https://choosebettertech.com/best-password-managers-for-families`; content commit `8873bd3806d582904103e94348ae6706ea0bd657`; Vercel production deployment `dpl_BmX4LFReQHG8nyHi1V9W7YHmzrA9` Ready at `choose-better-tech-pd5c9vmwb-aaron-s-evans-projects.vercel.app`; production URL, sitemap entry, IndexNow submission, FAQ/schema parity, 24-source-link verification, internal links, affiliate isolation, desktop/mobile screenshot QA, and established-layout visual approval passed. Final verdict: FINAL APPROVED - ESTABLISHED LAYOUT PRECEDENT. |
 | 2026-07-12 | Current live content inventory verified | 11 reviews, 12 comparisons, 22 hubs/guides, and 3 authority pages. |
+| 2026-07-13 | iCloud vs Google Drive published and final approved | Production URL `https://choosebettertech.com/comparisons/icloud-vs-google-drive`; article PR #7, homepage correction PR #8, count correction PR #9, final deployment `5430719168`, 39/40 score, external desktop/mobile QA, sitemap, and IndexNow HTTP 200 verified. Live inventory is 12 reviews, 14 comparisons, 26 hubs/guides, and 3 authority pages. |
 | TBD | Google Search Console configured | Indexing and search visibility tracking enabled. |
 | TBD | Google Analytics configured | Traffic measurement enabled. |
 | TBD | Bing Webmaster Tools configured | Bing indexing and visibility tracking enabled. |

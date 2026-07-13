@@ -22,16 +22,16 @@ These counts use published editorial routes in the current repository and sitema
 | Content Type | Count | Definition | Verification Source |
 | --- | ---: | --- | --- |
 | Reviews | 12 | Product review routes under `/reviews/` | Repo route index and production sitemap |
-| Comparisons | 13 | Pairwise comparison routes under `/comparisons/` | Repo route index and production sitemap |
+| Comparisons | 14 | Pairwise comparison routes under `/comparisons/` | Repo route index and production sitemap |
 | Hubs / Guides | 26 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
 | Authority Pages | 3 | About, How We Review Software, and Affiliate Disclosure | Repo routes and production sitemap |
-| Total Editorial Content Assets | 51 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
+| Total Editorial Content Assets | 52 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
 
 ## Content KPIs
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 12 | 13 | 26 | 51 | Needs verification | Proton Drive Review added as the first Cloud Storage review after independent research, a 38/40 pre-deployment and 39/40 final score, PR merge, exact deployment verification, production QA, and IndexNow acceptance. Indexing is not inferred from sitemap presence or submission. |
+| 2026-07 | 12 | 14 | 26 | 52 | Needs verification | Proton Drive Review and iCloud vs Google Drive completed independent research, review, scorecard, PR, exact deployment, production, visual, sitemap, and IndexNow gates. The comparison finished at 39/40 after two production-QA integration fixes. Indexing is not inferred from sitemap presence or submission. |
 
 ## Organic Search KPIs
 

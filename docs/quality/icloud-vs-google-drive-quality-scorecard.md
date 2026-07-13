@@ -14,7 +14,7 @@
 | 3 | Research depth | 2 | Canonical comparison record, shared category dossier, 33-row Critical/High ledger, corrected research review, and article-specific monetization supplement support the implementation. |
 | 4 | Primary-source quality | 2 | Current Apple and Google security, privacy, support, pricing, family, recovery, ownership, and export sources establish product facts. |
 | 5 | Independent evidence | 1 | CISA, ACCC, and DTI add backup/category/portability context, but no current independent hands-on dataset establishes comparative speed, reliability, migration fidelity, support, or recovery quality. |
-| 6 | Claim traceability | 2 | All 33 Critical/High claims have direct sources or identified CBT synthesis, qualifications, conflict treatment, refresh triggers, and final reviewer status; one stale narrative note needs reconciliation. |
+| 6 | Claim traceability | 2 | All 33 Critical/High claims have direct sources or identified CBT synthesis, qualifications, conflict treatment, refresh triggers, and final reviewer status; the stale narrative note was reconciled before final approval. |
 | 7 | Candidate completeness | 2 | The pair is complete for the approved search intent, while alternatives remain available through distinct adjacent pages rather than being inserted into a false multi-provider ranking. |
 | 8 | Inclusion/exclusion reasoning | 2 | The research justifies the Apple/Google pair and explains why Dropbox, Proton Drive, and the future secure-storage candidate set answer different decisions. |
 | 9 | Decision usefulness | 2 | Early verdict, decision cards, table, scenarios, workflow analysis, migration checklist, and FAQs give clear iCloud, Google, dual-use, and neither-as-backup paths. |
@@ -27,13 +27,13 @@
 | 16 | Internal-link fit | 2 | Links to the beginner guide, Google Drive versus Dropbox, and Proton Drive are relevant; reciprocal links and homepage discovery strengthen the cluster without broken future links. |
 | 17 | Code maintainability | 2 | Repeated structures are data-driven, JSX is organized into semantic sections, established components are reused, and route/discovery/count changes are narrowly scoped. |
 | 18 | Technical SEO | 2 | Unique route, title, description, canonical handling, Article/Breadcrumb/FAQ schema, exact FAQ parity, and sitemap wiring are present without fake ratings. |
-| 19 | Accessibility and responsive behavior | 1 | Semantic structure, native FAQ controls, scroll cue, and contained table pattern are present; rendered desktop/390-pixel checks and required external screenshots remain pending. |
-| 20 | Operations completeness | 1 | Research operations are complete, but merge, deployment, live verification, sitemap production check, IndexNow, visual QA, content counts, and six-document publication reconciliation are later stages. |
+| 19 | Accessibility and responsive behavior | 2 | Semantic structure, native FAQ controls, an explicit mobile scroll cue, and a contained table pattern passed desktop and 390-pixel structural QA plus external desktop/mobile screenshot review with no page-level overflow or clipped interactive controls. |
+| 20 | Operations completeness | 2 | Article PR #7, integration fixes in PRs #8 and #9, exact-commit Vercel deployments, live deep-route verification, sitemap, IndexNow, external visual QA, corrected inventory counts, and all six operations records were completed and independently reconciled. |
 
 ## Score
 
-- Total: **37/40**
-- Minimum threshold: Passed (`37 >= 34`).
+- Total: **39/40**
+- Minimum threshold: Passed (`39 >= 34`).
 - Prohibited-zero gate: Passed; no required category scored `0`.
 - Original contribution: Passed (`2`).
 - Research depth: Passed (`2`).
@@ -47,7 +47,6 @@
 ## Deficiencies
 
 1. Independent product evidence remains limited to government/category/portability context; no current independent hands-on dataset establishes comparative speed, reliability, migration fidelity, support, or recovery quality.
-2. Rendered desktop/mobile structural checks, external screenshots, and final operations reconciliation are pending normal later workflow stages.
 
 ## Required Corrections
 
@@ -56,10 +55,12 @@ Completed before final score:
 1. Added explicit untested/unscored support-quality treatment and its effect on the verdict.
 2. Reconciled the stale claim-ledger Author Review Note.
 
-No unresolved editorial correction remains. Structural, external visual, production, and operations gates remain required before final approval.
+No unresolved editorial, structural, visual, production, or operations correction remains.
 
 ## Final Result
 
-`PASS`
+`FINAL APPROVED — EXTERNAL SCREENSHOT QA`
 
 Pre-deployment independent reviewer decision: `APPROVE FOR DEPLOYMENT`.
+Final independent score: `39/40`.
+Operations closeout reviewer decision: `APPROVE FOR MERGE` after one internal-consistency correction.

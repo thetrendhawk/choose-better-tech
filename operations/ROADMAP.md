@@ -202,7 +202,7 @@ Last Updated: 2026-07-13
 | Best Cloud Storage for Beginners | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
 | Google Drive vs Dropbox | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
 | Proton Drive Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
-| iCloud vs Google Drive | Research complete — independently approved for drafting |
+| iCloud vs Google Drive | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
 | Best Secure Cloud Storage | Approved — research not started |
 
 ### Completion Checklist
@@ -222,11 +222,13 @@ Last Updated: 2026-07-13
 2. iCloud vs Google Drive
 3. Best Secure Cloud Storage
 
-Publication checkpoint (2026-07-13): Proton Drive Review passed its shared dossier, dedicated research, 37-claim ledger, original-contribution, monetization-independence, independent-review, 38/40 pre-deployment and 39/40 final scorecards, PR, exact deployment, production, sitemap, IndexNow, desktop, mobile, and external screenshot gates. It is final approved; iCloud vs Google Drive is next for research.
+Publication checkpoint (2026-07-13): Proton Drive Review passed its shared dossier, dedicated research, 37-claim ledger, original-contribution, monetization-independence, independent-review, 38/40 pre-deployment and 39/40 final scorecards, PR, exact deployment, production, sitemap, IndexNow, desktop, mobile, and external screenshot gates. It is final approved.
 
 Monetization checkpoint (2026-07-13): the binding parallel-workstream standard and Cloud Storage opportunity map are complete. No program application, vendor outreach, negotiation, tracked Proton Drive URL, ranking, or verdict change occurred. The published review uses a non-affiliate official Proton destination and preserves the independently reached verdict.
 
 Research checkpoint (2026-07-13): iCloud vs Google Drive completed canonical deep research, a 33-claim Critical/High ledger, article-specific monetization supplement, original-contribution PASS, and monetization-independence PASS. The first independent pass required corrections to UK ADP scope, backup-safety traceability, and iCloud+ program certainty. A fresh pass returned `APPROVE FOR DRAFTING`. No draft or publication work began.
+
+Publication checkpoint (2026-07-13): iCloud vs Google Drive passed independent editorial review at 37/40 before deployment and 39/40 after production and operations closeout. PR #7 published the article; PR #8 corrected homepage discovery; PR #9 corrected the verified comparison count to 14. Final deployment `5430719168`, canonical/deep route, 20-FAQ schema parity, internal links, sitemap, IndexNow HTTP 200, desktop and 390px structural QA, external article/homepage screenshots, table containment, and no page-level overflow passed. No tracked Apple or Google affiliate destination was added. Indexing remains Needs verification. Best Secure Cloud Storage deep research is next; drafting is not yet authorized.
 
 Each article requires its own research record, claim ledger, branch, pull request, independent review, and 34/40 scorecard pass. Work proceeds one article at a time.
 
