@@ -1,6 +1,6 @@
 # Choose Better Tech Publishing Workflow
 
-Version: 1.1
+Version: 1.2
 Status: Binding
 Owner: Choose Better Tech
 Effective Date: 2026-07-12
@@ -15,6 +15,7 @@ This is the binding end-to-end workflow for substantial Choose Better Tech publi
 | --- | --- | --- | --- | --- |
 | 1. Intent and duplicate check | Current roadmap, content inventory, routes, sitemap, existing page copy | Distinct search intent, adjacent-page list, proposed slug, duplicate-route and duplicate-intent results | No unresolved route or primary-intent conflict | `BLOCKED` |
 | 2. Research | Approved intent, article type, candidate scope, source hierarchy | Complete research record at `docs/research/<slug>-research.md` and required claim ledger | All required sections are present, evidence is traceable, and Original Contribution is `PASS` | `RESEARCH INCOMPLETE` |
+| 2a. Parallel monetization research | Approved cluster or commercial article scope; current editorial candidate set | Separate opportunity map under `docs/monetization/` with provider/network research, non-affiliate models, CBT status, conflicts, and independence gate | Required fields are traceable; public availability and CBT status are separate; `Monetization Independence Check: PASS` | `BLOCKED` |
 | 3. Research review | Completed research record | Reviewed candidate set, conflicts, gaps, inclusion/exclusion logic, supported provisional conclusions | Evidence supports the planned structure and conclusions | `RESEARCH INCOMPLETE` |
 | 4. Editorial plan | Approved research record and editorial standards | Reader question, outline, fit labels, limitations, evidence plan, internal-link plan, prohibited claims | Plan matches distinct intent and evidence | `RESEARCH COMPLETE — DRAFT NOT STARTED` |
 | 5. Draft | Approved editorial plan and research record | Complete reader-first draft with visible evidence and testing disclosure | Required sections are complete; unsupported gaps are not hidden | `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED` |
@@ -59,6 +60,8 @@ Also require:
 - responsive-table containment;
 - approximately 390px mobile check;
 - page-level horizontal-overflow check.
+- applicable monetization-map completeness and independence check;
+- confirmation that no application, outreach, tracked link, CTA, ranking, or verdict change was performed under research-only authority.
 
 Any failed mandatory check blocks deployment until corrected and rerun.
 
@@ -71,8 +74,11 @@ Before implementation or deployment, enforce:
 - `operations/ARTICLE_QUALITY_SCORECARD.md`;
 - `operations/INDEPENDENT_REVIEW_PROTOCOL.md`;
 - `operations/HANDS_ON_TESTING_STANDARD.md`.
+- `operations/MONETIZATION_RESEARCH_STANDARD.md`.
 
 The author and independent reviewer must be separate passes. A conditional scorecard result does not permit deployment.
+
+Monetization research and editorial research must be separate workstreams. The monetization reviewer must challenge public program facts, CBT eligibility assumptions, commercial conflicts, non-affiliate feasibility, compliance risks, and the independence gate. Commercial implementation requires separate explicit authorization.
 
 ## Branch and Pull-Request Workflow
 

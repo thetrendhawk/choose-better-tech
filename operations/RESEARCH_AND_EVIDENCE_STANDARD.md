@@ -1,6 +1,6 @@
 # Choose Better Tech Research and Evidence Standard
 
-Version: 1.1
+Version: 1.2
 Status: Binding
 Owner: Choose Better Tech
 Effective Date: 2026-07-12
@@ -14,6 +14,22 @@ Default path:
 `docs/research/<slug>-research.md`
 
 Drafting may not begin until the research-completion gate in this standard passes.
+
+## Parallel Monetization Research
+
+Substantial content clusters and commercial article research must conduct the parallel workstream defined in `operations/MONETIZATION_RESEARCH_STANDARD.md`.
+
+The monetization record must:
+
+- remain separate from editorial conclusions and claim ledgers;
+- record current CBT partnership status separately from public program availability;
+- investigate programs beyond current partnerships and approvals;
+- investigate relevant non-affiliate revenue models;
+- preserve conflicting and unverified commercial facts;
+- include `Monetization Independence Check: PASS` or `FAIL`;
+- receive a separate reviewer decision before merge.
+
+Monetization evidence may not be used to build the editorial candidate set, interpret product evidence, select a winner, or write a verdict. Research completion does not authorize commercial implementation.
 
 ## Required Research-Record Sections
 
@@ -254,5 +270,6 @@ Research completion additionally requires:
 - the required claim ledger complete enough for review;
 - candidate completeness and inclusion/exclusion reasoning appropriate to the article type;
 - an accurate testing plan and prohibited-language list under `operations/HANDS_ON_TESTING_STANDARD.md`.
+- the applicable parallel monetization record and `Monetization Independence Check: PASS` when required by `operations/MONETIZATION_RESEARCH_STANDARD.md`.
 
 The independent reviewer must recheck Critical claims, excluded candidates, source quality, and testing transparency under `operations/INDEPENDENT_REVIEW_PROTOCOL.md`.

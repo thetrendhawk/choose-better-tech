@@ -11,6 +11,16 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-13 - Monetization research standard installed and Cloud Storage opportunity map completed
+
+- Created the binding parallel-workstream standard at `operations/MONETIZATION_RESEARCH_STANDARD.md` for substantial clusters and commercial article research.
+- Bound the standard into the editorial, research/evidence, publishing-workflow, automation-contract, and topic-cluster approval standards without weakening existing editorial, evidence, testing, review, affiliate-independence, or publishing requirements.
+- Completed `docs/monetization/cloud-storage-monetization-opportunity-map.md` across provider-level affiliate and referral programs, direct programs, named affiliate networks, sponsorships, display ads, lead generation, newsletters, owned products, licensing, syndication, and service models.
+- Preserved pCloud's contradictory 45/90-day cookie claims, Sync's stale ShareASale references versus current Awin information, Proton Drive attribution uncertainty, and other login-gated or unverified terms rather than guessing.
+- Recorded `Monetization Independence Check: PASS`. Proton Drive's editorial verdict remains independent, and drafting has not started.
+- No program application, vendor outreach, negotiation, tracked affiliate URL, affiliate-registry change, CTA, article, route, UI, sitemap, ranking, verdict, or publication change occurred.
+- Proton Drive drafting becomes the next state only after this governance pull request receives independent approval and merges.
+
 ### 2026-07-13 — Cloud Storage dossier and Proton Drive review research completed
 
 - Created the shared 12-provider Cloud Storage landscape dossier at `docs/research/cloud-storage-landscape-dossier-2026-07-13.md` for the approved Proton Drive Review, iCloud vs Google Drive, and Best Secure Cloud Storage sequence.

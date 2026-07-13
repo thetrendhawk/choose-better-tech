@@ -10,7 +10,7 @@ Last Updated: 2026-07-13
 | Field | Status |
 | --- | --- |
 | Phase | Traffic execution and cluster expansion |
-| Summary | Canonical publishing standards and advanced quality guardrails are active. All five audited automation-published pages completed independent remediation and final approval before this guardrail installation. |
+| Summary | Canonical publishing standards, advanced quality guardrails, and a binding parallel monetization-research workstream are active. All five audited automation-published pages completed independent remediation and final approval before this guardrail installation. |
 | Health | On Track |
 
 ## Current Sprint
@@ -32,6 +32,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | --- | --- | --- |
 | Maintain current operational dashboards | Choose Better Tech | Active |
 | Apply advanced guardrails to all future major content | Choose Better Tech | Active |
+| Apply the binding monetization-research standard to substantial clusters and commercial articles | Choose Better Tech | Active |
 | Monitor the five remediated pages and select the next roadmap item | Choose Better Tech | Active |
 | Verify indexing signals for newly published URLs | Choose Better Tech | Next Up |
 | Choose next distinct cluster opportunity | Choose Better Tech | Next Up |
@@ -43,9 +44,12 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Operations documentation framework | Complete | Repo evidence shows active SOPs, dashboards, templates, and content inventory records. |
 | Canonical publishing standards | Complete | Editorial, research/evidence, publishing-workflow, automation-contract, and volatile-claims standards installed. No article or application code changed. |
 | Advanced quality guardrails | Complete | Original-contribution, claim-ledger, scorecard, independent-review, PR, capacity, testing, corrections, rollback, transparency, audit, cluster, and search-anomaly policies installed. No article content or counts changed. |
+| Monetization research standard | Complete | Binding parallel-workstream standard created at `operations/MONETIZATION_RESEARCH_STANDARD.md` and linked from the five canonical publishing standards. Research does not authorize applications, outreach, tracked links, CTAs, rankings, or verdict changes. |
 | Sitewide quality audit | Complete | All 50 editorial assets audited at `docs/audits/sitewide-quality-audit-2026-07-12.md`; independent reviewer decision `APPROVE FOR MERGE`; no P0 defect or automatic page action was found. |
 | Cloud Storage cluster approval | Approved | Formal approval recorded at `docs/strategy/cloud-storage-cluster-approval.md`; next sequence remains Proton Drive Review, iCloud vs Google Drive, then Best Secure Cloud Storage. |
 | Cloud Storage landscape dossier | Research complete | Shared 12-provider category dossier completed at `docs/research/cloud-storage-landscape-dossier-2026-07-13.md` after provider-specific pricing normalization and independent review. No secure-storage ranking was finalized. |
+| Cloud Storage monetization map | Complete | Provider, direct-program, network, advertising, sponsorship, lead-generation, newsletter, owned-product, licensing, and service opportunities are recorded at `docs/monetization/cloud-storage-monetization-opportunity-map.md`; `Monetization Independence Check: PASS`. No application, outreach, tracked affiliate URL, CTA, ranking, or verdict change occurred. |
+| Proton Drive drafting gate | Ready after governance merge | Proton Drive's editorial verdict remains independent of the monetization map. Research is approved, but drafting has not started and may begin only after the monetization-governance PR merges. |
 | Proton Drive Review | RESEARCH COMPLETE — DRAFT NOT STARTED | Corrected provider research and all 37 Critical/High claims received independent decision `APPROVE FOR DRAFTING`. No article, route, sitemap, affiliate, production deployment, or IndexNow change occurred. Required PR pushes triggered automatic Vercel Preview deployments; the canonical production site was unchanged. |
 | Five-article remediation | Complete | Shared audit and all five independent research, content, validation, deployment, production, sitemap, IndexNow, visual, and operations gates passed. |
 | Best Free Password Managers | Final approved | Production URL verified; external desktop/mobile visual QA completed and final approval recorded. |

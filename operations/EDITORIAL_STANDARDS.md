@@ -1,6 +1,6 @@
 # Choose Better Tech Editorial Standards
 
-Version: 1.1
+Version: 1.2
 Status: Binding
 Owner: Choose Better Tech
 Effective Date: 2026-07-12
@@ -34,6 +34,16 @@ Affiliate availability, commission rate, advertiser interest, network approval, 
 - update priority.
 
 Choose Better Tech does not accept payment for positive reviews, guarantee positive coverage, or allow advertisers to approve editorial conclusions. Affiliate and editorial processes must remain separate.
+
+## Monetization Research Separation
+
+`operations/MONETIZATION_RESEARCH_STANDARD.md` is binding for substantial content clusters and commercial article research.
+
+Monetization research may inform business planning, application priorities, category economics, maintenance investment, and commercial outreach. It must remain structurally separate from editorial research and may not influence factual conclusions, candidate inclusion or exclusion, rankings, verdicts, recommendation labels, evidence interpretation, or publication conclusions.
+
+Research must cover relevant opportunities outside CBT's current partnerships and include realistic non-affiliate models. A completed monetization record does not authorize applications, outreach, negotiation, tracked links, affiliate-registry changes, CTA changes, sponsorships, lead collection, rankings changes, or verdict changes.
+
+Every substantial cluster opportunity map must record `Monetization Independence Check: PASS` or `FAIL`. A `FAIL` blocks commercial implementation.
 
 ## Accuracy
 
