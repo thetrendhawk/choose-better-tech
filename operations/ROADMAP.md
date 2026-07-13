@@ -51,7 +51,8 @@ Last Updated: 2026-07-12
 - [x] Original-contribution, claim-ledger, article-scorecard, and independent-review gates installed.
 - [x] Major-content branch and pull-request workflow installed.
 - [x] Capacity, testing, corrections, rollback, transparency, sitewide-audit, topic-cluster, and search-anomaly policies installed.
-- [ ] Configure and verify GitHub `main` branch protection: pull request required, at least one approval, stale approvals dismissed, required checks, up-to-date branch, force-push and deletion blocks, and direct-push restrictions where practical.
+- [x] GitHub `main` ruleset active and manually verified on 2026-07-12: pull request required, branch deletion restricted, and force pushes blocked. Current solo-safe mode intentionally does not claim required approvals or status checks.
+- [ ] Consider requiring one approval when another trusted reviewer is available.
 - [ ] Create a public `/editorial-policy-and-corrections` page in a dedicated task.
 - [ ] Connect or verify Search Console monitoring and establish anomaly baselines.
 - [ ] Automate volatile-claim refresh reminders in a later task.
@@ -200,18 +201,36 @@ Last Updated: 2026-07-12
 | --- | --- |
 | Best Cloud Storage for Beginners | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
 | Google Drive vs Dropbox | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
-| Proton Drive Review | Planned |
-| iCloud vs Google Drive | Planned |
-| Best Secure Cloud Storage | Planned |
+| Proton Drive Review | Approved — research not started |
+| iCloud vs Google Drive | Approved — research not started |
+| Best Secure Cloud Storage | Approved — research not started |
 
 ### Completion Checklist
 
-- [ ] Category research completed.
-- [x] Category research completed.
+- [x] Category research completed for the two existing assets.
+- [x] Formal Cloud Storage cluster approval completed.
+- [ ] Shared three-article research dossier completed.
 - [x] Editorial framework created for first article.
 - [x] At least one guide and one comparison published.
 - [ ] Affiliate opportunities scored.
 - [ ] Performance reviewed after indexing.
+
+### Approved Expansion Sequence
+
+1. Proton Drive Review
+2. iCloud vs Google Drive
+3. Best Secure Cloud Storage
+
+Each article requires its own research record, claim ledger, branch, pull request, independent review, and 34/40 scorecard pass. Work proceeds one article at a time.
+
+### Future UX Polish — Google Drive vs Dropbox
+
+This is optional polish, not remediation. Preserve the current content depth and verdict while considering:
+
+- compact in-page navigation or jump links;
+- a clearer scan-friendly decision summary;
+- a mobile “swipe to compare” cue;
+- visible sources organized by category.
 
 ## Phase 6: Cybersecurity Tools
 
