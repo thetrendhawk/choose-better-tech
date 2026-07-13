@@ -58,6 +58,7 @@ const routes = [
   "/comparisons/google-drive-vs-dropbox",
   "/reviews/nordvpn-review",
   "/reviews/proton-vpn-review",
+  "/reviews/proton-drive-review",
   "/reviews/surfshark-review",
   "/reviews/1password-review",
   "/reviews/bitwarden-review",
