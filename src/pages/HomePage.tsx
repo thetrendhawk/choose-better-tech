@@ -20,9 +20,9 @@ function SectionIntro({ eyebrow, title, description }: { eyebrow?: string; title
 }
 
 const homepageComparisonKeys = new Set([
+  "icloud-vs-google-drive",
   "nordvpn-vs-protonvpn",
   "nordvpn-vs-surfshark",
-  "proton-vpn-vs-surfshark",
   "bitwarden-vs-1password",
   "bitwarden-vs-proton-pass",
   "onepassword-vs-proton-pass"
