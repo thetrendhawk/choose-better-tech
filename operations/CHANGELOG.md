@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-13 — Best Secure Cloud Storage research approved for drafting
+
+- Created a threat-model-first canonical research record covering 20 providers, baselines, overlays, backup, and self-hosted options.
+- Created and independently approved a 44-claim Critical/High ledger with direct source traceability, source dates, conflicts, qualifications, and refresh triggers.
+- Added the article-specific monetization supplement; `Monetization Independence Check: PASS`; no application, outreach, tracked link, CTA, registry, ranking, or verdict change occurred.
+- Independent review required three correction rounds before returning `APPROVE FOR DRAFTING`.
+- No article, route, UI, sitemap, content count, deployment, IndexNow, or publication work occurred.
+
 ### 2026-07-13 — iCloud vs Google Drive published and final approved
 
 - Published `iCloud vs Google Drive: Which Is Better in 2026?` at `https://choosebettertech.com/comparisons/icloud-vs-google-drive` from the approved canonical research, 33-claim ledger, original-contribution PASS, and monetization-independence PASS.
