@@ -272,6 +272,8 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 
 ## Next Production Priorities
 
+- Best Antivirus Software completed deep research, a 32-row reviewed claim ledger, independent article review, a 38/40 pre-deployment score, and local desktop/mobile production QA. Publication and exact production closeout are next; indexing remains unverified.
+
 1. Verify `https://choosebettertech.com/sitemap.xml` submission status in Google Search Console.
 2. Verify `https://choosebettertech.com/sitemap.xml` and IndexNow receipt status in Bing Webmaster Tools.
 3. Monitor indexing status per published URL without inferring indexation from sitemap or IndexNow submission.
