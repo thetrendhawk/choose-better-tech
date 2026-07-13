@@ -117,7 +117,7 @@ const products: CloudPick[] = [
     recovery:
       "The Free plan currently saves up to 10 versions for seven days; paid plans offer longer configurable history.",
     privacy:
-      "Proton documents end-to-end encryption for contents, filenames, and folder names, while some metadata such as file size remains visible.",
+      "Proton documents end-to-end encryption for contents, filenames, and folder names, while operational fields such as timestamps, permissions, and an encrypted file-size value remain available to the service.",
     pricing:
       "Drive-only and broader Proton bundles differ. Verify the current checkout total, renewal, storage allocation, and prorated refund rules.",
     chooseWhen:
@@ -561,6 +561,12 @@ export function BestCloudStorageForBeginnersPage() {
                 <p className="mt-2 leading-7">{product.skipWhen}</p>
               </div>
             </div>
+            {product.name === "Proton Drive" ? (
+              <p className="mt-5 max-w-4xl leading-7 text-slate-700">
+                Need the field-level privacy, recovery, business, and migration details? Read our{" "}
+                <InternalLink to="/reviews/proton-drive-review">full Proton Drive review</InternalLink>.
+              </p>
+            ) : null}
           </Container>
         </Section>
       ))}
@@ -712,8 +718,9 @@ export function BestCloudStorageForBeginnersPage() {
               Start with Google Drive if you want the easiest mainstream collaboration choice.
               Choose Dropbox for focused sync, iCloud Drive for Apple, OneDrive for Microsoft 365,
               Proton Drive for privacy, Sync.com for private sharing, or pCloud for Linux and
-              flexible plans. Then configure account security, test recovery and export, and keep
-              an independent backup.
+              flexible plans. Read the <InternalLink to="/reviews/proton-drive-review">full Proton
+              Drive review</InternalLink> if encrypted storage is your priority. Then configure
+              account security, test recovery and export, and keep an independent backup.
             </p>
             <p className="mt-4 max-w-4xl leading-7 text-slate-700">
               Deciding between the two mainstream cross-platform choices? Read our detailed{" "}

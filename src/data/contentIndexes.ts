@@ -8,6 +8,13 @@ export type ArticleGroup = {
 
 export const reviewGroups: ArticleGroup[] = [
   {
+    title: "Cloud Storage Reviews",
+    description: "Evidence-based cloud storage reviews focused on privacy architecture, sync, sharing, recovery, portability, pricing, and reader fit.",
+    articles: [
+      { key: "proton-drive-review", title: "Proton Drive Review", excerpt: "A documentation-based review of Proton Drive's encryption, metadata, apps, recovery, collaboration, pricing, family use, and business tradeoffs.", href: "/reviews/proton-drive-review", status: "Published Review" }
+    ]
+  },
+  {
     title: "VPN Reviews",
     description: "Evidence-based VPN reviews focused on privacy, usability, performance fit, pricing uncertainty, and beginner-friendly tradeoffs.",
     articles: [
