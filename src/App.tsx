@@ -61,6 +61,7 @@ const RoboFormReviewPage = lazy(() => import("./pages/RoboFormReviewPage").then(
 const ReviewsIndexPage = lazy(() => import("./pages/ReviewsIndexPage").then((module) => ({ default: module.ReviewsIndexPage })));
 const SurfsharkReviewPage = lazy(() => import("./pages/SurfsharkReviewPage").then((module) => ({ default: module.SurfsharkReviewPage })));
 const TermsPage = lazy(() => import("./pages/TermsPage").then((module) => ({ default: module.TermsPage })));
+const TotalAvReviewPage = lazy(() => import("./pages/TotalAvReviewPage").then((module) => ({ default: module.TotalAvReviewPage })));
 const VpnDecisionHubPage = lazy(() => import("./pages/VpnDecisionHubPage").then((module) => ({ default: module.VpnDecisionHubPage })));
 const VpnGuidePage = lazy(() => import("./pages/VpnGuidePage").then((module) => ({ default: module.VpnGuidePage })));
 const VpnPrivacyGuidePage = lazy(() => import("./pages/VpnPrivacyGuidePage").then((module) => ({ default: module.VpnPrivacyGuidePage })));
@@ -152,6 +153,7 @@ export default function App() {
             <Route path="reviews/incogni-review" element={<IncogniReviewPage />} />
             <Route path="reviews/optery-review" element={<OpteryReviewPage />} />
             <Route path="reviews/deleteme-review" element={<DeleteMeReviewPage />} />
+            <Route path="reviews/totalav-review" element={<TotalAvReviewPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Route>

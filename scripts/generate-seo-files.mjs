@@ -70,7 +70,8 @@ const routes = [
   "/reviews/roboform-review",
   "/reviews/incogni-review",
   "/reviews/optery-review",
-  "/reviews/deleteme-review"
+  "/reviews/deleteme-review",
+  "/reviews/totalav-review"
 ];
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

@@ -8,6 +8,13 @@ export type ArticleGroup = {
 
 export const reviewGroups: ArticleGroup[] = [
   {
+    title: "Cybersecurity Tool Reviews",
+    description: "Evidence-based security software reviews focused on protection, trust, subscription terms, platform limits, and reader fit.",
+    articles: [
+      { key: "totalav-review", title: "TotalAV Review", excerpt: "An evidence-led review of TotalAV's protection results, annual standing, renewal, separate add-ons, privacy, platform limits, and reader fit.", href: "/reviews/totalav-review", status: "Published Review" }
+    ]
+  },
+  {
     title: "Cloud Storage Reviews",
     description: "Evidence-based cloud storage reviews focused on privacy architecture, sync, sharing, recovery, portability, pricing, and reader fit.",
     articles: [
