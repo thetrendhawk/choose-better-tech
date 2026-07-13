@@ -4,9 +4,9 @@ Checked date: 2026-07-13
 
 Research record: `docs/research/proton-drive-review-research.md`
 
-Workflow status: Awaiting independent review
+Workflow status: Independent review complete — `APPROVE FOR DRAFTING`
 
-Rule: No Critical or High claim may remain unreviewed when research is approved for drafting.
+Rule result: 37 of 37 Critical/High claims independently reviewed; 6 `Approved`, 31 `Approved with qualification`, 0 pending or returned.
 
 | ID | Claim | Claim type | Importance | Product/provider | Source | Source type | Source date | Checked date | Volatile | Qualification | Conflict | Article location | Reviewer status | Refresh trigger |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

@@ -389,6 +389,6 @@ Recommended future test fixture:
 
 ## Dossier Status
 
-`RESEARCH CORRECTIONS COMPLETE — INDEPENDENT RE-REVIEW PENDING`
+`RESEARCH COMPLETE — CATEGORY DOSSIER ONLY`
 
-This record does not authorize provider-review drafting until the fresh independent pass approves the corrected package. It never authorizes a secure-storage ranking, article implementation, route, deployment, or publication claim by itself.
+The corrected package received independent approval for Proton Drive drafting on 2026-07-13. This dossier never authorizes a secure-storage ranking, article implementation, route, production deployment, or publication claim by itself.

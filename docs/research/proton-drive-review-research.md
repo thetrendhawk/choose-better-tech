@@ -716,10 +716,10 @@ These gaps constrain the draft; they do not justify guesses.
 
 ## Research Completion Gate
 
-- Required sections present: corrected; fresh independent review pending
+- Required sections present: PASS
 - Original Contribution: PASS
 - Distinct intent and duplicate check: PASS
-- Critical/High claim ledger corrected and expanded; fresh independent review pending
+- Critical/High claim ledger complete; 37/37 independently reviewed
 - Candidate/context completeness appropriate to a provider review: PASS
 - Testing disclosure and prohibited claims: PASS
 - Unresolved gaps preserved: PASS
@@ -727,6 +727,6 @@ These gaps constrain the draft; they do not justify guesses.
 
 ## Research Status
 
-`RESEARCH INCOMPLETE — INDEPENDENT RE-REVIEW PENDING`
+`RESEARCH COMPLETE — DRAFT NOT STARTED`
 
-This status authorizes only the fresh independent research review. It does not authorize drafting, article creation, route changes, sitemap changes, affiliate changes, deployment, IndexNow, or publication.
+The independent reviewer decision is `APPROVE FOR DRAFTING`. This status authorizes a later drafting task only. It does not mean a draft exists and does not authorize article implementation, route changes, sitemap changes, affiliate changes, production deployment, IndexNow, or publication.

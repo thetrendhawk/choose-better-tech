@@ -8,6 +8,7 @@
 - Claim ledger: `docs/research/proton-drive-review-claim-ledger.md`
 - Shared dossier: `docs/research/cloud-storage-landscape-dossier-2026-07-13.md`
 - Scope reviewed: Research only; no article, route, sitemap, UI, affiliate, production deployment, or IndexNow work. Required PR pushes triggered automatic Vercel Preview deployments; the production canonical was unchanged.
+- Current reviewer decision: `APPROVE FOR DRAFTING`
 
 ## Main Verdict Challenged
 
@@ -251,3 +252,41 @@ After that text-only correction, a final narrow reviewer check may approve draft
 `RETURN FOR CORRECTION`
 
 The evidence package and claim ledger remain sufficient for drafting with their recorded qualifications. Drafting is still blocked solely because the operations record gives an incorrect preview-deployment count.
+
+## Final Narrow Pass — 2026-07-13
+
+### Boundary Correction Verified
+
+Commit `f1105b5120d6ef571672dd43bc3bd8fa266c7534` removes the inaccurate numeric preview count. The affected operations records now say that required pull-request pushes triggered automatic Vercel Preview deployments, that no production deployment occurred, and that the canonical production site was unchanged.
+
+The nonnumeric wording remains accurate as additional correction/reviewer pushes create further automatic previews.
+
+### Deployment Evidence
+
+- The `f1105b5` push produced GitHub deployment `5417776532` with environment `Preview` and `production_environment: false`.
+- The Vercel PR check completed successfully and identifies the deployment as a preview workflow.
+- No production deployment record exists for `f1105b5` or the `research/proton-drive-review` branch.
+- `origin/main` remains `9279aa8c258d1aba022c8a8387ae4657f9d9c54f`; none of the research-branch commits has entered the production branch.
+- The canonical production site was unchanged.
+
+### Scope Recheck
+
+The PR diff still contains only:
+
+- the shared Cloud Storage landscape dossier;
+- the Proton Drive review research record;
+- the 37-row claim ledger;
+- this independent review;
+- `CHANGELOG`, `CONTENT_CALENDAR`, `PROJECT_STATUS`, and `ROADMAP` status updates.
+
+There is no article, application code, route, sitemap, affiliate registry, UI, IndexNow, publication, or content-count change. The 37 claim statuses remain final: 6 `Approved`, 31 `Approved with qualification`, and none pending or returned.
+
+### Remaining Limitations
+
+The documented evidence limitations remain binding drafting constraints, including the dated mobile-audit scope, incomplete incident history, unverified Drive Plus checkout price, incomplete business ownership-transfer/export evidence, and absence of hands-on product testing. They do not block documentation-based drafting because the corrected research explicitly preserves them and prohibits unsupported certainty.
+
+### Current Final Reviewer Decision
+
+`APPROVE FOR DRAFTING`
+
+This decision supersedes the earlier historical `RETURN FOR CORRECTION` decisions preserved above. It authorizes a later drafting task under the binding publishing workflow. It does not authorize publication, production deployment, affiliate changes, IndexNow submission, or bypassing the later article scorecard and independent deployment review gates.
