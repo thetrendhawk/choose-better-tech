@@ -3,13 +3,21 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-12
+Last Updated: 2026-07-13
 
 ## Purpose
 
 This changelog records major business, publishing, analytics, affiliate, and operational milestones for Choose Better Tech.
 
 ## Changelog
+
+### 2026-07-13 — Cloud Storage dossier and Proton Drive review research completed
+
+- Created the shared 12-provider Cloud Storage landscape dossier at `docs/research/cloud-storage-landscape-dossier-2026-07-13.md` for the approved Proton Drive Review, iCloud vs Google Drive, and Best Secure Cloud Storage sequence.
+- Created `docs/research/proton-drive-review-research.md` and its Critical/High claim ledger without drafting or implementing the review; the first independent pass returned the package for correction.
+- Preserved unresolved pricing, audit, Linux-client, recovery, business-offboarding, performance, and migration evidence gaps rather than inventing certainty.
+- Completed the required corrections and independent re-review. Final reviewer decision: `APPROVE FOR DRAFTING`; all 37 Critical/High claims have final statuses, while drafting remains not started.
+- No article, route, UI, sitemap, affiliate, content-count, production deployment, IndexNow, or live-site change occurred. Required pull-request pushes triggered automatic Vercel Preview deployments; they were not promoted and did not change the canonical production site.
 
 ### 2026-07-12 — Sitewide audit completed and Cloud Storage cluster approved
 

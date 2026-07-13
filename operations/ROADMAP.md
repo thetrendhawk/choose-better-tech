@@ -201,7 +201,7 @@ Last Updated: 2026-07-12
 | --- | --- |
 | Best Cloud Storage for Beginners | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
 | Google Drive vs Dropbox | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
-| Proton Drive Review | Approved — research not started |
+| Proton Drive Review | RESEARCH COMPLETE — DRAFT NOT STARTED; independent decision `APPROVE FOR DRAFTING` |
 | iCloud vs Google Drive | Approved — research not started |
 | Best Secure Cloud Storage | Approved — research not started |
 
@@ -209,7 +209,7 @@ Last Updated: 2026-07-12
 
 - [x] Category research completed for the two existing assets.
 - [x] Formal Cloud Storage cluster approval completed.
-- [ ] Shared three-article research dossier completed.
+- [x] Shared three-article research dossier completed.
 - [x] Editorial framework created for first article.
 - [x] At least one guide and one comparison published.
 - [ ] Affiliate opportunities scored.
@@ -220,6 +220,8 @@ Last Updated: 2026-07-12
 1. Proton Drive Review
 2. iCloud vs Google Drive
 3. Best Secure Cloud Storage
+
+Research checkpoint (2026-07-13): the shared 12-provider dossier, Proton Drive review research record, 37-claim ledger, corrections, and independent review are complete. The final reviewer decision is `APPROVE FOR DRAFTING`. No article draft or production implementation has started; Proton Drive remains first in sequence.
 
 Each article requires its own research record, claim ledger, branch, pull request, independent review, and 34/40 scorecard pass. Work proceeds one article at a time.
 
