@@ -43,6 +43,8 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Operations documentation framework | Complete | Repo evidence shows active SOPs, dashboards, templates, and content inventory records. |
 | Canonical publishing standards | Complete | Editorial, research/evidence, publishing-workflow, automation-contract, and volatile-claims standards installed. No article or application code changed. |
 | Advanced quality guardrails | Complete | Original-contribution, claim-ledger, scorecard, independent-review, PR, capacity, testing, corrections, rollback, transparency, audit, cluster, and search-anomaly policies installed. No article content or counts changed. |
+| Sitewide quality audit | Complete | All 50 editorial assets audited at `docs/audits/sitewide-quality-audit-2026-07-12.md`; independent reviewer decision `APPROVE FOR MERGE`; no P0 defect or automatic page action was found. |
+| Cloud Storage cluster approval | Approved | Formal approval recorded at `docs/strategy/cloud-storage-cluster-approval.md`; next sequence is Proton Drive Review, iCloud vs Google Drive, then Best Secure Cloud Storage. Article research has not started. |
 | Five-article remediation | Complete | Shared audit and all five independent research, content, validation, deployment, production, sitemap, IndexNow, visual, and operations gates passed. |
 | Best Free Password Managers | Final approved | Production URL verified; external desktop/mobile visual QA completed and final approval recorded. |
 | Are VPNs Worth It | Final approved | Production URL verified; external desktop/mobile visual QA completed; editorial, affiliate, evidence, desktop, and mobile QA passed. |
@@ -67,10 +69,24 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | --- | --- | --- | --- |
 | Canonical Business Identity Kit pending import | Business identity file remains placeholder-only | Choose Better Tech | Add canonical document in a later update. |
 | Canonical Affiliate Application Playbook pending import | Affiliate playbook remains placeholder-only | Choose Better Tech | Add canonical document in a later update. |
-| GitHub branch protection not verified | Major-content PR policy is documented, but repository enforcement could not be inspected without authenticated GitHub settings access. | Choose Better Tech | Manually require pull requests, at least one approval, stale-approval dismissal, status checks, up-to-date branches, and blocks on force pushes and branch deletion; restrict direct pushes where practical. |
 | Public editorial-policy-and-corrections page pending | Internal transparency and corrections policy is active, but the recommended public trust page is not yet implemented. | Choose Better Tech | Create `/editorial-policy-and-corrections` in a later dedicated task. |
 | Search monitoring connection pending | Search-anomaly policy is active, but Search Console data access remains unverified. | Choose Better Tech | Connect or verify Search Console monitoring and record available baselines. |
 | Volatile-claim reminders are manual | Refresh triggers are documented but not automated. | Choose Better Tech | Automate reminders in a later dedicated task. |
+
+## GitHub Main-Branch Ruleset
+
+| Field | Verified state |
+| --- | --- |
+| Status | Active and manually verified on 2026-07-12 |
+| Target | Default branch / `main` |
+| Require pull request before merging | Enabled |
+| Restrict branch deletion | Enabled |
+| Block force pushes | Enabled |
+| Approval mode | Solo-safe configuration |
+| Required approval count | Not claimed as enabled |
+| Required status checks | Not claimed as enabled |
+
+The solo-safe configuration is intentional and is not a defect. Requiring one approval remains a future option when another trusted reviewer is available.
 
 ## Current KPIs
 

@@ -11,6 +11,16 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-12 — Sitewide audit completed and Cloud Storage cluster approved
+
+- Audited all 50 current editorial assets under the advanced quality guardrails and recorded the results at `docs/audits/sitewide-quality-audit-2026-07-12.md`.
+- Assigned 0 P0, 19 P1, 19 P2, and 12 P3 priorities. No page was automatically changed, merged, redirected, removed from promotion, noindexed, or retired.
+- Independent reviewer verified all 50 unique routes, priority counts, ruleset claims, five-file scope, Cloud Storage approval, and diff integrity, then returned `APPROVE FOR MERGE` with no corrections.
+- Approved the Cloud Storage cluster at `docs/strategy/cloud-storage-cluster-approval.md` with the sequence Proton Drive Review, iCloud vs Google Drive, and Best Secure Cloud Storage. No article research or drafting began.
+- Reconciled the GitHub `main` ruleset as active and manually verified on 2026-07-12: pull requests required, branch deletion restricted, and force pushes blocked. The intentional solo-safe configuration does not claim one required approval or required status checks.
+- Recorded optional Google Drive vs Dropbox UX polish for jump links, a clearer decision summary, a mobile comparison cue, and categorized sources while preserving the current verdict and depth.
+- No article, route, UI, affiliate, sitemap, content-count, deployment, or IndexNow change occurred.
+
 ### 2026-07-12 — Advanced publishing quality guardrails installed
 
 - Added binding standards for original contribution, the 34/40 article quality scorecard, claim ledgers, independent review, author/reviewer separation, capacity limits, hands-on testing, substantive dates and corrections, rollback, authorship and AI transparency, sitewide audits, topic-cluster approval, and search-anomaly response.
