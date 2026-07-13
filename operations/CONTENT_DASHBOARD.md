@@ -25,7 +25,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 | --- | ---: | --- |
 | Reviews | 12 | 3 VPN reviews, 5 password manager reviews, 3 privacy tool reviews, and 1 cloud-storage review |
 | Comparisons | 14 | 3 VPN comparisons, 6 password manager comparisons, 3 privacy tool comparisons, and 2 cloud-storage comparisons |
-| Hubs / Guides | 27 | 3 decision hubs, 13 VPN guides, 7 password-manager guides, 2 cloud-storage guides, 1 data-removal decision guide, and 1 data-removal commercial investigation |
+| Hubs / Guides | 28 | 3 decision hubs, 13 VPN guides, 7 password-manager guides, 2 cloud-storage guides, 1 cybersecurity guide, 1 data-removal decision guide, and 1 data-removal commercial investigation |
 | Authority Pages | 3 | How We Review Software, Affiliate Disclosure, About |
 
 ## Status Legend
@@ -138,6 +138,12 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | Proton Drive Review | `/reviews/proton-drive-review` | Review | N/A | `docs/research/proton-drive-review-research.md` | N/A | Yes | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Yes | No verified Proton Drive affiliate; official link is non-affiliate | 2026-07-13 | Claim ledger and independent review complete; score 38/40 pre-deployment and 39/40 final after operations completion. PR #4 merged as `c2f4ad2`; Vercel deployment `5425319112` succeeded. Production title, H1, canonical, content, FAQ/schema parity, three responsive tables, internal links, sitemap, IndexNow HTTP 200, desktop/mobile containment, homepage Hero count, external desktop/mobile screenshots, and no-overflow checks passed. |
 | iCloud vs Google Drive | `/comparisons/icloud-vs-google-drive` | Comparison | N/A | `docs/research/icloud-vs-google-drive-research.md` | N/A | Yes | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Yes | No tracked Apple or Google link; product destinations are non-affiliate | 2026-07-13 | 33-claim ledger, original-contribution and monetization-independence gates, independent review, 37/40 pre-deployment and 39/40 final score passed. PR #7 merged as `dea4e31`; homepage discovery PR #8 as `2b53c6a`; count correction PR #9 as `c690f0d`; final deployment `5430719168` passed production desktop/mobile screenshots, canonical, schemas, links, sitemap, IndexNow HTTP 200, table containment, and no-overflow checks. |
 | Best Secure Cloud Storage | `/best-secure-cloud-storage` | Major ranking | N/A | `docs/research/best-secure-cloud-storage-research.md` | N/A | Yes | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Yes | No tracked product links; monetization independence PASS | 2026-07-13 | PR #12 merged as `03836ae`; Vercel deployment `5431834580` succeeded. The 50-claim article passed 39/40 independent review, canonical/deep-route HTTP 200, 20-FAQ/schema parity, internal links, sitemap, IndexNow HTTP 200, desktop/390px containment, responsive table containment, external production article/homepage screenshots, 27-guide homepage count, and no page-level overflow. Indexing remains Needs verification. |
+
+## Cybersecurity Tools Cluster Asset Inventory
+
+| Asset | Route | Type | Affiliate Status | Research | Claim Ledger | Sources | QA | Sitemap | Monetization | Last Reviewed | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Best Antivirus Software | `/best-antivirus-software` | Major ranking | No tracked product links | `docs/research/best-antivirus-software-research.md` | 32/32 reviewed | Yes | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Yes | Independence PASS | 2026-07-13 | PR #15 merged as `c702c35816ab2ecbce736f74d3250d1a73d8982d`; exact Vercel deployment `5432407193` succeeded. Production route, deep refresh, canonical, H1, sitemap, desktop/390px containment, responsive table containment, external article/homepage screenshots, homepage count 28, and IndexNow HTTP 200 passed. Score 39/40; indexing remains Needs verification. |
 
 ## Data Removal Cluster Asset Inventory
 
@@ -272,7 +278,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 
 ## Next Production Priorities
 
-- Best Antivirus Software completed deep research, a 32-row reviewed claim ledger, independent article review, a 38/40 pre-deployment score, and local desktop/mobile production QA. Publication and exact production closeout are next; indexing remains unverified.
+- Best Antivirus Software is final approved after deep research, a 32-row reviewed claim ledger, independent review, PR #15, exact deployment `5432407193`, production desktop/mobile QA, sitemap, and IndexNow acceptance. TotalAV Review is next in the approved autopilot run.
 
 1. Verify `https://choosebettertech.com/sitemap.xml` submission status in Google Search Console.
 2. Verify `https://choosebettertech.com/sitemap.xml` and IndexNow receipt status in Bing Webmaster Tools.

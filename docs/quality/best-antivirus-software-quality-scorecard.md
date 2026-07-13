@@ -42,3 +42,19 @@
 
 Operations completeness may be rescored only after exact-commit deployment, production QA, sitemap, IndexNow, and six-document reconciliation are verified.
 
+## Post-deployment rescore — 2026-07-13
+
+- PR #15 merge: `c702c35816ab2ecbce736f74d3250d1a73d8982d`.
+- Exact Vercel production deployment: `5432407193`, successful.
+- Custom route, cache-bypassed deep route, canonical, H1, key content, and production sitemap: passed.
+- Desktop and 390px production structural QA: zero page-level overflow; comparison table overflow remains contained.
+- External production screenshots: article desktop/mobile and modified homepage passed; homepage displays `28 Guides / Hubs` and the new Featured Guide.
+- IndexNow returned HTTP 200; indexing remains `Needs verification`.
+- Six operations documents reconcile 12 reviews, 14 comparisons, 28 hubs/guides, and 54 editorial assets.
+
+Operations completeness is rescored from `1` to `2`. No other category changes.
+
+Updated total: **39/40**.
+
+Final status: `FINAL APPROVED — EXTERNAL SCREENSHOT QA`.
+
