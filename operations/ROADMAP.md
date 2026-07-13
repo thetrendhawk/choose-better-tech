@@ -203,7 +203,7 @@ Last Updated: 2026-07-13
 | Google Drive vs Dropbox | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT |
 | Proton Drive Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
 | iCloud vs Google Drive | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
-| Best Secure Cloud Storage | Approved — research not started |
+| Best Secure Cloud Storage | Research complete — approved for drafting; draft not started |
 
 ### Completion Checklist
 
@@ -229,6 +229,8 @@ Monetization checkpoint (2026-07-13): the binding parallel-workstream standard a
 Research checkpoint (2026-07-13): iCloud vs Google Drive completed canonical deep research, a 33-claim Critical/High ledger, article-specific monetization supplement, original-contribution PASS, and monetization-independence PASS. The first independent pass required corrections to UK ADP scope, backup-safety traceability, and iCloud+ program certainty. A fresh pass returned `APPROVE FOR DRAFTING`. No draft or publication work began.
 
 Publication checkpoint (2026-07-13): iCloud vs Google Drive passed independent editorial review at 37/40 before deployment and 39/40 after production and operations closeout. PR #7 published the article; PR #8 corrected homepage discovery; PR #9 corrected the verified comparison count to 14. Final deployment `5430719168`, canonical/deep route, 20-FAQ schema parity, internal links, sitemap, IndexNow HTTP 200, desktop and 390px structural QA, external article/homepage screenshots, table containment, and no page-level overflow passed. No tracked Apple or Google affiliate destination was added. Indexing remains Needs verification. Best Secure Cloud Storage deep research is next; drafting is not yet authorized.
+
+Research checkpoint (2026-07-13): Best Secure Cloud Storage completed a threat-model-first 20-candidate evaluation, 44-claim Critical/High ledger, article monetization supplement, original-contribution PASS, and monetization-independence PASS. Independent review required three correction rounds covering ledger schema, candidate completeness, provider-response conflicts, MEGA chronology, audit scope, unsupported value/vault labels, direct traceability, and source dates. Final decision: `APPROVE FOR DRAFTING`. No draft or publication work began.
 
 Each article requires its own research record, claim ledger, branch, pull request, independent review, and 34/40 scorecard pass. Work proceeds one article at a time.
 

@@ -16,7 +16,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next operational action: begin Best Secure Cloud Storage deep research; drafting remains unauthorized until its research gates pass
+- Next operational action: begin Best Secure Cloud Storage drafting from the independently approved 44-claim research package
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
@@ -276,7 +276,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 4. Recheck volatile pricing, plan, coverage, security, and affiliate-status details before purchase-focused updates.
 5. Keep homepage curated as additional reviews and comparisons are published.
 6. Monitor the five independently remediated pages for indexing, source drift, and volatile-claim changes.
-7. Begin Best Secure Cloud Storage deep research only, including its candidate set, claim ledger, original-contribution gate, independent review, and parallel monetization research before drafting.
+7. Best Secure Cloud Storage research is complete and independently approved; begin drafting only in a new content branch and separate PR.
 
 ## Notes
 
