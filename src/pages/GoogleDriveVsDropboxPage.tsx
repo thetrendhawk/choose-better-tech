@@ -440,10 +440,10 @@ export function GoogleDriveVsDropboxPage() {
             same architecture as provider-inaccessible content.
           </p>
           <p className="mt-4 max-w-4xl text-lg leading-8 text-slate-700">
-            If end-to-end encryption is the priority, compare Proton Drive, Sync.com, pCloud Crypto,
-            and other candidates in our{" "}
-            <InternalLink to="/best-cloud-storage-for-beginners">
-              Best Cloud Storage for Beginners guide
+            If end-to-end encryption is the priority, compare Proton Drive, Tresorit, Filen,
+            Koofr Vault, Sync.com, pCloud Crypto, and Cryptomator in our{" "}
+            <InternalLink to="/best-secure-cloud-storage">
+              Best Secure Cloud Storage guide
             </InternalLink>.
           </p>
         </Container>

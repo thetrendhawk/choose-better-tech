@@ -723,6 +723,10 @@ export function BestCloudStorageForBeginnersPage() {
               account security, test recovery and export, and keep an independent backup.
             </p>
             <p className="mt-4 max-w-4xl leading-7 text-slate-700">
+              Need a threat-model-first comparison instead of a beginner default? Read our{" "}
+              <InternalLink to="/best-secure-cloud-storage">Best Secure Cloud Storage guide</InternalLink>.
+            </p>
+            <p className="mt-4 max-w-4xl leading-7 text-slate-700">
               Deciding between the two mainstream cross-platform choices? Read our detailed{" "}
               <InternalLink to="/comparisons/google-drive-vs-dropbox">
                 Google Drive vs Dropbox comparison

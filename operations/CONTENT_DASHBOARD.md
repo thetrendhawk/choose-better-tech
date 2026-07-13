@@ -16,7 +16,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next operational action: begin Best Secure Cloud Storage drafting from the independently approved 44-claim research package
+- Next operational action: merge the independently approved 50-claim Best Secure Cloud Storage article through its pull request, then verify the exact production deployment
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
@@ -137,6 +137,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | Google Drive vs Dropbox | `/comparisons/google-drive-vs-dropbox` | Comparison | N/A | `docs/research/google-drive-vs-dropbox-research.md` | N/A | Yes | FINAL APPROVED — ESTABLISHED LAYOUT PRECEDENT | Yes | INTERNAL_ONLY | 2026-07-12 | Canonical pairwise research and readable article rebuild complete. Content commit `fcbb2dc`; exact Vercel deployment `5416929816` succeeded. Production desktop/mobile, 24-FAQ schema parity, 25 evidence links, broader-guide link, sitemap, IndexNow, affiliate-isolation, and no-overflow checks passed. |
 | Proton Drive Review | `/reviews/proton-drive-review` | Review | N/A | `docs/research/proton-drive-review-research.md` | N/A | Yes | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Yes | No verified Proton Drive affiliate; official link is non-affiliate | 2026-07-13 | Claim ledger and independent review complete; score 38/40 pre-deployment and 39/40 final after operations completion. PR #4 merged as `c2f4ad2`; Vercel deployment `5425319112` succeeded. Production title, H1, canonical, content, FAQ/schema parity, three responsive tables, internal links, sitemap, IndexNow HTTP 200, desktop/mobile containment, homepage Hero count, external desktop/mobile screenshots, and no-overflow checks passed. |
 | iCloud vs Google Drive | `/comparisons/icloud-vs-google-drive` | Comparison | N/A | `docs/research/icloud-vs-google-drive-research.md` | N/A | Yes | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Yes | No tracked Apple or Google link; product destinations are non-affiliate | 2026-07-13 | 33-claim ledger, original-contribution and monetization-independence gates, independent review, 37/40 pre-deployment and 39/40 final score passed. PR #7 merged as `dea4e31`; homepage discovery PR #8 as `2b53c6a`; count correction PR #9 as `c690f0d`; final deployment `5430719168` passed production desktop/mobile screenshots, canonical, schemas, links, sitemap, IndexNow HTTP 200, table containment, and no-overflow checks. |
+| Best Secure Cloud Storage | `/best-secure-cloud-storage` | Major ranking | N/A | `docs/research/best-secure-cloud-storage-research.md` | N/A | Yes | APPROVE FOR DEPLOYMENT — 39/40 | No | No tracked product links; monetization independence PASS | 2026-07-13 | Threat-model-first article, 50-claim ledger, original-contribution and monetization-independence gates, two reader-facing correction rounds, final evidence reconciliation, and external local desktop/mobile article and homepage screenshots passed. Merge, production verification, IndexNow, and final operations closeout remain pending. |
 
 ## Data Removal Cluster Asset Inventory
 
@@ -276,7 +277,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 4. Recheck volatile pricing, plan, coverage, security, and affiliate-status details before purchase-focused updates.
 5. Keep homepage curated as additional reviews and comparisons are published.
 6. Monitor the five independently remediated pages for indexing, source drift, and volatile-claim changes.
-7. Best Secure Cloud Storage research is complete and independently approved; begin drafting only in a new content branch and separate PR.
+7. Best Secure Cloud Storage is independently approved at 39/40 with all 50 Critical/High claims reviewed; merge only through its content PR, then complete exact-commit production, live visual, sitemap, IndexNow, and operations closeout gates.
 
 ## Notes
 
