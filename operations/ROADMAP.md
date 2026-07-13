@@ -210,9 +210,10 @@ Last Updated: 2026-07-12
 - [x] Category research completed for the two existing assets.
 - [x] Formal Cloud Storage cluster approval completed.
 - [x] Shared three-article research dossier completed.
+- [x] Cloud Storage monetization opportunity map completed with `Monetization Independence Check: PASS` and no commercial implementation.
 - [x] Editorial framework created for first article.
 - [x] At least one guide and one comparison published.
-- [ ] Affiliate opportunities scored.
+- [x] Affiliate, network, sponsorship, advertising, lead-generation, and owned-product opportunities researched independently of editorial conclusions.
 - [ ] Performance reviewed after indexing.
 
 ### Approved Expansion Sequence
@@ -222,6 +223,8 @@ Last Updated: 2026-07-12
 3. Best Secure Cloud Storage
 
 Research checkpoint (2026-07-13): the shared 12-provider dossier, Proton Drive review research record, 37-claim ledger, corrections, and independent review are complete. The final reviewer decision is `APPROVE FOR DRAFTING`. No article draft or production implementation has started; Proton Drive remains first in sequence.
+
+Monetization checkpoint (2026-07-13): the binding parallel-workstream standard and Cloud Storage opportunity map are complete. No program application, vendor outreach, negotiation, tracked affiliate URL, CTA, ranking, or verdict change occurred. Proton Drive's editorial conclusion remains independent. Proton Drive drafting is ready only after the monetization-governance pull request receives independent approval and merges.
 
 Each article requires its own research record, claim ledger, branch, pull request, independent review, and 34/40 scorecard pass. Work proceeds one article at a time.
 

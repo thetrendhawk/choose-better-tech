@@ -1,6 +1,6 @@
 # Choose Better Tech Automation Publishing Contract
 
-Version: 1.1
+Version: 1.2
 Status: Binding
 Owner: Choose Better Tech
 Effective Date: 2026-07-12
@@ -30,6 +30,7 @@ The current repository standards are authoritative. Automation must read the cur
 - `operations/SITEWIDE_QUALITY_AUDIT_POLICY.md`;
 - `operations/TOPIC_CLUSTER_APPROVAL_POLICY.md`;
 - `operations/SEARCH_MONITORING_AND_ANOMALY_POLICY.md`;
+- `operations/MONETIZATION_RESEARCH_STANDARD.md`;
 - all six publication operations documents named in the publishing workflow.
 
 ## Fail-Closed Behavior
@@ -72,6 +73,16 @@ Do not, unless explicitly authorized:
 - Evidence gaps and source conflicts must remain visible.
 - No draft may begin without `Original Contribution: PASS`.
 - Major content requires a complete claim ledger with all Critical and High claims reviewed.
+
+## Monetization Research Contract
+
+- Substantial clusters and commercial articles require parallel monetization research under `operations/MONETIZATION_RESEARCH_STANDARD.md`.
+- Keep monetization records structurally separate from editorial research, claim interpretation, rankings, and verdicts.
+- Record public program availability separately from CBT application, approval, product coverage, and registry status.
+- Research relevant direct programs, affiliate networks, and non-affiliate revenue models beyond current CBT partnerships.
+- Preserve stale listings, conflicting terms, and unknown commission, cookie, attribution, payout, eligibility, and promotional facts.
+- Require `Monetization Independence Check: PASS` before commercial implementation. A `FAIL` is blocking.
+- Research authority does not permit applications, outreach, negotiation, tracked-link insertion, CTA changes, sponsorship acceptance, lead collection, ranking changes, or verdict changes.
 
 ## Editorial Contract
 
@@ -123,6 +134,9 @@ Every task must report:
 - visual QA;
 - operations updates;
 - final status.
+- applicable monetization-record path;
+- Monetization Independence Check result;
+- program applications, outreach, registry, tracked-link, CTA, ranking, and verdict changes or explicit confirmation that none occurred.
 
 Do not report an item as verified when it is unknown, unavailable, pending, or merely inferred.
 
