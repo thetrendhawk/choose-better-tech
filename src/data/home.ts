@@ -20,6 +20,7 @@ export const featuredReviews: ArticlePreview[] = [
 ];
 
 export const featuredGuides: ArticlePreview[] = [
+  { key: "best-antivirus-software", title: "Best Antivirus Software", excerpt: "An evidence-led guide to Microsoft Defender, Bitdefender, Norton, ESET, F-Secure, McAfee, and TotalAV by protection, false positives, privacy, renewal terms, and fit.", href: "/best-antivirus-software", status: "Published Guide" },
   { key: "best-secure-cloud-storage", title: "Best Secure Cloud Storage", excerpt: "A threat-model-first guide to Proton Drive, Tresorit, Filen, Koofr Vault, Sync.com, pCloud Crypto, Cryptomator, and the limits of encrypted storage.", href: "/best-secure-cloud-storage", status: "Published Guide" },
   { key: "best-cloud-storage-for-beginners", title: "Best Cloud Storage for Beginners", excerpt: "A beginner-first guide to Google Drive, Dropbox, iCloud Drive, OneDrive, and Proton Drive by sync, sharing, collaboration, privacy, recovery, and ecosystem fit.", href: "/best-cloud-storage-for-beginners", status: "Published Guide" },
   { key: "best-vpns-for-streaming", title: "Best VPNs for Streaming", excerpt: "A cautious comparison of streaming VPNs by device support, Smart DNS distinctions, household limits, reliability, privacy, and refund terms.", href: "/best-vpns-for-streaming", status: "Published Guide" },

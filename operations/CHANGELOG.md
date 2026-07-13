@@ -278,6 +278,9 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Future Entries
 
+| 2026-07-13 | Research | Best Antivirus Software research and review completed | Shared antivirus dossier, dedicated research record, 32-row Critical/High claim ledger, independent research review, article review, monetization-independence check, and 38/40 pre-deployment score passed. |
+| 2026-07-13 | Content | Best Antivirus Software prepared for deployment | New evidence-led guide, route, sitemap entry, homepage Featured Guide, and accurate guide count completed without tracked antivirus links; lint, build, desktop, and 390px structural checks passed. |
+
 | Date | Category | Milestone | Notes |
 | --- | --- | --- | --- |
 | TBD | TBD | TBD | TBD |
