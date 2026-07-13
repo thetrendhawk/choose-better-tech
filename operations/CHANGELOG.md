@@ -11,6 +11,16 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-13 — Proton Drive Review published and final approved
+
+- Published `Proton Drive Review 2026: Private Cloud Storage With Tradeoffs` at `https://choosebettertech.com/reviews/proton-drive-review` from the approved shared dossier, dedicated research record, and 37-claim ledger.
+- Independent review initially required account-deletion/cancellation coverage, a visible deletion source, and explicit support-quality treatment. All three corrections were completed; the pre-deployment decision was `APPROVE FOR DEPLOYMENT` at 38/40. After deployment, external screenshots, and operations reconciliation, the independent final score is 39/40 with no prohibited zeroes.
+- PR #4 squash-merged as `c2f4ad28ddcc72c756bffd66736ace388f97bbbc`; Vercel production deployment `5425319112` completed successfully.
+- Production HTTP 200, cache-bypassed deep route, H1, title, description, canonical, key sections, 12 FAQs, three responsive tables, internal links, sitemap entry, desktop layout, 390px containment, and no page-level overflow were verified.
+- The page uses a non-affiliate Proton official link. Monetization Independence remains PASS; no Proton outreach, application, tracked destination, or competitor affiliate insertion occurred.
+- IndexNow key verification and single-URL submission returned HTTP 200. This confirms acceptance only; indexing remains Needs verification.
+- Because the homepage Hero review count changed, external screenshot QA was required and completed. Production desktop/mobile article captures and desktop/mobile homepage captures showed correct hierarchy, the 12-review statistic, responsive stacking, contained tables, and no visible overflow or clipping. Final status: `FINAL APPROVED — EXTERNAL SCREENSHOT QA`.
+
 ### 2026-07-13 - Monetization research standard installed and Cloud Storage opportunity map completed
 
 - Created the binding parallel-workstream standard at `operations/MONETIZATION_RESEARCH_STANDARD.md` for substantial clusters and commercial article research.

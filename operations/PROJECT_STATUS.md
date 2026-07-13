@@ -46,11 +46,11 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Advanced quality guardrails | Complete | Original-contribution, claim-ledger, scorecard, independent-review, PR, capacity, testing, corrections, rollback, transparency, audit, cluster, and search-anomaly policies installed. No article content or counts changed. |
 | Monetization research standard | Complete | Binding parallel-workstream standard created at `operations/MONETIZATION_RESEARCH_STANDARD.md` and linked from the five canonical publishing standards. Research does not authorize applications, outreach, tracked links, CTAs, rankings, or verdict changes. |
 | Sitewide quality audit | Complete | All 50 editorial assets audited at `docs/audits/sitewide-quality-audit-2026-07-12.md`; independent reviewer decision `APPROVE FOR MERGE`; no P0 defect or automatic page action was found. |
-| Cloud Storage cluster approval | Approved | Formal approval recorded at `docs/strategy/cloud-storage-cluster-approval.md`; next sequence remains Proton Drive Review, iCloud vs Google Drive, then Best Secure Cloud Storage. |
+| Cloud Storage cluster approval | Approved | Formal approval recorded at `docs/strategy/cloud-storage-cluster-approval.md`; Proton Drive Review is complete, and iCloud vs Google Drive is next, followed by Best Secure Cloud Storage. |
 | Cloud Storage landscape dossier | Research complete | Shared 12-provider category dossier completed at `docs/research/cloud-storage-landscape-dossier-2026-07-13.md` after provider-specific pricing normalization and independent review. No secure-storage ranking was finalized. |
 | Cloud Storage monetization map | Complete | Provider, direct-program, network, advertising, sponsorship, lead-generation, newsletter, owned-product, licensing, and service opportunities are recorded at `docs/monetization/cloud-storage-monetization-opportunity-map.md`; `Monetization Independence Check: PASS`. No application, outreach, tracked affiliate URL, CTA, ranking, or verdict change occurred. |
-| Proton Drive drafting gate | Ready after governance merge | Proton Drive's editorial verdict remains independent of the monetization map. Research is approved, but drafting has not started and may begin only after the monetization-governance PR merges. |
-| Proton Drive Review | RESEARCH COMPLETE — DRAFT NOT STARTED | Corrected provider research and all 37 Critical/High claims received independent decision `APPROVE FOR DRAFTING`. No article, route, sitemap, affiliate, production deployment, or IndexNow change occurred. Required PR pushes triggered automatic Vercel Preview deployments; the canonical production site was unchanged. |
+| Proton Drive drafting gate | Complete | Research, monetization-independence, original-contribution, claim-ledger, independent-review, and publication gates passed. |
+| Proton Drive Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #4 merged as `c2f4ad28ddcc72c756bffd66736ace388f97bbbc`; exact Vercel production deployment `5425319112` succeeded. Independent review scored 38/40 before deployment and 39/40 after operations completion. Production title, H1, canonical, key content, FAQ/schema parity, internal links, sitemap, desktop and 390px containment, homepage Hero count, external desktop/mobile screenshots, no page overflow, and IndexNow HTTP 200 passed. The official Proton link is non-affiliate and indexing remains Needs verification. |
 | Five-article remediation | Complete | Shared audit and all five independent research, content, validation, deployment, production, sitemap, IndexNow, visual, and operations gates passed. |
 | Best Free Password Managers | Final approved | Production URL verified; external desktop/mobile visual QA completed and final approval recorded. |
 | Are VPNs Worth It | Final approved | Production URL verified; external desktop/mobile visual QA completed; editorial, affiliate, evidence, desktop, and mobile QA passed. |
@@ -98,11 +98,11 @@ The solo-safe configuration is intentional and is not a defect. Requiring one ap
 
 | KPI | Current Value | Target | Reporting Cadence |
 | --- | ---: | ---: | --- |
-| Reviews Published | 11 | TBD | Weekly |
+| Reviews Published | 12 | TBD | Weekly |
 | Comparisons Published | 13 | TBD | Weekly |
 | Hubs / Guides Published | 26 | TBD | Weekly |
 | Authority Pages Published | 3 | TBD | Weekly |
-| Total Editorial Content Assets | 50 | TBD | Weekly |
+| Total Editorial Content Assets | 51 | TBD | Weekly |
 | Indexed Assets | Needs verification | TBD | Weekly |
 | Organic Clicks | Not measured | TBD | Weekly |
 | Organic Impressions | Not measured | TBD | Weekly |
@@ -136,6 +136,7 @@ These statuses require platform access or manual confirmation outside the reposi
 | IndexNow submission for Best VPNs for Streaming | Reported complete | `https://choosebettertech.com/best-vpns-for-streaming` submitted on 2026-07-12; IndexNow single-URL API returned HTTP 200. Indexing still needs external verification. |
 | IndexNow submission for Best Cloud Storage for Beginners | Complete | `https://choosebettertech.com/best-cloud-storage-for-beginners` submitted after exact production verification on 2026-07-12; live key matched and IndexNow returned HTTP 200. This confirms submission acceptance only; indexing still needs external verification. |
 | IndexNow submission for Google Drive vs Dropbox | Complete | `https://choosebettertech.com/comparisons/google-drive-vs-dropbox` submitted after exact production verification on 2026-07-12; live key matched and IndexNow returned HTTP 200. This confirms submission acceptance only; indexing still needs external verification. |
+| IndexNow submission for Proton Drive Review | Complete | `https://choosebettertech.com/reviews/proton-drive-review` submitted after exact production verification on 2026-07-13; live key matched and IndexNow returned HTTP 200. This confirms submission acceptance only; indexing still needs external verification. |
 | URL indexing status | Needs verification | No indexing success is claimed in this dashboard. |
 | Social distribution | Not scheduled | Pinterest, Instagram, and LinkedIn distribution need separate scheduling or confirmation. |
 | KPI performance | Not measured | Traffic, conversion, email, and revenue metrics need external platform data. |
