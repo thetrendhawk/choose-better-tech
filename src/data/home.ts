@@ -49,6 +49,13 @@ export const featuredGuides: ArticlePreview[] = [
 
 export const featuredComparisons: ArticlePreview[] = [
   {
+    key: "icloud-vs-google-drive",
+    title: "iCloud vs Google Drive",
+    excerpt: "A workflow-first comparison of files, photos, backups, collaboration, privacy, family storage, recovery, pricing, and ecosystem fit.",
+    href: "/comparisons/icloud-vs-google-drive",
+    status: "Published Comparison"
+  },
+  {
     key: "google-drive-vs-dropbox",
     title: "Google Drive vs Dropbox",
     excerpt: "A practical comparison of free storage, file sync, collaboration, privacy, recovery, ecosystem fit, and paid value.",

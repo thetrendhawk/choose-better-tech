@@ -728,6 +728,13 @@ export function BestCloudStorageForBeginnersPage() {
                 Google Drive vs Dropbox comparison
               </InternalLink>.
             </p>
+            <p className="mt-4 max-w-4xl leading-7 text-slate-700">
+              Organizing an Apple household? Our{" "}
+              <InternalLink to="/comparisons/icloud-vs-google-drive">
+                iCloud vs Google Drive comparison
+              </InternalLink>{" "}
+              separates files, photos, backups, collaboration, privacy, and family storage.
+            </p>
           </div>
           <div className="mt-8">
             <AffiliateDisclosure />

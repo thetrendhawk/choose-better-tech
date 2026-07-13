@@ -18,6 +18,7 @@ const BestVpnsForTravelPage = lazy(() => import("./pages/BestVpnsForTravelPage")
 const BestVpnsForStreamingPage = lazy(() => import("./pages/BestVpnsForStreamingPage").then((module) => ({ default: module.BestVpnsForStreamingPage })));
 const BestCloudStorageForBeginnersPage = lazy(() => import("./pages/BestCloudStorageForBeginnersPage").then((module) => ({ default: module.BestCloudStorageForBeginnersPage })));
 const GoogleDriveVsDropboxPage = lazy(() => import("./pages/GoogleDriveVsDropboxPage").then((module) => ({ default: module.GoogleDriveVsDropboxPage })));
+const ICloudVsGoogleDrivePage = lazy(() => import("./pages/ICloudVsGoogleDrivePage").then((module) => ({ default: module.ICloudVsGoogleDrivePage })));
 const ProtonDriveReviewPage = lazy(() => import("./pages/ProtonDriveReviewPage").then((module) => ({ default: module.ProtonDriveReviewPage })));
 const BestVpnsForBeginnersPage = lazy(() => import("./pages/BestVpnsForBeginnersPage").then((module) => ({ default: module.BestVpnsForBeginnersPage })));
 const BestPasswordManagersForBeginnersPage = lazy(() => import("./pages/BestPasswordManagersForBeginnersPage").then((module) => ({ default: module.BestPasswordManagersForBeginnersPage })));
@@ -111,6 +112,7 @@ export default function App() {
             <Route path="best-vpns-for-streaming" element={<BestVpnsForStreamingPage />} />
             <Route path="best-cloud-storage-for-beginners" element={<BestCloudStorageForBeginnersPage />} />
             <Route path="comparisons/google-drive-vs-dropbox" element={<GoogleDriveVsDropboxPage />} />
+            <Route path="comparisons/icloud-vs-google-drive" element={<ICloudVsGoogleDrivePage />} />
             <Route path="reviews/proton-drive-review" element={<ProtonDriveReviewPage />} />
             <Route path="best-password-managers-for-beginners" element={<BestPasswordManagersForBeginnersPage />} />
             <Route path="best-password-managers-for-families" element={<BestPasswordManagersForFamiliesPage />} />

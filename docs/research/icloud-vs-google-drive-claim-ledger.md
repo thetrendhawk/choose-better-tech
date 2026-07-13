@@ -45,6 +45,6 @@ Reviewer status: All 33 Critical/High claims approved with qualification after c
 ## Author Review Notes
 
 - All 33 planned Critical/High claims have a source, qualification, and refresh trigger.
-- `Pending` is intentional until a separate reviewer pass.
+- All Critical and High claims completed separate review and are approved with the recorded qualifications.
 - No claim authorizes experiential language.
 - No monetization claim influenced the provisional verdict.
