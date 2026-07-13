@@ -11,6 +11,16 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-13 — Best Secure Cloud Storage published; three-article automation run complete
+
+- Published `Best Secure Cloud Storage in 2026` at `https://choosebettertech.com/best-secure-cloud-storage` through PR #12 and squash merge `03836ae9780c343c41a5c37c6625d25a820ffe3a`.
+- Exact Vercel production deployment `5431834580` succeeded. Production canonical and cache-bypassed deep route returned HTTP 200; key content, internal links, 20 visible FAQs with matching schema, sitemap, desktop/390px containment, responsive table containment, and no page-level overflow passed.
+- External production desktop/mobile article and modified-homepage screenshots passed; the homepage now shows 27 Guides / Hubs and features the new guide.
+- The article completed 50 reviewed Critical/High claims, original-contribution PASS, monetization-independence PASS, two reader-facing correction rounds, final evidence reconciliation, and a 39/40 independent score. No tracked product link or commercial CTA was added.
+- The live IndexNow key matched and single-URL submission returned HTTP 200. This confirms submission acceptance only; indexing remains Needs verification.
+- The local development server still encounters the existing malformed `lucide-react` source map. Production build, preview, deployment, and live production all passed, so the issue remains recorded as non-blocking.
+- Proton Drive Review, iCloud vs Google Drive, and Best Secure Cloud Storage have now completed the authorized three-article automation test with independent research, review, PR, production, visual, sitemap, IndexNow, and operations gates.
+
 ### 2026-07-13 — Best Secure Cloud Storage approved for deployment
 
 - Implemented the threat-model-first major ranking at `/best-secure-cloud-storage` from the approved canonical research and expanded 50-claim Critical/High ledger.

@@ -23,17 +23,15 @@ These counts use published editorial routes in the current repository and sitema
 | --- | ---: | --- | --- |
 | Reviews | 12 | Product review routes under `/reviews/` | Repo route index and production sitemap |
 | Comparisons | 14 | Pairwise comparison routes under `/comparisons/` | Repo route index and production sitemap |
-| Hubs / Guides | 26 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
+| Hubs / Guides | 27 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
 | Authority Pages | 3 | About, How We Review Software, and Affiliate Disclosure | Repo routes and production sitemap |
-| Total Editorial Content Assets | 52 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
+| Total Editorial Content Assets | 53 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
 
 ## Content KPIs
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 12 | 14 | 26 | 52 | Needs verification | Proton Drive Review and iCloud vs Google Drive completed independent research, review, scorecard, PR, exact deployment, production, visual, sitemap, and IndexNow gates. The comparison finished at 39/40 after two production-QA integration fixes. Indexing is not inferred from sitemap presence or submission. |
-
-Best Secure Cloud Storage passed independent article review at 39/40 and is ready to deploy. It is not included in the published inventory totals until exact production verification succeeds.
+| 2026-07 | 12 | 14 | 27 | 53 | Needs verification | The three-article Cloud Storage automation run is complete. Proton Drive Review, iCloud vs Google Drive, and Best Secure Cloud Storage independently passed research, review, scorecard, PR, exact deployment, production, visual, sitemap, and IndexNow gates. Best Secure Cloud Storage finished at 39/40 with 50 reviewed Critical/High claims. Indexing is not inferred from sitemap presence or submission. |
 
 ## Organic Search KPIs
 
