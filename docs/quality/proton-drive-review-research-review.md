@@ -7,7 +7,7 @@
 - Research record: `docs/research/proton-drive-review-research.md`
 - Claim ledger: `docs/research/proton-drive-review-claim-ledger.md`
 - Shared dossier: `docs/research/cloud-storage-landscape-dossier-2026-07-13.md`
-- Scope reviewed: Research only; no article, route, sitemap, UI, affiliate, deployment, or IndexNow work
+- Scope reviewed: Research only; no article, route, sitemap, UI, affiliate, production deployment, or IndexNow work. Required PR pushes triggered automatic Vercel Preview deployments; the production canonical was unchanged.
 
 ## Main Verdict Challenged
 
@@ -113,7 +113,7 @@ The field-level privacy, recovery, managed-admin, Linux CLI-versus-GUI, downgrad
 
 ## Research-Artifact Quality Check
 
-The branch respects the research-only boundary: no application code, article, route, sitemap, affiliate registry, deployment, or IndexNow change was made. The shared dossier covers the required category boundaries, reader segments, candidate landscape, evaluation framework, sync-versus-backup distinction, migration layers, testing needs, conflicts, open questions, and provisional non-ranking conclusions.
+The branch respects the research-only boundary: no application code, article, route, sitemap, affiliate registry, production deployment, or IndexNow change was made. Required PR pushes triggered automatic Vercel Preview deployments, not publication. The shared dossier covers the required category boundaries, reader segments, candidate landscape, evaluation framework, sync-versus-backup distinction, migration layers, testing needs, conflicts, open questions, and provisional non-ranking conclusions.
 
 The dossier nevertheless fails its completion claim because the provider-specific evidence is uneven. Proton has a detailed source set while most other candidates have only one or two links, and the pricing section does not normalize current plan facts across all 12 providers. A reusable landscape dossier must either capture the requested provider fields or explicitly mark each unverified field. Generic observations are not a substitute.
 
@@ -141,7 +141,7 @@ The full 40-point article scorecard is not applicable at this research-only stag
 
 `RETURN FOR CORRECTION`
 
-Drafting is not authorized. No article, route, sitemap, affiliate, deployment, IndexNow, or publication work may start. After the author completes the corrections, a fresh independent pass must recheck every Critical/High claim and issue one of the allowed research-gate decisions.
+Drafting is not authorized. No article, route, sitemap, affiliate, production deployment, IndexNow, or publication work may start. Automatic PR preview builds do not authorize publication. After the author completes the corrections, a fresh independent pass must recheck every Critical/High claim and issue one of the allowed research-gate decisions.
 
 ## Second Independent Pass — 2026-07-13
 
@@ -213,3 +213,41 @@ One material record-accuracy issue remains: pushing the research PR automaticall
 `RETURN FOR CORRECTION`
 
 The research evidence and all 37 claim rows are now sufficient for drafting with their recorded qualifications. Drafting remains blocked solely because the workflow record incorrectly says no deployment despite the automatic Vercel Preview deployment. A narrow fresh pass may approve drafting after that scope/status wording is corrected and independently verified.
+
+## Third Independent Pass — 2026-07-13
+
+### Evidence Checked
+
+- Correction commit reviewed: `529bf4fa57de57d4f0106464c8ad9fed032acc79`.
+- `origin/main` remained `9279aa8c258d1aba022c8a8387ae4657f9d9c54f`; the research commits were not merged to the production branch.
+- GitHub deployment metadata classifies every research-branch deployment as `Preview` with `production_environment: false`:
+  - `b7eb727` — Preview deployment `5417591850`;
+  - `f83c3af` — Preview deployment `5417655216`;
+  - `de8ddef` — Preview deployment `5417711743`;
+  - `529bf4f` — Preview deployment `5417750684`, successful at `https://choose-better-tech-oxi548xhi-aaron-s-evans-projects.vercel.app`.
+- No GitHub/Vercel production deployment record exists for `529bf4f` or the `research/proton-drive-review` branch.
+- The PR diff contains only the shared dossier, Proton research record, claim ledger, independent review, and four operations documents. It contains no article, application, route, sitemap, affiliate registry, UI, IndexNow, or content-count change.
+- The production canonical was not changed by the branch.
+
+### Boundary Wording Review
+
+The substantive boundary is now correctly understood: **no production deployment; automatic Vercel PR previews only; production canonical unchanged**. The first-pass scope wording in this report has been corrected accordingly.
+
+One narrow accuracy defect remains in commit `529bf4f`: `operations/CHANGELOG.md` and `operations/PROJECT_STATUS.md` each say the PR triggered **one** automatic Vercel Preview deployment. Deployment metadata shows four preview deployments, one for each research/review/correction commit listed above. The count is therefore inaccurate even though the production-versus-preview distinction is correct.
+
+### Required Correction After Third Pass
+
+Replace “one automatic Vercel Preview deployment” with non-numeric wording such as “automatic Vercel PR preview deployments” in every affected operations/PR status statement. Preserve:
+
+- no production deployment;
+- production canonical unchanged;
+- preview builds were not publication;
+- no article/app/route/sitemap/affiliate/IndexNow/count change.
+
+After that text-only correction, a final narrow reviewer check may approve drafting without reopening the already final 37 claim statuses unless another material change occurs.
+
+### Third-Pass Final Decision
+
+`RETURN FOR CORRECTION`
+
+The evidence package and claim ledger remain sufficient for drafting with their recorded qualifications. Drafting is still blocked solely because the operations record gives an incorrect preview-deployment count.

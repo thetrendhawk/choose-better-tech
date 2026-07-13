@@ -17,7 +17,7 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 - Created `docs/research/proton-drive-review-research.md` and its Critical/High claim ledger without drafting or implementing the review; the first independent pass returned the package for correction.
 - Preserved unresolved pricing, audit, Linux-client, recovery, business-offboarding, performance, and migration evidence gaps rather than inventing certainty.
 - Recorded the first reviewer decision `RETURN FOR CORRECTION`; drafting remains blocked until a fresh independent pass returns `APPROVE FOR DRAFTING`.
-- No article, route, UI, sitemap, affiliate, content-count, production deployment, IndexNow, or live-site change occurred. Opening the required pull request triggered one automatic Vercel Preview deployment; it was not promoted and did not change the canonical production site.
+- No article, route, UI, sitemap, affiliate, content-count, production deployment, IndexNow, or live-site change occurred. Required pull-request pushes triggered automatic Vercel Preview deployments; they were not promoted and did not change the canonical production site.
 
 ### 2026-07-12 — Sitewide audit completed and Cloud Storage cluster approved
 
