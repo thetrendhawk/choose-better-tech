@@ -31,7 +31,12 @@ Any additional topic cluster (for example, AI productivity software) requires fo
 - **Tailwind CSS**
 - **Vercel** (hosting and deployment)
 
-CBT is a static, client-rendered single-page application. There is no server-side rendering and no backend, database, CMS, or authentication layer. SEO relies on build-time generation of static assets: the build step (`npm run build`) runs `scripts/generate-seo-files.mjs` before compiling, which produces `robots.txt`, `sitemap.xml`, and related SEO files ahead of the Vite production build. Canonical URLs and metadata are generated per route at build time rather than rendered dynamically per request. Search-engine indexing of individual pages is monitored but not guaranteed by this architecture, and is tracked as a distinct, separately verified status in the operations records rather than assumed from sitemap or IndexNow submission alone.
+CBT is a static, client-rendered single-page application. There is no server-side rendering and no route prerendering, and no backend, database, CMS, or authentication layer. SEO has two distinct layers, and they should not be conflated:
+
+- `scripts/generate-seo-files.mjs` runs before the Vite build (as part of `npm run build`) and generates static search-support files such as `robots.txt`, `sitemap.xml`, and related assets.
+- Route-level title, description, canonical URL, and social (Open Graph/Twitter) metadata are applied by a client-side SEO helper (`src/utils/seo.ts`) that updates `document.head` when a route loads, not embedded per route in the initial static HTML at build time.
+
+Sitemap inclusion and IndexNow acceptance confirm submission only; neither proves that a page has actually been indexed. Indexing status is tracked and verified separately in the operations records rather than assumed from either signal.
 
 ## Repository structure
 
@@ -64,7 +69,7 @@ CBT publishes under a binding set of operational standards designed to keep cove
 3. **Original-contribution requirement.** Content must add genuine analysis, synthesis, or evidence beyond restating vendor marketing material.
 4. **Independent review.** Research and drafts are reviewed by a separate reviewing pass before publication, with an explicit decision (approve, return for correction, or reject).
 5. **Article quality scorecard.** Published articles are scored against a fixed quality rubric before deployment is authorized.
-6. **Branch and pull-request workflow.** Substantial content changes use a dedicated branch and pull request rather than direct commits to `main`; the repository's `main` ruleset requires pull requests and blocks force pushes and branch deletion.
+6. **Branch and pull-request workflow.** Substantial content changes use a dedicated branch and pull request rather than direct commits to `main`. The protected `main` branch requires pull requests, restricts deletion, and blocks force pushes.
 7. **Build and validation checks.** Lint, TypeScript build, and diff checks must pass before merge.
 8. **Production deployment and live QA.** After merge, production deployment is verified against the live site, including canonical URLs, schema, sitemap entries, and responsive/structural checks.
 9. **Corrections and volatile-claim monitoring.** Claims that are likely to change (pricing, plan details, policy terms, and similar) are tracked in a volatile-claims register and rechecked on a defined cadence; corrections follow a documented policy.
