@@ -34,6 +34,7 @@ export const initializeGoogleAnalytics = () => {
   // dataLayer; pushing a rest-parameter array loads the tag but silently drops
   // the queued commands, so no `g/collect` request is ever sent.
   window.gtag = function gtag() {
+    // eslint-disable-next-line prefer-rest-params -- Google's gtag.js protocol requires the function's `arguments` object; a rest-parameter array breaks command processing.
     window.dataLayer?.push(arguments);
   } as Gtag;
 
