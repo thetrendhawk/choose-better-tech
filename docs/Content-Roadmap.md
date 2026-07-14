@@ -1,3 +1,11 @@
+> [!WARNING]
+> **SUPERSEDED**
+>
+> This foundation-era roadmap is retained for historical context only.
+> The sole canonical and active roadmap is [`operations/ROADMAP.md`](../operations/ROADMAP.md).
+>
+> Do not use this file to select, authorize, sequence, or publish new work.
+
 # Choose Better Tech Content Roadmap v1.0
 
 ## Purpose
