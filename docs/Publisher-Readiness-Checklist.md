@@ -1,3 +1,11 @@
+> [!WARNING]
+> **SUPERSEDED — HISTORICAL ONLY**
+>
+> This foundation-era checklist is retained for provenance only. It is not a current publishing gate.
+> Current publication readiness is governed by [`operations/PUBLISHING_WORKFLOW.md`](../operations/PUBLISHING_WORKFLOW.md), [`operations/ARTICLE_QUALITY_SCORECARD.md`](../operations/ARTICLE_QUALITY_SCORECARD.md), [`operations/INDEPENDENT_REVIEW_PROTOCOL.md`](../operations/INDEPENDENT_REVIEW_PROTOCOL.md), and the applicable pull-request template.
+>
+> Do not use the legacy 9.0 readiness score or this checklist to approve deployment or publication.
+
 # Publisher Readiness Checklist
 
 Use this checklist before publishing any new article.
