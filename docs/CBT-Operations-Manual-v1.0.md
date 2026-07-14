@@ -1,3 +1,11 @@
+> [!WARNING]
+> **SUPERSEDED — HISTORICAL ONLY**
+>
+> This foundation-era operations manual is retained for provenance only. It no longer governs Choose Better Tech.
+> Current authority is divided across [`operations/BUSINESS_IDENTITY.md`](../operations/BUSINESS_IDENTITY.md), [`operations/EDITORIAL_STANDARDS.md`](../operations/EDITORIAL_STANDARDS.md), [`operations/PUBLISHING_WORKFLOW.md`](../operations/PUBLISHING_WORKFLOW.md), and [`operations/AUTOMATION_PUBLISHING_CONTRACT.md`](../operations/AUTOMATION_PUBLISHING_CONTRACT.md).
+>
+> Do not use this file to authorize, prioritize, sequence, research, publish, or monetize work. Its affiliate-commission-first decision rule conflicts with current monetization-independence policy.
+
 # Choose Better Tech Operations Manual v1.0
 
 Version: 1.0  
