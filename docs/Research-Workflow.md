@@ -1,3 +1,11 @@
+> [!WARNING]
+> **SUPERSEDED — HISTORICAL ONLY**
+>
+> This foundation-era research workflow is retained for provenance only. It no longer defines the required evidence process.
+> Current research authority is [`operations/RESEARCH_AND_EVIDENCE_STANDARD.md`](../operations/RESEARCH_AND_EVIDENCE_STANDARD.md), supported by [`operations/CLAIM_LEDGER_STANDARD.md`](../operations/CLAIM_LEDGER_STANDARD.md), [`operations/ORIGINAL_CONTRIBUTION_STANDARD.md`](../operations/ORIGINAL_CONTRIBUTION_STANDARD.md), and [`operations/MONETIZATION_RESEARCH_STANDARD.md`](../operations/MONETIZATION_RESEARCH_STANDARD.md).
+>
+> Do not treat the legacy CBTEP outline or source-order list as sufficient evidence review for current work.
+
 # Choose Better Tech Research Workflow
 
 ## Purpose
