@@ -33,6 +33,7 @@ function walk(dir, acc = []) {
 const findings = [];
 for (const file of walk(ROOT)) {
   const rel = file.slice(ROOT.length + 1).replace(/\\/g, '/');
+  if (rel.includes('/templates/')) continue; // templates are named artifacts, not canonical docs
   if (!AUTHORITATIVE.test(basename(rel))) continue;
   const inApproved = APPROVED_DIRS.some((d) => rel.startsWith(d + '/'));
   const marked = MARKER.test(readFileSync(file, 'utf8').slice(0, 600));

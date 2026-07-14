@@ -36,6 +36,7 @@ foundation-era file with no marker) was read as canonical in 2026-07 and produce
 | File | Superseded by | Marker present |
 | --- | --- | --- |
 | `docs/Content-Roadmap.md` | `operations/ROADMAP.md` | Yes (banner) |
+| `docs/Editorial-Standards.md` | `operations/EDITORIAL_STANDARDS.md` | Yes (banner) |
 
 ## Control metadata
 
