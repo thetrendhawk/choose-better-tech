@@ -1,3 +1,11 @@
+> [!WARNING]
+> **SUPERSEDED**
+>
+> This foundation-era editorial standards file is retained for historical context only.
+> The sole canonical and binding editorial standards are [`operations/EDITORIAL_STANDARDS.md`](../operations/EDITORIAL_STANDARDS.md).
+>
+> Do not use this file to make editorial decisions.
+
 # Choose Better Tech Editorial Standards
 
 ## Purpose
