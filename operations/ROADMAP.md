@@ -57,7 +57,7 @@ Last Updated: 2026-07-13
 - [ ] Connect or verify Search Console monitoring and establish anomaly baselines.
 - [ ] Automate volatile-claim refresh reminders in a later task.
 - [ ] Canonical identity document imported.
-- [ ] Canonical affiliate playbook imported.
+- [x] Canonical affiliate playbook imported.
 - [x] Initial KPI dashboard baseline recorded.
 - [ ] Publishing checklist used for all new articles.
 
@@ -94,7 +94,7 @@ Last Updated: 2026-07-13
 | Best VPNs for Students | Final approved |
 | VPN Privacy Guide | Final approved |
 | Best VPNs for Families | Final approved |
-| Do You Actually Need a VPN? | Planned |
+| Do You Actually Need a VPN? | Satisfied by existing route (`/are-vpns-worth-it`) |
 
 ### Completion Checklist
 
@@ -271,7 +271,7 @@ This is optional polish, not remediation. Preserve the current content depth and
 
 - [x] Research distinguishes safety, performance, and privacy claims in the shared consumer-antivirus dossier.
 - [x] Review criteria documented.
-- [ ] At least one article published in the cluster.
+- [x] At least one article published in the cluster.
 - [x] Affiliate and broader monetization readiness reviewed independently; no application or commercial implementation authorized.
 - [ ] Refresh cadence assigned.
 
@@ -329,7 +329,25 @@ This is optional polish, not remediation. Preserve the current content depth and
 - [ ] Content refresh calendar active.
 - [ ] Revenue and traffic trends reviewed together.
 
+## Current Publishing Queue
+
+This is the active forward-looking queue. It supersedes the Near-Term Sequence below, which is retained as a historical completion log rather than a work list. Cluster approval, existing research support, and article-level authorization are distinct states; an item advances only through its stated gate.
+
+| Priority | Work item | State | Required next gate |
+| ---: | --- | --- | --- |
+| 1 | Cybersecurity Tools expansion-authorization review | Ready | Independent expansion review updating `docs/strategy/cybersecurity-tools-cluster-approval.md` |
+| 2 | Is Antivirus Still Necessary? | Candidate — supported by cluster dossier, not yet authorized | Expansion authorization, then article research + claim ledger |
+| 3 | Windows Defender vs Paid Antivirus | Candidate — supported by cluster dossier, not yet authorized | Expansion authorization, then article research + claim ledger |
+| 4 | Best PC Cleanup Tools | Hold | Separate category-risk / safety research before any authorization |
+| 5 | AI Productivity cluster | Not approved | Full topic-cluster approval under `operations/TOPIC_CLUSTER_APPROVAL_POLICY.md` |
+
+### Required next action — Cybersecurity Tools expansion
+
+The Cybersecurity Tools cluster is approved, but `docs/strategy/cybersecurity-tools-cluster-approval.md` authorizes the two-article sequence only (Best Antivirus Software, TotalAV Review) and explicitly does not pre-approve later Phase 6 assets. Before any later antivirus article enters research or publication, run an expansion-authorization review confirming: intent distinct from Best Antivirus Software; dossier adequacy versus need for article-specific research; continued validity of the cluster monetization map; authorization as a second controlled sequence; and publication order and capacity. Treat Best PC Cleanup Tools separately because of scareware, exaggerated-performance, and subscription-trap category risk.
+
 ## Near-Term Sequence
+
+_Historical completion log — retained for provenance. Not the active queue; see Current Publishing Queue above._
 
 | Order | Work Item | Status | Notes |
 | ---: | --- | --- | --- |
