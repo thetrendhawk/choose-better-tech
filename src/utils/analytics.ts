@@ -1,7 +1,7 @@
 const GA_MEASUREMENT_ID = "G-3CPY0G0G65";
 const GA_SCRIPT_ID = "ga4-gtag";
 
-type GtagCommand = "js" | "config";
+type GtagCommand = "js" | "config" | "event";
 type GtagArguments = [GtagCommand, string | Date, Record<string, unknown>?];
 type Gtag = (...args: GtagArguments) => void;
 
@@ -29,8 +29,12 @@ export const initializeGoogleAnalytics = () => {
   }
 
   window.dataLayer = window.dataLayer || [];
-  window.gtag = function gtag(...args) {
-    window.dataLayer?.push(args);
+  // Google's official gtag shim pushes the function's `arguments` object
+  // (array-like), NOT a plain array. gtag.js reads the arguments object from
+  // dataLayer; pushing a rest-parameter array loads the tag but silently drops
+  // the queued commands, so no `g/collect` request is ever sent.
+  window.gtag = function gtag() {
+    window.dataLayer?.push(arguments);
   } as Gtag;
 
   window.gtag("js", new Date());
@@ -43,7 +47,7 @@ export const trackPageView = (path: string) => {
     return;
   }
 
-  window.gtag("config", GA_MEASUREMENT_ID, {
+  window.gtag("event", "page_view", {
     page_path: path,
     page_location: window.location.origin + path,
     page_title: document.title
