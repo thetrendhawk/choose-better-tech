@@ -4,7 +4,7 @@ Status: Research complete; no applications, outreach, affiliate implementation, 
 
 Owner: Choose Better Tech
 
-Checked date: 2026-07-12
+Checked date: 2026-07-12 (original research); operational-status addendum added 2026-07-13 — see "Operational Status Update" below
 
 Editorial candidate source: `docs/research/cloud-storage-landscape-dossier-2026-07-13.md`
 
@@ -25,9 +25,13 @@ This task did not:
 - change an article, ranking, verdict, candidate set, or publication order;
 - authorize a sponsorship, lead sale, consulting offer, paid product, or advertising integration.
 
+The 2026-07-13 operational-status addendum below does not change this. It records account-creation and onboarding activity that occurred after the original 2026-07-12 research pass; it does not add a tracked link, CTA, ranking, or verdict, and it does not retroactively rewrite the 2026-07-12 findings.
+
 ## Monetization Independence Check: PASS
 
 **Result: PASS.** The provider research below was mapped against the pre-existing Cloud Storage candidate universe and adjacent products without changing editorial inclusion, exclusion, ranking, verdict, recommendation order, evidence interpretation, or publication conclusions. Current and potential monetization status remains segregated from editorial analysis. If a future implementation cannot preserve that separation, the monetization workflow must stop.
+
+This result remains `PASS` after the 2026-07-13 operational-status addendum. Account creation, network onboarding, and terms review are commercial-operations activity; none of it altered editorial content, rankings, or verdicts.
 
 Binding safeguards for later implementation:
 
@@ -46,10 +50,11 @@ Binding safeguards for later implementation:
 - Cookie duration, attribution, commission validation, paid-search rules, and payout terms are advertiser-specific unless an official source says otherwise.
 - Public program pages can change without notice. Every program must be rechecked immediately before application and again before link implementation.
 - CBT account membership in a network was not inferred from public pages. The current-status field uses only repository evidence in `src/data/affiliateLinks.ts` and explicit public facts.
+- The 2026-07-13 addendum introduces one additional evidence class: logged-in, account-level terms captured after CBT obtained direct dashboard or portal access. Where logged-in terms conflict with or add detail beyond a previously recorded public-page summary, both are preserved, with the logged-in terms marked as the more current, more authoritative source.
 
 ## Priority summary
 
-| Opportunity | Public route | Current CBT state | Recommended action | Why |
+| Opportunity | Public route | Current CBT state (as of 2026-07-12) | Recommended action | Why |
 | --- | --- | --- | --- | --- |
 | pCloud | Direct affiliate | No cloud-storage registry record | Apply now | Public worldwide program, recurring and one-time models, low payout threshold |
 | Sync.com | Awin | No registry record | Apply now | New official help page confirms an active Awin program despite stale conflicting copy |
@@ -61,6 +66,23 @@ Binding safeguards for later implementation:
 | Display advertising | AdSense initially; premium network later | Not recorded in this research | Apply after traffic growth | Real revenue potential, but early ads can harm trust, speed, and reader experience |
 | Premium migration toolkit | CBT-owned product | Not created | Test later | Strong fit with switching, backup, ownership, and offboarding problems |
 | Newsletter sponsorship | Direct sponsorship | No cloud-storage sponsor record | Apply after traffic growth | Requires a measurable, engaged list and a formal sponsor-independence policy |
+
+This table reflects the state as originally recorded on 2026-07-12 and is preserved unchanged. See "Operational Status Update — 2026-07-13" below for what has changed since.
+
+## Operational Status Update — 2026-07-13 (documentation-only; no commercial implementation)
+
+This section is a dated addendum. It does not edit the 2026-07-12 research above. Full operational detail, including the exact Internxt logged-in terms and the pCloud dashboard commission facts, is recorded in `operations/AFFILIATE_PLAYBOOK.md` under "Cloud Storage Cluster — Affiliate Operational Status." This section summarizes what changed and why, and states plainly what did not change.
+
+| Provider | State as of 2026-07-12 | State as of 2026-07-13 | What changed |
+| --- | --- | --- | --- |
+| pCloud | No cloud-storage registry record; "Apply now" opportunity | `ACTIVE_ACCOUNT — LINK IMPLEMENTATION NOT AUTHORIZED` | An active pCloud affiliate account was created using `hello@choosebettertech.com`. The affiliate dashboard confirms 20% commission on recurring subscription payments and 20% commission on lifetime-plan payments. The 45-day-versus-90-day attribution conflict identified on 2026-07-12 remains unresolved and is preserved, not guessed at. No affiliate link has been generated, entered into the registry, or implemented on the site. Editorial activation is not authorized. |
+| Sync.com (via Awin) | No registry record; "Apply now" opportunity | Awin publisher onboarding begun; Sync.com approval unconfirmed | Choose Better Tech began Awin publisher onboarding using `hello@choosebettertech.com`, CBT's publication description, and its content-interest tags (full detail in the Affiliate Playbook). This is onboarding/application activity only. Sync.com has not been confirmed to have approved CBT, and no such approval is claimed. |
+| Internxt (via Impact) | No registry record; "Apply now" opportunity; public-page terms only (30% annual / 15% lifetime; 30-day cookie) | Logged-in terms reviewed; application/acceptance unconfirmed | Logged-in Internxt/Impact terms were reviewed and are recorded in full in `operations/AFFILIATE_PLAYBOOK.md`. These account-level terms are more granular than, and in some respects supersede, the prior public-page summary: commission is order-value-dependent (15% above EUR 99, 30% otherwise, EUR 0 for signup actions) rather than a flat 30%/15% split, and attribution includes a 400-day parent-action window alongside the 30-day click window. The prior public-page summary remains unchanged above for audit purposes. Internxt application or acceptance status is not confirmed and is not claimed. |
+| Tresorit (via PartnerStack) | No registry record; "Apply now" opportunity | Unchanged — pending/not started | The roadmap previously recommended applying. No signup, application, or approval activity has occurred. This status is preserved accurately as pending/unstarted rather than advanced without evidence. |
+
+**No tracked affiliate link, commercial CTA, ranking, recommendation, or editorial conclusion changed as a result of this update.** `src/data/affiliateLinks.ts` was not touched. No article, route, UI, component, sitemap, or metadata changed.
+
+**Monetization Independence Check: PASS** (unchanged; see restatement above).
 
 ## Provider and program records
 
@@ -102,11 +124,12 @@ Binding safeguards for later implementation:
 - **Payout terms:** Monthly, generally around the 16th and no earlier than 45 days after sale; $10 PayPal minimum or $500 wire minimum
 - **Promotional restrictions:** Promotions must be active and valid; email creatives are available through the dashboard
 - **Paid-search or brand-bidding rules:** No pCloud trademark bids, variations, misspellings, or combinations; may not outrank pCloud's own paid ad; may not use pcloud.com as display URL
-- **CBT current status:** No pCloud record in `src/data/affiliateLinks.ts`
+- **CBT current status (as of 2026-07-12):** No pCloud record in `src/data/affiliateLinks.ts`
 - **Evidence source:** [pCloud affiliate help](https://help.pcloud.com/article/affiliate-program); [pCloud affiliate program](https://www.pcloud.com/affiliate.html)
 - **Checked date:** 2026-07-12
 - **Conflict or compliance risk:** Cookie-duration conflict requires written clarification before implementation. Lifetime-plan promotions and Crypto claims are high-volatility and must remain qualified editorially.
 - **Recommended action:** Apply now
+- **2026-07-13 operational note:** An active pCloud affiliate account was subsequently created using `hello@choosebettertech.com`; see "Operational Status Update" above and `operations/AFFILIATE_PLAYBOOK.md` for current status. This note does not alter the 2026-07-12 findings above.
 
 ### 3. Sync.com
 
@@ -124,11 +147,12 @@ Binding safeguards for later implementation:
 - **Payout terms:** Through Awin; exact validation window, threshold, and schedule require account-level terms
 - **Promotional restrictions:** Must use approved Awin tracking; self-referrals and retroactive claims are prohibited
 - **Paid-search or brand-bidding rules:** Status unverified
-- **CBT current status:** No Sync.com or Awin cloud-storage record in `src/data/affiliateLinks.ts`
+- **CBT current status (as of 2026-07-12):** No Sync.com or Awin cloud-storage record in `src/data/affiliateLinks.ts`
 - **Evidence source:** [Sync affiliate and rewards help](https://help.sync.com/hc/en-us/articles/38275572602643-Does-Sync-have-an-affiliate-reseller-commission-or-rewards-program); [older Sync affiliate page](https://www.sync.com/affiliates/)
 - **Checked date:** 2026-07-12
 - **Conflict or compliance risk:** The live official `sync.com/affiliates` page retains stale ShareASale wording, while the current official help article directs publishers to apply through Awin. Treat Awin as the current network direction, but recheck actual application availability and merchant terms inside Awin before action rather than guessing how the stale page affects acceptance.
 - **Recommended action:** Apply now
+- **2026-07-13 operational note:** CBT began Awin publisher onboarding using `hello@choosebettertech.com`; see "Operational Status Update" above. Sync.com advertiser approval remains unconfirmed and is not claimed. This note does not alter the 2026-07-12 findings above.
 
 ### 4. Internxt
 
@@ -146,11 +170,12 @@ Binding safeguards for later implementation:
 - **Payout terms:** Public page says payouts are issued at the end of each month; threshold and method are not publicly stated
 - **Promotional restrictions:** Dashboard terms govern; public page does not disclose detailed promotional rules
 - **Paid-search or brand-bidding rules:** Status unverified
-- **CBT current status:** No Internxt record in `src/data/affiliateLinks.ts`
+- **CBT current status (as of 2026-07-12):** No Internxt record in `src/data/affiliateLinks.ts`
 - **Evidence source:** [Internxt Affiliate Program](https://internxt.com/affiliates), including its Impact-hosted signup/login destinations; [Internxt affiliate help](https://help.internxt.com/en/articles/6538916-does-internxt-have-an-affiliate-program)
 - **Checked date:** 2026-07-12
 - **Conflict or compliance risk:** High promotional volatility, lifetime-plan economics, and absolute security marketing language require strict separation from CBT's evidence-based conclusions.
 - **Recommended action:** Apply now
+- **2026-07-13 operational note:** Logged-in Internxt/Impact terms were reviewed and are recorded in `operations/AFFILIATE_PLAYBOOK.md`. Those account-level terms supersede/clarify this public-page summary where they conflict (order-value-dependent 15%/30% commission and EUR 0 signup credit, plus a 400-day parent-action attribution window alongside the 30-day click window, rather than a flat 30%/15% split). Internxt application/acceptance status remains unconfirmed and is not claimed. This note does not alter the 2026-07-12 findings above, which are preserved as originally recorded.
 
 ### 5. Tresorit
 
@@ -168,11 +193,12 @@ Binding safeguards for later implementation:
 - **Payout terms:** Through PartnerStack; merchant-specific validation and payout details require logged-in terms
 - **Promotional restrictions:** Program terms are linked from PartnerStack but are not summarized publicly
 - **Paid-search or brand-bidding rules:** Status unverified
-- **CBT current status:** No Tresorit or PartnerStack record in `src/data/affiliateLinks.ts`
+- **CBT current status (as of 2026-07-12):** No Tresorit or PartnerStack record in `src/data/affiliateLinks.ts`
 - **Evidence source:** [Tresorit on PartnerStack](https://market.partnerstack.com/page/tresorit); [PartnerStack marketplace help](https://support.partnerstack.com/hc/en-us/articles/360009185034-What-is-the-Marketplace)
 - **Checked date:** 2026-07-12
 - **Conflict or compliance risk:** High potential commission could create perceived bias in a secure-storage ranking. The public offer does not expose cookie, validation, reversal, or paid-search terms.
 - **Recommended action:** Apply now
+- **2026-07-13 operational note:** No signup, application, or approval activity has occurred. Status is preserved as pending/unstarted; see "Operational Status Update" above.
 
 ### 6. Google Drive / Google Workspace
 
@@ -303,7 +329,7 @@ Binding safeguards for later implementation:
 - **CBT current status:** No MEGA record in `src/data/affiliateLinks.ts`
 - **Evidence source:** No current first-party cash-affiliate source verified during this pass
 - **Checked date:** 2026-07-12
-- **Conflict or compliance risk:** Search results are easily confused with unrelated companies using “Mega.” Only a `mega.io` source or authenticated network record should authorize action.
+- **Conflict or compliance risk:** Search results are easily confused with unrelated companies using "Mega." Only a `mega.io` source or authenticated network record should authorize action.
 - **Recommended action:** Monitor
 
 ### 12. Filen
@@ -378,12 +404,12 @@ Network membership does not establish that a specific cloud-storage advertiser i
 
 | Network/platform | Public publisher availability | Verified cloud-storage relevance | CBT current status | Main requirements or risks | Recommended action | Evidence |
 | --- | --- | --- | --- | --- | --- | --- |
-| Direct programs | Provider-specific | Proton Drive, pCloud, IDrive | Related Proton relationships only; no Drive-specific registry record | Separate contracts, dashboards, thresholds, and brand rules | Apply now | Provider records above |
-| Impact | Open partner marketplace application | Internxt's official affiliate signup/login is hosted by Impact | No registry evidence | Verify media properties, identity, tax residency, Internxt acceptance, and account-level merchant terms | Apply now | [Internxt Affiliate Program](https://internxt.com/affiliates); [Impact marketplace onboarding](https://help.impact.com/partner/what-would-you-like-to-learn-about/getting-started/readme/im-a-partner/step-1-join-the-marketplace) |
+| Direct programs | Provider-specific | Proton Drive, pCloud, IDrive | Related Proton relationships only; no Drive-specific registry record. pCloud: active direct account created 2026-07-13, no link implemented — see operational addendum. | Separate contracts, dashboards, thresholds, and brand rules | Apply now | Provider records above |
+| Impact | Open partner marketplace application | Internxt's official affiliate signup/login is hosted by Impact | No registry evidence. Logged-in Internxt terms reviewed 2026-07-13; application/acceptance unconfirmed — see operational addendum. | Verify media properties, identity, tax residency, Internxt acceptance, and account-level merchant terms | Apply now | [Internxt Affiliate Program](https://internxt.com/affiliates); [Impact marketplace onboarding](https://help.impact.com/partner/what-would-you-like-to-learn-about/getting-started/readme/im-a-partner/step-1-join-the-marketplace) |
 | CJ Affiliate | Open publisher signup | Google Workspace officially uses CJ | CBT already has active CJ relationships; no Workspace record | Workspace expects high-volume business referrals; each advertiser approves separately | Apply after traffic growth | [CJ publisher](https://www.cj.com/publisher); [Google Workspace affiliate](https://workspace.google.com/affiliate-program/) |
-| Awin | Open publisher network | Sync.com officially uses Awin | No registry evidence | Merchant approval and terms required; public Sync conflict must be resolved | Apply now | [Sync affiliate help](https://help.sync.com/hc/en-us/articles/38275572602643-Does-Sync-have-an-affiliate-reseller-commission-or-rewards-program) |
+| Awin | Open publisher network | Sync.com officially uses Awin | No registry evidence. Awin publisher onboarding begun 2026-07-13; Sync.com approval unconfirmed — see operational addendum. | Merchant approval and terms required; public Sync conflict must be resolved | Apply now | [Sync affiliate help](https://help.sync.com/hc/en-us/articles/38275572602643-Does-Sync-have-an-affiliate-reseller-commission-or-rewards-program) |
 | ShareASale | Platform closed on 2025-10-06 and migrated to Awin | Stale Sync material references ShareASale | No registry evidence | Do not open a new ShareASale workflow | Unavailable | [Awin post-upgrade checklist](https://help.awin.com/advertisers/docs/en/post-upgrade-checklist-sas) |
-| PartnerStack | Marketplace application available | Tresorit public listing verified | No registry evidence | Join PartnerStack network, then apply to merchant; important terms are login-gated | Apply now | [PartnerStack marketplace](https://support.partnerstack.com/hc/en-us/articles/360009185034-What-is-the-Marketplace); [Tresorit listing](https://market.partnerstack.com/page/tresorit) |
+| PartnerStack | Marketplace application available | Tresorit public listing verified | No registry evidence; no application activity as of 2026-07-13 | Join PartnerStack network, then apply to merchant; important terms are login-gated | Apply now | [PartnerStack marketplace](https://support.partnerstack.com/hc/en-us/articles/360009185034-What-is-the-Marketplace); [Tresorit listing](https://market.partnerstack.com/page/tresorit) |
 | FlexOffers | Publisher network advertises 12,000+ programs | No candidate confirmed publicly | No registry evidence | Merchant availability and terms require account search; subnetwork adds another compliance layer | Monitor | [FlexOffers publisher overview](https://www.flexoffers.com/publishers/reputation/) |
 | Rakuten Advertising | Free publisher signup with website/blog/social presence | No candidate confirmed publicly | No registry evidence | Unique content, live site, traffic disclosure, then advertiser-specific approval | Monitor | [Rakuten signup](https://pubhelp.rakutenadvertising.com/hc/en-us/articles/20898125890573-Publisher-Sign-Up-Process) |
 | Tradedoubler | Publisher registration available | No candidate confirmed publicly | No registry evidence | Public page emphasizes a high-quality channel with substantial traffic; market and advertiser terms vary | Apply after traffic growth | [Tradedoubler registration](https://www.tradedoubler.com/register); [publisher FAQ](https://www.tradedoubler.com/faq-publishers) |
@@ -468,6 +494,8 @@ Required controls:
 2. Ask Proton Partners whether CBT's existing relationship covers Drive Plus and related paid Drive conversions, and request the applicable cookie and attribution terms.
 3. Capture full logged-in terms before accepting or implementing any program.
 
+As of 2026-07-13, item 1 above has partially progressed: a pCloud account is active, Awin publisher onboarding for Sync.com has begun, and logged-in Internxt/Impact terms have been reviewed. Tresorit/PartnerStack remains untouched. None of this authorizes link implementation; see "Operational Status Update" above.
+
 ### After measurable cloud-storage traffic develops
 
 1. Reassess Google Workspace/CJ against its 100-user annual fit threshold.
@@ -498,3 +526,5 @@ Recheck this map when any of the following occurs:
 The Cloud Storage cluster has credible revenue potential without narrowing editorial coverage. The clearest near-term affiliate opportunities are pCloud, Sync.com, Internxt, and Tresorit, while Proton Drive requires clarification of CBT's existing relationship. Google Workspace is a later-stage opportunity tied to business-referral volume. Display ads, sponsorships, lead generation, and owned products are viable only after traffic, consent, maintenance, and independence controls mature.
 
 The independence result remains `PASS`; no commercial implementation is authorized by this record.
+
+As of the 2026-07-13 operational-status addendum, this verdict is unchanged. Account creation, network onboarding, and terms review for pCloud, Sync.com/Awin, and Internxt/Impact are commercial-operations progress, not editorial or implementation authorization. `Monetization Independence Check: PASS` remains in effect.
