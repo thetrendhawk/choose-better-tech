@@ -1,3 +1,11 @@
+> [!WARNING]
+> **SUPERSEDED — HISTORICAL ONLY**
+>
+> This foundation-era scoring model is retained for provenance only. It no longer controls article priority or authorization.
+> Current priority and authorization are controlled by [`operations/ROADMAP.md`](../operations/ROADMAP.md), [`operations/TOPIC_CLUSTER_APPROVAL_POLICY.md`](../operations/TOPIC_CLUSTER_APPROVAL_POLICY.md), [`operations/PUBLISHING_CAPACITY_AND_BATCH_POLICY.md`](../operations/PUBLISHING_CAPACITY_AND_BATCH_POLICY.md), and the applicable cluster-approval record.
+>
+> Do not use this file to select or sequence work. Its 20-point affiliate-opportunity weighting and fixed article list conflict with current monetization-independence and live-queue rules.
+
 # Choose Better Tech Opportunity Scoring v1.0
 
 ## Purpose

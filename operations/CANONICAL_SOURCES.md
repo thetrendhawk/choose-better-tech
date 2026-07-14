@@ -25,10 +25,14 @@ foundation-era file with no marker) was read as canonical in 2026-07 and produce
 | Content inventory / counts | `operations/KPI_DASHBOARD.md` (Content Inventory Baseline) |
 | Cluster authorization | `docs/strategy/<cluster>-cluster-approval.md` (+ expansion reviews) |
 | Article/state model (design) | `operations/STATE_MODEL.md` |
-| Affiliate status | `operations/AFFILIATE_APPLICATION_REGISTRY.md`, `operations/AFFILIATE_PLAYBOOK.md` |
-| Volatile claims | `operations/VOLATILE_CLAIMS_REGISTER.md` |
+| Editorial standards | `operations/EDITORIAL_STANDARDS.md` |
+| Research and evidence requirements | `operations/RESEARCH_AND_EVIDENCE_STANDARD.md` |
 | Publication/QA workflow | `operations/PUBLISHING_WORKFLOW.md` |
+| Article quality threshold | `operations/ARTICLE_QUALITY_SCORECARD.md` |
 | Automation rules | `operations/AUTOMATION_PUBLISHING_CONTRACT.md` |
+| Affiliate status | `operations/AFFILIATE_APPLICATION_REGISTRY.md`, `operations/AFFILIATE_PLAYBOOK.md` |
+| Monetization independence and research | `operations/MONETIZATION_RESEARCH_STANDARD.md` |
+| Volatile claims | `operations/VOLATILE_CLAIMS_REGISTER.md` |
 | KPI reporting | `operations/KPI_DASHBOARD.md` |
 
 ## Known superseded documents
@@ -37,6 +41,10 @@ foundation-era file with no marker) was read as canonical in 2026-07 and produce
 | --- | --- | --- |
 | `docs/Content-Roadmap.md` | `operations/ROADMAP.md` | Yes (banner) |
 | `docs/Editorial-Standards.md` | `operations/EDITORIAL_STANDARDS.md` | Yes (banner) |
+| `docs/CBT-Operations-Manual-v1.0.md` | Current binding operations, editorial, publishing, and automation documents | Yes (banner) |
+| `docs/Opportunity-Scoring.md` | `operations/ROADMAP.md`, topic-cluster approval, and capacity policy | Yes (banner) |
+| `docs/Publisher-Readiness-Checklist.md` | `operations/PUBLISHING_WORKFLOW.md` and `operations/ARTICLE_QUALITY_SCORECARD.md` | Yes (banner) |
+| `docs/Research-Workflow.md` | `operations/RESEARCH_AND_EVIDENCE_STANDARD.md` and supporting evidence standards | Yes (banner) |
 
 ## Control metadata
 
