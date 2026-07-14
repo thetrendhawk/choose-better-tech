@@ -1,74 +1,116 @@
 # Choose Better Tech
 
-Choose Better Tech is a production-minded static affiliate content website built to help ordinary people make better software decisions through honest reviews, practical comparisons, and beginner-friendly guides.
+Choose Better Tech (CBT) is an independent software review, comparison, and buying-guide publication. It helps beginner and mainstream software buyers make better decisions through evidence-based reviews, comparisons, buying guides, and educational content.
 
-Version 0.1 establishes the foundation for a long-term authority website: clear navigation, trustworthy editorial framing, static legal pages, reusable components, SEO metadata, and a maintainable React architecture.
+Production site: **https://choosebettertech.com**
 
-## Stack
+## Mission
 
-- React
-- Vite
-- TypeScript
-- TailwindCSS
-- React Router
-- Lucide Icons
+CBT exists to help readers make better software decisions. Every review, comparison, and guide is produced through a research-first, evidence-based process, and every piece is required to make a genuine original contribution rather than restate marketing copy.
 
-No backend, database, CMS, or authentication is required for this version.
+Affiliate availability and commission rates do not affect coverage, rankings, verdicts, or recommendations. A provider offering a lucrative affiliate program creates no presumption of favorable treatment, and a provider with no monetization path at all can still be covered, ranked, and recommended on its merits. Editorial and commercial decisions are made independently of each other, and that separation is enforced by written standards, not just intent.
 
-## Project Structure
+## Current editorial areas
 
-- src/components - shared UI, layout pieces, and homepage cards
-- src/pages - route-level pages
-- src/layouts - site shell layout
-- src/assets - static visual assets imported by the app
-- src/styles - global Tailwind and base styles
-- src/types - shared TypeScript types
-- src/utils - site constants and SEO helpers
-- public - static SEO files such as robots.txt and sitemap.xml
+CBT currently publishes in the following clusters:
 
-## Installation
+- **VPNs** — reviews, comparisons, and buying guides
+- **Password managers** — reviews, comparisons, and buying guides
+- **Data-removal services** — reviews, comparisons, and buying guides
+- **Cloud storage** — reviews, comparisons, and buying guides
+- **Cybersecurity tools** (antivirus and adjacent categories) — an approved cluster currently in progress
 
-~~~bash
-npm install
-~~~
+Any additional topic cluster (for example, AI productivity software) requires formal approval under the repository's topic-cluster process before research or drafting begins. See `operations/TOPIC_CLUSTER_APPROVAL_POLICY.md`.
 
-## Development
+## Technical stack
 
-~~~bash
-npm run dev
-~~~
+- **React 19**
+- **Vite 6**
+- **TypeScript**
+- **React Router 7**
+- **Tailwind CSS**
+- **Vercel** (hosting and deployment)
 
-## Build
+CBT is a static, client-rendered single-page application. There is no server-side rendering and no route prerendering, and no backend, database, CMS, or authentication layer. SEO has two distinct layers, and they should not be conflated:
 
-~~~bash
-npm run build
-~~~
+- `scripts/generate-seo-files.mjs` runs before the Vite build (as part of `npm run build`) and generates static search-support files such as `robots.txt`, `sitemap.xml`, and related assets.
+- Route-level title, description, canonical URL, and social (Open Graph/Twitter) metadata are applied by a client-side SEO helper (`src/utils/seo.ts`) that updates `document.head` when a route loads, not embedded per route in the initial static HTML at build time.
 
-## Preview
+Sitemap inclusion and IndexNow acceptance confirm submission only; neither proves that a page has actually been indexed. Indexing status is tracked and verified separately in the operations records rather than assumed from either signal.
 
-~~~bash
-npm run preview
-~~~
+## Repository structure
 
-## Deployment to Vercel
+```
+src/components   shared UI, layout pieces, and homepage cards
+src/pages        route-level pages
+src/layouts      site shell layout
+src/data         article/comparison/review content and the centralized affiliate registry
+src/utils        site constants, SEO helpers, analytics, and the affiliate resolver
+src/assets       static visual assets imported by the app
+src/styles       global Tailwind and base styles
+src/types        shared TypeScript types
+public           static SEO files such as robots.txt and sitemap.xml
+docs/research     per-article and cluster research records
+docs/quality      per-article claim ledgers, independent reviews, and quality scorecards
+docs/monetization per-cluster and per-article monetization opportunity research
+docs/strategy     cluster-approval and strategic decision records
+docs/audits       sitewide and cluster quality audits
+docs/editorial    editorial-process working documents
+operations        canonical operating standards, governance policies, and business records
+.github           pull request template and repository automation
+```
 
-1. Push this repository to GitHub.
-2. Import the repository into Vercel.
-3. Use the default Vite settings:
-   - Build command: npm run build
-   - Output directory: dist
-4. Add a production domain when ready.
-5. Set SITE_URL to the production domain. This controls canonical URLs, Open Graph URLs, robots.txt, and sitemap.xml.
+## Editorial and publishing governance
 
-## Editorial Notes
+CBT publishes under a binding set of operational standards designed to keep coverage evidence-based and editorially independent of commercial pressure. In outline, the process for any substantial article is:
 
-The guide cards in version 0.1 intentionally use placeholder excerpts and Coming Soon labels. No fake reviews, credentials, or invented article content are included.
+1. **Research before drafting.** A dedicated research record is produced and reviewed before any article content is written.
+2. **Critical/High claim ledger.** Every Critical or High-impact factual claim is logged with its source, checked date, and reviewer status before it can appear in published content.
+3. **Original-contribution requirement.** Content must add genuine analysis, synthesis, or evidence beyond restating vendor marketing material.
+4. **Independent review.** Research and drafts are reviewed by a separate reviewing pass before publication, with an explicit decision (approve, return for correction, or reject).
+5. **Article quality scorecard.** Published articles are scored against a fixed quality rubric before deployment is authorized.
+6. **Branch and pull-request workflow.** Substantial content changes use a dedicated branch and pull request rather than direct commits to `main`. The protected `main` branch requires pull requests, restricts deletion, and blocks force pushes.
+7. **Build and validation checks.** Lint, TypeScript build, and diff checks must pass before merge.
+8. **Production deployment and live QA.** After merge, production deployment is verified against the live site, including canonical URLs, schema, sitemap entries, and responsive/structural checks.
+9. **Corrections and volatile-claim monitoring.** Claims that are likely to change (pricing, plan details, policy terms, and similar) are tracked in a volatile-claims register and rechecked on a defined cadence; corrections follow a documented policy.
+10. **Monetization as a separate parallel workstream.** Commercial research (affiliate programs, networks, terms, and account status) is conducted and recorded separately from editorial decisions, and is required to pass a Monetization Independence Check before and after any related editorial work.
 
-## Operations Docs
+The full standards are in `operations/`; see "Canonical documentation" below for direct links.
 
-- [Choose Better Tech Operations Manual v1.0](docs/CBT-Operations-Manual-v1.0.md)
-- [Editorial Standards](docs/Editorial-Standards.md)
-- [Research Workflow](docs/Research-Workflow.md)
-- [Publisher Readiness Checklist](docs/Publisher-Readiness-Checklist.md)
-- [Content Roadmap](docs/Content-Roadmap.md)
-- [Opportunity Scoring](docs/Opportunity-Scoring.md)
+## Affiliate implementation rule
+
+- Raw affiliate destinations are centralized in `src/data/affiliateLinks.ts`. Articles, guides, hubs, and comparisons must not hard-code raw affiliate URLs.
+- Affiliate-program approval or account creation does not, by itself, authorize link placement, editorial mention, or ranking influence. Each of those is a separate, explicitly authorized step.
+- Affiliate links are implemented only after editorial need is established independently, program terms are verified, and a separate implementation task is authorized. See `operations/AFFILIATE_PLAYBOOK.md` for current per-provider status.
+
+## Canonical documentation
+
+- [Editorial Standards](operations/EDITORIAL_STANDARDS.md)
+- [Research and Evidence Standard](operations/RESEARCH_AND_EVIDENCE_STANDARD.md)
+- [Publishing Workflow](operations/PUBLISHING_WORKFLOW.md)
+- [Automation Publishing Contract](operations/AUTOMATION_PUBLISHING_CONTRACT.md)
+- [Monetization Research Standard](operations/MONETIZATION_RESEARCH_STANDARD.md)
+- [Affiliate Playbook](operations/AFFILIATE_PLAYBOOK.md)
+- [Content Dashboard](operations/CONTENT_DASHBOARD.md)
+- [Project Status](operations/PROJECT_STATUS.md)
+- [Roadmap](operations/ROADMAP.md)
+- [Changelog](operations/CHANGELOG.md)
+- [Article Quality Scorecard standard](operations/ARTICLE_QUALITY_SCORECARD.md)
+- [Claim Ledger Standard](operations/CLAIM_LEDGER_STANDARD.md)
+- [Independent Review Protocol](operations/INDEPENDENT_REVIEW_PROTOCOL.md)
+
+Note: the article-quality scorecard, claim-ledger, and independent-review *standards* live under `operations/`, as linked above. `docs/quality/` holds the completed, per-article outputs produced under those standards (for example, `docs/quality/best-secure-cloud-storage-quality-scorecard.md`), not the standards themselves.
+
+## Local setup and commands
+
+```bash
+npm install       # install dependencies
+npm run dev        # start the Vite development server
+npm run build       # generate SEO files, type-check, and build for production
+npm run preview      # preview the production build locally
+npm run lint       # run ESLint
+```
+
+## Deployment
+
+Production deploys run on Vercel from `main` using the default Vite settings (build command `npm run build`, output directory `dist`). The `SITE_URL` environment variable controls canonical URLs, Open Graph URLs, `robots.txt`, and `sitemap.xml`.
