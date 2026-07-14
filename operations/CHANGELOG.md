@@ -11,6 +11,18 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-13 — Cloud Storage affiliate account and network onboarding status recorded (documentation-only)
+
+- An active pCloud affiliate account was confirmed created using `hello@choosebettertech.com`. Account access is active and the affiliate dashboard is reachable, showing 20% commission on recurring subscription payments and 20% commission on lifetime-plan payments. The previously identified conflict between 45-day and 90-day public attribution claims remains unresolved and is preserved rather than guessed at. Status recorded as `ACTIVE_ACCOUNT — LINK IMPLEMENTATION NOT AUTHORIZED`.
+- Awin publisher onboarding was begun using publication email `hello@choosebettertech.com`, CBT's standard publication description, and its content-interest tags. This is onboarding/application activity only. Sync.com advertiser approval remains pending/unconfirmed; no approval is claimed.
+- Logged-in Internxt/Impact program terms were reviewed and recorded, including payment conversion (15% on orders over EUR 99, 30% otherwise, EUR 0 for signup actions), attribution (400-day parent-action window, 30-day click window), and locking/payment schedules. Internxt application or acceptance status remains unconfirmed and is not claimed.
+- Tresorit/PartnerStack status remains pending/unstarted; no signup, application, or approval evidence exists. The prior roadmap recommendation to apply is preserved without being advanced.
+- Updated `operations/AFFILIATE_PLAYBOOK.md` (version 1.1 to 1.2) with structured, stage-by-stage operational records for pCloud, Awin, Sync.com, Impact, Internxt, PartnerStack, and Tresorit, distinguishing network account status, advertiser application status, advertiser approval, terms review, affiliate-link generation, editorial activation, and live-site implementation.
+- Added a dated operational-status addendum to `docs/monetization/cloud-storage-monetization-opportunity-map.md` without rewriting the original 2026-07-12 research findings or checked dates.
+- Added `operations/AFFILIATE_APPLICATION_REGISTRY.md` as a structured tracking table for the four affected provider/network relationships.
+- No affiliate link was generated, entered into `src/data/affiliateLinks.ts`, or implemented on the website. No article, ranking, recommendation, verdict, CTA, route, component, UI, sitemap, or metadata changed. No production code changed. No password, tax information, banking information, account token, recovery code, or private credential was recorded.
+- `Monetization Independence Check: PASS` (unchanged).
+
 ### 2026-07-13 — Cybersecurity Tools cluster approved for two-article autopilot run
 
 - Approved the Cybersecurity Tools cluster for Best Antivirus Software followed by TotalAV Review.
