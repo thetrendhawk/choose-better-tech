@@ -1,8 +1,10 @@
-import { readFileSync } from "node:fs";
+import { mkdtempSync, readFileSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { APP_ROUTES } from "./routes.manifest.mjs";
 import { buildVercelConfig } from "../scripts/generate-vercel-routes.mjs";
-import { buildSitemap } from "../scripts/generate-seo-files.mjs";
+import { buildSitemap, isEolEquivalent, writeIfChanged } from "../scripts/generate-seo-files.mjs";
 
 const SITE_URL = "https://choosebettertech.com";
 
@@ -84,12 +86,48 @@ describe("generated Vercel routing", () => {
 });
 
 describe("sitemap output", () => {
-  it("remains byte-identical to the committed sitemap", () => {
+  it("matches the committed sitemap ignoring line endings", () => {
     const committed = readFileSync("public/sitemap.xml", "utf8");
-    expect(buildSitemap(APP_ROUTES, SITE_URL)).toBe(committed);
+    expect(isEolEquivalent(buildSitemap(APP_ROUTES, SITE_URL), committed)).toBe(true);
   });
 
   it("still lists exactly 64 URLs", () => {
     expect(APP_ROUTES).toHaveLength(64);
+  });
+});
+
+describe("cross-platform generated-file handling", () => {
+  const canonical = buildSitemap(APP_ROUTES, SITE_URL);
+
+  it("treats LF committed content as equivalent", () => {
+    expect(isEolEquivalent(canonical, canonical)).toBe(true);
+  });
+
+  it("treats CRLF committed content as equivalent", () => {
+    expect(isEolEquivalent(canonical, canonical.replace(/\n/g, "\r\n"))).toBe(true);
+  });
+
+  it("detects a real content difference", () => {
+    const changed = canonical.replace("/reviews/totalav-review", "/reviews/totalav-review-changed");
+    expect(isEolEquivalent(canonical, changed)).toBe(false);
+  });
+
+  it("does not rewrite an equivalent CRLF file", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "cbt-eol-"));
+    const file = join(dir, "sitemap.xml");
+    const crlf = canonical.replace(/\n/g, "\r\n");
+    writeFileSync(file, crlf);
+    const wrote = await writeIfChanged(file, canonical);
+    expect(wrote).toBe(false);
+    expect(readFileSync(file, "utf8")).toBe(crlf);
+  });
+
+  it("writes when the normalized content actually differs", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "cbt-eol-"));
+    const file = join(dir, "sitemap.xml");
+    writeFileSync(file, "stale");
+    const wrote = await writeIfChanged(file, canonical);
+    expect(wrote).toBe(true);
+    expect(isEolEquivalent(readFileSync(file, "utf8"), canonical)).toBe(true);
   });
 });
