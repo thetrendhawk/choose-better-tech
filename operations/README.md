@@ -60,11 +60,11 @@ This lists major canonical operating documents; it is not an exhaustive file ind
 
 ## Legacy-document review
 
-The following foundation-era files under `docs/` are unresolved classification items. They are NOT superseded and NOT canonical by default. No authority may be inferred from their filename or location. Each must be compared against current canonical policy before any banner, move, merge, or deletion.
+The legacy-document review is complete. See [`docs/audits/legacy-document-review-2026-07-14.md`](../docs/audits/legacy-document-review-2026-07-14.md). All four foundation-era files below are classified **SUPERSEDED — HISTORICAL ONLY**. Their historical bodies are retained for provenance but cannot authorize, sequence, or govern current work.
 
-| File | Current status |
-| --- | --- |
-| `docs/CBT-Operations-Manual-v1.0.md` | REVIEW REQUIRED |
-| `docs/Opportunity-Scoring.md` | REVIEW REQUIRED |
-| `docs/Publisher-Readiness-Checklist.md` | REVIEW REQUIRED |
-| `docs/Research-Workflow.md` | REVIEW REQUIRED |
+| File | Classification | Current authority |
+| --- | --- | --- |
+| `docs/CBT-Operations-Manual-v1.0.md` | SUPERSEDED — HISTORICAL ONLY | Current binding operations, editorial, publishing, and automation documents |
+| `docs/Opportunity-Scoring.md` | SUPERSEDED — HISTORICAL ONLY | `operations/ROADMAP.md`, topic-cluster approval, and capacity policy |
+| `docs/Publisher-Readiness-Checklist.md` | SUPERSEDED — HISTORICAL ONLY | `operations/PUBLISHING_WORKFLOW.md` and `operations/ARTICLE_QUALITY_SCORECARD.md` |
+| `docs/Research-Workflow.md` | SUPERSEDED — HISTORICAL ONLY | `operations/RESEARCH_AND_EVIDENCE_STANDARD.md` and supporting evidence standards |
