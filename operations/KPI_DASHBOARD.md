@@ -31,7 +31,7 @@ These counts use published editorial routes in the current repository and sitema
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 13 | 14 | 28 | 55 | 8 pages indexed property-wide; editorial mix not yet reconciled | Google Search Console showed 8 indexed pages and 38 not indexed as of the 2026-07-14 observation. Best Antivirus Software was individually confirmed indexed. TotalAV Review was reported as unknown to Google; an indexing request was submitted. The two-article Cybersecurity Tools run otherwise passed research, claim ledgers, reviewer corrections, 39/40 scores, PRs, exact deployments, production visual QA, sitemap, IndexNow, and operations gates. |
+| 2026-07 | 13 | 14 | 28 | 55 | 7 editorial URLs in the dated Page Indexing example set; Best Antivirus separately confirmed indexed | Google Search Console's Page Indexing report, last updated 2026-07-09, showed 8 indexed URLs: 7 editorial URLs plus the `www` homepage variant. A current URL Inspection on 2026-07-14 separately confirmed Best Antivirus Software indexed, so the summary report is lagging and must not be treated as a real-time exhaustive list. TotalAV Review was reported as unknown to Google; an indexing request was submitted. The two-article Cybersecurity Tools run otherwise passed research, claim ledgers, reviewer corrections, 39/40 scores, PRs, exact deployments, production visual QA, sitemap, IndexNow, and operations gates. |
 
 ## Organic Search KPIs
 
@@ -46,10 +46,21 @@ Source: Google Search Console Page Indexing and URL Inspection
 
 | Status | Count / Result | Notes |
 | --- | --- | --- |
-| Indexed | 8 pages | Property-wide total; not yet reconciled to editorial-only assets. |
+| Indexed summary | 8 URLs | Page Indexing report last updated 2026-07-09. Its example set contains 7 editorial URLs and the `https://www.choosebettertech.com/` homepage variant. |
 | Not indexed | 38 pages | 35 discovered-currently not indexed; 3 crawled-currently not indexed. |
-| Best Antivirus Software | Indexed | URL Inspection reported `URL is on Google`. |
-| TotalAV Review | Not indexed | URL Inspection reported `URL is unknown to Google`; indexing was requested on 2026-07-14. |
+| Best Antivirus Software | Indexed | Current URL Inspection on 2026-07-14 reported `URL is on Google`; this URL was not yet present in the older 2026-07-09 summary examples. |
+| TotalAV Review | Not indexed | Current URL Inspection reported `URL is unknown to Google`; indexing was requested on 2026-07-14. |
+
+### Indexed URL examples in the 2026-07-09 Page Indexing report
+
+1. `https://www.choosebettertech.com/`
+2. `https://choosebettertech.com/comparisons/incogni-vs-optery`
+3. `https://choosebettertech.com/reviews/deleteme-review`
+4. `https://choosebettertech.com/comparisons/optery-vs-deleteme`
+5. `https://choosebettertech.com/comparisons/incogni-vs-deleteme`
+6. `https://choosebettertech.com/data-removal`
+7. `https://choosebettertech.com/best-password-managers-for-beginners`
+8. `https://choosebettertech.com/are-data-removal-services-worth-it`
 
 ## Pinterest KPIs
 
