@@ -1,9 +1,9 @@
 # KPI Dashboard
 
-Version: 1.0  
+Version: 1.1  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-13
+Last Updated: 2026-07-14
 
 ## Reporting Cadence
 
@@ -31,13 +31,25 @@ These counts use published editorial routes in the current repository and sitema
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 13 | 14 | 28 | 55 | Needs verification | The two-article Cybersecurity Tools autopilot run is complete. Best Antivirus Software and TotalAV Review independently passed research, claim ledgers, reviewer corrections, 39/40 scores, PRs, exact deployments, production visual QA, sitemap, IndexNow, and operations gates. Indexing is not inferred from submission. |
+| 2026-07 | 13 | 14 | 28 | 55 | 8 pages indexed property-wide; editorial mix not yet reconciled | Google Search Console showed 8 indexed pages and 38 not indexed as of the 2026-07-14 observation. Best Antivirus Software was individually confirmed indexed. TotalAV Review was reported as unknown to Google; an indexing request was submitted. The two-article Cybersecurity Tools run otherwise passed research, claim ledgers, reviewer corrections, 39/40 scores, PRs, exact deployments, production visual QA, sitemap, IndexNow, and operations gates. |
 
 ## Organic Search KPIs
 
-| Month | Organic Clicks | Organic Impressions | Returning Visitors | Notes |
-| --- | ---: | ---: | ---: | --- |
-| 2026-07 | Not measured | Not measured | Not measured | Baseline pending analytics review. |
+| Observation Date | Reporting Window | Organic Clicks | Organic Impressions | Search CTR | Average Position | Returning Visitors | Notes |
+| --- | --- | ---: | ---: | ---: | ---: | --- | --- |
+| 2026-07-14 | Search Console 3-month view; visible activity began 2026-07-10 | 0 | 49 | 0% | 30.1 | Not measured | Initial verified Google Search baseline. Early impressions include relevant data-removal queries such as `deleteme vs incogni`, `deleteme review`, `deleteme vs optery`, and `does delete me actually work`. This is an observation baseline, not evidence of stable rankings or traffic. |
+
+## Search Indexing Snapshot
+
+Observation Date: 2026-07-14  
+Source: Google Search Console Page Indexing and URL Inspection
+
+| Status | Count / Result | Notes |
+| --- | --- | --- |
+| Indexed | 8 pages | Property-wide total; not yet reconciled to editorial-only assets. |
+| Not indexed | 38 pages | 35 discovered-currently not indexed; 3 crawled-currently not indexed. |
+| Best Antivirus Software | Indexed | URL Inspection reported `URL is on Google`. |
+| TotalAV Review | Not indexed | URL Inspection reported `URL is unknown to Google`; indexing was requested on 2026-07-14. |
 
 ## Pinterest KPIs
 
