@@ -68,6 +68,22 @@ describe("generated Vercel routing", () => {
     }
   });
 
+  it("configures case-sensitive matching on known routes", () => {
+    expect(rootRoute.caseSensitive).toBe(true);
+    expect(knownRoute.caseSensitive).toBe(true);
+    expect(routes[routes.length - 1].caseSensitive).toBeUndefined();
+  });
+
+  it("routes an uppercase variant of a known path to the 404 fallback", () => {
+    const rootRe = new RegExp(rootRoute.src);
+    const knownRe = new RegExp(knownRoute.src);
+    const fallbackRe = new RegExp(routes[routes.length - 1].src);
+    expect(knownRe.test("/best-antivirus-software")).toBe(true);
+    expect(knownRe.test("/Best-Antivirus-Software")).toBe(false);
+    expect(rootRe.test("/Best-Antivirus-Software")).toBe(false);
+    expect(fallbackRe.test("/Best-Antivirus-Software")).toBe(true);
+  });
+
   it("matches known routes with anchored, regex-escaped patterns", () => {
     expect(knownRoute.src.startsWith("^/")).toBe(true);
     expect(knownRoute.src.endsWith("$")).toBe(true);

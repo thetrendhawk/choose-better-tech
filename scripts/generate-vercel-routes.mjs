@@ -5,16 +5,18 @@ import { APP_ROUTES } from "../src/routes.manifest.mjs";
 
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-// filesystem first -> real files 200; exact known routes -> index.html 200;
-// unknown fallback -> index.html with HTTP 404 (SPA still renders NotFoundPage).
+// filesystem first -> real files 200; exact known routes -> index.html 200
+// (case-sensitive so uppercase variants do not match the canonical lowercase
+// routes; Vercel matches case-insensitively by default); unknown fallback ->
+// index.html with HTTP 404 (SPA still renders NotFoundPage).
 export const buildVercelConfig = (routes) => {
   const nonRoot = routes.filter((route) => route !== "/").map((route) => escapeRegExp(route.slice(1)));
   return {
     $schema: "https://openapi.vercel.sh/vercel.json",
     routes: [
       { handle: "filesystem" },
-      { src: "^/$", dest: "/index.html" },
-      { src: `^/(?:${nonRoot.join("|")})/?$`, dest: "/index.html" },
+      { src: "^/$", dest: "/index.html", caseSensitive: true },
+      { src: `^/(?:${nonRoot.join("|")})/?$`, dest: "/index.html", caseSensitive: true },
       { src: "/(.*)", status: 404, dest: "/index.html" }
     ]
   };
