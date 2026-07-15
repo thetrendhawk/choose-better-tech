@@ -1,93 +1,49 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import { APP_ROUTES } from "../src/routes.manifest.mjs";
 
 const defaultSiteUrl = "https://choosebettertech.com";
 const siteUrl = (process.env.SITE_URL ?? defaultSiteUrl).replace(/\/$/, "");
-const rootDir = dirname(dirname(fileURLToPath(import.meta.url)));
-const publicDir = join(rootDir, "public");
 
-const routes = [
-  "/",
-  "/about",
-  "/about/how-we-review-software",
-  "/contact",
-  "/privacy",
-  "/terms",
-  "/affiliate-disclosure",
-  "/vpn",
-  "/password-managers",
-  "/data-removal",
-  "/reviews",
-  "/comparisons",
-  "/are-data-removal-services-worth-it",
-  "/are-password-managers-safe",
-  "/are-vpns-worth-it",
-  "/best-data-removal-services",
-  "/best-free-password-managers",
-  "/password-manager-vs-browser-passwords",
-  "/best-free-vpns",
-  "/best-vpns-for-families",
-  "/best-vpns-for-students",
-  "/best-vpns-for-travel",
-  "/best-vpns-for-streaming",
-  "/best-cloud-storage-for-beginners",
-  "/best-antivirus-software",
-  "/best-secure-cloud-storage",
-  "/best-password-managers-for-beginners",
-  "/best-password-managers-for-families",
-  "/best-password-managers-for-privacy",
-  "/guides/how-password-managers-work",
-  "/guides/best-vpns-for-beginners",
-  "/guides/how-vpns-work",
-  "/guides/free-vpn-vs-paid",
-  "/guides/vpn-buying-guide",
-  "/guides/vpn-privacy-guide",
-  "/guides/vpn-myths",
-  "/guides/is-proton-vpn-free-good-enough",
-  "/comparisons/nordvpn-vs-protonvpn",
-  "/comparisons/nordvpn-vs-surfshark",
-  "/comparisons/proton-vpn-vs-surfshark",
-  "/comparisons/1password-vs-nordpass",
-  "/comparisons/proton-pass-vs-nordpass",
-  "/comparisons/1password-vs-proton-pass",
-  "/comparisons/bitwarden-vs-1password",
-  "/comparisons/bitwarden-vs-proton-pass",
-  "/comparisons/bitwarden-vs-nordpass",
-  "/comparisons/incogni-vs-optery",
-  "/comparisons/incogni-vs-deleteme",
-  "/comparisons/optery-vs-deleteme",
-  "/comparisons/google-drive-vs-dropbox",
-  "/comparisons/icloud-vs-google-drive",
-  "/reviews/nordvpn-review",
-  "/reviews/proton-vpn-review",
-  "/reviews/proton-drive-review",
-  "/reviews/surfshark-review",
-  "/reviews/1password-review",
-  "/reviews/bitwarden-review",
-  "/reviews/nordpass-review",
-  "/reviews/proton-pass-review",
-  "/reviews/roboform-review",
-  "/reviews/incogni-review",
-  "/reviews/optery-review",
-  "/reviews/deleteme-review",
-  "/reviews/totalav-review"
-];
-
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+export const buildSitemap = (routes, base) => `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${routes.map((route) => `  <url><loc>${siteUrl}${route}</loc></url>`).join("\n")}
+${routes.map((route) => `  <url><loc>${base}${route}</loc></url>`).join("\n")}
 </urlset>
 `;
 
-const robots = `User-agent: *
+export const buildRobots = (base) => `User-agent: *
 Allow: /
 
-Sitemap: ${siteUrl}/sitemap.xml
+Sitemap: ${base}/sitemap.xml
 `;
 
-await mkdir(publicDir, { recursive: true });
-await Promise.all([
-  writeFile(join(publicDir, "sitemap.xml"), sitemap),
-  writeFile(join(publicDir, "robots.txt"), robots)
-]);
+// Normalize CRLF to LF so Windows checkouts do not appear to differ from the
+// LF content this generator emits.
+export const normalizeEol = (text) => text.replace(/\r\n/g, "\n");
+export const isEolEquivalent = (a, b) => normalizeEol(a) === normalizeEol(b);
+
+// Deterministic write-if-changed: skips writing when the existing file already
+// matches after line-ending normalization, preventing CRLF/LF churn on Windows.
+export const writeIfChanged = async (filePath, content) => {
+  if (existsSync(filePath)) {
+    const existing = await readFile(filePath, "utf8");
+    if (isEolEquivalent(existing, content)) {
+      return false;
+    }
+  }
+  await writeFile(filePath, content);
+  return true;
+};
+
+const isMain = import.meta.url === pathToFileURL(process.argv[1] ?? "").href;
+if (isMain) {
+  const rootDir = dirname(dirname(fileURLToPath(import.meta.url)));
+  const publicDir = join(rootDir, "public");
+  await mkdir(publicDir, { recursive: true });
+  await Promise.all([
+    writeIfChanged(join(publicDir, "sitemap.xml"), buildSitemap(APP_ROUTES, siteUrl)),
+    writeIfChanged(join(publicDir, "robots.txt"), buildRobots(siteUrl))
+  ]);
+}
