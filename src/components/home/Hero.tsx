@@ -1,5 +1,7 @@
 import { ArrowRight, BookOpen, CheckCircle2, Eye, SearchCheck, ShieldCheck, Workflow } from "lucide-react";
 import { Link } from "react-router-dom";
+import { comparisonGroups, reviewGroups } from "../../data/contentIndexes";
+import { featuredGuides } from "../../data/home";
 import { ButtonAnchor, ButtonLink } from "../ui/Button";
 import { Container } from "../ui/Container";
 
@@ -32,10 +34,14 @@ const editorialProcess: Array<{ title: string; description: string; icon: typeof
   }
 ];
 
+const reviewCount = reviewGroups.reduce((total, group) => total + group.articles.length, 0);
+const comparisonCount = comparisonGroups.reduce((total, group) => total + group.articles.length, 0);
+const guideAndHubCount = featuredGuides.length;
+
 const heroStats: Array<{ value: string; label: string; icon: typeof ShieldCheck; tone: Tone }> = [
-  { value: "13", label: "Reviews", icon: ShieldCheck, tone: "mint" },
-  { value: "14", label: "Comparisons", icon: Workflow, tone: "blue" },
-  { value: "28", label: "Guides / Hubs", icon: BookOpen, tone: "lavender" }
+  { value: String(reviewCount), label: "Reviews", icon: ShieldCheck, tone: "mint" },
+  { value: String(comparisonCount), label: "Comparisons", icon: Workflow, tone: "blue" },
+  { value: String(guideAndHubCount), label: "Guides / Hubs", icon: BookOpen, tone: "lavender" }
 ];
 
 const toneClasses: Record<Tone, string> = {
@@ -86,11 +92,11 @@ export function Hero() {
                 })}
               </ol>
 
-              <div className="mt-7 grid grid-cols-1 overflow-hidden rounded-lg border border-slate-200 bg-white sm:grid-cols-3">
+              <div className="mt-7 grid grid-cols-3 overflow-hidden rounded-lg border border-slate-200 bg-white">
                 {heroStats.map((stat, index) => {
                   const Icon = stat.icon;
                   return (
-                    <div key={stat.label} className={["border-b border-slate-200 p-4 text-center sm:border-b-0", index < heroStats.length - 1 ? "sm:border-r" : ""].join(" ")}>
+                    <div key={stat.label} className={["p-3 text-center sm:p-4", index < heroStats.length - 1 ? "border-r border-slate-200" : ""].join(" ")}>
                       <span className={["mx-auto flex h-9 w-9 items-center justify-center rounded-md", toneClasses[stat.tone]].join(" ")}>
                         <Icon size={18} aria-hidden="true" />
                       </span>
