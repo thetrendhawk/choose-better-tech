@@ -1,7 +1,7 @@
+import { ArticleMeta } from "../components/editorial/ArticleMeta";
 import { ReviewPageLayout } from "../components/reviews/ReviewPageLayout";
 import { SEO } from "../components/SEO";
 import { nordPassReview } from "../data/reviews/nordPassReview";
-import { site } from "../utils/site";
 
 const reviewedNordPassContent = {
   ...nordPassReview,
@@ -13,23 +13,6 @@ const reviewedNordPassContent = {
 };
 
 export function NordPassReviewPage() {
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: nordPassReview.title,
-    description: nordPassReview.subtitle,
-    mainEntityOfPage: site.url + nordPassReview.path,
-    dateModified: "2026-07-18",
-    author: {
-      "@type": "Person",
-      name: "Aaron Evans"
-    },
-    publisher: {
-      "@type": "Organization",
-      name: site.name
-    }
-  };
-
   return (
     <>
       <SEO
@@ -37,7 +20,15 @@ export function NordPassReviewPage() {
         description="A beginner-focused NordPass review covering security, privacy, free plan, family features, business fit, value, transparency limits, and alternatives."
         path="/reviews/nordpass-review"
       />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <ArticleMeta
+        title={nordPassReview.title}
+        description={nordPassReview.subtitle}
+        path={nordPassReview.path}
+        authorName="Aaron Evans"
+        dateModified="2026-07-18"
+        displayDate="July 18, 2026"
+        showVisibleDetails={false}
+      />
       <ReviewPageLayout review={reviewedNordPassContent} />
     </>
   );
