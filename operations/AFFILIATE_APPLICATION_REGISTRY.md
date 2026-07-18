@@ -1,15 +1,21 @@
 # Affiliate Application Registry
 
-Version: 1.0
+Version: 1.1
 Status: Active
 Owner: Choose Better Tech
-Last Updated: 2026-07-13
+Last Updated: 2026-07-17
 
 ## Purpose
 
-This is a compact, structured tracking table for in-progress affiliate network/advertiser relationships that have not yet reached the centralized registry (`src/data/affiliateLinks.ts`). It complements, and does not duplicate, the narrative detail in `operations/AFFILIATE_PLAYBOOK.md` and `docs/monetization/cloud-storage-monetization-opportunity-map.md`. Where this table and those documents overlap, the playbook's narrative record is authoritative for full terms and conditions; this table is a fast-reference status board.
+This is a compact, structured tracking table for in-progress affiliate network/advertiser relationships that have not yet reached the centralized registry (`src/data/affiliateLinks.ts`). It complements, and does not duplicate, the narrative detail in `operations/AFFILIATE_PLAYBOOK.md` and cluster-specific monetization records. Where this table and those documents overlap, the playbook's narrative record is authoritative for full terms and conditions; this table is a fast-reference status board.
 
 This document does not contain, and must never contain, passwords, tax information, banking information, account tokens, recovery codes, or other private credentials.
+
+## Cybersecurity Tools Cluster
+
+| Provider | Network | Account email | Application status | Advertiser approval status | Terms-review status | Commission | Attribution | Locking/payment | Restrictions | Implementation status | Next action | Checked date |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Acronis | CJ | Not recorded in this registry | Application approved | Approved for the U.S. consumer program | Reviewed from approved program terms | Consumer: 15%; corporate: 2.5% | 45-day referral period; unlimited qualifying occurrences stated in the reviewed terms | Not recorded | Coupons only when supplied by the program; branded SEM requires written permission; “Acronis” may not be used in a website domain | Tracking link generated but not implemented — no `src/data/affiliateLinks.ts` entry and no site placement | Preserve the approved consumer tracking link for a separately authorized implementation task; do not activate editorial placement or paid-search use by this record | 2026-07-17 |
 
 ## Cloud Storage Cluster
 
@@ -23,6 +29,6 @@ This document does not contain, and must never contain, passwords, tax informati
 ## How to read this table
 
 - **Application status** and **advertiser approval status** are always separate fields. An active network or direct-program account never implies advertiser approval.
-- **Implementation status** is always "Not implemented" until a separately authorized task adds a tracked link to `src/data/affiliateLinks.ts`.
+- **Implementation status** is always "Not implemented" until a separately authorized task adds a tracked link to `src/data/affiliateLinks.ts` and activates it on an approved editorial surface. A generated tracking link alone is not implementation.
 - **Checked date** reflects when the row was last verified against source terms (public or logged-in), not when the relationship began.
-- This table does not authorize editorial activation for any provider listed. See `operations/AFFILIATE_PLAYBOOK.md` for the binding rule that account access and terms review do not authorize editorial or site changes.
+- This table does not authorize editorial activation for any provider listed. See `operations/AFFILIATE_PLAYBOOK.md` for the binding rule that account access, approval, terms review, and link generation do not authorize editorial or site changes.
