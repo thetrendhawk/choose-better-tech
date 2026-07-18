@@ -1,4 +1,4 @@
-import { Eraser, KeyRound, ShieldCheck } from "lucide-react";
+import { KeyRound, SearchCheck, ShieldCheck } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ArticleCard } from "../components/home/ArticleCard";
 import { CategoryCard } from "../components/home/CategoryCard";
@@ -39,7 +39,7 @@ const homepageTopics = [
     key: "data-removal",
     title: "Data Removal Services",
     description: "Understand what data-removal services can do, how they differ, and when paying is worthwhile.",
-    icon: Eraser,
+    icon: SearchCheck,
     href: "/data-removal"
   }
 ];
