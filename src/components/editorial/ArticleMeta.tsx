@@ -8,6 +8,7 @@ type ArticleMetaProps = {
   datePublished?: string;
   dateModified: string;
   displayDate: string;
+  showVisibleDetails?: boolean;
 };
 
 export function ArticleMeta({
@@ -17,7 +18,8 @@ export function ArticleMeta({
   authorName,
   datePublished,
   dateModified,
-  displayDate
+  displayDate,
+  showVisibleDetails = true
 }: ArticleMetaProps) {
   const articleSchema = {
     "@context": "https://schema.org",
@@ -40,11 +42,13 @@ export function ArticleMeta({
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <div className="mt-5 flex flex-wrap gap-x-3 gap-y-1 text-sm text-slate-600" aria-label="Article details">
-        <span>Reviewed by <strong className="font-semibold text-slate-900">{authorName}</strong></span>
-        <span aria-hidden="true">•</span>
-        <span>Last updated <time dateTime={dateModified}>{displayDate}</time></span>
-      </div>
+      {showVisibleDetails ? (
+        <div className="mt-5 flex flex-wrap gap-x-3 gap-y-1 text-sm text-slate-600" aria-label="Article details">
+          <span>Reviewed by <strong className="font-semibold text-slate-900">{authorName}</strong></span>
+          <span aria-hidden="true">•</span>
+          <span>Last updated <time dateTime={dateModified}>{displayDate}</time></span>
+        </div>
+      ) : null}
     </>
   );
 }
