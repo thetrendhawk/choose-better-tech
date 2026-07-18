@@ -9,6 +9,7 @@ export function CategoryCard({ category }: { category: LinkedCategory }) {
 
   return (
     <Link
+      aria-label={`Explore ${category.title}`}
       className="group flex h-full flex-col rounded-lg border border-slate-200 bg-white p-6 shadow-soft transition-all duration-200 hover:-translate-y-1 hover:border-brand-200 hover:shadow-lift focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600"
       to={category.href}
     >
