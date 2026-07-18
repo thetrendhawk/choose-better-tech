@@ -1,9 +1,9 @@
 # Affiliate Application Playbook
 
-Version: 1.2
-Status: Active — expanded with Cloud Storage cluster operational records
+Version: 1.3
+Status: Active — expanded with Acronis approval and Cybersecurity Tools operational records
 Owner: Choose Better Tech
-Last Updated: 2026-07-13
+Last Updated: 2026-07-17
 
 ## Purpose
 
@@ -21,7 +21,7 @@ This document is the canonical Affiliate Application Playbook for Choose Better 
 
 ## Centralized Registry Requirement
 
-Affiliate destinations must remain centralized in `src/data/affiliateLinks.ts`. Editorial reviews, guides, hubs, and comparisons must not hard-code raw affiliate URLs. A provider record in this playbook, including an active network account or reviewed terms, is not itself an authorization to add or modify `src/data/affiliateLinks.ts`. That file may only be changed by a separately authorized implementation task.
+Affiliate destinations must remain centralized in `src/data/affiliateLinks.ts`. Editorial reviews, guides, hubs, and comparisons must not hard-code raw affiliate URLs. A provider record in this playbook, including an active network account, advertiser approval, reviewed terms, or a generated tracking link, is not itself an authorization to add or modify `src/data/affiliateLinks.ts`. That file may only be changed by a separately authorized implementation task.
 
 ## Current Affiliate Registry Summary
 
@@ -43,6 +43,8 @@ This table reflects only what is actually implemented in `src/data/affiliateLink
 | Optery | None | INTERNAL_ONLY | Internal fallback only unless registry changes. |
 | DeleteMe | None | INTERNAL_ONLY | Internal fallback only unless registry changes. |
 
+Acronis does not currently have a registry entry. Its advertiser approval, reviewed terms, and generated consumer tracking link are documented below as pre-implementation operational facts only.
+
 No Cloud Storage provider (pCloud, Sync.com, Internxt, Tresorit, Proton Drive, or any other) currently has a registry entry. See "Cloud Storage Cluster — Affiliate Operational Status" below for the current, pre-registry state of that cluster.
 
 ## Operating Rules
@@ -52,7 +54,7 @@ No Cloud Storage provider (pCloud, Sync.com, Internxt, Tresorit, Proton Drive, o
 - Use the centralized affiliate registry and resolver for all affiliate destinations.
 - Keep pending providers out of homepage, hub, review, guide, and comparison recommendation surfaces until the approved editorial pipeline exists.
 - Revalidate program terms, search restrictions, link status, and disclosure requirements before active promotion.
-- Network account access, advertiser dashboard visibility, or terms review does not authorize editorial mention, link generation, or implementation. Each requires its own explicit authorization, recorded with a checked date.
+- Network account access, advertiser dashboard visibility, approval, terms review, or link generation does not authorize editorial mention or implementation. Each requires its own explicit authorization, recorded with a checked date.
 - Do not claim an advertiser has approved CBT unless a specific, attributable, repository-recorded fact establishes that approval (e.g., an approval notice, an active tracked link issued by the advertiser/network, or an explicit written confirmation). Dashboard access alone is not approval evidence.
 
 ## Program-Specific Restrictions
@@ -89,6 +91,27 @@ Affiliate search policy: affiliates may use generic SEO keywords, but may not us
 - Deceptive or misleading creative is prohibited.
 - Reversals may occur for fraud or users who use the 30-day money-back guarantee.
 - Creatives may require approval.
+
+### Acronis via CJ — U.S. consumer program
+
+Checked date: 2026-07-17
+
+- **Program type:** Network-hosted affiliate program through CJ.
+- **Advertiser application status:** Application completed.
+- **Advertiser approval:** `APPROVED`. CBT received approval for the Acronis U.S. consumer program.
+- **Terms review:** `TERMS_REVIEWED` from the approved program terms.
+- **Consumer commission:** 15%.
+- **Corporate commission:** 2.5%.
+- **Attribution:** 45-day referral period; the reviewed terms state unlimited qualifying occurrences.
+- **Coupons:** Only coupons supplied by the program may be used.
+- **Paid search:** Branded SEM requires prior written permission.
+- **Domain restriction:** The word “Acronis” may not be used in a website domain.
+- **Affiliate-link generation:** Completed. Approved U.S. consumer tracking destination: `https://www.dpbolvw.net/click-101816242-17031939`.
+- **Registry status:** Not entered. No Acronis record exists in `src/data/affiliateLinks.ts`.
+- **Editorial activation:** Not authorized by this approval record.
+- **Live-site implementation:** Not authorized; none exists.
+- **Status:** `APPROVED — LINK GENERATED — IMPLEMENTATION NOT AUTHORIZED`.
+- **Next action:** Preserve the approved tracking destination for a separately authorized implementation task. Before any active placement, confirm the specific editorial surface independently, add the destination only through `src/data/affiliateLinks.ts`, and recheck current program terms and landing-page behavior.
 
 ## Cloud Storage Cluster — Affiliate Operational Status
 
@@ -202,4 +225,4 @@ Status legend used below:
 
 ## Approval and Access Do Not Authorize Editorial or Site Changes
 
-For every provider in this playbook, including those with an active network/direct account or reviewed terms: account access, dashboard visibility, and terms review do not, by themselves, authorize editorial inclusion, ranking influence, CTA placement, or link implementation. Editorial content and recommendation decisions must continue to be made independent of affiliate status. Any future link implementation requires a dedicated, separately authorized task that updates `src/data/affiliateLinks.ts` under the existing centralized-registry rule.
+For every provider in this playbook, including those with an active network/direct account, explicit advertiser approval, reviewed terms, or a generated tracking link: those facts do not, by themselves, authorize editorial inclusion, ranking influence, CTA placement, or link implementation. Editorial content and recommendation decisions must continue to be made independent of affiliate status. Any future link implementation requires a dedicated, separately authorized task that updates `src/data/affiliateLinks.ts` under the existing centralized-registry rule.
