@@ -1,3 +1,5 @@
+import { Eraser, KeyRound, ShieldCheck } from "lucide-react";
+import { Link } from "react-router-dom";
 import { ArticleCard } from "../components/home/ArticleCard";
 import { CategoryCard } from "../components/home/CategoryCard";
 import { Hero } from "../components/home/Hero";
@@ -5,9 +7,8 @@ import { TrustCard } from "../components/home/TrustCard";
 import { Newsletter } from "../components/Newsletter";
 import { SEO } from "../components/SEO";
 import { Section } from "../components/ui/Section";
-import { categories, featuredComparisons, featuredGuides, featuredReviews, trustPoints } from "../data/home";
+import { featuredComparisons, featuredGuides, featuredReviews, trustPoints } from "../data/home";
 import { site } from "../utils/site";
-import { Link } from "react-router-dom";
 
 function SectionIntro({ eyebrow, title, description }: { eyebrow?: string; title: string; description: string }) {
   return (
@@ -18,6 +19,30 @@ function SectionIntro({ eyebrow, title, description }: { eyebrow?: string; title
     </div>
   );
 }
+
+const homepageTopics = [
+  {
+    key: "vpn",
+    title: "VPNs",
+    description: "Compare VPN services, understand privacy limits, and choose based on your actual needs.",
+    icon: ShieldCheck,
+    href: "/vpn"
+  },
+  {
+    key: "password-managers",
+    title: "Password Managers",
+    description: "Find the right password manager for security, privacy, families, free plans, and everyday use.",
+    icon: KeyRound,
+    href: "/password-managers"
+  },
+  {
+    key: "data-removal",
+    title: "Data Removal Services",
+    description: "Understand what data-removal services can do, how they differ, and when paying is worthwhile.",
+    icon: Eraser,
+    href: "/data-removal"
+  }
+];
 
 const homepageComparisonKeys = new Set([
   "icloud-vs-google-drive",
@@ -39,12 +64,12 @@ export function HomePage() {
 
       <Section className="bg-white">
         <SectionIntro
-          eyebrow="Start here"
-          title="Featured categories"
-          description="Focused software topics for everyday readers who want practical, trustworthy guidance."
+          eyebrow="Explore by topic"
+          title="Start with what you need help choosing"
+          description="These are the software topics we currently cover in depth, with dedicated guides, reviews, and comparisons."
         />
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {categories.map((category) => <CategoryCard key={category.key} category={category} />)}
+        <div className="mt-10 grid gap-5 md:grid-cols-3">
+          {homepageTopics.map((category) => <CategoryCard key={category.key} category={category} />)}
         </div>
       </Section>
 

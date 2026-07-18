@@ -35,8 +35,7 @@ const editorialProcess: Array<{ title: string; description: string; icon: typeof
 const heroStats: Array<{ value: string; label: string; icon: typeof ShieldCheck; tone: Tone }> = [
   { value: "13", label: "Reviews", icon: ShieldCheck, tone: "mint" },
   { value: "14", label: "Comparisons", icon: Workflow, tone: "blue" },
-  { value: "28", label: "Guides / Hubs", icon: BookOpen, tone: "lavender" },
-  { value: "Evidence", label: "First", icon: CheckCircle2, tone: "green" }
+  { value: "28", label: "Guides / Hubs", icon: BookOpen, tone: "lavender" }
 ];
 
 const toneClasses: Record<Tone, string> = {
@@ -59,14 +58,7 @@ export function Hero() {
               <ButtonAnchor href="#guides">Explore Guides <ArrowRight aria-hidden="true" className="ml-2" size={18} /></ButtonAnchor>
               <ButtonLink to="/about/how-we-review-software" variant="secondary">How We Review Software</ButtonLink>
             </div>
-            <div className="mt-8 flex items-center gap-4">
-              <div className="flex -space-x-2" aria-hidden="true">
-                {["A", "B", "C", "D"].map((initial, index) => (
-                  <span key={initial} className={["flex h-9 w-9 items-center justify-center rounded-full border-2 border-white text-xs font-bold text-white shadow-soft", ["bg-brand-700", "bg-accent-600", "bg-slate-700", "bg-editorial-500"][index]].join(" ")}>{initial}</span>
-                ))}
-              </div>
-              <p className="max-w-xs text-sm leading-6 text-slate-600">Trusted by everyday readers who want clarity, not hype.</p>
-            </div>
+            <p className="mt-8 max-w-xl text-sm leading-6 text-slate-600">Independent software guidance for readers who want clear answers, useful tradeoffs, and less hype.</p>
           </div>
 
           <div className="rounded-lg border border-slate-200/80 bg-white/80 p-3 shadow-lift backdrop-blur" aria-label="Editorial process preview">
@@ -94,12 +86,11 @@ export function Hero() {
                 })}
               </ol>
 
-              <div className="mt-7 grid grid-cols-2 overflow-hidden rounded-lg border border-slate-200 bg-white sm:grid-cols-4">
+              <div className="mt-7 grid grid-cols-1 overflow-hidden rounded-lg border border-slate-200 bg-white sm:grid-cols-3">
                 {heroStats.map((stat, index) => {
                   const Icon = stat.icon;
-                  const borderClasses = index === 1 ? "sm:border-r" : index === 3 ? "border-b-0 border-r-0" : "";
                   return (
-                    <div key={stat.label} className={["border-b border-r border-slate-200 p-4 text-center sm:border-b-0", borderClasses].join(" ")}>
+                    <div key={stat.label} className={["border-b border-slate-200 p-4 text-center sm:border-b-0", index < heroStats.length - 1 ? "sm:border-r" : ""].join(" ")}>
                       <span className={["mx-auto flex h-9 w-9 items-center justify-center rounded-md", toneClasses[stat.tone]].join(" ")}>
                         <Icon size={18} aria-hidden="true" />
                       </span>
