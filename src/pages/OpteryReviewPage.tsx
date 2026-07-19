@@ -6,8 +6,8 @@ export function OpteryReviewPage() {
   return (
     <>
       <SEO
-        title="Optery Review (2026): Proof-First Data Broker Removal"
-        description="A beginner-focused Optery review covering people-search removal, screenshot reports, free exposure scans, privacy tradeoffs, pricing volatility, and data-removal limits."
+        title="Optery Review (2026): Is It Worth Paying For?"
+        description="An evidence-based Optery review covering the free exposure scan, paid plans, screenshot reports, effectiveness, privacy tradeoffs, and who should pay."
         path="/reviews/optery-review"
       />
       <ReviewPageLayout review={opteryReview} />
