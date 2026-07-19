@@ -60,6 +60,13 @@ export type ReviewFaq = {
   answer: string;
 };
 
+export type ReviewSource = {
+  title: string;
+  publisher: string;
+  href: string;
+  note: string;
+};
+
 export type ReviewEditorialMeta = {
   authorName: string;
   datePublished?: string;
@@ -90,6 +97,7 @@ export type ReviewPageContent = {
   userFeedback: UserFeedback;
   alternatives: AlternativeReview[];
   faqs: ReviewFaq[];
+  sourceLinks?: ReviewSource[];
   relatedGuides: RelatedGuide[];
   finalCtaHeadline: string;
   finalCtaNote: string;

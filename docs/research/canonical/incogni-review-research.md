@@ -16,7 +16,7 @@ Primary Research Source: docs/research/raw/incogni-deep-research.md
 Evidence Confidence: Moderate to High
 
 Created: 2026-07-05
-Last Updated: 2026-07-05
+Last Updated: 2026-07-18
 Next Review: Before publication
 
 Commercial Status: Open Question
@@ -406,5 +406,32 @@ Manual opt-out can be better for exacting control over a limited set of public p
 # Repository Changelog
 
 ## Version 1.0
+
+## Publication Recheck — 2026-07-18
+
+The existing research-backed verdict remains supported: Incogni is a credible automation-first option for recurring broker-removal maintenance, but it is not a complete or permanent internet-deletion service.
+
+### Current primary-source findings
+
+- Incogni's official U.S. pricing page listed Standard at $15.98 month-to-month or $95.88 billed annually; Unlimited at $179.88 annually; Family at $191.88 annually; Family Unlimited at $275.88 annually; and Protect at $248.88 annually. Taxes may apply, displayed savings may be promotional, and checkout/renewal terms remain volatile.
+- Standard, Unlimited, Family, Family Unlimited, and Protect remain the documented plan set. Standard and Family cover automated recurring removals from 420+ listed broker sites. Unlimited tiers add unlimited custom-removal requests and live phone support.
+- Family plans cover the subscriber plus up to four additional members. Protect remains U.S.-only and individual-only; New York and Washington residents may not receive its insurance component.
+- The official help center continues to state a 30-day money-back guarantee and monthly or annual billing, with annual plans paid upfront.
+- Incogni's official referral page documents a customer refer-a-friend program operated through Cello. It requires an Incogni account and is not treated as verified approval for CBT publisher/editorial affiliate use.
+- The 2025 Deloitte report remains the strongest Incogni-specific independent assurance. Its limited scope and July 18, 2025 measurement date remain visible limitations.
+- Consumer Reports' people-search test remains category evidence only because Incogni was not among the tested services.
+- The 2025 PoPETs study remains useful category evidence on false matches, incomplete coverage, and incomplete removal, not an Incogni-specific performance result.
+
+### Monetization decision
+
+CBT has no confirmed approved Incogni publisher affiliate relationship or verified tracking destination. The article must use a non-affiliate internal comparison CTA. No referral link, tracked URL, application, or outreach is authorized by this recheck.
+
+### Publication guardrails retained
+
+- Do not convert 420+ covered brokers into a guaranteed removal count.
+- Do not present displayed annual savings as permanent renewal pricing.
+- Do not generalize Protect's identity-related benefits into guaranteed fraud prevention.
+- Do not describe Deloitte's work as a full security audit or outcome guarantee.
+- Do not claim hands-on use, speed, support quality, or removal outcomes.
 
 Initial canonical repository created from the approved raw Incogni research archive.

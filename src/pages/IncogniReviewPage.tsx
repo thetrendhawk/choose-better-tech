@@ -6,8 +6,8 @@ export function IncogniReviewPage() {
   return (
     <>
       <SEO
-        title="Incogni Review (2026): Data Broker Removal, Limits, and Value"
-        description="A beginner-focused Incogni review covering broker removal, Deloitte assurance, recurring requests, privacy tradeoffs, family plans, dashboard limits, and alternatives."
+        title="Incogni Review (2026): Is It Worth It for Data Removal?"
+        description="Our evidence-based Incogni review examines recurring broker removals, current plans, Deloitte assurance, privacy tradeoffs, family coverage, and limitations."
         path="/reviews/incogni-review"
       />
       <ReviewPageLayout review={incogniReview} />

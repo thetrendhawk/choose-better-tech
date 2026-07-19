@@ -1,4 +1,4 @@
-import { CheckCircle2, ChevronDown, ListChecks, MinusCircle } from "lucide-react";
+import { CheckCircle2, ChevronDown, ExternalLink, ListChecks, MinusCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { ReviewPageContent } from "../../types/review";
 import { site } from "../../utils/site";
@@ -246,6 +246,32 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
           ))}
         </div>
       </Section>
+
+      {review.sourceLinks?.length ? (
+        <Section className={compactSectionClasses}>
+          <SectionHeading title="Sources Checked for This Review" description="We prioritize official documentation and clearly identify the role and limits of independent evidence." />
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            {review.sourceLinks.map((source) => (
+              <a
+                key={source.href}
+                className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft transition-colors hover:border-brand-200 hover:bg-brand-50"
+                href={source.href}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span className="flex items-start justify-between gap-4">
+                  <span>
+                    <span className="block text-xs font-semibold uppercase tracking-wide text-brand-700">{source.publisher}</span>
+                    <span className="mt-2 block text-base font-semibold text-slate-950">{source.title}</span>
+                  </span>
+                  <ExternalLink className="mt-1 shrink-0 text-slate-500" size={18} aria-hidden="true" />
+                </span>
+                <span className="mt-3 block text-sm leading-6 text-slate-600">{source.note}</span>
+              </a>
+            ))}
+          </div>
+        </Section>
+      ) : null}
 
       <Section className={compactSectionClasses}>
         <article id="final-verdict" className="scroll-mt-24 rounded-xl border-2 border-brand-200 bg-brand-50 p-6 shadow-soft sm:p-8">

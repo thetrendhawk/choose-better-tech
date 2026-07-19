@@ -129,10 +129,10 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     network: "",
     status: "INTERNAL_ONLY",
     destination: "",
-    internalFallback: "/reviews/incogni-review",
+    internalFallback: "/best-data-removal-services",
     disclosureRequired: true,
     trackingEnabled: false,
-    lastVerified: "2026-07-05"
+    lastVerified: "2026-07-18"
   },
   optery: {
     provider: "optery",

@@ -8,7 +8,13 @@ export const incogniReview: ReviewPageContent = {
   productName: "Incogni",
   applicationCategory: "Data Removal Service",
   affiliateProvider: "incogni",
-  ctaLabel: "Compare Privacy Tools",
+  ctaLabel: "Compare Data Removal Services",
+  editorialMeta: {
+    authorName: "Aaron Evans",
+    datePublished: "2026-07-08",
+    dateModified: "2026-07-18",
+    displayDate: "July 18, 2026"
+  },
   executiveSummary: [
     "Incogni is strongest as a beginner-friendly, automation-first data broker removal service. It is a good fit for mainstream privacy buyers who want recurring removal requests without manually tracking dozens or hundreds of brokers.",
     "The strongest evidence in Incogni's favor is procedural. Deloitte's 2025 limited-assurance report verified claims around 420+ covered brokers, removal confirmations, recurring request cadence, 245+ million processed requests, and non-sale of customer data during 2024.",
@@ -20,7 +26,8 @@ export const incogniReview: ReviewPageContent = {
     { label: "Good Fit For", value: "Beginners, privacy buyers, families, and recurring broker removal" },
     { label: "Best Strength", value: "Automation plus Deloitte process assurance" },
     { label: "Main Caveat", value: "Not full internet deletion" },
-    { label: "Recommendation", value: "Recommended for broker-removal maintenance" }
+    { label: "Recommendation", value: "Recommended for broker-removal maintenance" },
+    { label: "Affiliate Status", value: "No approved CBT affiliate link is active" }
   ],
   decisionSnapshot: [
     { label: "Good Fit For", value: "Beginners, mainstream privacy buyers, households up to five members, users who want recurring broker-removal requests, and people who value process assurance." },
@@ -73,23 +80,24 @@ export const incogniReview: ReviewPageContent = {
   ],
   freeVsPaid: {
     title: "Plans, Pricing, Family, and Protect",
-    description: "Incogni is a paid subscription service in the approved research. Pricing, renewal terms, partner bundles, plan boundaries, Protect benefits, and checkout details are volatile and should be rechecked before purchase-focused updates.",
+    description: "Incogni is a paid subscription service. Prices below were checked against Incogni's official U.S. pages on July 18, 2026; taxes, regional pricing, promotions, renewal terms, and partner bundles can change.",
     freeLabel: "Core plan strengths",
     limitationsLabel: "Plan and pricing caveats",
     paidLabel: "Higher-tier reasons",
     freeStrengths: [
-      "Standard is the low-friction core offer for automated removals from 420+ covered sites in the approved research",
-      "All plans carry a 30-day money-back guarantee in the approved research",
+      "Standard was listed at $15.98 month-to-month or $95.88 for the first annual term ($7.99 per month equivalent)",
+      "Standard covers automated recurring removals from 420+ listed broker sites",
+      "All plans carried a 30-day money-back guarantee when checked",
       "Family options can cover up to five total members"
     ],
     freeLimitations: [
       "The approved research does not identify a permanent free plan",
-      "Exact Standard checkout price, renewals, discounts, and partner-bundle pricing need recheck",
+      "Annual prices are billed upfront and displayed savings may be promotional; verify checkout and renewal terms",
       "Protect is U.S.-only, individual-only, and partner-backed in the approved research"
     ],
     paidBenefits: [
-      "Unlimited adds unlimited custom removal requests and live phone support in the approved research",
-      "Family Unlimited combines family coverage with unlimited custom removals and phone support",
+      "Unlimited was listed at $179.88 annually and adds unlimited custom-removal requests plus live phone support",
+      "Family was listed at $191.88 annually; Family Unlimited at $275.88 annually adds custom removals and phone support",
       "Protect adds identity-related extras through Coveron, but should not be framed as comprehensive identity-theft prevention"
     ]
   },
@@ -155,11 +163,12 @@ export const incogniReview: ReviewPageContent = {
       id: "plans",
       title: "Plans, Pricing, Family, and Protect",
       body: [
-        "The approved research lists Standard, Unlimited, Family, Family Unlimited, and Protect. Standard is the core automated-removal offer. Unlimited adds custom removals and live phone support. Family covers up to five total members. Family Unlimited combines family coverage with unlimited custom removals and phone support.",
-        "Protect is U.S.-only and individual-only in the approved research. It adds identity-related extras through Coveron, including insurance, dark-web monitoring, credit monitoring, and freeze assistance.",
-        "Pricing is volatile. The exact Standard price, renewal pricing, partner-bundle pricing, Protect benefits, and checkout details should be rechecked before purchase-focused updates."
+        "Incogni's official U.S. pages listed Standard, Unlimited, Family, Family Unlimited, and Protect when checked on July 18, 2026. Standard was $15.98 month-to-month or $95.88 billed annually. Unlimited was $179.88 annually, Family was $191.88 annually, and Family Unlimited was $275.88 annually. Taxes may apply.",
+        "Standard is the core automated-removal offer. Unlimited adds unlimited custom removals and live phone support. Family covers the subscriber plus up to four additional members. Family Unlimited combines that household coverage with custom removals and phone support.",
+        "Protect was listed at $248.88 annually and is U.S.-only and individual-only. It combines Incogni Unlimited with Coveron identity-related services. New York and Washington residents may not receive the insurance component. These extras should not be framed as complete identity-theft prevention.",
+        "Treat the displayed annual savings as promotional. Verify checkout, renewal, regional availability, partner-bundle billing, and current benefits before subscribing."
       ],
-      note: "Do not frame Protect as complete identity-theft prevention."
+      note: "Prices and plan terms checked July 18, 2026. Do not frame Protect as complete identity-theft prevention."
     },
     {
       id: "ease-support",
@@ -212,6 +221,44 @@ export const incogniReview: ReviewPageContent = {
     { question: "Is Incogni better than doing it myself?", answer: "For convenience, recurring maintenance, and private-broker coverage, often yes. For exact control over a narrow set of public listings, manual opt-out may be better." },
     { question: "Is Incogni worth paying for?", answer: "For mainstream users who will not manually maintain recurring broker opt-outs, probably yes. For motivated DIY users with limited exposure, maybe not." }
   ],
+  sourceLinks: [
+    {
+      title: "Incogni pricing and subscription plans",
+      publisher: "Incogni",
+      href: "https://incogni.com/pricing",
+      note: "Current plan names, U.S. prices, billing periods, family limits, Protect availability, and the 30-day refund statement. Checked July 18, 2026."
+    },
+    {
+      title: "Plans and prices of Incogni service",
+      publisher: "Incogni Help Center",
+      href: "https://support.incogni.com/hc/en-us/articles/26753632381970-Plans-and-prices-of-Incogni-service",
+      note: "Official plan features, billing choices, partner distribution, support, custom removals, and regional limits."
+    },
+    {
+      title: "Deloitte independent limited-assurance report",
+      publisher: "Deloitte / Incogni",
+      href: "https://blog.incogni.com/wp-content/uploads/2025/08/Incogni-ISAE-3000-Report-FInal.pdf",
+      note: "Limited assurance on selected operating claims as of July 18, 2025. It is not a full security audit or a guarantee of individual removal outcomes."
+    },
+    {
+      title: "Services That Delete Your Data From People-Search Sites",
+      publisher: "Consumer Reports",
+      href: "https://www.consumerreports.org/electronics/personal-information/services-that-delete-data-from-people-search-sites-review-a2705843415/",
+      note: "Independent category evidence comparing paid services with manual removal. Incogni was not one of the services tested."
+    },
+    {
+      title: "Measuring the Accuracy and Effectiveness of PII Removal Services",
+      publisher: "Proceedings on Privacy Enhancing Technologies",
+      href: "https://petsymposium.org/popets/2025/popets-2025-0125.php",
+      note: "Peer-reviewed category evidence on matching accuracy, broker coverage, and removal limitations across commercial services."
+    },
+    {
+      title: "What To Know About People Search Sites",
+      publisher: "Federal Trade Commission",
+      href: "https://consumer.ftc.gov/articles/what-know-about-people-search-sites-sell-your-information",
+      note: "Government guidance on how people-search sites obtain data and how consumers can pursue manual opt-outs."
+    }
+  ],
   relatedGuides: [
     { title: "Best Data Removal Services", href: "/best-data-removal-services", description: "Compare Incogni with Optery, DeleteMe, and manual opt-outs by fit." },
     { title: "Are Data Removal Services Worth It?", href: "/are-data-removal-services-worth-it", description: "Decide whether paying for data-removal maintenance makes sense compared with manual opt-outs." },
@@ -226,7 +273,7 @@ export const incogniReview: ReviewPageContent = {
     { title: "Password Manager Decision Hub", href: "/password-managers", description: "Compare password managers if your privacy cleanup includes account security." }
   ],
   finalCtaHeadline: "Use Incogni for broker-removal maintenance, not internet deletion",
-  finalCtaNote: "Incogni is worth considering if you want recurring data-broker removal without doing every opt-out yourself. Recheck current pricing, plan terms, broker coverage, Protect details, and dashboard expectations before buying.",
+  finalCtaNote: "Incogni is worth considering if you want recurring data-broker removal without doing every opt-out yourself. No approved CBT affiliate link is active; use our comparison to verify fit before checking current terms directly with Incogni.",
   finalVerdictLabel: "Recommended for beginner-friendly broker removal, with clear limitations.",
   finalVerdictBody: "Incogni is a credible, automation-first data-removal service for mainstream privacy buyers who want recurring broker-removal requests, public and private broker coverage, family-plan convenience, and stronger-than-average process assurance. Its Deloitte limited-assurance report gives it a better evidence story than many vendors in this category. It is not a full internet deletion service, and it should not be used as a substitute for Google removal workflows, public-record remedies, crisis-level doxxing support, or hands-on control over every listing. The right conclusion is fit-based: choose Incogni for low-friction broker-removal maintenance; choose Optery for proof-heavy public-listing visibility, Kanary for higher-risk threat models, DeleteMe for an older U.S.-focused service, and manual opt-out for maximum control."
 };

@@ -8,6 +8,7 @@ declare module "lucide-react" {
   export const BookOpen: LucideIcon;
   export const Bot: LucideIcon;
   export const CheckCircle2: LucideIcon;
+  export const ChevronDown: LucideIcon;
   export const Clock: LucideIcon;
   export const ExternalLink: LucideIcon;
   export const Eye: LucideIcon;
@@ -26,4 +27,3 @@ declare module "lucide-react" {
   export const Workflow: LucideIcon;
   export const X: LucideIcon;
 }
-

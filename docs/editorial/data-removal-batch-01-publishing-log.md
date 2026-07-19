@@ -9,7 +9,7 @@
 | Order | Article | Status | Live URL | Monetization status | Notes |
 |---:|---|---|---|---|---|
 | 1 | Optery Review | Published / Verified | `/reviews/optery-review` | Affiliate application submitted 2026-07-18; pending approval | Final article, reviewer/date metadata, SEO, non-affiliate fallback, route/index inclusion, successful production deployment, and HTTP 200 verified |
-| 2 | Incogni Review | Next: audit existing foundation | `/reviews/incogni-review` | To evaluate | Existing route and review foundation found in repository |
+| 2 | Incogni Review | In progress: research and implementation recheck complete | `/reviews/incogni-review` | No approved CBT affiliate link; internal comparison fallback | Current official plan terms, coverage, assurance, limitations, metadata, visible sources, CTA behavior, and SEO refreshed locally; validation and publication pending |
 | 3 | DeleteMe Review | Planned | `/reviews/deleteme-review` | To evaluate | Existing route and review foundation found in repository |
 | 4 | Optery vs Incogni | Planned | `/comparisons/incogni-vs-optery` | To evaluate | Existing comparison foundation found in repository |
 | 5 | Incogni vs DeleteMe | Planned | `/comparisons/incogni-vs-deleteme` | To evaluate | Existing comparison foundation found in repository |
@@ -36,5 +36,9 @@
 
 ### Incogni Review
 
-- Next action: audit the existing article foundation against current primary sources, current plan terms, affiliate availability, natural-language standards, reviewer/date metadata, and production readiness.
+- Research recheck completed against current Incogni pricing/help/privacy materials, the Deloitte limited-assurance report, Consumer Reports category evidence, FTC guidance, and the 2025 PoPETs study.
+- Existing verdict retained: Incogni is a strong automation-first option for recurring broker-removal maintenance, not complete internet deletion.
+- Current official plan structure, pricing context, family limits, Protect restrictions, visible sources, reviewer/update metadata, non-affiliate CTA behavior, and SEO were refreshed locally.
+- Monetization review found no confirmed approved CBT publisher affiliate path or verified tracking destination. The customer referral program is not being treated as editorial affiliate approval.
+- Next action: run full validation, commit, publish, and verify production.
 - Stop conditions: weak evidence, unresolved monetization terms, or a recommendation that cannot be supported without hands-on testing.
