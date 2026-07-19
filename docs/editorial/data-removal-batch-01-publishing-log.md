@@ -13,7 +13,7 @@
 | 3 | DeleteMe Review | Published / Verified | `/reviews/deleteme-review` | Public CJ program found; CBT approval/destination unverified, tracking disabled | Current research, reviewer/date metadata, visible sources, schema, non-affiliate CTA, exact-commit deployment, production desktop/mobile QA, sitemap, and HTTP 200 verified |
 | 4 | Optery vs Incogni | Published / Verified | `/comparisons/incogni-vs-optery` | Incogni unapproved; Optery application pending; no external tracking active | Current evidence, reviewer/date metadata, visible sources, schema, exact-commit deployment, desktop/mobile QA, sitemap, and HTTP 200 verified |
 | 5 | Incogni vs DeleteMe | Published / Verified | `/comparisons/incogni-vs-deleteme` | Public programs found; CBT approvals/destinations unverified; no external tracking active | Current evidence, reviewer/date metadata, visible sources, schema, exact-commit deployment, desktop/mobile QA, sitemap, and HTTP 200 verified |
-| 6 | Optery vs DeleteMe | Validation in progress | `/comparisons/optery-vs-deleteme` | Public programs found; CBT approvals/destinations unverified; no external tracking active | Current review evidence reconciled; reviewer/date metadata, visible sources, plan context, schema dates, and SEO implemented |
+| 6 | Optery vs DeleteMe | Published / Verified | `/comparisons/optery-vs-deleteme` | Public programs found; CBT approvals/destinations unverified; no external tracking active | Current evidence, reviewer/date metadata, visible sources, schema, exact-commit deployment, desktop/mobile QA, sitemap, and HTTP 200 verified |
 | 7 | How Long Does Data Removal Take? | Planned | — | Informational | Supports review and comparison conversion paths |
 | 8 | Can Your Information Reappear After Data Removal? | Planned | — | Informational | Supports expectations and trust |
 
@@ -82,11 +82,20 @@
 - **Monetization:** Public programs exist, but neither provider has a confirmed active CBT destination. The page contains no external tracked CTA, and commercial status did not alter the verdict.
 - **Testing:** No provider account, removal, billing, cancellation, support, speed, or hands-on product testing was claimed.
 
-## Current work
-
 ### Optery vs DeleteMe
 
-- Current Optery and DeleteMe evidence was reconciled without changing the fit-based verdict: Optery for proof and exposure visibility, DeleteMe for human help and business maturity.
-- Added current plan/refund context, visible sources, reviewer/update metadata, schema dates, and updated SEO.
-- Neither provider has a confirmed active CBT tracking destination. The comparison contains no external affiliate CTA.
-- Next action: complete validation, deploy the exact commit, verify production desktop/mobile behavior, and reconcile the publication record.
+- **Title:** Optery vs DeleteMe (2026): Which Data Removal Service Is Better?
+- **Live URL:** `https://choosebettertech.com/comparisons/optery-vs-deleteme`
+- **Verified:** 2026-07-19
+- **Content commit:** `d417ab3cae9efcc22ffa552722fa0ffc2490946c`
+- **Production deployment:** GitHub deployment `5508129392`; Vercel URL `https://choose-better-tech-cz5dfkls9-aaron-s-evans-projects.vercel.app`
+- **Verification:** Exact commit deployed successfully; live route and deep refresh returned HTTP 200; title/H1, canonical, reviewer/update metadata, plan context, visible sources, Article/FAQ schema, sitemap, desktop QA, and 390px no-overflow QA passed.
+- **Editorial conclusion:** Choose Optery for a free exposure-discovery step, public-listing visibility, and screenshot proof where available; choose DeleteMe for human assistance, reports, custom requests, and business maturity. Neither is complete or permanent internet deletion.
+- **Monetization:** Public programs exist, but neither provider has a confirmed active CBT destination. The page contains no external tracked CTA, and commercial status did not alter the verdict.
+- **Testing:** No provider account, removal, billing, cancellation, support, speed, or hands-on product testing was claimed.
+
+## Current work
+
+### How Long Does Data Removal Take?
+
+- Next action: establish the route and evidence record, research provider and broker timelines using current primary and independent sources, then implement the guide with explicit distinctions between report timing, request submission, broker processing, verification, recurrence, and permanent-removal limits.

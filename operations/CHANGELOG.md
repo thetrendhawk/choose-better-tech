@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-19 — Optery vs DeleteMe refreshed and production verified
+
+- Reconciled current Optery and DeleteMe evidence while preserving the proof-versus-human-help verdict.
+- Added current plan/refund context, reviewer/update metadata, visible sources, and Article schema dates.
+- Verified lint, 22 tests, route generation, TypeScript, production build, canonical, Article/FAQ schema, sitemap, desktop layout, and 390px no-overflow behavior.
+- Deployed content commit `d417ab3` through production deployment `5508129392` and verified the live route and direct refresh returned HTTP 200.
+- Kept all external tracking inactive because CBT approvals and exact destinations remain unverified.
+
 ### 2026-07-19 — Incogni vs DeleteMe refreshed and production verified
 
 - Reconciled current Incogni and DeleteMe evidence while preserving the automation-versus-human-help verdict.
