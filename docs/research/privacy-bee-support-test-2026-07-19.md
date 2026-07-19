@@ -1,6 +1,6 @@
 # Privacy Bee Support Responsiveness Test — 2026-07-19
 
-Status: Awaiting email handoff completion and human response  
+Status: Awaiting human response  
 Project: Choose Better Tech  
 Related canonical log: `docs/research/privacy-bee-hands-on-evaluation-log.md`  
 Publication status: Not authorized
@@ -35,25 +35,28 @@ The widget then asked how Privacy Bee should contact the user if the user left o
 - The explanation should not yet be treated as independently verified because no underlying request dates or count breakdown were shown.
 - A human-agent confirmation remains useful because the account was only created in July 2026, making the suggested “older than six months” explanation appear potentially inconsistent with the observed account age unless inherited, imported, or pre-account activity is counted.
 
-## Human escalation attempt
+## Human escalation
 
 A follow-up was submitted on 2026-07-19 at approximately 12:41 PM Pacific:
 
 > Thanks. My account was created in July 2026, so none of my requests should be older than six months. Could you please escalate this to a human support agent and clarify exactly why the two counts differ on my account?
 
-The widget first displayed:
+The widget displayed:
 
 > You have been transferred to our support team. Thank you for your patience.
 
-A subsequent screen then required an email address to be entered for reply notification, with options to set the email or skip.
+The system then requested an email address for reply notification. The account email was entered without preserving it in the public evidence record.
 
-Corrected interpretation:
+Observed completed handoff state:
 
-- the system accepted the escalation request;
-- the support handoff was not yet fully complete in the observed state because email notification setup was still pending;
-- no human response was visible;
-- human-response time and explanation quality remain pending;
-- the earlier statement that transfer was fully confirmed was too strong and is superseded by this corrected record.
+- the email-entry prompt disappeared;
+- the escalation message remained visible;
+- the support-transfer acknowledgment remained visible;
+- the message composer returned;
+- no human response was visible at the time of capture;
+- the support handoff is now treated as established and awaiting reply.
+
+Human-response time and explanation quality remain pending.
 
 ## Privacy boundary
 
@@ -61,4 +64,4 @@ The public repository does not contain the screenshot, personal exposure details
 
 ## Next controlled action
 
-Complete the notification handoff using the account email already associated with Privacy Bee, without capturing or publishing the address. Then record the resulting acknowledgment and wait for the human response before submitting another support question or beginning another product test.
+Do not submit another support question or begin another product test until the human support response is received or a defined follow-up interval has elapsed. Record the response timestamp, whether the responder is clearly human, the explanation provided, and whether the answer resolves the metric discrepancy.
