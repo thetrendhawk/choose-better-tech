@@ -2,6 +2,12 @@ export const incogniVsDeleteMeComparison = {
   path: "/comparisons/incogni-vs-deleteme",
   title: "Incogni vs DeleteMe (2026): Which Data Removal Service Is Better?",
   subtitle: "An evidence-based comparison for readers choosing between Incogni's simpler automation and DeleteMe's established, human-assisted data-removal workflow.",
+  editorialMeta: {
+    reviewerName: "Choose Better Tech Editorial Team",
+    datePublished: "2026-07-08",
+    dateModified: "2026-07-19",
+    displayDate: "Reviewed and updated July 19, 2026"
+  },
   quickAnswer: [
     "Choose Incogni if you want simpler, lower-friction automation, recurring broker-removal requests, broader geographic availability, Deloitte process assurance, and a mainstream beginner fit.",
     "Choose DeleteMe if you want a more established, human-assisted service with privacy advisors, custom removals, reports, public-facing professional fit, and stronger business/admin maturity.",
@@ -17,6 +23,7 @@ export const incogniVsDeleteMeComparison = {
     { label: "Independent effectiveness signal", incogni: "Deloitte supports process claims, not universal outcome guarantees.", deleteme: "Consumer Reports found DeleteMe midlevel in its people-search test, while manual opt-outs outperformed paid services in that narrow test." },
     { label: "Geographic availability", incogni: "Stronger broader geographic fit in the approved research.", deleteme: "International support exists, but consumer and business coverage differ and depth by country is unclear." },
     { label: "Family use", incogni: "Good fit where Incogni's family plan structure fits.", deleteme: "Good fit where DeleteMe's multi-person plans fit, but current plan specifics need verification." },
+    { label: "Current starting price", incogni: "Standard was $15.98 monthly or $95.88 for the first annual term when checked July 18, 2026.", deleteme: "The official help center listed the U.S. solo plan at $129 per year when checked July 18, 2026." },
     { label: "Business/admin use", incogni: "Useful for mainstream privacy buyers, but the approved comparison assets emphasize DeleteMe's business/admin maturity more.", deleteme: "Stronger fit for business/admin buyers based on account-manager, department, SSO, reporting, and executive-tier signals." },
     { label: "Public-facing professionals", incogni: "Useful as recurring broker-removal maintenance.", deleteme: "Stronger fit when human assistance, custom removals, reports, and mature provider support matter." },
     { label: "DIY/manual opt-out users", incogni: "Less appealing if you want full control over each listing.", deleteme: "Less appealing if you have time and want control; Consumer Reports found manual opt-outs stronger in its narrow people-search test." },
@@ -85,11 +92,11 @@ export const incogniVsDeleteMeComparison = {
     {
       id: "pricing-plans",
       title: "Pricing and Plans",
-      verdict: "Keep pricing high-level because plan details are volatile.",
+      verdict: "Incogni currently has the lower verified U.S. annual entry price; DeleteMe sells a more service-led experience.",
       body: [
-        "The Incogni repository flags exact checkout pricing, renewal pricing, partner-bundle pricing, plan names, family-plan wording, Protect benefits, broker counts, and country support as verification items.",
-        "The DeleteMe repository confirms a $129 yearly solo starting point in the approved research and references multi-person and two-year terms, but it also says live checkout pricing, family details, business pricing, country coverage, custom-removal limits, and support/cancellation signals are volatile.",
-        "The practical comparison should stay fit-based unless current checkout details are reverified: Incogni is the simpler automation path, while DeleteMe is the higher-touch human-assisted path."
+        "Incogni's official U.S. pages listed Standard at $15.98 month-to-month or $95.88 for the first annual term when checked July 18, 2026. Unlimited was $179.88 annually, while Family and Family Unlimited were $191.88 and $275.88 annually. Taxes, promotions, renewals, regions, and partner bundles can change.",
+        "DeleteMe's official help center listed the U.S. solo plan at $129 per year on the same check date. Its pricing page showed one- and two-year choices for one, two, or four people, but did not reliably expose every current dynamic amount in retrievable text. DeleteMe says subscriptions auto-renew and describes a full refund before the first Privacy Report and a prorated refund afterward.",
+        "Price alone does not settle the comparison. Incogni is the lower-cost verified annual entry point and simpler automation path; DeleteMe's case rests more on human assistance, reports, custom requests, and business maturity."
       ]
     },
     {
@@ -124,13 +131,13 @@ export const incogniVsDeleteMeComparison = {
     }
   ],
   openQuestions: [
-    "Current pricing, plan names, renewal terms, discounts, refund terms, and family-plan wording for both services.",
-    "Current broker/site counts and exact public/private or people-search coverage splits.",
-    "Current supported countries and any region-specific limitations.",
+    "Renewal pricing, regional checkout differences, partner bundles, and DeleteMe's dynamically displayed multi-person and multi-year prices.",
+    "How each provider's changing broker/site counts map to the exact listings exposing a particular user.",
+    "Current country-by-country depth, especially differences between DeleteMe consumer and business availability.",
     "Current audit status, Deloitte assurance details, SOC 2 evidence, ISO 27001 status, public trust-center materials, and security disclosures.",
     "Current privacy policies, subprocessors, retention terms, cookie/ad-tech sharing language, and AI-processing disclosures.",
     "Current support, cancellation, billing, dashboard accuracy, and user-complaint signals.",
-    "DeleteMe's current Standard consumer coverage versus the full 976-site master list.",
+    "How DeleteMe's 50-plus Standard summary, longer named Standard list, and broader master list relate in current counting methodology.",
     "Search-engine cache removal scope, custom-removal eligibility, and proof/reporting availability.",
     "Commercial and affiliate status should be managed separately from editorial conclusions."
   ],
@@ -182,6 +189,50 @@ export const incogniVsDeleteMeComparison = {
     {
       question: "Are data-removal services worth it?",
       answer: "They can be worth it for convenience, recurring maintenance, reporting, and support, but they should be treated as partial exposure-reduction tools rather than complete privacy protection."
+    }
+  ],
+  sourceLinks: [
+    {
+      title: "Incogni pricing and subscription plans",
+      publisher: "Incogni",
+      href: "https://incogni.com/pricing",
+      note: "Current U.S. plan names, prices, billing periods, family limits, Protect restrictions, and refund statement. Checked July 18, 2026."
+    },
+    {
+      title: "Deloitte independent limited-assurance report",
+      publisher: "Deloitte / Incogni",
+      href: "https://blog.incogni.com/wp-content/uploads/2025/08/Incogni-ISAE-3000-Report-FInal.pdf",
+      note: "Limited assurance on selected 2024 operating claims; not a full security audit or a guarantee of individual outcomes."
+    },
+    {
+      title: "How much does a DeleteMe Subscription cost?",
+      publisher: "DeleteMe Help Center",
+      href: "https://help.joindeleteme.com/hc/en-us/articles/26605377008531-How-much-does-a-DeleteMe-Subscription-cost",
+      note: "Official U.S. solo-plan price and billing period. Checked July 18, 2026."
+    },
+    {
+      title: "Sites we remove from on the Standard US plan",
+      publisher: "DeleteMe Help Center",
+      href: "https://help.joindeleteme.com/hc/en-us/articles/38908862627091-Sites-we-remove-from-on-the-Standard-US-plan",
+      note: "Official named-site list; it should not be equated with DeleteMe's broader master-list headline."
+    },
+    {
+      title: "What is your refund policy for DeleteMe subscriptions?",
+      publisher: "DeleteMe Help Center",
+      href: "https://help.joindeleteme.com/hc/en-us/articles/8171940305683-What-is-your-refund-policy-for-DeleteMe-subscriptions",
+      note: "Official cancellation, full-refund, and prorated-refund terms."
+    },
+    {
+      title: "Services That Delete Your Data From People-Search Sites",
+      publisher: "Consumer Reports",
+      href: "https://www.consumerreports.org/electronics/personal-information/services-that-delete-data-from-people-search-sites-review-a2705843415/",
+      note: "Independent test including DeleteMe and manual opt-outs. Incogni was not tested."
+    },
+    {
+      title: "Measuring the Accuracy and Effectiveness of PII Removal Services",
+      publisher: "Proceedings on Privacy Enhancing Technologies",
+      href: "https://petsymposium.org/popets/2025/popets-2025-0125.php",
+      note: "Peer-reviewed category evidence on coverage, matching accuracy, and incomplete outcomes."
     }
   ],
   relatedLinks: [

@@ -47,6 +47,8 @@ export function IncogniVsDeleteMePage() {
     description: comparison.subtitle,
     author: { "@type": "Organization", name: site.name },
     publisher: { "@type": "Organization", name: site.name },
+    datePublished: comparison.editorialMeta.datePublished,
+    dateModified: comparison.editorialMeta.dateModified,
     mainEntityOfPage: site.url + comparison.path
   };
 
@@ -63,8 +65,8 @@ export function IncogniVsDeleteMePage() {
   return (
     <>
       <SEO
-        title="Incogni vs DeleteMe: Which Data Removal Service Fits You Better?"
-        description="An evidence-based Incogni vs DeleteMe comparison covering automation, human assistance, reporting, Consumer Reports findings, privacy tradeoffs, pricing volatility, and data-removal limits."
+        title="Incogni vs DeleteMe 2026: Automation or Human Help?"
+        description="Compare Incogni and DeleteMe by current price, automation, human assistance, reports, independent evidence, privacy tradeoffs, and removal limits."
         path={comparison.path}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -79,6 +81,9 @@ export function IncogniVsDeleteMePage() {
             <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">Data Removal Service Comparison</p>
             <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-normal text-slate-950 sm:text-5xl">{comparison.title}</h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700">{comparison.subtitle}</p>
+            <p className="mt-5 text-sm leading-6 text-slate-600">
+              Reviewed by {comparison.editorialMeta.reviewerName} · {comparison.editorialMeta.displayDate}
+            </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" href="#decision-table">
                 Compare Tradeoffs
@@ -124,6 +129,22 @@ export function IncogniVsDeleteMePage() {
               ))}
             </tbody>
           </table>
+        </div>
+      </Section>
+
+      <Section>
+        <SectionHeading
+          title="Sources Checked for This Comparison"
+          description="Current plan details come from official documentation; effectiveness and category limits rely on independent evidence. Vendor claims are not guarantees."
+        />
+        <div className="mt-8 grid gap-4 lg:grid-cols-2">
+          {comparison.sourceLinks.map((source) => (
+            <article key={source.href} className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
+              <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">{source.publisher}</p>
+              <a className="mt-2 inline-block font-semibold text-slate-950 underline decoration-brand-300 underline-offset-4 hover:text-brand-700" href={source.href} target="_blank" rel="noopener noreferrer">{source.title}</a>
+              <p className="mt-3 text-sm leading-6 text-slate-600">{source.note}</p>
+            </article>
+          ))}
         </div>
       </Section>
 
