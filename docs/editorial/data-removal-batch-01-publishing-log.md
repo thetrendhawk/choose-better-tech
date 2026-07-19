@@ -13,7 +13,7 @@
 | 3 | DeleteMe Review | Published / Verified | `/reviews/deleteme-review` | Public CJ program found; CBT approval/destination unverified, tracking disabled | Current research, reviewer/date metadata, visible sources, schema, non-affiliate CTA, exact-commit deployment, production desktop/mobile QA, sitemap, and HTTP 200 verified |
 | 4 | Optery vs Incogni | Published / Verified | `/comparisons/incogni-vs-optery` | Incogni unapproved; Optery application pending; no external tracking active | Current evidence, reviewer/date metadata, visible sources, schema, exact-commit deployment, desktop/mobile QA, sitemap, and HTTP 200 verified |
 | 5 | Incogni vs DeleteMe | Published / Verified | `/comparisons/incogni-vs-deleteme` | Public programs found; CBT approvals/destinations unverified; no external tracking active | Current evidence, reviewer/date metadata, visible sources, schema, exact-commit deployment, desktop/mobile QA, sitemap, and HTTP 200 verified |
-| 6 | Optery vs DeleteMe | Next: audit existing foundation | `/comparisons/optery-vs-deleteme` | To evaluate | Existing comparison foundation found in repository |
+| 6 | Optery vs DeleteMe | Validation in progress | `/comparisons/optery-vs-deleteme` | Public programs found; CBT approvals/destinations unverified; no external tracking active | Current review evidence reconciled; reviewer/date metadata, visible sources, plan context, schema dates, and SEO implemented |
 | 7 | How Long Does Data Removal Take? | Planned | — | Informational | Supports review and comparison conversion paths |
 | 8 | Can Your Information Reappear After Data Removal? | Planned | — | Informational | Supports expectations and trust |
 
@@ -86,4 +86,7 @@
 
 ### Optery vs DeleteMe
 
-- Next action: audit the existing comparison against the current Optery and DeleteMe review evidence, current plan terms, recommendation consistency, monetization status, reviewer/date metadata, visible sources, and production readiness.
+- Current Optery and DeleteMe evidence was reconciled without changing the fit-based verdict: Optery for proof and exposure visibility, DeleteMe for human help and business maturity.
+- Added current plan/refund context, visible sources, reviewer/update metadata, schema dates, and updated SEO.
+- Neither provider has a confirmed active CBT tracking destination. The comparison contains no external affiliate CTA.
+- Next action: complete validation, deploy the exact commit, verify production desktop/mobile behavior, and reconcile the publication record.

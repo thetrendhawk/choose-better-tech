@@ -2,6 +2,12 @@ export const opteryVsDeleteMeComparison = {
   path: "/comparisons/optery-vs-deleteme",
   title: "Optery vs DeleteMe (2026): Which Data Removal Service Is Better?",
   subtitle: "An evidence-based comparison for readers choosing between Optery's proof-first reporting and DeleteMe's established, human-assisted data-removal workflow.",
+  editorialMeta: {
+    reviewerName: "Choose Better Tech Editorial Team",
+    datePublished: "2026-07-08",
+    dateModified: "2026-07-19",
+    displayDate: "Reviewed and updated July 19, 2026"
+  },
   quickAnswer: [
     "Choose Optery if you want screenshot proof, exposure reports, people-search visibility, and a proof-first workflow.",
     "Choose DeleteMe if you want a known, established, human-assisted service with privacy advisors, custom removals, reports, and stronger business/admin maturity.",
@@ -18,6 +24,7 @@ export const opteryVsDeleteMeComparison = {
     { label: "Independent effectiveness signal", optery: "Stronger for proof/reporting and independent-testing momentum in the approved research, while still subject to category limits.", deleteme: "Consumer Reports found DeleteMe midlevel in its people-search test, while manual opt-outs outperformed paid services in that narrow test." },
     { label: "Business/admin use", optery: "Business features exist in approved research, but exact business pricing and seat economics remain open questions.", deleteme: "Stronger fit for business/admin buyers based on account-manager, department, SSO, reporting, and executive-tier signals." },
     { label: "Family use", optery: "Good fit where family/loved-one coverage and privacy boundaries fit.", deleteme: "Good fit where DeleteMe's multi-person plans fit, but current plan specifics need verification." },
+    { label: "Current plan entry point", optery: "Free Basic provides exposure reports; Core, Extended, and Ultimate add paid removal services.", deleteme: "The official help center listed the U.S. solo plan at $129 per year when checked July 18, 2026." },
     { label: "Public-facing professionals", optery: "Stronger for documentation, proof, exposure reports, and public listing visibility.", deleteme: "Stronger when human assistance, custom removals, higher-touch support, and provider maturity matter." },
     { label: "DIY/manual opt-out users", optery: "Less appealing if you want full control over each listing, though its free report can help discovery.", deleteme: "Less appealing if you have time and want control; Consumer Reports found manual opt-outs stronger in its narrow people-search test." },
     { label: "Full internet deletion expectations", optery: "Poor fit. Optery does not delete someone from the internet.", deleteme: "Poor fit. DeleteMe does not delete someone from the internet." }
@@ -85,11 +92,11 @@ export const opteryVsDeleteMeComparison = {
     {
       id: "pricing-plans",
       title: "Pricing and Plans",
-      verdict: "Keep pricing high-level because plan details are volatile.",
+      verdict: "Optery lets you inspect exposure before paying; DeleteMe starts with a paid, service-led plan.",
       body: [
-        "The Optery repository flags pricing, plan names, site counts, family discounts, supported countries, refund wording, custom-removal terms, search-cache submission scope, and platform support as verification items.",
-        "The DeleteMe repository confirms a paid consumer service and references multi-person and business options, but it also says live checkout pricing, family details, business pricing, country coverage, custom-removal limits, and support/cancellation signals are volatile.",
-        "The practical comparison should stay fit-based unless current checkout details are reverified: Optery is the proof/reporting path, while DeleteMe is the higher-touch human-assisted path."
+        "Optery offers Free Basic, Core, Extended, and Ultimate. Free Basic provides an exposure report at signup and approximately quarterly for recently active users. Paid plans submit removals; Extended and Ultimate add human review and quarterly screenshot-based Removals Reports where public profiles can be captured. Optery says annual billing saves about 17% and family discounts range from 20% to 30%, but current checkout amounts should be confirmed directly.",
+        "DeleteMe's official help center listed the U.S. solo plan at $129 per year when checked July 18, 2026. Its pricing page also showed one- and two-year options for one, two, or four people without reliably exposing every dynamic amount in retrievable text. DeleteMe says subscriptions auto-renew and offers a full refund before the first Privacy Report and a prorated refund afterward.",
+        "The practical choice is not just price: Optery offers a free discovery step and proof-oriented paid tiers, while DeleteMe's case rests on human assistance, reports, custom requests, and provider maturity."
       ]
     },
     {
@@ -124,13 +131,13 @@ export const opteryVsDeleteMeComparison = {
     }
   ],
   openQuestions: [
-    "Current pricing, plan names, renewal terms, discounts, refund terms, and family/loved-one or multi-person wording for both services.",
-    "Current broker/site counts and exact public/private or people-search coverage splits.",
-    "Current supported countries and any region-specific limitations.",
+    "Optery's dynamically displayed checkout prices plus DeleteMe's current multi-person, multi-year, premium, and renewal amounts.",
+    "How each provider's changing broker/site counts map to the exact listings exposing a particular user.",
+    "Current country-by-country depth, especially differences between personal and business availability.",
     "Current audit status, SOC 2 evidence, ISO 27001 status, public trust-center materials, and security disclosures.",
     "Current privacy policies, subprocessors, retention terms, cookie/ad-tech sharing language, and AI-processing disclosures.",
     "Current support, cancellation, billing, screenshot/report quality, dashboard accuracy, and user-complaint signals.",
-    "DeleteMe's current Standard consumer coverage versus the full 976-site master list.",
+    "How DeleteMe's 50-plus Standard summary, longer named Standard list, and broader master list relate in current counting methodology.",
     "Optery screenshot availability across public, private, and restricted sources, plus current search-cache submission scope.",
     "Commercial and affiliate status should be managed separately from editorial conclusions."
   ],
@@ -186,6 +193,50 @@ export const opteryVsDeleteMeComparison = {
     {
       question: "Are data-removal services worth it?",
       answer: "They can be worth it for convenience, recurring maintenance, reporting, and support, but they should be treated as partial exposure-reduction tools rather than complete privacy protection."
+    }
+  ],
+  sourceLinks: [
+    {
+      title: "Optery plan-tier differences",
+      publisher: "Optery Help Desk",
+      href: "https://help.optery.com/en/article/whats-the-difference-between-the-free-basic-core-extended-and-ultimate-plan-tiers-why-should-i-choose-ultimate-over-the-other-plans-tqye1o/",
+      note: "Official Free Basic, Core, Extended, and Ultimate feature distinctions. Updated June 1, 2026."
+    },
+    {
+      title: "Optery scan and opt-out cadence",
+      publisher: "Optery Help Desk",
+      href: "https://help.optery.com/en/article/how-often-does-optery-run-scans-and-opt-outs-z8xpc2/",
+      note: "Official paid-removal cadence, free-report cadence, and screenshot-report qualification. Updated July 15, 2026."
+    },
+    {
+      title: "How much does a DeleteMe Subscription cost?",
+      publisher: "DeleteMe Help Center",
+      href: "https://help.joindeleteme.com/hc/en-us/articles/26605377008531-How-much-does-a-DeleteMe-Subscription-cost",
+      note: "Official U.S. solo-plan price and billing period. Checked July 18, 2026."
+    },
+    {
+      title: "Your DeleteMe Privacy Report",
+      publisher: "DeleteMe Help Center",
+      href: "https://help.joindeleteme.com/hc/en-us/articles/8585306360083-Your-DeleteMe-Privacy-Report",
+      note: "Official report timing, status definitions, and recurring-monitoring explanation."
+    },
+    {
+      title: "What is your refund policy for DeleteMe subscriptions?",
+      publisher: "DeleteMe Help Center",
+      href: "https://help.joindeleteme.com/hc/en-us/articles/8171940305683-What-is-your-refund-policy-for-DeleteMe-subscriptions",
+      note: "Official cancellation, full-refund, and prorated-refund terms."
+    },
+    {
+      title: "Services That Delete Your Data From People-Search Sites",
+      publisher: "Consumer Reports",
+      href: "https://www.consumerreports.org/electronics/personal-information/services-that-delete-data-from-people-search-sites-review-a2705843415/",
+      note: "Independent comparison including Optery, DeleteMe, and manual opt-outs."
+    },
+    {
+      title: "Measuring the Accuracy and Effectiveness of PII Removal Services",
+      publisher: "Proceedings on Privacy Enhancing Technologies",
+      href: "https://petsymposium.org/popets/2025/popets-2025-0125.php",
+      note: "Peer-reviewed category evidence on coverage, matching accuracy, and incomplete outcomes."
     }
   ],
   relatedLinks: [
