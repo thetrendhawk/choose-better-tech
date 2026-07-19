@@ -8,29 +8,33 @@
 
 | Order | Article | Status | Live URL | Monetization status | Notes |
 |---:|---|---|---|---|---|
-| 1 | Optery Review | Drafting / Implementing | `/reviews/optery-review` | Affiliate application submitted 2026-07-18; pending approval | Existing unpublished review foundation found in repository; current-source verification and editorial cleanup in progress |
-| 2 | Incogni Review | Planned | — | To evaluate | — |
-| 3 | DeleteMe Review | Planned | — | To evaluate | — |
-| 4 | Optery vs Incogni | Planned | — | To evaluate | — |
-| 5 | Incogni vs DeleteMe | Planned | — | To evaluate | — |
-| 6 | Optery vs DeleteMe | Planned | — | To evaluate | — |
+| 1 | Optery Review | Published / Verified | `/reviews/optery-review` | Affiliate application submitted 2026-07-18; pending approval | Final article, reviewer/date metadata, SEO, non-affiliate fallback, route/index inclusion, successful production deployment, and HTTP 200 verified |
+| 2 | Incogni Review | Next: audit existing foundation | `/reviews/incogni-review` | To evaluate | Existing route and review foundation found in repository |
+| 3 | DeleteMe Review | Planned | `/reviews/deleteme-review` | To evaluate | Existing route and review foundation found in repository |
+| 4 | Optery vs Incogni | Planned | `/comparisons/incogni-vs-optery` | To evaluate | Existing comparison foundation found in repository |
+| 5 | Incogni vs DeleteMe | Planned | `/comparisons/incogni-vs-deleteme` | To evaluate | Existing comparison foundation found in repository |
+| 6 | Optery vs DeleteMe | Planned | `/comparisons/optery-vs-deleteme` | To evaluate | Existing comparison foundation found in repository |
 | 7 | How Long Does Data Removal Take? | Planned | — | Informational | Supports review and comparison conversion paths |
 | 8 | Can Your Information Reappear After Data Removal? | Planned | — | Informational | Supports expectations and trust |
 
 ## Publication record
 
-No articles published yet.
+### Optery Review
+
+- **Title:** Optery Review (2026): Is It Worth Paying For?
+- **Live URL:** `https://choosebettertech.com/reviews/optery-review`
+- **Published:** 2026-07-19
+- **Production commit:** `790dbb1204b8b211f6dfb7aef04de4b1e38d161f`
+- **Production deployment:** `dpl_4FNMVacyHoZRTDAmmf53895K11zu`
+- **Verification:** Vercel production deployment READY; live route returned HTTP 200.
+- **Editorial conclusion:** Recommended for users who value recurring data-broker maintenance, exposure visibility, and screenshot-based proof. Not recommended as a complete or permanent internet-erasure solution.
+- **Monetization:** Optery affiliate application pending. The provider remains `PENDING`, tracking is disabled, and the current CTA uses the internal non-affiliate fallback until approval and destination details are confirmed.
+- **Evidence used:** Current Optery privacy and help documentation, Consumer Reports' people-search removal study, and the 2025 academic study of commercial PII-removal services.
+- **Important limitations retained:** Incomplete removal, possible false matches, reappearance, unavailable screenshots for restricted databases, public-record/social-media/dark-web exclusions, and the privacy tradeoff of supplying identity data.
 
 ## Current work
 
-### Optery Review
+### Incogni Review
 
-- Working title: **Optery Review (2026): Is It Worth Paying For?**
-- Primary intent: Evaluate whether Optery is worth paying for, who benefits, what the free scan does, and how its paid tiers compare with manual removal and competing services.
-- Current implementation finding: A substantial Optery review page and data file already exist on `main`, along with routes for Optery, Incogni, DeleteMe, and their comparisons. The Optery foundation requires current-source verification, natural-language cleanup, visible reviewer/date metadata, monetization-state handling, index/hub checks, QA, and production verification before it is treated as published.
-- Verified primary-source findings: Optery is limited to covered data brokers and people-search sites; it cannot promise complete internet deletion; Extended and Ultimate include quarterly screenshot-based Removals Reports when public profiles can be captured; the service must transmit identifying information to brokers to locate and remove records; Expanded Reach can send data to brokers that may not already have it and is optional; removed records can reappear.
-- Independent-evidence finding: Published research supports cautious expectations for the category because commercial removal tools can have material accuracy, coverage, and permanence limitations.
-- Affiliate status: Application submitted; approval pending. Use ordinary non-affiliate links until approval and tracking details are confirmed.
-- Required internal links: `/data-removal`, `/best-data-removal-services`, `/are-data-removal-services-worth-it`
-- Next implementation steps: Replace robotic “approved research” language, verify volatile plan/pricing claims, add visible reviewer and update date, confirm route/index/sitemap inclusion, run build checks, publish, and verify production.
-- Stop conditions: Weak evidence, unclear affiliate terms, or inability to support a useful fit-based conclusion.
+- Next action: audit the existing article foundation against current primary sources, current plan terms, affiliate availability, natural-language standards, reviewer/date metadata, and production readiness.
+- Stop conditions: weak evidence, unresolved monetization terms, or a recommendation that cannot be supported without hands-on testing.
