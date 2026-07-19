@@ -60,6 +60,13 @@ export type ReviewFaq = {
   answer: string;
 };
 
+export type ReviewEditorialMeta = {
+  authorName: string;
+  datePublished?: string;
+  dateModified: string;
+  displayDate: string;
+};
+
 export type ReviewPageContent = {
   categoryLabel: string;
   title: string;
@@ -69,6 +76,7 @@ export type ReviewPageContent = {
   applicationCategory?: string;
   affiliateProvider: AffiliateProvider;
   ctaLabel: string;
+  editorialMeta?: ReviewEditorialMeta;
   executiveSummary: string[];
   quickSummary: ReviewSummaryItem[];
   decisionSnapshot: DecisionSnapshotRow[];
