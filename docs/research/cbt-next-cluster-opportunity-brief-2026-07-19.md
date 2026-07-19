@@ -258,6 +258,13 @@ The exact product list remains an owner decision after availability, platform, e
 - **AI productivity:** defer until CBT defines a narrower audience promise and repeatable outcome-based test framework.
 - **Consumer online backup:** retain as the leading follow-on opportunity after device security, especially as a bridge between security and cloud storage.
 
-## Next authorized repository action
+## Current implementation status
 
-Owner review of this opportunity brief only. No publication or production work is authorized by this document.
+The owner approved the recommendation and authorized progression into implementation planning and lead-article research.
+
+Related active records in PR #37:
+
+- [Device Security Cluster Implementation Plan](device-security-cluster-implementation-plan-2026-07-19.md)
+- [Windows 11 Antivirus Lead Article Research Package](windows-11-antivirus-lead-article-research-package-2026-07-19.md)
+
+No article drafting, product installation, ranking, affiliate activation, or publication is authorized. The next gated decision is approval of a clean Windows 11 test environment and one representative third-party trial.
