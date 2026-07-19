@@ -14,6 +14,13 @@ This file, not chat history, is the durable source of truth for the evaluation.
 
 This record does not authorize an article, rating, verdict, affiliate link, recommendation, or publication claim.
 
+## Record classification
+
+- **Observed fact** means the tester directly saw a product state or result and recorded only sanitized values.
+- **Provider claim** means Privacy Bee or its interface asserted something that has not necessarily been independently verified.
+- **Inference** means a cautious interpretation of observed facts; it is not treated as a verified product fact.
+- **Unresolved question** means the available evidence does not yet support a conclusion and the issue remains open.
+
 ## Evidence boundary
 
 Private evidence exists outside the public repository and includes screenshots, account exports, the initial exposure report, broker records, session details, identity suggestions, and personal exposure data.
@@ -173,10 +180,13 @@ Observed behavior:
 - the record combined multiple locations and associated people;
 - some fields appeared outdated, unrelated, or identity-mixed;
 - the product included an internal Deletion Guide with manual opt-out steps;
-- the Advisories tab referenced a dated security incident;
-- the product stated that re-exposures would be detected and removal restarted automatically.
+- the Advisories tab referenced a dated security incident.
 
-Interpretation:
+Provider claim:
+
+- the product stated that re-exposures would be detected and removal restarted automatically; this has not yet been observed in the evaluation.
+
+Inference:
 
 - Privacy Bee provides both automated-removal claims and manual-removal guidance.
 - Broad candidate discovery can include inaccurate or mixed identity data, so user interpretation remains necessary.
@@ -206,12 +216,15 @@ Observed result:
 
 - 0 exposed artifacts;
 - no dark-web exposures found;
-- risk impact displayed as None;
-- ongoing monitoring described breach-to-broker mapping, targeted removal, and containment monitoring.
+- risk impact displayed as None.
 
 Limitation:
 
 The screen did not disclose which identifiers were checked, which breach sources were covered, or the last scan timestamp. The result can be reported as an observed product output, not as independently verified coverage.
+
+Provider claim:
+
+The interface described ongoing monitoring as including breach-to-broker mapping, targeted removal, and containment monitoring. Those coverage descriptions were not independently verified by the zero-result screen.
 
 ## Reports
 
@@ -260,7 +273,7 @@ The absence of a payment method and invoices is consistent with complimentary ac
 
 The LPOA was unsigned.
 
-The interface described it as optional and limited to privacy-law access, deletion, and opt-out requests. It stated that authorization could be revoked and could improve success with organizations that require an authorized agent.
+Provider claim: the interface described the LPOA as optional and limited to privacy-law access, deletion, and opt-out requests. It stated that authorization could be revoked and could improve success with organizations that require an authorized agent.
 
 No signature or authorization was completed.
 
@@ -332,17 +345,23 @@ Status: Not yet tested.
 
 ## Outstanding tests
 
-1. Submit one controlled custom URL removal for a clearly verified exposure.
-2. Measure support responsiveness with a factual clarification request.
-3. Recheck removal progress over time.
-4. Verify whether completed removals are actually absent from broker sites.
-5. Observe any re-exposure detection and restart behavior.
-6. Decide whether LPOA testing adds enough value to justify signing.
-7. Observe account behavior at or after 2026-08-17 when complimentary Pro access ends.
-8. Resolve whether the remaining verified phone candidate should be confirmed.
-9. Decide whether the verified Arizona address should be added as a separate controlled test.
+1. Record the pending human support reply and assess whether it resolves the metric discrepancy.
+2. Complete the seven-day removal-progress recheck.
+3. Verify one or two completed-removal records externally.
+4. Submit one controlled custom URL removal for a clearly verified owner exposure.
+5. Complete the fourteen-day progress recheck.
+6. Observe re-exposure handling only if an exposure reappears naturally.
+7. Decide whether an LPOA is justified after observing relevant failures or broker requirements.
+8. Complete the thirty-day and access-expiration review.
 
 ## Next authorized action
+
+Support responsiveness testing is active. See the [support-test record](privacy-bee-support-test-2026-07-19.md).
+
+- Observed fact: the automated self-service response was immediate.
+- Observed fact: human escalation was accepted and notification email setup was completed.
+- Unresolved question: human response time and explanation quality remain pending.
+- Unresolved question: the automated answer does not resolve the metric discrepancy because its time-range explanation is not consistent with the observed account age on the evidence currently available.
 
 Before any additional product action:
 
@@ -351,7 +370,7 @@ Before any additional product action:
 - capture the immediate result privately;
 - update this file again before moving to the next test.
 
-Recommended next test: support responsiveness and metric-definition clarification before submitting a custom URL removal.
+Next test: await and record the human support response. Future tests must follow the [controlled runbook](../../operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md) in its stated order.
 
 ## Change log
 
@@ -375,3 +394,4 @@ Recommended next test: support responsiveness and metric-definition clarificatio
 - verified billing, auto-renew, LPOA, monitoring, communication, and security settings;
 - opened but did not submit the custom URL removal flow;
 - consolidated prior private records into this canonical sanitized repository log.
+- linked the active support-responsiveness test and recorded the pending human-response checkpoint.

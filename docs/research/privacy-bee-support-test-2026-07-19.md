@@ -2,7 +2,7 @@
 
 Status: Awaiting human response  
 Project: Choose Better Tech  
-Related canonical log: `docs/research/privacy-bee-hands-on-evaluation-log.md`  
+Related canonical log: [Privacy Bee hands-on evaluation log](privacy-bee-hands-on-evaluation-log.md)
 Publication status: Not authorized
 
 ## Purpose
@@ -28,12 +28,12 @@ The answer stated that:
 
 The widget then asked how Privacy Bee should contact the user if the user left or replied later and offered email notifications.
 
-## Interpretation
+## Classification
 
-- The metric discrepancy received a plausible product-definition explanation immediately.
-- This result measures automated self-service responsiveness, not human support response time or answer quality.
-- The explanation should not yet be treated as independently verified because no underlying request dates or count breakdown were shown.
-- A human-agent confirmation remains useful because the account was only created in July 2026, making the suggested “older than six months” explanation appear potentially inconsistent with the observed account age unless inherited, imported, or pre-account activity is counted.
+- Observed fact: the metric discrepancy received an immediate automated response.
+- Provider claim: the two counts differ because the dashboard summary and all-time activity use different time ranges.
+- Inference: the response measures automated self-service responsiveness, not human support response time or answer quality.
+- Unresolved question: the automated explanation does not resolve the discrepancy because no underlying request dates or count breakdown were shown, and the account was created in July 2026. It remains unknown whether inherited, imported, pre-account, or another kind of activity is counted.
 
 ## Human escalation
 

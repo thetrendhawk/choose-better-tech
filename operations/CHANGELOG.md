@@ -11,6 +11,12 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-19 — Privacy Bee longitudinal evaluation operations activated
+
+- Recorded the active Privacy Bee hands-on evaluation, its canonical sanitized log, and the support-response test awaiting a human answer.
+- Added `operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md` to control future tests and owner checkpoints.
+- No publication, verdict, ranking, or affiliate activation was authorized.
+
 ### 2026-07-19 — Search Console baseline reconciled and focused internal links added
 
 - Recorded the July 8-17 Search Console baseline: 1 click, 180 impressions, 0.6% CTR, and 46.7 average position.
