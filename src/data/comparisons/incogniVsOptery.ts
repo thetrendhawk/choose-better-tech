@@ -2,6 +2,12 @@ export const incogniVsOpteryComparison = {
   path: "/comparisons/incogni-vs-optery",
   title: "Incogni vs Optery (2026): Which Data Removal Service Is Better?",
   subtitle: "An evidence-based comparison for readers choosing between Incogni's simpler automation and Optery's proof-heavy people-search visibility.",
+  editorialMeta: {
+    reviewerName: "Choose Better Tech Editorial Team",
+    datePublished: "2026-07-08",
+    dateModified: "2026-07-19",
+    displayDate: "Reviewed and updated July 19, 2026"
+  },
   quickAnswer: [
     "Choose Incogni if you want simpler, hands-off broker-removal automation, recurring requests, broader geographic availability, and Deloitte process assurance.",
     "Choose Optery if you want screenshot proof, stronger exposure visibility, a free scan/report entry point, and more transparent people-search reporting.",
@@ -14,6 +20,7 @@ export const incogniVsOpteryComparison = {
     { label: "Automation", incogni: "Stronger hands-off automation story with recurring broker-removal requests.", optery: "Automates paid removals too, but the strongest appeal is proof, reports, and exposure discovery." },
     { label: "Geographic availability", incogni: "Stronger broader geographic fit in the approved research.", optery: "Personal availability is limited to the U.S., Canada excluding Quebec, Australia, New Zealand, and South Africa." },
     { label: "Family use", incogni: "Good fit where the family plan's five-member structure fits.", optery: "Good fit for flexible loved-one coverage with privacy boundaries between admin and member detail." },
+    { label: "Current plan entry point", incogni: "No permanent free plan. Standard was $15.98 monthly or $95.88 for the first annual term when checked July 18, 2026.", optery: "Free Basic includes quarterly exposure reports for active users; Core, Extended, and Ultimate add paid removal services." },
     { label: "Public-facing professionals", incogni: "Useful for ongoing broker-removal maintenance.", optery: "Stronger fit when documentation, screenshot reports, and visible exposure tracking matter." },
     { label: "High-risk or doxxing concerns", incogni: "Useful as one privacy-maintenance layer, but not enough alone for crisis-level situations.", optery: "Useful as one documentation-heavy layer, but not enough alone for crisis-level situations." },
     { label: "DIY/manual opt-out users", incogni: "Less appealing if you want full control over each listing.", optery: "More transparent than most services, but manual opt-out may still be better for disciplined control-focused users." },
@@ -82,11 +89,11 @@ export const incogniVsOpteryComparison = {
     {
       id: "pricing-plans",
       title: "Pricing and Plans",
-      verdict: "Keep pricing high-level because plan details are volatile.",
+      verdict: "Incogni has the clearer low-friction paid entry point; Optery lets you inspect exposure before paying.",
       body: [
-        "The Incogni repository flags exact checkout pricing, renewal pricing, partner-bundle pricing, plan names, family-plan wording, Protect benefits, broker counts, and country support as verification items.",
-        "The Optery repository flags pricing, plan names, site counts, family discounts, supported countries, refund wording, custom-removal terms, search-cache submission scope, and platform support as verification items.",
-        "The practical comparison is therefore fit-based: Incogni is the simpler automation path, while Optery is the proof/reporting path. Current pricing should be checked before purchase-focused updates."
+        "Incogni's official U.S. pages listed Standard at $15.98 month-to-month or $95.88 for the first annual term when checked July 18, 2026. Unlimited was $179.88 annually, while Family and Family Unlimited were $191.88 and $275.88 annually. Taxes, promotions, renewals, regions, and partner bundles can change.",
+        "Optery offers Free Basic, Core, Extended, and Ultimate. Free Basic provides an exposure report at signup and approximately quarterly for users who have logged in recently. Paid plans submit removals; Extended and Ultimate add human review and quarterly screenshot-based Removals Reports where public profiles can be captured. Optery says annual billing saves about 17% and family discounts range from 20% to 30%, but current checkout amounts should be confirmed directly.",
+        "The practical comparison remains fit-based: Incogni is the simpler automation path with clearly published U.S. plan prices; Optery is the proof/reporting path and lets you inspect potential exposure before subscribing."
       ]
     },
     {
@@ -111,9 +118,8 @@ export const incogniVsOpteryComparison = {
     }
   ],
   openQuestions: [
-    "Current pricing, plan names, renewal terms, discounts, refund terms, and family-plan wording for both services.",
-    "Current broker/site counts and exact public/private or people-search coverage splits.",
-    "Current supported countries and any region-specific limitations.",
+    "Renewal behavior, regional checkout differences, partner bundles, and dynamically displayed Optery prices.",
+    "How each provider's changing broker/site counts map to the exact listings exposing a particular user.",
     "Current audit status, Deloitte assurance details, SOC 2 evidence, public trust-center materials, and security disclosures.",
     "Current privacy policies, subprocessors, retention terms, cookie/ad-tech sharing language, and AI-processing disclosures.",
     "Current support, cancellation, billing, dashboard accuracy, and user-complaint signals.",
@@ -164,6 +170,50 @@ export const incogniVsOpteryComparison = {
     {
       question: "Are data-removal services worth it?",
       answer: "They can be worth it for convenience, recurring maintenance, and documentation, but they should be treated as partial exposure-reduction tools rather than complete privacy protection."
+    }
+  ],
+  sourceLinks: [
+    {
+      title: "Incogni pricing and subscription plans",
+      publisher: "Incogni",
+      href: "https://incogni.com/pricing",
+      note: "Current U.S. plan names, prices, billing periods, family limits, Protect restrictions, and refund statement. Checked July 18, 2026."
+    },
+    {
+      title: "Deloitte independent limited-assurance report",
+      publisher: "Deloitte / Incogni",
+      href: "https://blog.incogni.com/wp-content/uploads/2025/08/Incogni-ISAE-3000-Report-FInal.pdf",
+      note: "Limited assurance on selected 2024 operating claims; not a full security audit or a guarantee of individual outcomes."
+    },
+    {
+      title: "Optery plan-tier differences",
+      publisher: "Optery Help Desk",
+      href: "https://help.optery.com/en/article/whats-the-difference-between-the-free-basic-core-extended-and-ultimate-plan-tiers-why-should-i-choose-ultimate-over-the-other-plans-tqye1o/",
+      note: "Official Free Basic, Core, Extended, and Ultimate feature distinctions. Updated June 1, 2026."
+    },
+    {
+      title: "Optery scan and opt-out cadence",
+      publisher: "Optery Help Desk",
+      href: "https://help.optery.com/en/article/how-often-does-optery-run-scans-and-opt-outs-z8xpc2/",
+      note: "Official paid-removal cadence, free-report cadence, and screenshot-report qualification. Updated July 15, 2026."
+    },
+    {
+      title: "Optery personal-account country availability",
+      publisher: "Optery Help Desk",
+      href: "https://help.optery.com/en/article/does-optery-work-in-other-countries-than-the-united-states-eg-canada-uk-australia-netherlands-1fr62gn/",
+      note: "Official supported-country list for personal and family accounts. Updated March 17, 2026."
+    },
+    {
+      title: "Services That Delete Your Data From People-Search Sites",
+      publisher: "Consumer Reports",
+      href: "https://www.consumerreports.org/electronics/personal-information/services-that-delete-data-from-people-search-sites-review-a2705843415/",
+      note: "Independent comparison of paid services and manual opt-outs. Incogni was not among the tested services."
+    },
+    {
+      title: "Measuring the Accuracy and Effectiveness of PII Removal Services",
+      publisher: "Proceedings on Privacy Enhancing Technologies",
+      href: "https://petsymposium.org/popets/2025/popets-2025-0125.php",
+      note: "Peer-reviewed category evidence on coverage, matching accuracy, and incomplete outcomes."
     }
   ],
   relatedLinks: [
