@@ -26,9 +26,9 @@ Last Updated: 2026-07-19
 - DeleteMe continued to describe a first Privacy Report in about seven days, quarterly reports for Standard, recurring monitoring, custom requests, cancellation at any time, a full refund before the first report, and a prorated refund afterward.
 - DeleteMe publicly described a CJ-based affiliate program. CBT approval and an exact tracking destination were not verified, so the provider remains pending with tracking disabled and an internal comparison fallback.
 - No account, removal, billing, cancellation, support, or hands-on product testing was performed.
-Next Review: Before publication
+Next Review: On material plan, coverage, pricing, refund, privacy, or independent-evidence change
 
-Commercial Status: Open Question
+Commercial Status: Public CJ program found; CBT approval and exact destination unverified; tracking disabled
 Affiliate Program: Open Question
 Affiliate Network: Open Question
 ---

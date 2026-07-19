@@ -11,6 +11,15 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-19 — DeleteMe Review refreshed and production verified
+
+- Rechecked DeleteMe's current solo price, plan presentation, Standard coverage context, reporting, removal timing, refund terms, and public CJ affiliate-program availability.
+- Preserved the human-assisted, fit-based verdict and the independent evidence showing incomplete removal and stronger results for manual opt-outs in Consumer Reports' narrow test.
+- Added visible reviewer/update metadata, a visible source section, current pricing context, and an internal non-affiliate comparison CTA.
+- Verified lint, 22 tests, route generation, TypeScript, production build, canonical, Review/FAQ schema, sitemap, desktop layout, and 390px no-overflow behavior.
+- Deployed content commit `8ef423a` through production deployment `5507970360` and verified the live route and direct refresh returned HTTP 200.
+- Kept DeleteMe monetization `PENDING` with tracking disabled because CBT approval and an exact destination were not verified.
+
 ### 2026-07-19 — Incogni Review refreshed and production verified
 
 - Rechecked current Incogni plans, U.S. pricing, family limits, Protect restrictions, broker coverage, assurance scope, and monetization availability.
