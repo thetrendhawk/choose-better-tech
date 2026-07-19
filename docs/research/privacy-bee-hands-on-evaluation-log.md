@@ -1,0 +1,377 @@
+# Privacy Bee Hands-On Evaluation Log
+
+Date opened: 2026-07-17  
+Last updated: 2026-07-19  
+Project: Choose Better Tech  
+Status: Active hands-on evaluation  
+Publication status: Not authorized
+
+## Purpose
+
+This is the canonical sanitized research log for Choose Better Tech's hands-on Privacy Bee evaluation. It records observed product behavior, controlled tests, unresolved discrepancies, and future checkpoints without placing raw personal data in the public repository.
+
+This file, not chat history, is the durable source of truth for the evaluation.
+
+This record does not authorize an article, rating, verdict, affiliate link, recommendation, or publication claim.
+
+## Evidence boundary
+
+Private evidence exists outside the public repository and includes screenshots, account exports, the initial exposure report, broker records, session details, identity suggestions, and personal exposure data.
+
+Do not commit or publish without appropriate redaction and permission:
+
+- street addresses;
+- full phone numbers or email addresses;
+- dates of birth;
+- relatives or associated people;
+- broker exposure IDs;
+- session IP addresses or precise login locations;
+- authentication QR codes, recovery material, or secret keys;
+- the unredacted exposure report;
+- screenshots containing login fields or personal records.
+
+The downloaded Privacy Bee exposure report states that it is confidential and may not be published or redistributed without prior consent. Findings may be summarized cautiously, but the report itself remains private.
+
+## Relationship and access
+
+- Privacy Bee Pro access was provided for a 30-day independent evaluation.
+- The account displays a monthly plan value of $39 and an end or renewal date of 2026-08-17.
+- No payment method or invoice was visible during the evaluation.
+- Auto-renew was off when checked on 2026-07-19.
+- No required rating, editorial approval, publication commitment, or favorable-treatment condition has been identified.
+- Monetization Independence Check: PASS.
+
+## Day 1 baseline — 2026-07-17
+
+### Account and protection state
+
+- Privacy Risk Score: 90/100, labeled High Risk.
+- Initial protection level: Standard.
+- Initial active protection controls: 2 of 14.
+- Monitoring enabled: search, social media, dark web, and paste sites.
+- Communication settings enabled operational alerts and marketing communications.
+- Limited Power of Attorney: unsigned.
+- Passkeys: none registered.
+
+### Baseline operational figures
+
+The product displayed multiple overlapping metrics that must remain separate until Privacy Bee explains their definitions:
+
+- scans performed: 179;
+- exposures found: 45;
+- removals requested: 15 initially, later 16;
+- removals completed: 2;
+- all-time removal activity later showed 17 requested and 15 in progress;
+- companies monitored: 357;
+- active exposures: 49 initially, later 52;
+- exposures removed in the Data Brokers view: 4;
+- search presence: 2 active results;
+- dark-web exposures: 0.
+
+### Metric discrepancies
+
+- The downloaded report labeled the current plan Free while the dashboard labeled the account Pro.
+- The report separated current-period zeros from all-time totals.
+- Dashboard removal totals differed from report totals.
+- Data Brokers and Family Protection used different exposure and removal counts.
+- Many report records still said Pending or Upgrade for protection despite Pro access.
+
+Do not merge these figures into one public claim without clarification from Privacy Bee.
+
+## Security remediation
+
+During Day 1 testing, an authenticator setup screenshot exposed the original QR code and secret key. The seed was treated as compromised.
+
+Remediation completed on 2026-07-17:
+
+- the original authenticator seed was replaced before activation;
+- two-factor authentication was configured and active;
+- future evidence must exclude QR codes, secrets, IP addresses, and precise session details.
+
+## Identity-match testing
+
+### Classification
+
+The tester identified:
+
+- one clearly correct full-name candidate;
+- one clearly correct phone candidate;
+- five clearly false name candidates;
+- one clearly false phone candidate;
+- two known former addresses for separate controlled testing.
+
+The public log intentionally omits the actual personal values.
+
+### Correct-match action
+
+A clearly correct full-name candidate was confirmed.
+
+Observed result:
+
+- the active Identity Vault record count increased by one;
+- the confirmed record showed 11 associated exposures;
+- active-record controls included Edit and Remove.
+
+### False-match action
+
+A clearly false name candidate was dismissed.
+
+Observed result:
+
+- the candidate moved to Ignored Records;
+- the product stated ignored records would not be scanned;
+- removing an ignored record produced a Suppression removed message;
+- no confirmation dialog appeared before suppression removal;
+- ignored-state suppression is reversible, but consequential actions may occur with terse labels and limited confirmation.
+
+### Batch testing
+
+Two small batches of clearly false candidates were dismissed.
+
+Observed result:
+
+- six ignored records were visible after Batch 2;
+- operational exposure and removal totals did not change immediately;
+- the remaining-candidate counter did not decrease one-for-one with dismissed cards;
+- the counter should not be treated as a literal count of visible identity suggestions.
+
+## Address testing
+
+### Merced controlled test — 2026-07-17
+
+A verified former California address was added.
+
+Observed result:
+
+- the Identity Vault increased by one record;
+- the address showed 11 associated exposures;
+- success messages indicated Address added and Exposure updated;
+- top-level exposure and removal totals did not change immediately;
+- the Time Saved figure increased asynchronously, but causation could not be established.
+
+### Delayed recheck — 2026-07-19
+
+The address remained active and still showed 11 associated exposures.
+
+Current dashboard state observed on 2026-07-19:
+
+- exposures found: 45;
+- removals requested: 17;
+- removals completed: 2;
+- potential exposures awaiting classification: 60.
+
+The delayed recheck confirmed association of the address with multiple broker records, but did not establish that the address itself caused a top-level metric change.
+
+## Broker-detail inspection
+
+Instant Checkmate was used as a representative broker record.
+
+Observed behavior:
+
+- broker status remained Discovered;
+- the detail view preserved a screenshot of the detected record;
+- the record combined multiple locations and associated people;
+- some fields appeared outdated, unrelated, or identity-mixed;
+- the product included an internal Deletion Guide with manual opt-out steps;
+- the Advisories tab referenced a dated security incident;
+- the product stated that re-exposures would be detected and removal restarted automatically.
+
+Interpretation:
+
+- Privacy Bee provides both automated-removal claims and manual-removal guidance.
+- Broad candidate discovery can include inaccurate or mixed identity data, so user interpretation remains necessary.
+- Clicking the exposure-source control routed to Privacy Bee's internal broker page rather than directly to the public exposed profile.
+
+## Search Presence testing — 2026-07-19
+
+The Search Presence section found two Google results.
+
+Both were determined to be false positives unrelated to the tester.
+
+Actions and results:
+
+- each result was marked Preserve;
+- active results decreased from 2 to 0;
+- preserved results increased from 0 to 2;
+- both preserved records retained their discovery history;
+- each preserved record offered a Reinstate action.
+
+Finding:
+
+Privacy Bee lets users suppress false-positive search results without permanently deleting the record, and the preserved state is reversible.
+
+## Dark Web Presence — 2026-07-19
+
+Observed result:
+
+- 0 exposed artifacts;
+- no dark-web exposures found;
+- risk impact displayed as None;
+- ongoing monitoring described breach-to-broker mapping, targeted removal, and containment monitoring.
+
+Limitation:
+
+The screen did not disclose which identifiers were checked, which breach sources were covered, or the last scan timestamp. The result can be reported as an observed product output, not as independently verified coverage.
+
+## Reports
+
+One Initial Signup Report dated 2026-07-17 was available as a 22-page PDF.
+
+Observed report characteristics:
+
+- broker-by-broker entries;
+- exposed field categories;
+- screenshots and status labels;
+- mixed and sometimes inconsistent identity associations;
+- plan and metric discrepancies compared with the live dashboard;
+- company-reported coverage figures for brokers and custom sites.
+
+The report is useful as a baseline but cannot be published or redistributed without permission.
+
+## Settings and commercial behavior — 2026-07-19
+
+### Protection controls
+
+The account was observed on Thorough protection with 3 of 14 controls active:
+
+- People Search Affiliates;
+- List Brokers;
+- People Search Sites.
+
+Other categories remained off, including AdTech and Marketing, Background Check, Data Enrichment, Geolocation, Job Recruiting, Healthcare and Insurance, Work and Income Verification, Surveillance Tech, Map Blurring, email sharing when necessary, and marketing-industry suppression.
+
+Finding:
+
+Advertised platform coverage is not equivalent to all categories being active for a user. Actual outreach depends on plan and control settings.
+
+### Billing
+
+- Privacy Bee Pro;
+- monthly term;
+- $39 displayed;
+- renewal or expiration date: 2026-08-17;
+- no payment method;
+- no invoices;
+- auto-renew off.
+
+The absence of a payment method and invoices is consistent with complimentary access, but that remains an inference unless separately confirmed in writing.
+
+### Limited Power of Attorney
+
+The LPOA was unsigned.
+
+The interface described it as optional and limited to privacy-law access, deletion, and opt-out requests. It stated that authorization could be revoked and could improve success with organizations that require an authorized agent.
+
+No signature or authorization was completed.
+
+### Monitoring
+
+Enabled:
+
+- Search Monitoring;
+- Social Media Monitoring;
+- Dark Web Monitoring;
+- Paste Site Monitoring.
+
+### Communications
+
+Enabled:
+
+- Monthly Privacy Report;
+- Monthly Newsletter;
+- Marketing Updates;
+- Dark Web Alerts;
+- Search Engine Exposures;
+- People Search Exposures.
+
+Finding:
+
+Operational alerts and promotional communications are enabled separately but were all on during the observed session.
+
+### Account security
+
+- 2FA active;
+- session history visible;
+- passkeys supported but none registered;
+- account deletion available and described as irreversible.
+
+## Custom URL removal
+
+The Report URL workflow was opened but no request was submitted.
+
+Observed first-step interface:
+
+- one public website URL field;
+- no visible broker selector;
+- no explanation field;
+- no evidence upload;
+- no ownership-confirmation step at the first screen.
+
+Status: Not yet tested.
+
+## Current strengths observed
+
+- broad candidate discovery;
+- visible Identity Vault and ignored-record audit trail;
+- reversible suppression for false search results;
+- broker detail pages with screenshots and deletion guidance;
+- ongoing-removal and re-exposure framing;
+- 2FA, session visibility, and optional passkey support;
+- downloadable baseline reporting.
+
+## Current limitations and risks observed
+
+- inconsistent metrics across report, dashboard, Data Brokers, and Family Protection;
+- false positives and identity mixing require user judgment;
+- some consequential actions use terse labels and limited confirmation;
+- Search Presence can surface unrelated namesakes;
+- dark-web coverage is not transparent from the user interface;
+- actual protection scope depends on enabled categories;
+- the report's publication restrictions limit direct evidence reuse;
+- client-visible product claims and counts still require independent verification before publication.
+
+## Outstanding tests
+
+1. Submit one controlled custom URL removal for a clearly verified exposure.
+2. Measure support responsiveness with a factual clarification request.
+3. Recheck removal progress over time.
+4. Verify whether completed removals are actually absent from broker sites.
+5. Observe any re-exposure detection and restart behavior.
+6. Decide whether LPOA testing adds enough value to justify signing.
+7. Observe account behavior at or after 2026-08-17 when complimentary Pro access ends.
+8. Resolve whether the remaining verified phone candidate should be confirmed.
+9. Decide whether the verified Arizona address should be added as a separate controlled test.
+
+## Next authorized action
+
+Before any additional product action:
+
+- update this file with the intended test;
+- perform only one controlled change;
+- capture the immediate result privately;
+- update this file again before moving to the next test.
+
+Recommended next test: support responsiveness and metric-definition clarification before submitting a custom URL removal.
+
+## Change log
+
+### 2026-07-17
+
+- established baseline;
+- remediated exposed MFA seed;
+- classified identity suggestions;
+- tested one correct match and one false match;
+- completed two false-candidate dismissal batches;
+- added one verified former address;
+- recorded immediate post-address state.
+
+### 2026-07-19
+
+- completed delayed address recheck;
+- inspected broker detail, deletion guide, and advisory behavior;
+- tested Search Presence false-positive preservation and reinstatement availability;
+- reviewed Dark Web Presence;
+- downloaded and reviewed the initial report;
+- verified billing, auto-renew, LPOA, monitoring, communication, and security settings;
+- opened but did not submit the custom URL removal flow;
+- consolidated prior private records into this canonical sanitized repository log.
