@@ -6,8 +6,8 @@ export function DeleteMeReviewPage() {
   return (
     <>
       <SEO
-        title="DeleteMe Review (2026): Data Broker Removal, Limits, and Value"
-        description="A beginner-focused DeleteMe review covering human-assisted data broker removal, reports, Consumer Reports findings, privacy tradeoffs, pricing caveats, and alternatives."
+        title="DeleteMe Review 2026: Human Help, Pricing, and Limits"
+        description="Our evidence-based DeleteMe review examines its $129 solo plan, human-assisted removals, reports, independent results, privacy tradeoffs, and limits."
         path="/reviews/deleteme-review"
       />
       <ReviewPageLayout review={deleteMeReview} />

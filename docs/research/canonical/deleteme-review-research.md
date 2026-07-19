@@ -16,7 +16,16 @@ Primary Research Source: docs/research/raw/deleteme-deep-research.md
 Evidence Confidence: Moderate to High
 
 Created: 2026-07-08
-Last Updated: 2026-07-08
+Last Updated: 2026-07-19
+
+## Publication Recheck — July 18, 2026
+
+- DeleteMe's official help center continued to list the U.S. solo plan at $129 per year.
+- The current pricing page showed one- and two-year choices for one, two, and four people, but did not reliably expose every dynamic amount in retrievable page text; those prices remain unverified in the article.
+- Official Standard-plan materials used differing coverage presentations: a 50-plus summary and a longer named-site list. The review does not convert either into a universal comparable broker count.
+- DeleteMe continued to describe a first Privacy Report in about seven days, quarterly reports for Standard, recurring monitoring, custom requests, cancellation at any time, a full refund before the first report, and a prorated refund afterward.
+- DeleteMe publicly described a CJ-based affiliate program. CBT approval and an exact tracking destination were not verified, so the provider remains pending with tracking disabled and an internal comparison fallback.
+- No account, removal, billing, cancellation, support, or hands-on product testing was performed.
 Next Review: Before publication
 
 Commercial Status: Open Question

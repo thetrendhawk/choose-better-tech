@@ -10,7 +10,7 @@
 |---:|---|---|---|---|---|
 | 1 | Optery Review | Published / Verified | `/reviews/optery-review` | Affiliate application submitted 2026-07-18; pending approval | Final article, reviewer/date metadata, SEO, non-affiliate fallback, route/index inclusion, successful production deployment, and HTTP 200 verified |
 | 2 | Incogni Review | Published / Verified | `/reviews/incogni-review` | No approved CBT affiliate link; internal comparison fallback | Current research, reviewer/date metadata, pricing context, visible sources, schemas, CTA behavior, validation, exact-commit deployment, production desktop/mobile QA, sitemap, and HTTP 200 verified |
-| 3 | DeleteMe Review | Next: audit existing foundation | `/reviews/deleteme-review` | To evaluate | Existing route and review foundation found in repository |
+| 3 | DeleteMe Review | Validation in progress | `/reviews/deleteme-review` | Public CJ program found; CBT approval/destination unverified, tracking disabled | Current-source recheck, reviewer/date metadata, pricing context, visible evidence, SEO, and non-affiliate fallback implemented |
 | 4 | Optery vs Incogni | Planned | `/comparisons/incogni-vs-optery` | To evaluate | Existing comparison foundation found in repository |
 | 5 | Incogni vs DeleteMe | Planned | `/comparisons/incogni-vs-deleteme` | To evaluate | Existing comparison foundation found in repository |
 | 6 | Optery vs DeleteMe | Planned | `/comparisons/optery-vs-deleteme` | To evaluate | Existing comparison foundation found in repository |
@@ -49,5 +49,7 @@
 
 ### DeleteMe Review
 
-- Next action: audit the existing article foundation against current primary sources, current plan terms, affiliate availability, natural-language standards, reviewer/date metadata, visible evidence, and production readiness.
-- Stop conditions: weak evidence, unresolved monetization terms, or a recommendation that cannot be supported without hands-on testing.
+- Current-source audit completed against official plan, coverage, reporting, refund, and affiliate-program documentation plus existing independent evidence.
+- CBT publisher approval and an exact DeleteMe tracking destination were not verified. Provider status is `PENDING`, tracking remains disabled, and CTAs use the internal Best Data Removal Services fallback.
+- Reviewer/update metadata, visible sources, current $129 solo-plan context, coverage-count caveats, refund language, and SEO were implemented without claiming hands-on testing.
+- Next action: complete validation, deploy the exact commit, verify production desktop/mobile behavior, and reconcile the publication record.

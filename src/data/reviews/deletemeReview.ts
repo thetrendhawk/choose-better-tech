@@ -9,6 +9,12 @@ export const deleteMeReview: ReviewPageContent = {
   applicationCategory: "Data Removal Service",
   affiliateProvider: "deleteme",
   ctaLabel: "Compare Data Removal Options",
+  editorialMeta: {
+    authorName: "Choose Better Tech Editorial Team",
+    datePublished: "2026-07-08",
+    dateModified: "2026-07-19",
+    displayDate: "Reviewed and updated July 19, 2026"
+  },
   executiveSummary: [
     "DeleteMe is a legitimate, established, human-assisted data-removal service from Abine. It is strongest for mainstream U.S. users who want a known provider to help reduce people-search and data-broker exposure without managing every opt-out themselves.",
     "DeleteMe's strongest lane is convenience and support: human assistance, custom removals, quarterly reports, recurring monitoring, family or multi-person support where available, and mature business/admin features.",
@@ -29,7 +35,7 @@ export const deleteMeReview: ReviewPageContent = {
     { label: "Main limitation", value: "DeleteMe cannot remove everything, and Standard consumer coverage appears materially narrower than the broad 976-site master-list headline." },
     { label: "Independent testing signal", value: "Consumer Reports found DeleteMe was midlevel in its people-search test, while manual opt-outs outperformed all tested paid services in that narrow test." },
     { label: "Privacy tradeoff", value: "DeleteMe must collect sensitive identifiers to work, including personal details used to match broker records and submit removals." },
-    { label: "Pricing confidence", value: "Moderate. The approved research includes price points, but pricing, plan details, business pricing, country coverage, and custom-removal limits are volatile." },
+    { label: "Pricing confidence", value: "Moderate. DeleteMe's help center lists the U.S. solo plan at $129 per year, but family, multi-year, premium, and business terms remain volatile." },
     { label: "Business/family fit", value: "Strong for business/admin use in the approved research; good for families or multi-person use where supported, but details should be rechecked." },
     { label: "Overall fit", value: "Best for users who value support, reporting, and a mature provider more than lowest cost or proof-first reporting." }
   ],
@@ -77,18 +83,18 @@ export const deleteMeReview: ReviewPageContent = {
   ],
   freeVsPaid: {
     title: "Plans, Pricing, Family, and Business",
-    description: "DeleteMe is a paid subscription service in the approved research. Pricing, plan details, country coverage, custom-removal limits, privacy-policy details, business pricing, and current support/cancellation signals are volatile and should be rechecked before purchase-focused updates.",
+    description: "DeleteMe is a paid subscription service. Its help center listed the U.S. solo plan at $129 per year when checked July 18, 2026. Family, multi-year, premium, international, and business terms can change and should be confirmed before purchase.",
     freeLabel: "Consumer-plan strengths",
     limitationsLabel: "Volatile plan caveats",
     paidLabel: "Business and higher-touch reasons",
     freeStrengths: [
-      "Official support content confirms a $129 yearly solo starting point in the approved research",
+      "Official support content lists a $129 yearly U.S. solo plan, checked July 18, 2026",
       "Consumer materials show solo, two-person, and four-person options",
       "DeleteMe says users can turn auto-renewal off from the account dashboard"
     ],
     freeLimitations: [
       "The approved research does not identify a permanent free plan",
-      "Two-person, four-person, two-year, renewal, and checkout details should be rechecked live",
+      "Two-person, four-person, two-year, premium, renewal, and checkout details were not reliably exposed as current fixed prices and should be rechecked live",
       "The 976-site master list should not be treated as Standard consumer-plan coverage"
     ],
     paidBenefits: [
@@ -121,9 +127,9 @@ export const deleteMeReview: ReviewPageContent = {
       id: "coverage-claim",
       title: "The 976-Site Claim Needs Careful Interpretation",
       body: [
-        "DeleteMe's master site-list page says it removes private information from 976 data brokers, updated February 4, 2026, in the approved research.",
-        "That is useful transparency, but it is not the same as saying the Standard consumer plan covers all 976 sources. The approved research says the full list includes plan markers for Standard, Business, Diamond/Platinum/VIP, VIP-only, international, and custom-request categories.",
-        "Mainstream Standard U.S. consumer coverage appears materially narrower. The approved research describes roughly 80-plus concrete mainstream sites on the Standard U.S. plan list."
+        "DeleteMe's broader master list used a 976-site headline in the July 2026 research, but that number combined different plan markers, international targets, and custom-request categories.",
+        "It is not Standard consumer-plan coverage. DeleteMe's current pricing help page describes Standard as covering 50-plus data-broker and people-search sites, while its separate Standard U.S. support list names more sites. Those official presentations use different counting contexts.",
+        "The practical buying question is whether the sites exposing you are included in your exact plan—not which vendor displays the largest headline number."
       ],
       note: "Do not treat the 976-site headline as Standard consumer-plan coverage."
     },
@@ -169,8 +175,8 @@ export const deleteMeReview: ReviewPageContent = {
       id: "plans-pricing",
       title: "Plans, Pricing, Family, and Business",
       body: [
-        "The approved research confirms a $129 yearly solo starting point and references two-person, four-person, and two-year terms, but it explicitly says pricing should be rechecked at live checkout before publication or purchase-focused updates.",
-        "Family and multi-person use are documented. Consumer materials show solo, two-person, and four-person options, and support docs explain how to add another person to an account and complete their datasheet.",
+        "DeleteMe's official help center listed the U.S. solo plan at $129 per year when checked July 18, 2026. Its pricing page also showed one- and two-year choices for one, two, or four people, but the dynamic page did not reliably expose every current amount in retrievable text.",
+        "Family and multi-person use are documented. Consumer materials show one-, two-, and four-person choices, and newer help content says eligible plans can add a spouse or family member through the dashboard.",
         "Business offerings are a real differentiator. The approved research documents account managers, role-based member tables, hierarchy and departments, SSO guidance, international add-ons, and tiers from Gold to VIP, though business pricing beyond visible Gold requires verification."
       ],
       note: "Pricing, plan details, family rules, country coverage, and business pricing are volatile."
@@ -233,10 +239,54 @@ export const deleteMeReview: ReviewPageContent = {
     { question: "Is DeleteMe better than Optery?", answer: "Not universally. DeleteMe is stronger for guided service and brand maturity. Optery is stronger for exposure visibility, free reports, and screenshot-heavy proof." },
     { question: "Is DeleteMe better than doing it myself?", answer: "Not always. Consumer Reports found manual opt-outs outperformed all tested paid services in its targeted people-search sample. DeleteMe's advantage is saving time, recurring monitoring, reporting, and human help." },
     { question: "Is DeleteMe worth paying for?", answer: "Often yes for busy mainstream users, public-facing professionals, families where supported, or business buyers who value human help and reports. Maybe not for disciplined DIY users or lowest-cost automation shoppers." },
-    { question: "How long does DeleteMe take?", answer: "The approved research says users can expect a first privacy report in about seven days, some initial disappearances within weeks, and ongoing cleanup over months because brokers process requests at different speeds." },
-    { question: "Can I cancel DeleteMe?", answer: "Officially, users can turn auto-renewal off from the dashboard, and DeleteMe describes refund paths before and after the first privacy report. Current cancellation and refund wording should be rechecked before purchase-focused updates." },
+    { question: "How long does DeleteMe take?", answer: "DeleteMe says the first Privacy Report arrives in about seven days, but that report is a progress update rather than proof that every listing is gone. Individual brokers may act immediately or take weeks, and monitoring continues because listings can return." },
+    { question: "Can I cancel DeleteMe?", answer: "Yes. DeleteMe says users can cancel or turn off automatic renewal at any time. It offers a full refund before the first Privacy Report and a prorated refund for unused time after that report, according to its help center when checked July 18, 2026." },
     { question: "Is DeleteMe good for families?", answer: "Yes where supported. The approved research documents solo, two-person, and four-person options plus support docs for adding another person to an account." },
     { question: "Is DeleteMe good for businesses?", answer: "Yes, more than many consumer-first rivals. The approved research documents account managers, departments, SSO guidance, admin reporting, and executive/VIP tiers." }
+  ],
+  sourceLinks: [
+    {
+      title: "How much does a DeleteMe Subscription cost?",
+      publisher: "DeleteMe Help Center",
+      href: "https://help.joindeleteme.com/hc/en-us/articles/26605377008531-How-much-does-a-DeleteMe-Subscription-cost",
+      note: "Official solo-plan price and billing period. Checked July 18, 2026; other plan prices remain volatile."
+    },
+    {
+      title: "Sites we remove from on the Standard US plan",
+      publisher: "DeleteMe Help Center",
+      href: "https://help.joindeleteme.com/hc/en-us/articles/38908862627091-Sites-we-remove-from-on-the-Standard-US-plan",
+      note: "Official named-site list for the Standard U.S. plan. Coverage can change and should not be equated with broader master-list claims."
+    },
+    {
+      title: "Your DeleteMe Privacy Report",
+      publisher: "DeleteMe Help Center",
+      href: "https://help.joindeleteme.com/hc/en-us/articles/8585306360083-Your-DeleteMe-Privacy-Report",
+      note: "Official reporting definitions, first-report timing, removal-status caveat, and recurring monitoring explanation."
+    },
+    {
+      title: "What is your refund policy for DeleteMe subscriptions?",
+      publisher: "DeleteMe Help Center",
+      href: "https://help.joindeleteme.com/hc/en-us/articles/8171940305683-What-is-your-refund-policy-for-DeleteMe-subscriptions",
+      note: "Official cancellation, automatic-renewal, full-refund, and prorated-refund terms."
+    },
+    {
+      title: "Services That Delete Your Data From People-Search Sites",
+      publisher: "Consumer Reports",
+      href: "https://www.consumerreports.org/electronics/personal-information/services-that-delete-data-from-people-search-sites-review-a2705843415/",
+      note: "Independent 2024 comparison of seven services and manual opt-outs across a defined people-search-site sample."
+    },
+    {
+      title: "Measuring the Accuracy and Effectiveness of PII Removal Services",
+      publisher: "Proceedings on Privacy Enhancing Technologies",
+      href: "https://petsymposium.org/popets/2025/popets-2025-0125.php",
+      note: "Peer-reviewed evidence on commercial removal-service coverage, matching accuracy, and category limitations."
+    },
+    {
+      title: "What To Know About People Search Sites",
+      publisher: "Federal Trade Commission",
+      href: "https://consumer.ftc.gov/articles/what-know-about-people-search-sites-sell-your-information",
+      note: "Government guidance on people-search data sources and manual opt-out rights."
+    }
   ],
   relatedGuides: [
     { title: "Best Data Removal Services", href: "/best-data-removal-services", description: "Compare DeleteMe with Incogni, Optery, and manual opt-outs by fit." },
@@ -251,7 +301,7 @@ export const deleteMeReview: ReviewPageContent = {
     { title: "Privacy Policy", href: "/privacy", description: "Review the site's own privacy policy." }
   ],
   finalCtaHeadline: "Use DeleteMe for high-touch exposure reduction, not internet erasure",
-  finalCtaNote: "DeleteMe is worth considering if you value human assistance, reports, and a mature provider. Recheck current pricing, plan details, country coverage, custom-removal limits, and support terms before buying.",
+  finalCtaNote: "DeleteMe is worth considering if you value human assistance, reports, and a mature provider. Confirm current family, multi-year, premium, international, and business terms before buying.",
   finalVerdictLabel: "Recommended for human-assisted data-removal maintenance, with realistic expectations.",
   finalVerdictBody: "DeleteMe is a credible, established, human-assisted option for mainstream users who want support, recurring reports, custom removals, and a mature provider for people-search and data-broker exposure reduction. Its business/admin maturity and higher-touch workflow are real strengths. The limits are equally important: DeleteMe was not the best independently measured performer in Consumer Reports' people-search test, manual opt-outs performed better in that narrow test, the 976-site claim needs careful interpretation, and the service cannot erase someone from the internet. Choose DeleteMe if convenience, support, reporting, and provider maturity matter most; consider Incogni for simpler automation, Optery for proof-first reporting, or manual opt-out if you want control and have time."
 };

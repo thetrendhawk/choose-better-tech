@@ -146,12 +146,12 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   },
   deleteme: {
     provider: "deleteme",
-    network: "",
-    status: "INTERNAL_ONLY",
+    network: "CJ Affiliate / DeleteMe Affiliate Program",
+    status: "PENDING",
     destination: "",
-    internalFallback: "/reviews/deleteme-review",
+    internalFallback: "/best-data-removal-services",
     disclosureRequired: true,
     trackingEnabled: false,
-    lastVerified: "2026-07-08"
+    lastVerified: "2026-07-18"
   }
 };
