@@ -11,6 +11,16 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-19 — Incogni Review refreshed and production verified
+
+- Rechecked current Incogni plans, U.S. pricing, family limits, Protect restrictions, broker coverage, assurance scope, and monetization availability.
+- Preserved the automation-first, fit-based verdict and the category's incomplete-removal limitations.
+- Added visible reviewer/update metadata, a visible source section, current pricing context, and a non-affiliate comparison CTA.
+- Fixed the existing local Lucide type shim so the established FAQ chevron compiles after a clean dependency install.
+- Lint, 22 tests, route generation, TypeScript, Vite production build, affiliate isolation, production canonical/schema/content, desktop, 390px, sitemap, and no-overflow checks passed.
+- Published content commit `155e57f2da4cfec3d6076910c5170cc556004b36` through successful production deployment `5507878800`.
+- No Incogni affiliate/referral link was activated.
+
 ### 2026-07-13 — Cloud Storage affiliate account and network onboarding status recorded (documentation-only)
 
 - An active pCloud affiliate account was confirmed created using `hello@choosebettertech.com`. Account access is active and the affiliate dashboard is reachable, showing 20% commission on recurring subscription payments and 20% commission on lifetime-plan payments. The previously identified conflict between 45-day and 90-day public attribution claims remains unresolved and is preserved rather than guessed at. Status recorded as `ACTIVE_ACCOUNT — LINK IMPLEMENTATION NOT AUTHORIZED`.
