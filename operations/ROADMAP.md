@@ -3,7 +3,11 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-13
+Last Updated: 2026-07-19
+
+## Active Evaluation Task
+
+- Privacy Bee hands-on evaluation is active. A canonical sanitized log exists, the support-response test is awaiting a human answer, and future actions follow `operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md`. No publication, verdict, ranking, or affiliate activation is authorized.
 
 ## Roadmap Summary
 
