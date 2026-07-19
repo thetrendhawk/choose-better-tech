@@ -11,8 +11,8 @@
 | 1 | Optery Review | Published / Verified | `/reviews/optery-review` | Affiliate application submitted 2026-07-18; pending approval | Final article, reviewer/date metadata, SEO, non-affiliate fallback, route/index inclusion, successful production deployment, and HTTP 200 verified |
 | 2 | Incogni Review | Published / Verified | `/reviews/incogni-review` | No approved CBT affiliate link; internal comparison fallback | Current research, reviewer/date metadata, pricing context, visible sources, schemas, CTA behavior, validation, exact-commit deployment, production desktop/mobile QA, sitemap, and HTTP 200 verified |
 | 3 | DeleteMe Review | Published / Verified | `/reviews/deleteme-review` | Public CJ program found; CBT approval/destination unverified, tracking disabled | Current research, reviewer/date metadata, visible sources, schema, non-affiliate CTA, exact-commit deployment, production desktop/mobile QA, sitemap, and HTTP 200 verified |
-| 4 | Optery vs Incogni | Validation in progress | `/comparisons/incogni-vs-optery` | Incogni unapproved; Optery application pending; no external tracking active | Current review evidence reconciled; reviewer/date metadata, visible sources, current plan context, schema dates, and SEO implemented |
-| 5 | Incogni vs DeleteMe | Planned | `/comparisons/incogni-vs-deleteme` | To evaluate | Existing comparison foundation found in repository |
+| 4 | Optery vs Incogni | Published / Verified | `/comparisons/incogni-vs-optery` | Incogni unapproved; Optery application pending; no external tracking active | Current evidence, reviewer/date metadata, visible sources, schema, exact-commit deployment, desktop/mobile QA, sitemap, and HTTP 200 verified |
+| 5 | Incogni vs DeleteMe | Next: audit existing foundation | `/comparisons/incogni-vs-deleteme` | To evaluate | Existing comparison foundation found in repository |
 | 6 | Optery vs DeleteMe | Planned | `/comparisons/optery-vs-deleteme` | To evaluate | Existing comparison foundation found in repository |
 | 7 | How Long Does Data Removal Take? | Planned | — | Informational | Supports review and comparison conversion paths |
 | 8 | Can Your Information Reappear After Data Removal? | Planned | — | Informational | Supports expectations and trust |
@@ -58,11 +58,20 @@
 - **Evidence used:** Current DeleteMe pricing, plan-coverage, reporting, timing, refund, and affiliate-program documentation; Consumer Reports' people-search removal study; FTC guidance; and the 2025 PoPETs commercial-PII-removal study.
 - **Testing:** No DeleteMe account, removal, support, billing, cancellation, or hands-on product testing was claimed.
 
-## Current work
-
 ### Optery vs Incogni
 
-- Current Optery and Incogni evidence was reconciled without changing the fit-based verdict: Incogni for low-friction automation, Optery for visibility and screenshot proof.
-- Added current Incogni prices, current Optery tier/cadence/family/country context, visible sources, reviewer/update metadata, schema dates, and updated SEO.
-- Neither provider has a confirmed active CBT tracking destination. The comparison contains no external affiliate CTA.
-- Next action: complete validation, deploy the exact commit, verify production desktop/mobile behavior, and reconcile the publication record.
+- **Title:** Incogni vs Optery (2026): Which Data Removal Service Is Better?
+- **Live URL:** `https://choosebettertech.com/comparisons/incogni-vs-optery`
+- **Verified:** 2026-07-19
+- **Content commit:** `063e2a345227abd96839d8498a2cbd18d668e769`
+- **Production deployment:** GitHub deployment `5508036306`; Vercel URL `https://choose-better-tech-ko3hkjqc8-aaron-s-evans-projects.vercel.app`
+- **Verification:** Exact commit deployed successfully; live route and deep refresh returned HTTP 200; current title/H1, canonical, reviewer/update metadata, plan context, visible sources, Article/FAQ schema, sitemap, desktop QA, and 390px no-overflow QA passed.
+- **Editorial conclusion:** Choose Incogni for simpler recurring automation and broader geographic fit; choose Optery for exposure visibility, a free discovery entry point, and screenshot proof where available. Neither is complete or permanent internet deletion.
+- **Monetization:** Incogni has no confirmed approved CBT publisher relationship; Optery's application remains pending. The page contains no external tracked CTA, and commercial status did not alter the verdict.
+- **Testing:** No provider account, removal, billing, cancellation, support, speed, or hands-on product testing was claimed.
+
+## Current work
+
+### Incogni vs DeleteMe
+
+- Next action: audit the existing comparison against the now-current Incogni and DeleteMe review evidence, current plan terms, recommendation consistency, monetization status, reviewer/date metadata, visible sources, and production readiness.

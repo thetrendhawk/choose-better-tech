@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-19 — Incogni vs Optery refreshed and production verified
+
+- Reconciled the comparison against the refreshed Incogni and Optery evidence while preserving the fit-based automation-versus-proof verdict.
+- Added current plan context, reviewer/update metadata, visible official and independent sources, and Article schema dates.
+- Verified lint, 22 tests, route generation, TypeScript, production build, canonical, Article/FAQ schema, sitemap, desktop layout, and 390px no-overflow behavior.
+- Deployed content commit `063e2a3` through production deployment `5508036306` and verified the live route and direct refresh returned HTTP 200.
+- Kept all external tracking inactive because neither provider has a confirmed active CBT destination.
+
 ### 2026-07-19 — DeleteMe Review refreshed and production verified
 
 - Rechecked DeleteMe's current solo price, plan presentation, Standard coverage context, reporting, removal timing, refund terms, and public CJ affiliate-program availability.
