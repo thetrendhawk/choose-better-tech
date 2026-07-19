@@ -212,6 +212,7 @@ export const opteryReview: ReviewPageContent = {
     { title: "Best Data Removal Services", href: "/best-data-removal-services", description: "Compare Optery with Incogni, DeleteMe, and DIY removal." },
     { title: "Are Data Removal Services Worth It?", href: "/are-data-removal-services-worth-it", description: "Decide whether recurring paid removal makes sense for your situation." },
     { title: "Data Removal Hub", href: "/data-removal", description: "Start with the category overview and choose your next step." },
+    { title: "Compare Optery vs DeleteMe", href: "/comparisons/optery-vs-deleteme", description: "Compare proof-first reporting with DeleteMe's established human support." },
     { title: "Incogni vs Optery", href: "/comparisons/incogni-vs-optery", description: "Compare proof-first reporting with simpler automation." },
     { title: "Incogni Review", href: "/reviews/incogni-review", description: "See how Optery compares with an automation-focused alternative." },
     { title: "All Reviews", href: "/reviews", description: "Browse the full Choose Better Tech review library." },

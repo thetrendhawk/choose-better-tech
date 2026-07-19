@@ -3,7 +3,7 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-13
+Last Updated: 2026-07-19
 
 ## Current Phase
 
@@ -34,7 +34,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Apply advanced guardrails to all future major content | Choose Better Tech | Active |
 | Apply the binding monetization-research standard to substantial clusters and commercial articles | Choose Better Tech | Active |
 | Execute the approved two-article Cybersecurity Tools autopilot run: Best Antivirus Software, then TotalAV Review | Choose Better Tech | Complete |
-| Verify indexing signals for newly published URLs | Choose Better Tech | Next Up |
+| Verify indexing signals for strongest-signal URLs | Choose Better Tech | Complete |
 | Choose next distinct cluster opportunity | Choose Better Tech | Next Up |
 
 ## Current Task
@@ -51,6 +51,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Cloud Storage monetization map | Complete | Provider, direct-program, network, advertising, sponsorship, lead-generation, newsletter, owned-product, licensing, and service opportunities are recorded at `docs/monetization/cloud-storage-monetization-opportunity-map.md`; `Monetization Independence Check: PASS`. No application, outreach, tracked affiliate URL, CTA, ranking, or verdict change occurred. |
 | Cybersecurity Tools cluster | Approved | Cluster approval, shared consumer-antivirus dossier, monetization opportunity map, and separate review completed on 2026-07-13. Initial authorized sequence: Best Antivirus Software, then TotalAV Review. No application, outreach, tracked link, or editorial preference was introduced. |
 | Data Removal Batch 01 | Complete | All eight chartered reviews, comparisons, and educational guides are published and production verified. Cluster report: `docs/editorial/data-removal-batch-01-cluster-report.md`. No unverified tracked provider destination was activated. |
+| Search Console and indexability audit | Complete | The July 19 audit recorded 1 click and 180 impressions across the current Performance window, individually confirmed the six strongest-signal canonical URLs indexed, and found no blocking canonical, sitemap, robots, or live-route defect. Four focused review-to-comparison links were authorized as the only content follow-up. |
 | Best Antivirus Software | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #15 merged as `c702c35816ab2ecbce736f74d3250d1a73d8982d`; exact Vercel deployment `5432407193` succeeded. Research, 32-claim ledger, 39/40 score, production canonical/deep-route, sitemap, IndexNow HTTP 200, desktop/390px containment, external article/homepage screenshots, and no-overflow checks passed. Indexing remains Needs verification. |
 | TotalAV Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #17 merged as `71de302f4bf1da6cb72565430f7ec5007b7f5faf`; exact Vercel deployment `5432555515` succeeded. Dedicated research, 28-claim ledger, 39/40 score, production route/canonical, sitemap, IndexNow HTTP 200, article/homepage screenshots, review library, reciprocal link, desktop/390px containment, and no-overflow checks passed. No tracked TotalAV link was added; indexing remains Needs verification. |
 | Proton Drive drafting gate | Complete | Research, monetization-independence, original-contribution, claim-ledger, independent-review, and publication gates passed. |
@@ -82,7 +83,6 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Canonical Business Identity Kit pending import | Business identity file remains placeholder-only | Choose Better Tech | Add canonical document in a later update. |
 | Canonical Affiliate Application Playbook pending import | Affiliate playbook remains placeholder-only | Choose Better Tech | Add canonical document in a later update. |
 | Public editorial-policy-and-corrections page pending | Internal transparency and corrections policy is active, but the recommended public trust page is not yet implemented. | Choose Better Tech | Create `/editorial-policy-and-corrections` in a later dedicated task. |
-| Search monitoring connection pending | Search-anomaly policy is active, but Search Console data access remains unverified. | Choose Better Tech | Connect or verify Search Console monitoring and record available baselines. |
 | Volatile-claim reminders are manual | Refresh triggers are documented but not automated. | Choose Better Tech | Automate reminders in a later dedicated task. |
 
 ## GitHub Main-Branch Ruleset
@@ -109,9 +109,9 @@ The solo-safe configuration is intentional and is not a defect. Requiring one ap
 | Hubs / Guides Published | 30 | TBD | Weekly |
 | Authority Pages Published | 3 | TBD | Weekly |
 | Total Editorial Content Assets | 57 | TBD | Weekly |
-| Indexed Assets | Needs verification | TBD | Weekly |
-| Organic Clicks | Not measured | TBD | Weekly |
-| Organic Impressions | Not measured | TBD | Weekly |
+| Indexed Assets | 6 monitored URLs confirmed indexed on 2026-07-19 | TBD | Weekly |
+| Organic Clicks | 1 in the verified July 8-17 window | TBD | Weekly |
+| Organic Impressions | 180 in the verified July 8-17 window | TBD | Weekly |
 | Affiliate Programs Applied To | TBD | TBD | Weekly |
 | Affiliate Approvals | TBD | TBD | Weekly |
 | Affiliate Revenue | Not measured | TBD | Monthly |

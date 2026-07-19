@@ -1,9 +1,9 @@
 # KPI Dashboard
 
-Version: 1.0  
+Version: 1.1
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-13
+Last Updated: 2026-07-19
 
 ## Reporting Cadence
 
@@ -31,13 +31,34 @@ These counts use published editorial routes in the current repository and sitema
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 13 | 14 | 28 | 55 | Needs verification | The two-article Cybersecurity Tools autopilot run is complete. Best Antivirus Software and TotalAV Review independently passed research, claim ledgers, reviewer corrections, 39/40 scores, PRs, exact deployments, production visual QA, sitemap, IndexNow, and operations gates. Indexing is not inferred from submission. |
+| 2026-07 | 13 | 14 | 28 | 55 | Six monitored URLs individually confirmed indexed | The July 19 Search Console audit confirmed the six strongest-signal URLs indexed through URL Inspection. This is a targeted verification, not a current property-wide indexed-page count. |
 
 ## Organic Search KPIs
 
-| Month | Organic Clicks | Organic Impressions | Returning Visitors | Notes |
-| --- | ---: | ---: | ---: | --- |
-| 2026-07 | Not measured | Not measured | Not measured | Baseline pending analytics review. |
+| Observation Date | Reporting Window | Organic Clicks | Organic Impressions | Search CTR | Average Position | Returning Visitors | Notes |
+| --- | --- | ---: | ---: | ---: | ---: | --- | --- |
+| 2026-07-14 | Search Console 3-month view; visible activity began 2026-07-10 | 0 | 49 | 0% | 30.1 | Not measured | Historical initial baseline from PR #30. Preserved for trend context; superseded as the active baseline by the July 19 audit. |
+| 2026-07-19 | Search Console 3-month view; visible data covered 2026-07-08 through 2026-07-17 | 1 | 180 | 0.6% | 46.7 | Not measured | Current verified baseline. The short observation period and young site make these directional signals, not stable rankings. |
+
+## Search Console Page Signals and Indexability
+
+Observation Date: 2026-07-19
+Source: Google Search Console Performance and URL Inspection; production HTTP, rendered metadata, sitemap, and robots checks
+
+| Page | Clicks | Impressions | URL Inspection | Technical result |
+| --- | ---: | ---: | --- | --- |
+| Homepage (`https://www.choosebettertech.com/` in Performance) | 1 | 24 | Canonical non-`www` homepage is on Google and indexed | `www` permanently redirects to the correct non-`www` canonical. |
+| DeleteMe Review | 0 | 64 | On Google; indexed | HTTP 200, self-canonical, sitemap included, crawl permitted. |
+| Incogni vs DeleteMe | 0 | 29 | On Google; indexed | HTTP 200, self-canonical, sitemap included, crawl permitted. |
+| Optery vs DeleteMe | 0 | 23 | On Google; indexed | HTTP 200, self-canonical, sitemap included, crawl permitted. |
+| Data Removal hub | 0 | 18 | On Google; indexed | HTTP 200, self-canonical, sitemap included, crawl permitted. |
+| Incogni vs Optery | 0 | 17 | On Google; indexed | HTTP 200, self-canonical, sitemap included, crawl permitted. |
+
+The audit found no blocking canonical, sitemap, robots, or live-route defect. It recommended only four targeted review-to-comparison links. Client rendering is not recorded as an indexing blocker.
+
+### Historical Page Indexing snapshot
+
+The unmerged July 14 baseline in PR #30 recorded a Page Indexing report last updated on 2026-07-09 with 8 indexed URLs and 38 not-indexed URLs. That report remains useful historical context, but it is not treated as a current property-wide total because reporting lag and later URL Inspection results were already visible. The July 19 targeted audit supersedes it for the six monitored URLs only.
 
 ## Pinterest KPIs
 
