@@ -1,158 +1,109 @@
-# Windows 11 Antivirus Test Environment and Product Selection
+# Windows 11 Antivirus Research Mode and Deferred Test Plan
 
 Date: 2026-07-19  
-Status: Approved controlled setup plan  
+Status: Web-research-only phase active; hands-on testing deferred  
 Project: Choose Better Tech  
 Related PR: #37  
 Publication status: Not authorized
 
 ## Purpose
 
-Define the first safe, controlled comparison for the proposed lead article, “Do You Still Need Antivirus on Windows 11?”
+Define the current evidence mode for the proposed lead article, “Do You Still Need Antivirus on Windows 11?”
 
-This document authorizes setup planning and one owner-controlled trial installation only. It does not authorize article drafting, publication, ranking, affiliate activation, live-malware testing, or broad product recommendations.
+The owner does not currently have a dedicated Windows 11 test environment. Therefore, this phase is limited to web research using current primary sources, independent lab results, product documentation, privacy policies, pricing pages, support documentation, and other credible published evidence.
 
-## Selected comparison
+This document does not authorize installation, first-hand testing, article publication, ranking, affiliate activation, or a claim that CBT personally tested any antivirus product.
 
-### Baseline
+## Current research baseline
 
-- Microsoft Defender Antivirus and the broader Windows Security stack already present in Windows 11.
+### Built-in baseline
 
-### Representative third-party trial
+- Microsoft Defender Antivirus and the broader Windows Security stack included with Windows 11.
 
-- ESET HOME Security Premium, using the current official 30-day trial for one Windows 11 device.
+### Representative third-party research subject
 
-## Why ESET was selected first
+- ESET HOME Security Premium remains one useful comparison subject for published-source research because it supports Windows 11, offers an official trial, and appears in current independent testing.
 
-Observed current evidence supports ESET as a useful first comparison because:
+ESET is not selected as a recommendation, winner, or mandatory hands-on test product.
 
-- the official ESET trial page states that the Premium trial supports Windows 11 and covers one device;
-- the trial is long enough to observe installation, alerts, controls, upsells, scan behavior, uninstall behavior, and Windows Security restoration;
-- ESET appears in current AV-TEST Windows 11 home-user testing;
-- ESET is a cleaner first comparison than a heavily bundled security suite, making it easier to distinguish core protection and usability from unrelated VPN, backup, identity, or cleanup features;
-- selecting ESET does not imply that it is the best product or that it will be recommended.
+## Current evidence mode
 
-## Current external evidence
+Authorized evidence sources include:
 
-- AV-TEST’s March–April 2026 Windows 11 home-user evaluation included Microsoft Defender Antivirus and ESET Security Ultimate among 14 products tested under default settings and current public versions.
-- Microsoft Defender scored 6/6 for protection, 6/6 for performance, and 6/6 for usability in that cycle.
-- ESET scored 6/6 for protection, 5.5/6 for performance, and 6/6 for usability in that cycle.
-- The ESET official trial page states that ESET HOME Security Premium can be tried on one Windows 10 or Windows 11 device.
+1. Microsoft documentation for Windows Security, Defender Antivirus, SmartScreen, reputation-based protection, provider switching, and Protection History.
+2. Independent test organizations such as AV-TEST and AV-Comparatives.
+3. Official product feature, pricing, support, cancellation, privacy, and system-requirement pages.
+4. Government or recognized security-agency guidance where directly relevant.
+5. Reputable reporting for ownership, incidents, enforcement, or material company changes.
 
-These facts do not replace first-hand usability testing and do not establish a recommendation.
+Provider claims must remain labeled as provider claims unless independently verified.
 
-## Required test environment
+## Claims allowed during the web-research-only phase
 
-Use one of the following, in order of preference:
+CBT may carefully report:
 
-1. a dedicated spare Windows 11 computer that does not contain sensitive personal data;
-2. a Windows 11 virtual machine with sufficient storage and memory;
-3. a secondary Windows 11 test installation on a non-primary device.
+- what Windows 11 includes by default;
+- what Microsoft says each security component does;
+- what current independent labs reported under their stated methodologies;
+- which additional features paid products advertise;
+- documented differences in platform support, device limits, privacy terms, pricing, renewal, and cancellation;
+- which user profiles may plausibly benefit from added features, clearly labeled as analysis or recommendation.
 
-Do not use the owner’s primary daily-use computer unless no safer option exists and the owner explicitly accepts the risk.
+## Claims blocked without first-hand testing
 
-## Minimum environment requirements
+Do not claim:
 
-Record privately before testing:
+- “we tested,” “our test,” or equivalent language;
+- direct observations about installation friction, alert quality, scan controls, performance impact, upsells, uninstall quality, or restoration of Defender;
+- that one product is easier, lighter, less intrusive, or more beginner-friendly based solely on marketing pages;
+- that paid antivirus is categorically better than Microsoft Defender;
+- that Microsoft Defender is sufficient for every user;
+- any malware-detection result outside the cited lab’s specific test and methodology;
+- any overall product ranking that implies hands-on validation.
 
-- Windows edition and version;
-- current Windows build;
-- device or virtual-machine CPU and memory;
-- free storage;
-- whether the device is physical or virtual;
-- whether the device contains any personal files;
-- current Windows Security status;
-- current Defender version and update status;
-- whether any other security software is installed;
-- restoration point or snapshot status.
+## Editorial direction under this constraint
 
-Do not commit serial numbers, device IDs, user account names, IP addresses, or other identifiers.
+The lead article can still be developed as a sourced decision guide rather than a hands-on review.
 
-## Pre-install baseline capture
+The central answer should remain cautious:
 
-Before installing ESET, record:
+- Windows 11 already includes a meaningful security stack.
+- Current independent testing can support the conclusion that Microsoft Defender is a credible baseline under the tested conditions.
+- Paid antivirus may be worth considering for specific added features, household management, support, cross-platform coverage, or a different user experience.
+- Payment alone does not prove stronger core protection or better value.
 
-- Windows Security home-screen status;
-- Defender real-time protection status;
-- firewall status;
-- SmartScreen and reputation-based protection status;
-- protection history state;
-- startup time using one consistent method;
-- idle memory usage after five minutes;
-- one full Defender scan duration if practical;
-- visible Microsoft prompts, warnings, or upsells;
-- whether Windows Security presents the system as fully protected.
+## Deferred hands-on plan
 
-Use sanitized notes and screenshots. Do not publish raw screenshots until they are reviewed for identifiers.
+Hands-on testing is deferred until CBT has one of the following:
 
-## ESET trial setup rules
+- a dedicated spare Windows 11 computer;
+- an isolated Windows 11 virtual machine;
+- a secondary Windows installation that does not contain sensitive personal data.
 
-- Download only from the official ESET website.
-- Use the current ESET HOME Security Premium trial.
-- Do not enter payment information unless the official trial flow requires it and the owner separately authorizes that step.
-- Do not accept optional marketing communications unless needed for the trial.
-- Record each account requirement and consent screen.
-- Record any browser extension offer, add-on, bundled feature, upsell, renewal prompt, or account-creation requirement.
-- Keep default protection settings initially so the first comparison reflects the default user experience.
-- Do not test with live malware, suspicious executables, or unsafe websites.
+No testing should be performed on the owner’s primary daily-use computer merely to satisfy an editorial preference.
 
-## Safe test sequence
-
-1. Capture the Defender baseline.
-2. Create a restore point or virtual-machine snapshot.
-3. Download the official ESET installer.
-4. Record installer size, required account fields, consent screens, and optional offers.
-5. Install with default settings.
-6. Confirm how Windows Security reports the active antivirus provider.
-7. Record ESET dashboard clarity, alerts, settings discoverability, scan controls, scheduling, browser-extension behavior, and upsells.
-8. Run only standard product scans on clean files.
-9. Observe idle behavior and one consistent everyday-performance workflow.
-10. Uninstall ESET using the normal Windows uninstall path.
-11. Confirm whether Microsoft Defender and Windows Security return automatically.
-12. Record any leftovers, browser extensions, services, scheduled tasks, or account prompts.
-13. Restore the snapshot if needed.
+When a safe environment becomes available, a separate approval should reopen the controlled test protocol. The previous proposed comparison—Microsoft Defender baseline versus one representative third-party product—can then be reconsidered using current product availability and evidence.
 
 ## Prohibited activities
 
 - no live-malware execution;
 - no malware samples;
 - no ransomware simulation;
-- no disabling security controls to create artificial failures;
 - no testing against real phishing or malicious sites;
-- no publishing unredacted screenshots;
-- no scoring protection quality from the owner’s clean-device test;
-- no recommendation based only on this single trial.
+- no unsafe security-control disabling;
+- no fabricated first-hand experience;
+- no converting provider demonstrations or third-party reviews into CBT observations;
+- no publishing unredacted personal or device information.
 
-## Evaluation dimensions
+## Next authorized action
 
-Score only first-hand usability dimensions from this test:
+Continue the lead-article evidence build through web research only. Create a claim ledger that distinguishes:
 
-- installation friction;
-- account and consent burden;
-- clarity of default protection state;
-- alert clarity;
-- settings discoverability;
-- scan-control clarity;
-- browser-extension behavior;
-- upsell intensity;
-- idle performance observations;
-- uninstall quality;
-- restoration of Windows Security;
-- overall beginner suitability.
+- official platform facts;
+- independent lab findings;
+- provider claims;
+- pricing and policy facts;
+- unresolved questions;
+- CBT analysis and recommendation boundaries.
 
-Do not score malware-detection capability from this environment. Use independent lab results for that dimension.
-
-## Owner-only action required
-
-The owner must identify which safe Windows 11 environment will be used:
-
-- dedicated spare computer;
-- Windows 11 virtual machine;
-- secondary test installation;
-- primary computer only with explicit risk acceptance.
-
-No ESET installation should begin until the environment type is confirmed and the baseline is captured.
-
-## Next repository action
-
-After the owner identifies the environment, update this record with the sanitized environment profile and mark the baseline-capture checklist ready. Do not draft the article until the minimum first-hand testing sequence is complete.
+Article drafting remains a separate approval gate. Any published article must disclose that the current version is based on documented research and independent testing rather than CBT hands-on product testing.
