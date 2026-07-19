@@ -50,6 +50,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Cloud Storage landscape dossier | Research complete | Shared 12-provider category dossier completed at `docs/research/cloud-storage-landscape-dossier-2026-07-13.md` after provider-specific pricing normalization and independent review. No secure-storage ranking was finalized. |
 | Cloud Storage monetization map | Complete | Provider, direct-program, network, advertising, sponsorship, lead-generation, newsletter, owned-product, licensing, and service opportunities are recorded at `docs/monetization/cloud-storage-monetization-opportunity-map.md`; `Monetization Independence Check: PASS`. No application, outreach, tracked affiliate URL, CTA, ranking, or verdict change occurred. |
 | Cybersecurity Tools cluster | Approved | Cluster approval, shared consumer-antivirus dossier, monetization opportunity map, and separate review completed on 2026-07-13. Initial authorized sequence: Best Antivirus Software, then TotalAV Review. No application, outreach, tracked link, or editorial preference was introduced. |
+| Data Removal Batch 01 | Complete | All eight chartered reviews, comparisons, and educational guides are published and production verified. Cluster report: `docs/editorial/data-removal-batch-01-cluster-report.md`. No unverified tracked provider destination was activated. |
 | Best Antivirus Software | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #15 merged as `c702c35816ab2ecbce736f74d3250d1a73d8982d`; exact Vercel deployment `5432407193` succeeded. Research, 32-claim ledger, 39/40 score, production canonical/deep-route, sitemap, IndexNow HTTP 200, desktop/390px containment, external article/homepage screenshots, and no-overflow checks passed. Indexing remains Needs verification. |
 | TotalAV Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #17 merged as `71de302f4bf1da6cb72565430f7ec5007b7f5faf`; exact Vercel deployment `5432555515` succeeded. Dedicated research, 28-claim ledger, 39/40 score, production route/canonical, sitemap, IndexNow HTTP 200, article/homepage screenshots, review library, reciprocal link, desktop/390px containment, and no-overflow checks passed. No tracked TotalAV link was added; indexing remains Needs verification. |
 | Proton Drive drafting gate | Complete | Research, monetization-independence, original-contribution, claim-ledger, independent-review, and publication gates passed. |
@@ -105,9 +106,9 @@ The solo-safe configuration is intentional and is not a defect. Requiring one ap
 | --- | ---: | ---: | --- |
 | Reviews Published | 13 | TBD | Weekly |
 | Comparisons Published | 14 | TBD | Weekly |
-| Hubs / Guides Published | 29 | TBD | Weekly |
+| Hubs / Guides Published | 30 | TBD | Weekly |
 | Authority Pages Published | 3 | TBD | Weekly |
-| Total Editorial Content Assets | 56 | TBD | Weekly |
+| Total Editorial Content Assets | 57 | TBD | Weekly |
 | Indexed Assets | Needs verification | TBD | Weekly |
 | Organic Clicks | Not measured | TBD | Weekly |
 | Organic Impressions | Not measured | TBD | Weekly |
@@ -173,6 +174,7 @@ These statuses require platform access or manual confirmation outside the reposi
 | 2026-07-13 | Best Antivirus Software published and final approved | Production URL `https://choosebettertech.com/best-antivirus-software`; PR #15, merge `c702c35816ab2ecbce736f74d3250d1a73d8982d`, deployment `5432407193`, 39/40 score, 32 reviewed claims, external desktop/mobile and homepage QA, sitemap, and IndexNow HTTP 200 verified. Live inventory is 12 reviews, 14 comparisons, and 28 hubs/guides. |
 | 2026-07-13 | TotalAV Review published and two-article autopilot run completed | Production URL `https://choosebettertech.com/reviews/totalav-review`; PR #17, merge `71de302f4bf1da6cb72565430f7ec5007b7f5faf`, deployment `5432555515`, 39/40 score, 28 reviewed claims, production article/homepage QA, review library, sitemap, and IndexNow HTTP 200 verified. Live inventory is 13 reviews, 14 comparisons, 28 hubs/guides, and 55 editorial assets. |
 | 2026-07-19 | How Long Does Data Removal Take? published and verified | Production URL `https://choosebettertech.com/guides/how-long-does-data-removal-take`; content commit `e7c1a57`; deployment `5508230403`; research, visible sources, reviewer metadata, Article/Breadcrumb/FAQ schema, route/deep refresh, sitemap, desktop/mobile containment, external local screenshots, and IndexNow HTTP 200 passed. Live inventory is 13 reviews, 14 comparisons, 29 hubs/guides, and 56 editorial assets. |
+| 2026-07-19 | Can Your Information Reappear After Data Removal? published; Data Removal Batch 01 complete | Production URL `https://choosebettertech.com/guides/can-your-information-reappear-after-data-removal`; content commit `3a776bf`; deployment `5508290350`; research, visible sources, reviewer metadata, Article/Breadcrumb/FAQ schema, route/deep refresh, sitemap, desktop/mobile containment, external local screenshots, and IndexNow HTTP 200 passed. All eight batch articles are verified. Live inventory is 13 reviews, 14 comparisons, 30 hubs/guides, and 57 editorial assets. |
 | TBD | Google Search Console configured | Indexing and search visibility tracking enabled. |
 | TBD | Google Analytics configured | Traffic measurement enabled. |
 | TBD | Bing Webmaster Tools configured | Bing indexing and visibility tracking enabled. |

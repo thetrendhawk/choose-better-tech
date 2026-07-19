@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-19 — Recurrence guide published; Data Removal Batch 01 complete
+
+- Published Can Your Information Reappear After Data Removal? with a diagnostic distinction among true recurrence, incomplete removal, duplicate profiles, matching errors, and stale search results.
+- Used current Incogni, Optery, and DeleteMe documentation plus Consumer Reports and PoPETs evidence without inventing a recurrence rate or claiming hands-on observation.
+- Verified lint, 22 tests, TypeScript, production build, route generation, canonical, Article/Breadcrumb/FAQ schema, visible sources, desktop/390px containment, external local screenshots, exact-commit deployment `5508290350`, live HTTP 200, sitemap, and IndexNow HTTP 200.
+- Closed Data Removal Batch 01 with all eight chartered articles published and verified; cluster report added at `docs/editorial/data-removal-batch-01-cluster-report.md`.
+- No tracked provider link or unverified affiliate destination was activated; indexing and performance remain Needs verification.
+
 ### 2026-07-19 — How Long Does Data Removal Take? published and production verified
 
 - Published a stage-based timing guide that distinguishes initial reports, request submission, broker processing, verification, search refresh, and recurring maintenance.

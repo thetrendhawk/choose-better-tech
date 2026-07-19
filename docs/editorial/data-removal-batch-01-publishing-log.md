@@ -1,7 +1,8 @@
 # Data Removal Batch 01 — Publishing Log
 
 **Charter:** `docs/editorial/data-removal-batch-01-charter.md`  
-**Status:** Active  
+**Status:** Complete
+
 **Started:** 2026-07-19
 
 ## Batch slate
@@ -15,7 +16,7 @@
 | 5 | Incogni vs DeleteMe | Published / Verified | `/comparisons/incogni-vs-deleteme` | Public programs found; CBT approvals/destinations unverified; no external tracking active | Current evidence, reviewer/date metadata, visible sources, schema, exact-commit deployment, desktop/mobile QA, sitemap, and HTTP 200 verified |
 | 6 | Optery vs DeleteMe | Published / Verified | `/comparisons/optery-vs-deleteme` | Public programs found; CBT approvals/destinations unverified; no external tracking active | Current evidence, reviewer/date metadata, visible sources, schema, exact-commit deployment, desktop/mobile QA, sitemap, and HTTP 200 verified |
 | 7 | How Long Does Data Removal Take? | Published / Verified | `/guides/how-long-does-data-removal-take` | Informational; internal decision paths only | Current primary and independent evidence, visible reviewer/date metadata, Article/Breadcrumb/FAQ schema, exact-commit deployment, production desktop/mobile QA, sitemap, and HTTP 200 verified |
-| 8 | Can Your Information Reappear After Data Removal? | Planned | — | Informational | Supports expectations and trust |
+| 8 | Can Your Information Reappear After Data Removal? | Published / Verified | `/guides/can-your-information-reappear-after-data-removal` | Informational; internal decision paths only | Current provider and independent evidence, visible reviewer/date metadata, Article/Breadcrumb/FAQ schema, exact-commit deployment, production desktop/mobile QA, sitemap, and HTTP 200 verified |
 
 ## Publication record
 
@@ -110,6 +111,20 @@
 
 ## Current work
 
+### Batch closeout
+
+- All eight approved articles are published and production verified. The batch cluster report records content coverage, monetization status, internal-link structure, remaining gaps, and recommended next work.
+
 ### Can Your Information Reappear After Data Removal?
 
-- Next action: establish the route and evidence record, research why broker profiles return, distinguish source refreshes from failed removals, document monitoring and suppression limits, then implement the final batch guide without promising permanent deletion.
+- **Title:** Can Your Information Reappear After Data Removal?
+- **Live URL:** `https://choosebettertech.com/guides/can-your-information-reappear-after-data-removal`
+- **Verified:** 2026-07-19
+- **Content commit:** `3a776bf`
+- **Production deployment:** GitHub deployment `5508290350`; Vercel URL `https://choose-better-tech-1euxnmmfm-aaron-s-evans-projects.vercel.app`
+- **Verification:** Exact commit deployed successfully; custom-domain route and deep refresh returned HTTP 200; title/H1, canonical, reviewer/update metadata, Article/Breadcrumb/FAQ schema, visible sources, internal links, sitemap, desktop QA, 390px no-overflow QA, and external local screenshots passed.
+- **Editorial conclusion:** A removed listing can return when a broker receives fresh data, but a visible result can also be an incomplete removal, duplicate profile, matching error, or stale search result. Removal should be managed as exposure reduction and periodic maintenance, not permanent internet erasure.
+- **Monetization:** Informational guide using internal timing, comparison, and hub paths. No tracked provider link, program application, or affiliate destination change was introduced.
+- **Evidence used:** Current Incogni, Optery, and DeleteMe recurrence/monitoring documentation; Consumer Reports guidance and study context; and the 2025 PoPETs study of PII-removal accuracy and effectiveness.
+- **Testing:** No account, removal, recurrence, broker, support, billing, or hands-on product test was claimed.
+- **IndexNow:** Single-URL submission returned HTTP 200; this confirms acceptance only, not indexing.

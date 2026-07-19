@@ -177,6 +177,8 @@ Last Updated: 2026-07-13
 | Optery vs DeleteMe | Published |
 | Are Data Removal Services Worth It? | Published |
 | Best Data Removal Services | Published |
+| How Long Does Data Removal Take? | Published |
+| Can Your Information Reappear After Data Removal? | Published |
 
 ### Completion Checklist
 
@@ -184,6 +186,8 @@ Last Updated: 2026-07-13
 - [x] Three product reviews published.
 - [x] Three pairwise comparisons published.
 - [x] Decision guide and commercial investigation published.
+- [x] Data Removal Batch 01 completed with all eight chartered articles production verified.
+- [x] Timing and recurrence guides published with distinct intent and reciprocal internal links.
 - [ ] Search indexing is monitored for every published article.
 - [ ] Volatile plan, country, custom-removal, cancellation, privacy, and legal details are refreshed before promotion.
 
