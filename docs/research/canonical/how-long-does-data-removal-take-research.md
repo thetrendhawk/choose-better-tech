@@ -1,7 +1,9 @@
 # How Long Does Data Removal Take? — Research Record
 
-**Status:** Approved for implementation  
-**Checked:** 2026-07-19  
+**Status:** Approved for implementation
+
+**Checked:** 2026-07-19
+
 **Testing basis:** Documentation and independent research only; no service account, removal, broker, support, or timing test was performed.
 
 ## Search intent and original contribution

@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-19 — How Long Does Data Removal Take? published and production verified
+
+- Published a stage-based timing guide that distinguishes initial reports, request submission, broker processing, verification, search refresh, and recurring maintenance.
+- Used current Incogni, Optery, DeleteMe, California DELETE Act/DROP, and Consumer Reports evidence without claiming hands-on timing tests.
+- Added reviewer/update metadata, Article/Breadcrumb/FAQ schema, a canonical research record, reciprocal hub/worth-it links, homepage discovery, route generation, and sitemap inclusion.
+- Verified lint, 22 tests, TypeScript, production build, canonical, visible sources, schema, desktop/390px containment, external local screenshots, exact-commit Vercel deployment `5508230403`, live HTTP 200, and IndexNow HTTP 200.
+- No tracked provider link, affiliate application, or monetization-status change was introduced; indexing remains Needs verification.
+
 ### 2026-07-19 — Optery vs DeleteMe refreshed and production verified
 
 - Reconciled current Optery and DeleteMe evidence while preserving the proof-versus-human-help verdict.

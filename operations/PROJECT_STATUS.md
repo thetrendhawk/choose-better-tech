@@ -105,9 +105,9 @@ The solo-safe configuration is intentional and is not a defect. Requiring one ap
 | --- | ---: | ---: | --- |
 | Reviews Published | 13 | TBD | Weekly |
 | Comparisons Published | 14 | TBD | Weekly |
-| Hubs / Guides Published | 28 | TBD | Weekly |
+| Hubs / Guides Published | 29 | TBD | Weekly |
 | Authority Pages Published | 3 | TBD | Weekly |
-| Total Editorial Content Assets | 53 | TBD | Weekly |
+| Total Editorial Content Assets | 56 | TBD | Weekly |
 | Indexed Assets | Needs verification | TBD | Weekly |
 | Organic Clicks | Not measured | TBD | Weekly |
 | Organic Impressions | Not measured | TBD | Weekly |
@@ -172,6 +172,7 @@ These statuses require platform access or manual confirmation outside the reposi
 | 2026-07-13 | iCloud vs Google Drive published and final approved | Production URL `https://choosebettertech.com/comparisons/icloud-vs-google-drive`; article PR #7, homepage correction PR #8, count correction PR #9, final deployment `5430719168`, 39/40 score, external desktop/mobile QA, sitemap, and IndexNow HTTP 200 verified. Live inventory is 12 reviews, 14 comparisons, 26 hubs/guides, and 3 authority pages. |
 | 2026-07-13 | Best Antivirus Software published and final approved | Production URL `https://choosebettertech.com/best-antivirus-software`; PR #15, merge `c702c35816ab2ecbce736f74d3250d1a73d8982d`, deployment `5432407193`, 39/40 score, 32 reviewed claims, external desktop/mobile and homepage QA, sitemap, and IndexNow HTTP 200 verified. Live inventory is 12 reviews, 14 comparisons, and 28 hubs/guides. |
 | 2026-07-13 | TotalAV Review published and two-article autopilot run completed | Production URL `https://choosebettertech.com/reviews/totalav-review`; PR #17, merge `71de302f4bf1da6cb72565430f7ec5007b7f5faf`, deployment `5432555515`, 39/40 score, 28 reviewed claims, production article/homepage QA, review library, sitemap, and IndexNow HTTP 200 verified. Live inventory is 13 reviews, 14 comparisons, 28 hubs/guides, and 55 editorial assets. |
+| 2026-07-19 | How Long Does Data Removal Take? published and verified | Production URL `https://choosebettertech.com/guides/how-long-does-data-removal-take`; content commit `e7c1a57`; deployment `5508230403`; research, visible sources, reviewer metadata, Article/Breadcrumb/FAQ schema, route/deep refresh, sitemap, desktop/mobile containment, external local screenshots, and IndexNow HTTP 200 passed. Live inventory is 13 reviews, 14 comparisons, 29 hubs/guides, and 56 editorial assets. |
 | TBD | Google Search Console configured | Indexing and search visibility tracking enabled. |
 | TBD | Google Analytics configured | Traffic measurement enabled. |
 | TBD | Bing Webmaster Tools configured | Bing indexing and visibility tracking enabled. |

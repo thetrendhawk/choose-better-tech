@@ -14,7 +14,7 @@
 | 4 | Optery vs Incogni | Published / Verified | `/comparisons/incogni-vs-optery` | Incogni unapproved; Optery application pending; no external tracking active | Current evidence, reviewer/date metadata, visible sources, schema, exact-commit deployment, desktop/mobile QA, sitemap, and HTTP 200 verified |
 | 5 | Incogni vs DeleteMe | Published / Verified | `/comparisons/incogni-vs-deleteme` | Public programs found; CBT approvals/destinations unverified; no external tracking active | Current evidence, reviewer/date metadata, visible sources, schema, exact-commit deployment, desktop/mobile QA, sitemap, and HTTP 200 verified |
 | 6 | Optery vs DeleteMe | Published / Verified | `/comparisons/optery-vs-deleteme` | Public programs found; CBT approvals/destinations unverified; no external tracking active | Current evidence, reviewer/date metadata, visible sources, schema, exact-commit deployment, desktop/mobile QA, sitemap, and HTTP 200 verified |
-| 7 | How Long Does Data Removal Take? | Planned | — | Informational | Supports review and comparison conversion paths |
+| 7 | How Long Does Data Removal Take? | Published / Verified | `/guides/how-long-does-data-removal-take` | Informational; internal decision paths only | Current primary and independent evidence, visible reviewer/date metadata, Article/Breadcrumb/FAQ schema, exact-commit deployment, production desktop/mobile QA, sitemap, and HTTP 200 verified |
 | 8 | Can Your Information Reappear After Data Removal? | Planned | — | Informational | Supports expectations and trust |
 
 ## Publication record
@@ -94,8 +94,22 @@
 - **Monetization:** Public programs exist, but neither provider has a confirmed active CBT destination. The page contains no external tracked CTA, and commercial status did not alter the verdict.
 - **Testing:** No provider account, removal, billing, cancellation, support, speed, or hands-on product testing was claimed.
 
-## Current work
-
 ### How Long Does Data Removal Take?
 
-- Next action: establish the route and evidence record, research provider and broker timelines using current primary and independent sources, then implement the guide with explicit distinctions between report timing, request submission, broker processing, verification, recurrence, and permanent-removal limits.
+- **Title:** How Long Does Data Removal Take? A Realistic Timeline
+- **Live URL:** `https://choosebettertech.com/guides/how-long-does-data-removal-take`
+- **Verified:** 2026-07-19
+- **Content commit:** `e7c1a57`
+- **Production deployment:** GitHub deployment `5508230403`; Vercel URL `https://choose-better-tech-q1ihchx7t-aaron-s-evans-projects.vercel.app`
+- **Verification:** Exact commit deployed successfully; custom-domain route and direct deep refresh returned HTTP 200; title/H1, canonical, reviewer/update metadata, Article/Breadcrumb/FAQ schema, visible sources, internal links, sitemap, desktop QA, 390px no-overflow QA, and external local screenshots passed.
+- **Editorial conclusion:** A first report may arrive within days, but actual removals range from same-day processing to weeks or months. Request submission, broker processing, verification, search refresh, and recurrence are separate stages; removal should be treated as maintenance rather than a permanent finish line.
+- **Monetization:** Informational guide using internal comparison and hub paths. No tracked provider link, program application, or affiliate destination change was introduced.
+- **Evidence used:** Current Incogni, Optery, and DeleteMe timing documentation; the California DELETE Act/DROP statute; and Consumer Reports' 2024 people-search removal study.
+- **Testing:** No service account, removal, broker response, support, billing, or hands-on timing test was claimed.
+- **IndexNow:** Single-URL submission returned HTTP 200; this confirms acceptance only, not indexing.
+
+## Current work
+
+### Can Your Information Reappear After Data Removal?
+
+- Next action: establish the route and evidence record, research why broker profiles return, distinguish source refreshes from failed removals, document monitoring and suppression limits, then implement the final batch guide without promising permanent deletion.
