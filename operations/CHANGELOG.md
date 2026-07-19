@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-19 — Incogni vs DeleteMe refreshed and production verified
+
+- Reconciled current Incogni and DeleteMe evidence while preserving the automation-versus-human-help verdict.
+- Added verified entry-price context, refund/plan caveats, reviewer/update metadata, visible sources, and Article schema dates.
+- Verified lint, 22 tests, route generation, TypeScript, production build, canonical, Article/FAQ schema, sitemap, desktop layout, and 390px no-overflow behavior.
+- Deployed content commit `ddc4e50` through production deployment `5508089146` and verified the live route and direct refresh returned HTTP 200.
+- Kept all external tracking inactive because CBT approvals and exact destinations remain unverified.
+
 ### 2026-07-19 — Incogni vs Optery refreshed and production verified
 
 - Reconciled the comparison against the refreshed Incogni and Optery evidence while preserving the fit-based automation-versus-proof verdict.
