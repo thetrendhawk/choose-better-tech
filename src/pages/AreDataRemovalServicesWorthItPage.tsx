@@ -154,7 +154,8 @@ const faqItems: Array<{ question: string; answer: string; link?: { href: string;
   },
   {
     question: "Why does my information come back?",
-    answer: "It can. People-search sites and brokers may refresh from source data, duplicate records may remain, and suppression rules may not stop every future listing. This is why recurring monitoring matters."
+    answer: "It can. People-search sites and brokers may refresh from source data, duplicate records may remain, and suppression rules may not stop every future listing. This is why recurring monitoring matters.",
+    link: { href: "/guides/can-your-information-reappear-after-data-removal", label: "Learn why removed information reappears" }
   },
   {
     question: "How long do removals take?",
