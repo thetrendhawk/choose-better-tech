@@ -7,7 +7,7 @@
 | Document Type | Operations Dashboard |
 | Status | Active |
 | Owner | Choose Better Tech |
-| Last Updated | 2026-07-13 |
+| Last Updated | 2026-07-19 |
 
 ## Current Strategic Focus
 
@@ -211,6 +211,17 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 - Old-domain redirect behavior should be managed in Vercel or DNS settings rather than app routing unless a future deployment architecture requires code-managed redirects.
 
 ## Search Console / Sitemap Submissions
+
+### July 19 Search Console and indexability audit
+
+- Performance baseline: 1 click, 180 impressions, 0.6% CTR, and 46.7 average position in the three-month view, with visible data from July 8 through July 17.
+- Strongest-signal URLs: homepage, DeleteMe Review, Incogni vs DeleteMe, Optery vs DeleteMe, Data Removal hub, and Incogni vs Optery.
+- All six canonical URLs were individually reported as on Google and indexed in URL Inspection.
+- All six returned HTTP 200, rendered correct canonical URLs and meaningful content, appeared in the production sitemap, and were permitted by `robots.txt`.
+- The `www` homepage signal permanently redirects to the correct non-`www` canonical.
+- Audit verdict: `INDEXABILITY HEALTHY — TARGETED INTERNAL-LINK IMPROVEMENTS RECOMMENDED`.
+- Follow-up scope: four review-to-comparison links only; no article, ranking, verdict, affiliate, sitemap-inventory, metadata, or architecture change.
+- Historical PR #30 baseline is superseded for active reporting but preserved in `KPI_DASHBOARD.md` as dated context.
 
 | Item | Status | Notes |
 | --- | --- | --- |

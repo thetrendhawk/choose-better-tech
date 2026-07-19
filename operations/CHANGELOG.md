@@ -3,13 +3,23 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-13
+Last Updated: 2026-07-19
 
 ## Purpose
 
 This changelog records major business, publishing, analytics, affiliate, and operational milestones for Choose Better Tech.
 
 ## Changelog
+
+### 2026-07-19 — Search Console baseline reconciled and focused internal links added
+
+- Recorded the July 8-17 Search Console baseline: 1 click, 180 impressions, 0.6% CTR, and 46.7 average position.
+- Individually confirmed the homepage, DeleteMe Review, Incogni vs DeleteMe, Optery vs DeleteMe, Data Removal hub, and Incogni vs Optery on Google and indexed.
+- Confirmed healthy HTTP, canonical, sitemap, robots, and rendered-content behavior for all six monitored URLs; no indexing blocker or architecture change was claimed.
+- Added four relevant review-to-comparison links: Incogni Review to Incogni vs DeleteMe; DeleteMe Review to both DeleteMe comparisons; and Optery Review to Optery vs DeleteMe.
+- Removed the less-direct Incogni vs Optery entry from DeleteMe Review's related reading to avoid an awkward duplicate-category path.
+- Preserved PR #30's July 14 figures as a historical baseline while superseding that unmerged PR with the current reconciliation.
+- No new article, ranking, verdict, affiliate destination, sitemap inventory, metadata, or architecture change was introduced.
 
 ### 2026-07-19 — Recurrence guide published; Data Removal Batch 01 complete
 
