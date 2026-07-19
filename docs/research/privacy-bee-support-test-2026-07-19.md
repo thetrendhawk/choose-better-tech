@@ -1,7 +1,7 @@
 # Privacy Bee Support Responsiveness Test — 2026-07-19
 
-Status: Awaiting human response  
-Project: Choose Better Tech  
+Status: Awaiting human response
+Project: Choose Better Tech
 Related canonical log: [Privacy Bee hands-on evaluation log](privacy-bee-hands-on-evaluation-log.md)
 Publication status: Not authorized
 

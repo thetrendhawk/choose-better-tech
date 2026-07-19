@@ -1,9 +1,9 @@
 # Privacy Bee Hands-On Evaluation Log
 
-Date opened: 2026-07-17  
-Last updated: 2026-07-19  
-Project: Choose Better Tech  
-Status: Active hands-on evaluation  
+Date opened: 2026-07-17
+Last updated: 2026-07-19
+Project: Choose Better Tech
+Status: Active hands-on evaluation
 Publication status: Not authorized
 
 ## Purpose
