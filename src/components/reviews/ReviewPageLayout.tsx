@@ -4,6 +4,7 @@ import type { ReviewPageContent } from "../../types/review";
 import { site } from "../../utils/site";
 import { AffiliateButton } from "../affiliate/AffiliateButton";
 import { AffiliateDisclosure } from "../affiliate/AffiliateDisclosure";
+import { ArticleMeta } from "../editorial/ArticleMeta";
 import { Container } from "../ui/Container";
 import { Section } from "../ui/Section";
 
@@ -39,12 +40,16 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
     itemReviewed: {
       "@type": "SoftwareApplication",
       name: review.productName,
-      applicationCategory: review.applicationCategory ?? "VPN"
+      applicationCategory: review.applicationCategory ?? "Software"
     },
     name: review.title,
     reviewBody: review.finalVerdictBody,
-    author: { "@type": "Organization", name: site.name },
-    publisher: { "@type": "Organization", name: site.name }
+    author: review.editorialMeta
+      ? { "@type": "Person", name: review.editorialMeta.authorName }
+      : { "@type": "Organization", name: site.name },
+    publisher: { "@type": "Organization", name: site.name },
+    ...(review.editorialMeta?.datePublished ? { datePublished: review.editorialMeta.datePublished } : {}),
+    ...(review.editorialMeta ? { dateModified: review.editorialMeta.dateModified } : {})
   };
 
   const faqSchema = {
@@ -74,6 +79,17 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
             <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">{review.categoryLabel}</p>
             <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-normal text-slate-950 sm:text-5xl">{review.title}</h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700">{review.subtitle}</p>
+            {review.editorialMeta ? (
+              <ArticleMeta
+                title={review.title}
+                description={review.subtitle}
+                path={review.path}
+                authorName={review.editorialMeta.authorName}
+                datePublished={review.editorialMeta.datePublished}
+                dateModified={review.editorialMeta.dateModified}
+                displayDate={review.editorialMeta.displayDate}
+              />
+            ) : null}
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <AffiliateButton provider={review.affiliateProvider}>{review.ctaLabel}</AffiliateButton>
               <a className={secondaryButtonClasses} href="#final-verdict">Jump to Verdict</a>
@@ -99,45 +115,27 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
       <Section className="bg-slate-50">
         <SectionHeading title="Decision Snapshot" />
         <div className="mt-8 overflow-hidden rounded-lg border border-slate-200 bg-white shadow-soft">
-          <table className="w-full border-collapse text-left text-sm">
-            <tbody>
-              {review.decisionSnapshot.map((row) => <tr key={row.label} className="border-b border-slate-200 last:border-0"><th className="w-2/5 bg-slate-50 px-4 py-4 font-semibold text-slate-950 sm:px-6" scope="row">{row.label}</th><td className="px-4 py-4 text-slate-700 sm:px-6">{row.value}</td></tr>)}
-            </tbody>
-          </table>
+          <table className="w-full border-collapse text-left text-sm"><tbody>{review.decisionSnapshot.map((row) => <tr key={row.label} className="border-b border-slate-200 last:border-0"><th className="w-2/5 bg-slate-50 px-4 py-4 font-semibold text-slate-950 sm:px-6" scope="row">{row.label}</th><td className="px-4 py-4 text-slate-700 sm:px-6">{row.value}</td></tr>)}</tbody></table>
         </div>
       </Section>
 
       <Section>
         <SectionHeading title="Scoring Methodology" description="These weighted categories define the review framework. The recommendation is research-based and intentionally cautious." />
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {review.scoringCategories.map((category) => <div key={category.label} className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft"><p className="text-sm font-semibold text-slate-950">{category.label}</p><p className="mt-2 text-2xl font-bold text-brand-700">{category.weight}</p></div>)}
-        </div>
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{review.scoringCategories.map((category) => <div key={category.label} className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft"><p className="text-sm font-semibold text-slate-950">{category.label}</p><p className="mt-2 text-2xl font-bold text-brand-700">{category.weight}</p></div>)}</div>
       </Section>
 
       <Section className="bg-slate-50">
         <SectionHeading title="Pros and Cons" />
         <div className="mt-8 grid gap-5 lg:grid-cols-2">
-          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
-            <h3 className="flex items-center gap-2 text-xl font-bold text-slate-950"><CheckCircle2 size={20} className="text-brand-700" aria-hidden="true" />Pros</h3>
-            <BulletList items={review.pros} />
-          </div>
-          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
-            <h3 className="flex items-center gap-2 text-xl font-bold text-slate-950"><MinusCircle size={20} className="text-slate-500" aria-hidden="true" />Cons</h3>
-            <BulletList items={review.cons} tone="slate" />
-          </div>
+          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h3 className="flex items-center gap-2 text-xl font-bold text-slate-950"><CheckCircle2 size={20} className="text-brand-700" aria-hidden="true" />Pros</h3><BulletList items={review.pros} /></div>
+          <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h3 className="flex items-center gap-2 text-xl font-bold text-slate-950"><MinusCircle size={20} className="text-slate-500" aria-hidden="true" />Cons</h3><BulletList items={review.cons} tone="slate" /></div>
         </div>
       </Section>
 
       <Section>
         <div className="grid gap-10 lg:grid-cols-2">
-          <div>
-            <SectionHeading title={`Who Should Use ${review.productName}?`} />
-            <div className="mt-6 grid gap-4">{review.whoItIsFor.map((item) => <InfoCard key={item.title} title={item.title} description={item.description} />)}</div>
-          </div>
-          <div>
-            <SectionHeading title={`Who Should Skip ${review.productName}?`} />
-            <div className="mt-6 grid gap-4">{review.whoShouldSkipIt.map((item) => <InfoCard key={item.title} title={item.title} description={item.description} />)}</div>
-          </div>
+          <div><SectionHeading title={`Who Should Use ${review.productName}?`} /><div className="mt-6 grid gap-4">{review.whoItIsFor.map((item) => <InfoCard key={item.title} title={item.title} description={item.description} />)}</div></div>
+          <div><SectionHeading title={`Who Should Skip ${review.productName}?`} /><div className="mt-6 grid gap-4">{review.whoShouldSkipIt.map((item) => <InfoCard key={item.title} title={item.title} description={item.description} />)}</div></div>
         </div>
       </Section>
 
@@ -152,9 +150,7 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
 
       <Section>
         <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">Full Review</p>
-        <div className="mt-8 grid gap-5">
-          {review.fullReviewSections.map((section) => <article key={section.id} id={section.id} className="scroll-mt-24 rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h2 className="text-xl font-bold text-slate-950">{section.title}</h2>{section.body.map((paragraph) => <p key={paragraph} className="mt-3 text-base leading-7 text-slate-700">{paragraph}</p>)}{section.bullets ? <BulletList items={section.bullets} /> : null}{section.note ? <p className="mt-4 rounded-md bg-slate-50 px-4 py-3 text-sm font-semibold text-slate-800">{section.note}</p> : null}</article>)}
-        </div>
+        <div className="mt-8 grid gap-5">{review.fullReviewSections.map((section) => <article key={section.id} id={section.id} className="scroll-mt-24 rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h2 className="text-xl font-bold text-slate-950">{section.title}</h2>{section.body.map((paragraph) => <p key={paragraph} className="mt-3 text-base leading-7 text-slate-700">{paragraph}</p>)}{section.bullets ? <BulletList items={section.bullets} /> : null}{section.note ? <p className="mt-4 rounded-md bg-slate-50 px-4 py-3 text-sm font-semibold text-slate-800">{section.note}</p> : null}</article>)}</div>
       </Section>
 
       <Section className="bg-slate-50">
@@ -165,44 +161,15 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
         </div>
       </Section>
 
-      <Section>
-        <SectionHeading title="Alternatives to Consider" />
-        <div className="mt-8 grid gap-5 md:grid-cols-2">
-          {review.alternatives.map((alternative) => <InfoCard key={alternative.title} title={alternative.title} description={alternative.description} />)}
-        </div>
-      </Section>
+      <Section><SectionHeading title="Alternatives to Consider" /><div className="mt-8 grid gap-5 md:grid-cols-2">{review.alternatives.map((alternative) => <InfoCard key={alternative.title} title={alternative.title} description={alternative.description} />)}</div></Section>
 
-      <Section className="bg-slate-50">
-        <SectionHeading title="FAQ" />
-        <div className="mt-8 grid gap-4">
-          {review.faqs.map((faq) => <article key={faq.question} className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h3 className="text-lg font-bold text-slate-950">{faq.question}</h3><p className="mt-3 text-base leading-7 text-slate-700">{faq.answer}</p></article>)}
-        </div>
-      </Section>
+      <Section className="bg-slate-50"><SectionHeading title="FAQ" /><div className="mt-8 grid gap-4">{review.faqs.map((faq) => <article key={faq.question} className="rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h3 className="text-lg font-bold text-slate-950">{faq.question}</h3><p className="mt-3 text-base leading-7 text-slate-700">{faq.answer}</p></article>)}</div></Section>
 
-      <Section>
-        <article id="final-verdict" className="scroll-mt-24 rounded-lg border border-slate-200 bg-white p-6 shadow-soft">
-          <h2 className="text-2xl font-bold text-slate-950">Final Verdict</h2>
-          <p className="mt-4 text-base font-semibold text-brand-700">{review.finalVerdictLabel}</p>
-          <p className="mt-4 text-base leading-8 text-slate-700">{review.finalVerdictBody}</p>
-        </article>
-      </Section>
+      <Section><article id="final-verdict" className="scroll-mt-24 rounded-lg border border-slate-200 bg-white p-6 shadow-soft"><h2 className="text-2xl font-bold text-slate-950">Final Verdict</h2><p className="mt-4 text-base font-semibold text-brand-700">{review.finalVerdictLabel}</p><p className="mt-4 text-base leading-8 text-slate-700">{review.finalVerdictBody}</p></article></Section>
 
-      <Section className="bg-slate-50">
-        <SectionHeading title="Related Guides" />
-        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {review.relatedGuides.map((guide) => <Link key={guide.title} className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft transition-colors hover:border-brand-200 hover:bg-brand-50" to={guide.href}><ListChecks className="text-brand-700" size={20} aria-hidden="true" /><h3 className="mt-4 text-base font-semibold text-slate-950">{guide.title}</h3><p className="mt-2 text-sm leading-6 text-slate-600">{guide.description}</p></Link>)}
-        </div>
-      </Section>
+      <Section className="bg-slate-50"><SectionHeading title="Related Guides" /><div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">{review.relatedGuides.map((guide) => <Link key={guide.title} className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft transition-colors hover:border-brand-200 hover:bg-brand-50" to={guide.href}><ListChecks className="text-brand-700" size={20} aria-hidden="true" /><h3 className="mt-4 text-base font-semibold text-slate-950">{guide.title}</h3><p className="mt-2 text-sm leading-6 text-slate-600">{guide.description}</p></Link>)}</div></Section>
 
-      <section className="bg-slate-950 py-14 text-white">
-        <Container className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-          <div>
-            <h2 className="text-3xl font-bold">{review.finalCtaHeadline}</h2>
-            <p className="mt-3 text-sm leading-6 text-slate-300">{review.finalCtaNote}</p>
-          </div>
-          <AffiliateButton provider={review.affiliateProvider}>{review.ctaLabel}</AffiliateButton>
-        </Container>
-      </section>
+      <section className="bg-slate-950 py-14 text-white"><Container className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between"><div><h2 className="text-3xl font-bold">{review.finalCtaHeadline}</h2><p className="mt-3 text-sm leading-6 text-slate-300">{review.finalCtaNote}</p></div><AffiliateButton provider={review.affiliateProvider}>{review.ctaLabel}</AffiliateButton></Container></section>
     </>
   );
 }
