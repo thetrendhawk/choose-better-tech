@@ -126,6 +126,7 @@ export const dataRemovalHub = {
     "All personal information from the internet"
   ],
   readingPath: [
+    { title: "How Long Does Data Removal Take?", href: "/guides/how-long-does-data-removal-take", description: "Understand the stages from request submission through verification, search refresh, and recurring maintenance." },
     { title: "Best Data Removal Services", href: "/best-data-removal-services", description: "Compare Incogni, Optery, DeleteMe, and manual opt-outs by fit." },
     { title: "Are Data Removal Services Worth It?", href: "/are-data-removal-services-worth-it", description: "Decide whether paying is worth it compared with manual opt-outs." },
     { title: "Start with this Data Removal Hub", href: "/data-removal", description: "Understand the category before choosing a service." },

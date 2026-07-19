@@ -107,8 +107,8 @@ describe("sitemap output", () => {
     expect(isEolEquivalent(buildSitemap(APP_ROUTES, SITE_URL), committed)).toBe(true);
   });
 
-  it("still lists exactly 64 URLs", () => {
-    expect(APP_ROUTES).toHaveLength(64);
+  it("still lists exactly 65 URLs", () => {
+    expect(APP_ROUTES).toHaveLength(65);
   });
 });
 

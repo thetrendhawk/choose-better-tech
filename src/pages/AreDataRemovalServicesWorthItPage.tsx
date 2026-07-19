@@ -158,7 +158,8 @@ const faqItems: Array<{ question: string; answer: string; link?: { href: string;
   },
   {
     question: "How long do removals take?",
-    answer: "There is no reliable universal timeline. It depends on the broker, request method, identity verification, applicable law, provider workflow, and whether the listing is matched correctly. Treat any provider timeline as a plan-specific claim, not a guarantee."
+    answer: "There is no reliable universal timeline. It depends on the broker, request method, identity verification, applicable law, provider workflow, and whether the listing is matched correctly. Treat any provider timeline as a plan-specific claim, not a guarantee.",
+    link: { href: "/guides/how-long-does-data-removal-take", label: "See the full data-removal timeline" }
   },
   {
     question: "Is it safe to give a removal company my personal information?",

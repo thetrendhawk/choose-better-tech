@@ -31,6 +31,7 @@ export const APP_ROUTES = [
   "/best-password-managers-for-families",
   "/best-password-managers-for-privacy",
   "/guides/how-password-managers-work",
+  "/guides/how-long-does-data-removal-take",
   "/guides/best-vpns-for-beginners",
   "/guides/how-vpns-work",
   "/guides/free-vpn-vs-paid",

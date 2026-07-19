@@ -52,6 +52,7 @@ const OpteryVsDeleteMePage = lazy(() => import("./pages/OpteryVsDeleteMePage").t
 const PasswordManagersHubPage = lazy(() => import("./pages/PasswordManagersHubPage").then((module) => ({ default: module.PasswordManagersHubPage })));
 const PasswordManagerVsBrowserPasswordsPage = lazy(() => import("./pages/PasswordManagerVsBrowserPasswordsPage").then((module) => ({ default: module.PasswordManagerVsBrowserPasswordsPage })));
 const HowPasswordManagersWorkPage = lazy(() => import("./pages/HowPasswordManagersWorkPage").then((module) => ({ default: module.HowPasswordManagersWorkPage })));
+const HowLongDoesDataRemovalTakePage = lazy(() => import("./pages/HowLongDoesDataRemovalTakePage").then((module) => ({ default: module.HowLongDoesDataRemovalTakePage })));
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage").then((module) => ({ default: module.PrivacyPage })));
 const ProtonPassReviewPage = lazy(() => import("./pages/ProtonPassReviewPage").then((module) => ({ default: module.ProtonPassReviewPage })));
 const ProtonPassVsNordPassPage = lazy(() => import("./pages/ProtonPassVsNordPassPage").then((module) => ({ default: module.ProtonPassVsNordPassPage })));
@@ -123,6 +124,7 @@ export default function App() {
             <Route path="best-password-managers-for-families" element={<BestPasswordManagersForFamiliesPage />} />
             <Route path="best-password-managers-for-privacy" element={<BestPasswordManagersForPrivacyPage />} />
             <Route path="guides/how-password-managers-work" element={<HowPasswordManagersWorkPage />} />
+            <Route path="guides/how-long-does-data-removal-take" element={<HowLongDoesDataRemovalTakePage />} />
             <Route path="guides/best-vpns-for-beginners" element={<BestVpnsForBeginnersPage />} />
             <Route path="guides/how-vpns-work" element={<VpnGuidePage slug="how-vpns-work" />} />
             <Route path="guides/free-vpn-vs-paid" element={<VpnGuidePage slug="free-vpn-vs-paid" />} />
