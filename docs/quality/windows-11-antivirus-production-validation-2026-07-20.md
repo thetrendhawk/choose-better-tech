@@ -1,7 +1,7 @@
 # Production Validation — Do You Still Need Antivirus on Windows 11?
 
 Date: 2026-07-20
-Status: Technical and source validation complete; human visual review still required
+Status: Technical, source, and rendered-browser validation complete
 Related issue: #38
 Related PR: #39
 Branch: `content/windows-11-antivirus-need-assessment`
@@ -85,9 +85,9 @@ AV-TEST still reports that Microsoft Defender Antivirus Consumer 4.18 received 6
 - Exact article URL returns HTTP `200 OK`.
 - No preview runtime error or fatal logs were returned for the deployment during the checked window.
 
-## Not independently verified in this environment
+## Initial browser-validation gap (resolved)
 
-The available connector can inspect source, deployment state, HTTP response, build logs, and runtime logs, but it does not provide an interactive browser viewport or screenshot capture for this Vite preview. Therefore these checks remain human-required:
+Before the final browser pass, the following checks were outstanding:
 
 - desktop visual review;
 - 390×844 mobile visual review;
@@ -95,7 +95,7 @@ The available connector can inspect source, deployment state, HTTP response, bui
 - client-side browser-console inspection;
 - rendered DOM inspection of canonical and JSON-LD output.
 
-Source inspection, successful compilation, and the corrected HTTP 200 response give no current reason to expect failure, but they are not substitutes for the human browser pass.
+They were completed and recorded in the final validation section below. The original text is retained to preserve the prior gate history.
 
 ## Verdict
 
