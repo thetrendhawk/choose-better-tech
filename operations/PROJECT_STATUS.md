@@ -3,7 +3,7 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-19
+Last Updated: 2026-07-20
 
 ## Current Phase
 
@@ -35,7 +35,7 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Apply the binding monetization-research standard to substantial clusters and commercial articles | Choose Better Tech | Active |
 | Execute the approved two-article Cybersecurity Tools autopilot run: Best Antivirus Software, then TotalAV Review | Choose Better Tech | Complete |
 | Verify indexing signals for strongest-signal URLs | Choose Better Tech | Complete |
-| Choose next distinct cluster opportunity | Choose Better Tech | Next Up |
+| Review and decide whether to merge Windows Defender capability guide PR #43 | Choose Better Tech | Owner decision required |
 
 ## Current Task
 
@@ -53,8 +53,10 @@ Execute traffic, verification, and cluster-expansion work from a reconciled oper
 | Data Removal Batch 01 | Complete | All eight chartered reviews, comparisons, and educational guides are published and production verified. Cluster report: `docs/editorial/data-removal-batch-01-cluster-report.md`. No unverified tracked provider destination was activated. |
 | Privacy Bee hands-on evaluation | Active | A canonical sanitized log exists, and the support-response test is awaiting a human answer. Future actions follow `operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md`. No publication, verdict, ranking, or affiliate activation is authorized. |
 | Search Console and indexability audit | Complete | The July 19 audit recorded 1 click and 180 impressions across the current Performance window, individually confirmed the six strongest-signal canonical URLs indexed, and found no blocking canonical, sitemap, robots, or live-route defect. Four focused review-to-comparison links were authorized as the only content follow-up. |
+| Primary-domain migration | Complete | `choosebettertech.thrwds.com` returns a one-hop HTTP 301 to matching `choosebettertech.com` paths, with GET/HEAD and query preservation verified on 2026-07-20. Owner-confirmed Google Search Console Change of Address validation passed. |
 | Best Antivirus Software | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #15 merged as `c702c35816ab2ecbce736f74d3250d1a73d8982d`; exact Vercel deployment `5432407193` succeeded. Research, 32-claim ledger, 39/40 score, production canonical/deep-route, sitemap, IndexNow HTTP 200, desktop/390px containment, external article/homepage screenshots, and no-overflow checks passed. Indexing remains Needs verification. |
 | TotalAV Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #17 merged as `71de302f4bf1da6cb72565430f7ec5007b7f5faf`; exact Vercel deployment `5432555515` succeeded. Dedicated research, 28-claim ledger, 39/40 score, production route/canonical, sitemap, IndexNow HTTP 200, article/homepage screenshots, review library, reciprocal link, desktop/390px containment, and no-overflow checks passed. No tracked TotalAV link was added; indexing remains Needs verification. |
+| Windows Defender vs Paid Antivirus | MERGE-READY — OWNER APPROVAL REQUIRED | Issue #42; PR #43. Research, 23-claim ledger, original intent audit, three independent correction passes, 39/40 score, lint, 22 tests, generated routes, build, diff checks, and Vercel preview QA at 1440/1024/768/390 passed. No affiliate link added. Not merged, not published, not submitted to IndexNow, and not counted in the live 57-asset inventory. |
 | Proton Drive drafting gate | Complete | Research, monetization-independence, original-contribution, claim-ledger, independent-review, and publication gates passed. |
 | Proton Drive Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #4 merged as `c2f4ad28ddcc72c756bffd66736ace388f97bbbc`; exact Vercel production deployment `5425319112` succeeded. Independent review scored 38/40 before deployment and 39/40 after operations completion. Production title, H1, canonical, key content, FAQ/schema parity, internal links, sitemap, desktop and 390px containment, homepage Hero count, external desktop/mobile screenshots, no page overflow, and IndexNow HTTP 200 passed. The official Proton link is non-affiliate and indexing remains Needs verification. |
 | iCloud vs Google Drive | FINAL APPROVED — EXTERNAL SCREENSHOT QA | PR #7 merged as `dea4e31e312506811b4a45075b4418cb115fce1b`; homepage discovery PR #8 merged as `2b53c6af3bae19ee6e77f1901f4f8a28a0d2a103`; comparison-count PR #9 merged as `c690f0dbc90fcc91a3c8cc05bdbec2f0ce6a23b0`. Final deployment `5430719168`, live canonical/deep route, 20-FAQ schema parity, links, sitemap, IndexNow HTTP 200, desktop/mobile containment, external article/homepage screenshots, no overflow, and 39/40 final score passed. Indexing remains Needs verification. |

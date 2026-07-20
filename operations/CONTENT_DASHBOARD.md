@@ -7,7 +7,7 @@
 | Document Type | Operations Dashboard |
 | Status | Active |
 | Owner | Choose Better Tech |
-| Last Updated | 2026-07-19 |
+| Last Updated | 2026-07-20 |
 
 ## Current Strategic Focus
 
@@ -16,7 +16,7 @@ Traffic execution, cluster expansion, and post-publication maintenance for:
 - VPN Cluster v1
 - Password Manager Cluster v1
 - Data Removal Cluster v1
-- Next operational action: assess the completed three-article Cloud Storage automation run and select the next distinct roadmap item under the binding research and monetization standards
+- Next operational action: owner review and merge decision for Windows Defender capability guide PR #43
 - Active growth asset: The Better Software Buyer Checklist
 
 ## Live Site Counts
@@ -145,6 +145,7 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Best Antivirus Software | `/best-antivirus-software` | Major ranking | No tracked product links | `docs/research/best-antivirus-software-research.md` | 32/32 reviewed | Yes | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Yes | Independence PASS | 2026-07-13 | PR #15 merged as `c702c35816ab2ecbce736f74d3250d1a73d8982d`; exact Vercel deployment `5432407193` succeeded. Production route, deep refresh, canonical, H1, sitemap, desktop/390px containment, responsive table containment, external article/homepage screenshots, homepage count 28, and IndexNow HTTP 200 passed. Score 39/40; indexing remains Needs verification. |
 | TotalAV Review | `/reviews/totalav-review` | Review | No tracked product link; public direct program noted | `docs/research/totalav-review-research.md` | 28/28 reviewed | Yes | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Yes | Independence PASS | 2026-07-13 | PR #17 merged as `71de302f4bf1da6cb72565430f7ec5007b7f5faf`; exact deployment `5432555515` succeeded. Production route, canonical, sitemap, article/homepage screenshots, homepage 13-review count, review-library entry, reciprocal ranking link, desktop/390px containment, and IndexNow HTTP 200 passed. Score 39/40; indexing remains Needs verification. |
+| Windows Defender vs Paid Antivirus: What Are You Paying For? | `/guides/windows-defender-vs-paid-antivirus` | Capability comparison | No affiliate destination added | `docs/research/windows-defender-vs-paid-antivirus-research-notes-2026-07-20.md` | 23/23 reviewed | Yes | MERGE-READY — OWNER APPROVAL REQUIRED | No | Independence PASS | 2026-07-20 | Issue #42; PR #43. Score 39/40; Vercel preview, four viewport sizes, external article/homepage screenshots, canonical, schema, internal navigation, focus, build, and no-overflow checks passed. Not included in live counts until owner-approved merge and production verification. |
 
 ## Data Removal Cluster Asset Inventory
 
@@ -203,12 +204,14 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | Primary Production Domain | `https://choosebettertech.com` |
 | Canonical URL Status | Active as of 2026-07-09 |
 | Historical Temporary Domain | `https://choosebettertech.thrwds.com` |
+| Historical Domain Redirect | Complete — one-hop HTTP 301 to the matching `https://choosebettertech.com` path; GET/HEAD and query preservation verified 2026-07-20 |
+| Google Search Console Change of Address | Passed — owner-confirmed 2026-07-20 |
 | Historical Vercel Preview Domain | `https://choose-better-tech.vercel.app` |
 | WWW Behavior | `https://www.choosebettertech.com` redirects to `https://choosebettertech.com` in Vercel |
 
 - Public canonical tags, Open Graph URLs, structured-data URLs, `robots.txt`, and `sitemap.xml` should use `https://choosebettertech.com`.
 - The temporary `thrwds.com` and `vercel.app` domains should not be treated as canonical.
-- Old-domain redirect behavior should be managed in Vercel or DNS settings rather than app routing unless a future deployment architecture requires code-managed redirects.
+- Old-domain redirect behavior is active at the hosting layer. Root, content paths, and query preservation were production-verified on 2026-07-20; maintain this redirect while Google processes the completed Change of Address migration.
 
 ## Search Console / Sitemap Submissions
 

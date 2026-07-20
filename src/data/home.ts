@@ -21,6 +21,7 @@ export const featuredReviews: ArticlePreview[] = [
 ];
 
 export const featuredGuides: ArticlePreview[] = [
+  { key: "windows-defender-vs-paid-antivirus", title: "Windows Defender vs Paid Antivirus", excerpt: "A capability-gap audit for deciding whether household management, cross-platform coverage, support, parental controls, or bundle extras justify paying.", href: "/guides/windows-defender-vs-paid-antivirus", status: "Published Guide" },
   { key: "can-information-reappear-after-data-removal", title: "Can Your Information Reappear After Data Removal?", excerpt: "A practical guide to why broker profiles return, how to distinguish recurrence from stale or duplicate results, and when to recheck.", href: "/guides/can-your-information-reappear-after-data-removal", status: "Published Guide" },
   { key: "how-long-does-data-removal-take", title: "How Long Does Data Removal Take?", excerpt: "A realistic timeline for scans, opt-out submissions, broker processing, verification, search refreshes, and recurring removals.", href: "/guides/how-long-does-data-removal-take", status: "Published Guide" },
   { key: "best-antivirus-software", title: "Best Antivirus Software", excerpt: "An evidence-led guide to Microsoft Defender, Bitdefender, Norton, ESET, F-Secure, McAfee, and TotalAV by protection, false positives, privacy, renewal terms, and fit.", href: "/best-antivirus-software", status: "Published Guide" },

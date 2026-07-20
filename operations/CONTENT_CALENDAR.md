@@ -3,7 +3,7 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-13
+Last Updated: 2026-07-20
 
 ## Publishing Pipeline
 
@@ -35,6 +35,7 @@ Last Updated: 2026-07-13
 | Best Secure Cloud Storage | `https://choosebettertech.com/best-secure-cloud-storage` | Cloud Storage Cluster | Major ranking | Complete | N/A | Complete | Complete | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Complete | 2026-07-13 | Needs verification | Not scheduled | Not scheduled | Not scheduled | Recheck all 50 Critical/High claims and registered volatile plan facts before refresh | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
 | Best Antivirus Software | `https://choosebettertech.com/best-antivirus-software` | Cybersecurity Tools | Major ranking | Complete | N/A | Complete | Complete | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Complete | 2026-07-13 | Needs verification | Not scheduled | Not scheduled | Not scheduled | Recheck lab cycles, product versions, renewal terms, legal availability, and privacy events before refresh | PR #15; merge `c702c35`; deployment `5432407193`; 39/40 |
 | TotalAV Review | `https://choosebettertech.com/reviews/totalav-review` | Cybersecurity Tools | Review | Complete | N/A | Complete | Complete | FINAL APPROVED — EXTERNAL SCREENSHOT QA | Complete | 2026-07-13 | Needs verification | Not scheduled | Not scheduled | Not scheduled | Recheck labs, ownership, privacy, platform support, renewal, add-ons, refunds, and affiliate status before refresh | PR #17; merge `71de302`; deployment `5432555515`; 39/40 |
+| Windows Defender vs Paid Antivirus: What Are You Paying For? | `https://choosebettertech.com/guides/windows-defender-vs-paid-antivirus` | Cybersecurity Tools | Capability comparison | Complete | Complete | Complete | Complete | 39/40 — merge-ready | No | Not published | N/A | Not scheduled | Not scheduled | Not scheduled | Recheck Microsoft platform docs, lab cycles, paid-suite examples, and backup guidance before any publication or refresh | PR #43; owner merge approval required; preview QA passed at four widths |
 | Proton VPN Free vs Paid | TBD | VPN Authority Cluster | Guide | Planned | Planned | Planned | Planned | Not scheduled | Not scheduled | Not scheduled | TBD | Not scheduled | Not scheduled | Not scheduled | TBD | Planned |
 | What Is a VPN? | TBD | VPN Authority Cluster | Guide | Planned | Planned | Planned | Planned | Not scheduled | Not scheduled | Not scheduled | TBD | Not scheduled | Not scheduled | Not scheduled | TBD | Planned |
 
