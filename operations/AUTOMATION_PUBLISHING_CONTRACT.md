@@ -254,7 +254,7 @@ Immediately before merging, the automation must verify that the pull-request hea
 
 ## Routine-Article Failure Behavior
 
-The system must fail closed. If any condition is missing, fails, is ambiguous, or cannot be verified, do not merge and do not partially apply the exception. Fall back to the existing publishing workflow, retain completed evidence, identify the failed condition, and report the correct state: `BLOCKED`, `DRAFT COMPLETE â€” EDITORIAL REVIEW REQUIRED`, or `MERGE-READY â€” OWNER APPROVAL REQUIRED`.
+The system must fail closed. If any condition is missing, fails, is ambiguous, or cannot be verified, do not merge and do not partially apply the exception. Fall back to the existing publishing workflow, retain completed evidence, identify the failed condition, and report the correct state: `BLOCKED`, `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED`, or `MERGE-READY — OWNER APPROVAL REQUIRED`.
 
 Absence of evidence is failure, not permission.
 
@@ -264,7 +264,7 @@ Before initiating an auto-merge, attach a complete merge-ready report and itemiz
 
 When the exception applies, include this exact line:
 
-> Auto-merged under routine-article exception â€” all 12 conditions met.
+> Auto-merged under routine-article exception — all 12 conditions met.
 
 Follow the line with itemized evidence for every condition. A pass/fail summary alone is insufficient.
 
