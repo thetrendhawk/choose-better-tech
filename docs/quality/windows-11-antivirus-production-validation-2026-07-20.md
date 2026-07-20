@@ -5,7 +5,7 @@ Status: Technical and source validation complete; human visual review still requ
 Related issue: #38
 Related PR: #39
 Branch: `content/windows-11-antivirus-need-assessment`
-Validated head before this report: `9ceabeb501a2045d652d51b8adfdc9949a6214ad`
+Current validated head before final report update: `4bef9beddc6f039190fb1688c4380075677f2224`
 
 ## Scope
 
@@ -13,6 +13,7 @@ Validate the focused production implementation for:
 
 - exact application route;
 - canonical route inventory and sitemap inclusion;
+- Vercel HTTP routing behavior;
 - title and description metadata wiring;
 - Article, BreadcrumbList, and FAQ structured data wiring;
 - editorial controls from PR #37;
@@ -29,6 +30,16 @@ Validate the focused production implementation for:
 - The production page uses the exact same path constant for SEO and structured data.
 - The page compiled into a dedicated lazy-loaded production asset during the Vercel build.
 
+### Vercel HTTP routing defect found and fixed
+
+- After preview authentication was temporarily disabled, the exact article URL initially returned the SPA shell with HTTP `404`.
+- Root cause: `vercel.json` had not been regenerated after the new route was added. The route was present in React, `src/routes.manifest.mjs`, and the sitemap, but absent from the Vercel allowlist regex, so the request fell through to the catch-all 404 rule.
+- Fix: added `guides/do-you-still-need-antivirus-on-windows-11` to the explicit Vercel route allowlist.
+- Fix commit: `4bef9beddc6f039190fb1688c4380075677f2224`.
+- Vercel rebuilt successfully.
+- Exact preview URL retest returned HTTP `200 OK`.
+- This defect would have been an indexing and publication blocker if left unresolved.
+
 ### SEO and structured data
 
 - Title: `Do You Still Need Antivirus on Windows 11?`
@@ -41,6 +52,7 @@ Validate the focused production implementation for:
 ### Route inventory
 
 - The exact route is present once in `src/routes.manifest.mjs`.
+- The exact route is present in the Vercel route allowlist.
 - The generated sitemap contains the exact canonical URL once.
 - Sitemap inventory increased from 66 to 67 application routes.
 
@@ -68,13 +80,14 @@ AV-TEST still reports that Microsoft Defender Antivirus Consumer 4.18 received 6
 ### Build and deployment
 
 - Vercel deployment state: READY.
-- Vite production build completed successfully.
+- Vite production build completed successfully after the route correction.
 - Dedicated article asset generated: `DoYouStillNeedAntivirusOnWindows11Page-*.js`.
-- No preview runtime error or fatal logs were returned for the deployment during the checked two-hour window.
+- Exact article URL returns HTTP `200 OK`.
+- No preview runtime error or fatal logs were returned for the deployment during the checked window.
 
 ## Not independently verified in this environment
 
-The available connector can inspect source, deployment state, build logs, and runtime logs, but it does not provide an interactive browser viewport or screenshot capture for this Vite preview. Therefore these checks remain human-required:
+The available connector can inspect source, deployment state, HTTP response, build logs, and runtime logs, but it does not provide an interactive browser viewport or screenshot capture for this Vite preview. Therefore these checks remain human-required:
 
 - desktop visual review;
 - 390×844 mobile visual review;
@@ -82,7 +95,7 @@ The available connector can inspect source, deployment state, build logs, and ru
 - client-side browser-console inspection;
 - rendered DOM inspection of canonical and JSON-LD output.
 
-Source inspection and successful compilation give no current reason to expect failure, but they are not substitutes for the human browser pass.
+Source inspection, successful compilation, and the corrected HTTP 200 response give no current reason to expect failure, but they are not substitutes for the human browser pass.
 
 ## Verdict
 
