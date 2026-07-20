@@ -24,8 +24,8 @@ This is the binding end-to-end workflow for substantial Choose Better Tech publi
 | 8. Affiliate audit | Draft, CTA plan, affiliate registry | Affiliate-independence review and raw-link scan plan | Affiliate state did not shape editorial output; CTAs are restrained and correctly placed | `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED` |
 | 9. Implementation | Approved draft, existing page patterns, route/SEO/schema conventions | Page implementation, route, metadata, canonical, schema, discovery links, sitemap-generation update | Established patterns are reused; scope is limited; content and code are readable | `BLOCKED` |
 | 10. Technical validation | Implemented changes and repository scripts | Complete validation log | All mandatory commands and checks pass | `BLOCKED` |
-| 11. Branch and pull request | Validated working tree, author report, independent review, scorecard, intended file list | Dedicated branch, research commit, implementation commit, pull request, reviewer decision | Pull request is approved and required corrections are resolved | `READY TO DEPLOY` |
-| 11a. Merge and push | Approved pull request | Merge commit and remote result | Approved work is merged to `main`; a direct-to-main emergency exception is documented if explicitly authorized | `READY TO DEPLOY` |
+| 11. Branch and pull request | Validated working tree, author report, independent review, scorecard, intended file list | Dedicated branch, research commit, implementation commit, pull request, reviewer decision | Pull request is approved and required corrections are resolved, unless the binding routine-article exception in `operations/AUTOMATION_PUBLISHING_CONTRACT.md` has documented that all 12 conditions are met | `READY TO DEPLOY` |
+| 11a. Merge and push | Approved pull request or a qualifying routine-article pull request | Merge commit and remote result | Approved work is merged to `main`; a qualifying routine article may auto-merge only under the binding contract exception; a direct-to-main emergency exception is documented if explicitly authorized | `READY TO DEPLOY` |
 | 12. Verify origin/main | Local commit hashes, remote branch | Remote head and containment evidence | `origin/main` contains the content commit | `BLOCKED` |
 | 13. Verify Vercel deployment | Remote commit and Vercel project access | Ready deployment and deployed-commit evidence | Vercel is Ready and deployed the content commit or a later containing commit | `BLOCKED` |
 | 14. Verify live production | Ready deployment and canonical production URL | Live HTTP and rendered-page verification | URL returns 200 and required production content renders without internal 404 | `BLOCKED` |
@@ -90,7 +90,7 @@ Major new content defaults to a dedicated branch and pull request:
 4. open a pull request using `.github/pull_request_template.md`;
 5. complete the author report, claim ledger, independent review, and scorecard;
 6. correct failures and rescore;
-7. obtain approval;
+7. obtain approval, unless the binding routine-article exception documents that all 12 conditions are met;
 8. merge to `main`;
 9. verify deployment and production.
 
