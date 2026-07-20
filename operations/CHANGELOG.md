@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-20 — Windows Defender capability guide prepared for owner merge decision
+
+- Completed issue #42 research, a 23-claim ledger, intent audit, editorial draft, implementation, three independent correction passes, and a 39/40 final score.
+- Prepared `/guides/windows-defender-vs-paid-antivirus` as a capability-gap guide titled “Windows Defender vs Paid Antivirus: What Are You Paying For?” to avoid overlap with the existing necessity guide and provider ranking.
+- Verified PR #43's Vercel preview at 1440, 1024, 768, and 390×844, including canonical, title, description, three JSON-LD blocks, headings, keyboard focus, internal navigation, direct reload, back/forward behavior, article/homepage screenshots, console state, and zero page-level overflow.
+- Excluded AV-Comparatives public-result material because its reuse terms require written permission; retained current Microsoft, AV-TEST, CISA, and attributed vendor evidence.
+- No affiliate destination was added. The PR is merge-ready but remains unmerged and unpublished pending explicit owner approval.
+
 ### 2026-07-19 — Privacy Bee longitudinal evaluation operations activated
 
 - Recorded the active Privacy Bee hands-on evaluation, its canonical sanitized log, and the support-response test awaiting a human answer.

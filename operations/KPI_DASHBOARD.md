@@ -15,7 +15,7 @@ Last Updated: 2026-07-19
 
 ## Content Inventory Baseline
 
-Baseline Date: 2026-07-13
+Baseline Date: 2026-07-19
 
 These counts use published editorial routes in the current repository and sitemap. Total editorial content assets means Reviews + Comparisons + Hubs / Guides. Authority pages are tracked separately and do not include legal, utility, or policy pages.
 
@@ -23,15 +23,15 @@ These counts use published editorial routes in the current repository and sitema
 | --- | ---: | --- | --- |
 | Reviews | 13 | Product review routes under `/reviews/` | Repo route index and production sitemap |
 | Comparisons | 14 | Pairwise comparison routes under `/comparisons/` | Repo route index and production sitemap |
-| Hubs / Guides | 28 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
+| Hubs / Guides | 30 | Decision hubs and published guide routes | Repo routes, content dashboard, and generated sitemap |
 | Authority Pages | 3 | About, How We Review Software, and Affiliate Disclosure | Repo routes and production sitemap |
-| Total Editorial Content Assets | 55 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
+| Total Editorial Content Assets | 57 | Reviews + Comparisons + Hubs / Guides | Calculated from verified counts |
 
 ## Content KPIs
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 13 | 14 | 28 | 55 | Six monitored URLs individually confirmed indexed | The July 19 Search Console audit confirmed the six strongest-signal URLs indexed through URL Inspection. This is a targeted verification, not a current property-wide indexed-page count. |
+| 2026-07 | 13 | 14 | 30 | 57 | Six monitored URLs individually confirmed indexed | The July 19 Search Console audit confirmed the six strongest-signal URLs indexed through URL Inspection. The merge-ready Defender guide is not included; an owner-approved merge would move the live inventory to 31 guides and 58 editorial assets. |
 
 ## Organic Search KPIs
 

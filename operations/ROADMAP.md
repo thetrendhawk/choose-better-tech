@@ -3,7 +3,7 @@
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
-Last Updated: 2026-07-19
+Last Updated: 2026-07-20
 
 ## Active Evaluation Task
 
@@ -271,8 +271,8 @@ This is optional polish, not remediation. Preserve the current content depth and
 | --- | --- |
 | Best Antivirus Software | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
 | TotalAV Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
-| Is Antivirus Still Necessary? | Planned |
-| Windows Defender vs Paid Antivirus | Planned |
+| Is Antivirus Still Necessary? | Satisfied by existing `/guides/do-you-still-need-antivirus-on-windows-11` route; no duplicate authorized |
+| Windows Defender vs Paid Antivirus | MERGE-READY — OWNER APPROVAL REQUIRED (issue #42, PR #43) |
 | Best PC Cleanup Tools | Planned |
 
 ### Completion Checklist
@@ -343,15 +343,14 @@ This is the active forward-looking queue. It supersedes the Near-Term Sequence b
 
 | Priority | Work item | State | Required next gate |
 | ---: | --- | --- | --- |
-| 1 | Cybersecurity Tools expansion-authorization review | Ready | Independent expansion review updating `docs/strategy/cybersecurity-tools-cluster-approval.md` |
-| 2 | Is Antivirus Still Necessary? | Candidate — supported by cluster dossier, not yet authorized | Expansion authorization, then article research + claim ledger |
-| 3 | Windows Defender vs Paid Antivirus | Candidate — supported by cluster dossier, not yet authorized | Expansion authorization, then article research + claim ledger |
+| 1 | Windows Defender vs Paid Antivirus | Merge-ready — issue #42 owner-authorized, PR #43 awaiting owner decision | Explicit owner approval before merge; then production and IndexNow verification |
+| 2 | Is Antivirus Still Necessary? | Existing intent already served; no duplicate authorized | Monitor the existing Windows 11 necessity guide |
 | 4 | Best PC Cleanup Tools | Hold | Separate category-risk / safety research before any authorization |
 | 5 | AI Productivity cluster | Not approved | Full topic-cluster approval under `operations/TOPIC_CLUSTER_APPROVAL_POLICY.md` |
 
-### Required next action — Cybersecurity Tools expansion
+### Required next action — owner merge decision
 
-The Cybersecurity Tools cluster is approved, but `docs/strategy/cybersecurity-tools-cluster-approval.md` authorizes the two-article sequence only (Best Antivirus Software, TotalAV Review) and explicitly does not pre-approve later Phase 6 assets. Before any later antivirus article enters research or publication, run an expansion-authorization review confirming: intent distinct from Best Antivirus Software; dossier adequacy versus need for article-specific research; continued validity of the cluster monetization map; authorization as a second controlled sequence; and publication order and capacity. Treat Best PC Cleanup Tools separately because of scareware, exaggerated-performance, and subscription-trap category risk.
+Issue #42 supplied explicit owner authorization for the distinct Windows Defender capability-gap guide. Research, claim review, implementation, independent corrections, technical validation, and Vercel preview QA are complete in PR #43. The next action is an explicit owner merge decision. Production publication, IndexNow submission, and indexing claims remain blocked until merge. Best PC Cleanup Tools remains on hold because of scareware, exaggerated-performance, and subscription-trap category risk.
 
 ## Near-Term Sequence
 
