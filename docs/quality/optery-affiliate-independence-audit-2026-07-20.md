@@ -1,7 +1,7 @@
 # Optery Monetization-Independence Audit
 
 - Reviewed: 2026-07-20
-- Decision: PASS for editorial independence; IMPLEMENTATION BLOCKED for destination handling
+- Decision: PASS for editorial independence; private redirect implementation complete, runtime configuration pending
 
 | Question | Finding |
 | --- | --- |
@@ -15,9 +15,9 @@
 
 ## Placement decision if the architecture is later approved
 
-1. `/reviews/optery-review`: potentially eligible because a reader has explicit product-selection intent.
-2. `/comparisons/incogni-vs-optery`: potentially eligible only if a neutral, non-dominant choice link can coexist with the fit-based conclusion.
-3. `/comparisons/optery-vs-deleteme`: same constrained eligibility.
-4. `/best-data-removal-services` and `/data-removal`: do not add an Optery commercial CTA under this workload; their reader intent and multi-provider fairness require a separate evidence-led decision.
+1. `/reviews/optery-review`: implemented through the internal redirect because a reader has explicit product-selection intent.
+2. `/comparisons/incogni-vs-optery`: not modified; the existing comparison remains a balanced, fit-based decision surface.
+3. `/comparisons/optery-vs-deleteme`: not modified; the existing comparison remains a balanced, fit-based decision surface.
+4. `/best-data-removal-services` and `/data-removal`: not modified; their multi-provider fairness requires a separate evidence-led decision.
 
-No placement was implemented.
+No ranking or verdict changed.

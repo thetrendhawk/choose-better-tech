@@ -19,6 +19,13 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 - Stopped before storing the owner-supplied destination because CBT's current centralized registry is a committed client-side TypeScript module whose contents are emitted to the static browser bundle. The destination is absent from repository records, issue #44, and this changelog.
 - Owner action required: approve and configure a private centralized server-side/edge destination mechanism, then re-authorize implementation after an authenticated Affiliate Tool / Program Policies refresh.
 
+### 2026-07-20 — Optery private runtime redirect implemented
+
+- Implemented the owner-approved Vercel serverless endpoint at `/api/go/optery`; it reads `OPTERY_AFFILIATE_URL` only at runtime and returns a temporary redirect only for a valid HTTPS destination on the approved host.
+- Added safe failures for missing/invalid configuration, no cache/noindex headers, GET and HEAD handling, unsupported-method rejection, caller-input isolation, and no destination logging.
+- Activated only the existing Optery Review CTA through the internal route. The two Optery comparisons, best-services guide, and data-removal hub were audited but not modified; all rankings and fit-based verdicts remain unchanged.
+- Preview and Production Vercel environment configuration, Preview redeploy, and browser validation are required before the draft PR can become merge-ready. The destination value remains absent from the repository, records, issue, and PR.
+
 ### 2026-07-20 — Primary-domain migration completion recorded
 
 - Production-verified `choosebettertech.thrwds.com` returns a one-hop HTTP 301 to `choosebettertech.com` for GET and HEAD.

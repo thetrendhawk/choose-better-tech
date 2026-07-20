@@ -70,9 +70,9 @@ Checked date: 2026-07-20
 - **Payout:** Optery says commissions are processed 35 days after a referral customer transaction; payment prerequisites and any network threshold/method must be confirmed in the authenticated tool.
 - **Restrictions:** No Optery-branded paid search or misspellings; no ad copy/URL containing the mark; no direct paid-ad links; no impersonation, link masking, cookie stuffing, unsolicited bulk email, or mass SMS. Use of marks/materials is limited to approved assets and may not imply endorsement.
 - **Disclosure:** The Agreement requires clear disclosure of the partner relationship on Partner-owned websites.
-- **Registry status:** `INTERNAL_ONLY`. The supplied destination is intentionally absent from this repository. The current registry is a committed client-side TypeScript module, so it cannot receive the sensitive destination under the owner instruction.
-- **Editorial activation:** Not activated. Existing Optery editorial conclusions remain unchanged and are documented in `docs/quality/optery-affiliate-independence-audit-2026-07-20.md`.
-- **Implementation status:** `BLOCKED — OWNER ARCHITECTURE / ACCOUNT ACTION REQUIRED`. A compliant server-side redirect or another private centralized configuration mechanism, plus necessary hosting configuration, must be approved before implementation can resume.
+- **Registry status:** `ACTIVE — INTERNAL REDIRECT ONLY`. The client registry contains only `/api/go/optery`; the supplied destination remains absent from the repository and static output.
+- **Editorial activation:** Active only on `/reviews/optery-review`. Existing Optery editorial conclusions remain unchanged and are documented in `docs/quality/optery-affiliate-independence-audit-2026-07-20.md`.
+- **Implementation status:** `IMPLEMENTED — VERCEL ENVIRONMENT CONFIGURATION / PREVIEW VALIDATION REQUIRED`. The Vercel serverless route reads `OPTERY_AFFILIATE_URL` only at runtime and fails safely when unavailable or invalid.
 - **Full sanitized record:** `docs/monetization/optery-affiliate-readiness-2026-07-20.md`.
 
 **Durable Optery rule:** Unless future written terms explicitly authorize it, CBT must not run Optery-branded paid search, bid on Optery misspellings, impersonate Optery, or direct paid ads to Optery.

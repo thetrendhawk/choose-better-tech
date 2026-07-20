@@ -1,6 +1,6 @@
 # Optery Affiliate-Readiness Record
 
-- Status: BLOCKED — destination-storage architecture requires owner action
+- Status: IMPLEMENTED — private environment configuration and preview validation pending owner action
 - Reviewed: 2026-07-20
 - Scope: Optery consumer affiliate program only; no ranking, verdict, or article expansion
 - Sensitive destination: supplied separately by the owner; intentionally omitted from this record
@@ -55,8 +55,10 @@ Unless future written Optery terms expressly authorize it, CBT must not use Opte
 
 ## Implementation decision
 
-No affiliate destination was added. CBT's current centralized registry stores destinations in a committed client-side TypeScript module, which is incompatible with the owner instruction that the supplied sensitive destination must not be stored in public source control. Static client delivery would also expose it in the browser bundle. A compliant design requires an owner-approved server-side redirect/edge route or another private configuration mechanism plus the necessary hosting/account configuration; none exists in the current architecture.
+The owner approved a Vercel serverless redirect at `/api/go/optery`. The route reads `OPTERY_AFFILIATE_URL` only at runtime, accepts only a valid HTTPS URL on the approved Optery host, returns a temporary 307 redirect with `no-store` and `noindex` headers, and returns a plain 503 without a `Location` header when configuration is absent or invalid. It does not inspect query parameters, log the destination, or ship the destination in the static bundle.
+
+`src/data/affiliateLinks.ts` stores only the internal route. The review at `/reviews/optery-review` is the sole activated placement because it has direct product-selection intent; the named comparisons and ranking guide remain unmodified to preserve balanced reader choice. The owner must configure `OPTERY_AFFILIATE_URL` in Vercel before preview redirect testing or merge approval.
 
 ## Refresh cadence
 
-Recheck official agreement, Program Policies, authenticated Affiliate Tool terms, tracking behavior, eligible plans, markets, and pricing immediately before any implementation and at least quarterly while active.
+Recheck official agreement, Program Policies, authenticated Affiliate Tool terms, tracking behavior, eligible plans, markets, and pricing immediately before merge approval and at least quarterly while active.
