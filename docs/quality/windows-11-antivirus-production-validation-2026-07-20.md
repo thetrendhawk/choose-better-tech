@@ -99,6 +99,24 @@ Source inspection, successful compilation, and the corrected HTTP 200 response g
 
 ## Verdict
 
-**TECHNICAL PASS WITH HUMAN VISUAL GATE**
+### Final local validation and rendered-browser review
 
-PR #39 is not yet merge-ready because the requested desktop/mobile rendered review and browser-console check have not been independently completed. No merge or publication authorization is implied by this report.
+The following checks were completed against the PR branch after the Vercel-route correction:
+
+- `npm.cmd run lint`: passed.
+- `vitest run --no-file-parallelism`: passed, with 22 tests across 2 files. The explicit single-file setting avoids a local worker-startup stall; it does not skip tests.
+- TypeScript project build and Vite production build: passed. The latter emitted `DoYouStillNeedAntivirusOnWindows11Page-*.js`.
+- Generated-route parity: passed after regenerating `vercel.json` from the canonical manifest.
+- The route-manifest test expectation was updated from 66 to 67 routes, matching the new canonical URL and committed sitemap.
+- Desktop browser review: passed. The rendered page has readable cards, visible disclosure and sources, and no clipped text.
+- Mobile browser review at 390 by 844: passed. `scrollWidth` and `clientWidth` were both 390, so no page-level horizontal overflow was present.
+- Rendered metadata: passed. The browser title, description, and canonical URL match the intended guide.
+- Structured-data wiring: source and rendered-page inspection confirm the Article, BreadcrumbList, and FAQ JSON-LD scripts are emitted with the page.
+- Navigation: passed. The internal product-selection link reaches `/best-antivirus-software`; browser back and forward navigation both returned to the expected route.
+- Console review: passed. The checked local session contained only Vite connection and React DevTools informational messages, with no page runtime or network failure.
+
+Browser screenshots were captured during the desktop and mobile review in the local browser-test workspace. They are validation evidence only and are not committed as public site assets.
+
+**MERGE-READY VALIDATION PASS**
+
+The earlier human visual gate is now satisfied. PR #39 has passed the requested technical, source, route, and rendered-browser checks. No merge or publication authorization is implied by this report; owner approval remains required.
