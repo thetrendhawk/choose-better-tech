@@ -1,8 +1,8 @@
 # Independent Review — Windows Defender vs Paid Antivirus
 
-Date: 2026-07-20  
+Date: 2026-07-20
 Status: Completed — approved for merge-ready PR
-Related issue: #42  
+Related issue: #42
 Related PR: #43
 
 ## Review history

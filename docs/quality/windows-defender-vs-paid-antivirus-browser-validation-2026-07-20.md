@@ -1,8 +1,8 @@
 # Browser Validation — Windows Defender vs Paid Antivirus
 
-Date: 2026-07-20  
-Environment: Vercel preview for PR #43  
-Validated head: `c1765b659f08f2a3ca167789bfe282f8e627955a`  
+Date: 2026-07-20
+Environment: Vercel preview for PR #43
+Validated head: `c1765b659f08f2a3ca167789bfe282f8e627955a`
 Preview: `https://choose-better-tech-git-content-wi-dcb690-aaron-s-evans-projects.vercel.app`
 
 ## Viewports

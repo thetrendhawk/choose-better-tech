@@ -1,6 +1,6 @@
 # Production Validation — Windows Defender vs Paid Antivirus
 
-Date: 2026-07-20  
+Date: 2026-07-20
 Status: Preview verified — production pending owner approval
 
 ## Preview deployment
