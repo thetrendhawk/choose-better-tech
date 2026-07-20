@@ -2,7 +2,7 @@
 
 - Reviewed: 2026-07-20
 - Endpoint: `/api/go/optery`
-- Status: local technical validation passed; Vercel Preview runtime configuration and browser validation pending owner action
+- Status: Preview runtime and browser validation passed; production deployment remains outside this PR's scope
 
 ## Architecture and secret handling
 
@@ -26,8 +26,10 @@
 
 - Unit tests cover valid HTTPS host validation, missing/invalid/non-HTTPS configuration, GET, HEAD, caller-controlled redirect input, no logging, status codes, headers, and unsupported methods.
 - Source, Markdown, public assets, generated output, issue text, and PR text require a no-raw-destination scan before merge approval.
-- Browser validation remains blocked until the owner configures the private value for Preview.
+- Final source scan confirmed the raw destination is absent from source, Markdown, generated static assets, and client JavaScript bundles. The only intended runtime exposure is the configured redirect's `Location` response at click time.
+- Fresh Preview deployment validation passed: the endpoint returns HTTP 307, ignores a caller-controlled `destination` parameter, and sends the required no-store and noindex headers. The review route returns HTTP 200 and an unknown route returns HTTP 404.
+- Browser validation passed on the Preview at 1440px, 1024px, 768px, and 390 x 844. The disclosure and CTA remain visible; the CTA has a 44px minimum height; no horizontal overflow or console errors were observed; keyboard focus reached the CTA; and direct reload plus internal back/forward navigation worked.
 
-## Owner configuration
+## Runtime configuration
 
-In Vercel Project Settings → Environment Variables, add the private variable named `OPTERY_AFFILIATE_URL` to both Preview and Production. Do not place its value in source control, GitHub, or chat. Redeploy the Preview after configuration so the runtime function receives the variable.
+The owner confirmed the private `OPTERY_AFFILIATE_URL` variable is configured for Preview and Production. A fresh Preview deployment was created after that confirmation. Do not place the value in source control, GitHub, logs, screenshots, or chat.

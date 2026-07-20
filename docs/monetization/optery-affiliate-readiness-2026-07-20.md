@@ -1,6 +1,6 @@
 # Optery Affiliate-Readiness Record
 
-- Status: IMPLEMENTED — private environment configuration and preview validation pending owner action
+- Status: IMPLEMENTED — Preview runtime and browser validation passed
 - Reviewed: 2026-07-20
 - Scope: Optery consumer affiliate program only; no ranking, verdict, or article expansion
 - Sensitive destination: supplied separately by the owner; intentionally omitted from this record
@@ -20,8 +20,8 @@
 
 ## Official sources reviewed
 
-- Optery Affiliate Program, current public page: commission presentation, plans, 90-day tracking, payout claim, platform, markets, coupon availability, and traffic-channel description.
-- Optery Affiliate Referral Agreement, last updated 2025-10-15: acceptance, commissions, disclosure, restrictions, trademark use, refunds/reversals, termination, and incorporated Program Policies.
+- Optery Affiliate Program, rechecked 2026-07-20: commission presentation, plans, 90-day tracking, payout claim, platform, markets, coupon availability, and traffic-channel description.
+- Optery Affiliate Referral Agreement, rechecked 2026-07-20; last updated 2025-10-15: acceptance, commissions, disclosure, restrictions, trademark use, refunds/reversals, termination, and incorporated Program Policies.
 - Optery Help Center article, updated 2026-02-14: public summary of program restrictions.
 - Optery pricing page: current plan names and volatile coverage/pricing context.
 - PartnerStack public legal index: platform-level legal material is public, but no Optery-specific authenticated offer terms were available there.
@@ -57,7 +57,7 @@ Unless future written Optery terms expressly authorize it, CBT must not use Opte
 
 The owner approved a Vercel serverless redirect at `/api/go/optery`. The route reads `OPTERY_AFFILIATE_URL` only at runtime, accepts only a valid HTTPS URL on the approved Optery host, returns a temporary 307 redirect with `no-store` and `noindex` headers, and returns a plain 503 without a `Location` header when configuration is absent or invalid. It does not inspect query parameters, log the destination, or ship the destination in the static bundle.
 
-`src/data/affiliateLinks.ts` stores only the internal route. The review at `/reviews/optery-review` is the sole activated placement because it has direct product-selection intent; the named comparisons and ranking guide remain unmodified to preserve balanced reader choice. The owner must configure `OPTERY_AFFILIATE_URL` in Vercel before preview redirect testing or merge approval.
+`src/data/affiliateLinks.ts` stores only the internal route. The review at `/reviews/optery-review` is the sole activated placement because it has direct product-selection intent; the named comparisons and ranking guide remain unmodified to preserve balanced reader choice. The owner configured `OPTERY_AFFILIATE_URL` privately in Vercel for Preview and Production, and a fresh Preview deployment passed redirect and browser validation.
 
 ## Refresh cadence
 
