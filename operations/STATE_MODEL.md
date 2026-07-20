@@ -33,3 +33,9 @@ failure — see `operations/AUTOMATION_PUBLISHING_CONTRACT` governance-bloat dis
 - Maintenance owner: project owner.
 - Review/removal condition: promote to a typed model only if/when a registry is built and usage shows
   three dimensions are insufficient.
+
+## Design addendum: routine informational article path
+
+This advisory, not yet implemented model permits a qualifying routine informational article in an already approved cluster to move from `authorization = article_authorized` through the validated pull-request workflow to `publication = published` without another human merge step only when the binding routine-article exception in `operations/AUTOMATION_PUBLISHING_CONTRACT.md` is fully satisfied.
+
+A new-cluster article still requires explicit human authorization and owner-approved merge. Commercial pages, affiliate activation, shared-system changes, policy changes, and any workload that fails the controlled-diff rule still require owner review. This design-level exception does not weaken any existing state transition outside the narrowly defined routine-article path, and it does not make this state model an implemented registry, schema, or enforcement mechanism.
