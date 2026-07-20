@@ -34,6 +34,7 @@ const ComparisonsIndexPage = lazy(() => import("./pages/ComparisonsIndexPage").t
 const ContactPage = lazy(() => import("./pages/ContactPage").then((module) => ({ default: module.ContactPage })));
 const DataRemovalHubPage = lazy(() => import("./pages/DataRemovalHubPage").then((module) => ({ default: module.DataRemovalHubPage })));
 const DeleteMeReviewPage = lazy(() => import("./pages/DeleteMeReviewPage").then((module) => ({ default: module.DeleteMeReviewPage })));
+const DoYouStillNeedAntivirusOnWindows11Page = lazy(() => import("./pages/DoYouStillNeedAntivirusOnWindows11Page").then((module) => ({ default: module.DoYouStillNeedAntivirusOnWindows11Page })));
 const HomePage = lazy(() => import("./pages/HomePage").then((module) => ({ default: module.HomePage })));
 const HowWeReviewSoftwarePage = lazy(() => import("./pages/HowWeReviewSoftwarePage").then((module) => ({ default: module.HowWeReviewSoftwarePage })));
 const IncogniReviewPage = lazy(() => import("./pages/IncogniReviewPage").then((module) => ({ default: module.IncogniReviewPage })));
@@ -127,6 +128,7 @@ export default function App() {
             <Route path="guides/how-password-managers-work" element={<HowPasswordManagersWorkPage />} />
             <Route path="guides/how-long-does-data-removal-take" element={<HowLongDoesDataRemovalTakePage />} />
             <Route path="guides/can-your-information-reappear-after-data-removal" element={<CanInformationReappearAfterDataRemovalPage />} />
+            <Route path="guides/do-you-still-need-antivirus-on-windows-11" element={<DoYouStillNeedAntivirusOnWindows11Page />} />
             <Route path="guides/best-vpns-for-beginners" element={<BestVpnsForBeginnersPage />} />
             <Route path="guides/how-vpns-work" element={<VpnGuidePage slug="how-vpns-work" />} />
             <Route path="guides/free-vpn-vs-paid" element={<VpnGuidePage slug="free-vpn-vs-paid" />} />

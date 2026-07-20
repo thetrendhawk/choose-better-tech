@@ -33,6 +33,7 @@ export const APP_ROUTES = [
   "/guides/how-password-managers-work",
   "/guides/how-long-does-data-removal-take",
   "/guides/can-your-information-reappear-after-data-removal",
+  "/guides/do-you-still-need-antivirus-on-windows-11",
   "/guides/best-vpns-for-beginners",
   "/guides/how-vpns-work",
   "/guides/free-vpn-vs-paid",
