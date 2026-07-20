@@ -1,8 +1,10 @@
+/* global URL */
+
 const configuredAffiliateHost = "get.optery.com";
 
 export const opteryAffiliateUnavailableMessage = "This link is temporarily unavailable. Please try again later.";
 
-export function getOpteryAffiliateDestination(environment: Record<string, string | undefined>): URL | null {
+export function getOpteryAffiliateDestination(environment) {
   const configuredValue = environment.OPTERY_AFFILIATE_URL;
 
   if (!configuredValue) return null;

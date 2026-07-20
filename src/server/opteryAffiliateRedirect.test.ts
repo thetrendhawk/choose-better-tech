@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from "vitest";
 import { createOpteryRedirectHandler } from "../../api/go/optery.js";
-import { getOpteryAffiliateDestination, opteryAffiliateUnavailableMessage } from "./opteryAffiliateRedirect";
+import { getOpteryAffiliateDestination, opteryAffiliateUnavailableMessage } from "./opteryAffiliateRedirect.js";
 
 const validEnvironment = { OPTERY_AFFILIATE_URL: "https://get.optery.com/test-referral" };
 

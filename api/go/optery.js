@@ -1,6 +1,6 @@
 /* global process */
 
-import { getOpteryAffiliateDestination, opteryAffiliateUnavailableMessage } from "../../src/server/opteryAffiliateRedirect";
+import { getOpteryAffiliateDestination, opteryAffiliateUnavailableMessage } from "../../src/server/opteryAffiliateRedirect.js";
 
 const redirectHeaders = {
   "Cache-Control": "private, no-store, max-age=0",
