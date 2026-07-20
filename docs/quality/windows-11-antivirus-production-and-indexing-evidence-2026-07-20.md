@@ -42,4 +42,4 @@ Next recheck: 2026-07-27, or sooner when authenticated Search Console access is 
 
 ## Expansion-gate result
 
-**Not satisfied.** The technical/discovery portion is satisfied, but the binding condition recorded in `docs/strategy/cybersecurity-tools-expansion-authorization-review.md` — Search Console confirmation of the two already-published antivirus URLs — has no verified evidence. The same review is advisory until owner-ratified in the cluster-approval file; the initial cluster approval authorizes only two articles. No next article research, draft, implementation, deployment, or merge is authorized.
+**Satisfied on 2026-07-20 by owner-supplied sanitized Search Console URL Inspection evidence.** `/best-antivirus-software` and `/reviews/totalav-review` are indexed, and Google selected each inspected URL as canonical. Search Console reports no user-declared canonical for the TotalAV review; that is a separate cleanup item and does not block the approved article. No raw screenshots were supplied or claimed.

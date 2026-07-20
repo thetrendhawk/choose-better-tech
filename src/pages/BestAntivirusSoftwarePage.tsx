@@ -113,6 +113,7 @@ export function BestAntivirusSoftwarePage() {
         <Container>
           <h2 className="text-3xl font-black text-slate-950">Quick recommendations</h2>
           <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">{picks.map((pick) => <article key={pick.name} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"><p className="text-xs font-black uppercase tracking-wider text-teal-700">{pick.label}</p><h3 className="mt-2 text-xl font-black">{pick.name}</h3><p className="mt-3 leading-7 text-slate-700">{pick.fit}</p><p className="mt-4 border-t pt-4 text-sm leading-6 text-slate-600"><strong>Tradeoff:</strong> {pick.caveat}</p></article>)}</div>
+          <p className="mt-7 max-w-4xl leading-7 text-slate-700">Not sure whether you need a separate product at all? Start with our <Link to="/guides/windows-defender-vs-paid-antivirus" className="font-bold text-teal-700 underline underline-offset-4 hover:text-teal-900">Windows Defender vs paid antivirus capability audit</Link>, then return here only if a paid product solves a specific gap.</p>
         </Container>
       </Section>
 
