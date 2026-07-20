@@ -11,6 +11,12 @@ This is a compact, structured tracking table for in-progress affiliate network/a
 
 This document does not contain, and must never contain, passwords, tax information, banking information, account tokens, recovery codes, or other private credentials.
 
+## Data Removal Cluster
+
+| Provider | Network | Account email | Application status | Advertiser approval status | Terms-review status | Commission | Attribution | Locking/payment | Restrictions | Implementation status | Next action | Checked date |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Optery | PartnerStack | Not recorded in this registry | Owner reports active referral tracking and custom-link availability; this is not approval evidence | Unconfirmed — do not claim approval without a recorded acceptance notice | Public agreement and program page reviewed; authenticated Affiliate Tool / Program Policies remain required | Public page: 30% for first 12 months for each new referred customer; exact eligibility remains tool-governed | Public page: 90 days; later click resets; cookie blocking can prevent tracking | Public page: processed 35 days after referral transaction; tool prerequisites/threshold/method unresolved | No branded or misspelled paid search, no ad copy/URL mark use, no direct paid-ad links, impersonation, masking, cookie stuffing, unsolicited bulk email, or mass SMS | BLOCKED — no destination stored, no registry entry, no site placement | Owner must approve a private, centralized server-side/edge destination mechanism and configure it before renewed implementation; recheck authenticated tool and Program Policies first | 2026-07-20 |
+
 ## Cybersecurity Tools Cluster
 
 | Provider | Network | Account email | Application status | Advertiser approval status | Terms-review status | Commission | Attribution | Locking/payment | Restrictions | Implementation status | Next action | Checked date |

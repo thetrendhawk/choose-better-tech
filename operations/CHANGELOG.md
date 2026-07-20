@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-20 — Optery affiliate-readiness audit blocked before destination exposure
+
+- Created issue #44 and completed a sanitized review of Optery's public Affiliate Program page, Affiliate Referral Agreement, Help Center restrictions, and current pricing context.
+- Recorded the public 30%-for-first-12-months presentation, 90-day tracking claim, 35-day payout claim, refund/reversal treatment, disclosure requirement, and paid-search, impersonation, direct paid-ad, spam, trademark, and link-masking restrictions.
+- Audited existing Optery review, comparisons, decision hub, and timing guide. Preserved all rankings and fit-based verdicts; no commercial CTA was added.
+- Stopped before storing the owner-supplied destination because CBT's current centralized registry is a committed client-side TypeScript module whose contents are emitted to the static browser bundle. The destination is absent from repository records, issue #44, and this changelog.
+- Owner action required: approve and configure a private centralized server-side/edge destination mechanism, then re-authorize implementation after an authenticated Affiliate Tool / Program Policies refresh.
+
 ### 2026-07-20 — Primary-domain migration completion recorded
 
 - Production-verified `choosebettertech.thrwds.com` returns a one-hop HTTP 301 to `choosebettertech.com` for GET and HEAD.
