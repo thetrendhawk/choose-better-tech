@@ -43,3 +43,15 @@ Next recheck: 2026-07-27, or sooner when authenticated Search Console access is 
 ## Expansion-gate result
 
 **Satisfied on 2026-07-20 by owner-supplied sanitized Search Console URL Inspection evidence.** `/best-antivirus-software` and `/reviews/totalav-review` are indexed, and Google selected each inspected URL as canonical. Search Console reports no user-declared canonical for the TotalAV review; that is a separate cleanup item and does not block the approved article. No raw screenshots were supplied or claimed.
+
+## Domain-migration completion
+
+Verified from production on 2026-07-20:
+
+- `https://choosebettertech.thrwds.com/` returns HTTP 301 to `https://choosebettertech.com/` for GET and HEAD.
+- Existing content paths, including `/best-antivirus-software` and `/reviews/totalav-review`, redirect in one hop to the matching canonical `.com` path and finish at HTTP 200.
+- Query strings are preserved by the legacy-host redirect.
+- The canonical `.com` host does not redirect back to the legacy host; no loop was observed.
+- The proposed Defender route also preserves its path and query through the redirect, but correctly finishes at 404 on production until PR #43 receives owner approval and is merged.
+
+The owner reported that Google Search Console Change of Address validation passed. This is recorded as owner-supplied platform evidence; it was not independently reproduced from an authenticated Search Console session in this execution environment.

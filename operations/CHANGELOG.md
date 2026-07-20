@@ -11,6 +11,13 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-20 — Primary-domain migration completion recorded
+
+- Production-verified `choosebettertech.thrwds.com` returns a one-hop HTTP 301 to `choosebettertech.com` for GET and HEAD.
+- Verified root, Best Antivirus Software, TotalAV Review, and a query-bearing proposed guide path preserve their matching paths and query strings; existing canonical destinations finish at HTTP 200 without redirect loops.
+- Recorded the owner-confirmed Google Search Console Change of Address validation as passed while distinguishing that platform evidence from independently reproducible repository checks.
+- No redirect implementation, application route, article, ranking, affiliate destination, or production content changed in this documentation reconciliation.
+
 ### 2026-07-20 — Windows Defender capability guide prepared for owner merge decision
 
 - Completed issue #42 research, a 23-claim ledger, intent audit, editorial draft, implementation, three independent correction passes, and a 39/40 final score.

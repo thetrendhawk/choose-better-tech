@@ -204,12 +204,14 @@ External visual QA for `Best VPNs for Families` covered desktop/mobile hero, qui
 | Primary Production Domain | `https://choosebettertech.com` |
 | Canonical URL Status | Active as of 2026-07-09 |
 | Historical Temporary Domain | `https://choosebettertech.thrwds.com` |
+| Historical Domain Redirect | Complete — one-hop HTTP 301 to the matching `https://choosebettertech.com` path; GET/HEAD and query preservation verified 2026-07-20 |
+| Google Search Console Change of Address | Passed — owner-confirmed 2026-07-20 |
 | Historical Vercel Preview Domain | `https://choose-better-tech.vercel.app` |
 | WWW Behavior | `https://www.choosebettertech.com` redirects to `https://choosebettertech.com` in Vercel |
 
 - Public canonical tags, Open Graph URLs, structured-data URLs, `robots.txt`, and `sitemap.xml` should use `https://choosebettertech.com`.
 - The temporary `thrwds.com` and `vercel.app` domains should not be treated as canonical.
-- Old-domain redirect behavior should be managed in Vercel or DNS settings rather than app routing unless a future deployment architecture requires code-managed redirects.
+- Old-domain redirect behavior is active at the hosting layer. Root, content paths, and query preservation were production-verified on 2026-07-20; maintain this redirect while Google processes the completed Change of Address migration.
 
 ## Search Console / Sitemap Submissions
 

@@ -345,6 +345,7 @@ This is the active forward-looking queue. It supersedes the Near-Term Sequence b
 | ---: | --- | --- | --- |
 | 1 | Windows Defender vs Paid Antivirus | Merge-ready — issue #42 owner-authorized, PR #43 awaiting owner decision | Explicit owner approval before merge; then production and IndexNow verification |
 | 2 | Is Antivirus Still Necessary? | Existing intent already served; no duplicate authorized | Monitor the existing Windows 11 necessity guide |
+| 3 | TotalAV Search Console canonical cleanup | Non-blocking investigation | Determine why URL Inspection reported no user-declared canonical even though Google selected the inspected URL; do not block PR #43 |
 | 4 | Best PC Cleanup Tools | Hold | Separate category-risk / safety research before any authorization |
 | 5 | AI Productivity cluster | Not approved | Full topic-cluster approval under `operations/TOPIC_CLUSTER_APPROVAL_POLICY.md` |
 
