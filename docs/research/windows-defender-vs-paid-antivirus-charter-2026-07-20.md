@@ -5,11 +5,11 @@
 - Approved in: issue #42 on 2026-07-20
 - Article type: narrow consumer decision guide
 - Research mode: current primary-source and independent-lab review; no hands-on product testing
-- Status: `RESEARCH COMPLETE — DRAFT NOT STARTED`
+- Status: `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED`
 
 ## Exact reader question
 
-> Is Microsoft Defender enough for my Windows use, or does a paid suite solve a real missing need?
+> Which concrete household, platform, parental-control, support, or bundle capability would a paid antivirus suite add beyond my current Windows setup?
 
 The target reader is an ordinary home Windows user who already knows antivirus exists and is deciding whether paying adds a capability they will use. The reader is not asking which commercial product ranks first.
 

@@ -1,8 +1,8 @@
-# Windows Defender vs Paid Antivirus: Is Built-In Protection Enough for You?
+# Windows Defender vs Paid Antivirus: What Are You Paying For?
 
-Status: Final editorial draft for implementation  
-Route: `/guides/windows-defender-vs-paid-antivirus`  
-Evidence checked: July 20, 2026  
+Status: Superseded by corrected implemented copy after independent review
+Route: `/guides/windows-defender-vs-paid-antivirus`
+Evidence checked: July 20, 2026
 Testing mode: Web research only; no hands-on product testing
 
 ## Editorial purpose
@@ -43,7 +43,7 @@ This distinction matters because a reader can already have Microsoft Defender An
 
 ### 1. Core malware protection
 
-Microsoft Defender Antivirus is not merely an emergency fallback. AV-TEST awarded it 6/6 for protection, performance, and usability in both its January–February 2026 and March–April 2026 Windows 11 consumer tests. AV-Comparatives also placed Microsoft within the top protection cluster in its February–May 2026 real-world protection test.
+Microsoft Defender Antivirus is not merely an emergency fallback. AV-TEST awarded it 6/6 for protection, performance, and usability in both its January–February 2026 and March–April 2026 Windows 11 consumer tests. The same current Windows results include paid products with full scores, so the evidence supports capable options on both sides rather than treating payment as proof of better protection.
 
 These are bounded results from particular test periods, configurations, samples, and scoring methods. They do not prove that Defender will stop every threat or perform identically on every PC. They do show that a paid subscription should not be justified with the blanket claim that built-in protection is ineffective.
 
@@ -224,5 +224,4 @@ Start with the gap, verify the feature, check the renewal terms, and keep the re
 
 ## Visible source plan
 
-The implemented article will visibly group and link Microsoft documentation, two current AV-TEST result pages, the February–May 2026 AV-Comparatives report, CISA guidance, and narrowly used official provider documentation. Full source handling and allowed wording are recorded in the source matrix and claim ledger.
-
+The implemented article visibly groups and links Microsoft documentation, two current AV-TEST result pages, the current AV-TEST Windows result set, a dated CISA four-steps tip sheet, CISA device-data training, and narrowly used official provider documentation. Full source handling and allowed wording are recorded in the source matrix and claim ledger. The AV-Comparatives report evaluated during research was excluded from publication because its PDF requires prior written agreement to reuse results.

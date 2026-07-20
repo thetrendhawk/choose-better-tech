@@ -50,6 +50,23 @@ Avoid using the existing guide's core headings as the structural spine. FAQ cove
 
 Before the PR is merge-ready, compare title, description, H1, first 300 words, all H2s, FAQs, conclusion, and internal anchors against the three live pages. Any product winner, price, provider table, generic necessity framing, or TotalAV-specific analysis fails the audit.
 
+## Corrected final-copy audit — 2026-07-20
+
+The first independent pass found that the working title, description, H1, first H2, and homepage excerpt still overemphasized whether Defender is “enough.” Those discovery surfaces were corrected before the second review:
+
+| Surface | Corrected role | Cannibalization result |
+| --- | --- | --- |
+| Title/H1 | “Windows Defender vs Paid Antivirus: What Are You Paying For?” | Capability and purchase-value intent, not a generic necessity question. |
+| Meta description | Names household, platform, support, parental-control, and bundle capabilities | Does not promise a universal enough/not-enough answer. |
+| First H2 | “Start with the capability gap, not the subscription” | Begins with the audit rather than recreating the necessity guide's verdict. |
+| First 300 words | Defines the page as a pre-shopping capability audit and links the broad question away | Passes the feeder-page control. |
+| Homepage excerpt | Lists the concrete capability categories a reader should audit | Avoids duplicating the necessity guide's discovery promise. |
+| H2 set | Naming, capability matrix, evidence limits, provider switching, bundle decomposition, worksheet, shared limits | No provider ranking, pricing table, or Windows feature inventory. |
+| FAQ | Payment, bundles, provider switching, family controls, managed-device boundary, and testing | Does not become a second generic “do I need antivirus?” FAQ set. |
+| Conclusion | Pay only for a defined and verified capability | Sends provider choice to the ranking rather than naming a winner. |
+
+Final-copy comparison result after corrections: **PASS — capability-gap intent retained**. The necessity guide continues to own the broad need question; the ranking continues to own product selection; the new route owns pre-purchase capability decomposition.
+
 ## Conclusion
 
 The route has a defensible distinct role only as a **paid-capability gap audit**. With the controls above, it supports rather than competes with the necessity guide and commercial ranking.

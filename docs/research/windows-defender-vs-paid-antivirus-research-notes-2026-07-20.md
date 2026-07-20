@@ -33,7 +33,7 @@ Microsoft's consumer antivirus provider page and Windows Security documentation 
 
 ### Current labs support "credible baseline," not universal sufficiency
 
-AV-TEST reported full category scores for Defender in its January–February and March–April 2026 Windows 11 consumer cycles. AV-Comparatives' February–May 2026 report placed Microsoft in the top protection cluster and recorded no false alarms in that report's clean-file/domain set. Each result is bounded by its product version, settings, Windows build, sample set, hardware, methodology, and date. CBT did not reproduce any test.
+AV-TEST reported full category scores for Defender in its January–February and March–April 2026 Windows 11 consumer cycles. The same current Windows result set includes paid products with full scores, which supplies the necessary paid-side balance without turning this guide into a ranking. Each result is bounded by its product version, settings, Windows build, sample set, hardware, methodology, and date. CBT did not reproduce any test.
 
 The publication-safe conclusion is that current independent evidence does not support treating Defender as obviously inadequate. It does not establish permanent superiority, perfect protection, or the same result on every PC.
 
@@ -47,7 +47,7 @@ Microsoft Family Safety provides family-group administration, limits, permission
 
 ### Security remains a system, not one product
 
-CISA's Secure Our World guidance emphasizes phishing recognition, strong unique passwords/password managers, MFA, and software updates. Antivirus does not replace those controls. A paid suite's VPN, password manager, identity monitoring, or backup solves a different problem and must be judged separately.
+CISA's dated 2024 four-steps tip sheet separately addresses phishing recognition, strong unique passwords/password managers, MFA, and software updates. Its device-data training also treats frequent backups as a separate recovery control. Neither is described as current policy. Antivirus does not replace those controls. A paid suite's VPN, password manager, identity monitoring, or backup solves a different problem and must be judged separately.
 
 ### Support status matters before antivirus brand
 
@@ -78,7 +78,7 @@ Microsoft's lifecycle records show Windows 11 servicing is version-specific. The
 - Microsoft consumer/support pages sometimes use "Microsoft Defender," "Microsoft Defender Antivirus," and "Windows Security" in ways readers can conflate. The article must define the terms.
 - Enterprise Defender compatibility documentation includes passive-mode and Defender for Endpoint cases that do not map cleanly to ordinary consumer PCs. Consumer guidance therefore relies on Microsoft consumer pages and avoids enterprise passive-mode detail.
 - Provider feature pages are marketing sources and change by plan/platform. They establish only that a category is offered, not its quality or independence.
-- AV-Comparatives places reuse conditions in its report. The article should summarize bounded conclusions and link to the report, not reproduce its table.
+- The AV-Comparatives February-May 2026 PDF says use of its results requires prior written agreement. CBT has no documented permission, so the result is excluded from the article, visible sources, claim ledger, and volatile register rather than summarized.
 
 ## Volatile facts and refresh triggers
 
@@ -86,7 +86,7 @@ Microsoft's lifecycle records show Windows 11 servicing is version-specific. The
 | --- | --- | --- |
 | Defender/third-party active-provider behavior | Medium | Microsoft documentation or Windows Security registration change |
 | Windows Security feature names | Medium | Material Windows Security UI/documentation change |
-| AV-TEST and AV-Comparatives results | High | New comparable Windows consumer cycle |
+| AV-TEST results | High | New comparable Windows consumer cycle |
 | Microsoft Defender app subscription/platform scope | High | Microsoft 365 or app-support change |
 | Family Safety capabilities | High | Microsoft feature/platform change |
 | Paid-suite example capabilities | High | Provider plan or platform change |
@@ -105,4 +105,4 @@ Defender is a credible baseline for many supported, updated Windows users. Payin
 - Critical/High claim ledger: complete for independent review
 - Monetization Independence Check: PASS
 - Unresolved questions: documented separately; none blocks the narrow draft
-- Status: `RESEARCH COMPLETE — DRAFT NOT STARTED`
+- Status: `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED`

@@ -8,8 +8,8 @@ import { Section } from "../components/ui/Section";
 import { site } from "../utils/site";
 
 const path = "/guides/windows-defender-vs-paid-antivirus";
-const title = "Windows Defender vs Paid Antivirus: Is Built-In Protection Enough for You?";
-const description = "Decide whether Microsoft Defender is enough for your Windows use or a paid antivirus suite closes a specific gap worth paying for.";
+const title = "Windows Defender vs Paid Antivirus: What Are You Paying For?";
+const description = "Audit the household, platform, support, parental-control, and bundle capabilities a paid antivirus suite may add beyond Windows Security.";
 const checkedDate = "July 20, 2026";
 
 const quickVerdict = [
@@ -71,7 +71,7 @@ const separateProblems = [
   ["Password management", "Creates and stores unique credentials. It addresses account takeover and password reuse, not file scanning."],
   ["VPN", "Changes the network path and who can observe parts of your traffic. It does not replace antivirus or stop every malicious download."],
   ["Identity monitoring", "May alert you when tracked information appears in known breach or monitoring sources. It does not prevent the original exposure."],
-  ["Backup", "Provides a recovery copy when designed and tested properly. Antivirus and file-version history are not substitutes for an independent backup."],
+  ["Backup", "Provides a recovery copy when designed and tested properly. Antivirus is not a backup; Windows File History is one scoped backup option whose coverage, storage location, and restore workflow still need verification."],
   ["Parental controls", "Help manage a child's access, time, or activity. They are a family-governance feature, not a malware-detection score."]
 ];
 
@@ -140,8 +140,9 @@ const sourceGroups = [
     links: [
       ["AV-TEST Defender result — January–February 2026", "https://www.av-test.org/en/antivirus/home-windows/windows-11/february-2026/microsoft-defender-antivirus-consumer-4.18-261115/"],
       ["AV-TEST Defender result — March–April 2026", "https://www.av-test.org/en/antivirus/home-windows/windows-11/april-2026/microsoft-defender-antivirus-consumer-4.18-261213/"],
-      ["AV-Comparatives Real-World Protection Test — February–May 2026", "https://av-comparatives.org/wp-content/uploads/2026/06/avc_real-world_protection_2026a-1.pdf"],
-      ["CISA Secure Our World", "https://www.cisa.gov/secure-our-world"]
+      ["AV-TEST Windows 11 home antivirus results", "https://www.av-test.org/en/antivirus/home-windows/"],
+      ["CISA Secure Our World four-steps tip sheet (2024)", "https://www.cisa.gov/sites/default/files/2024-09/Secure-Our-World-4-Easy-Ways-Stay-Safe-Online-Tip-Sheet.pdf"],
+      ["CISA guidance for protecting data stored on devices", "https://www.cisa.gov/resources-tools/training/how-protect-data-stored-your-devices"]
     ]
   },
   {
@@ -183,7 +184,7 @@ export function WindowsDefenderVsPaidAntivirusPage() {
         <p className="text-sm font-black uppercase tracking-[.18em] text-teal-700">Cybersecurity tools · capability guide</p>
         <h1 className="mt-5 max-w-5xl text-4xl font-black tracking-tight text-slate-950 sm:text-6xl">{title}</h1>
         <p className="mt-6 max-w-3xl text-2xl font-medium leading-9 text-slate-700">For many people on a supported, updated Windows PC, Defender is a credible baseline. Pay only when a suite closes a specific gap you can name and verify.</p>
-        <ArticleMeta title={title} description={description} path={path} authorName="Choose Better Tech Editorial" datePublished="2026-07-20" dateModified="2026-07-20" displayDate={checkedDate} showVisibleDetails />
+        <ArticleMeta title={title} description={description} path={path} authorName="Choose Better Tech" authorType="Organization" datePublished="2026-07-20" dateModified="2026-07-20" displayDate={checkedDate} showVisibleDetails visibleCreditLabel="Editorially reviewed by" />
         <div className="mt-7 max-w-3xl rounded-2xl border border-amber-300 bg-amber-50 p-7 text-base leading-7 text-slate-800"><strong>Web-research-only disclosure:</strong> CBT reviewed current Microsoft documentation, government guidance, independent laboratory reports, and attributed provider documentation. We did not install, benchmark, or hands-on test Defender or any paid suite.</div>
         <p className="mt-5 text-base text-slate-600">Sources refreshed {checkedDate}. No affiliate product link or paid-product winner appears in this guide.</p>
       </Container>
@@ -193,8 +194,8 @@ export function WindowsDefenderVsPaidAntivirusPage() {
       <Section>
         <Container>
           <div className="longform-reading">
-            <h2 className="longform-section-title">Direct answer: Defender is enough until you find a real gap</h2>
-            <p className="mt-6 longform-copy">Microsoft Defender Antivirus is not an empty or token layer waiting to be replaced. It is the built-in malware engine inside Windows Security. Current results from AV-TEST and AV-Comparatives support treating it as a credible starting point under those labs' dated methods—not as perfect protection and not as a permanent winner.</p>
+            <h2 className="longform-section-title">Start with the capability gap, not the subscription</h2>
+            <p className="mt-6 longform-copy">Microsoft Defender Antivirus is not an empty or token layer waiting to be replaced. It is the built-in malware engine inside Windows Security. Two current AV-TEST cycles support treating it as a credible starting point under that lab's dated method—not as perfect protection and not as a permanent winner.</p>
             <p className="mt-5 longform-copy">A paid suite is reasonable when it gives you something operationally useful that your current setup lacks: one household dashboard, verified cross-platform management, a needed parental-control function, access to support, or a bundle component you would otherwise buy separately. If you cannot name the gap, do not let “more features” substitute for a decision.</p>
             <p className="mt-5 longform-copy">Still asking whether you need another antivirus at all? Start with <Link className="font-semibold text-teal-700 underline underline-offset-4" to="/guides/do-you-still-need-antivirus-on-windows-11">Do You Still Need Antivirus on Windows 11?</Link>. This page begins after that broad question and audits what paying would change.</p>
           </div>
@@ -230,8 +231,8 @@ export function WindowsDefenderVsPaidAntivirusPage() {
 
       <Section className="bg-slate-950 text-white">
         <Container>
-          <div className="longform-reading"><h2 className="longform-section-title">What current independent tests can—and cannot—tell you</h2><p className="mt-6 text-lg leading-8 text-slate-200">AV-TEST gave Defender full protection, performance, and usability scores in both its January–February and March–April 2026 Windows 11 consumer cycles. AV-Comparatives' February–May 2026 real-world report also placed Microsoft in its top protection cluster under that different methodology.</p><p className="mt-5 text-lg leading-8 text-slate-200">Together, those results support “credible baseline.” They do not prove that Defender catches every future threat, that it performs the same on every PC, or that no paid product can fit someone better. Each result belongs to a product version, settings, Windows build, hardware setup, sample set, test method, and date.</p></div>
-          <div className="mt-9 rounded-2xl border border-slate-700 bg-slate-900 p-7"><p className="font-black text-teal-300">The purchasing implication</p><p className="mt-3 max-w-4xl text-base leading-7 text-slate-200">Do not buy merely to escape an allegedly useless built-in product. Compare current protection, false positives, measured impact, and continuity only after deciding that another provider or capability matters to you. CBT did not reproduce either lab's tests.</p></div>
+          <div className="longform-reading"><h2 className="longform-section-title">What current independent tests can—and cannot—tell you</h2><p className="mt-6 text-lg leading-8 text-slate-200">AV-TEST gave Defender full protection, performance, and usability scores in both its January–February and March–April 2026 Windows 11 consumer cycles. The same current Windows results also include paid products with full scores. Strong paid products exist, but payment and bundle size do not prove stronger core protection.</p><p className="mt-5 text-lg leading-8 text-slate-200">Those results support “credible baseline,” not a permanent Defender victory. They do not prove that Defender catches every future threat, that it performs the same on every PC, or that no paid product can fit someone better. Each result belongs to a product version, settings, Windows build, hardware setup, sample set, test method, and date.</p></div>
+          <div className="mt-9 rounded-2xl border border-slate-700 bg-slate-900 p-7"><p className="font-black text-teal-300">The purchasing implication</p><p className="mt-3 max-w-4xl text-base leading-7 text-slate-200">Do not buy merely to escape an allegedly useless built-in product. Compare current protection, false positives, measured impact, and continuity only after deciding that another provider or capability matters to you. CBT did not reproduce those tests.</p></div>
         </Container>
       </Section>
 
@@ -271,7 +272,7 @@ export function WindowsDefenderVsPaidAntivirusPage() {
 
       <Section>
         <Container>
-          <div className="longform-reading"><h2 className="longform-section-title">Limits shared by Defender and paid suites</h2><p className="mt-6 longform-copy">No antivirus can guarantee that you will never be infected, phished, scammed, tracked, or lose data. It cannot make an unsupported operating system supported, force you to install updates, prevent you from approving a fraudulent payment, or recover files when no usable backup exists.</p><p className="mt-5 longform-copy">CISA's consumer guidance emphasizes phishing awareness, strong unique passwords, password managers, MFA, and software updates. Those controls matter whether the antivirus is built in or paid. Backups and recovery testing remain separate again.</p><div className="mt-8 rounded-2xl border border-amber-300 bg-amber-50 p-7 text-base leading-7 text-slate-800"><strong>Consumer/business boundary:</strong> A work- or school-managed PC may need organization-approved endpoint security, policy enforcement, logging, access controls, and incident response. Follow the administrator. A consumer suite is not a substitute for an organizational security program.</div></div>
+          <div className="longform-reading"><h2 className="longform-section-title">Limits shared by Defender and paid suites</h2><p className="mt-6 longform-copy">No antivirus can guarantee that you will never be infected, phished, scammed, tracked, or lose data. It cannot make an unsupported operating system supported, force you to install updates, prevent you from approving a fraudulent payment, or recover files when no usable backup exists.</p><p className="mt-5 longform-copy">CISA's 2024 four-steps tip sheet separately emphasizes phishing awareness, strong unique passwords, password managers, MFA, and software updates. CISA's device-data training also recommends frequent backups. Those controls matter whether the antivirus is built in or paid, and a backup remains a separate recovery layer.</p><div className="mt-8 rounded-2xl border border-amber-300 bg-amber-50 p-7 text-base leading-7 text-slate-800"><strong>Consumer/business boundary:</strong> A work- or school-managed PC may need organization-approved endpoint security, policy enforcement, logging, access controls, and incident response. Follow the administrator. A consumer suite is not a substitute for an organizational security program.</div></div>
         </Container>
       </Section>
 
@@ -285,7 +286,7 @@ export function WindowsDefenderVsPaidAntivirusPage() {
         <Container>
           <div className="max-w-5xl"><h2 className="longform-section-title">Evidence checked for this guide</h2><p className="mt-5 longform-reading longform-copy-muted">Sources were refreshed {checkedDate}. Microsoft pages establish platform behavior; lab reports provide bounded independent evidence; provider pages only illustrate capability categories. None is used as proof of universal superiority.</p>
             <div className="mt-9 grid gap-6 lg:grid-cols-2">{sourceGroups.map((group) => <section key={group.title} className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm"><h3 className="text-xl font-black text-slate-950">{group.title}</h3><ul className="mt-5 space-y-4">{group.links.map(([label, href]) => <li key={href}><ExternalLink href={href}>{label}</ExternalLink></li>)}</ul></section>)}</div>
-            <p className="mt-8 longform-reading longform-copy-muted"><strong>Methodology:</strong> CBT compared official Windows documentation, two current AV-TEST cycles, a current AV-Comparatives report, government guidance, and attributed provider capability documentation. We did not reproduce lab tests or evaluate paid products hands-on. Recommendations remain independent of affiliate availability.</p>
+            <p className="mt-8 longform-reading longform-copy-muted"><strong>Methodology:</strong> CBT compared official Windows documentation, two current AV-TEST cycles and the current AV-TEST Windows result set, active government resources, and attributed provider capability documentation. We did not reproduce lab tests or evaluate paid products hands-on. Recommendations remain independent of affiliate availability.</p>
           </div>
         </Container>
       </Section>
