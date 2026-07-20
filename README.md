@@ -79,7 +79,7 @@ The full standards are in `operations/`; see "Canonical documentation" below for
 
 ## Affiliate implementation rule
 
-- Raw affiliate destinations are centralized in `src/data/affiliateLinks.ts`. Articles, guides, hubs, and comparisons must not hard-code raw affiliate URLs.
+- Direct affiliate destinations are centralized in `src/data/affiliateLinks.ts`. Articles, guides, hubs, and comparisons must not hard-code raw affiliate URLs. A program designated as sensitive may instead use an internal server-side redirect route whose destination is held only in a private runtime environment variable.
 - Affiliate-program approval or account creation does not, by itself, authorize link placement, editorial mention, or ranking influence. Each of those is a separate, explicitly authorized step.
 - Affiliate links are implemented only after editorial need is established independently, program terms are verified, and a separate implementation task is authorized. See `operations/AFFILIATE_PLAYBOOK.md` for current per-provider status.
 

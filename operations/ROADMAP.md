@@ -8,6 +8,7 @@ Last Updated: 2026-07-20
 ## Active Evaluation Task
 
 - Privacy Bee hands-on evaluation is active. A canonical sanitized log exists, the support-response test is awaiting a human answer, and future actions follow `operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md`. No publication, verdict, ranking, or affiliate activation is authorized.
+- Optery affiliate redirect and review-only placement are implemented with no raw destination in source or static output. Preview/Production private environment-variable configuration and Preview browser validation remain pending owner action. No ranking or verdict changed. See `docs/monetization/optery-affiliate-readiness-2026-07-20.md`.
 
 ## Roadmap Summary
 

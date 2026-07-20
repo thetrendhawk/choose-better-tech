@@ -3,6 +3,7 @@ import { affiliateLinks, type AffiliateLinkRecord, type AffiliateProvider } from
 export type ResolvedAffiliateLink = AffiliateLinkRecord & {
   href: string;
   isExternal: boolean;
+  isAffiliateLink: boolean;
 };
 
 const educationalFallback = "/guides/vpn-buying-guide";
@@ -20,6 +21,7 @@ export function getAffiliateLink(provider: AffiliateProvider): ResolvedAffiliate
   return {
     ...record,
     href,
-    isExternal: href.startsWith("http")
+    isExternal: href.startsWith("http"),
+    isAffiliateLink: record.trackingEnabled
   };
 }

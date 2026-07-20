@@ -40,7 +40,7 @@ This table reflects only what is actually implemented in `src/data/affiliateLink
 | Proton Mail | CJ / Proton Partners Program | PENDING | Future-use only; do not activate until a Proton Mail page exists and the landing page is confirmed. |
 | Proton Unlimited | MaxBounty | PENDING | Future-use only; do not activate unless a Proton suite page is built. |
 | Incogni | None | INTERNAL_ONLY | Internal fallback only unless registry changes. |
-| Optery | None | INTERNAL_ONLY | Internal fallback only unless registry changes. |
+| Optery | PartnerStack | INTERNAL_ONLY | Program terms reviewed; no live destination. Implementation is blocked because the current registry is public source-controlled and the supplied destination is sensitive. |
 | DeleteMe | None | INTERNAL_ONLY | Internal fallback only unless registry changes. |
 
 Acronis does not currently have a registry entry. Its advertiser approval, reviewed terms, and generated consumer tracking link are documented below as pre-implementation operational facts only.
@@ -58,6 +58,24 @@ No Cloud Storage provider (pCloud, Sync.com, Internxt, Tresorit, Proton Drive, o
 - Do not claim an advertiser has approved CBT unless a specific, attributable, repository-recorded fact establishes that approval (e.g., an approval notice, an active tracked link issued by the advertiser/network, or an explicit written confirmation). Dashboard access alone is not approval evidence.
 
 ## Program-Specific Restrictions
+
+### Optery via PartnerStack — consumer affiliate program
+
+Checked date: 2026-07-20
+
+- **Advertiser approval:** Not inferred from the supplied custom link or dashboard observation; no approval claim is made in this record.
+- **Terms review:** `TERMS_REVIEWED` from Optery's public Affiliate Referral Agreement, Help Center restrictions summary, and Affiliate Program page. The authenticated Affiliate Tool and incorporated Program Policies remain a required pre-activation refresh source.
+- **Public commission presentation:** Optery says 30% commission for the first 12 months for each new customer. The exact eligible-payment and retention rules remain controlled by the Affiliate Tool / Program Policies.
+- **Attribution:** Optery says a click starts a 90-day window and a later click resets it; cookie blocking can prevent tracking. The Agreement leaves the binding validity period to the Affiliate Tool / Program Policies.
+- **Payout:** Optery says commissions are processed 35 days after a referral customer transaction; payment prerequisites and any network threshold/method must be confirmed in the authenticated tool.
+- **Restrictions:** No Optery-branded paid search or misspellings; no ad copy/URL containing the mark; no direct paid-ad links; no impersonation, link masking, cookie stuffing, unsolicited bulk email, or mass SMS. Use of marks/materials is limited to approved assets and may not imply endorsement.
+- **Disclosure:** The Agreement requires clear disclosure of the partner relationship on Partner-owned websites.
+- **Registry status:** `ACTIVE — INTERNAL REDIRECT ONLY`. The client registry contains only `/api/go/optery`; the supplied destination remains absent from the repository and static output.
+- **Editorial activation:** Active only on `/reviews/optery-review`. Existing Optery editorial conclusions remain unchanged and are documented in `docs/quality/optery-affiliate-independence-audit-2026-07-20.md`.
+- **Implementation status:** `IMPLEMENTED — VERCEL ENVIRONMENT CONFIGURATION / PREVIEW VALIDATION REQUIRED`. The Vercel serverless route reads `OPTERY_AFFILIATE_URL` only at runtime and fails safely when unavailable or invalid.
+- **Full sanitized record:** `docs/monetization/optery-affiliate-readiness-2026-07-20.md`.
+
+**Durable Optery rule:** Unless future written terms explicitly authorize it, CBT must not run Optery-branded paid search, bid on Optery misspellings, impersonate Optery, or direct paid ads to Optery.
 
 ### RoboForm
 

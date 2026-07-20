@@ -136,13 +136,13 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   },
   optery: {
     provider: "optery",
-    network: "Optery Affiliate Program",
-    status: "PENDING",
-    destination: "",
+    network: "PartnerStack / Optery Affiliate Program",
+    status: "ACTIVE",
+    destination: "/api/go/optery",
     internalFallback: "/reviews/optery-review",
     disclosureRequired: true,
-    trackingEnabled: false,
-    lastVerified: "2026-07-19"
+    trackingEnabled: true,
+    lastVerified: "2026-07-20"
   },
   deleteme: {
     provider: "deleteme",

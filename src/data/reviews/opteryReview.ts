@@ -8,12 +8,12 @@ export const opteryReview: ReviewPageContent = {
   productName: "Optery",
   applicationCategory: "Data Removal Service",
   affiliateProvider: "optery",
-  ctaLabel: "Check Current Optery Plans",
+  ctaLabel: "Explore Optery Plans",
   editorialMeta: {
     authorName: "Aaron Evans",
     datePublished: "2026-07-19",
-    dateModified: "2026-07-19",
-    displayDate: "July 19, 2026"
+    dateModified: "2026-07-20",
+    displayDate: "July 20, 2026"
   },
   executiveSummary: [
     "Optery is a strong fit for people who want to find and reduce public exposure on people-search and data-broker sites without handling every opt-out themselves.",
@@ -26,7 +26,7 @@ export const opteryReview: ReviewPageContent = {
     { label: "Best For", value: "People-search exposure, beginners, families, and users who want visible reporting" },
     { label: "Standout Feature", value: "Free exposure report and screenshot-based removal reports" },
     { label: "Main Limitation", value: "Reduces exposure; does not erase you from the internet" },
-    { label: "Affiliate Status", value: "Application pending; no paid affiliate link is active" }
+    { label: "Affiliate Status", value: "Affiliate link available; editorial verdict remains independent" }
   ],
   decisionSnapshot: [
     { label: "Good Fit For", value: "People who want recurring data-broker cleanup, profile links, and more visible proof than a simple dashboard counter." },

@@ -8,9 +8,9 @@ const primaryButtonClasses = "inline-flex min-h-11 items-center justify-center g
 export function AffiliateButton({ children, provider }: { children: string; provider: AffiliateProvider }) {
   const link = getAffiliateLink(provider);
 
-  if (link.isExternal) {
+  if (link.isExternal || link.isAffiliateLink) {
     return (
-      <a className={primaryButtonClasses} href={link.href} rel={link.trackingEnabled ? "nofollow sponsored noopener noreferrer" : "noopener noreferrer"} target="_blank">
+      <a aria-label={`${children} (opens in a new tab)`} className={primaryButtonClasses} href={link.href} rel={link.trackingEnabled ? "nofollow sponsored noopener noreferrer" : "noopener noreferrer"} target="_blank">
         {children}
         <ExternalLink size={16} aria-hidden="true" />
       </a>

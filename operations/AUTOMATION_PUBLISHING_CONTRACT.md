@@ -98,7 +98,7 @@ Do not, unless explicitly authorized:
 - Do not compress an entire page into one line.
 - Reuse established components.
 - Avoid global changes unless they are required and explicitly authorized.
-- Keep raw affiliate URLs in `src/data/affiliateLinks.ts` only.
+- Keep direct raw affiliate URLs in `src/data/affiliateLinks.ts` only. When a program is explicitly designated as sensitive, keep only its internal redirect route in that registry and read the destination only from a private server-side runtime environment variable.
 
 ## Publication Contract
 
