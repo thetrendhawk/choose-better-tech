@@ -345,7 +345,7 @@ Status: Not yet tested.
 
 ## Outstanding tests
 
-1. Record the pending human support reply and assess whether it resolves the metric discrepancy.
+1. Preserve the second human support reply and the partially unresolved metric discrepancy.
 2. Complete the seven-day removal-progress recheck.
 3. Verify one or two completed-removal records externally.
 4. Submit one controlled custom URL removal for a clearly verified owner exposure.
@@ -370,7 +370,7 @@ Before any additional product action:
 - capture the immediate result privately;
 - update this file again before moving to the next test.
 
-Next test: await and record the human support response. Future tests must follow the [controlled runbook](../../operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md) in its stated order.
+Next test: complete the seven-day removal-progress recheck on or after July 24, 2026. Future tests must follow the [controlled runbook](../../operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md) in its stated order.
 
 ## Change log
 
@@ -388,19 +388,19 @@ Next test: await and record the human support response. Future tests must follow
 
 Six false or irrelevant Identity Vault candidates were ignored across two controlled batches. Five active records remained. A known former address was then added as a controlled test, increasing the active record count from five to six and displaying 11 associated exposures.
 
-The dashboard removals-requested count increased from 15 to 16, while the all-time removals-requested count increased from 16 to 17. Later observed values were: Privacy Risk Score 90/100; potential matches 60; scans 179; exposures found 45; dashboard removals requested 16; all-time removals requested 17; completed removals 2; in-progress removals 15; and re-exposures 0.
+The dashboard removals-requested count increased from 15 to 16, while the all-time removals-requested count increased from 16 to 17. The 17 all-time requests were validated as 15 in-progress plus 2 closed records. Later observed values were: Privacy Risk Score 90/100; potential matches 60; scans 179; exposures found 45; dashboard removals requested 16; all-time removals requested 17; completed removals 2; in-progress removals 15; and re-exposures 0. Support later affirmed that all-time activity increased to 31 as Privacy Bee continued submitting requests. This is request volume, not successful removal performance.
 
 The formerly exposed authenticator seed was replaced before account activation. Raw screenshots, exposure records, broker names, personal URLs, and identity details remain private.
 
 Privacy Bee support explained that the dashboard metric covers requests submitted during the previous six months, while the all-time metric covers requests submitted since Pro membership began, including completed and in-progress requests. Support also noted that Protection Level and “Not Covered” settings can affect which companies receive requests.
 
-Because the evaluation account was only days old, the time-window explanation did not identify the exact additional request.
+Because the evaluation account was only days old, changing the Digital Footprint timeframe to three or nine months did not change the figures. Timeframe filtering therefore did not explain why the dashboard showed 16 while the underlying in-progress and closed statuses totaled 17.
 
 Current status:
 
-`PARTIALLY EXPLAINED — EXACT ADDITIONAL REQUEST NOT IDENTIFIED`
+`ALL-TIME COUNT VALIDATED — DASHBOARD COUNT DIFFERENCE NOT FULLY EXPLAINED`
 
-A focused follow-up to identify the exact seventeenth request has not yet been sent. The support conversation was later marked resolved by Privacy Bee.
+The all-time total of 17 was validated, and the later all-time total of 31 was affirmed by support. Completed or closed outcomes and external verification remain separate evaluation measures. The support conversation was later marked resolved by Privacy Bee.
 
 ### 2026-07-19
 

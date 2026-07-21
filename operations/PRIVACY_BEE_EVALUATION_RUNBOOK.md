@@ -41,17 +41,17 @@ The canonical log remains authoritative. Its sanitized baseline records:
 - auto-renew: off when checked on 2026-07-19;
 - LPOA: unsigned.
 
-These figures use different product definitions and must not be combined. The support-responsiveness test is partially explained: a human response defined the two metrics but did not identify the exact additional request; the conversation was later marked resolved and a focused follow-up remains pending.
+These figures use different product definitions and must not be combined. Human support validated the all-time total of 17 as 15 in-progress plus 2 closed records and later affirmed a total of 31 after continued request submission. The dashboard difference remains not fully explained; request volume is not successful removal performance.
 
 ## Remaining test sequence
 
 Follow this order. Do not advance to a later test merely because it is convenient.
 
-### 1. Human support follow-up
+### 1. Human support reconciliation
 
-- Send a focused follow-up asking Privacy Bee to identify the exact additional request responsible for the 16-versus-17 difference.
-- Record the response and whether the discrepancy is resolved.
-- Do not state or imply that the follow-up has already been sent.
+- Preserve the validated 17 and 31 all-time totals and the unresolved dashboard difference.
+- Do not interpret increased request volume as successful removal performance.
+- Continue with the scheduled seven-day removal-progress recheck.
 
 ### 2. Seven-day removal-progress recheck
 
@@ -98,7 +98,7 @@ Follow this order. Do not advance to a later test merely because it is convenien
 
 | Checkpoint | Earliest target date | Owner action | Repository update | Status | Blocker |
 | --- | --- | --- | --- | --- | --- |
-| Human support follow-up | Pending; no fixed date | Ask Privacy Bee to identify the exact additional request | Update canonical log, support-test record, and runbook | Partially explained | Exact additional request remains unidentified |
+| Human support reconciliation | Complete | Preserve validated 17 and 31 totals and unresolved dashboard difference | Update canonical log, support-test record, and runbook | Validated with unresolved dashboard difference | Completed/closed outcomes and external verification remain separate |
 | Seven-day recheck | July 24, 2026 | Access the dashboard and provide dated, sanitized evidence | Record each metric category and delta separately | Scheduled | Owner dashboard access required |
 | Fourteen-day recheck | July 31, 2026 | Access the dashboard and provide dated, sanitized evidence | Record repeated metrics and removal-state elapsed time | Scheduled | Owner dashboard access required |
 | Thirty-day/access review | August 16–18, 2026 | Access the account near expiration and provide dated, sanitized evidence | Record final metrics, billing, access, and unresolved items | Scheduled | Owner account access required |

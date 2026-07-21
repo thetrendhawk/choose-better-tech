@@ -1,6 +1,6 @@
 # Privacy Bee Support Responsiveness Test — 2026-07-19
 
-Status: PARTIALLY EXPLAINED — EXACT ADDITIONAL REQUEST NOT IDENTIFIED
+Status: ALL-TIME COUNT VALIDATED — DASHBOARD COUNT DIFFERENCE NOT FULLY EXPLAINED
 Project: Choose Better Tech
 Related canonical log: [Privacy Bee hands-on evaluation log](privacy-bee-hands-on-evaluation-log.md)
 Publication status: Not authorized
@@ -39,7 +39,13 @@ The widget then asked how Privacy Bee should contact the user if the user left o
 
 A human support representative responded. The response was relevant and clearly defined the two metrics: “Removals Requested” covers DSAR and deletion requests submitted within the previous six months; “All-Time Removal Activity” covers requests submitted since Pro membership began, including completed and in-progress requests; Protection Level settings determine which broker subtypes are enabled; and disabled subtypes may appear as “Not Covered.”
 
-The response did not identify the specific additional request responsible for the seventeenth all-time request. Because the account was only days old, the six-month-versus-all-time explanation did not resolve the exact discrepancy. The conversation was later marked resolved by Privacy Bee. No focused follow-up has yet been sent.
+The response did not identify why the dashboard showed 16 while the underlying in-progress and closed statuses totaled 17. Because the account was only days old, the six-month-versus-all-time explanation did not resolve that dashboard difference.
+
+## Second human support response
+
+Support confirmed in sanitized form that the account joined Privacy Bee on July 17, 2026; changing the Digital Footprint timeframe to three or nine months still showed the same numbers because the account was too new for the ranges to differ; and the Data Brokers page showed 15 Removal In Progress plus 2 Closed, totaling 17 All-Time Removal Activity. Support later affirmed that the current all-time total had increased to 31 as Privacy Bee continued submitting requests. Filtering Data Brokers for Removal In Progress and Closed should total 31. Some companies appear as Not Covered because certain broker subtypes are disabled under Protection Level settings.
+
+The all-time total of 17 was validated as 15 in-progress plus 2 closed records, and the later total of 31 was also affirmed by support. The increase from 17 to 31 is request volume, not successful removal performance; completed or closed outcomes and external verification remain separate evaluation measures. The conversation was later marked resolved by Privacy Bee.
 
 ## Human escalation
 
@@ -62,7 +68,7 @@ Observed completed handoff state:
 - no human response was visible at the time of capture;
 - the support handoff is now treated as established and awaiting reply.
 
-The human response was relevant and its metric definitions were clear, but the exact additional request remains unidentified.
+The human response was relevant, its metric definitions were clear, the all-time totals were validated, and the dashboard count difference remains not fully explained.
 
 ## Privacy boundary
 
@@ -70,4 +76,4 @@ The public repository does not contain the screenshot, personal exposure details
 
 ## Next controlled action
 
-Send a focused follow-up asking Privacy Bee to identify the exact additional request responsible for the 16-versus-17 difference. Do not state or imply that this follow-up has already been sent.
+Continue with the scheduled seven-day removal-progress recheck. Do not interpret increased request volume as successful removal performance.

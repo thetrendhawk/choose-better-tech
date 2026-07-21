@@ -18,7 +18,7 @@ Do not perform this recheck early. Use sanitized values only; keep screenshots, 
 | Active Identity Vault records | Baseline not finalized | 6 | TBD |
 | Ignored identity records | 0 | 6 | TBD |
 | Former-address record | Not added | Added; 11 associated exposures | TBD |
-| Support discrepancy status | Not escalated | Partially explained; follow-up pending | TBD |
+| Support discrepancy status | Not escalated | All-time count validated; dashboard difference not fully explained | TBD |
 
 ## Checks
 
@@ -27,5 +27,6 @@ Do not perform this recheck early. Use sanitized values only; keep screenshots, 
 - Record new interface errors or warnings.
 - Record unexpected count changes without combining differently defined metrics.
 - Record former-address record status and associated exposure count.
-- Preserve exact status: `PARTIALLY EXPLAINED — EXACT ADDITIONAL REQUEST NOT IDENTIFIED` until a focused support response identifies the request.
+- Preserve exact status: `ALL-TIME COUNT VALIDATED — DASHBOARD COUNT DIFFERENCE NOT FULLY EXPLAINED`.
+- Record all-time request volume separately from completed or closed outcomes and external verification.
 - Do not submit a custom URL removal, sign an LPOA, or begin another test unless the runbook prerequisites and owner authorization are satisfied.
