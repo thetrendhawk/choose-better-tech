@@ -31,7 +31,7 @@ These counts use published editorial routes in the current repository and sitema
 
 | Month | Reviews Published | Comparisons Published | Hubs / Guides Published | Total Editorial Content Assets | Indexed Assets | Notes |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| 2026-07 | 13 | 14 | 30 | 57 | Six monitored URLs individually confirmed indexed | The July 19 Search Console audit confirmed the six strongest-signal URLs indexed through URL Inspection. The merge-ready Defender guide is not included; an owner-approved merge would move the live inventory to 31 guides and 58 editorial assets. |
+| 2026-07 | 13 | 14 | 31 | 58 | Six monitored URLs individually confirmed indexed | The July 19 Search Console audit confirmed the six strongest-signal URLs indexed through URL Inspection. The Windows Defender capability guide is included in the current live inventory after PR #43 merged as `b974fce653fabdd9da10d1f0bf7162d12f70f11a`; indexing for that route remains unverified. |
 
 ## Organic Search KPIs
 

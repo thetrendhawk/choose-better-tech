@@ -273,7 +273,7 @@ This is optional polish, not remediation. Preserve the current content depth and
 | Best Antivirus Software | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
 | TotalAV Review | FINAL APPROVED — EXTERNAL SCREENSHOT QA |
 | Is Antivirus Still Necessary? | Satisfied by existing `/guides/do-you-still-need-antivirus-on-windows-11` route; no duplicate authorized |
-| Windows Defender vs Paid Antivirus | MERGE-READY — OWNER APPROVAL REQUIRED (issue #42, PR #43) |
+| Windows Defender vs Paid Antivirus | Published — PR #43 merged; production verification recorded |
 | Best PC Cleanup Tools | Planned |
 
 ### Completion Checklist
@@ -344,7 +344,7 @@ This is the active forward-looking queue. It supersedes the Near-Term Sequence b
 
 | Priority | Work item | State | Required next gate |
 | ---: | --- | --- | --- |
-| 1 | Windows Defender vs Paid Antivirus | Merge-ready — issue #42 owner-authorized, PR #43 awaiting owner decision | Explicit owner approval before merge; then production and IndexNow verification |
+| 1 | Windows Defender vs Paid Antivirus | Published — PR #43 merged as `b974fce653fabdd9da10d1f0bf7162d12f70f11a` | Reconcile production/indexing evidence; no merge decision remains |
 | 2 | Is Antivirus Still Necessary? | Existing intent already served; no duplicate authorized | Monitor the existing Windows 11 necessity guide |
 | 3 | TotalAV Search Console canonical cleanup | Non-blocking investigation | Determine why URL Inspection reported no user-declared canonical even though Google selected the inspected URL; do not block PR #43 |
 | 4 | Best PC Cleanup Tools | Hold | Separate category-risk / safety research before any authorization |
@@ -352,7 +352,7 @@ This is the active forward-looking queue. It supersedes the Near-Term Sequence b
 
 ### Required next action — owner merge decision
 
-Issue #42 supplied explicit owner authorization for the distinct Windows Defender capability-gap guide. Research, claim review, implementation, independent corrections, technical validation, and Vercel preview QA are complete in PR #43. The next action is an explicit owner merge decision. Production publication, IndexNow submission, and indexing claims remain blocked until merge. Best PC Cleanup Tools remains on hold because of scareware, exaggerated-performance, and subscription-trap category risk.
+Issue #42 supplied explicit owner authorization for the distinct Windows Defender capability-gap guide. PR #43 was merged as `b974fce653fabdd9da10d1f0bf7162d12f70f11a`; the article is now published with production verification recorded. The remaining operational action is to reconcile indexing evidence and stale status records. Best PC Cleanup Tools remains on hold because of scareware, exaggerated-performance, and subscription-trap category risk.
 
 ## Near-Term Sequence
 
