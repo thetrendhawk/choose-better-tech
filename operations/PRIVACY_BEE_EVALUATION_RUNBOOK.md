@@ -2,7 +2,7 @@
 
 Status: Active operational documentation
 Editorial authorization: None
-Last updated: 2026-07-19
+Last updated: 2026-07-21
 
 ## Purpose
 
@@ -41,17 +41,17 @@ The canonical log remains authoritative. Its sanitized baseline records:
 - auto-renew: off when checked on 2026-07-19;
 - LPOA: unsigned.
 
-These figures use different product definitions and must not be combined. The support-responsiveness test is active: automated response was immediate, human escalation was accepted, notification email setup was completed, and the human response remains pending.
+These figures use different product definitions and must not be combined. The support-responsiveness test is partially explained: a human response defined the two metrics but did not identify the exact additional request; the conversation was later marked resolved and a focused follow-up remains pending.
 
 ## Remaining test sequence
 
 Follow this order. Do not advance to a later test merely because it is convenient.
 
-### 1. Human support response
+### 1. Human support follow-up
 
-- Await the human reply to the metric discrepancy.
-- Record reply date and time, response channel, whether the responder was clearly human, the explanation, and whether the discrepancy was resolved.
-- Do not send another support question until this response arrives or the follow-up interval is reached.
+- Send a focused follow-up asking Privacy Bee to identify the exact additional request responsible for the 16-versus-17 difference.
+- Record the response and whether the discrepancy is resolved.
+- Do not state or imply that the follow-up has already been sent.
 
 ### 2. Seven-day removal-progress recheck
 
@@ -98,7 +98,7 @@ Follow this order. Do not advance to a later test merely because it is convenien
 
 | Checkpoint | Earliest target date | Owner action | Repository update | Status | Blocker |
 | --- | --- | --- | --- | --- | --- |
-| Human response | Pending; no fixed date | Provide a screenshot or text of the human support reply | Update canonical log, support-test record, and runbook | Awaiting evidence | Human reply has not arrived |
+| Human support follow-up | Pending; no fixed date | Ask Privacy Bee to identify the exact additional request | Update canonical log, support-test record, and runbook | Partially explained | Exact additional request remains unidentified |
 | Seven-day recheck | July 24, 2026 | Access the dashboard and provide dated, sanitized evidence | Record each metric category and delta separately | Scheduled | Owner dashboard access required |
 | Fourteen-day recheck | July 31, 2026 | Access the dashboard and provide dated, sanitized evidence | Record repeated metrics and removal-state elapsed time | Scheduled | Owner dashboard access required |
 | Thirty-day/access review | August 16–18, 2026 | Access the account near expiration and provide dated, sanitized evidence | Record final metrics, billing, access, and unresolved items | Scheduled | Owner account access required |

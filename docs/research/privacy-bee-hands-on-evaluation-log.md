@@ -1,7 +1,7 @@
 # Privacy Bee Hands-On Evaluation Log
 
 Date opened: 2026-07-17
-Last updated: 2026-07-19
+Last updated: 2026-07-21
 Project: Choose Better Tech
 Status: Active hands-on evaluation
 Publication status: Not authorized
@@ -383,6 +383,24 @@ Next test: await and record the human support response. Future tests must follow
 - completed two false-candidate dismissal batches;
 - added one verified former address;
 - recorded immediate post-address state.
+
+### Day 2 identity-action and metric follow-up — July 17–20, 2026
+
+Six false or irrelevant Identity Vault candidates were ignored across two controlled batches. Five active records remained. A known former address was then added as a controlled test, increasing the active record count from five to six and displaying 11 associated exposures.
+
+The dashboard removals-requested count increased from 15 to 16, while the all-time removals-requested count increased from 16 to 17. Later observed values were: Privacy Risk Score 90/100; potential matches 60; scans 179; exposures found 45; dashboard removals requested 16; all-time removals requested 17; completed removals 2; in-progress removals 15; and re-exposures 0.
+
+The formerly exposed authenticator seed was replaced before account activation. Raw screenshots, exposure records, broker names, personal URLs, and identity details remain private.
+
+Privacy Bee support explained that the dashboard metric covers requests submitted during the previous six months, while the all-time metric covers requests submitted since Pro membership began, including completed and in-progress requests. Support also noted that Protection Level and “Not Covered” settings can affect which companies receive requests.
+
+Because the evaluation account was only days old, the time-window explanation did not identify the exact additional request.
+
+Current status:
+
+`PARTIALLY EXPLAINED — EXACT ADDITIONAL REQUEST NOT IDENTIFIED`
+
+A focused follow-up to identify the exact seventeenth request has not yet been sent. The support conversation was later marked resolved by Privacy Bee.
 
 ### 2026-07-19
 

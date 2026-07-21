@@ -1,6 +1,6 @@
 # Privacy Bee Support Responsiveness Test — 2026-07-19
 
-Status: Awaiting human response
+Status: PARTIALLY EXPLAINED — EXACT ADDITIONAL REQUEST NOT IDENTIFIED
 Project: Choose Better Tech
 Related canonical log: [Privacy Bee hands-on evaluation log](privacy-bee-hands-on-evaluation-log.md)
 Publication status: Not authorized
@@ -11,7 +11,7 @@ Record a controlled support-responsiveness test without committing personal info
 
 ## Test question
 
-Submitted through the in-product support widget on 2026-07-19:
+Submitted through the in-product support widget on 2026-07-19. The sanitized question asked why the six-month dashboard showed 16 removal requests while all-time activity showed 17, and whether both counts were working as intended.
 
 > Hi, I’m seeing 16 “Removals Requested” in the six-month dashboard summary, but 17 in “All-Time Removal Activity.” Can you explain what causes the difference and whether both counts are working as intended?
 
@@ -35,6 +35,12 @@ The widget then asked how Privacy Bee should contact the user if the user left o
 - Inference: the response measures automated self-service responsiveness, not human support response time or answer quality.
 - Unresolved question: the automated explanation does not resolve the discrepancy because no underlying request dates or count breakdown were shown, and the account was created in July 2026. It remains unknown whether inherited, imported, pre-account, or another kind of activity is counted.
 
+## Human support response
+
+A human support representative responded. The response was relevant and clearly defined the two metrics: “Removals Requested” covers DSAR and deletion requests submitted within the previous six months; “All-Time Removal Activity” covers requests submitted since Pro membership began, including completed and in-progress requests; Protection Level settings determine which broker subtypes are enabled; and disabled subtypes may appear as “Not Covered.”
+
+The response did not identify the specific additional request responsible for the seventeenth all-time request. Because the account was only days old, the six-month-versus-all-time explanation did not resolve the exact discrepancy. The conversation was later marked resolved by Privacy Bee. No focused follow-up has yet been sent.
+
 ## Human escalation
 
 A follow-up was submitted on 2026-07-19 at approximately 12:41 PM Pacific:
@@ -56,7 +62,7 @@ Observed completed handoff state:
 - no human response was visible at the time of capture;
 - the support handoff is now treated as established and awaiting reply.
 
-Human-response time and explanation quality remain pending.
+The human response was relevant and its metric definitions were clear, but the exact additional request remains unidentified.
 
 ## Privacy boundary
 
@@ -64,4 +70,4 @@ The public repository does not contain the screenshot, personal exposure details
 
 ## Next controlled action
 
-Do not submit another support question or begin another product test until the human support response is received or a defined follow-up interval has elapsed. Record the response timestamp, whether the responder is clearly human, the explanation provided, and whether the answer resolves the metric discrepancy.
+Send a focused follow-up asking Privacy Bee to identify the exact additional request responsible for the 16-versus-17 difference. Do not state or imply that this follow-up has already been sent.
