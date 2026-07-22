@@ -12,6 +12,7 @@ export const deleteMeReview: ReviewPageContent = {
   aboveFoldVerdict: "DeleteMe is a legitimate data-removal service that can reduce your exposure on covered people-search and data-broker sites. It is worth considering when you value human assistance, recurring monitoring, and reports, but it cannot remove every record and was not the strongest performer in the independent testing we reviewed.",
   aboveFoldPrimaryCta: "Jump to Full Verdict",
   aboveFoldSecondaryCta: "Compare Data Removal Services",
+  aboveFoldSecondaryCtaPath: "/best-data-removal-services",
   editorialMeta: {
     authorName: "Choose Better Tech Editorial Team",
     datePublished: "2026-07-08",

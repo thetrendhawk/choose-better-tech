@@ -86,6 +86,7 @@ export type ReviewPageContent = {
   aboveFoldVerdict?: string;
   aboveFoldPrimaryCta?: string;
   aboveFoldSecondaryCta?: string;
+  aboveFoldSecondaryCtaPath?: string;
   editorialMeta?: ReviewEditorialMeta;
   executiveSummary: string[];
   quickSummary: ReviewSummaryItem[];

@@ -45,6 +45,7 @@ function BulletList({ items, tone = "brand" }: { items: string[]; tone?: "brand"
 }
 
 export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
+  const hasCustomizedAboveFoldCtas = Boolean(review.aboveFoldPrimaryCta || review.aboveFoldSecondaryCtaPath);
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -110,8 +111,17 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
               />
             ) : null}
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-              <a className={primaryButtonClasses} href="#final-verdict">{review.aboveFoldPrimaryCta ?? "Jump to Verdict"}</a>
-              <Link className={secondaryButtonClasses} to="/best-data-removal-services">{review.aboveFoldSecondaryCta ?? review.ctaLabel}</Link>
+              {hasCustomizedAboveFoldCtas ? (
+                <>
+                  <a className={primaryButtonClasses} href="#final-verdict">{review.aboveFoldPrimaryCta ?? "Jump to Verdict"}</a>
+                  {review.aboveFoldSecondaryCtaPath ? <Link className={secondaryButtonClasses} to={review.aboveFoldSecondaryCtaPath}>{review.aboveFoldSecondaryCta ?? review.ctaLabel}</Link> : null}
+                </>
+              ) : (
+                <>
+                  <AffiliateButton provider={review.affiliateProvider}>{review.ctaLabel}</AffiliateButton>
+                  <a className={secondaryButtonClasses} href="#final-verdict">Jump to Verdict</a>
+                </>
+              )}
             </div>
           </div>
 
