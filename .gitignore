@@ -1,4 +1,5 @@
 node_modules
+audit-artifacts/
 dist
 .env
 .env.local
