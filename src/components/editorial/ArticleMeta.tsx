@@ -47,10 +47,9 @@ export function ArticleMeta({
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       {showVisibleDetails ? (
-        <div className="mt-5 flex flex-wrap gap-x-3 gap-y-1 text-sm text-slate-600" aria-label="Article details">
+        <div className="mt-5 flex flex-col gap-1 text-sm text-slate-600" aria-label="Article details">
           <span>{visibleCreditLabel} <strong className="font-semibold text-slate-900">{authorName}</strong></span>
-          <span aria-hidden="true">•</span>
-          <span>Last updated <time dateTime={dateModified}>{displayDate}</time></span>
+          <span>Updated <time dateTime={dateModified}>{displayDate}</time></span>
         </div>
       ) : null}
     </>

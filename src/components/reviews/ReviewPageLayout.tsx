@@ -9,6 +9,7 @@ import { Container } from "../ui/Container";
 import { Section } from "../ui/Section";
 
 const secondaryButtonClasses = "inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600";
+const primaryButtonClasses = "inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600";
 const compactSectionClasses = "py-12 sm:py-14";
 
 function SectionHeading({ title, description }: { title: string; description?: string }) {
@@ -96,6 +97,7 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
             <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">{review.categoryLabel}</p>
             <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-normal text-slate-950 sm:text-5xl">{review.title}</h1>
             <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-700">{review.subtitle}</p>
+            {review.aboveFoldVerdict ? <p className="mt-5 max-w-4xl rounded-lg border-l-4 border-brand-600 bg-brand-50 px-5 py-4 text-base font-semibold leading-7 text-brand-950">{review.aboveFoldVerdict}</p> : null}
             {review.editorialMeta ? (
               <ArticleMeta
                 title={review.title}
@@ -108,8 +110,8 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
               />
             ) : null}
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-              <AffiliateButton provider={review.affiliateProvider}>{review.ctaLabel}</AffiliateButton>
-              <a className={secondaryButtonClasses} href="#final-verdict">Jump to Verdict</a>
+              <a className={primaryButtonClasses} href="#final-verdict">{review.aboveFoldPrimaryCta ?? "Jump to Verdict"}</a>
+              <Link className={secondaryButtonClasses} to="/best-data-removal-services">{review.aboveFoldSecondaryCta ?? review.ctaLabel}</Link>
             </div>
           </div>
 

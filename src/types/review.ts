@@ -83,6 +83,9 @@ export type ReviewPageContent = {
   applicationCategory?: string;
   affiliateProvider: AffiliateProvider;
   ctaLabel: string;
+  aboveFoldVerdict?: string;
+  aboveFoldPrimaryCta?: string;
+  aboveFoldSecondaryCta?: string;
   editorialMeta?: ReviewEditorialMeta;
   executiveSummary: string[];
   quickSummary: ReviewSummaryItem[];
