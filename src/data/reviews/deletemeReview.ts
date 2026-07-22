@@ -2,18 +2,22 @@ import type { ReviewPageContent } from "../../types/review";
 
 export const deleteMeReview: ReviewPageContent = {
   categoryLabel: "Data Removal Service Review",
-  title: "DeleteMe Review (2026): Is It Worth It for Data Broker Removal?",
-  subtitle: "An evidence-based review of DeleteMe's established, human-assisted data broker removal service, including reports, custom removals, independent evidence, privacy tradeoffs, and hard limits.",
+  title: "DeleteMe Review 2026: Does It Work, and Is It Worth the Cost?",
+  subtitle: "We reviewed its current pricing, coverage claims, reports, refund terms, privacy tradeoffs, and independent evidence to show who it fits—and who may be better served by an alternative or manual opt-outs.",
   path: "/reviews/deleteme-review",
   productName: "DeleteMe",
   applicationCategory: "Data Removal Service",
   affiliateProvider: "deleteme",
   ctaLabel: "Compare Data Removal Options",
+  aboveFoldVerdict: "DeleteMe is a legitimate data-removal service that can reduce your exposure on covered people-search and data-broker sites. It is worth considering when you value human assistance, recurring monitoring, and reports, but it cannot remove every record and was not the strongest performer in the independent testing we reviewed.",
+  aboveFoldPrimaryCta: "Jump to Full Verdict",
+  aboveFoldSecondaryCta: "Compare Data Removal Services",
+  aboveFoldSecondaryCtaPath: "/best-data-removal-services",
   editorialMeta: {
     authorName: "Choose Better Tech Editorial Team",
     datePublished: "2026-07-08",
     dateModified: "2026-07-19",
-    displayDate: "Reviewed and updated July 19, 2026"
+    displayDate: "July 19, 2026"
   },
   executiveSummary: [
     "DeleteMe is a legitimate, established, human-assisted data-removal service from Abine. It is strongest for mainstream U.S. users who want a known provider to help reduce people-search and data-broker exposure without managing every opt-out themselves.",
@@ -22,11 +26,11 @@ export const deleteMeReview: ReviewPageContent = {
     "DeleteMe is not a full internet deletion tool. It cannot fully remove public records, court or government records, social media posts, all Google results, or dark-web data, and broker data can reappear after removal."
   ],
   quickSummary: [
-    { label: "Overall Rating", value: "Credible human-assisted option, with limits" },
-    { label: "Good Fit For", value: "Mainstream U.S. users, public-facing professionals, families, and business/admin buyers" },
-    { label: "Best Strength", value: "Human help, reporting, and mature service model" },
-    { label: "Main Caveat", value: "Not best independently measured performer" },
-    { label: "Recommendation", value: "Recommended for high-touch broker-removal maintenance" }
+    { label: "Verdict", value: "Legitimate and useful, but not the strongest independently tested performer" },
+    { label: "Best for", value: "People who want human help and recurring monitoring" },
+    { label: "Main strength", value: "Support, reports, and custom removal help" },
+    { label: "Main limitation", value: "It cannot remove everything, and alternatives may provide better visibility or value" },
+    { label: "Worth it?", value: "Yes for convenience-focused users; less so for disciplined DIY users" }
   ],
   decisionSnapshot: [
     { label: "Best for", value: "Mainstream U.S. consumers, busy users, people-search exposure, public-facing professionals, family/multi-person users where supported, and business/admin buyers." },
