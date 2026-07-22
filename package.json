@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "test": "vitest run",
+    "audit:site": "node scripts/audit-site.mjs",
     "generate:routes": "node scripts/generate-vercel-routes.mjs",
     "check:generated-routes": "node scripts/check-generated-routes.mjs"
   },
@@ -31,7 +32,8 @@
   "devDependencies": {
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "vitest": "^2.1.8",
-    "jsdom": "^25.0.1"
+    "jsdom": "^25.0.1",
+    "playwright": "^1.61.1",
+    "vitest": "^2.1.8"
   }
 }
