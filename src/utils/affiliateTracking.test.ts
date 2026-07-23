@@ -27,15 +27,6 @@ describe("affiliate click tracking", () => {
     });
   });
 
-  it("does not track non-affiliate external buttons or ordinary links", () => {
-    const gtag = vi.fn();
-    window.gtag = gtag;
-
-    // AffiliateButton only calls this helper for records marked as affiliate;
-    // ordinary links and non-affiliate external buttons never call it.
-    expect(gtag).not.toHaveBeenCalled();
-  });
-
   it("does not throw when gtag is unavailable", () => {
     expect(() => trackAffiliateClick({
       provider: "optery",
