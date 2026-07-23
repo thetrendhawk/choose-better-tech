@@ -103,12 +103,12 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 
 | Platform | Role/owner | Recovery method documented | MFA | Alternate operator | Last access verification |
 |---|---|---:|---:|---:|---|
-| GitHub | Repository owner/admin role | Unknown | Unknown | No | Unknown |
+| GitHub | Repository owner/admin role | Unknown | Yes; authenticator app | No | Owner-confirmed, date not recorded |
 | Vercel | Project owner/admin role | Unknown | Yes | No | Owner-confirmed, date not recorded |
 | Registrar | Domain owner/admin role at IONOS | Unknown | Yes | No | Owner-confirmed, date not recorded |
 | DNS provider | DNS administrator role at IONOS | Unknown | Yes | No | Owner-confirmed, date not recorded |
-| GA4 | Google account property administrator/editor role | Unknown | Yes; currently uses the owner's phone | No | Owner-confirmed, date not recorded |
-| Google Search Console | Google account property owner/full-user role | Unknown | Yes; currently uses the owner's phone | No | Owner-confirmed, date not recorded |
+| GA4 | Google account property administrator/editor role | Unknown | Yes; phone plus a configured passkey | No | Owner-confirmed, date not recorded |
+| Google Search Console | Google account property owner/full-user role | Unknown | Yes; phone plus a configured passkey | No | Owner-confirmed, date not recorded |
 | Bing Webmaster/IndexNow | Webmaster owner role | Unknown | Unknown | Unknown | Unknown |
 | CJ | Publisher/account role | Unknown | Unknown | Unknown | Unknown |
 | MaxBounty | Affiliate account role | Unknown | Yes | No | Owner-confirmed, date not recorded |
