@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { Newsletter } from "../components/Newsletter";
+import { AffiliateButton } from "../components/affiliate/AffiliateButton";
 import { SEO } from "../components/SEO";
 import { Container } from "../components/ui/Container";
 import { Section } from "../components/ui/Section";
@@ -713,15 +714,8 @@ export function ProtonDriveReviewPage() {
               <InternalLink to="/best-secure-cloud-storage">Best Secure Cloud Storage guide</InternalLink>.
             </p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
-              <a
-                className="inline-flex min-h-11 items-center justify-center rounded-lg bg-teal-700 px-5 py-3 font-bold text-white transition hover:bg-teal-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-teal-700"
-                href="https://proton.me/drive"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Proton Drive's official site
-              </a>
-              <span className="text-sm text-slate-600">Non-affiliate link; no Proton Drive tracking is used.</span>
+              <AffiliateButton provider="protondrive">Get Proton Drive</AffiliateButton>
+              <span className="text-sm text-slate-600">Affiliate link; Proton Drive currently offers 80% off the first month or 40% off the annual plan.</span>
             </div>
           </div>
           <div className="mt-8 rounded-2xl border border-amber-300 bg-amber-50 p-5 text-amber-950">
@@ -733,9 +727,8 @@ export function ProtonDriveReviewPage() {
             verify the cryptographic implementation.
           </div>
           <div className="mt-8 rounded-2xl border bg-slate-50 p-5 text-sm leading-6 text-slate-700">
-            <strong>Editorial independence:</strong> Proton Drive has no verified affiliate link in
-            CBT's registry, and the official-site link above is non-affiliate. Monetization did not
-            determine the verdict. Read our{" "}
+            <strong>Editorial independence:</strong> Monetization did not determine the verdict.
+            Read our{" "}
             <InternalLink to="/affiliate-disclosure">affiliate disclosure</InternalLink>.
           </div>
         </Container>
