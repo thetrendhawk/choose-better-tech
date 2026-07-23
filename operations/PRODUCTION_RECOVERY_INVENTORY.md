@@ -25,9 +25,9 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 | Current repository evidence | Current `origin/main` is `73cc4c4` at review time | Ready |
 | Branch protection | Repository documentation records required PR workflow, restricted deletion, and blocked force-pushes; exact live ruleset/status-check configuration is not independently reproduced here | Partially ready |
 | Local clone/recovery method | Clone the public repository from its documented GitHub source, then verify the expected remote, branch, and commit before recovery work | Partially ready |
-| Backup or mirror | No independent mirror or backup schedule is evidenced in the repository | Unknown |
+| Backup or mirror | Owner confirms no independent repository mirror or backup currently exists | Not ready |
 | Access ownership | Primary GitHub repository ownership: Choose Better Tech; individual access holder is not recorded | Unknown |
-| Recovery contact/alternate operator | No alternate operator or recovery contact is recorded | Unknown |
+| Recovery contact/alternate operator | Aaron is currently the sole operator and sole recovery authority; no alternate operator exists | Not ready |
 | Secret scanning/dependency alerts | No current GitHub alert-status evidence is recorded | Unknown |
 | Recovery gaps | Verify live branch rules, owner access, alternate operator, alerts, and an independent mirror without placing secrets in the repo | Not ready |
 
@@ -51,12 +51,12 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 | Field | Inventory | Readiness |
 |---|---|---|
 | Canonical production domain | `choosebettertech.com` | Ready |
-| Registrar | Not evidenced | Unknown |
-| DNS provider | Hosting-layer behavior is recorded; provider ownership is not evidenced | Unknown |
+| Registrar | IONOS | Partially ready |
+| DNS provider | IONOS | Partially ready |
 | Redirect/migration dependencies | Old-domain redirect and Google Change of Address are documented as active/completed owner-confirmed migration dependencies | Partially ready |
 | Ownership and renewal responsibility | Not recorded | Unknown |
 | DNS recovery requirements | Registrar access, nameserver control, exportable records, TTL plan, and certificate/hosting coordination are required | Unknown |
-| Nameserver/export/record backup | No export or backup evidence found | Unknown |
+| Nameserver/export/record backup | No export or backup evidence found; IONOS records still require export and secure retention | Not ready |
 | Domain expiration monitoring | No monitoring record found | Unknown |
 | Recovery gaps | Identify registrar/DNS owner, export records, document renewal monitoring, and test recovery without changing live DNS | Not ready |
 
@@ -65,11 +65,11 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 | Platform | Known evidence | Recovery/readiness |
 |---|---|---|
 | GA4 | Site has an analytics integration and explicit `affiliate_click` delivery through `window.gtag` or compatible `dataLayer`; direct event delivery was verified in Realtime after the PR #54/PR #57 incident | Partially ready |
-| GA4 ownership/access | Property owner, alternate access, MFA, recovery email, report configuration, and measurement identifier are not recorded | Unknown |
+| GA4 ownership/access | Google account controls GA4 and Google Search Console; MFA is confirmed enabled and currently depends on the owner's phone. Secondary recovery method, alternate access, report configuration, and measurement identifier remain unrecorded | Partially ready |
 | Google Search Console | Search baseline and Change of Address evidence are recorded; current owner/access and recovery path are not recorded | Partially ready |
 | Bing Webmaster/IndexNow | IndexNow submissions and key hosting are documented; Bing receipt/indexing and account recovery are not fully evidenced | Partially ready |
 | Measurement identifiers | Intentionally omitted from this inventory | Ready |
-| Recovery requirements | Preserve property ownership, event definitions, reporting configuration, Search Console verification, sitemap submission path, and alternate access privately | Unknown |
+| Recovery requirements | Preserve property ownership, event definitions, reporting configuration, Search Console verification, sitemap submission path, and alternate access privately; verify secondary Google recovery methods | Partially ready |
 | Reporting ownership gaps | No named reporting owner or recurring export/reconciliation record is evidenced | Not ready |
 
 ## E. Affiliate and partner platforms
@@ -79,7 +79,7 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 | Networks used | CJ, MaxBounty, PartnerStack, Awin, Impact, and direct programs appear in the documented affiliate records; active product mappings include Proton VPN CJ, Proton Mail CJ, Proton Pass MaxBounty, Proton Drive CJ, and Proton Unlimited MaxBounty | Partially ready |
 | Product-level mapping | Central registry and affiliate playbook are authoritative for implemented product mappings | Ready |
 | Private redirect dependencies | Optery uses an internal redirect dependent on a private runtime environment value; value is not stored in the repo | Partially ready |
-| Access ownership | Network account owners and alternate operators are not recorded | Unknown |
+| Access ownership | Aaron is currently the sole operator and sole recovery authority; network-specific alternate access is not recorded | Partially ready |
 | Payment/profile recovery | Payment, tax, profile, payout, and recovery details are intentionally not stored in the repository and are not evidenced as privately documented | Unknown |
 | Destination recovery | Central registry preserves implemented destinations without exposing them here; network-side regeneration and link-health history are not evidenced | Partially ready |
 | Commission-history recovery | No approved/paid commission ledger or statement archive is evidenced | Not ready |
@@ -103,15 +103,15 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 
 | Platform | Role/owner | Recovery method documented | MFA | Alternate operator | Last access verification |
 |---|---|---:|---:|---:|---|
-| GitHub | Repository owner/admin role | Unknown | Unknown | Unknown | Unknown |
-| Vercel | Project owner/admin role | Unknown | Unknown | Unknown | Unknown |
-| Registrar | Domain owner/admin role | Unknown | Unknown | Unknown | Unknown |
-| DNS provider | DNS administrator role | Unknown | Unknown | Unknown | Unknown |
-| GA4 | Property administrator/editor role | Unknown | Unknown | Unknown | Unknown |
-| Google Search Console | Property owner/full-user role | Unknown | Unknown | Unknown | Unknown |
+| GitHub | Repository owner/admin role | Unknown | Unknown | No | Unknown |
+| Vercel | Project owner/admin role | Unknown | Yes | No | Owner-confirmed, date not recorded |
+| Registrar | Domain owner/admin role at IONOS | Unknown | Yes | No | Owner-confirmed, date not recorded |
+| DNS provider | DNS administrator role at IONOS | Unknown | Yes | No | Owner-confirmed, date not recorded |
+| GA4 | Google account property administrator/editor role | Unknown | Yes; currently uses the owner's phone | No | Owner-confirmed, date not recorded |
+| Google Search Console | Google account property owner/full-user role | Unknown | Yes; currently uses the owner's phone | No | Owner-confirmed, date not recorded |
 | Bing Webmaster/IndexNow | Webmaster owner role | Unknown | Unknown | Unknown | Unknown |
 | CJ | Publisher/account role | Unknown | Unknown | Unknown | Unknown |
-| MaxBounty | Affiliate account role | Unknown | Unknown | Unknown | Unknown |
+| MaxBounty | Affiliate account role | Unknown | Yes | No | Owner-confirmed, date not recorded |
 | PartnerStack/Awin/Impact/direct programs | Publisher/account role as applicable | Unknown | Unknown | Unknown | Unknown |
 
 No secret values are recorded. Every UNKNOWN requires owner confirmation outside the repository.
@@ -120,8 +120,8 @@ No secret values are recorded. Every UNKNOWN requires owner confirmation outside
 
 | Control | Current evidence | Readiness |
 |---|---|---|
-| Primary owner | Choose Better Tech | Partially ready |
-| Alternate owner | Not recorded | Unknown |
+| Primary owner | Aaron / Choose Better Tech | Ready |
+| Alternate owner | No alternate operator; Aaron is sole recovery authority | Not ready |
 | Escalation path | Platform/network support paths are not assembled in one private record | Unknown |
 | Decision authority | Owner is the implied decision authority; formal emergency authority record is absent | Partially ready |
 | Rollback authority | Not separately assigned; policy requires stopping/rollback when production verification fails | Partially ready |
