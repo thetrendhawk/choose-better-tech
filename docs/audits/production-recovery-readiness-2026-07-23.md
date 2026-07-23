@@ -30,14 +30,14 @@ No passwords, tokens, API keys, secret values, raw affiliate URLs, account IDs, 
 
 | Area | Status | Basis |
 |---|---|---|
-| GitHub repository/source | Partially ready | Repository and branch are recoverable conceptually; independent mirror, live protection state, owner, and alternate operator are not evidenced. |
+| GitHub repository/source | Partially ready | Repository and branch are recoverable conceptually; owner confirms GitHub 2FA through an authenticator app. Independent mirror, live protection state, and alternate operator are not evidenced. |
 | Vercel/deployment | Partially ready | Production branch, manual fallback, deployment records, and policies exist; trigger configuration, project access, and tested rollback/restore are not evidenced. |
 | Domain/DNS | Partially ready | Canonical domain and migration dependencies are documented; owner confirms IONOS is both registrar and DNS provider. Record export, renewal monitoring, and recovery execution remain unverified. |
-| Analytics | Partially ready | Event implementation, safe fallback, tests, and GA4 Realtime verification exist; owner confirms the Google account controlling GA4 and Search Console has MFA enabled, currently using the owner's phone. Secondary recovery and reporting ownership remain unknown. |
+| Analytics | Partially ready | Event implementation, safe fallback, tests, and GA4 Realtime verification exist; owner confirms the Google account controlling GA4 and Search Console has MFA through the owner's phone plus a configured passkey. Passkey storage/sync independence, secondary recovery, and reporting ownership remain unknown. |
 | Search platforms | Partially ready | Search baseline, sitemap, IndexNow, and Change of Address records exist; account access, receipts, and recovery are incomplete. |
 | Affiliate networks | Partially ready | Registry, networks, product mappings, disclosures, and private redirect pattern exist; account recovery, payout records, statement archive, and destination regeneration are unknown. |
 | Application/data | Partially ready | Source and reproducible artifacts are identifiable; external backups and private configuration recovery are not evidenced. |
-| Credentials/access | Partially ready | MFA is confirmed for Vercel, IONOS, MaxBounty, and the Google account controlling GA4/Search Console; GitHub, CJ, Bing, and other platform MFA remain UNKNOWN. Secondary recovery methods and alternate access remain UNKNOWN. |
+| Credentials/access | Partially ready | MFA is confirmed for GitHub through an authenticator app, Vercel, IONOS, MaxBounty, and the Google account controlling GA4/Search Console through a phone plus passkey; CJ, Bing, and other platform MFA remain UNKNOWN. GitHub recovery codes, a second authenticator device, passkey storage/sync independence, and alternate access remain UNKNOWN. |
 | Incident ownership | Partially ready | Aaron is the sole operator and recovery authority; policy escalation concepts exist, but no alternate owner, contact tree, or tested independent recovery authority is recorded. |
 
 ## Required tests and evidence results
@@ -65,14 +65,14 @@ No runtime validation was run for this documentation-only task, and the full sit
 
 ### Existing recovery-related policies
 
-**Result: Partially ready.** Rollback/kill-switch, publishing, testing, search monitoring, hands-on testing, affiliate, and automation policies are present. They establish controls and stop conditions. Owner-confirmed MFA improves access readiness for Vercel, IONOS, MaxBounty, and Google, but secondary recovery, DNS export, restore drills, and alternate ownership remain unverified.
+**Result: Partially ready.** Rollback/kill-switch, publishing, testing, search monitoring, hands-on testing, affiliate, and automation policies are present. They establish controls and stop conditions. Owner-confirmed MFA improves access readiness for GitHub, Vercel, IONOS, MaxBounty, and Google, but GitHub recovery methods, passkey storage/sync independence, DNS export, restore drills, and alternate ownership remain unverified.
 
 ## Critical UNKNOWN items
 
 These are not claims of active failure. They are the unknowns most capable of delaying recovery or making recovery unsafe:
 
-1. What secondary recovery methods exist for the Google account and other critical accounts?
-2. Is GitHub MFA enabled?
+1. Where is the Google passkey stored or synced, and does that provide recovery independence if the owner's phone is unavailable?
+2. Does GitHub have recovery codes, a second authenticator device, or another independent recovery method?
 3. Can an independent repository backup be created and restored successfully?
 4. Can IONOS DNS/nameserver records be exported and securely retained?
 5. What is the complete environment-variable name inventory, ownership, secure recovery source, and rotation process?
@@ -80,22 +80,23 @@ These are not claims of active failure. They are the unknowns most capable of de
 7. Can affiliate payout profiles, approvals, destinations, and commission statements be recovered privately?
 8. What is the current production deployment trigger configuration, and what evidence explains the PR #54 missed trigger? The incident is corrected; root cause remains UNKNOWN.
 
-The Google MFA dependency on the owner's phone and Aaron's status as sole operator/recovery authority create a remaining single-point-of-failure risk. Phone loss or account recovery failure could delay access to GA4, Search Console, and related Google-controlled recovery paths.
+Google access no longer depends on the owner's phone alone because a passkey is also configured. However, recovery independence still depends on where that passkey is stored or synced. Aaron remains the sole operator and recovery authority, so phone loss, passkey unavailability, or account recovery failure could still delay access to GA4, Search Console, and related Google-controlled recovery paths.
 
 ## Prioritized next actions
 
-1. Verify secondary recovery methods for Google and other critical accounts.
-2. Verify GitHub MFA.
-3. Create an independent repository backup.
-4. Export and securely retain IONOS DNS records.
+1. Create an independent repository backup.
+2. Export and securely retain IONOS DNS records.
+3. Verify GitHub backup recovery methods.
+4. Verify MFA/recovery for CJ, Bing, and remaining critical accounts.
 5. Perform a clean-machine repository restore test.
 
 ## Owner questions for Aaron
 
 - Domain and DNS access are confirmed at IONOS; who owns renewal responsibility and where is the secure recovery procedure held?
 - Where is Vercel access held, and who can deploy, roll back, and restore the project?
-- Is MFA enabled for GitHub, CJ, Bing, and other platforms not yet confirmed? Vercel, IONOS, MaxBounty, and the Google account are confirmed.
-- What secondary recovery method exists for Google and each critical platform, independent of the owner's phone?
+- GitHub 2FA is confirmed through an authenticator app; are recovery codes, a second authenticator device, or another independent GitHub recovery method configured?
+- Google MFA is confirmed through the owner's phone plus a passkey; where is the passkey stored or synced, and does it remain available if the phone is lost?
+- Is MFA enabled for CJ, Bing, and other platforms not yet confirmed? Vercel, IONOS, MaxBounty, and Google are confirmed.
 - Is there a trusted alternate operator who can execute the runbook and make emergency stop/rollback decisions? Currently there is none.
 - Can IONOS registrar and DNS records be exported, stored securely, and restored by an authorized person?
 - Is the complete environment-variable name list and ownership record current, with secure private recovery sources for values?
@@ -105,7 +106,7 @@ The Google MFA dependency on the owner's phone and Aaron's status as sole operat
 
 ## Readiness decision
 
-The repository has a usable documentation foundation and identifiable source/rebuild processes, so it remains **partially ready** for controlled recovery. It is not ready to claim end-to-end recovery capability because secondary recovery methods, backups, DNS exports, private configuration recovery, alternate operators, and restore testing remain UNKNOWN. Confirmed MFA for Vercel, IONOS, MaxBounty, and the Google account improves access readiness but does not remove the single-point-of-failure risk from phone loss or account recovery failure. No production configuration or live control was changed by this audit.
+The repository has a usable documentation foundation and identifiable source/rebuild processes, so it remains **partially ready** for controlled recovery. It is not ready to claim end-to-end recovery capability because GitHub backup recovery methods, passkey storage/sync independence, backups, DNS exports, private configuration recovery, alternate operators, and restore testing remain UNKNOWN. Confirmed GitHub 2FA, plus MFA and a passkey for the Google account, improves access readiness but does not establish independent recovery if those authenticators are unavailable. No production configuration or live control was changed by this audit.
 
 ## Scope and validation record
 
