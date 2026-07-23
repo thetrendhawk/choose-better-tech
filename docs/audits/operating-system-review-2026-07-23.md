@@ -15,27 +15,30 @@ No private affiliate identifiers, credentials, measurement IDs, tokens, or full 
 
 **Overall maturity: 3 — Documented, with several 4 — Tested pockets and isolated 5 — Measured evidence.** The repository has an unusually substantial written operating model: editorial standards, research and claim controls, centralized affiliate governance, route generation/checks, explicit analytics tracking, production QA records, rollback policy, and a portfolio operating-system document. The limiting factor is not lack of intent or documentation; it is the missing evidence that the controls are independently owned, continuously measured, recoverable, financially reconciled, and portable to a second site.
 
-**Safe to continue current operation:** **Conditional.** The current site can continue operating while the critical evidence gaps are closed, provided production changes retain manual verification and rollback discipline.
+**Safe to continue current operation:** **Yes.** Current operation may continue with the existing manual production verification and fail-closed safeguards.
 
 **Safe to scale content volume:** **Conditional.** Editorial and validation controls are documented and exercised, but indexing, deployment-trigger reliability, capacity, analytics reporting, revenue reconciliation, and recovery are not sufficiently measured for unbounded scale.
 
-**Safe to duplicate now:** **No.** The OS is documented as a reusable framework, but no first duplicate has been completed and the separation of brand, domain, analytics, legal, affiliate, credentials, deployment, and portfolio data has not been demonstrated. Duplication should remain gated until the first duplicate-readiness checklist below is satisfied.
+**Safe to duplicate into another site:** **No.** The OS is documented as a reusable framework, but no first duplicate has been completed and the separation of brand, domain, analytics, legal, affiliate, credentials, deployment, and portfolio data has not been demonstrated. Duplication should remain gated until the first duplicate-readiness checklist below is satisfied.
 
 ### Executive classifications
 
 #### Critical now
 
-1. **Production deployment and recovery evidence.** A missed automatic production trigger after PR #54 required a manual production deployment. The repository does not prove the platform root cause, routine rollback execution, or restore readiness.
-2. **Security, backup, and recovery.** Repo and hosting recovery, environment inventory, DNS/domain recovery, credential rotation, secret scanning, and restore testing are not evidenced as an executable system.
-3. **Analytics-to-revenue confidence.** The `affiliate_click` delivery incident was corrected through the dataLayer fallback and verified directly in GA4 Realtime, but reporting usability, conversion reconciliation, custom dimensions/key events, and revenue attribution remain unproven.
+No confirmed critical findings at the time of review. Several high-priority gaps exist, but the repository does not prove an active near-term material failure, exposed credential, legal breach, unrecoverable production state, corrupted attribution currently driving business decisions, or confirmed financial loss.
 
 #### Important before scale
 
-- Network conversion and revenue reconciliation, including approved/paid commission states and terms refresh.
-- Named ownership, review cadence, and knowledge transfer that do not depend on memory or chat history.
+- Production deployment trigger and rollback/restore evidence.
+- Security, backup, DNS, environment, credential, and recovery readiness.
+- Analytics reporting, conversion reconciliation, and revenue attribution.
+- Network commission reconciliation and a financial ledger.
 - External indexing/Search Console verification and a repeatable anomaly-response record.
 - Portable separation of project-specific values from reusable site machinery.
+- Named ownership, review cadence, and second-operator handoff that do not depend on memory or chat history.
 - Capacity and cost controls for research, independent review, QA, and production verification.
+
+The PR #54 deployment trigger was missed, detected, and corrected manually. No root cause is established. This is a reliability gap requiring evidence, not evidence that production is currently unsafe. The `affiliate_click` incident was corrected through the dataLayer fallback and verified directly in GA4 Realtime; it is a lesson and control gap, not an active attribution failure.
 
 #### Optimization later
 
@@ -118,7 +121,7 @@ Maturity scale: **1 Absent, 2 Ad hoc, 3 Documented, 4 Tested, 5 Measured, 6 Repe
 
 ### 9. Security, backups, and recovery — maturity 1, confidence low
 
-- **Evidence/existence:** Policies mention rollback/kill switches, private runtime values, and no-secret rules. No repo backup, environment inventory, restore test, DNS recovery test, credential rotation record, or incident-response record was found.
+- **Evidence/existence:** This is a repository-evidence score. Policies mention rollback/kill switches, private runtime values, and no-secret rules. No repo backup, environment inventory, restore test, DNS recovery test, credential rotation record, or incident-response record was found in the repository. That absence does not prove that GitHub, Vercel, registrar, or account-level protections are absent.
 - **Missing/owner gap:** Recovery ownership, backup locations, retention, access review, secret scanning, dependency response, and restore proof are unknown.
 - **KPI/failure signal:** No KPI. Credential loss, compromised dependency, unavailable Vercel project, DNS loss, or unrecoverable environment is the failure signal.
 - **Validation/recovery/cadence:** Policy-level rollback exists; executable restore validation is absent. Review monthly and after any security or hosting incident.
@@ -127,7 +130,7 @@ Maturity scale: **1 Absent, 2 Ad hoc, 3 Documented, 4 Tested, 5 Measured, 6 Repe
 ### 10. Analytics and attribution — maturity 4, confidence medium
 
 - **Evidence/existence:** Explicit `affiliate_click` implementation and tests are present. PR #54 initially assumed `window.gtag`; production required a compatible dataLayer fallback in PR #57. Direct `affiliate_click` was verified in GA4 Realtime; the old broad GA4-created event rule was then deleted.
-- **Missing/owner gap:** Custom dimensions, key-event configuration, reporting usability, data retention, conversion reconciliation, and revenue attribution are not evidenced. The missed production trigger/manual deployment after PR #54 is recorded as an incident; its platform root cause is unknown.
+- **Missing/owner gap:** Custom dimensions, key-event configuration, reporting usability, data retention, conversion reconciliation, and revenue attribution are not evidenced. The `affiliate_click` incident was corrected through the dataLayer fallback and verified in GA4 Realtime; it remains a lesson and control gap, not an active attribution failure. The separate missed production trigger was detected and corrected manually; its root cause is unknown.
 - **KPI/failure signal:** Page views, clicks, and event delivery can be observed; partner conversions, revenue, attribution completeness, and event-loss rate are missing. The failure signal is a CTA click without a usable downstream record.
 - **Validation/recovery/cadence:** Unit/component tests, dataLayer/gtag preference, and direct Realtime verification exist; production report reconciliation and recovery drill do not. Review after analytics/affiliate changes and monthly.
 - **Portability/next action:** Event contract is portable; measurement configuration and property are project-specific. Define an analytics QA checklist and reconciliation owner. **Confidence: Medium.**
@@ -151,7 +154,7 @@ Maturity scale: **1 Absent, 2 Ad hoc, 3 Documented, 4 Tested, 5 Measured, 6 Repe
 ### 13. Publishing, deployment, and rollback — maturity 3, confidence medium
 
 - **Evidence/existence:** PR workflow, templates, changelog, production verification records, Vercel deployment records, and rollback/kill-switch policy exist.
-- **Missing/owner gap:** Automatic production deploy reliability, rollback execution, deployment approval evidence, and post-incident records are incomplete. After PR #54, the expected production trigger was missed and deployment was performed manually; no root cause is claimed without platform evidence.
+- **Missing/owner gap:** Automatic production deploy reliability, rollback execution, deployment approval evidence, and post-incident records are incomplete. After PR #54, the expected production trigger was missed, detected, and corrected by manual deployment; no root cause is established without platform evidence. This is a reliability gap, not evidence that production is currently unsafe.
 - **KPI/failure signal:** Successful deployment and route verification are recorded; missed trigger, drift between main and production, and unverified rollback are failure signals.
 - **Validation/recovery/cadence:** Build, route, browser, sitemap, and production checks are documented; a tested rollback runbook is not. Validate each production change and review monthly.
 - **Portability/next action:** Workflow principles are portable; Vercel/project/DNS settings are not. Capture trigger, approval, rollback, and restore evidence. **Confidence: Medium.**
@@ -232,7 +235,7 @@ Before creating a second site, demonstrate: (1) a complete project-variable inve
 
 ## Review decision
 
-Current operation may continue **conditionally** under manual production verification and the existing fail-closed editorial safeguards. Content scaling is **conditional** on closing recovery, analytics/revenue, indexing, and capacity gaps. Duplication is **not approved now**; it becomes conditional only after the five gates above are evidenced. The systems intentionally remain lightweight where the risk is low, while production, security, attribution, and financial controls require stronger evidence before scale.
+Current operation may continue **under the existing manual production verification and fail-closed safeguards**. Content scaling remains **conditional** on closing recovery, analytics/revenue, indexing, and capacity gaps. Duplication remains **not approved** until the five gates above are evidenced. The systems intentionally remain lightweight where the risk is low, while production, security, attribution, and financial controls require stronger evidence before scale.
 
 ## Validation record
 
