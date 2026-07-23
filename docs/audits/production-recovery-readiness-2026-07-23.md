@@ -86,7 +86,7 @@ Google access no longer depends on the owner's phone alone because a passkey is 
 
 1. Verify GitHub backup recovery methods.
 2. Verify MFA/recovery for CJ, Bing, and remaining critical accounts.
-3. Perform a controlled non-production environment-variable recovery test.
+3. Verify the private environment-variable recovery record during the next real configuration change.
 4. Establish an alternate operator or documented emergency handoff.
 5. Document Vercel deployment trigger and rollback evidence.
 
@@ -99,7 +99,7 @@ Google access no longer depends on the owner's phone alone because a passkey is 
 - Is MFA enabled for CJ, Bing, and other platforms not yet confirmed? Vercel, IONOS, MaxBounty, and Google are confirmed.
 - Is there a trusted alternate operator who can execute the runbook and make emergency stop/rollback decisions? Currently there is none.
 - The current DNS table has a private encrypted offline copy; can IONOS export/zone-file capability be verified and can a controlled restore be tested without changing production?
-- `OPTERY_AFFILIATE_URL` is the only currently known production environment variable; can private recovery ownership and a controlled non-production recovery/redeployment test be documented without exposing its value?
+- `OPTERY_AFFILIATE_URL` is the only currently known production environment variable; can its private recovery record be verified during the next real configuration change without exposing its value?
 - Are affiliate network payment, profile, approval, destination, terms, and commission-history recovery details documented privately?
 - The encrypted offline source backup has been restored successfully; when will it be refreshed after meaningful changes, verified quarterly, and restore-tested at least twice per year?
 - Which private communication channel and escalation path should be used for production, security, domain, analytics, and affiliate incidents?
