@@ -1,6 +1,6 @@
 export type AffiliateStatus = "ACTIVE" | "PENDING" | "DISABLED" | "INTERNAL_ONLY";
 
-export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass" | "protonmail" | "protonunlimited" | "roboform" | "incogni" | "optery" | "deleteme";
+export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass" | "protonmail" | "protondrive" | "protonunlimited" | "roboform" | "incogni" | "optery" | "deleteme";
 
 export type AffiliateLinkRecord = {
   provider: AffiliateProvider;
@@ -97,21 +97,31 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   protonmail: {
     provider: "protonmail",
     network: "CJ / Proton Partners Program",
-    status: "PENDING",
+    status: "ACTIVE",
     destination: "https://www.kqzyfj.com/click-101816242-13792584",
     internalFallback: "/about/how-we-review-software",
     disclosureRequired: true,
-    trackingEnabled: false,
+    trackingEnabled: true,
     lastVerified: "2026-07-08"
+  },
+  protondrive: {
+    provider: "protondrive",
+    network: "CJ / Proton Partners Program",
+    status: "ACTIVE",
+    destination: "https://www.anrdoezrs.net/click-101816242-17168972",
+    internalFallback: "/reviews/proton-drive-review",
+    disclosureRequired: true,
+    trackingEnabled: true,
+    lastVerified: "2026-07-22"
   },
   protonunlimited: {
     provider: "protonunlimited",
     network: "MaxBounty",
-    status: "PENDING",
+    status: "ACTIVE",
     destination: "https://afflat3e3.com/trk/lnk/5A4FD2F0-60F5-4AE7-BF9C-2C65F2AA3E4B/?o=32290&c=918277&a=796553&k=37537A28A5715E1708A893F770EC6765&l=38004",
     internalFallback: "/about/how-we-review-software",
     disclosureRequired: true,
-    trackingEnabled: false,
+    trackingEnabled: true,
     lastVerified: "2026-07-08"
   },
   roboform: {
