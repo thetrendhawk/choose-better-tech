@@ -25,11 +25,11 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 | Current repository evidence | Current `origin/main` is `73cc4c4` at review time | Ready |
 | Branch protection | Repository documentation records required PR workflow, restricted deletion, and blocked force-pushes; exact live ruleset/status-check configuration is not independently reproduced here | Partially ready |
 | Local clone/recovery method | Clone the public repository from its documented GitHub source, then verify the expected remote, branch, and commit before recovery work | Partially ready |
-| Backup or mirror | Owner confirms no independent repository mirror or backup currently exists | Not ready |
+| Backup or mirror | Owner-confirmed 2026-07-23: complete Git history, all local branches and tags, and the open Privacy Bee branch were written to the Git bundle `choose-better-tech-2026-07-23-final.bundle` on BitLocker-protected removable media. Bundle verification succeeded and a fresh clone from the bundle restored `origin/main` to the recorded `main` commit. This is source-code recovery evidence, not full-site recovery. | Partially ready |
 | Access ownership | Primary GitHub repository ownership: Choose Better Tech; individual access holder is not recorded | Unknown |
 | Recovery contact/alternate operator | Aaron is currently the sole operator and sole recovery authority; no alternate operator exists | Not ready |
 | Secret scanning/dependency alerts | No current GitHub alert-status evidence is recorded | Unknown |
-| Recovery gaps | Verify live branch rules, owner access, alternate operator, alerts, and an independent mirror without placing secrets in the repo | Not ready |
+| Recovery gaps | Refresh the encrypted offline bundle after meaningful repository or operating-system changes; verify it at least quarterly and perform a restore test at least twice per year. GitHub backup recovery methods and alternate operator remain UNKNOWN. | Partially ready |
 
 ## B. Vercel
 
@@ -96,7 +96,7 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 | Generated artifacts | Build output, generated sitemap/robots and deployment artifacts | Regenerable; production verification records should be retained as evidence |
 | Affiliate registry | `src/data/affiliateLinks.ts` plus playbook/registry documentation | Registry source is authoritative; private destinations must not be copied into this inventory |
 | Environment values | Runtime/platform configuration, including private redirect values | Values are not repo-backed; back up names and ownership privately, never values here |
-| What must be backed up | Repository, issue/PR evidence, operations records, research records, private configuration inventory, DNS export, analytics/search ownership instructions, partner statement archive | Not ready until external records are confirmed |
+| What must be backed up | Repository, issue/PR evidence, operations records, research records, private configuration inventory, DNS export, analytics/search ownership instructions, partner statement archive | Partially ready for source history; external records remain unconfirmed |
 | What can be regenerated | Dependencies from lockfile, build output, generated SEO files, generated Vercel routes, local test output | Ready as a process; validate after regeneration |
 
 ## G. Credentials and access
@@ -130,4 +130,10 @@ No secret values are recorded. Every UNKNOWN requires owner confirmation outside
 
 ## Inventory gaps requiring owner input
 
-The repository proves the existence of documentation and code paths, not account-level access, backups, MFA, or restore capability. Until the owner answers the checklist in the readiness audit and private answers are stored securely, those areas remain UNKNOWN.
+The repository backup now proves source-history recovery only. It does not include Vercel account access, environment variable values, DNS records, analytics account configuration, affiliate account/payment records, credentials, or recovery codes. Aaron remains the sole operator; account-level recovery and external-platform recovery remain UNKNOWN.
+
+### Backup maintenance cadence
+
+- Refresh the encrypted offline Git bundle after major releases or operating-system changes.
+- Verify the bundle at least quarterly.
+- Perform a fresh restore test at least twice per year.
