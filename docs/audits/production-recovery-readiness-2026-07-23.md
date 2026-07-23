@@ -30,13 +30,13 @@ No passwords, tokens, API keys, secret values, raw affiliate URLs, account IDs, 
 
 | Area | Status | Basis |
 |---|---|---|
-| GitHub repository/source | Partially ready | Repository and branch are recoverable conceptually; owner confirms GitHub 2FA through an authenticator app. Independent mirror, live protection state, and alternate operator are not evidenced. |
+| GitHub repository/source | Partially ready | Owner-confirmed 2026-07-23 encrypted offline Git bundle contains complete history, all local branches/tags, and the open Privacy Bee branch; verification succeeded and a fresh clone restored `origin/main` to the recorded `main` commit. GitHub backup recovery methods, live protection state, and alternate operator remain unknown. |
 | Vercel/deployment | Partially ready | Production branch, manual fallback, deployment records, and policies exist; trigger configuration, project access, and tested rollback/restore are not evidenced. |
 | Domain/DNS | Partially ready | Canonical domain and migration dependencies are documented; owner confirms IONOS is both registrar and DNS provider. Record export, renewal monitoring, and recovery execution remain unverified. |
 | Analytics | Partially ready | Event implementation, safe fallback, tests, and GA4 Realtime verification exist; owner confirms the Google account controlling GA4 and Search Console has MFA through the owner's phone plus a configured passkey. Passkey storage/sync independence, secondary recovery, and reporting ownership remain unknown. |
 | Search platforms | Partially ready | Search baseline, sitemap, IndexNow, and Change of Address records exist; account access, receipts, and recovery are incomplete. |
 | Affiliate networks | Partially ready | Registry, networks, product mappings, disclosures, and private redirect pattern exist; account recovery, payout records, statement archive, and destination regeneration are unknown. |
-| Application/data | Partially ready | Source and reproducible artifacts are identifiable; external backups and private configuration recovery are not evidenced. |
+| Application/data | Partially ready | Source history has been backed up to BitLocker-protected offline media and successfully restored from a verified Git bundle. Vercel access, environment values, DNS records, analytics configuration, affiliate account/payment records, credentials, and recovery codes are not included. |
 | Credentials/access | Partially ready | MFA is confirmed for GitHub through an authenticator app, Vercel, IONOS, MaxBounty, and the Google account controlling GA4/Search Console through a phone plus passkey; CJ, Bing, and other platform MFA remain UNKNOWN. GitHub recovery codes, a second authenticator device, passkey storage/sync independence, and alternate access remain UNKNOWN. |
 | Incident ownership | Partially ready | Aaron is the sole operator and recovery authority; policy escalation concepts exist, but no alternate owner, contact tree, or tested independent recovery authority is recorded. |
 
@@ -44,7 +44,7 @@ No passwords, tokens, API keys, secret values, raw affiliate URLs, account IDs, 
 
 ### Conceptual repository clone
 
-**Result: Partially ready.** The documented GitHub repository source and `main` branch make a clean clone conceptually possible. Owner confirms no independent repository mirror or backup currently exists. This was not treated as proof of credential recovery. No credential was requested, created, or exposed.
+**Result: Partially ready.** Owner-confirmed evidence from 2026-07-23 shows a BitLocker-protected removable drive containing the Git bundle `choose-better-tech-2026-07-23-final.bundle`. The bundle includes complete Git history, all local branches and tags, and the open Privacy Bee branch. Git verification succeeded; a fresh restore-test clone succeeded and its `origin/main` matched the recorded `main` commit. Git’s warning that remote HEAD refers to a nonexistent ref and could not checkout is treated as a bundle default-HEAD limitation, not a failed restore, because `origin/main` was present and verified. The Git bundle reports SHA-1 as its hash algorithm. This proves source-code recovery only, not credential or full-site recovery.
 
 ### Main versus production relationship
 
@@ -65,7 +65,7 @@ No runtime validation was run for this documentation-only task, and the full sit
 
 ### Existing recovery-related policies
 
-**Result: Partially ready.** Rollback/kill-switch, publishing, testing, search monitoring, hands-on testing, affiliate, and automation policies are present. They establish controls and stop conditions. Owner-confirmed MFA improves access readiness for GitHub, Vercel, IONOS, MaxBounty, and Google, but GitHub recovery methods, passkey storage/sync independence, DNS export, restore drills, and alternate ownership remain unverified.
+**Result: Partially ready.** Rollback/kill-switch, publishing, testing, search monitoring, hands-on testing, affiliate, and automation policies are present. Source-history backup and restore are now evidenced. They do not establish Vercel account access, environment-variable recovery, DNS recovery, analytics account configuration, affiliate account/payment recovery, credentials/recovery-code recovery, or full-site restoration. Alternate ownership remains unverified.
 
 ## Critical UNKNOWN items
 
@@ -73,7 +73,7 @@ These are not claims of active failure. They are the unknowns most capable of de
 
 1. Where is the Google passkey stored or synced, and does that provide recovery independence if the owner's phone is unavailable?
 2. Does GitHub have recovery codes, a second authenticator device, or another independent recovery method?
-3. Can an independent repository backup be created and restored successfully?
+3. The encrypted offline repository bundle was verified and restored successfully; can the backup be refreshed and tested on the required cadence?
 4. Can IONOS DNS/nameserver records be exported and securely retained?
 5. What is the complete environment-variable name inventory, ownership, secure recovery source, and rotation process?
 6. Is there a trusted alternate operator with authority to deploy, roll back, restore, and communicate an incident?
@@ -84,11 +84,11 @@ Google access no longer depends on the owner's phone alone because a passkey is 
 
 ## Prioritized next actions
 
-1. Create an independent repository backup.
-2. Export and securely retain IONOS DNS records.
+1. Export and securely retain IONOS DNS records.
+2. Document private environment-variable recovery ownership.
 3. Verify GitHub backup recovery methods.
 4. Verify MFA/recovery for CJ, Bing, and remaining critical accounts.
-5. Perform a clean-machine repository restore test.
+5. Establish an alternate operator or documented emergency handoff.
 
 ## Owner questions for Aaron
 
@@ -101,12 +101,12 @@ Google access no longer depends on the owner's phone alone because a passkey is 
 - Can IONOS registrar and DNS records be exported, stored securely, and restored by an authorized person?
 - Is the complete environment-variable name list and ownership record current, with secure private recovery sources for values?
 - Are affiliate network payment, profile, approval, destination, terms, and commission-history recovery details documented privately?
-- An independent repository mirror or backup does not currently exist; when can one be created and its restore tested?
+- The encrypted offline source backup has been restored successfully; when will it be refreshed after meaningful changes, verified quarterly, and restore-tested at least twice per year?
 - Which private communication channel and escalation path should be used for production, security, domain, analytics, and affiliate incidents?
 
 ## Readiness decision
 
-The repository has a usable documentation foundation and identifiable source/rebuild processes, so it remains **partially ready** for controlled recovery. It is not ready to claim end-to-end recovery capability because GitHub backup recovery methods, passkey storage/sync independence, backups, DNS exports, private configuration recovery, alternate operators, and restore testing remain UNKNOWN. Confirmed GitHub 2FA, plus MFA and a passkey for the Google account, improves access readiness but does not establish independent recovery if those authenticators are unavailable. No production configuration or live control was changed by this audit.
+The repository has a usable documentation foundation and identifiable source/rebuild processes, and source-code recovery is now partially evidenced through a verified encrypted offline Git bundle restore. Overall readiness remains **partially ready**. This does not establish full-site or end-to-end recovery because Vercel account access, environment-variable values, DNS records, analytics account configuration, affiliate account/payment records, credentials, recovery codes, alternate ownership, and external-platform restore remain outside the Git backup or UNKNOWN. No production configuration or live control was changed by this audit.
 
 ## Scope and validation record
 
