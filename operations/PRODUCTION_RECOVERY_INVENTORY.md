@@ -41,7 +41,7 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 | Manual deployment fallback | Existing records document manual production deployment when the expected trigger after PR #54 was missed | Partially ready |
 | Missed PR #54 trigger | Trigger was missed, detected, and corrected manually; no root cause is established | Partially ready |
 | Project access ownership | Owner/platform role is not recorded | Unknown |
-| Environment variable names | `OPTERY_AFFILIATE_URL` is documented as a runtime-only private value; other production variable names are not inventoried here | Partially ready |
+| Environment variable names | `OPTERY_AFFILIATE_URL` is the only currently known production environment variable. It is the private Optery affiliate destination used by the internal redirect; its value remains in Vercel and is also stored in a password-manager secure note as the private recovery source. Aaron is the value owner. | Partially ready |
 | Domains attached | Canonical production domain is `choosebettertech.com`; exact Vercel attachment/configuration is not independently reproduced | Partially ready |
 | Rollback/redeploy method | Policy and publishing contract require rollback/kill-switch handling; a completed rollback drill is not evidenced | Partially ready |
 | Recovery gaps | Verify project access, trigger settings, all variable names, domain attachment, redeploy/rollback steps, and restore evidence | Not ready |
@@ -53,10 +53,12 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 | Canonical production domain | `choosebettertech.com` | Ready |
 | Registrar | IONOS | Partially ready |
 | DNS provider | IONOS | Partially ready |
+| Domain protection | IONOS Domain Guard active | Partially ready |
+| DNSSEC | Inactive; no production change made by this task | Partially ready |
 | Redirect/migration dependencies | Old-domain redirect and Google Change of Address are documented as active/completed owner-confirmed migration dependencies | Partially ready |
 | Ownership and renewal responsibility | Not recorded | Unknown |
 | DNS recovery requirements | Registrar access, nameserver control, exportable records, TTL plan, and certificate/hosting coordination are required | Unknown |
-| Nameserver/export/record backup | No export or backup evidence found; IONOS records still require export and secure retention | Not ready |
+| Nameserver/export/record backup | A complete private copy of the current IONOS DNS record table is saved to BitLocker-protected offline media; it is not stored in GitHub. Live restore was not performed and IONOS export/zone-file capability remains unverified. | Partially ready |
 | Domain expiration monitoring | No monitoring record found | Unknown |
 | Recovery gaps | Identify registrar/DNS owner, export records, document renewal monitoring, and test recovery without changing live DNS | Not ready |
 
@@ -69,7 +71,7 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 | Google Search Console | Search baseline and Change of Address evidence are recorded; current owner/access and recovery path are not recorded | Partially ready |
 | Bing Webmaster/IndexNow | IndexNow submissions and key hosting are documented; Bing receipt/indexing and account recovery are not fully evidenced | Partially ready |
 | Measurement identifiers | Intentionally omitted from this inventory | Ready |
-| Recovery requirements | Preserve property ownership, event definitions, reporting configuration, Search Console verification, sitemap submission path, and alternate access privately; verify secondary Google recovery methods | Partially ready |
+| Recovery requirements | Preserve property ownership, event definitions, reporting configuration, Search Console verification, sitemap submission path, and alternate access privately; verify secondary Google recovery methods. DNS restore and environment-value recovery remain untested. | Partially ready |
 | Reporting ownership gaps | No named reporting owner or recurring export/reconciliation record is evidenced | Not ready |
 
 ## E. Affiliate and partner platforms
@@ -95,7 +97,7 @@ This inventory contains no passwords, tokens, API keys, secret values, raw affil
 | Content/research/operations records | Markdown and source files in the repository | Must be backed up; these are authoritative records unless a document says otherwise |
 | Generated artifacts | Build output, generated sitemap/robots and deployment artifacts | Regenerable; production verification records should be retained as evidence |
 | Affiliate registry | `src/data/affiliateLinks.ts` plus playbook/registry documentation | Registry source is authoritative; private destinations must not be copied into this inventory |
-| Environment values | Runtime/platform configuration, including private redirect values | Values are not repo-backed; back up names and ownership privately, never values here |
+| Environment values | Runtime/platform configuration; `OPTERY_AFFILIATE_URL` is the only currently known production variable | The value is not repo-backed; it remains in Vercel and in a private password-manager secure note, never in GitHub |
 | What must be backed up | Repository, issue/PR evidence, operations records, research records, private configuration inventory, DNS export, analytics/search ownership instructions, partner statement archive | Partially ready for source history; external records remain unconfirmed |
 | What can be regenerated | Dependencies from lockfile, build output, generated SEO files, generated Vercel routes, local test output | Ready as a process; validate after regeneration |
 
@@ -130,7 +132,13 @@ No secret values are recorded. Every UNKNOWN requires owner confirmation outside
 
 ## Inventory gaps requiring owner input
 
-The repository backup now proves source-history recovery only. It does not include Vercel account access, environment variable values, DNS records, analytics account configuration, affiliate account/payment records, credentials, or recovery codes. Aaron remains the sole operator; account-level recovery and external-platform recovery remain UNKNOWN.
+The repository and offline records provide partial recovery evidence. The DNS reference copy is private and encrypted, but no live DNS restore was tested and IONOS export/zone-file capability remains unverified. The environment inventory contains one currently known production variable, `OPTERY_AFFILIATE_URL`; its value remains in Vercel and in a private password-manager secure note, never in GitHub. Aaron is the value owner. A live environment recovery/redeployment test has not been performed.
+
+### DNS and environment maintenance
+
+- Keep the private DNS reference copy current after material DNS changes; do not store DNS values in GitHub.
+- Keep the private environment-variable secure note current after approved value changes; repository storage of the value is prohibited.
+- Rotate `OPTERY_AFFILIATE_URL` after suspected exposure, affiliate destination replacement, or account compromise.
 
 ### Backup maintenance cadence
 

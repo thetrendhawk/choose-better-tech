@@ -32,11 +32,11 @@ No passwords, tokens, API keys, secret values, raw affiliate URLs, account IDs, 
 |---|---|---|
 | GitHub repository/source | Partially ready | Owner-confirmed 2026-07-23 encrypted offline Git bundle contains complete history, all local branches/tags, and the open Privacy Bee branch; verification succeeded and a fresh clone restored `origin/main` to the recorded `main` commit. GitHub backup recovery methods, live protection state, and alternate operator remain unknown. |
 | Vercel/deployment | Partially ready | Production branch, manual fallback, deployment records, and policies exist; trigger configuration, project access, and tested rollback/restore are not evidenced. |
-| Domain/DNS | Partially ready | Canonical domain and migration dependencies are documented; owner confirms IONOS is both registrar and DNS provider. Record export, renewal monitoring, and recovery execution remain unverified. |
+| Domain/DNS | Partially ready | IONOS remains registrar and DNS provider; Domain Guard is active and DNSSEC is inactive. A complete private encrypted offline copy of the current DNS record table exists, but no live restore was tested and IONOS export/zone-file capability remains unverified. |
 | Analytics | Partially ready | Event implementation, safe fallback, tests, and GA4 Realtime verification exist; owner confirms the Google account controlling GA4 and Search Console has MFA through the owner's phone plus a configured passkey. Passkey storage/sync independence, secondary recovery, and reporting ownership remain unknown. |
 | Search platforms | Partially ready | Search baseline, sitemap, IndexNow, and Change of Address records exist; account access, receipts, and recovery are incomplete. |
 | Affiliate networks | Partially ready | Registry, networks, product mappings, disclosures, and private redirect pattern exist; account recovery, payout records, statement archive, and destination regeneration are unknown. |
-| Application/data | Partially ready | Source history has been backed up to BitLocker-protected offline media and successfully restored from a verified Git bundle. Vercel access, environment values, DNS records, analytics configuration, affiliate account/payment records, credentials, and recovery codes are not included. |
+| Application/data | Partially ready | Source history has been backed up to BitLocker-protected offline media and successfully restored from a verified Git bundle. DNS has a private encrypted offline reference copy. Vercel access, environment values, analytics configuration, affiliate account/payment records, credentials, and recovery codes are not included. |
 | Credentials/access | Partially ready | MFA is confirmed for GitHub through an authenticator app, Vercel, IONOS, MaxBounty, and the Google account controlling GA4/Search Console through a phone plus passkey; CJ, Bing, and other platform MFA remain UNKNOWN. GitHub recovery codes, a second authenticator device, passkey storage/sync independence, and alternate access remain UNKNOWN. |
 | Incident ownership | Partially ready | Aaron is the sole operator and recovery authority; policy escalation concepts exist, but no alternate owner, contact tree, or tested independent recovery authority is recorded. |
 
@@ -65,7 +65,7 @@ No runtime validation was run for this documentation-only task, and the full sit
 
 ### Existing recovery-related policies
 
-**Result: Partially ready.** Rollback/kill-switch, publishing, testing, search monitoring, hands-on testing, affiliate, and automation policies are present. Source-history backup and restore are now evidenced. They do not establish Vercel account access, environment-variable recovery, DNS recovery, analytics account configuration, affiliate account/payment recovery, credentials/recovery-code recovery, or full-site restoration. Alternate ownership remains unverified.
+**Result: Partially ready.** Rollback/kill-switch, publishing, testing, search monitoring, hands-on testing, affiliate, and automation policies are present. Source-history backup and restore are evidenced, and a private encrypted DNS reference copy exists. They do not establish live DNS restore, IONOS export/zone-file support, Vercel account access, environment-variable recovery/redeployment, analytics account configuration, affiliate account/payment recovery, credentials/recovery-code recovery, or full-site restoration. Alternate ownership remains unverified.
 
 ## Critical UNKNOWN items
 
@@ -84,11 +84,11 @@ Google access no longer depends on the owner's phone alone because a passkey is 
 
 ## Prioritized next actions
 
-1. Export and securely retain IONOS DNS records.
-2. Document private environment-variable recovery ownership.
-3. Verify GitHub backup recovery methods.
-4. Verify MFA/recovery for CJ, Bing, and remaining critical accounts.
-5. Establish an alternate operator or documented emergency handoff.
+1. Verify GitHub backup recovery methods.
+2. Verify MFA/recovery for CJ, Bing, and remaining critical accounts.
+3. Verify the private environment-variable recovery record during the next real configuration change.
+4. Establish an alternate operator or documented emergency handoff.
+5. Document Vercel deployment trigger and rollback evidence.
 
 ## Owner questions for Aaron
 
@@ -98,15 +98,15 @@ Google access no longer depends on the owner's phone alone because a passkey is 
 - Google MFA is confirmed through the owner's phone plus a passkey; where is the passkey stored or synced, and does it remain available if the phone is lost?
 - Is MFA enabled for CJ, Bing, and other platforms not yet confirmed? Vercel, IONOS, MaxBounty, and Google are confirmed.
 - Is there a trusted alternate operator who can execute the runbook and make emergency stop/rollback decisions? Currently there is none.
-- Can IONOS registrar and DNS records be exported, stored securely, and restored by an authorized person?
-- Is the complete environment-variable name list and ownership record current, with secure private recovery sources for values?
+- The current DNS table has a private encrypted offline copy; can IONOS export/zone-file capability be verified and can a controlled restore be tested without changing production?
+- `OPTERY_AFFILIATE_URL` is the only currently known production environment variable; can its private recovery record be verified during the next real configuration change without exposing its value?
 - Are affiliate network payment, profile, approval, destination, terms, and commission-history recovery details documented privately?
 - The encrypted offline source backup has been restored successfully; when will it be refreshed after meaningful changes, verified quarterly, and restore-tested at least twice per year?
 - Which private communication channel and escalation path should be used for production, security, domain, analytics, and affiliate incidents?
 
 ## Readiness decision
 
-The repository has a usable documentation foundation and identifiable source/rebuild processes, and source-code recovery is now partially evidenced through a verified encrypted offline Git bundle restore. Overall readiness remains **partially ready**. This does not establish full-site or end-to-end recovery because Vercel account access, environment-variable values, DNS records, analytics account configuration, affiliate account/payment records, credentials, recovery codes, alternate ownership, and external-platform restore remain outside the Git backup or UNKNOWN. No production configuration or live control was changed by this audit.
+The repository has a usable documentation foundation and identifiable source/rebuild processes, and source-code recovery is partially evidenced through a verified encrypted offline Git bundle restore. DNS has a private encrypted offline reference copy and private environment-value recovery is documented for the one currently known production variable, but neither DNS restore nor environment recovery/redeployment has been tested. Overall readiness remains **partially ready**. This does not establish full-site or end-to-end recovery because Vercel account access, analytics account configuration, affiliate account/payment records, credentials, recovery codes, alternate ownership, and external-platform restore remain outside the documented tests or UNKNOWN. No production configuration or live control was changed by this audit.
 
 ## Scope and validation record
 
