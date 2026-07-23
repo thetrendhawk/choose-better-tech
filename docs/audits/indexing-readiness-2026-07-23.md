@@ -23,7 +23,7 @@
 | Robots availability | Ready | Production robots artifact and checks are documented; per-URL policy should still be recorded during verification. |
 | Google ownership/access | Partially ready | Google Search Console records and owner-confirmed Change of Address evidence exist; current access/recovery details are not stored in the repository. |
 | Bing ownership/access | Unknown | Bing account ownership and access are not evidenced sufficiently. |
-| Google URL-level verification | Partially ready | Six strongest-signal URLs were documented as individually confirmed indexed in the July 19 audit; the priority inventory is not fully inspected. |
+| Google URL-level verification | Partially ready | Six strongest-signal URLs were documented as individually confirmed indexed in the July 19 audit; three additional priority URLs were inspected on July 23 and remain verification pending after indexing requests. The priority inventory is not fully inspected. |
 | Bing URL-level verification | Unknown | No sufficient URL-level Bing indexing evidence is documented. |
 | IndexNow submission | Partially ready | Multiple submissions and API acknowledgements are recorded; receipt/indexing remains separate and unverified. |
 | Priority-page inventory | Partially ready | A non-sensitive priority inventory now exists; it is a subset and needs recurring reconciliation. |

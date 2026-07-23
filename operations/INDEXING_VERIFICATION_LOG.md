@@ -36,9 +36,9 @@ Canonical expectation for every content route below is `https://choosebettertech
 | Route | Page type | Business priority | Canonical expectation | Sitemap expectation | Google status | Bing status | Latest evidence | Source | Next action | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
 | `/` | Homepage | High | Canonical root | Included | Verified indexed; search participation | UNKNOWN | 2026-07-19 | GSC URL Inspection/Performance | Recheck monthly | 1 click, 24 impressions in recorded window |
-| `/best-data-removal-services` | Major category hub | High | Self-canonical | Included | UNKNOWN | UNKNOWN | 2026-07-19 | Content dashboard/production records | Inspect in GSC and Bing | Production verified; indexing not claimed |
-| `/best-vpns-for-streaming` | Commercial guide | High | Self-canonical | Included | UNKNOWN | UNKNOWN | 2026-07-12 | Content dashboard/IndexNow record | Inspect in GSC and Bing | IndexNow acceptance is not indexing evidence |
-| `/best-cloud-storage-for-beginners` | Buying guide | High | Self-canonical | Included | UNKNOWN | UNKNOWN | 2026-07-12 | Content dashboard/IndexNow record | Inspect in GSC and Bing | Production and sitemap evidence exist |
+| `/best-data-removal-services` | Major category hub | High | Self-canonical | Included | Verification pending | UNKNOWN | 2026-07-23 | Owner-confirmed GSC URL Inspection and live test | Recheck around 2026-07-30 | Initial state: URL not on Google; discovered via sitemap.xml and currently not indexed. Live URL available; crawl allowed, page fetch, and indexing allowed. Breadcrumb structured data: 1 valid item. Indexing requested 2026-07-23; Google-selected canonical pending indexing. |
+| `/best-vpns-for-streaming` | Commercial guide | High | Self-canonical | Included | Verification pending | UNKNOWN | 2026-07-23 | Owner-confirmed GSC URL Inspection and live test | Recheck around 2026-07-30 | Initial state: URL not on Google; discovered via sitemap.xml and currently not indexed. Live URL available; crawl allowed, page fetch, and indexing allowed. Breadcrumb structured data: 1 valid item. Indexing requested 2026-07-23; Google-selected canonical pending indexing. |
+| `/best-cloud-storage-for-beginners` | Buying guide | High | Self-canonical | Included | Verification pending | UNKNOWN | 2026-07-23 | Owner-confirmed GSC URL Inspection and live test | Recheck around 2026-07-30 | Initial state: URL not on Google; discovered via sitemap.xml and currently not indexed. Live URL available; crawl allowed, page fetch, and indexing allowed. Breadcrumb structured data: 1 valid item. Indexing requested 2026-07-23; Google-selected canonical pending indexing. |
 | `/best-password-managers-for-families` | Buying guide | High | Self-canonical | Included | UNKNOWN | UNKNOWN | 2026-07-12 | Content dashboard/production record | Inspect in GSC and Bing | Do not infer from sitemap |
 | `/reviews/nordvpn-review` | Review | High | Self-canonical | Included | UNKNOWN | UNKNOWN | 2026-07-03 | Content dashboard | Inspect in GSC and Bing | Affiliate-supported registry record |
 | `/reviews/proton-vpn-review` | Review | High | Self-canonical | Included | UNKNOWN | UNKNOWN | 2026-07-08 | Content dashboard | Inspect in GSC and Bing | Affiliate-supported registry record |
@@ -136,3 +136,7 @@ Low ranking or zero clicks alone is not an indexing defect.
 - Do not copy account IDs, verification tokens, or private screenshots into GitHub.
 - Request indexing only where justified.
 - Leave `/reviews/deleteme-review` unchanged during its existing observation window unless a critical defect is found.
+
+## Activity log
+
+- **2026-07-23:** Owner completed Google Search Console inspections for `/best-data-removal-services`, `/best-vpns-for-streaming`, and `/best-cloud-storage-for-beginners`. Each was initially reported as not on Google / discovered but currently not indexed; live testing confirmed the URL was available to Google with successful fetch and indexing allowed, and indexing was requested. Follow-up verification is due around 2026-07-30; no request guarantees indexing.
