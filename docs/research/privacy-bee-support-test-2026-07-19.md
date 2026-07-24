@@ -70,6 +70,20 @@ Observed completed handoff state:
 
 The human response was relevant, its metric definitions were clear, the all-time totals were validated, and the dashboard count difference remains not fully explained.
 
+## Owner-provided clarification - 2026-07-24
+
+A later written response from Privacy Bee directly addressed coverage definitions, dashboard status meanings, certification wording, evidence limits, company background, and staffing boundaries. This is recorded as a company-provided clarification, not independently verified product-performance evidence.
+
+Privacy Bee stated coverage of 1,128 Data Brokers and People Search Sites and 185,253 custom sites. The standard-source figure covers the established monitoring and removal network; custom-site coverage refers to eligible member-submitted URLs reviewed for removal assistance by the Global Response Team. Coverage totals change over time and do not mean every subscriber is continuously monitored across all custom sites.
+
+Privacy Bee clarified that dashboard statuses are account-specific: Discovered awaits action; Removal in progress awaits response or confirmation; Closed means the workflow was closed after the latest review and may reflect successful removal, no response after reasonable attempts, or an insufficient Identity Vault match; Clean means no current exposure was found; and Failed means removal could not be completed at that time and may be retried. The dashboard may not make the specific closure reason sufficiently clear, so the second external check is not classified as proof of a failed removal.
+
+Privacy Bee stated that it is AICPA SOC 2 Type II certified and that its 2026 audit cycle is underway. Detailed audit documents are generally limited to customers and formal due-diligence requests. Its public wording is ISO 27001 compliant, not ISO 27001 certified.
+
+Privacy Bee did not provide a validated company-wide dataset for aggregate removal, recurrence, failure, or average-completion rates. Timing varies by source, and the company stated that it continues monitoring, following up, and retrying eligible exposures. No performance-rate claim is inferred.
+
+The response was a positive support-responsiveness and transparency signal. Company-provided background and staffing references are retained only as bounded, attributable claims; they do not establish product effectiveness or that all removal specialists are U.S.-based employees. Detailed audit documentation and aggregate performance evidence were not provided for editorial review.
+
 ## Privacy boundary
 
 The public repository does not contain the screenshot, personal exposure details, account identifiers, email address, or other authentication/account information.

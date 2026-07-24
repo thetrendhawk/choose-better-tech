@@ -1,7 +1,7 @@
 # Privacy Bee Hands-On Evaluation Log
 
 Date opened: 2026-07-17
-Last updated: 2026-07-23
+Last updated: 2026-07-24
 Project: Choose Better Tech
 Status: Active hands-on evaluation
 Publication status: Not authorized
@@ -432,10 +432,40 @@ The seven-day dashboard and Identity Vault recheck is complete. The next control
 Two Privacy Bee records marked Closed/completed were checked externally by the owner using the same identifying basis that produced each original match. The source details and identifying information are intentionally omitted.
 
 - Verification 1: the listing was absent at the time of verification. This is limited positive evidence for one source and one search method; it does not establish permanent removal.
-- Verification 2: the listing was still present at the time of verification. This is a failed external verification of that Closed status.
+- Verification 2: the listing was still present at the time of verification. This shows that the Closed dashboard status did not correspond to an absent public listing at that time; it is not proof of a failed removal because the record did not identify successful removal as its closure reason.
 
-Result: `MIXED EXTERNAL VERIFICATION — ONE LISTING ABSENT, ONE LISTING STILL PRESENT`
+Result: `MIXED EXTERNAL VERIFICATION — ONE LISTING ABSENT; ONE CLOSED RECORD STILL PRESENT, WITH CLOSED NOT LIMITED TO SUCCESSFUL REMOVAL`
 
-These results show that dashboard completion/Closed status does not by itself prove external removal. The failed check does not establish that all Privacy Bee removals fail, and the successful check does not establish that all succeed. No cause, propagation timing, caching, re-exposure, or source-refresh explanation is inferred.
+These results show that dashboard completion/Closed status does not by itself prove external removal. The first result is limited positive evidence for one source and one search method. The second does not establish that all Privacy Bee removals fail, and the first does not establish that all succeed. Privacy Bee clarified that Closed means the workflow was closed after the latest review and may reflect successful removal, no response after reasonable attempts, or an insufficient Identity Vault match. The dashboard may not make the specific closure reason sufficiently clear to the user. No cause, propagation timing, caching, recurrence, or source-refresh explanation is inferred.
 
 The planned external verification of one or two completed records is complete. The next controlled checkpoint is the fourteen-day dashboard recheck on or after 2026-07-31. The thirty-day/access review remains scheduled around 2026-08-16 through 2026-08-18. Publication, rating, verdict, recommendation, and affiliate activation remain unauthorized. PR #49 remains unmerged pending review.
+
+### Owner-provided product clarification - 2026-07-24
+
+The following points are recorded as company-provided claims or clarifications from a written Privacy Bee response, not as independently verified product-performance evidence.
+
+Coverage claims:
+
+- Privacy Bee stated current coverage of 1,128 Data Brokers and People Search Sites and 185,253 custom sites.
+- The standard-source figure represents sources in the established monitoring and removal network. Custom-site coverage refers to eligible member-submitted URLs from other websites, including blogs, forums, social platforms, and other sources displaying personal information; submissions are reviewed for removal assistance by the Global Response Team.
+- Coverage totals change over time. The custom-site figure must not be interpreted as continuous monitoring of every subscriber across every listed site.
+
+Dashboard and status clarifications:
+
+- The dashboard provides account-specific exposure records, actions, current status, latest scan, latest action, and license coverage. Screenshots and statuses are account-specific evidence, not company-wide performance statistics.
+- Discovered means an exposure was detected and awaits action. Removal in progress means a request was submitted and awaits response or confirmation. Closed means the workflow was closed after the latest review and may mean successful removal, no response after reasonable attempts, or an insufficient Identity Vault match. Clean means no current exposure was found. Failed means removal could not be completed at that time because the opt-out path was unavailable, the company did not respond, or the information did not sufficiently match verified details; the exposure may be retried in a future scan.
+
+Security and performance-data clarifications:
+
+- Privacy Bee stated that it is AICPA SOC 2 Type II certified; Type II reflects independent review of relevant controls operating over a period. The 2026 audit cycle was stated to be underway, and detailed audit documents are generally limited to customers and formal due-diligence requests.
+- Privacy Bee's public wording is ISO 27001 compliant, not ISO 27001 certified. The publicly documented certification recorded here is SOC 2 Type II.
+- Privacy Bee does not currently publish a validated company-wide dataset for aggregate removal rates, recurrence rates, failure rates, or average completion times. Timing varies by source and may range from relatively quick completion to several weeks or months. Privacy Bee stated that it continues monitoring, following up, and retrying eligible exposures. No success-rate, recurrence-rate, failure-rate, or average-completion-time claim is inferred.
+
+Company and staffing clarifications:
+
+- Privacy Bee-provided references reportedly describe operations beginning February 12, 2020; incorporation on December 28, 2022; a Limited Liability Company entity type; an alternate business name; headquarters in Alpharetta, Georgia; a named CEO; BBB accreditation beginning July 7, 2026; and a current BBB rating of A+. These are contact-provided references to publicly supportable information, not independently verified product-performance evidence.
+- Privacy Bee describes itself as U.S.-based with global subscriber and data-broker reach. Public materials reportedly describe U.S.-based analysts at a secure Atlanta facility for Signature members, an employee-staffed Atlanta Security Operations Center, and human analyst support through the Global Response Team. The employee-versus-contractor classification of every removal specialist across every tier is not established; no claim is made that all specialists are U.S.-based employees.
+
+Support assessment:
+
+The response directly addressed coverage definitions, status meanings, certification wording, evidence limits, company background, and staffing boundaries. This is a positive support-responsiveness and transparency signal. The company did not provide aggregate performance evidence or detailed audit documentation for editorial review. Publication, rating, verdict, recommendation, and affiliate activation remain unauthorized.

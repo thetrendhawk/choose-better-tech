@@ -20,6 +20,7 @@ Canonical records:
 - Do not put personal information in GitHub.
 - Perform one controlled product action at a time.
 - Never infer a completed removal solely from a dashboard label.
+- Treat company-provided status definitions as attributable claims unless independently verified. In particular, Closed does not exclusively mean successfully removed; it may also reflect no response after reasonable attempts or an insufficient Identity Vault match.
 - Label provider claims as provider claims.
 - Keep unresolved discrepancies unresolved until evidence closes them.
 
@@ -65,7 +66,7 @@ Follow this order. Do not advance to a later test merely because it is convenien
 - Select one or two records labeled completed.
 - Confirm whether the public broker page is absent, changed, blocked, or still visible.
 - Record uncertainty where the original profile URL is unavailable.
-- Status: Complete based on two owner-authorized external checks from 2026-07-23. Result: `MIXED EXTERNAL VERIFICATION — ONE LISTING ABSENT, ONE LISTING STILL PRESENT`.
+- Status: Complete based on two owner-authorized external checks from 2026-07-23. Result: `MIXED EXTERNAL VERIFICATION — ONE LISTING ABSENT; ONE CLOSED RECORD STILL PRESENT, WITH CLOSED NOT LIMITED TO SUCCESSFUL REMOVAL`.
 - Dashboard completion/Closed status does not by itself prove external removal. The next controlled checkpoint is the fourteen-day dashboard recheck on or after 2026-07-31.
 
 ### 4. Controlled custom URL removal
