@@ -65,6 +65,8 @@ Follow this order. Do not advance to a later test merely because it is convenien
 - Select one or two records labeled completed.
 - Confirm whether the public broker page is absent, changed, blocked, or still visible.
 - Record uncertainty where the original profile URL is unavailable.
+- Status: Complete based on two owner-authorized external checks from 2026-07-23. Result: `MIXED EXTERNAL VERIFICATION — ONE LISTING ABSENT, ONE LISTING STILL PRESENT`.
+- Dashboard completion/Closed status does not by itself prove external removal. The next controlled checkpoint is the fourteen-day dashboard recheck on or after 2026-07-31.
 
 ### 4. Controlled custom URL removal
 
@@ -102,7 +104,7 @@ Follow this order. Do not advance to a later test merely because it is convenien
 | --- | --- | --- | --- | --- | --- |
 | Human support reconciliation | Complete | Preserve validated 17 and 31 totals and unresolved dashboard difference | Update canonical log, support-test record, and runbook | Validated with unresolved dashboard difference | Completed/closed outcomes and external verification remain separate |
 | Seven-day recheck | July 24, 2026 | Access the dashboard and provide dated, sanitized evidence | Record each metric category and delta separately | Complete; evidence dated 2026-07-23 | External verification remains separate |
-| Fourteen-day recheck | July 31, 2026 | Access the dashboard and provide dated, sanitized evidence | Record repeated metrics and removal-state elapsed time | Scheduled | Owner dashboard access required |
+| Fourteen-day recheck | July 31, 2026 | Access the dashboard and provide dated, sanitized evidence | Record repeated metrics and removal-state elapsed time | Next scheduled checkpoint | Owner dashboard access required |
 | Thirty-day/access review | August 16–18, 2026 | Access the account near expiration and provide dated, sanitized evidence | Record final metrics, billing, access, and unresolved items | Scheduled | Owner account access required |
 
 External verification, controlled URL removal, re-exposure observation, and the LPOA decision occur in sequence when their stated prerequisites are met; they do not have invented target dates.

@@ -369,7 +369,7 @@ Before any additional product action:
 - capture the immediate result privately;
 - update this file again before moving to the next test.
 
-Next test: externally verify one or two completed-removal records, subject to owner authorization and privacy safeguards. Future tests must follow the [controlled runbook](../../operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md) in its stated order.
+Next test: complete the fourteen-day dashboard recheck on or after 2026-07-31. Future tests must follow the [controlled runbook](../../operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md) in its stated order.
 
 ## Change log
 
@@ -426,3 +426,16 @@ This is meaningful evidence of dashboard-reported removal progress: nine complet
 Status remains: `ALL-TIME COUNT VALIDATED — DASHBOARD COUNT DIFFERENCE NOT FULLY EXPLAINED`. Dashboard requests are 30 and all-time requests are 31.
 
 The seven-day dashboard and Identity Vault recheck is complete. The next controlled test is external verification of one or two completed-removal records, subject to owner authorization and privacy safeguards. The fourteen-day recheck remains scheduled on or after 2026-07-31; the thirty-day/access review remains scheduled around 2026-08-16 through 2026-08-18. Publication, rating, verdict, recommendation, and affiliate activation remain unauthorized. PR #49 remains unmerged pending review of this evidence.
+
+### External verification of two completed records - 2026-07-23
+
+Two Privacy Bee records marked Closed/completed were checked externally by the owner using the same identifying basis that produced each original match. The source details and identifying information are intentionally omitted.
+
+- Verification 1: the listing was absent at the time of verification. This is limited positive evidence for one source and one search method; it does not establish permanent removal.
+- Verification 2: the listing was still present at the time of verification. This is a failed external verification of that Closed status.
+
+Result: `MIXED EXTERNAL VERIFICATION — ONE LISTING ABSENT, ONE LISTING STILL PRESENT`
+
+These results show that dashboard completion/Closed status does not by itself prove external removal. The failed check does not establish that all Privacy Bee removals fail, and the successful check does not establish that all succeed. No cause, propagation timing, caching, re-exposure, or source-refresh explanation is inferred.
+
+The planned external verification of one or two completed records is complete. The next controlled checkpoint is the fourteen-day dashboard recheck on or after 2026-07-31. The thirty-day/access review remains scheduled around 2026-08-16 through 2026-08-18. Publication, rating, verdict, recommendation, and affiliate activation remain unauthorized. PR #49 remains unmerged pending review.

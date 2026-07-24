@@ -30,6 +30,9 @@ Do not perform this recheck early. Use sanitized values only; keep screenshots, 
 - Preserve exact status: `ALL-TIME COUNT VALIDATED — DASHBOARD COUNT DIFFERENCE NOT FULLY EXPLAINED`.
 - Record all-time request volume separately from completed or closed outcomes and external verification.
 - Mark the seven-day dashboard and Identity Vault recheck complete; the next controlled test is external verification of one or two completed-removal records, subject to owner authorization and privacy safeguards.
+- Mark the planned external verification of one or two completed-removal records complete. Result: `MIXED EXTERNAL VERIFICATION — ONE LISTING ABSENT, ONE LISTING STILL PRESENT`.
+- Dashboard completion/Closed status does not by itself prove external removal; the two checks are limited, sanitized evidence and do not establish permanent removal or a universal success/failure rate.
+- Set the next controlled checkpoint to the fourteen-day dashboard recheck on or after 2026-07-31.
 - Preserve the fourteen-day recheck on or after 2026-07-31 and the thirty-day/access review around 2026-08-16 through 2026-08-18.
 - Do not authorize publication, rating, verdict, recommendation, or affiliate activation; PR #49 remains unmerged pending review.
 - Do not submit a custom URL removal, sign an LPOA, or begin another test unless the runbook prerequisites and owner authorization are satisfied.
