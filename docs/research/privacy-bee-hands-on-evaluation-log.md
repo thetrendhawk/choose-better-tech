@@ -1,7 +1,7 @@
 # Privacy Bee Hands-On Evaluation Log
 
 Date opened: 2026-07-17
-Last updated: 2026-07-21
+Last updated: 2026-07-23
 Project: Choose Better Tech
 Status: Active hands-on evaluation
 Publication status: Not authorized
@@ -346,13 +346,12 @@ Status: Not yet tested.
 ## Outstanding tests
 
 1. Preserve the second human support reply and the partially unresolved metric discrepancy.
-2. Complete the seven-day removal-progress recheck.
-3. Verify one or two completed-removal records externally.
-4. Submit one controlled custom URL removal for a clearly verified owner exposure.
-5. Complete the fourteen-day progress recheck.
-6. Observe re-exposure handling only if an exposure reappears naturally.
-7. Decide whether an LPOA is justified after observing relevant failures or broker requirements.
-8. Complete the thirty-day and access-expiration review.
+2. Verify one or two completed-removal records externally, subject to owner authorization and privacy safeguards.
+3. Submit one controlled custom URL removal for a clearly verified owner exposure.
+4. Complete the fourteen-day progress recheck.
+5. Observe re-exposure handling only if an exposure reappears naturally.
+6. Decide whether an LPOA is justified after observing relevant failures or broker requirements.
+7. Complete the thirty-day and access-expiration review.
 
 ## Next authorized action
 
@@ -370,7 +369,7 @@ Before any additional product action:
 - capture the immediate result privately;
 - update this file again before moving to the next test.
 
-Next test: complete the seven-day removal-progress recheck on or after July 24, 2026. Future tests must follow the [controlled runbook](../../operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md) in its stated order.
+Next test: externally verify one or two completed-removal records, subject to owner authorization and privacy safeguards. Future tests must follow the [controlled runbook](../../operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md) in its stated order.
 
 ## Change log
 
@@ -413,3 +412,17 @@ The all-time total of 17 was validated, and the later all-time total of 31 was a
 - opened but did not submit the custom URL removal flow;
 - consolidated prior private records into this canonical sanitized repository log.
 - linked the active support-responsiveness test and recorded the pending human-response checkpoint.
+
+### Seven-day dashboard and Identity Vault recheck — 2026-07-23
+
+Owner-confirmed sanitized dashboard values were: Privacy Risk Score 90; potential matches awaiting review 55; scans performed 201; exposures found 46; dashboard removals requested 30; all-time removals requested 31; completed removals 9; in-progress removals 22; and re-exposures 1.
+
+Identity Vault showed 6 active records and 6 ignored records. The former-address test record remained active, with 10 associated exposures.
+
+Compared with Day 2, the deltas were: Privacy Risk Score unchanged at 90; potential matches 60 to 55 (-5); scans 179 to 201 (+22); exposures found 45 to 46 (+1); dashboard removals requested 16 to 30 (+14); all-time removals requested 17 to 31 (+14); completed removals 2 to 9 (+7); in-progress removals 15 to 22 (+7); re-exposures 0 to 1 (+1); active Identity Vault records unchanged at 6; ignored records unchanged at 6; and former-address associated exposures 11 to 10 (-1). The former-address record remains active.
+
+This is meaningful evidence of dashboard-reported removal progress: nine completed removals are now reported compared with two on Day 2. Completed dashboard records do not prove that information is absent from external source websites. Request volume remains separate from successful removal performance, and the risk score remained 90 without a causal interpretation. The single re-exposure is recorded without inferring cause.
+
+Status remains: `ALL-TIME COUNT VALIDATED — DASHBOARD COUNT DIFFERENCE NOT FULLY EXPLAINED`. Dashboard requests are 30 and all-time requests are 31.
+
+The seven-day dashboard and Identity Vault recheck is complete. The next controlled test is external verification of one or two completed-removal records, subject to owner authorization and privacy safeguards. The fourteen-day recheck remains scheduled on or after 2026-07-31; the thirty-day/access review remains scheduled around 2026-08-16 through 2026-08-18. Publication, rating, verdict, recommendation, and affiliate activation remain unauthorized. PR #49 remains unmerged pending review of this evidence.

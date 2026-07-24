@@ -2,7 +2,7 @@
 
 Status: Active operational documentation
 Editorial authorization: None
-Last updated: 2026-07-21
+Last updated: 2026-07-23
 
 ## Purpose
 
@@ -57,6 +57,8 @@ Follow this order. Do not advance to a later test merely because it is convenien
 
 - Compare dashboard totals, all-time activity, Data Brokers totals, and completed-removal records with the prior baseline.
 - Record deltas without combining differently defined metrics.
+- Status: Complete based on owner-confirmed 2026-07-23 evidence. Nine completed dashboard removals are reported versus two on Day 2; external absence from source websites is not established.
+- Next controlled test: externally verify one or two completed-removal records, subject to owner authorization and privacy safeguards.
 
 ### 3. Verify completed removals externally
 
@@ -99,7 +101,7 @@ Follow this order. Do not advance to a later test merely because it is convenien
 | Checkpoint | Earliest target date | Owner action | Repository update | Status | Blocker |
 | --- | --- | --- | --- | --- | --- |
 | Human support reconciliation | Complete | Preserve validated 17 and 31 totals and unresolved dashboard difference | Update canonical log, support-test record, and runbook | Validated with unresolved dashboard difference | Completed/closed outcomes and external verification remain separate |
-| Seven-day recheck | July 24, 2026 | Access the dashboard and provide dated, sanitized evidence | Record each metric category and delta separately | Scheduled | Owner dashboard access required |
+| Seven-day recheck | July 24, 2026 | Access the dashboard and provide dated, sanitized evidence | Record each metric category and delta separately | Complete; evidence dated 2026-07-23 | External verification remains separate |
 | Fourteen-day recheck | July 31, 2026 | Access the dashboard and provide dated, sanitized evidence | Record repeated metrics and removal-state elapsed time | Scheduled | Owner dashboard access required |
 | Thirty-day/access review | August 16–18, 2026 | Access the account near expiration and provide dated, sanitized evidence | Record final metrics, billing, access, and unresolved items | Scheduled | Owner account access required |
 
