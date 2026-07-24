@@ -2,7 +2,7 @@
 
 Status: Active operational documentation
 Editorial authorization: None
-Last updated: 2026-07-19
+Last updated: 2026-07-23
 
 ## Purpose
 
@@ -20,6 +20,7 @@ Canonical records:
 - Do not put personal information in GitHub.
 - Perform one controlled product action at a time.
 - Never infer a completed removal solely from a dashboard label.
+- Treat company-provided status definitions as attributable claims unless independently verified. In particular, Closed does not exclusively mean successfully removed; it may also reflect no response after reasonable attempts or an insufficient Identity Vault match.
 - Label provider claims as provider claims.
 - Keep unresolved discrepancies unresolved until evidence closes them.
 
@@ -41,28 +42,32 @@ The canonical log remains authoritative. Its sanitized baseline records:
 - auto-renew: off when checked on 2026-07-19;
 - LPOA: unsigned.
 
-These figures use different product definitions and must not be combined. The support-responsiveness test is active: automated response was immediate, human escalation was accepted, notification email setup was completed, and the human response remains pending.
+These figures use different product definitions and must not be combined. Human support validated the all-time total of 17 as 15 in-progress plus 2 closed records and later affirmed a total of 31 after continued request submission. The dashboard difference remains not fully explained; request volume is not successful removal performance.
 
 ## Remaining test sequence
 
 Follow this order. Do not advance to a later test merely because it is convenient.
 
-### 1. Human support response
+### 1. Human support reconciliation
 
-- Await the human reply to the metric discrepancy.
-- Record reply date and time, response channel, whether the responder was clearly human, the explanation, and whether the discrepancy was resolved.
-- Do not send another support question until this response arrives or the follow-up interval is reached.
+- Preserve the validated 17 and 31 all-time totals and the unresolved dashboard difference.
+- Do not interpret increased request volume as successful removal performance.
+- Continue with the scheduled seven-day removal-progress recheck.
 
 ### 2. Seven-day removal-progress recheck
 
 - Compare dashboard totals, all-time activity, Data Brokers totals, and completed-removal records with the prior baseline.
 - Record deltas without combining differently defined metrics.
+- Status: Complete based on owner-confirmed 2026-07-23 evidence. Nine completed dashboard removals are reported versus two on Day 2; external absence from source websites is not established.
+- Next controlled test: externally verify one or two completed-removal records, subject to owner authorization and privacy safeguards.
 
 ### 3. Verify completed removals externally
 
 - Select one or two records labeled completed.
 - Confirm whether the public broker page is absent, changed, blocked, or still visible.
 - Record uncertainty where the original profile URL is unavailable.
+- Status: Complete based on two owner-authorized external checks from 2026-07-23. Result: `MIXED EXTERNAL VERIFICATION — ONE LISTING ABSENT; ONE CLOSED RECORD STILL PRESENT, WITH CLOSED NOT LIMITED TO SUCCESSFUL REMOVAL`.
+- Dashboard completion/Closed status does not by itself prove external removal. The next controlled checkpoint is the fourteen-day dashboard recheck on or after 2026-07-31.
 
 ### 4. Controlled custom URL removal
 
@@ -98,9 +103,9 @@ Follow this order. Do not advance to a later test merely because it is convenien
 
 | Checkpoint | Earliest target date | Owner action | Repository update | Status | Blocker |
 | --- | --- | --- | --- | --- | --- |
-| Human response | Pending; no fixed date | Provide a screenshot or text of the human support reply | Update canonical log, support-test record, and runbook | Awaiting evidence | Human reply has not arrived |
-| Seven-day recheck | July 24, 2026 | Access the dashboard and provide dated, sanitized evidence | Record each metric category and delta separately | Scheduled | Owner dashboard access required |
-| Fourteen-day recheck | July 31, 2026 | Access the dashboard and provide dated, sanitized evidence | Record repeated metrics and removal-state elapsed time | Scheduled | Owner dashboard access required |
+| Human support reconciliation | Complete | Preserve validated 17 and 31 totals and unresolved dashboard difference | Update canonical log, support-test record, and runbook | Validated with unresolved dashboard difference | Completed/closed outcomes and external verification remain separate |
+| Seven-day recheck | July 24, 2026 | Access the dashboard and provide dated, sanitized evidence | Record each metric category and delta separately | Complete; evidence dated 2026-07-23 | External verification remains separate |
+| Fourteen-day recheck | July 31, 2026 | Access the dashboard and provide dated, sanitized evidence | Record repeated metrics and removal-state elapsed time | Next scheduled checkpoint | Owner dashboard access required |
 | Thirty-day/access review | August 16–18, 2026 | Access the account near expiration and provide dated, sanitized evidence | Record final metrics, billing, access, and unresolved items | Scheduled | Owner account access required |
 
 External verification, controlled URL removal, re-exposure observation, and the LPOA decision occur in sequence when their stated prerequisites are met; they do not have invented target dates.
