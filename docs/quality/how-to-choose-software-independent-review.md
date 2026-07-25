@@ -1,14 +1,14 @@
 # How to Choose Software: Independent Review
 
-- Reviewer: Pending site-owner review of the revised Vercel preview
+- Reviewer: Site owner
 - Review date: 2026-07-25
-- Status: PENDING — do not deploy
+- Status: APPROVE FOR DEPLOYMENT
 
 ## Review findings
 
 The adversarial secondary Codex review verified the thin-content correction and the focused content, schema, route, link, and responsive checks. Each framework step now has six decision prompts; the worksheet records the requested fields; category examples cover problem, test, tradeoff, and exit/failure concern; and the article remains software-only.
 
-ChatGPT did not review the revised Vercel preview and did not approve deployment. The site owner must review the revised Vercel preview before any deployment decision.
+Site-owner human review completed. The revised article is approved as-is for deployment.
 
 ## Claims rechecked
 
@@ -31,8 +31,8 @@ No Critical claims are present. Five High claims were checked against the cited 
 
 ## Final reviewer decision
 
-PENDING
+APPROVE FOR DEPLOYMENT
 
 ## Final rationale
 
-This is an adversarial secondary Codex review, not approval. The site owner must review the revised Vercel preview. Deployment, live verification, operations closeout, and merge remain pending.
+The adversarial secondary Codex review is recorded separately from the human decision. Site-owner human review completed. The revised article is approved as-is for deployment. The full-site audit remains incomplete under the execution-window rule and is not relabeled as passed. Deployment, live verification, operations closeout, and merge follow the normal workflow.

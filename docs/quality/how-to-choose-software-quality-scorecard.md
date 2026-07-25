@@ -1,6 +1,6 @@
 # How to Choose Software: A Practical Buyer's Guide Quality Scorecard
 
-- Reviewer: Pending site-owner review of the revised Vercel preview; secondary Codex review recorded separately
+- Reviewer: Site owner; secondary Codex review recorded separately
 - Review date: 2026-07-25
 - Article URL or proposed route: `/guides/how-to-choose-software`
 - Research record: `docs/research/how-to-choose-software-research.md`
@@ -37,4 +37,4 @@
 
 ## Final Result
 
-CONDITIONAL PASS — CORRECTIONS REQUIRED: site-owner review of the revised Vercel preview is pending. Operations completeness remains 0 until deployment, live QA, and operations closeout are completed.
+PASS — Site-owner human review completed. The revised article is approved as-is for deployment. Operations completeness remains 0 until deployment, live QA, and operations closeout are completed.
