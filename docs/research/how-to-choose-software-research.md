@@ -24,6 +24,10 @@ Checked the route manifest and page inventory on 2026-07-25. No duplicate route 
 
 The Better Software Buyer Checklist is currently represented by the site newsletter CTA (`src/components/Newsletter.tsx`) and is not a standalone route in the manifest. The article should explain and reinforce the checklist without inventing a downloadable asset or implying a separate page exists.
 
+## Final article structure after correction
+
+The implemented page now contains: quick answer; ten expanded framework sections, each with why it matters, what to examine, a practical test, failure mode, evidence, and pause/reject guidance; a mobile-safe evidence worksheet; normal-path and failure-path testing guidance; expanded cost and exit-difficulty guidance; five concise category applications; a do-not-buy section; final checklist; FAQs; visible sources and methodology; and related CBT routes.
+
 ## Planned original framework
 
 Name: **The Better Software Decision Framework**. It is a repeatable ten-step sequence: (1) problem fit, (2) required outcomes, (3) friction and usability, (4) true cost, (5) limits and tradeoffs, (6) privacy and security, (7) provider reliability, (8) exit difficulty, (9) real-world testing, and (10) an evidence-based decision. Its original contribution is the explicit treatment of exit difficulty and a real-task test as decision dimensions alongside fit and cost, plus a stop-buying branch when the problem is not important enough to justify ongoing complexity.
@@ -63,7 +67,7 @@ No product testing was performed. The article’s original practical contributio
 
 Original Contribution: PASS
 
-Evidence of Contribution: The Better Software Decision Framework unifies ten reusable dimensions across five CBT software clusters, makes exit difficulty and real-task testing explicit, and includes a “do not buy” decision branch. It converts broad buyer advice into an evidence worksheet that distinguishes requirements, claims, tests, and unresolved questions.
+Evidence of Contribution: The Better Software Decision Framework unifies ten reusable dimensions across five CBT software clusters, makes exit difficulty and both normal- and failure-path testing explicit, and includes a “do not buy” decision branch. The expanded page converts broad buyer advice into a reusable worksheet that distinguishes requirements, claims, tests, costs, migration details, and unresolved questions.
 
 Competing Coverage Reviewed: CBT’s category buying guides, beginner guides, comparison pages, and How We Review Software route inventory; common buyer-advice patterns were also checked against NIST and FTC guidance.
 

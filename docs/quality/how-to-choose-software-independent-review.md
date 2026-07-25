@@ -14,12 +14,14 @@
 - Testing-transparency check: The page says no product was ranked or hands-on tested and gives readers a test procedure; site-rendering QA is not represented as product testing.
 - Duplicate-intent check: The route and intent remain distinct from category-specific buying guides and How We Review Software.
 - Reader-value and code-quality check: Semantic headings, scoped table headers, responsive overflow containment, Article schema, FAQ schema parity, and canonical behavior passed targeted local QA. The final checklist now explicitly routes readers to the existing Better Software Buyer Checklist signup.
+- Scope match after revision: The page now matches the approved substantive guide scope. Each of the ten steps has six decision prompts; the worksheet records the requested fields; category examples cover problem, test, tradeoff, and exit/failure concern; and the article remains software-only.
 
 ## Required corrections
 
 - The full-site audit command did not complete within the 180-second local window because it crawls every sitemap URL at two viewports; this is not treated as a pass. A human or separately assigned external reviewer must still review this secondary pass before deployment.
 - The implementation needed one correction: the route-count test expected 68 URLs after the new route made the manifest 69; the test was updated and now passes.
 - The article needed one editorial correction: it now explicitly explains how the final checklist connects to the existing Better Software Buyer Checklist signup.
+- The article’s thin-card defect was corrected: the ten cards became ten explanatory sections, and the worksheet, failure-path testing, expanded cost/offboarding guidance, and category applications were added.
 
 ## Final reviewer decision
 
@@ -27,4 +29,4 @@ RETURN FOR CORRECTION
 
 ## Final rationale
 
-This is an adversarial secondary Codex review, not independent human approval. The implementation is materially improved and the focused content, schema, route, link, and responsive checks pass, but the full-site audit remains incomplete and repository policy requires a genuinely independent reviewer to approve deployment. The PR must remain draft.
+This is an adversarial secondary Codex review, not independent human approval. The thin-content correction is verified and the focused content, schema, route, link, and responsive checks pass. The full-site audit remains incomplete under the execution-window rule, and repository policy requires a genuinely independent reviewer to approve deployment. The PR must remain draft.
