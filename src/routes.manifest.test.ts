@@ -108,7 +108,7 @@ describe("sitemap output", () => {
   });
 
   it("still lists exactly 68 URLs", () => {
-    expect(APP_ROUTES).toHaveLength(68);
+    expect(APP_ROUTES).toHaveLength(69);
   });
 });
 
