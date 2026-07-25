@@ -1,5 +1,9 @@
 # KPI Dashboard
 
+## Publication Checkpoint — 2026-07-25
+
+Published `/guides/how-to-choose-software` through PR #70, merge `43282bbaac124fbce2671eea0f7ed2ed05eee67b`. Add one published cross-cluster software guide to the content inventory. Production and sitemap verification passed; indexing is `Needs verification`. No traffic, click, conversion, or revenue result is claimed from publication.
+
 Version: 1.1
 Status: Active  
 Owner: Choose Better Tech  

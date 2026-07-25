@@ -5,6 +5,12 @@ Status: Active
 Owner: Choose Better Tech  
 Last Updated: 2026-07-20
 
+## Publication Checkpoint — 2026-07-25
+
+`How to Choose Software: A Practical Buyer's Guide` is published and verified live through PR #70, squash merge `43282bbaac124fbce2671eea0f7ed2ed05eee67b`. The page establishes the cross-cluster software-selection framework and links to the VPN, password-manager, cloud-storage, data-removal, cybersecurity, methodology, and disclosure routes. Production and sitemap QA passed. Indexing remains `Needs verification`; the full-site audit remains `INCOMPLETE` due execution-window limits.
+
+IndexNow single-URL submission returned HTTP 200, confirming acceptance only; indexing remains `Needs verification`.
+
 ## Active Evaluation Task
 
 - Privacy Bee hands-on evaluation is active. A canonical sanitized log exists, the support-response test is awaiting a human answer, and future actions follow `operations/PRIVACY_BEE_EVALUATION_RUNBOOK.md`. No publication, verdict, ranking, or affiliate activation is authorized.

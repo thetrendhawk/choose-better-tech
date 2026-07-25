@@ -11,6 +11,14 @@ This changelog records major business, publishing, analytics, affiliate, and ope
 
 ## Changelog
 
+### 2026-07-25 — Software selection buyer guide published
+
+IndexNow single-URL submission returned HTTP 200, confirming acceptance only; indexing remains `Needs verification`.
+
+- Published `How to Choose Software: A Practical Buyer's Guide` at `https://choosebettertech.com/guides/how-to-choose-software` through PR #70 and squash merge `43282bbaac124fbce2671eea0f7ed2ed05eee67b`.
+- Verified production HTTP 200, rendered article content, canonical, title and description, Article schema, 4/4 FAQ visible/schema parity, desktop and 390px mobile rendering, no horizontal overflow, internal routes, external source links, and exact sitemap inclusion.
+- Preserved the full-site audit as `INCOMPLETE` because the execution window expired; no audit failure was recorded or relabeled as passed. Indexing remains `Needs verification`; monitor Search Console and sitemap discovery.
+
 ### 2026-07-20 — Optery affiliate-readiness audit blocked before destination exposure
 
 - Created issue #44 and completed a sanitized review of Optery's public Affiliate Program page, Affiliate Referral Agreement, Help Center restrictions, and current pricing context.
