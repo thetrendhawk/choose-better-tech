@@ -38,6 +38,7 @@ const DoYouStillNeedAntivirusOnWindows11Page = lazy(() => import("./pages/DoYouS
 const WindowsDefenderVsPaidAntivirusPage = lazy(() => import("./pages/WindowsDefenderVsPaidAntivirusPage").then((module) => ({ default: module.WindowsDefenderVsPaidAntivirusPage })));
 const HomePage = lazy(() => import("./pages/HomePage").then((module) => ({ default: module.HomePage })));
 const HowWeReviewSoftwarePage = lazy(() => import("./pages/HowWeReviewSoftwarePage").then((module) => ({ default: module.HowWeReviewSoftwarePage })));
+const HowToChooseSoftwarePage = lazy(() => import("./pages/HowToChooseSoftwarePage").then((module) => ({ default: module.HowToChooseSoftwarePage })));
 const IncogniReviewPage = lazy(() => import("./pages/IncogniReviewPage").then((module) => ({ default: module.IncogniReviewPage })));
 const IncogniVsDeleteMePage = lazy(() => import("./pages/IncogniVsDeleteMePage").then((module) => ({ default: module.IncogniVsDeleteMePage })));
 const IncogniVsOpteryPage = lazy(() => import("./pages/IncogniVsOpteryPage").then((module) => ({ default: module.IncogniVsOpteryPage })));
@@ -127,6 +128,7 @@ export default function App() {
             <Route path="best-password-managers-for-families" element={<BestPasswordManagersForFamiliesPage />} />
             <Route path="best-password-managers-for-privacy" element={<BestPasswordManagersForPrivacyPage />} />
             <Route path="guides/how-password-managers-work" element={<HowPasswordManagersWorkPage />} />
+            <Route path="guides/how-to-choose-software" element={<HowToChooseSoftwarePage />} />
             <Route path="guides/how-long-does-data-removal-take" element={<HowLongDoesDataRemovalTakePage />} />
             <Route path="guides/can-your-information-reappear-after-data-removal" element={<CanInformationReappearAfterDataRemovalPage />} />
             <Route path="guides/do-you-still-need-antivirus-on-windows-11" element={<DoYouStillNeedAntivirusOnWindows11Page />} />

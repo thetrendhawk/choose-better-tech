@@ -31,6 +31,7 @@ export const APP_ROUTES = [
   "/best-password-managers-for-families",
   "/best-password-managers-for-privacy",
   "/guides/how-password-managers-work",
+  "/guides/how-to-choose-software",
   "/guides/how-long-does-data-removal-take",
   "/guides/can-your-information-reappear-after-data-removal",
   "/guides/do-you-still-need-antivirus-on-windows-11",
