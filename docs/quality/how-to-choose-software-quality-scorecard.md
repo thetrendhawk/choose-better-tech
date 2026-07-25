@@ -1,6 +1,6 @@
 # How to Choose Software: A Practical Buyer's Guide Quality Scorecard
 
-- Reviewer: Independent reviewer required before deployment
+- Reviewer: Human reviewer approval recorded from user message on 2026-07-25; secondary Codex review also recorded separately
 - Review date: 2026-07-25
 - Article URL or proposed route: `/guides/how-to-choose-software`
 - Research record: `docs/research/how-to-choose-software-research.md`
@@ -37,4 +37,4 @@
 
 ## Final Result
 
-CONDITIONAL PASS — CORRECTIONS REQUIRED: thin-content correction, route-count correction, and checklist treatment are verified; human-independent review, full-site audit completion or approved follow-up, PR review, deployment, live QA, and operations closeout remain required before deployment.
+PASS — human reviewer approved the revised preview for deployment. Operations completeness remains 0 until deployment, live QA, and operations closeout are completed.

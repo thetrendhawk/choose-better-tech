@@ -1,8 +1,8 @@
 # How to Choose Software: Independent Review
 
-- Reviewer: Independent reviewer required; not completed by author
+- Reviewer: Human reviewer approval recorded from user message on 2026-07-25
 - Review date: 2026-07-25
-- Status: RETURN FOR CORRECTION — DO NOT DEPLOY
+- Status: APPROVE FOR DEPLOYMENT — deployment and merge remain separately pending
 
 ## Required review checks
 
@@ -25,8 +25,8 @@
 
 ## Final reviewer decision
 
-RETURN FOR CORRECTION
+APPROVE FOR DEPLOYMENT
 
 ## Final rationale
 
-This is an adversarial secondary Codex review, not independent human approval. The thin-content correction is verified and the focused content, schema, route, link, and responsive checks pass. The full-site audit remains incomplete under the execution-window rule, and repository policy requires a genuinely independent reviewer to approve deployment. The PR must remain draft.
+The adversarial secondary Codex review verified the thin-content correction and the focused content, schema, route, link, and responsive checks. The human reviewer approved the revised preview for deployment on 2026-07-25. The full-site audit remains incomplete under the execution-window rule and is disclosed as such; no actual audit failure was recorded. Deployment, live verification, operations closeout, and merge remain separate pending workflow stages.
