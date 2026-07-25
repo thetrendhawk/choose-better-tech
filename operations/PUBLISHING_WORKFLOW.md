@@ -65,6 +65,10 @@ Also require:
 
 Any failed mandatory check blocks deployment until corrected and rerun.
 
+### Audit execution-window rule
+
+If a full-site audit cannot finish because of an execution-window limit, record the audit as `INCOMPLETE`, never as passed. Run bounded QA on the changed routes, verify affected routing and generated artifacts, and disclose the limitation in the pull request. A completed audit with actual errors remains a failed, blocking check and must be corrected and rerun; execution-window incompletion does not waive that requirement.
+
 ## Advanced Editorial Gates
 
 Before implementation or deployment, enforce:
