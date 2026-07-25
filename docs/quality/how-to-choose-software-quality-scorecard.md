@@ -1,6 +1,6 @@
 # How to Choose Software: A Practical Buyer's Guide Quality Scorecard
 
-- Reviewer: Human reviewer approval recorded from user message on 2026-07-25; secondary Codex review also recorded separately
+- Reviewer: Pending site-owner review of the revised Vercel preview; secondary Codex review recorded separately
 - Review date: 2026-07-25
 - Article URL or proposed route: `/guides/how-to-choose-software`
 - Research record: `docs/research/how-to-choose-software-research.md`
@@ -10,7 +10,7 @@
 | # | Category | Score (0-2) | Evidence |
 | ---: | --- | ---: | --- |
 | 1 | Distinct search intent | 2 | Cross-category software evaluation is distinct from category buying guides. |
-| 2 | Original contribution | 2 | Named ten-step framework with exit and real-task testing dimensions. |
+| 2 | Original contribution | 2 | Named ten-step framework with exit, failure-path testing, and evidence worksheet. |
 | 3 | Research depth | 2 | Research record includes government/regulator sources, scope limitations, and final structure mapping. |
 | 4 | Primary-source quality | 2 | NIST, FTC, and ICO sources selected for their respective claims. |
 | 5 | Independent evidence | 1 | Educational synthesis; no product testing or independent vendor testing needed for the stable framework. |
@@ -28,13 +28,13 @@
 | 17 | Code maintainability | 2 | Follows existing page, SEO, schema, table, and link patterns. |
 | 18 | Technical SEO | 2 | Route, metadata, canonical path, Article and FAQ schema, and sitemap are wired. |
 | 19 | Accessibility and responsive behavior | 2 | Semantic headings, scoped table headers, overflow containment, and labeled external links. |
-| 20 | Operations completeness | 0 | Deployment, human-independent review, live QA, and final operations closeout remain pending. |
+| 20 | Operations completeness | 0 | Deployment, site-owner preview review, live QA, and final operations closeout remain pending. |
 
 ## Score
 
 - Total: 37/40
-- Threshold checks: No prohibited zero in required research/content categories. Operations remains 0 until deployment and live closeout; this is not a deployment approval.
+- Threshold checks: No prohibited zero in required research/content categories. Operations remains 0 until deployment and live closeout.
 
 ## Final Result
 
-PASS — human reviewer approved the revised preview for deployment. Operations completeness remains 0 until deployment, live QA, and operations closeout are completed.
+CONDITIONAL PASS — CORRECTIONS REQUIRED: site-owner review of the revised Vercel preview is pending. Operations completeness remains 0 until deployment, live QA, and operations closeout are completed.

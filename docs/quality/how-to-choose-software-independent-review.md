@@ -1,32 +1,38 @@
 # How to Choose Software: Independent Review
 
-- Reviewer: Human reviewer approval recorded from user message on 2026-07-25
+- Reviewer: Pending site-owner review of the revised Vercel preview
 - Review date: 2026-07-25
-- Status: APPROVE FOR DEPLOYMENT — deployment and merge remain separately pending
+- Status: PENDING — do not deploy
 
-## Required review checks
+## Review findings
 
-- Main verdict challenged: The framework is useful because it turns a purchase into a sequence of observable questions and includes exit difficulty, a failure-path test, and a do-not-buy branch. It is still close to familiar buyer advice in its individual dimensions; its originality depends on preserving the ten-step sequence and evidence worksheet rather than presenting generic feature-list guidance.
-- Critical claims rechecked: No Critical claims are present. Five High claims in the ledger were checked against the cited NIST, FTC, ICO, and CBT methodology sources. The article qualifies legal, privacy, security, and provider-specific uncertainty.
-- Excluded candidates reconsidered: Physical technology is explicitly excluded in the research record and page scope. No vendor is ranked or used as broad evidence. The five examples match CBT’s approved software clusters.
-- Affiliate-bias check: No affiliate URLs, product CTA, ranking, or commercial recommendation was added. The only commercial-adjacent treatment is a restrained reference to the existing newsletter/checklist.
-- Methodology and source-quality check: Visible sources identify NIST, FTC, and ICO roles accurately. The article clearly presents the ten-step framework as CBT analysis and distinguishes it from product testing.
-- Testing-transparency check: The page says no product was ranked or hands-on tested and gives readers a test procedure; site-rendering QA is not represented as product testing.
-- Duplicate-intent check: The route and intent remain distinct from category-specific buying guides and How We Review Software.
-- Reader-value and code-quality check: Semantic headings, scoped table headers, responsive overflow containment, Article schema, FAQ schema parity, and canonical behavior passed targeted local QA. The final checklist now explicitly routes readers to the existing Better Software Buyer Checklist signup.
-- Scope match after revision: The page now matches the approved substantive guide scope. Each of the ten steps has six decision prompts; the worksheet records the requested fields; category examples cover problem, test, tradeoff, and exit/failure concern; and the article remains software-only.
+The adversarial secondary Codex review verified the thin-content correction and the focused content, schema, route, link, and responsive checks. Each framework step now has six decision prompts; the worksheet records the requested fields; category examples cover problem, test, tradeoff, and exit/failure concern; and the article remains software-only.
 
-## Required corrections
+ChatGPT did not review the revised Vercel preview and did not approve deployment. The site owner must review the revised Vercel preview before any deployment decision.
 
-- The full-site audit command did not complete within the 180-second local window because it crawls every sitemap URL at two viewports; this is not treated as a pass. A human or separately assigned external reviewer must still review this secondary pass before deployment.
-- The implementation needed one correction: the route-count test expected 68 URLs after the new route made the manifest 69; the test was updated and now passes.
-- The article needed one editorial correction: it now explicitly explains how the final checklist connects to the existing Better Software Buyer Checklist signup.
-- The article’s thin-card defect was corrected: the ten cards became ten explanatory sections, and the worksheet, failure-path testing, expanded cost/offboarding guidance, and category applications were added.
+## Claims rechecked
+
+No Critical claims are present. Five High claims were checked against the cited NIST, FTC, ICO, and CBT methodology sources. The article qualifies legal, privacy, security, and provider-specific uncertainty. No new High or Critical claims were added during the depth correction.
+
+## Challenges made
+
+- Challenged whether the ten-step framework was materially original; the worksheet, failure-path test, exit-difficulty analysis, and do-not-buy branch now make the contribution visible.
+- Challenged whether the page was too generic; each step now states what to examine, how to test it, what evidence helps, and when to pause.
+- Rechecked physical-technology exclusion, affiliate independence, testing disclosure, duplicate intent, and source roles.
+
+## Corrections required and verified
+
+- Thin-card article structure: corrected and verified.
+- Missing evidence worksheet: corrected and verified with 13 mobile-safe rows.
+- Weak failure-path guidance: corrected and verified.
+- Compressed true-cost and exit-difficulty guidance: corrected and verified.
+- Thin category examples: corrected and verified for all five approved software clusters.
+- Full-site audit: incomplete because of execution-window limits; not recorded as passed. No actual audit failure was recorded.
 
 ## Final reviewer decision
 
-APPROVE FOR DEPLOYMENT
+PENDING
 
 ## Final rationale
 
-The adversarial secondary Codex review verified the thin-content correction and the focused content, schema, route, link, and responsive checks. The human reviewer approved the revised preview for deployment on 2026-07-25. The full-site audit remains incomplete under the execution-window rule and is disclosed as such; no actual audit failure was recorded. Deployment, live verification, operations closeout, and merge remain separate pending workflow stages.
+This is an adversarial secondary Codex review, not approval. The site owner must review the revised Vercel preview. Deployment, live verification, operations closeout, and merge remain pending.
