@@ -5,6 +5,12 @@ Status: Active
 Owner: Choose Better Tech  
 Last Updated: 2026-07-20
 
+## Publication Checkpoint — 2026-07-25
+
+`How to Choose Software: A Practical Buyer's Guide` — `/guides/how-to-choose-software` — cross-cluster software education — research complete, sources complete, written complete, QA final approved, published complete, published date 2026-07-25, indexed Needs verification, status Published. PR #70 squash merge `43282bbaac124fbce2671eea0f7ed2ed05eee67b`. Full-site audit status: INCOMPLETE due execution-window limits.
+
+IndexNow single-URL submission for the new route returned HTTP 200, confirming acceptance only and not indexing.
+
 ## Publishing Pipeline
 
 | Topic | URL | Cluster | Content Type | Research | Brief | Sources | Written | QA | Published | Published Date | Indexed | Pinterest | Instagram | LinkedIn | Refresh Date | Status |

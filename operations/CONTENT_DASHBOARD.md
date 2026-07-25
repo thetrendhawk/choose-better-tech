@@ -9,6 +9,12 @@
 | Owner | Choose Better Tech |
 | Last Updated | 2026-07-20 |
 
+## Latest Publication Checkpoint — 2026-07-25
+
+`How to Choose Software: A Practical Buyer's Guide` is published at `https://choosebettertech.com/guides/how-to-choose-software` through PR #70, squash merge `43282bbaac124fbce2671eea0f7ed2ed05eee67b`. Production HTTP 200, rendered content, canonical, metadata, Article/FAQ schema parity, desktop/390px QA, no overflow, internal links, external sources, and sitemap inclusion passed. The full-site audit remains `INCOMPLETE` due execution-window limits and is not recorded as passed. Indexing remains `Needs verification`.
+
+IndexNow single-URL submission for the new route returned HTTP 200, confirming acceptance only and not indexing.
+
 ## Current Strategic Focus
 
 Traffic execution, cluster expansion, and post-publication maintenance for:

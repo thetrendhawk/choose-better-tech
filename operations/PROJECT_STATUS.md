@@ -5,6 +5,12 @@ Status: Active
 Owner: Choose Better Tech  
 Last Updated: 2026-07-20
 
+## Current Publication Status — 2026-07-25
+
+`How to Choose Software: A Practical Buyer's Guide` is `VERIFIED LIVE` at `https://choosebettertech.com/guides/how-to-choose-software` after PR #70 squash merge `43282bbaac124fbce2671eea0f7ed2ed05eee67b`. Production structural QA and sitemap checks passed. Full-site audit is `INCOMPLETE` because of execution-window limits; indexing and post-publication monitoring remain pending.
+
+IndexNow single-URL submission returned HTTP 200, confirming acceptance only; indexing remains `Needs verification`.
+
 ## Current Phase
 
 | Field | Status |
