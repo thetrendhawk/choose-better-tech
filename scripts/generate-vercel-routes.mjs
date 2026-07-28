@@ -5,25 +5,18 @@ import { APP_ROUTES } from "../src/routes.manifest.mjs";
 
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-// Real files/functions win. Canonical lowercase URLs rewrite to flat generated
-// HTML, slash variants redirect once, and every unknown URL receives the
-// generated noindex 404 document with a real 404 status.
+// High-level rewrites check the filesystem first, so real files and functions
+// retain precedence. Vercel normalizes trailing slashes, canonical lowercase
+// URLs rewrite to flat generated HTML, and unmatched paths use dist/404.html.
 export const buildVercelConfig = (routes) => {
   const nonRoot = routes.filter((route) => route !== "/").map((route) => escapeRegExp(route.slice(1)));
   const knownPattern = nonRoot.join("|");
   return {
     $schema: "https://openapi.vercel.sh/vercel.json",
-    routes: [
-      { handle: "filesystem" },
-      {
-        src: `^/(${knownPattern})/+$`,
-        headers: { Location: "/$1" },
-        status: 308,
-        caseSensitive: true
-      },
-      { src: "^/$", dest: "/index.html", caseSensitive: true },
-      { src: `^/(${knownPattern})$`, dest: "/$1.html", caseSensitive: true },
-      { src: "/(.*)", status: 404, dest: "/404.html" }
+    trailingSlash: false,
+    rewrites: [
+      { source: "/", destination: "/index.html" },
+      { source: `^/(${knownPattern})$`, destination: "/$1.html" }
     ]
   };
 };

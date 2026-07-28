@@ -36,33 +36,23 @@ describe("executable route manifest", () => {
 });
 
 describe("generated Vercel routing", () => {
-  const routes = buildVercelConfig(APP_ROUTES).routes;
-  const redirect = routes[1];
-  const root = routes[2];
-  const rewrite = routes[3];
-  const fallback = routes[4];
+  const config = buildVercelConfig(APP_ROUTES);
+  const rewrites = config.rewrites;
+  const root = rewrites[0];
+  const rewrite = rewrites[1];
 
-  it("preserves filesystem handling before generated application rules", () => {
-    expect(routes[0]).toEqual({ handle: "filesystem" });
+  it("uses Vercel-native no-slash normalization without low-level routes", () => {
+    expect(config.trailingSlash).toBe(false);
+    expect(config).not.toHaveProperty("routes");
   });
 
-  it("redirects lowercase slash variants once with 308", () => {
-    const matcher = new RegExp(redirect.src);
-    expect(redirect.status).toBe(308);
-    expect(redirect.headers).toEqual({ Location: "/$1" });
-    expect(redirect.caseSensitive).toBe(true);
-    for (const route of APP_ROUTES.filter((path) => path !== "/")) {
-      expect(matcher.test(route + "/")).toBe(true);
-      expect(matcher.test(route)).toBe(false);
-      expect(matcher.test(route.toUpperCase() + "/")).toBe(false);
-    }
+  it("rewrites the root to its generated HTML document", () => {
+    expect(root).toEqual({ source: "/", destination: "/index.html" });
   });
 
   it("rewrites exact lowercase clean URLs to flat HTML outputs", () => {
-    expect(root).toEqual({ src: "^/$", dest: "/index.html", caseSensitive: true });
-    expect(rewrite.dest).toBe("/$1.html");
-    expect(rewrite.caseSensitive).toBe(true);
-    const matcher = new RegExp(rewrite.src);
+    expect(rewrite.destination).toBe("/$1.html");
+    const matcher = new RegExp(rewrite.source);
     for (const route of APP_ROUTES.filter((path) => path !== "/")) {
       expect(matcher.test(route)).toBe(true);
       expect(matcher.test(route + "/")).toBe(false);
@@ -70,8 +60,8 @@ describe("generated Vercel routing", () => {
     }
   });
 
-  it("returns generated 404 HTML for all unmatched URLs", () => {
-    expect(fallback).toEqual({ src: "/(.*)", status: 404, dest: "/404.html" });
+  it("leaves unmatched paths to Vercel's generated 404.html handling", () => {
+    expect(rewrites).toHaveLength(2);
   });
 });
 
