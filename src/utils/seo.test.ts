@@ -21,4 +21,14 @@ describe("SEO helpers", () => {
       robots: "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
     });
   });
+
+  it("can omit a canonical for the generated 404 page", () => {
+    expect(buildSeo({
+      title: "Page Not Found",
+      description: "Missing",
+      path: "/404?ignored=true",
+      canonical: false,
+      robots: "noindex,follow"
+    })).toMatchObject({ canonicalUrl: undefined, robots: "noindex,follow" });
+  });
 });

@@ -54,7 +54,15 @@ const homepageComparisonKeys = new Set([
 ]);
 
 const homepageComparisons = featuredComparisons.filter((article) => homepageComparisonKeys.has(article.key));
-const homepageGuides = featuredGuides.slice(0, 6);
+const homepageGuideKeys = new Set([
+  "how-to-choose-software",
+  "windows-defender-vs-paid-antivirus",
+  "can-information-reappear-after-data-removal",
+  "how-long-does-data-removal-take",
+  "best-antivirus-software",
+  "best-secure-cloud-storage"
+]);
+const homepageGuides = featuredGuides.filter((article) => homepageGuideKeys.has(article.key));
 
 export function HomePage() {
   return (

@@ -21,6 +21,7 @@ export const featuredReviews: ArticlePreview[] = [
 ];
 
 export const featuredGuides: ArticlePreview[] = [
+  { key: "how-to-choose-software", title: "How to Choose Software", excerpt: "A practical framework for evaluating software fit, cost, privacy, usability, limits, and switching risk before you subscribe.", href: "/guides/how-to-choose-software", status: "Published Guide" },
   { key: "windows-defender-vs-paid-antivirus", title: "Windows Defender vs Paid Antivirus", excerpt: "A capability-gap audit for deciding whether household management, cross-platform coverage, support, parental controls, or bundle extras justify paying.", href: "/guides/windows-defender-vs-paid-antivirus", status: "Published Guide" },
   { key: "can-information-reappear-after-data-removal", title: "Can Your Information Reappear After Data Removal?", excerpt: "A practical guide to why broker profiles return, how to distinguish recurrence from stale or duplicate results, and when to recheck.", href: "/guides/can-your-information-reappear-after-data-removal", status: "Published Guide" },
   { key: "how-long-does-data-removal-take", title: "How Long Does Data Removal Take?", excerpt: "A realistic timeline for scans, opt-out submissions, broker processing, verification, search refreshes, and recurring removals.", href: "/guides/how-long-does-data-removal-take", status: "Published Guide" },

@@ -8,8 +8,8 @@ export const canonicalUrlForPath = (path: string) => {
   return site.url + normalizedPath;
 };
 
-export const buildSeo = ({ title, description, path, robots = "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1", ogType = "website" }: SeoConfig) => ({
-  canonicalUrl: canonicalUrlForPath(path),
+export const buildSeo = ({ title, description, path, canonical = true, robots = "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1", ogType = "website" }: SeoConfig) => ({
+  canonicalUrl: canonical ? canonicalUrlForPath(path) : undefined,
   description,
   ogType,
   pageTitle: formatPageTitle(title),
