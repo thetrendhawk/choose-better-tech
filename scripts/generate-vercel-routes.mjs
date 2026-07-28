@@ -5,19 +5,25 @@ import { APP_ROUTES } from "../src/routes.manifest.mjs";
 
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-// filesystem first -> real files 200; exact known routes -> index.html 200
-// (case-sensitive so uppercase variants do not match the canonical lowercase
-// routes; Vercel matches case-insensitively by default); unknown fallback ->
-// index.html with HTTP 404 (SPA still renders NotFoundPage).
+// Real files/functions win. Canonical lowercase URLs rewrite to flat generated
+// HTML, slash variants redirect once, and every unknown URL receives the
+// generated noindex 404 document with a real 404 status.
 export const buildVercelConfig = (routes) => {
   const nonRoot = routes.filter((route) => route !== "/").map((route) => escapeRegExp(route.slice(1)));
+  const knownPattern = nonRoot.join("|");
   return {
     $schema: "https://openapi.vercel.sh/vercel.json",
     routes: [
       { handle: "filesystem" },
+      {
+        src: `^/(${knownPattern})/+$`,
+        headers: { Location: "/$1" },
+        status: 308,
+        caseSensitive: true
+      },
       { src: "^/$", dest: "/index.html", caseSensitive: true },
-      { src: `^/(?:${nonRoot.join("|")})/?$`, dest: "/index.html", caseSensitive: true },
-      { src: "/(.*)", status: 404, dest: "/index.html" }
+      { src: `^/(${knownPattern})$`, dest: "/$1.html", caseSensitive: true },
+      { src: "/(.*)", status: 404, dest: "/404.html" }
     ]
   };
 };

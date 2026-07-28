@@ -9,6 +9,7 @@ export type SeoConfig = {
   title: string;
   description: string;
   path: string;
+  canonical?: boolean;
   robots?: string;
   ogType?: "article" | "website";
 };
