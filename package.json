@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generate-seo-files.mjs && tsc -b && vite build",
+    "build": "node scripts/generate-seo-files.mjs && tsc -b && vite build && npm run build:prerender-poc",
+    "build:prerender-poc": "vite build --ssr src/entry-server.tsx --outDir .prerender/server --emptyOutDir && node scripts/prerender-poc.mjs",
+    "check:prerender-poc": "node scripts/check-prerender-poc.mjs",
     "preview": "vite preview",
     "lint": "eslint .",
     "test": "vitest run",

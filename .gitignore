@@ -1,5 +1,6 @@
 node_modules
 audit-artifacts/
+.prerender/
 dist
 .env
 .env.local

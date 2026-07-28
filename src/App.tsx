@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, type ReactNode } from "react";
 import { Outlet, Route, Routes } from "react-router-dom";
 import { GoogleAnalytics } from "./components/GoogleAnalytics";
 import { ScrollToTop } from "./components/ScrollToTop";
@@ -79,20 +79,27 @@ function RouteFallback() {
   );
 }
 
-function LazyRouteOutlet() {
+function LazyRouteOutlet({ showFallback = true }: { showFallback?: boolean }) {
   return (
-    <Suspense fallback={<RouteFallback />}>
+    <Suspense fallback={showFallback ? <RouteFallback /> : null}>
       <Outlet />
     </Suspense>
   );
 }
 
-export default function App() {
+export default function App({ prerenderElement }: { prerenderElement?: ReactNode }) {
   return (
     <>
       <GoogleAnalytics />
       <ScrollToTop />
       <Routes>
+        {prerenderElement ? (
+          <Route element={<SiteLayout />}>
+            <Route element={<LazyRouteOutlet showFallback={false} />}>
+              <Route path="*" element={prerenderElement} />
+            </Route>
+          </Route>
+        ) : (
         <Route element={<SiteLayout />}>
           <Route element={<LazyRouteOutlet />}>
             <Route index element={<HomePage />} />
@@ -167,6 +174,7 @@ export default function App() {
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Route>
+        )}
       </Routes>
     </>
   );
