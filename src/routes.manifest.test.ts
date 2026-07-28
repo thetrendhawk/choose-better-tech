@@ -38,30 +38,34 @@ describe("executable route manifest", () => {
 describe("generated Vercel routing", () => {
   const config = buildVercelConfig(APP_ROUTES);
   const rewrites = config.rewrites;
-  const root = rewrites[0];
-  const rewrite = rewrites[1];
 
   it("uses Vercel-native no-slash normalization without low-level routes", () => {
     expect(config.trailingSlash).toBe(false);
     expect(config).not.toHaveProperty("routes");
   });
 
-  it("rewrites the root to its generated HTML document", () => {
-    expect(root).toEqual({ source: "/", destination: "/index.html" });
+  it("generates one exact flat-HTML rewrite for every public route", () => {
+    expect(rewrites).toHaveLength(69);
+    expect(rewrites).toEqual(APP_ROUTES.map((source) => ({
+      source,
+      destination: source === "/" ? "/index.html" : `${source}.html`
+    })));
+    expect(rewrites[0]).toEqual({ source: "/", destination: "/index.html" });
   });
 
-  it("rewrites exact lowercase clean URLs to flat HTML outputs", () => {
-    expect(rewrite.destination).toBe("/$1.html");
-    const matcher = new RegExp(rewrite.source);
-    for (const route of APP_ROUTES.filter((path) => path !== "/")) {
-      expect(matcher.test(route)).toBe(true);
-      expect(matcher.test(route + "/")).toBe(false);
-      expect(matcher.test(route.toUpperCase())).toBe(false);
-    }
+  it("contains no grouped regex or catch-all SPA rewrite", () => {
+    expect(rewrites.every(({ source }) => APP_ROUTES.includes(source))).toBe(true);
+    expect(rewrites.some(({ source }) => /[()*+?^$|[\]\\]/.test(source))).toBe(false);
+    expect(rewrites.some(({ destination }) => destination === "/index.html")).toBe(true);
+    expect(rewrites.filter(({ destination }) => destination === "/index.html")).toHaveLength(1);
   });
 
-  it("leaves unmatched paths to Vercel's generated 404.html handling", () => {
-    expect(rewrites).toHaveLength(2);
+  it("rejects unsafe or colliding route output", () => {
+    expect(() => buildVercelConfig(["/", "/about", "/about"])).toThrow(/Duplicate Vercel rewrite source/);
+    expect(() => buildVercelConfig(["/", "/about", "/About"])).toThrow(/Case-insensitive Vercel rewrite source collision/);
+    expect(() => buildVercelConfig(["/", "/about.html"])).toThrow(/file extensions/);
+    expect(() => buildVercelConfig(["/", "/about/"])).toThrow(/Malformed public route/);
+    expect(() => buildVercelConfig(["/", "/about?preview=1"])).toThrow(/Malformed public route/);
   });
 });
 
