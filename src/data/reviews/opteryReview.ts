@@ -209,6 +209,7 @@ export const opteryReview: ReviewPageContent = {
     { question: "Is Optery worth paying for?", answer: "Often yes when recurring monitoring, convenience, and proof matter. Probably not when you only need a few opt-outs or expect complete internet deletion." }
   ],
   relatedGuides: [
+    { title: "How Long Do Data Removal Services Take?", href: "/guides/how-long-does-data-removal-take", description: "Understand the timeline from first scan and request through broker processing, verification, and monitoring." },
     { title: "Best Data Removal Services", href: "/best-data-removal-services", description: "Compare Optery with Incogni, DeleteMe, and DIY removal." },
     { title: "Are Data Removal Services Worth It?", href: "/are-data-removal-services-worth-it", description: "Decide whether recurring paid removal makes sense for your situation." },
     { title: "Data Removal Hub", href: "/data-removal", description: "Start with the category overview and choose your next step." },

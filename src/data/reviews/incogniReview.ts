@@ -260,6 +260,7 @@ export const incogniReview: ReviewPageContent = {
     }
   ],
   relatedGuides: [
+    { title: "How Long Do Data Removal Services Take?", href: "/guides/how-long-does-data-removal-take", description: "See why broker requests, verification, search refreshes, and repeat monitoring follow different timelines." },
     { title: "Best Data Removal Services", href: "/best-data-removal-services", description: "Compare Incogni with Optery, DeleteMe, and manual opt-outs by fit." },
     { title: "Are Data Removal Services Worth It?", href: "/are-data-removal-services-worth-it", description: "Decide whether paying for data-removal maintenance makes sense compared with manual opt-outs." },
     { title: "Data Removal Hub", href: "/data-removal", description: "Start with the category hub before choosing a data-removal service." },

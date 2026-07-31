@@ -293,6 +293,7 @@ export const deleteMeReview: ReviewPageContent = {
     }
   ],
   relatedGuides: [
+    { title: "How Long Do Data Removal Services Take?", href: "/guides/how-long-does-data-removal-take", description: "Learn why a first report is not the same as confirmed removal and why slower cases can take longer." },
     { title: "Best Data Removal Services", href: "/best-data-removal-services", description: "Compare DeleteMe with Incogni, Optery, and manual opt-outs by fit." },
     { title: "Are Data Removal Services Worth It?", href: "/are-data-removal-services-worth-it", description: "Decide whether paying for data-removal maintenance makes sense compared with manual opt-outs." },
     { title: "Data Removal Hub", href: "/data-removal", description: "Start with the category hub before choosing a data-removal service." },
