@@ -45,6 +45,7 @@ const homepageTopics = [
 ];
 
 const homepageComparisonKeys = new Set([
+  "incogni-vs-deleteme",
   "icloud-vs-google-drive",
   "nordvpn-vs-protonvpn",
   "nordvpn-vs-surfshark",
@@ -55,6 +56,9 @@ const homepageComparisonKeys = new Set([
 
 const homepageComparisons = featuredComparisons.filter((article) => homepageComparisonKeys.has(article.key));
 const homepageGuideKeys = new Set([
+  "best-data-removal-services",
+  "best-cloud-storage-for-beginners",
+  "are-vpns-worth-it",
   "how-to-choose-software",
   "windows-defender-vs-paid-antivirus",
   "can-information-reappear-after-data-removal",

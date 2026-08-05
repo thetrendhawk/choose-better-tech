@@ -99,7 +99,7 @@ export function DataRemovalHubPage() {
             <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-normal text-slate-950 sm:text-5xl">{hub.title}</h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700">{hub.subtitle}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Link className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/comparisons">Compare Data Removal Services</Link>
+              <Link className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/best-data-removal-services">Compare Data Removal Services</Link>
               <Link className="inline-flex min-h-11 items-center justify-center rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/reviews">Read Data Removal Reviews</Link>
             </div>
           </div>
@@ -113,7 +113,7 @@ export function DataRemovalHubPage() {
 
       <Section className="bg-white">
         <SectionHeading eyebrow="Quick picks" title="Start With the Path That Matches You" description="These are fit-based starting points, not universal winners." />
-        <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
+        <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {hub.quickPicks.map((pick) => (
             <CardLink key={pick.title} title={pick.title} description={pick.description} href={pick.href} label={pick.label} />
           ))}
@@ -248,7 +248,7 @@ export function DataRemovalHubPage() {
             <h2 className="text-3xl font-bold">Use the right privacy-maintenance path</h2>
             <p className="mt-3 text-sm leading-6 text-slate-300">Use Incogni for simple hands-off automation, Optery for proof and public listing visibility, DeleteMe for human-assisted support, and manual opt-out when control matters more than convenience.</p>
           </div>
-          <Link className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/comparisons">Compare the Services</Link>
+          <Link className="inline-flex min-h-11 items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-600" to="/best-data-removal-services">Compare the Services</Link>
         </Container>
       </section>
     </>

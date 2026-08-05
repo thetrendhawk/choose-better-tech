@@ -11,6 +11,12 @@ export const dataRemovalHub = {
   ],
   quickPicks: [
     {
+      label: "Start with a realistic timeline",
+      title: "How Long Data Removal Takes",
+      description: "See what can happen within days, what may take weeks or months, and why a first report is not proof that every listing is gone.",
+      href: "/guides/how-long-does-data-removal-take"
+    },
+    {
       label: "Best for simple automation",
       title: "Incogni",
       description: "Start here if you want lower-friction broker-removal automation, recurring requests, broader geographic fit, and Deloitte process assurance.",
