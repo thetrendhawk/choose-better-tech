@@ -8,8 +8,8 @@ import { Section } from "../components/ui/Section";
 import { site } from "../utils/site";
 
 const pagePath = "/guides/how-long-does-data-removal-take";
-const pageTitle = "How Long Do Data Removal Services Take? A Realistic Timeline";
-const pageDescription = "Data-removal services can show early activity in days, but slower removals may take weeks or months. See the stages, delays, verification, and monitoring.";
+const pageTitle = "How Long Does Data Removal Take? Realistic Service Timelines";
+const pageDescription = "How long do data-removal services take? Compare realistic Incogni, Optery, and DeleteMe timelines, from first scans through verified removal and monitoring.";
 const reviewedDate = "July 31, 2026";
 
 const timeline = [

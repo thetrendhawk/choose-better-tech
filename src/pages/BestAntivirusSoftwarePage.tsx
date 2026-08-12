@@ -6,8 +6,8 @@ import { Section } from "../components/ui/Section";
 import { site } from "../utils/site";
 
 const path = "/best-antivirus-software";
-const title = "Best Antivirus Software in 2026";
-const description = "Compare Microsoft Defender, Bitdefender, Norton, ESET, F-Secure, McAfee, and TotalAV using current independent lab evidence, renewal terms, privacy, and fit.";
+const title = "Best Antivirus Software for Windows in 2026";
+const description = "Compare the best antivirus software for Windows, including Microsoft Defender, Bitdefender, Norton, and ESET, using current lab results, pricing, privacy, and fit.";
 
 const picks = [
   { label: "Best built-in baseline", name: "Microsoft Defender", fit: "Many ordinary Windows 11 users who want capable protection without another subscription.", caveat: "Paid suites can add broader household coverage, support, identity, VPN, backup, or management features." },

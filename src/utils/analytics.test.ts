@@ -27,6 +27,12 @@ afterEach(() => {
 });
 
 describe("google analytics gtag transmission", () => {
+  it("limits production collection to the canonical site hostnames", async () => {
+    const analytics = await freshModule();
+    expect(analytics.shouldCollectAnalytics("choosebettertech.com")).toBe(true);
+    expect(analytics.shouldCollectAnalytics("www.choosebettertech.com")).toBe(true);
+  });
+
   it("initializes only once and inserts the gtag script only once", async () => {
     const analytics = await freshModule();
     analytics.initializeGoogleAnalytics();
@@ -80,5 +86,13 @@ describe("google analytics gtag transmission", () => {
     analytics.trackPageView("/same");
     analytics.trackPageView("/same");
     expect(pageViewEvents()).toHaveLength(1);
+  });
+
+  it("emits named conversion events with their parameters", async () => {
+    const analytics = await freshModule();
+    analytics.initializeGoogleAnalytics();
+    analytics.trackEvent("newsletter_signup", { method: "mailchimp" });
+    const event = dataLayer().map(toArray).find((entry) => entry[0] === "event" && entry[1] === "newsletter_signup");
+    expect(event?.[2]).toEqual({ method: "mailchimp" });
   });
 });
