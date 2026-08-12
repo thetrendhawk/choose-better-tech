@@ -24,7 +24,7 @@ export function trackAffiliateClick(details: AffiliateClickDetails, event?: Acti
   }
 
   try {
-    if (typeof window === "undefined") return;
+    if (typeof window === "undefined" || (import.meta.env.MODE !== "test" && !["choosebettertech.com", "www.choosebettertech.com"].includes(window.location.hostname.toLowerCase()))) return;
     const eventParameters = {
       affiliate_provider: details.provider,
       affiliate_destination: details.destination || details.href,

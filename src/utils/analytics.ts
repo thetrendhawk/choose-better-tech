@@ -5,6 +5,8 @@ type GtagCommand = "js" | "config" | "event";
 type GtagArguments = [GtagCommand, string | Date, Record<string, unknown>?];
 type Gtag = (...args: GtagArguments) => void;
 
+const PRODUCTION_HOSTS = new Set(["choosebettertech.com", "www.choosebettertech.com"]);
+
 declare global {
   interface Window {
     dataLayer?: unknown[];
@@ -15,8 +17,10 @@ declare global {
 let isInitialized = false;
 let lastTrackedPath = "";
 
+export const shouldCollectAnalytics = (hostname: string) => import.meta.env.MODE === "test" || PRODUCTION_HOSTS.has(hostname.toLowerCase());
+
 export const initializeGoogleAnalytics = () => {
-  if (typeof window === "undefined" || isInitialized) {
+  if (typeof window === "undefined" || isInitialized || !shouldCollectAnalytics(window.location.hostname)) {
     return;
   }
 
@@ -44,7 +48,7 @@ export const initializeGoogleAnalytics = () => {
 };
 
 export const trackPageView = (path: string) => {
-  if (typeof window === "undefined" || !window.gtag || path === lastTrackedPath) {
+  if (typeof window === "undefined" || !shouldCollectAnalytics(window.location.hostname) || !window.gtag || path === lastTrackedPath) {
     return;
   }
 
@@ -54,4 +58,9 @@ export const trackPageView = (path: string) => {
     page_title: document.title
   });
   lastTrackedPath = path;
+};
+
+export const trackEvent = (name: string, parameters: Record<string, unknown> = {}) => {
+  if (typeof window === "undefined" || !shouldCollectAnalytics(window.location.hostname) || !window.gtag) return;
+  window.gtag("event", name, parameters);
 };
