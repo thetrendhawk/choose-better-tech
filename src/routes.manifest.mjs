@@ -11,6 +11,7 @@ export const APP_ROUTE_DEFINITIONS = [
   { path: "/vpn", module: "./pages/VpnDecisionHubPage.tsx", exportName: "VpnDecisionHubPage" },
   { path: "/password-managers", module: "./pages/PasswordManagersHubPage.tsx", exportName: "PasswordManagersHubPage" },
   { path: "/data-removal", module: "./pages/DataRemovalHubPage.tsx", exportName: "DataRemovalHubPage" },
+  { path: "/tools/data-removal-service-selector", module: "./pages/DataRemovalServiceSelectorPage.tsx", exportName: "DataRemovalServiceSelectorPage" },
   { path: "/reviews", module: "./pages/ReviewsIndexPage.tsx", exportName: "ReviewsIndexPage" },
   { path: "/comparisons", module: "./pages/ComparisonsIndexPage.tsx", exportName: "ComparisonsIndexPage" },
   { path: "/are-data-removal-services-worth-it", module: "./pages/AreDataRemovalServicesWorthItPage.tsx", exportName: "AreDataRemovalServicesWorthItPage" },

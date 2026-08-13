@@ -11,10 +11,10 @@ import { join } from "node:path";
 const SITE_URL = "https://choosebettertech.com";
 
 describe("executable route manifest", () => {
-  it("contains exactly 69 unique normalized public routes", () => {
-    expect(APP_ROUTE_DEFINITIONS).toHaveLength(69);
-    expect(APP_ROUTES).toHaveLength(69);
-    expect(new Set(APP_ROUTES).size).toBe(69);
+  it("contains exactly 70 unique normalized public routes", () => {
+    expect(APP_ROUTE_DEFINITIONS).toHaveLength(70);
+    expect(APP_ROUTES).toHaveLength(70);
+    expect(new Set(APP_ROUTES).size).toBe(70);
     expect(APP_ROUTES).toEqual(APP_ROUTE_DEFINITIONS.map(({ path }) => path));
     for (const definition of APP_ROUTE_DEFINITIONS) expect(validateRouteDefinition(definition)).toBe(definition);
   });
@@ -45,7 +45,7 @@ describe("generated Vercel routing", () => {
   });
 
   it("generates one exact flat-HTML rewrite for every public route", () => {
-    expect(rewrites).toHaveLength(69);
+    expect(rewrites).toHaveLength(70);
     expect(rewrites).toEqual(APP_ROUTES.map((source) => ({
       source,
       destination: source === "/" ? "/index.html" : `${source}.html`
@@ -72,9 +72,9 @@ describe("generated Vercel routing", () => {
 describe("sitemap output", () => {
   const canonical = buildSitemap(APP_ROUTES, SITE_URL);
 
-  it("matches the committed sitemap and contains 69 URLs", () => {
+  it("matches the committed sitemap and contains 70 URLs", () => {
     expect(isEolEquivalent(canonical, readFileSync("public/sitemap.xml", "utf8"))).toBe(true);
-    expect((canonical.match(/<url>/g) ?? [])).toHaveLength(69);
+    expect((canonical.match(/<url>/g) ?? [])).toHaveLength(70);
   });
 
   it("handles cross-platform generated file line endings", async () => {

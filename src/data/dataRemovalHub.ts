@@ -11,6 +11,12 @@ export const dataRemovalHub = {
   ],
   quickPicks: [
     {
+      label: "Free decision tool",
+      title: "Data Removal Service Selector",
+      description: "Answer one practical question to choose a research starting point: Incogni, Optery, DeleteMe, or manual opt-outs.",
+      href: "/tools/data-removal-service-selector"
+    },
+    {
       label: "Start with a realistic timeline",
       title: "How Long Data Removal Takes",
       description: "See what can happen within days, what may take weeks or months, and why a first report is not proof that every listing is gone.",

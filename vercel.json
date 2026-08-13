@@ -43,6 +43,10 @@
       "destination": "/data-removal.html"
     },
     {
+      "source": "/tools/data-removal-service-selector",
+      "destination": "/tools/data-removal-service-selector.html"
+    },
+    {
       "source": "/reviews",
       "destination": "/reviews.html"
     },
