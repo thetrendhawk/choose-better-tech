@@ -7,8 +7,13 @@ const server = createRouteTestServer();
 await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
 const address = server.address();
 if (!address || typeof address === "string") throw new Error("Could not start route test server.");
-const origin = `http://127.0.0.1:${address.port}`;
-const browser = await chromium.launch({ channel: "chrome", headless: true });
+const localOrigin = `http://127.0.0.1:${address.port}`;
+const productionOrigin = `http://choosebettertech.com:${address.port}`;
+const browser = await chromium.launch({
+  channel: "chrome",
+  headless: true,
+  args: ["--host-resolver-rules=MAP choosebettertech.com 127.0.0.1"]
+});
 
 const interceptAnalytics = (context) =>
   context.route("https://www.googletagmanager.com/**", (route) =>
@@ -26,9 +31,9 @@ try {
     page.on("console", (message) => { if (message.type() === "error") errors.push(message.text()); });
     page.on("pageerror", (error) => errors.push(error.message));
     page.on("requestfailed", (request) => {
-      if (request.url().startsWith(origin)) errors.push(`request failed: ${request.url()}`);
+      if (request.url().startsWith(productionOrigin)) errors.push(`request failed: ${request.url()}`);
     });
-    const response = await page.goto(origin + route + "?preview-check=1", { waitUntil: "networkidle" });
+    const response = await page.goto(productionOrigin + route + "?preview-check=1", { waitUntil: "networkidle" });
     await page.waitForTimeout(50);
     if (response?.status() !== 200) throw new Error(`${route}: direct load returned ${response?.status()}.`);
     const result = await page.evaluate(() => ({
@@ -47,11 +52,19 @@ try {
     if (!result.h1 || result.loading || result.textLength < 300) throw new Error(`${route}: hydrated content is incomplete.`);
     const analytics = await commands(page);
     if (count(analytics, "js") !== 1 || count(analytics, "config") !== 1 || count(analytics, "event", "page_view") !== 1) {
-      throw new Error(`${route}: initial analytics commands duplicated.`);
+      throw new Error(`${route}: production hostname did not emit exactly one analytics initialization and page view.`);
     }
     if (errors.length) throw new Error(`${route}: browser errors: ${errors.join(" | ")}`);
     await context.close();
   }
+
+  const nonProductionContext = await browser.newContext();
+  const nonProductionPage = await nonProductionContext.newPage();
+  const nonProductionResponse = await nonProductionPage.goto(localOrigin + "/", { waitUntil: "networkidle" });
+  if (nonProductionResponse?.status() !== 200 || (await commands(nonProductionPage)).length !== 0) {
+    throw new Error("Non-production hostname unexpectedly initialized analytics.");
+  }
+  await nonProductionContext.close();
 
   const navigationContext = await browser.newContext();
   await interceptAnalytics(navigationContext);
@@ -59,13 +72,13 @@ try {
   const navigationErrors = [];
   navigationPage.on("console", (message) => { if (message.type() === "error") navigationErrors.push(message.text()); });
   navigationPage.on("pageerror", (error) => navigationErrors.push(error.message));
-  await navigationPage.goto(origin + "/", { waitUntil: "networkidle" });
+  await navigationPage.goto(productionOrigin + "/", { waitUntil: "networkidle" });
   await navigationPage.locator('a[href="/guides/how-to-choose-software"]').first().click();
-  await navigationPage.waitForURL(origin + "/guides/how-to-choose-software");
+  await navigationPage.waitForURL(productionOrigin + "/guides/how-to-choose-software");
   await navigationPage.locator('a[aria-label="Choose Better Tech home"]').click();
-  await navigationPage.waitForURL(origin + "/");
+  await navigationPage.waitForURL(productionOrigin + "/");
   await navigationPage.locator('a[href="/reviews/totalav-review"]').first().click();
-  await navigationPage.waitForURL(origin + "/reviews/totalav-review");
+  await navigationPage.waitForURL(productionOrigin + "/reviews/totalav-review");
   const navigationMetadata = await navigationPage.evaluate(() => ({
     canonical: [...document.querySelectorAll('link[rel="canonical"]')].map((node) => node.getAttribute("href")),
     descriptions: document.querySelectorAll('meta[name="description"]').length,
@@ -81,9 +94,9 @@ try {
   }
 
   await navigationPage.locator('a[aria-label="Choose Better Tech home"]').click();
-  await navigationPage.waitForURL(origin + "/");
+  await navigationPage.waitForURL(productionOrigin + "/");
   await navigationPage.locator('a[href="/reviews/nordvpn-review"]').first().click();
-  await navigationPage.waitForURL(origin + "/reviews/nordvpn-review");
+  await navigationPage.waitForURL(productionOrigin + "/reviews/nordvpn-review");
   await navigationPage.evaluate(() => {
     document.addEventListener("click", (event) => {
       const target = event.target;
@@ -112,7 +125,7 @@ try {
   const noJsContext = await browser.newContext({ javaScriptEnabled: false });
   const noJsPage = await noJsContext.newPage();
   for (const route of APP_ROUTES) {
-    const response = await noJsPage.goto(origin + route, { waitUntil: "domcontentloaded" });
+    const response = await noJsPage.goto(localOrigin + route, { waitUntil: "domcontentloaded" });
     const result = await noJsPage.evaluate(() => ({
       h1: document.querySelector("h1")?.textContent?.trim(),
       links: document.querySelectorAll('a[href^="/"]').length,
@@ -131,7 +144,7 @@ try {
   const hydratedNotFoundErrors = [];
   hydratedNotFoundPage.on("console", (message) => { if (message.type() === "error") hydratedNotFoundErrors.push(message.text()); });
   hydratedNotFoundPage.on("pageerror", (error) => hydratedNotFoundErrors.push(error.message));
-  const hydratedNotFoundResponse = await hydratedNotFoundPage.goto(origin + "/Definitely-Not-A-Route?x=1", { waitUntil: "networkidle" });
+  const hydratedNotFoundResponse = await hydratedNotFoundPage.goto(localOrigin + "/Definitely-Not-A-Route?x=1", { waitUntil: "networkidle" });
   const hydratedNotFound = await hydratedNotFoundPage.evaluate(() => ({
     canonical: document.querySelectorAll('link[rel="canonical"]').length,
     robots: [...document.querySelectorAll('meta[name="robots"]')].map((node) => node.getAttribute("content"))
@@ -144,7 +157,7 @@ try {
 
   const notFoundContext = await browser.newContext({ javaScriptEnabled: false });
   const notFoundPage = await notFoundContext.newPage();
-  const notFoundResponse = await notFoundPage.goto(origin + "/Definitely-Not-A-Route?x=1", { waitUntil: "domcontentloaded" });
+  const notFoundResponse = await notFoundPage.goto(localOrigin + "/Definitely-Not-A-Route?x=1", { waitUntil: "domcontentloaded" });
   const notFound = await notFoundPage.evaluate(() => ({
     canonical: document.querySelectorAll('link[rel="canonical"]').length,
     h1: document.querySelector("h1")?.textContent?.trim(),
@@ -157,6 +170,7 @@ try {
   await notFoundContext.close();
 
   console.log(`Hydration and JavaScript-disabled checks passed for all ${APP_ROUTES.length} routes.`);
+  console.log("Production and non-production analytics hostname checks passed.");
   console.log("Client navigation metadata and analytics checks passed.");
   console.log("Single affiliate activation produced one tracking event.");
   console.log("Generated noindex,follow canonical-free 404 passed.");
