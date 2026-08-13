@@ -23,6 +23,7 @@ export const featuredReviews: ArticlePreview[] = [
 ];
 
 export const featuredGuides: ArticlePreview[] = [
+  { key: "data-removal-service-selector", title: "Data Removal Service Selector", excerpt: "A free interactive tool that recommends a research starting point based on automation, reporting, human assistance, or direct control.", href: "/tools/data-removal-service-selector", status: "Free Tool" },
   { key: "how-to-choose-software", title: "How to Choose Software", excerpt: "A practical framework for evaluating software fit, cost, privacy, usability, limits, and switching risk before you subscribe.", href: "/guides/how-to-choose-software", status: "Published Guide" },
   { key: "windows-defender-vs-paid-antivirus", title: "Windows Defender vs Paid Antivirus", excerpt: "A capability-gap audit for deciding whether household management, cross-platform coverage, support, parental controls, or bundle extras justify paying.", href: "/guides/windows-defender-vs-paid-antivirus", status: "Published Guide" },
   { key: "can-information-reappear-after-data-removal", title: "Can Your Information Reappear After Data Removal?", excerpt: "A practical guide to why broker profiles return, how to distinguish recurrence from stale or duplicate results, and when to recheck.", href: "/guides/can-your-information-reappear-after-data-removal", status: "Published Guide" },

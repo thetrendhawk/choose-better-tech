@@ -56,6 +56,7 @@ const homepageComparisonKeys = new Set([
 
 const homepageComparisons = featuredComparisons.filter((article) => homepageComparisonKeys.has(article.key));
 const homepageGuideKeys = new Set([
+  "data-removal-service-selector",
   "best-data-removal-services",
   "best-cloud-storage-for-beginners",
   "are-vpns-worth-it",

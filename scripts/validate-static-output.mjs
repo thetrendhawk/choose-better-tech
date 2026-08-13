@@ -79,8 +79,8 @@ export function validateHtml(route, html, { notFound = false } = {}) {
 }
 
 export async function validateStaticOutput() {
-  if (APP_ROUTES.length !== 69 || new Set(APP_ROUTES).size !== 69) {
-    throw new Error(`Expected 69 unique APP_ROUTES; found ${APP_ROUTES.length}.`);
+  if (APP_ROUTES.length !== 70 || new Set(APP_ROUTES).size !== 70) {
+    throw new Error(`Expected 70 unique APP_ROUTES; found ${APP_ROUTES.length}.`);
   }
   const outputKeys = APP_ROUTES.map((route) => outputPathForRoute(route).toLowerCase());
   if (new Set(outputKeys).size !== outputKeys.length) throw new Error("Public routes produce duplicate output paths.");
