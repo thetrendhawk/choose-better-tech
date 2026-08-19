@@ -1,11 +1,11 @@
 # Privacy Bee Prepublication Findings Report
 
-Status: Complete evaluation draft for factual review
+Status: Hands-on evaluation complete — historical evidence record, not an endorsement or rating
 Prepared by: Choose Better Tech
 Evaluation opened: 2026-07-17
 Draft updated: 2026-08-17
 Current access state: Unlicensed as of 2026-08-17
-Publication status: Not authorized
+Publication status: Public Privacy Bee review authorized August 19, 2026
 
 ## Purpose
 

@@ -3,8 +3,8 @@
 Date opened: 2026-07-17
 Last updated: 2026-08-17
 Project: Choose Better Tech
-Status: Complete hands-on evaluation
-Publication status: Not authorized
+Status: Hands-on evaluation complete — historical evidence record, not an endorsement or rating
+Publication status: Public Privacy Bee review authorized August 19, 2026
 
 ## Purpose
 

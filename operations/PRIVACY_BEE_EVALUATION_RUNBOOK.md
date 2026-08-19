@@ -1,7 +1,7 @@
 # Privacy Bee Evaluation Runbook
 
-Status: Complete operational record
-Editorial authorization: None
+Status: Hands-on evaluation complete — historical evidence record, not an endorsement or rating
+Editorial authorization: Public Privacy Bee review authorized August 19, 2026
 Last updated: 2026-08-17
 
 ## Purpose
