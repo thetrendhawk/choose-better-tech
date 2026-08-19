@@ -1,6 +1,6 @@
 export type AffiliateStatus = "ACTIVE" | "PENDING" | "DISABLED" | "INTERNAL_ONLY";
 
-export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass" | "protonmail" | "protondrive" | "protonunlimited" | "roboform" | "incogni" | "optery" | "deleteme";
+export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass" | "protonmail" | "protondrive" | "protonunlimited" | "roboform" | "incogni" | "optery" | "deleteme" | "privacybee";
 
 export type AffiliateLinkRecord = {
   provider: AffiliateProvider;
@@ -163,5 +163,15 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     disclosureRequired: true,
     trackingEnabled: false,
     lastVerified: "2026-07-18"
+  },
+  privacybee: {
+    provider: "privacybee",
+    network: "",
+    status: "INTERNAL_ONLY",
+    destination: "",
+    internalFallback: "/best-data-removal-services",
+    disclosureRequired: true,
+    trackingEnabled: false,
+    lastVerified: "2026-08-19"
   }
 };

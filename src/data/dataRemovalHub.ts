@@ -1,7 +1,7 @@
 export const dataRemovalHub = {
   path: "/data-removal",
   title: "Best Data Removal Services for Beginners",
-  subtitle: "A plain-English guide to data broker removal, people-search sites, what these services can actually do, and how to choose between Incogni, Optery, DeleteMe, and manual opt-out.",
+  subtitle: "A plain-English guide to data broker removal, people-search sites, what these services can actually do, and how to choose between Incogni, Optery, DeleteMe, Privacy Bee, and manual opt-out.",
   realityCheck: [
     "Data-removal services help reduce exposure on supported data brokers and people-search sites.",
     "They do not erase someone from the internet.",
@@ -39,6 +39,12 @@ export const dataRemovalHub = {
       title: "DeleteMe",
       description: "Start here if you want an established provider with human assistance, privacy advisors, custom removals, reports, and business/admin maturity.",
       href: "/reviews/deleteme-review"
+    },
+    {
+      label: "Broad privacy workflows",
+      title: "Privacy Bee",
+      description: "Start here if you want a wider privacy-management dashboard and can interpret workflow metrics without treating every completion as verified removal.",
+      href: "/reviews/privacy-bee-review"
     },
     {
       label: "Best for full control",
@@ -87,6 +93,13 @@ export const dataRemovalHub = {
       strengths: ["Human-assisted workflow", "Custom removals and reports", "Established provider history", "Business/admin maturity"],
       limitations: ["Not full internet deletion", "Consumer Reports found midlevel people-search test performance", "The 976-site claim needs careful Standard-plan interpretation"],
       href: "/reviews/deleteme-review"
+    },
+    {
+      title: "Privacy Bee Review",
+      fit: "A fit for broad privacy-management workflows and ongoing support.",
+      strengths: ["Hands-on CBT evaluation", "Search Presence and Identity Vault", "Detailed monitoring and history", "Substantive human support"],
+      limitations: ["Completed does not necessarily mean successful removal", "Representative outcome evidence is unavailable", "Official coverage totals conflict"],
+      href: "/reviews/privacy-bee-review"
     }
   ],
   comparisons: [
@@ -146,6 +159,7 @@ export const dataRemovalHub = {
     { title: "Read the Incogni Review", href: "/reviews/incogni-review", description: "Use this if you want simple automation." },
     { title: "Read the Optery Review", href: "/reviews/optery-review", description: "Use this if you want proof and reports." },
     { title: "Read the DeleteMe Review", href: "/reviews/deleteme-review", description: "Use this if you want human-assisted support." },
+    { title: "Read the Privacy Bee Review", href: "/reviews/privacy-bee-review", description: "Use this if you want broad privacy workflows and ongoing monitoring." },
     { title: "Compare Incogni vs Optery", href: "/comparisons/incogni-vs-optery", description: "Use this when choosing between automation and proof." },
     { title: "Compare Incogni vs DeleteMe", href: "/comparisons/incogni-vs-deleteme", description: "Use this when choosing between automation and human assistance." },
     { title: "Compare Optery vs DeleteMe", href: "/comparisons/optery-vs-deleteme", description: "Use this when choosing between proof and human assistance." }

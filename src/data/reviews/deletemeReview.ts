@@ -226,7 +226,7 @@ export const deleteMeReview: ReviewPageContent = {
     { title: "Incogni", description: "Better for users who want simpler automation, pricing clarity, and a lower-friction broker-removal workflow." },
     { title: "Optery", description: "Better for users who want free exposure reports, screenshot-heavy proof, profile links, and stronger public-listing visibility." },
     { title: "Kanary", description: "Worth considering for threat-model or doxxing/stalking-oriented use cases where personal safety framing matters." },
-    { title: "Privacy Bee", description: "Worth considering for broader, higher-touch privacy workflows, though the approved research says current details need more verification." },
+    { title: "Privacy Bee", description: "Consider Privacy Bee for a broader privacy-management dashboard, Search Presence and Identity Vault tools, and more hands-on workflows; its completion metrics require careful interpretation." },
     { title: "Manual opt-out", description: "Better for disciplined DIY users who want control and have time. Consumer Reports found manual opt-outs outperformed paid services in its narrow people-search test." }
   ],
   faqs: [

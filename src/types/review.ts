@@ -99,6 +99,10 @@ export type ReviewPageContent = {
   freeVsPaid: FreeVsPaidContent;
   fullReviewSections: ReviewSection[];
   userFeedback: UserFeedback;
+  userFeedbackTitle?: string;
+  userFeedbackDescription?: string;
+  userFeedbackPraiseLabel?: string;
+  userFeedbackComplaintLabel?: string;
   alternatives: AlternativeReview[];
   faqs: ReviewFaq[];
   sourceLinks?: ReviewSource[];

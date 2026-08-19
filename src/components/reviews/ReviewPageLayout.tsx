@@ -232,10 +232,13 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
       </Section>
 
       <Section className={`bg-slate-50 ${compactSectionClasses}`}>
-        <SectionHeading title="Real User Feedback" description="This section summarizes recurring themes from user discussions and review research. It does not include individual testimonials." />
+        <SectionHeading
+          title={review.userFeedbackTitle ?? "Real User Feedback"}
+          description={review.userFeedbackDescription ?? "This section summarizes recurring themes from user discussions and review research. It does not include individual testimonials."}
+        />
         <div className="mt-6 grid gap-5 lg:grid-cols-2">
-          <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft"><h3 className="text-xl font-bold text-slate-950">Recurring praise</h3><BulletList items={review.userFeedback.praise} /></div>
-          <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft"><h3 className="text-xl font-bold text-slate-950">Recurring complaints</h3><BulletList items={review.userFeedback.complaints} tone="slate" /></div>
+          <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft"><h3 className="text-xl font-bold text-slate-950">{review.userFeedbackPraiseLabel ?? "Recurring praise"}</h3><BulletList items={review.userFeedback.praise} /></div>
+          <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-soft"><h3 className="text-xl font-bold text-slate-950">{review.userFeedbackComplaintLabel ?? "Recurring complaints"}</h3><BulletList items={review.userFeedback.complaints} tone="slate" /></div>
         </div>
       </Section>
 
