@@ -279,6 +279,10 @@
       "destination": "/reviews/deleteme-review.html"
     },
     {
+      "source": "/reviews/privacy-bee-review",
+      "destination": "/reviews/privacy-bee-review.html"
+    },
+    {
       "source": "/reviews/totalav-review",
       "destination": "/reviews/totalav-review.html"
     }

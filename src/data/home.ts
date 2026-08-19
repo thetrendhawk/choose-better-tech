@@ -9,6 +9,7 @@ export const categories: Category[] = [
 ];
 
 export const featuredReviews: ArticlePreview[] = [
+  { key: "privacy-bee-review", title: "Privacy Bee Review", excerpt: "A hands-on review of Privacy Bee's broad privacy workflows, monitoring, Identity Vault, Search Presence, human support, and removal-proof limits.", href: "/reviews/privacy-bee-review", status: "Published Review" },
   { key: "incogni-review", title: "Incogni Review", excerpt: "An evidence-based review of Incogni's data-broker removal automation, recurring requests, process assurance, privacy tradeoffs, and practical limits.", href: "/reviews/incogni-review", status: "Published Review" },
   { key: "deleteme-review", title: "DeleteMe Review", excerpt: "An evidence-based review of DeleteMe's human-assisted removals, reports, independent effectiveness evidence, privacy tradeoffs, and category limits.", href: "/reviews/deleteme-review", status: "Published Review" },
   { key: "totalav-review", title: "TotalAV Review", excerpt: "An evidence-led review of TotalAV's protection results, annual standing, renewal, separate add-ons, privacy, platform limits, and reader fit.", href: "/reviews/totalav-review", status: "Published Review" },

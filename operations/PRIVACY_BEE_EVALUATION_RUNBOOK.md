@@ -1,8 +1,8 @@
 # Privacy Bee Evaluation Runbook
 
-Status: Active operational documentation
-Editorial authorization: None
-Last updated: 2026-07-19
+Status: Hands-on evaluation complete — historical evidence record, not an endorsement or rating
+Editorial authorization: Public Privacy Bee review authorized August 19, 2026
+Last updated: 2026-08-17
 
 ## Purpose
 
@@ -12,6 +12,7 @@ Canonical records:
 
 - [Privacy Bee hands-on evaluation log](../docs/research/privacy-bee-hands-on-evaluation-log.md)
 - [Privacy Bee support responsiveness test](../docs/research/privacy-bee-support-test-2026-07-19.md)
+- [Privacy Bee prepublication findings report](../docs/research/privacy-bee-prepublication-findings-report.md)
 
 ## Evidence rules
 
@@ -25,97 +26,85 @@ Canonical records:
 
 ## Current baseline
 
-The canonical log remains authoritative. Its sanitized baseline records:
+The canonical log remains authoritative. Its August 16 near-expiration recheck records:
 
-- scans performed: 179;
-- exposures found: 45;
-- removals requested: 15 initially, later 16;
-- removals completed: 2;
-- all-time removal activity: 17 requested and 15 in progress;
-- companies monitored: 357;
-- active exposures: 49 initially, later 52;
-- exposures removed in the Data Brokers view: 4;
-- search presence: 2 active results at baseline, later 0 after two false positives were preserved;
+- scans performed: 393;
+- exposures found: 67;
+- all-time removal activity: 51 requested, 19 completed, and 32 in progress;
+- re-exposures: 6;
+- companies monitored: 338;
+- active exposures: 188;
+- exposures removed in the Data Brokers view: 18;
+- Closed broker records: 16;
+- search presence: 0 active results and 2 preserved results;
 - dark-web exposures: 0;
 - account access end or renewal date displayed: 2026-08-17;
-- auto-renew: off when checked on 2026-07-19;
+- no payment method, invoices, or account credit visible on 2026-08-16;
 - LPOA: unsigned.
 
-These figures use different product definitions and must not be combined. The support-responsiveness test is active: automated response was immediate, human escalation was accepted, notification email setup was completed, and the human response remains pending.
+These figures use different product definitions and must not be combined. The complete human support response was reviewed on 2026-08-06. Privacy Bee stated that Completed means a processed removal workflow rather than necessarily successful removal, while Closed may mean Successfully Removed, Company Unresponsive, or Data Did Not Match. The support-responsiveness test is complete. The previously Closed StateCourts record returned as Discovered/Pending Removal on August 15, demonstrating re-detection without yet demonstrating a restarted or completed removal request.
 
-## Remaining test sequence
+Provider follow-up correspondence reviewed on August 17 states that a successful removal is counted after broker confirmation or a clean follow-up scan and that reappearances create separately tracked new requests. This appears narrower than the earlier Completed and Closed workflow definitions, but the provider did not name the corresponding dashboard metric. Preserve the distinction and do not merge the definitions.
 
-Follow this order. Do not advance to a later test merely because it is convenient.
+The August 17 expiration checkpoint is complete. The account became Unlicensed, protection changed to 0 of 14 controls, monitoring became license-gated, requested removals displayed 0 Paused, and substantial historical data remained visible. Report listings remained visible but controlled download attempts produced no observed retrieval. The unlicensed Dark Web page displayed placeholder preview records that must not be recorded as real exposures.
 
-### 1. Human support response
+## Controlled sequence and disposition
 
-- Await the human reply to the metric discrepancy.
-- Record reply date and time, response channel, whether the responder was clearly human, the explanation, and whether the discrepancy was resolved.
-- Do not send another support question until this response arrives or the follow-up interval is reached.
+The ordered test sequence is now complete except for the time-dependent post-expiration access observation.
 
-### 2. Seven-day removal-progress recheck
+### 1. Human support response — completed
 
-- Compare dashboard totals, all-time activity, Data Brokers totals, and completed-removal records with the prior baseline.
-- Record deltas without combining differently defined metrics.
+The human reply, response timing, definitions, and remaining account-level reconciliation limitation were recorded on August 6.
 
-### 3. Verify completed removals externally
+### 2. Seven-day removal-progress recheck — completed late
 
-- Select one or two records labeled completed.
-- Confirm whether the public broker page is absent, changed, blocked, or still visible.
-- Record uncertainty where the original profile URL is unavailable.
+The missed intermediate checkpoint was consolidated into the August 6 recheck without inventing an unavailable July 24 state.
 
-### 4. Controlled custom URL removal
+### 3. Verify completed removals externally — completed with limitations
 
-- Use one clearly verified public exposure belonging to the owner.
-- Record the URL privately, not in the public repository.
-- Record submission behavior, validation, status creation, and later outcome.
-- Do not use an ambiguous namesake result.
+The StateCourts check found a likely matching masked result, and the manual FreePeopleDirectory check ended at a payment gate. Neither test independently verified successful removal. No additional personal-identifier search is authorized by this runbook.
 
-### 5. Fourteen-day progress recheck
+### 4. Controlled custom URL removal — closed as untested
 
-- Repeat the same metric categories.
-- Record elapsed time for completed, pending, and in-progress removals.
+No clearly verified owner exposure URL became available. The form was inspected but no ambiguous URL was submitted.
 
-### 6. Re-exposure test
+### 5. Fourteen-day progress recheck — completed late
 
-- Proceed only if an already removed exposure reappears naturally.
-- Do not intentionally republish personal information.
-- Record whether Privacy Bee detects it and restarts removal.
+The missed intermediate checkpoint was consolidated into the August 6 recheck without inventing an unavailable July 31 dashboard state; separately preserved correspondence supplied the July 31 removal totals and Closed-case breakdown.
 
-### 7. Limited Power of Attorney decision
+### 6. Re-exposure test — observed with a bounded conclusion
 
-- Do not sign automatically.
-- Evaluate only after observing removal failures or brokers requiring authorized-agent documentation.
-- Record the reason for signing or declining.
+The aggregate count rose from 1 to 6. The previously Closed StateCourts record returned as Discovered/Pending Removal on August 15, demonstrating re-detection but not yet a restarted or completed removal request.
 
-### 8. Thirty-day and access-expiration review
+### 7. Limited Power of Attorney decision — declined
 
-- Recheck immediately before or near August 17, 2026.
-- Record final totals, unresolved removals, account-access behavior, billing state, and whether data remains accessible after Pro access ends.
-- Do not enable auto-renew.
+The LPOA remained unsigned. Signing it one day before the displayed access end would change the controlled conditions without leaving a meaningful observation window.
+
+### 8. Thirty-day and access-expiration review — completed
+
+The August 16 pre-expiration and August 17 unlicensed states are recorded. No payment method was added and renewal remained inactive.
 
 ## Checkpoint table
 
 | Checkpoint | Earliest target date | Owner action | Repository update | Status | Blocker |
 | --- | --- | --- | --- | --- | --- |
-| Human response | Pending; no fixed date | Provide a screenshot or text of the human support reply | Update canonical log, support-test record, and runbook | Awaiting evidence | Human reply has not arrived |
-| Seven-day recheck | July 24, 2026 | Access the dashboard and provide dated, sanitized evidence | Record each metric category and delta separately | Scheduled | Owner dashboard access required |
-| Fourteen-day recheck | July 31, 2026 | Access the dashboard and provide dated, sanitized evidence | Record repeated metrics and removal-state elapsed time | Scheduled | Owner dashboard access required |
-| Thirty-day/access review | August 16–18, 2026 | Access the account near expiration and provide dated, sanitized evidence | Record final metrics, billing, access, and unresolved items | Scheduled | Owner account access required |
+| Human response | Delivered by 2026-07-20 | Supply and review the complete response | Update canonical log, support-test record, report, and runbook | Completed 2026-08-06 | Provider definitions recorded; exact account-level itemization was not supplied |
+| Seven-day recheck | July 24, 2026 | Access the dashboard and provide dated, sanitized evidence | Record each metric category and delta separately | Completed late on 2026-08-06 as part of a consolidated recheck | None |
+| Fourteen-day recheck | July 31, 2026 | Access the dashboard and provide dated, sanitized evidence | Record repeated metrics and removal-state elapsed time | Completed late on 2026-08-06 as part of a consolidated recheck | Exact intermediate state unavailable |
+| External verification | After progress recheck | Search only with explicit owner authorization or use a privately retained profile URL | Record public result without personal identifiers | StateCourts check found a likely matching masked result. Manual FreePeopleDirectory check ended at an Information.com payment gate and was inconclusive | Definitive confirmation requires an original public profile URL or evidence that does not require registration or purchase |
+| Thirty-day/access review | August 16–18, 2026 | Access the account near expiration and provide dated, sanitized evidence | Record final metrics, billing, access, and unresolved items | Completed 2026-08-17 | None |
 
 External verification, controlled URL removal, re-exposure observation, and the LPOA decision occur in sequence when their stated prerequisites are met; they do not have invented target dates.
 
-## Manual-owner checkpoints
+The 10-case Closed-list walkthrough was completed in the recovered prior conversation. Do not repeat that broad walkthrough. Reinspect only newly changed records, unresolved named cases, or records needed for a specific external verification.
 
-The following actions require the owner:
+The exact July 31 breakdown is 6 records belonging to other people, 1 probably unrelated record, 1 mixed record, and 2 LPOA-related rejections. None of the 10 visible Closed cases clearly demonstrated successful removal of an owner-only record. Privacy Bee invited the owner to a clarification call; if accepted, preserve the original test conditions and add a dated written summary afterward.
 
-- provide a screenshot or text of the human support reply;
-- access the Privacy Bee dashboard for dated rechecks;
-- identify and verify a genuine exposure URL;
-- authorize any removal submission;
-- authorize or decline the LPOA;
-- verify public broker pages;
-- observe account behavior at access expiration.
+The LPOA was deliberately declined for this evaluation. Signing it one day before the displayed access end would alter the controlled conditions without leaving a meaningful observation window. The post-expiration access check is complete; do not add a payment method or enable renewal.
+
+## Completion boundary
+
+No owner checkpoint remains. Any new removal submission, broker search using personal identifiers, renewal, provider communication, or LPOA action is outside this completed evaluation and requires separate explicit authorization.
 
 ## Codex responsibilities after each checkpoint
 

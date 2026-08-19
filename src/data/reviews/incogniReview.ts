@@ -201,7 +201,7 @@ export const incogniReview: ReviewPageContent = {
   alternatives: [
     { title: "Optery", description: "Better for users who want screenshot-heavy exposure discovery and stronger public-listing proof." },
     { title: "DeleteMe", description: "Better for buyers who want a long-established U.S.-focused service and are comfortable paying more." },
-    { title: "Privacy Bee", description: "Better for power users who want broader feature depth, higher-touch services, or extra privacy workflows." },
+    { title: "Privacy Bee", description: "Consider Privacy Bee if you want broader privacy-management features, more hands-on workflows, or additional exposure-monitoring tools." },
     { title: "Kanary", description: "Better for doxxing, harassment, creator, activist, or executive-adjacent threat models." },
     { title: "Manual opt-out", description: "Better for users who want exact control over a narrow set of public people-search sites and have time for recurring maintenance." }
   ],

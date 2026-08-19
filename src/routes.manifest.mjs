@@ -70,6 +70,7 @@ export const APP_ROUTE_DEFINITIONS = [
   { path: "/reviews/incogni-review", module: "./pages/IncogniReviewPage.tsx", exportName: "IncogniReviewPage" },
   { path: "/reviews/optery-review", module: "./pages/OpteryReviewPage.tsx", exportName: "OpteryReviewPage" },
   { path: "/reviews/deleteme-review", module: "./pages/DeleteMeReviewPage.tsx", exportName: "DeleteMeReviewPage" },
+  { path: "/reviews/privacy-bee-review", module: "./pages/PrivacyBeeReviewPage.tsx", exportName: "PrivacyBeeReviewPage" },
   { path: "/reviews/totalav-review", module: "./pages/TotalAvReviewPage.tsx", exportName: "TotalAvReviewPage" }
 ];
 
