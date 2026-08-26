@@ -121,6 +121,14 @@ Long-term success requires all four dimensions:
 
 Traffic without trust is not success. Excellent research that cannot reach or sustainably serve an audience is also not sufficient for long-term business success.
 
+## Project and Portfolio Discipline
+
+Once foundational capability is sufficient, further building does not count as progress unless it materially advances a defined outcome, tests an important assumption, protects a demonstrated capability, or resolves a genuine blocker.
+
+Publishing pages, adding features, expanding content clusters, building automation, and producing research are means rather than outcomes. Work should produce reader value, measurable learning, durable capability, or progress toward an approved goal.
+
+Prior effort does not entitle a strategy, content cluster, distribution channel, or monetization path to continued resources. A well-run experiment that disproves an assumption can still be successful if it prevents larger future waste.
+
 ## Governance
 
 - This charter should change infrequently.
@@ -136,4 +144,4 @@ This charter summarizes the strategic foundation behind CBT's existing binding o
 
 | Version | Date | Status | Notes |
 | --- | --- | --- | --- |
-| 1.0-draft | 2026-08-26 | Approved foundation; pending merge | Formalized purpose, mission, vision, values, strategic thesis, non-goals, guardrails, and long-term success definition from existing project doctrine and owner review. |
+| 1.0-draft | 2026-08-26 | Approved foundation; pending merge | Formalized purpose, mission, vision, values, strategic thesis, non-goals, guardrails, long-term success, and project/portfolio discipline from existing project doctrine and owner review. |
