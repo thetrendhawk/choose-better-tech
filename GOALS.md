@@ -1,6 +1,6 @@
 # Choose Better Tech Goals
 
-Version: 1.0
+Version: 1.1
 Status: Active — organic validation goal frozen
 Owner: Choose Better Tech
 Date: 2026-08-26
@@ -49,14 +49,14 @@ Current evidence as of 2026-08-26 supports the following reconciliation:
 | Historical milestone | Status | Evidence / interpretation |
 | --- | --- | --- |
 | Branded website live | ACHIEVED | `choosebettertech.com` is live with a substantial production content library. |
-| Initial content published | ACHIEVED | The site now materially exceeds the original initial-publication milestone. |
-| 20–30 published pages / 2–3 software clusters | ACHIEVED | Current repository records show substantially more than 30 editorial assets across multiple approved clusters. |
+| Initial content published | ACHIEVED | The site materially exceeds the original initial-publication milestone. |
+| 20–30 published pages / 2–3 software clusters | ACHIEVED | Repository records show substantially more than 30 editorial assets across multiple approved clusters. |
 | Editorial standards / authority infrastructure | ACHIEVED | Binding editorial, research, review, corrections, monetization-independence, and quality standards are active. |
 | Proton VPN affiliate application / relationship | ACHIEVED | Current repository records identify an active Proton Partners relationship. |
 | First lead / newsletter signup | ACHIEVED | A completed newsletter signup and checklist delivery were recorded in July 2026. |
 | First verified affiliate click | NOT YET VERIFIED | Tracking infrastructure exists, but no preserved evidence currently proves a real visitor-generated affiliate click event. |
-| First affiliate commission | NOT YET VERIFIED | No preserved evidence currently proves an earned affiliate commission. This means the original Phase 1 primary outcome remains open. |
-| Pinterest / Instagram / YouTube setup | UNVERIFIED / NON-BLOCKING | Earlier planning included these channels, but current evidence is insufficient to mark all of them complete. They are not required to declare the core site/editorial infrastructure successful. |
+| First affiliate commission | NOT YET VERIFIED | No preserved evidence currently proves an earned affiliate commission. The original Phase 1 primary outcome remains open. |
+| Pinterest / Instagram / YouTube setup | UNVERIFIED / NON-BLOCKING | Earlier planning included these channels, but current evidence is insufficient to mark all of them complete. |
 
 ## Current Goal Period
 
@@ -66,16 +66,33 @@ Target period: 2026-08-26 through 2026-11-30.
 
 Can CBT's rigorous editorial system produce meaningful organic discovery and measurable reader intent at a level that validates continued investment in organic acquisition?
 
-### Baseline
+### Baseline and measurement provenance
 
 The most recent owner-confirmed account snapshot available when this goal was frozen is dated **2026-08-12**:
 
 - Google Search Console indexed pages: **32**.
 - GA4 Google-organic sessions in the preceding 28 days: **3**.
-- Repository evidence from the earlier verified July 8–17 Search Console window recorded **1 organic click and 180 impressions**, confirming that discovery had begun but remained very small.
-- The content and measurement foundation was already substantially built; additional page volume is therefore not treated as the primary bottleneck or goal.
 
-The exact 2026-08-26 live Search Console and GA4 values were not available through the connected tools used for this update. The dated baseline is preserved rather than extrapolated. A later account read may refresh the observational baseline without changing the frozen November 30 target or decision thresholds.
+Additional committed Search Console evidence predates that account snapshot and provides important context:
+
+- On **2026-08-05**, owner URL Inspection checks reduced the active priority indexing-remediation cohort to **one unresolved URL: `/best-data-removal-services`**. Other previously suspected priority URLs were owner-confirmed indexed.
+- `/guides/how-long-does-data-removal-take` was owner-confirmed indexed and its recorded three-month Search Console view through 2026-08-03 showed **122 impressions, 0 clicks, average position 10.0**. This is a page-level signal and must not be treated as property-wide totals.
+- The earlier verified July 8–17 property-level Search Console window recorded **1 organic click and 180 impressions**.
+
+The exact 2026-08-26 live Search Console and GA4 account values were not available through the connected tools used when the goal was frozen. The dated observations are preserved rather than extrapolated.
+
+### Analytics comparability boundary
+
+PR #77 merged on **2026-08-13** and established the current trustworthy production conversion-measurement implementation, including production-host restrictions plus explicit `affiliate_click` and newsletter-signup tracking.
+
+Therefore:
+
+- Search Console is the authoritative primary source for the organic-discovery target and is not affected by the GA4 implementation boundary.
+- GA4 traffic before 2026-08-13 may remain useful as historical context, but pre- and post-boundary conversion counts must not be compared as if instrumentation were unchanged.
+- Qualifying high-intent actions for this goal should come from the clean post-2026-08-13 measurement era, with owner/QA/test/synthetic traffic excluded or explicitly annotated.
+- Partner/network reporting remains authoritative for actual conversions and commissions.
+
+A later authoritative account read may refresh observational baseline values without changing the frozen November 30 target or decision thresholds.
 
 ## SMART Goal 1 — Validate Organic Discovery and Reader Intent
 
@@ -105,7 +122,7 @@ Review these as diagnostics, not substitute outcomes:
 - number of pages receiving at least one click;
 - query and landing-page concentration;
 - CTR and average position where sample size is sufficient to interpret them;
-- GA4 Google-organic sessions;
+- GA4 Google-organic sessions from comparable instrumentation periods;
 - verified organic-source `affiliate_click` and newsletter events;
 - partner-side click/conversion evidence where available.
 
@@ -114,7 +131,7 @@ Review these as diagnostics, not substitute outcomes:
 Use authoritative evidence in this order where applicable:
 
 1. Google Search Console for Google organic impressions, clicks, indexed-page state, queries, and landing pages.
-2. GA4 production reporting for source-attributed sessions and high-intent events, subject to the site's consent model.
+2. GA4 production reporting for source-attributed sessions and high-intent events from comparable instrumentation periods, subject to the site's consent model.
 3. Authorized affiliate-network or partner reporting for clicks, conversions, commissions, and payment state.
 4. Repository records for deployment, tracking implementation, editorial inventory, and preserved goal history.
 
@@ -143,7 +160,7 @@ The goal is considered achieved at the CONTINUE level if all of the following ar
 - at least **2 verified high-intent organic actions**;
 - at least **1 commercial-intent action** among those high-intent actions.
 
-This would justify continued investment and another bounded goal period, not a claim that CBT has proven a scalable business.
+This justifies continued investment and another bounded goal period, not a claim that CBT has proven a scalable business.
 
 #### MODIFY
 
@@ -177,7 +194,7 @@ If the 50-indexed-URL exposure condition has not been met because of a genuine t
 - Preserve CBT's existing editorial, research, corrections, monetization-independence, and quality standards.
 - Do not change the November 30 targets after observing results unless the goal is explicitly amended and the original thresholds remain preserved for audit.
 
-**Status:** ACTIVE — frozen 2026-08-26.
+**Status:** ACTIVE — targets frozen 2026-08-26; measurement provenance reconciled 2026-08-26.
 
 ## Review Cadence
 
