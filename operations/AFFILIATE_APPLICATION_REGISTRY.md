@@ -1,9 +1,9 @@
 # Affiliate Application Registry
 
-Version: 1.1
+Version: 1.2
 Status: Active
 Owner: Choose Better Tech
-Last Updated: 2026-07-17
+Last Updated: 2026-08-26
 
 ## Purpose
 
@@ -22,6 +22,7 @@ This document does not contain, and must never contain, passwords, tax informati
 | Provider | Network | Account email | Application status | Advertiser approval status | Terms-review status | Commission | Attribution | Locking/payment | Restrictions | Implementation status | Next action | Checked date |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Acronis | CJ | Not recorded in this registry | Application approved | Approved for the U.S. consumer program | Reviewed from approved program terms | Consumer: 15%; corporate: 2.5% | 45-day referral period; unlimited qualifying occurrences stated in the reviewed terms | Not recorded | Coupons only when supplied by the program; branded SEM requires written permission; “Acronis” may not be used in a website domain | Tracking link generated but not implemented — no `src/data/affiliateLinks.ts` entry and no site placement | Preserve the approved consumer tracking link for a separately authorized implementation task; do not activate editorial placement or paid-search use by this record | 2026-07-17 |
+| Dashlane | CJ | Not recorded in this registry | Application approved | Approved; acceptance email received 2026-08-26 and CJ shows an active advertiser relationship | Reviewed from the active CJ program terms; two term conflicts are preserved rather than guessed | Desktop account creation: $3 base, $4 at 500+ actions, $5 at 1,000+ actions; Premium purchase: 25%; mobile account creation: $1; Business trial registration: $2; Business purchase: 25%. Welcome email instead states $2 base, $3 at 500+, $4 at 1,000+, so the discrepancy remains unresolved. | Desktop account creation: 1 day. Premium purchase: CJ referral-period field says 45 days while the action description says an upgrade within 60 days of registration is commissionable. Mobile account creation, Business trial, and Business purchase: 45 days. | Not recorded | Protected SEM includes Dashlane brand terms, common misspellings, and related variants; brand terms/misspellings prohibited in SEM display URL and ad copy; Dashlane brand terms and close variants prohibited in site domain/URL; incentivized traffic not allowed; software distribution requires prior contact; email, sub-affiliates, and social media allowed; coupons only when program-provided or otherwise public | Not implemented — no Dashlane entry exists in `src/data/affiliateLinks.ts`, no approved tracking destination is recorded, and no editorial surface has been activated | Generate an approved CJ tracking link, preserve it outside editorial copy, and resolve the Premium 45-day/60-day wording conflict and the welcome-email payout-tier discrepancy before representing those terms externally. Do not alter rankings or add an affiliate CTA until Dashlane has an independently approved editorial surface; current CBT privacy research explicitly excludes Dashlane from that guide because it lacks a distinct privacy advantage over the included picks. | 2026-08-26 |
 
 ## Cloud Storage Cluster
 
