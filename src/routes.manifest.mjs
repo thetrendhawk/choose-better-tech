@@ -67,6 +67,7 @@ export const APP_ROUTE_DEFINITIONS = [
   { path: "/reviews/nordpass-review", module: "./pages/NordPassReviewPage.tsx", exportName: "NordPassReviewPage" },
   { path: "/reviews/proton-pass-review", module: "./pages/ProtonPassReviewPage.tsx", exportName: "ProtonPassReviewPage" },
   { path: "/reviews/roboform-review", module: "./pages/RoboFormReviewPage.tsx", exportName: "RoboFormReviewPage" },
+  { path: "/reviews/dashlane-review", module: "./pages/DashlaneReviewPage.tsx", exportName: "DashlaneReviewPage" },
   { path: "/reviews/incogni-review", module: "./pages/IncogniReviewPage.tsx", exportName: "IncogniReviewPage" },
   { path: "/reviews/optery-review", module: "./pages/OpteryReviewPage.tsx", exportName: "OpteryReviewPage" },
   { path: "/reviews/deleteme-review", module: "./pages/DeleteMeReviewPage.tsx", exportName: "DeleteMeReviewPage" },

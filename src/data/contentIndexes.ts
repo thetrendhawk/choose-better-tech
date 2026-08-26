@@ -38,7 +38,8 @@ export const reviewGroups: ArticleGroup[] = [
       { key: "nordpass-review", title: "NordPass Review", excerpt: "A beginner-focused review of NordPass's free plan, value, family features, Nord ecosystem fit, security, and transparency limits.", href: "/reviews/nordpass-review", status: "Published Review" },
       { key: "proton-pass-review", title: "Proton Pass Review", excerpt: "A beginner-focused review of Proton Pass's privacy model, open-source apps, free plan, aliases, audits, and tradeoffs.", href: "/reviews/proton-pass-review", status: "Published Review" },
       { key: "bitwarden-review", title: "Bitwarden Review", excerpt: "A beginner-focused review of Bitwarden's free plan, transparency, self-hosting, security model, and UX tradeoffs.", href: "/reviews/bitwarden-review", status: "Published Review" },
-      { key: "roboform-review", title: "RoboForm Review", excerpt: "A beginner-focused review of RoboForm's form filling, affordability, mainstream fit, security model, and transparency caveats.", href: "/reviews/roboform-review", status: "Published Review" }
+      { key: "roboform-review", title: "RoboForm Review", excerpt: "A beginner-focused review of RoboForm's form filling, affordability, mainstream fit, security model, and transparency caveats.", href: "/reviews/roboform-review", status: "Published Review" },
+      { key: "dashlane-review", title: "Dashlane Review", excerpt: "A documentation-based review of Dashlane's security architecture, 2026 advisories, proactive phishing protection, recovery, and 10-account family plan.", href: "/reviews/dashlane-review", status: "Published Review" }
     ]
   },
   {

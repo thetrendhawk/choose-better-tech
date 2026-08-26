@@ -1,6 +1,6 @@
 export type AffiliateStatus = "ACTIVE" | "PENDING" | "DISABLED" | "INTERNAL_ONLY";
 
-export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass" | "protonmail" | "protondrive" | "protonunlimited" | "roboform" | "incogni" | "optery" | "deleteme" | "privacybee";
+export type AffiliateProvider = "nordvpn" | "protonvpn" | "surfshark" | "vpn-comparison" | "onepassword" | "bitwarden" | "nordpass" | "protonpass" | "protonmail" | "protondrive" | "protonunlimited" | "roboform" | "dashlane" | "incogni" | "optery" | "deleteme" | "privacybee";
 
 export type AffiliateLinkRecord = {
   provider: AffiliateProvider;
@@ -133,6 +133,16 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
     disclosureRequired: true,
     trackingEnabled: true,
     lastVerified: "2026-07-04"
+  },
+  dashlane: {
+    provider: "dashlane",
+    network: "CJ",
+    status: "ACTIVE",
+    destination: "https://www.jdoqocy.com/click-101816242-15383624",
+    internalFallback: "/reviews/dashlane-review",
+    disclosureRequired: true,
+    trackingEnabled: true,
+    lastVerified: "2026-08-26"
   },
   incogni: {
     provider: "incogni",
