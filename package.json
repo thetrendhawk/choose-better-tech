@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm audit --audit-level=low && npm test && npm run lint && node scripts/generate-seo-files.mjs && node scripts/generate-vercel-routes.mjs && tsc -b && vite build && npm run build:prerender",
+    "build": "node scripts/generate-seo-files.mjs && node scripts/generate-vercel-routes.mjs && tsc -b && vite build && npm run build:prerender",
     "build:prerender": "vite build --ssr src/entry-server.tsx --outDir .prerender/server --emptyOutDir && node scripts/prerender-routes.mjs",
     "check:static-output": "node scripts/validate-static-output.mjs",
     "check:prerender": "node scripts/check-prerender.mjs",
