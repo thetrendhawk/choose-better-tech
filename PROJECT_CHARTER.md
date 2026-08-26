@@ -1,9 +1,9 @@
 # Choose Better Tech Project Charter
 
-Version: 1.0-draft
-Status: Approved strategic foundation; pending merge
+Version: 1.0
+Status: Active
 Owner: Choose Better Tech
-Date: 2026-08-26
+Effective Date: 2026-08-26
 
 ## Purpose
 
@@ -144,4 +144,4 @@ This charter summarizes the strategic foundation behind CBT's existing binding o
 
 | Version | Date | Status | Notes |
 | --- | --- | --- | --- |
-| 1.0-draft | 2026-08-26 | Approved foundation; pending merge | Formalized purpose, mission, vision, values, strategic thesis, non-goals, guardrails, long-term success, and project/portfolio discipline from existing project doctrine and owner review. |
+| 1.0 | 2026-08-26 | Active | Formalized purpose, mission, vision, values, strategic thesis, non-goals, guardrails, long-term success, and project/portfolio discipline from existing project doctrine and owner approval. |
