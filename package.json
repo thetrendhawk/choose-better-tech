@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm audit --json || true; node scripts/generate-seo-files.mjs && node scripts/generate-vercel-routes.mjs && tsc -b && vite build && npm run build:prerender",
+    "build": "npm audit --json || true; git diff -- package-lock.json; node scripts/generate-seo-files.mjs && node scripts/generate-vercel-routes.mjs && tsc -b && vite build && npm run build:prerender",
     "build:prerender": "vite build --ssr src/entry-server.tsx --outDir .prerender/server --emptyOutDir && node scripts/prerender-routes.mjs",
     "check:static-output": "node scripts/validate-static-output.mjs",
     "check:prerender": "node scripts/check-prerender.mjs",
@@ -40,6 +40,6 @@
     "@types/react-dom": "^19.2.3",
     "jsdom": "^25.0.1",
     "playwright": "^1.61.1",
-    "vitest": "^2.1.8"
+    "vitest": "^4.1.11"
   }
 }
