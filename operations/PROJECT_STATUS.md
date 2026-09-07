@@ -216,3 +216,10 @@ These statuses require platform access or manual confirmation outside the reposi
 | --- | --- | --- | --- |
 | 2026-07-02 | Create `operations/` as a top-level business operations directory | Keeps business systems separate from application code and editorial research assets. | Choose Better Tech |
 | 2026-07-02 | Keep canonical Business Identity Kit and Affiliate Application Playbook as placeholders for this commit | Prevents reconstructing or inferring canonical documents from non-canonical sources. | Choose Better Tech |
+
+
+## Rewarx publication preparation: September 7, 2026
+
+Owner approved the completed article and explicitly authorized publication. Route: `/reviews/rewarx-studio`. One new review, grouped under **AI Ecommerce Creative Tools** in `/reviews`; no separate thin hub or additional article commitment. Research, claim ledger and manuscript editorial review passed. Implementation reuses existing components, preserves the approved text and discloses complimentary access, affiliate relationship, small sample and unverified exports/paid-plan behavior. No tracked CTA or output image embedding.
+
+Status at this checkpoint: `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED` for final deployment review. Production, sitemap, IndexNow and live verification will be recorded after release; do not treat this checkpoint as published. See `docs/quality/rewarx-publication-validation-2026-09-07.md`. No traffic, indexing, conversion or revenue gain inferred. Review volatile facts within 30 days and on provider corrections; existing September project checkpoints remain intact.

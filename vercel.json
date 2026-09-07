@@ -13,6 +13,7 @@
     { "source": "/password-managers", "destination": "/password-managers.html" },
     { "source": "/data-removal", "destination": "/data-removal.html" },
     { "source": "/tools/data-removal-service-selector", "destination": "/tools/data-removal-service-selector.html" },
+    { "source": "/reviews/rewarx-studio", "destination": "/reviews/rewarx-studio.html" },
     { "source": "/reviews", "destination": "/reviews.html" },
     { "source": "/comparisons", "destination": "/comparisons.html" },
     { "source": "/are-data-removal-services-worth-it", "destination": "/are-data-removal-services-worth-it.html" },

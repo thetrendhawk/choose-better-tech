@@ -160,3 +160,16 @@ Use these categories in the Topic column when applicable:
 | Account-sharing terms | Official terms, plans, and sharing documentation | Household, seat, member, or acceptable-use change |
 | Recovery behavior | Official recovery and emergency-access documentation | Recovery flow, authority, or lockout change |
 | Privacy-policy changes | Official privacy policy and archived comparison | Material collection, sharing, retention, or deletion change |
+
+## Rewarx review — September 7, 2026 author check
+
+| Claim family | Source | Checked | Qualification | Refresh trigger |
+| --- | --- | --- | --- | --- |
+| Plan prices and credits | https://www.rewarx.com/#pricing | 2026-09-07 | Monthly vs upfront annual separated in research; checkout/taxes/renewal invoice not tested | Before article publication or plan change |
+| Refund and output rights | https://www.rewarx.com/#terms and #pricing | 2026-09-07 | Guarantee/used-credit conflict and complimentary reuse rights unresolved | Before publication or output redistribution; changed terms |
+| Retention and training wording | https://www.rewarx.com/#privacy | 2026-09-07 | Provider representations, not tested deletion or no-training guarantee | Policy or processor change; before publication |
+| Integration availability | https://apps.shopify.com/rewarx-ai-product-photography | 2026-09-07 | Listing only; not installed or tested | Listing/compatibility change; before publication |
+| Cost display vs deduction | docs/testing/rewarx-follow-up-test-log-2026-09-07.md | 2026-09-07 | Product Page32/8; refinement1/1; balance79 only at observation | Each subsequent paid/credit action; billing change |
+| Product behavior | docs/research/rewarx-r1-corrected-matrix-2026-09-07.md | 2026-09-07 | Single corrected-input set; no broad failure rate | Model/workflow change; before publication |
+
+All entries remain subject to independent claim review. Commercial program terms are tracked separately in the monetization map and do not determine editorial claims.
