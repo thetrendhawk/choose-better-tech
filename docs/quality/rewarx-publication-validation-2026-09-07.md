@@ -33,7 +33,7 @@ The cloud browser cannot reach localhost and exposes no viewport resize API. A t
 
 ## Publication outcome
 
-Pending independent final deployment approval, merge and production verification.
+Completed; see final production verification below.
 
 
 ## Completed preview QA
@@ -47,3 +47,14 @@ Console inspection showed browser-extension metadata errors only, with chrome-ex
 Back/forward navigation passed between /reviews and /reviews/rewarx-studio. Temporary fixture removed from source before final commit; production build regenerated without it. Final content is unchanged from preview.
 
 Release build passed after fixture removal; dist fixture absent. Built-page internal-link scan found zero missing routes and zero tracked provider URLs. Sitemap canonical inclusion and indexable robots passed. Keyboard mobile table test: focused true, solid outline, ArrowRight moved scrollLeft to40. git diff --check passed.
+
+
+## Rewarx verified publication: September 7, 2026
+
+Status: `VERIFIED LIVE`. This supersedes the preparation checkpoint above. Owner-approved PR #87 merged at `e788660ef7e75efe6e33fec4463e38594dde3806`; origin/main contains the reviewed article. Production Vercel deployment `dpl_51pPAUYMVd2q49NnvPNujWCW8JEb` is READY for that exact commit. Public article: https://choosebettertech.com/reviews/rewarx-studio. Review-library category: AI Ecommerce Creative Tools. No separate category hub.
+
+HTTP200 confirmed for direct and cache-bypassed article requests, /reviews, sitemap and robots. Exact canonical appears in production sitemap. Live H1, all11 article sections, disclosures, Article/Breadcrumb schema and indexable robots verified. Live article markup and stylesheet references match the locally validated build, including tested responsive styles; desktop live screenshot/refresh passed. Temporary test fixture returns404. Independent deployment review38/40 PASS, tests54/54 and build73routes+404 PASS. IndexNow returned HTTP200, acceptance only; indexing and traffic remain unverified. No new credits spent, vendor message, purchase, tracked CTA or generated image embedding. Export/paid-plan/illustration-rights gaps remain disclosed. See docs/quality/rewarx-publication-validation-2026-09-07.md for detailed evidence and monitoring limits.
+
+Vercel runtime-error query for /reviews/rewarx-studio in the prior hour returned no runtime errors at release time. This is a bounded server-side query, not all-client telemetry. Browser logs showed only identified extension metadata errors. Immediate post-reload screenshot briefly caught the shared loading shell; after H1 appeared, the full article rendered correctly. No lasting rendering failure observed. Production canonical verified by cloud browser as https://choosebettertech.com/reviews/rewarx-studio.
+
+Operations closeout is documentation-only; it does not change the validated site artifact or reset article dates.

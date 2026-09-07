@@ -62,3 +62,8 @@ The separate reviewer approved scoped research and original contribution, and th
 
 ## Manuscript completed
 The approved scoped research was used to write ../editorial/rewarx-studio-review-draft.md. Article is text-only and unrated, with visible sources and limitations. No page implementation or publication performed. Independent editorial review is recorded separately; earlier not-drafted checkpoints are historical.
+
+
+## Publication closeout
+
+September 7, 2026: VERIFIED LIVE at https://choosebettertech.com/reviews/rewarx-studio after owner publication approval, independent deployment approval38/40, PR #87 and verified production release. Earlier manuscript-only status is historical. See ../quality/rewarx-publication-validation-2026-09-07.md. Evidence limitations remain unchanged.
