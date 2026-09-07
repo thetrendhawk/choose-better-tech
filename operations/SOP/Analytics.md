@@ -5,6 +5,12 @@ Status: Active
 Owner: Choose Better Tech  
 Last Updated: 2026-08-26
 
+## Measurement clarification - 2026-09-07
+
+The historical browser event named `newsletter_signup` fired on native form submission, before Mailchimp acceptance or double opt-in confirmation. Do not use that event alone as proof of a completed signup, including after the August 13 hostname-boundary fix. The September maintenance change proposes `newsletter_submit` for this action; its production-effective date must be recorded after deployment. Reserve `newsletter_signup` for verified provider confirmation. A submit event alone does not qualify toward the frozen organic-intent goal. The independently documented July completed signup is not negated by this instrumentation finding.
+
+`affiliate_click` measures commercial intent, not a sale or commission. The September 7 controlled Optery activation is QA and must be excluded. See `docs/audits/cbt-analytics-execution-2026-09-07.md` for current account observations, exact QA labeling, and remaining verification steps. This clarification does not change goal thresholds or authorize new tracking configuration.
+
 ## Purpose
 
 Define how analytics and webmaster tools are reviewed for business decisions, including measurement-change boundaries that affect comparability.

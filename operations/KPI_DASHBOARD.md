@@ -5,6 +5,16 @@ Status: Active
 Owner: Choose Better Tech  
 Last Updated: 2026-08-26
 
+## Live account checkpoint - 2026-09-07
+
+GSC Web, all countries/devices, **Aug 8-Sep 4 vs Jul 11-Aug 7**: **1 vs 4 clicks**, **3,572 vs 1,717 impressions**, calculated CTR **0.028% vs 0.233%**, position **47.6 vs 53.4**. Sep 3 Page Indexing report: **35 indexed, 37 excluded** across all known URLs; 35 is not a verified canonical-editorial count.
+
+GA4 **Aug 9-Sep 5 vs Jul 12-Aug 8**: **120 vs 176 sessions**, **21 vs 41 engaged sessions**, **17.5% vs 23.3% engagement**, **1 vs 2 Google-organic sessions**, and **0 vs 5 affiliate_click events**. These periods span the Aug 13 instrumentation change. Direct traffic and prior single-user affiliate events are not verified reader intent.
+
+The September 7 production QA generated **one deliberate affiliate_click**, seen in Realtime with provider `optery`; exclude it and its `cbt_qa / internal / analytics_20260907` campaign from goal evidence. Newsletter form submission previously emitted `newsletter_signup` before provider acceptance; historical events alone do not establish a completed signup. The proposed correction emits `newsletter_submit` and does not count it toward the goal.
+
+**Interim disposition: MODIFY execution within the existing experiment.** November thresholds and Sep 30/Oct 31/Nov 30 formal review dates remain frozen. Preserve historical snapshots below with their original dates. Audit: `docs/audits/cbt-analytics-review-2026-09-07.md`. Execution: `docs/audits/cbt-analytics-execution-2026-09-07.md`.
+
 ## Measurement Reconciliation — 2026-08-26
 
 This section reconciles later August evidence that was committed after the July KPI snapshot. Historical rows below remain preserved rather than overwritten.

@@ -5,6 +5,10 @@ Status: Active
 Owner: Choose Better Tech  
 Last Updated: 2026-07-20
 
+## Current execution priority - 2026-09-07
+
+The frozen November organic-validation experiment governs current work. Prioritize the two verified indexing gaps, accurate reader-intent measurement, and a bounded timeline-description experiment. Do not expand content categories, paid acquisition or infrastructure from impression growth alone. The September 14 follow-up and Sep 30/Oct 31/Nov 30 evidence reviews are scheduled. Review branch changes still require owner review before release under the existing shared-analytics rule. Earlier roadmap phases remain historical/planned context. Evidence: `docs/audits/cbt-analytics-execution-2026-09-07.md`.
+
 ## Publication Checkpoint — 2026-07-25
 
 `How to Choose Software: A Practical Buyer's Guide` is published and verified live through PR #70, squash merge `43282bbaac124fbce2671eea0f7ed2ed05eee67b`. The page establishes the cross-cluster software-selection framework and links to the VPN, password-manager, cloud-storage, data-removal, cybersecurity, methodology, and disclosure routes. Production and sitemap QA passed. Indexing remains `Needs verification`; the full-site audit remains `INCOMPLETE` due execution-window limits.

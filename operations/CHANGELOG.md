@@ -5,6 +5,15 @@ Status: Active
 Owner: Choose Better Tech  
 Last Updated: 2026-07-19
 
+## 2026-09-07 - Search discovery and measurement follow-through
+
+- Inspected live GSC and GA4 and preserved the dated audit baseline.
+- Refreshed the canonical sitemap submission and received accepted crawl requests for Privacy Bee and the data-removal roundup after successful live tests. Acceptance is not indexing.
+- Verified one controlled production Optery affiliate activation in GA4 Realtime and labeled it QA, not organic demand or revenue.
+- Prepared `newsletter_submit` semantics, failure-tolerant tracking and regression tests; prepared one timeline description experiment with no freshness-date bump.
+- Reconciled the six operations dashboards and measurement documentation; scheduled the indexing follow-up and three month-end goal reviews.
+- Website changes remain on a review branch until the required owner merge review. Validation and unresolved source-attribution/provider-confirmation checks: `docs/audits/cbt-analytics-execution-2026-09-07.md`.
+
 ## Purpose
 
 This changelog records major business, publishing, analytics, affiliate, and operational milestones for Choose Better Tech.

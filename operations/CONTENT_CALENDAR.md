@@ -5,6 +5,17 @@ Status: Active
 Owner: Choose Better Tech  
 Last Updated: 2026-07-20
 
+## Evidence-led maintenance schedule - 2026-09-07
+
+| Work | Status / next checkpoint |
+|---|---|
+| Privacy Bee and data-removal roundup discovery | Sitemap refresh and crawl requests accepted; inspect crawl/index state September 14. |
+| Timeline guide description experiment | Implemented on review branch; observation starts only after verified production deployment. Compare first complete 28 days after launch with the preceding 28 days. |
+| Antivirus weekly loss, Incogni query opportunity, DeleteMe loss | Monitor existing pages; do not assume aggregate position identifies a target-query win. |
+| Formal goal reviews | Scheduled September 30, October 31 and November 30; thresholds unchanged. |
+
+No new article or increased publication cadence is scheduled by this work. Evidence: `docs/audits/cbt-analytics-execution-2026-09-07.md`.
+
 ## Publication Checkpoint — 2026-07-25
 
 `How to Choose Software: A Practical Buyer's Guide` — `/guides/how-to-choose-software` — cross-cluster software education — research complete, sources complete, written complete, QA final approved, published complete, published date 2026-07-25, indexed Needs verification, status Published. PR #70 squash merge `43282bbaac124fbce2671eea0f7ed2ed05eee67b`. Full-site audit status: INCOMPLETE due execution-window limits.

@@ -5,6 +5,12 @@ Status: Active
 Owner: Choose Better Tech  
 Last Updated: 2026-07-20
 
+## Current evidence and execution - 2026-09-07
+
+This checkpoint supersedes older current-priority language below; dated publication history is retained. Focus is discovery and measurement on existing assets, not publishing volume. Live GSC recorded 1 click/3,572 impressions in the current complete 28-day window; GA4 recorded 120 sessions with one Google-organic session in its adjacent 28-day window. No qualifying organic intent has been established.
+
+Sitemap refresh and one indexing request each for Privacy Bee and the data-removal roundup were accepted. Both pass the live indexability test; neither is confirmed indexed. Production affiliate QA delivered one labeled event. Newsletter submission semantics and one timeline meta-description experiment are implemented on the review branch, not yet released. Internal exclusion remains Testing pending verification of the existing exact-IP home rule. September 14 indexing follow-up and month-end reviews through November are scheduled. Evidence and remaining release gates: `docs/audits/cbt-analytics-execution-2026-09-07.md`.
+
 ## Current Publication Status — 2026-07-25
 
 `How to Choose Software: A Practical Buyer's Guide` is `VERIFIED LIVE` at `https://choosebettertech.com/guides/how-to-choose-software` after PR #70 squash merge `43282bbaac124fbce2671eea0f7ed2ed05eee67b`. Production structural QA and sitemap checks passed. Full-site audit is `INCOMPLETE` because of execution-window limits; indexing and post-publication monitoring remain pending.

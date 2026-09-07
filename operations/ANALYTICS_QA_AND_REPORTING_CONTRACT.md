@@ -5,6 +5,12 @@
 **Owner:** Choose Better Tech; Aaron is the current sole reporting owner  
 **Effective:** 2026-07-23
 
+## Measurement clarification - 2026-09-07
+
+The historical browser event named `newsletter_signup` fired on native form submission, before Mailchimp acceptance or double opt-in confirmation. Do not use that event alone as proof of a completed signup, including after the August 13 hostname-boundary fix. The September maintenance change proposes `newsletter_submit` for this action; its production-effective date must be recorded after deployment. Reserve `newsletter_signup` for verified provider confirmation. A submit event alone does not qualify toward the frozen organic-intent goal. The independently documented July completed signup is not negated by this instrumentation finding.
+
+`affiliate_click` measures commercial intent, not a sale or commission. The September 7 controlled Optery activation is QA and must be excluded. See `docs/audits/cbt-analytics-execution-2026-09-07.md` for current account observations, exact QA labeling, and remaining verification steps. This clarification does not change goal thresholds or authorize new tracking configuration.
+
 ## Purpose and boundary
 
 This contract turns the existing `affiliate_click` implementation into a repeatable measurement and reconciliation process. It governs QA, evidence, reporting, and decision-making. It does not change runtime code, GA4 configuration, affiliate destinations, environment variables, or production.
@@ -165,9 +171,9 @@ The process distinguishes: site clicks, network clicks, conversions, approved co
 |---|---|---|
 | Event delivery | Ready | Implementation/tests exist and production `affiliate_click` delivery was verified in GA4 Realtime. |
 | Parameter availability | Partially ready | Required parameters are sent by the repository implementation; ongoing GA4 report visibility and historical completeness are not evidenced. |
-| Custom dimensions | Unknown | No repository or owner evidence proves they are configured. |
-| Key-event designation | Unknown | No repository or owner evidence proves `affiliate_click` is designated as a GA4 key event. |
-| Data retention | Unknown | No repository or owner evidence proves retention settings. |
+| Custom dimensions | None observed on 2026-09-07 | Live GA4 Custom definitions list was empty; no configuration changed. |
+| Key-event designation | Confirmed 2026-09-07 | `affiliate_click` is already a key event; controlled QA produced one key event, excluded from business evidence. |
+| Data retention | Observed 2026-09-07 | Event retention two months, user retention fourteen months; unchanged. |
 | Reporting ownership | Partially ready | Aaron is sole reporting owner; no alternate operator exists. |
 | Export/archive process | Unknown | No recurring privacy-safe analytics export/archive is evidenced. |
 | Conversion reconciliation | Not ready | Partner conversions, approved/paid commissions, and discrepancies are not yet reconciled on a recurring basis. |

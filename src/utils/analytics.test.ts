@@ -88,11 +88,11 @@ describe("google analytics gtag transmission", () => {
     expect(pageViewEvents()).toHaveLength(1);
   });
 
-  it("emits named conversion events with their parameters", async () => {
+  it("emits named interaction events with their parameters", async () => {
     const analytics = await freshModule();
     analytics.initializeGoogleAnalytics();
-    analytics.trackEvent("newsletter_signup", { method: "mailchimp" });
-    const event = dataLayer().map(toArray).find((entry) => entry[0] === "event" && entry[1] === "newsletter_signup");
+    analytics.trackEvent("newsletter_submit", { method: "mailchimp" });
+    const event = dataLayer().map(toArray).find((entry) => entry[0] === "event" && entry[1] === "newsletter_submit");
     expect(event?.[2]).toEqual({ method: "mailchimp" });
   });
 });
