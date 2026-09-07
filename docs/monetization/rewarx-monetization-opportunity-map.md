@@ -1,10 +1,10 @@
 # Rewarx monetization opportunity map
 
-Checked: September 7, 2026. Author research complete for this single-provider review; independent review pending. Commercial implementation BLOCKED.
+Checked: September 7, 2026. Author research and separate independent review complete for this single-provider review. Commercial implementation BLOCKED.
 
-Monetization Independence Check: FAIL
+Monetization Independence Check: PASS
 
-Reason: the required separate reviewer has not examined this map. This gate does not allege detected commercial bias. The product and tests were selected before this commercial research. No commission amount influenced evidence interpretation, criticism or fit judgment. No tracked link, application, outreach, registry edit or CTA was implemented.
+Reason: a separate adversarial research reviewer rechecked the official Awin profile, commission page, General/PPC/Transactions/Branding/Publishers terms, and Awin migration notice on September 7. The reviewer found no hidden commercial influence on the scoped editorial conclusion. The product and tests were selected before this commercial research. No commission amount influenced evidence interpretation, criticism or fit judgment. No tracked link, application, outreach, registry edit or CTA was implemented.
 
 ## Provider-level record
 
@@ -67,4 +67,4 @@ These are CBT business hypotheses, not verified offers or revenue forecasts. Aud
 
 ## Review and refresh
 
-Separate reviewer must challenge every commercial fact, annual-plan assumptions, undefined paid-search rules, affiliate influence and actual CBT status. Required decision: RETURN FOR CORRECTION or APPROVE FOR MERGE. No author self-approval. Refresh before any authorized commercial action, on changed terms, and quarterly while active. This research does not authorize outreach, applications, tracked links, sponsorship or lead collection.
+Independent reviewer: separate research-review agent, September 7, 2026. Decision: APPROVE FOR MERGE for this research map only. Official sources support the limited public claims; annual-plan commission, authenticated CBT eligibility, payout, geography and promotional permissions remain explicitly unverified. Non-affiliate models are bounded hypotheses with controls, not revenue promises. No tracked link or commercial implementation is approved. See ../quality/rewarx-research-independent-review.md. No author self-approval. Refresh before any authorized commercial action, on changed terms, and quarterly while active. This research does not authorize outreach, applications, tracked links, sponsorship or lead collection.

@@ -263,8 +263,11 @@ Balance 88 -> 80: 8 credits deducted vs final displayed cost 32. Tasks 11 -> 12.
 
 Production Blueprint exposed a theme directive requesting ULTIMATE VERSATILITY and PREMIUM SOFT COTTON, followed by our ADDITIONAL USER REQUIREMENTS expressly forbidding invented cotton/material/performance claims. This is direct evidence of conflicting visible production instructions. It does not establish the internal model mechanism.
 
-Outcome: FAIL for the scoped question whether correcting every exposed matrix field plus final prohibitions is sufficient to obtain a factually restrained, ready-to-use set in this workflow. Not a product-wide failure rate. Some outputs followed basic visible facts; two retained cotton claims and several leaked editing instructions. Generic hype is distinguished from factual material/certification claims. No numerical aggregate score assigned.
+Outcome: FAIL for the scoped question whether reviewing every exposed matrix field and replacing unsupported entries plus final prohibitions is sufficient to obtain a factually restrained, ready-to-use set in this workflow. Not a product-wide failure rate. Some outputs followed basic visible facts; two retained cotton claims and several leaked editing instructions. Generic hype is distinguished from factual material/certification claims. No numerical aggregate score assigned.
 
 Evidence limitation: observations are from full-size in-app previews and visible production settings. Independent downloaded-byte/hash verification of this new set is pending. Media remains in the account; do not claim locally archived exports or public reuse rights. Banner says commercial rights/watermark removal require upgrade; complimentary-grant illustration rights remain unresolved.
 
 RW-R2 preparation: original asset New Production reuses the shirt in Photography, but switching to Background Remover opens a separate empty upload field. No second charged test submitted. RW-R2 and RW-R3 remain incomplete.
+
+## Independent review clarification
+The original test-session viewer order below is not a permanent asset identifier. During independent reopening, the original appeared first and the two cotton-claim images appeared at viewer positions 2 and 8. Preserve the original observation order for historical traceability, but identify article examples by their content: the ghost-mannequin hero and the white-background shirt with fabric inset. Viewer ordering can differ; no extra generated output is implied.

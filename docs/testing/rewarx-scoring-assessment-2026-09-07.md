@@ -4,7 +4,7 @@ Date: September 7, 2026. Author assessment, not independent approval. Uses the r
 
 ## September corrected Product Page workflow
 
-Source: RW-S3 plain white shirt; US / English; corrected 22 fields; Pure Essentialism; Square; 1K; eight outputs, one set. See the complete R1 record. Ratings evaluate the delivered workflow against the factual-listing task, not image beauty alone.
+Source: RW-S3 plain white shirt; US / English; reviewed 22 editable fields and replaced unsupported entries; Pure Essentialism; Square; 1K; eight outputs, one set. See the complete R1 record. Ratings evaluate the delivered workflow against the factual-listing task, not image beauty alone.
 
 | Category | Weight | Score / 5 | Reason |
 | --- | ---: | ---: | --- |

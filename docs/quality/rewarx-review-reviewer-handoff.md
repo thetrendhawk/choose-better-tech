@@ -1,3 +1,5 @@
+> Historical handoff, superseded by rewarx-research-independent-review.md (research PASS) and the article review reports. Retained as the original reviewer assignment; not the current status.
+
 # Rewarx reviewer handoff
 
 Prepared September 7, 2026. REVIEW NOT PERFORMED. This is an assignment package, not an independent review or approval. Author: current review assistant. A separate reviewer is still required.

@@ -4,7 +4,7 @@ Checked September 7, 2026. Internal decision brief and article outline, not a pu
 
 ## Evidence-backed editorial position
 
-Rewarx can produce visually coherent product concepts, but the tested workflows require manual verification of product truth and copy. The strongest current finding is that correcting every exposed Product Page field and adding final prohibitions still produced unsupported cotton claims, quality claims and editing-instruction leakage. This supports rejecting unattended publication of that tested set. It does not support a universal failure rate, a comparison winner, or a claim that every Rewarx workflow fails.
+Rewarx can produce visually coherent product concepts, but the tested workflows require manual verification of product truth and copy. The strongest current finding is that reviewing all 22 editable Product Page fields and replacing unsupported entries and adding final prohibitions still produced unsupported cotton claims, quality claims and editing-instruction leakage. This supports rejecting unattended publication of that tested set. It does not support a universal failure rate, a comparison winner, or a claim that every Rewarx workflow fails.
 
 The simplest faithful mockup result is positive evidence: the CBT TEST graphic and motif remained recognizable on a mug. Bottle condition and shape changes matter particularly for resale, where a cleaner-looking item can be a misleading item. Those findings should lead the intended article, with aesthetic strengths included rather than suppressed.
 
@@ -47,4 +47,7 @@ A search of existing src page content found no Rewarx article. The recovered AI 
 
 ## Completion boundary
 
-Research substance, claim ledger, commercial research and this article structure are prepared. The binding monetization independence gate still requires a separate reviewer, so RESEARCH INCOMPLETE remains the formal status and article drafting has not begun. Unknown security/ownership/refund details can be disclosed in a scoped review rather than invented; missing independent approval cannot be relabeled complete. See docs/quality/rewarx-review-reviewer-handoff.md for the exact review task.
+Research substance, claim ledger, commercial research and this article structure are prepared. The independent research review has now passed, the monetization map records PASS, and the full manuscript is at ../editorial/rewarx-studio-review-draft.md. Unknown security/ownership/refund details can be disclosed in a scoped review rather than invented; the independent manuscript audit is now PASS. See ../quality/rewarx-review-independent-review.md and ../quality/rewarx-review-quality-scorecard.md for completed review decisions.
+
+## Manuscript delivery plan
+Proposed slug: /reviews/rewarx-studio. Reader question: Can an ecommerce seller use Rewarx-generated assets without changing product facts? Deliver a text-only Markdown manuscript with plain provider links, no affiliate CTA and no numerical whole-product rating. Internal links: /about/how-we-review-software and /contact, both confirmed in the current route manifest. No new page implementation or deployment is part of this manuscript handoff. Independent article audit confirms editorial PASS and distinguishes it from unperformed technical publication gates (32/40 full-page score; no deployment approval).
