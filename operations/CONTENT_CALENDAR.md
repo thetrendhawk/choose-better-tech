@@ -70,3 +70,10 @@ IndexNow single-URL submission for the new route returned HTTP 200, confirming a
 | Indexed | Article is confirmed indexed in search tools. |
 | Refresh Needed | Article requires review or updates. |
 | Live — remediation in progress | Page remains live but is not final approved while canonical research, content, deployment, and QA gates are repeated. |
+
+
+## Rewarx publication preparation: September 7, 2026
+
+Owner approved the completed article and explicitly authorized publication. Route: `/reviews/rewarx-studio`. One new review, grouped under **AI Ecommerce Creative Tools** in `/reviews`; no separate thin hub or additional article commitment. Research, claim ledger and manuscript editorial review passed. Implementation reuses existing components, preserves the approved text and discloses complimentary access, affiliate relationship, small sample and unverified exports/paid-plan behavior. No tracked CTA or output image embedding.
+
+Status at this checkpoint: `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED` for final deployment review. Production, sitemap, IndexNow and live verification will be recorded after release; do not treat this checkpoint as published. See `docs/quality/rewarx-publication-validation-2026-09-07.md`. No traffic, indexing, conversion or revenue gain inferred. Review volatile facts within 30 days and on provider corrections; existing September project checkpoints remain intact.

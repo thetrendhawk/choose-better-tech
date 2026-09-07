@@ -1,8 +1,8 @@
-# Rewarx Studio manuscript independent review
+# Rewarx Studio publication independent review
 
 Reviewer: separate research/editorial review agent. Accountable publication owner: Choose Better Tech / Aaron S. Evans. Authoring pass: main review assistant. Review date: September 7, 2026. Manuscript: ../editorial/rewarx-studio-review-draft.md.
 
-This is a separate editorial pass after the research gate passed. The reviewer was instructed to falsify the conclusion, not confirm it. No new product generations, messages, payments, or publication actions were performed.
+This records the separate editorial pass after the research gate passed and its subsequent implemented-page deployment review on September 7, 2026. The reviewer was instructed to falsify the conclusion, not confirm it. No new product generations, messages, payments, or publication actions were performed.
 
 ## Main verdict challenged
 
@@ -52,16 +52,34 @@ Rewarx-specific factual-fidelity evaluation is distinct from the broader planned
 
 The article helps a merchant decide between supervised concepts and factual listing assets, with concrete cotton, garment-condition and instruction-leakage examples. It supplies a reasonable check-before-use workflow, clear caveats and actual pricing amounts. A text-only manuscript remains useful despite not embedding restricted outputs.
 
-## Code-quality check
+## Code-quality and implemented-page check
 
-This deliverable is Markdown, not an implemented site page. Local repository targets exist for methodology and contact links. The reviewer did not approve a route, prerendered article, metadata, schema, responsive layout or accessibility. Parent-reported repository lint/build/tests do not substitute for checking an article page that does not yet exist.
+The independent publication pass inspected `src/pages/RewarxStudioReviewPage.tsx`, its route, review-library group, sitemap, shared SEO component, route-count changes and bounded category records. The component reuses the established Container, SEO and Newsletter components. It introduces no shared styling change, external data dependency, tracked product link or generated-output image. Existing route generation remains authoritative; the single new route changes the expected total from 72 to 73. Homepage-first ordering was restored after a test caught that requirement.
+
+The reviewer independently parsed the built article: exactly one H1, title and canonical; indexable robots; Article and BreadcrumbList JSON-LD; consistent September 7 publication/modification dates; Organization author; no fabricated aggregate rating or FAQ schema; two tables; and no missing section-fragment targets. A normalized comparison found all 38 manuscript prose paragraphs in the built article. Discovery through `/reviews` and the new AI Ecommerce Creative Tools group is appropriate; a separate empty hub would not add reader value.
+
+The publication author supplied the technical and rendered evidence in `rewarx-publication-validation-2026-09-07.md`: lint, 54 tests in 10 files, build of 73 public pages plus 404, generated-route and routing checks passed. Desktop cloud-browser rendering and actual frame viewport widths 390/768/1024/1440 were inspected. Recorded document scroll widths equal client widths; mobile tables scroll within their containers. The author additionally reported keyboard focus with visible outline on the pricing table region and ArrowRight scrolling. Review-card navigation, direct reload, back/forward and section links passed. The reviewer inspected the implementation and records, not the cloud screenshots directly; this is not an independent mobile-device test. Browser-extension errors were distinguished from article JavaScript errors.
+
+The temporary noindex responsive fixture was removed from source before release. This reviewer independently verified source removal and `git diff --check` PASS. Release build and deployed content must exclude that fixture.
+
+## Launch evidence and operations check
+
+The author re-opened launch-day monthly/yearly pricing, terms and privacy UI and checked the Shopify listing. No material difference from independently reviewed September 7 evidence was reported. All three public GitHub test-record links returned unauthenticated HTTP 200 with expected content. The source-access concern is resolved without embedding private media.
+
+The reviewer required a bounded cluster-approval record because the recovered pillar brief alone did not document all required approval considerations. `../strategy/ai-ecommerce-creative-tools-cluster-approval.md` now covers them, limits implementation to the existing founding review and avoids a speculative article expansion. The new cluster monetization map incorporates the independently passed Rewarx map without new program claims, provider selections or commercial implementation. Independence remains PASS for this scope.
+
+All six operations documents have consistent publication-preparation entries, explicitly withholding live status. Production deployment, live sitemap, IndexNow and final live QA are release steps, not facts already established by this approval. Postrelease records must state actual outcomes; indexing and revenue remain unproven.
 
 ## Required corrections
 
-No blocking manuscript correction remains in the reviewed version. Before eventual deployment, implement the page, verify public source links and volatile prices/policies at launch, check canonical/metadata/schema/date handling, render accessibility and responsive behavior, complete operations records, then rerun the full scorecard. Do not remove existing caveats or add imagery, numeric ratings or tracked links under this manuscript approval.
+No blocking editorial, sourcing or implementation correction remains in the reviewed candidate. The previously missing technical stages and category record have been supplied. Preserve small-sample limits, export-byte and paid-plan gaps, complimentary-rights restrictions and the lack of transaction reconciliation. These constrain claims but do not prevent this qualified text-only review from publication.
+
+Complete the normal release verification against the actual production commit and URL. Do not deploy the temporary fixture, strengthen the verdict, embed outputs, add numerical ratings or activate affiliate links under this approval.
 
 ## Final reviewer decision
 
-Manuscript editorial suitability: PASS. The written article is complete for owner review within its stated limits.
+APPROVE FOR DEPLOYMENT.
 
-Formal publication decision under the Independent Review Protocol: RETURN FOR CORRECTION for the unimplemented technical/publication stages only. Full-page score: 32/40, FAIL for deployment, including the required Technical SEO floor not yet assessable. This does not require site implementation as part of the current manuscript task and does not imply an unresolved factual defect in the draft. No APPROVE FOR DEPLOYMENT is issued.
+Quality score: 38/40, PASS. All required floors are met. This supersedes the earlier manuscript-stage RETURN FOR CORRECTION, which concerned then-unimplemented publication stages. The independent verdict challenge and Critical/High claim review above remain applicable to the unchanged article.
+
+This is predeployment approval for the reviewed article and review-library category, supported by independent code/evidence inspection and the author's documented browser/technical checks. It is not a claim of production publication, indexing, delivery to the vendor or final live approval. Those outcomes must be verified and recorded after release.
