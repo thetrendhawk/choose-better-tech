@@ -8,6 +8,13 @@ export type ArticleGroup = {
 
 export const reviewGroups: ArticleGroup[] = [
   {
+    title: "AI Ecommerce Creative Tools",
+    description: "Hands-on reviews of product-image and creative software, focused on factual accuracy, usable outputs, cost and seller fit.",
+    articles: [
+      { key: "rewarx-studio-review", title: "Rewarx Studio Review", excerpt: "Polished product images with important fidelity and copy limits. Our tests cover mockups, corrected product fields, credit costs and export uncertainty.", href: "/reviews/rewarx-studio", status: "Published Review" }
+    ]
+  },
+  {
     title: "Cybersecurity Tool Reviews",
     description: "Evidence-based security software reviews focused on protection, trust, subscription terms, platform limits, and reader fit.",
     articles: [

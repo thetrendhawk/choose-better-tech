@@ -1,6 +1,7 @@
 // Single executable authority for public URLs and their React page modules.
 // Sitemap, browser routing, static rendering, and Vercel routing derive from it.
 export const APP_ROUTE_DEFINITIONS = [
+  { path: "/reviews/rewarx-studio", module: "./pages/RewarxStudioReviewPage.tsx", exportName: "RewarxStudioReviewPage" },
   { path: "/", module: "./pages/HomePage.tsx", exportName: "HomePage" },
   { path: "/about", module: "./pages/AboutPage.tsx", exportName: "AboutPage" },
   { path: "/about/how-we-review-software", module: "./pages/HowWeReviewSoftwarePage.tsx", exportName: "HowWeReviewSoftwarePage" },

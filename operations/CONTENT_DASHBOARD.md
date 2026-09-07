@@ -1,5 +1,9 @@
 # Content Dashboard
 
+## Existing-asset maintenance checkpoint - 2026-09-07
+
+No editorial asset is added by this maintenance change. Privacy Bee and `/best-data-removal-services` remain unindexed in URL Inspection; Google accepted single crawl requests after live tests. Existing homepage/hub/review links and sitemap inclusion were verified. The timeline guide has a proposed description-only experiment; its title, body, review date and canonical remain unchanged. Incogni, antivirus and DeleteMe remain in evidence-led monitoring, with no new verdict or ranking claim. This is not a full editorial refresh or final publication approval. Details: `docs/audits/cbt-analytics-execution-2026-09-07.md`.
+
 ## Dashboard Metadata
 
 | Field | Value |

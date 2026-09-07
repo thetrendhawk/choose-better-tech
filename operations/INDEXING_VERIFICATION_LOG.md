@@ -6,6 +6,12 @@
 **Canonical domain:** `choosebettertech.com`  
 **Repository rule:** Record only non-sensitive evidence. Unsupported platform facts are `UNKNOWN`.
 
+## Priority reconciliation - 2026-09-07
+
+The August single-URL recovery cohort now includes `/reviews/privacy-bee-review` alongside `/best-data-removal-services`. Both URLs returned production HTTP 200, correct self-canonicals, indexable directives, sitemap inclusion, and existing initial-HTML discovery links. Both passed Google's live test and received one accepted priority-crawl request on September 7 UTC (September 6 Pacific). Neither acceptance nor the live test establishes indexing. Privacy Bee changed from unknown to discovered/not indexed during the session, with the sitemap recognized. The roundup remains discovered/not indexed with no recorded crawl.
+
+The canonical sitemap submission was accepted; the table still reported July 28 as last read and 69 discovered URLs, versus 72 in live XML. Recheck processing and URL-level crawl/index state September 14. Do not repeatedly submit unchanged URLs. DeleteMe was individually confirmed indexed despite zero current impressions. Full evidence: `docs/audits/cbt-analytics-execution-2026-09-07.md`.
+
 ## Verification principles
 
 - Sitemap submission does not prove indexing.
