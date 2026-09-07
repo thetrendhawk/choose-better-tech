@@ -33,4 +33,3 @@ New completed trials: RW-R1 eight-output set, RW-R3 one corrected image. Nine ne
 ## Remaining publication limitations
 
 Current export bytes, output reproduction rights, paid-plan behavior, cancellation/refund experience and independent approval remain unresolved. No source-code audit, security test, company incorporation verification or ordinary support-response test. These limits must remain visible in a scoped article; there is no whole-product numerical rating.
-
