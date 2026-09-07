@@ -9,7 +9,7 @@ import { site } from "../utils/site";
 
 const pagePath = "/guides/how-long-does-data-removal-take";
 const pageTitle = "How Long Does Data Removal Take? Realistic Service Timelines";
-const pageDescription = "How long do data-removal services take? Compare realistic Incogni, Optery, and DeleteMe timelines, from first scans through verified removal and monitoring.";
+const pageDescription = "How long does data removal take? Compare request, broker-processing, and verification timelines, and learn why a first report is not proof of removal.";
 const reviewedDate = "July 31, 2026";
 
 const timeline = [
