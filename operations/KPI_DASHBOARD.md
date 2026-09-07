@@ -5,6 +5,10 @@ Status: Active
 Owner: Choose Better Tech  
 Last Updated: 2026-08-26
 
+## Page-view QA correction - 2026-09-07
+
+A controlled single internal navigation produced two GA4 page views. Automatic browser-history page views were enabled alongside manual route tracking. The automatic history option was disabled and its saved state verified at 02:06 UTC; an immediate follow-up still showed duplicates, but a later fresh document followed by one Affiliate Disclosure navigation produced exactly one page view (Realtime total seven to eight). The correction is verified for this controlled transition; a September 8 persistence check is scheduled. Do not treat pre/post page-view or engagement metrics as cleanly comparable, or numerically adjust historical totals without evidence. The affiliate event remained exactly one. Details and follow-up: `docs/audits/cbt-analytics-execution-2026-09-07.md`.
+
 ## Live account checkpoint - 2026-09-07
 
 GSC Web, all countries/devices, **Aug 8-Sep 4 vs Jul 11-Aug 7**: **1 vs 4 clicks**, **3,572 vs 1,717 impressions**, calculated CTR **0.028% vs 0.233%**, position **47.6 vs 53.4**. Sep 3 Page Indexing report: **35 indexed, 37 excluded** across all known URLs; 35 is not a verified canonical-editorial count.

@@ -36,7 +36,13 @@ This proves delivery of this controlled activation, not all-client reliability, 
 
 The existing “Aaron Home Internet” rule matches one exact IP and marks `traffic_type=internal`. The Internal Traffic exclusion remains **Testing**. This cloud session cannot establish whether the configured address still belongs to the owner's current home connection. Activate only after verifying a visit from that connection is labeled with the test filter and an external control is not. Keep the private IP out of GitHub. No filter was activated or broadened.
 
-Tag diagnostics reported “Additional domains detected for configuration.” This is not evidence that all events fail: the controlled affiliate event arrived. Inspect the suggested domains against the historical domain migration before adding cross-domain configuration. No domain, consent, retention, custom dimension or key-event configuration changed. At inspection, custom definitions were empty, affiliate_click was already a key event, event retention was two months and user retention fourteen months. These settings supersede older UNKNOWN entries as dated observations, not proof of reporting completeness.
+Tag diagnostics reported “Additional domains detected for configuration.” This is not evidence that all events fail: the controlled affiliate event arrived. Inspect the suggested domains against the historical domain migration before adding cross-domain configuration. No domain, consent, retention, custom dimension or key-event configuration changed. The separate automatic page-history setting was corrected as described below. At inspection, custom definitions were empty, affiliate_click was already a key event, event retention was two months and user retention fourteen months. These settings supersede older UNKNOWN entries as dated observations, not proof of reporting completeness.
+
+## Duplicate page-view finding and account correction
+
+One ordinary About navigation produced two page views while the affiliate count remained one. The source implements explicit page views with `send_page_view: false`; live GA4 Enhanced measurement also had **Page changes based on browser history events** enabled. [Google documents](https://developers.google.com/analytics/devguides/collection/ga4/views) that history-based events operate independently of send_page_view, so this combination can duplicate route views.
+
+At **2026-09-07 02:06:33 UTC**, disabled only **Page changes based on browser history events**, saved, reopened the editor and verified it was unchecked. Other enhanced events remain enabled. The first fresh-load Contact-navigation check still showed two views. A later freshly loaded document followed by one navigation to Affiliate Disclosure produced **exactly one page view** in Realtime; the total rose from seven to eight and the affiliate count stayed one. The correction is therefore verified for that controlled fresh-document route transition. Configuration caching/propagation may explain the initial result, but that cause was not directly measured. Recheck September 8 for persistence; this single test is not an all-client guarantee. Historical page-view and engagement comparisons may be affected; do not halve totals or alter recorded historical figures.
 
 ## Implemented changes on review branch
 
@@ -59,15 +65,20 @@ Launch date: **pending production release**, not September 7 by assumption. Comp
 - `npm run check:static-output`: PASS.
 - `npm run check:generated-routes`: PASS. A generator-only formatting diff in vercel.json was verified JSON-equivalent and removed.
 - `git diff --check`: PASS at validation checkpoint.
-- Preview build and cloud-browser checks: pending exact implementation head, to be recorded in the PR.
+- Preview deployment `dpl_5wEj6bX5nMLym4DztFx9kCNBLqYL` is READY for implementation head `32e15bc91d83428c308a90a3116c5d8bc0653c62`. Cloud-browser checks confirmed the exact new description, production canonical, unchanged title/review date, desktop containment at 1363px, intact newsletter layout and native required-email validation. No provider submission was sent. No styles/layout changed; mobile viewport was not separately exercised. Final documentation-only head and deployment will be recorded in PR #86.
 - Production release and post-release newsletter-event observation: pending owner merge review.
 
 `operations/AUTOMATION_PUBLISHING_CONTRACT.md` excludes shared analytics changes from routine article auto-merge and requires owner review. This maintenance PR is not a major editorial refresh and does not claim an independent article score or final self-approval. After owner review, confirm the merged commit's READY production deployment, correct description/canonical, native newsletter behavior and one explicitly labeled event before declaring release complete. The current production affiliate QA does not verify code that has not been deployed.
 
 ## Scheduled follow-through and unresolved inputs
 
+- September 8: confirm that the corrected one-page-view result persists on a fresh labeled visit; investigate only if duplicates recur.
 - September 14: one indexing/anomaly recheck.
 - September 30, October 31, November 30: formal evidence reviews in the owner's Pacific timezone, retaining the full GOALS.md rules and explicit QA exclusions.
 - Owner connection evidence: verify current home IP and Testing-match behavior before activating exclusion.
 - Owner-controlled inbox: verify Mailchimp acceptance, confirmation/checklist delivery and attribution. Never infer this from form submission.
 - Partner conversion/commission records remain unverified; GA4 is not a commission ledger.
+
+## Review artifact
+
+[PR #86](https://github.com/thetrendhawk/choose-better-tech/pull/86) contains the concrete implementation and evidence. Account corrections and indexing requests above are already executed; website code remains unreleased pending owner review.

@@ -5,6 +5,10 @@ Status: Active
 Owner: Choose Better Tech  
 Last Updated: 2026-08-26
 
+## Page-view QA correction - 2026-09-07
+
+A controlled single internal navigation produced two GA4 page views. Automatic browser-history page views were enabled alongside manual route tracking. The automatic history option was disabled and its saved state verified at 02:06 UTC; an immediate follow-up still showed duplicates, but a later fresh document followed by one Affiliate Disclosure navigation produced exactly one page view (Realtime total seven to eight). The correction is verified for this controlled transition; a September 8 persistence check is scheduled. Do not treat pre/post page-view or engagement metrics as cleanly comparable, or numerically adjust historical totals without evidence. The affiliate event remained exactly one. Details and follow-up: `docs/audits/cbt-analytics-execution-2026-09-07.md`.
+
 ## Measurement clarification - 2026-09-07
 
 The historical browser event named `newsletter_signup` fired on native form submission, before Mailchimp acceptance or double opt-in confirmation. Do not use that event alone as proof of a completed signup, including after the August 13 hostname-boundary fix. The September maintenance change proposes `newsletter_submit` for this action; its production-effective date must be recorded after deployment. Reserve `newsletter_signup` for verified provider confirmation. A submit event alone does not qualify toward the frozen organic-intent goal. The independently documented July completed signup is not negated by this instrumentation finding.
