@@ -3,10 +3,6 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/reviews/rewarx-studio",
-      "destination": "/reviews/rewarx-studio.html"
-    },
-    {
       "source": "/",
       "destination": "/index.html"
     },
@@ -49,6 +45,10 @@
     {
       "source": "/tools/data-removal-service-selector",
       "destination": "/tools/data-removal-service-selector.html"
+    },
+    {
+      "source": "/reviews/rewarx-studio",
+      "destination": "/reviews/rewarx-studio.html"
     },
     {
       "source": "/reviews",
