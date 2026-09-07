@@ -29,3 +29,6 @@ Secure sign-in completed. Current balance 88; no generation or purchase performe
 
 ## September 7 follow-up: source loaded, sensing pending
 After the user prepared the upload, a fresh browser screenshot confirmed the original plain white shirt on its gray background in Product Page. Country remained United States of America and language English. Start AI Sensing was enabled and was clicked once. The page transitioned to Sensing / Neural Decoding and remained there through repeated visible-state checks without editable matrix fields or a surfaced site error. Visible credit balance stayed 88 and Tasks stayed 11. No image generation was submitted. RW-R1 is INCOMPLETE, not a corrected-matrix pass or fail. Upload blocker is resolved; sensing completion is now the blocking step. Keep the current page open for a delayed result rather than submitting a duplicate attempt.
+
+## September 7 retry completed
+RW-R1 retry succeeded: all 22 matrix fields corrected and final prohibitions submitted. Eight output previews reviewed; factual and instruction-leakage failures remain. See rewarx-r1-corrected-matrix-2026-09-07.md for field records and per-output findings. Balance now 80 after 8-credit deduction against 32 displayed. RW-R2 and RW-R3 remain incomplete. Earlier stalled-state checkpoints above are historical, not current status.
