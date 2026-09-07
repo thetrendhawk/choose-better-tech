@@ -32,3 +32,6 @@ After the user prepared the upload, a fresh browser screenshot confirmed the ori
 
 ## September 7 retry completed
 RW-R1 retry succeeded: all 22 matrix fields corrected and final prohibitions submitted. Eight output previews reviewed; factual and instruction-leakage failures remain. See rewarx-r1-corrected-matrix-2026-09-07.md for field records and per-output findings. Balance now 80 after 8-credit deduction against 32 displayed. RW-R2 and RW-R3 remain incomplete. Earlier stalled-state checkpoints above are historical, not current status.
+
+## Current closeout status
+RW-R1: executed and audited. RW-R2: blocked by upload/download verification, unscored and excluded from current capability claims. RW-R3: executed with qualified coarse-geometry result; exact 10% and scratch fidelity unverified. Latest balance 79, new deductions 9 total. See ../testing/rewarx-follow-up-test-log-2026-09-07.md. Earlier checkpoints are historical.
