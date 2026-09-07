@@ -1,6 +1,6 @@
 # Rewarx targeted retests
 
-Prepared September 7, 2026. Not executed. Account currently signed out in cloud browser; last historical balance 88 is not current verification. Owner requested implementation and execution of the review continuation. No paid subscription/purchase authorized.
+Prepared September 7, 2026. Generation retests not executed. Existing account sign-in succeeded September 7 in the cloud browser; current visible balance verified at 88 credits. Existing August projects remain visible. Owner requested implementation and execution of the review continuation. No paid subscription/purchase authorized.
 
 ## Preflight
 Sign into existing account through secure browser authentication. Record current plan, balance, visible features and displayed cost before any generation. Use approved source assets or their existing account copies. Stop on unexpected subscription/payment or newly broader permissions. Retain original results. Preserve at least the historical 11-credit reserve; do not spend credits for optional coverage while these questions remain.
@@ -23,3 +23,6 @@ Reuse a controlled bottle output and request only restoration of source shoulder
 6. What comparison baseline produces the annual Growth/Scale/Agency savings badges?
 
 These questions do not grant the vendor editorial approval. Unanswered questions should remain explicit limitations where they do not prevent a fair scoped conclusion.
+
+## September 7 execution checkpoint
+Secure sign-in completed. Current balance 88; no generation or purchase performed. Product Page opened with United States of America and English defaults. The supported file chooser accepted the source-path call but the page did not show a source preview and Start AI Sensing stayed disabled. A fresh screenshot confirmed unchanged upload UI. Cause unresolved; this is a session upload blocker, not a product-quality finding. Existing media library was inspected; no source-reuse control was established. Resume by selecting the original shirt through the visible upload control, then verify the preview before starting sensing. Current plan name still requires verification.
