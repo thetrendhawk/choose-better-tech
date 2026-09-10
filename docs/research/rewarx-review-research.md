@@ -67,3 +67,7 @@ The approved scoped research was used to write ../editorial/rewarx-studio-review
 ## Publication closeout
 
 September 7, 2026: VERIFIED LIVE at https://choosebettertech.com/reviews/rewarx-studio after owner publication approval, independent deployment approval38/40, PR #87 and verified production release. Earlier manuscript-only status is historical. See ../quality/rewarx-publication-validation-2026-09-07.md. Evidence limitations remain unchanged.
+
+## September 10 follow-up
+
+See `rewarx-vendor-response-2026-09-10.md` for the provider reply, independently reproduced broken evidence links, permanent replacements, recovered Try-On asset hash, and login-limited current verification. Historical tests and verdict remain unchanged; reported fixes remain provider claims.

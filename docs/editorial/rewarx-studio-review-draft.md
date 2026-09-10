@@ -1,6 +1,6 @@
 # Rewarx Studio review: polished product images, but check the facts
 
-*Evidence checked September 7, 2026. Hands-on evaluation with important testing limits.*
+*Published September 7, 2026. Updated September 10 with Rewarx’s response and repaired evidence links. Hands-on testing and public pricing/policy checks remain dated September 7.*
 
 Rewarx Studio can turn a basic product photograph into a convincing visual concept. Our testing also showed why a convincing image is not automatically an accurate listing image. Bottles lost visible wear, a shirt changed presentation, and generated marketing images claimed a material composition we had never supplied.
 
@@ -30,7 +30,7 @@ On September 7, we completed two additional trials: an eight-image Product Page 
 
 This was a small, deliberately selected sample from one complimentary-access account. It is not a measurement of Rewarx's overall success rate. August credit and workflow details rely on contemporaneous notes; September testing used a signed-in cloud Chrome session. The exact web-app build and browser/OS versions were not recorded. We did not test Shopify installation, video generation, 4K generation, a paid subscription, cancellation, refunds, or ordinary customer-support response times.
 
-Our method puts product fidelity ahead of appearance. A prettier result can still be a worse listing image if it changes what the buyer is being offered. The [test records](https://github.com/thetrendhawk/choose-better-tech/blob/codex/rewarx-review-completion-2026-09-07/docs/research/rewarx-studio-run-log.md) document the individual procedures and limits.
+Our method puts product fidelity ahead of appearance. A prettier result can still be a worse listing image if it changes what the buyer is being offered. The [test records](https://github.com/thetrendhawk/choose-better-tech/blob/39a13c48f6fdbacd0e2a6d86c370acc535adc42b/docs/research/rewarx-studio-run-log.md) document the individual procedures and limits.
 
 ## Attractive images can change the product
 
@@ -61,7 +61,7 @@ Some images followed the basic visible description more closely. The packaging i
 
 The saved production details exposed a specific conflict: the selected theme called for cotton-related copy, followed by our additional instruction prohibiting invented cotton claims. That supports a narrow conclusion about competing instructions in this workflow. We did not inspect the internal model or establish why it resolved the conflict that way.
 
-The practical consequence is straightforward. Filling the fields carefully is necessary, but it was not sufficient in this trial. Inspect every final headline, label and benefit statement. The [corrected-input test record](https://github.com/thetrendhawk/choose-better-tech/blob/codex/rewarx-review-completion-2026-09-07/docs/research/rewarx-r1-corrected-matrix-2026-09-07.md) preserves the field entries and per-image observations.
+The practical consequence is straightforward. Filling the fields carefully is necessary, but it was not sufficient in this trial. Inspect every final headline, label and benefit statement. The [corrected-input test record](https://github.com/thetrendhawk/choose-better-tech/blob/39a13c48f6fdbacd0e2a6d86c370acc535adc42b/docs/research/rewarx-r1-corrected-matrix-2026-09-07.md) preserves the field entries and per-image observations.
 
 ## A narrow correction was more encouraging
 
@@ -75,7 +75,7 @@ The retained August upscale is a 2048-by-2048 PNG. The retained cutout is a 1024
 
 Our current transparent-export check remains unresolved. A separate source upload did not populate in the cloud session, and a download attempt on the saved cutout did not produce a retrievable file for inspection. A missing browser download event does not prove that Rewarx failed to export the image. We therefore cannot confirm or reject its current transparency claim from that attempt.
 
-Before relying on the workflow, inspect an actual downloaded file for the required dimensions, format, transparency and usage rights. The [follow-up log](https://github.com/thetrendhawk/choose-better-tech/blob/codex/rewarx-review-completion-2026-09-07/docs/testing/rewarx-follow-up-test-log-2026-09-07.md) separates completed tests from blocked checks.
+Before relying on the workflow, inspect an actual downloaded file for the required dimensions, format, transparency and usage rights. The [follow-up log](https://github.com/thetrendhawk/choose-better-tech/blob/39a13c48f6fdbacd0e2a6d86c370acc535adc42b/docs/testing/rewarx-follow-up-test-log-2026-09-07.md) separates completed tests from blocked checks.
 
 ## Pricing and the cost of usable work
 
@@ -104,13 +104,25 @@ The terms describe commercial licensing for paid-plan output. That does not sett
 
 ## Support, cancellation and refunds
 
-The public policy describes cancellation through Personal Center. We did not test that route or measure support responsiveness. The pricing page's broad money-back guarantee also needs to be read alongside the terms' general exclusion for used credits. We have not verified how those provisions apply to a particular refund request. Our clarification questions are prepared but have not been sent to the provider. [Pricing](https://www.rewarx.com/#pricing), [terms](https://www.rewarx.com/#terms), [privacy policy](https://www.rewarx.com/#privacy).
+The public policy describes cancellation through Personal Center. We did not test that route or measure support responsiveness. The pricing page's broad money-back guarantee also needs to be read alongside the terms' general exclusion for used credits. We have not verified how those provisions apply to a particular refund request. Rewarx replied on September 10, but the specific refund questions remain unresolved; see its response below. [Pricing](https://www.rewarx.com/#pricing), [terms](https://www.rewarx.com/#terms), [privacy policy](https://www.rewarx.com/#privacy).
 
 ## Our verdict
 
 Rewarx demonstrated useful visual range and a successful simple mockup. The narrowly requested bottle correction was also encouraging at a coarse visual level. Those strengths are real within this sample.
 
 The limitation is product truth. Several workflows changed sale-relevant details, and the corrected Product Page trial still generated unsupported claims. If you use Rewarx, keep the original image and verified specifications beside the result, inspect every asset, and remove any claim you cannot substantiate. For an unattended product-listing workflow, this evaluation does not give us enough confidence to recommend it.
+
+## Rewarx’s response: September 10, 2026
+
+On September 10, Rewarx responded to our findings. It said Product Page now costs eight credits and AI Try-On one credit, and that it had updated the displayed costs. The eight-credit Product Page amount is consistent with our September 7 deduction. We have not independently verified the revised displays or subsequent deductions, and the reply did not establish when the changes took effect.
+
+Rewarx acknowledged that preset scene prompts can introduce unrequested product descriptions and said it was testing improvements. Our September follow-up had already replaced unsupported field entries and expressly prohibited invented material claims. The reply therefore does not resolve that result or establish that the problem is fixed.
+
+The company described automatic lighting and clarity enhancement as intentional, with preservation boundaries to be supplied through prompts. It also said Ghost Mannequin offers selectable angles. Our controlled bottle tests included preservation instructions, and the unsuitable flat-lay Ghost Mannequin stress test remains excluded from ordinary quality scoring.
+
+Rewarx is investigating transparent exports, but has not confirmed a bug or a fix. Its general privacy and compliance assurance did not answer our specific retention and refund questions, and complimentary-output reproduction rights remain unconfirmed. These are provider statements, not independently verified product changes. Our verdict remains unchanged.
+
+Rewarx also reported a broken test-records link. We reproduced the problem and replaced all three evidence links with permanent commit links. Those links provide written records; the generated images remain outside the public repository.
 
 ## Evidence and corrections
 
