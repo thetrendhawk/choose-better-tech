@@ -42,3 +42,17 @@ RW-R3 supports a qualified observation of a slightly broader body with recogniza
 Independent-review clarification: numbered R1 images refer to the initial observation order only. Reopened viewer order differed. The two cotton examples are the ghost-mannequin hero and white-background shirt with fabric inset. Critical evidence is their visible copy, not a stable viewer index.
 
 Current reviewer disposition supersedes historical pending-status notes: Critical/High rows RW-01 through RW-24 reviewed in ../quality/rewarx-research-independent-review.md. Historical costs remain contemporaneous notes; current cost events are captured observations, not transaction reconciliation. Claims must retain all recorded qualifications.
+
+## September 10 vendor-response update
+
+Source and verification: `rewarx-vendor-response-2026-09-10.md`. New rows below require independent editorial review; prior approval applies only to the earlier version.
+
+| ID | Claim | Evidence | Qualification / status |
+| --- | --- | --- | --- |
+| RW-V01 | Rewarx says Product Page is 8 credits and Try-On 1, with display updated | September 10 direct provider reply | Attributed statement; current UI and deductions unverified; effective date unknown |
+| RW-V02 | Rewarx acknowledges preset logic can add unrequested descriptors and is testing improvements | Same reply; corrected matrix September 7 | No fix claimed; explicit-prohibition test preserved |
+| RW-V03 | Provider is investigating transparent export | Same reply | No confirmed bug/fix; no additional bytes checked |
+| RW-V04 | Three published evidence links return 404; commit-pinned replacements return 200 | Unauthenticated HTTP checks September 10 | Availability verified at check time; disappearance cause unknown |
+| RW-V05 | Exact original Try-On PNG recovered for reply | Inventory hash plus file inspection | Not publicly embedded; no new generation |
+| RW-V06 | Default enhancement and angle controls described by provider | Same reply | Attributed explanation, not retested; does not invalidate original scoped results |
+| RW-V07 | Provider response does not resolve detailed privacy/refund or complimentary reproduction questions | Direct reply compared with open research questions | Not a finding of noncompliance or denial of rights |
