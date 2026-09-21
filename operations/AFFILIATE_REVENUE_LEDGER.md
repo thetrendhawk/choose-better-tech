@@ -101,6 +101,10 @@ Scheduled total: **$9.59**. Available funds: **$0.00**. No approved, available, 
 
 ### Payout requirements and blockers
 
+**September 21 owner-update follow-up (supersedes the initial setup blockers below):** Owner reported entering tax and PayPal information. After refreshing the authenticated Commissions page, PayPal is displayed as the withdrawal destination, the tax-registered-location warning and tax-info setup button are gone, and the ordinary Withdraw funds button is present but disabled. Available funds remain $0.00; both $3.60 and $5.99 commissions remain Scheduled with estimated November 13 availability. The displayed account-setup blockers are resolved; this is not independent tax-document validation or proof that commissions are approved/paid. No address, tax number, PayPal email or other payment identifier was copied into the repository. No withdrawal or setting change was made by the agent.
+
+Initial observation, before the owner's update:
+
 - Dashboard explicitly requires a tax-registered location. Receipt address/location fields are empty.
 - Team Commissions settings show no payout methods; owner role is displayed. Owner must configure the chosen method and required tax/location information privately.
 - PartnerStack requires available commissions and at least $5 after fees; timing depends on company review/funding. November 13 is an estimate, not a promise or completed approval.
