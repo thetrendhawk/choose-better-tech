@@ -1,5 +1,11 @@
 # Project Status Dashboard
 
+## Current checkpoint — September 21, 2026
+
+This checkpoint supersedes historical pending-task notes below. Rewarx PR #88 vendor response and three evidence-link repairs passed a separate review (38/40); release verification follows in the deployment record. Publication/test date stays September7; provider reply September10; substantive update September21.
+
+GA4 processed September10 Optery click now shows bing / organic; click-to-customer matching remains an inference. Browser-history page views remain disabled; internal-traffic exclusion remains Testing pending a verified home-network visit. Issues #35/#36/#38/#44 closed as completed; PR #49 closed unmerged as superseded. Buffer has 3/3 free slots occupied by ETLH; CBT reconnection requires an owner slot/plan choice. NordVPN comparison recrawl request accepted September21, indexing unconfirmed. See TASKS.md for current owners and blockers.
+
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  

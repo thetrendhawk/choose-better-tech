@@ -25,3 +25,6 @@ See ../research/rewarx-vendor-response-2026-09-10.md and new claim-ledger rows R
 operations/INDEPENDENT_REVIEW_PROTOCOL.md requires an independent reviewer and forbids the author approving their own work. The September 7 approval does not cover new copy. An independent pass must challenge attribution, chronology, the unchanged verdict, correction wording and unresolved claims and record its decision. Current session has no new independent review. Keep pull request draft and do not merge/deploy until that review and remaining applicable publication checks are complete.
 
 No current browser responsive/layout approval or production verification is claimed for this update. Prior production article remains live with old links until the reviewed repair is deployed. The permanent links can already be sent with the private evidence bundle.
+
+## September21 review and release continuation
+The prior author-only status is superseded by rewarx-vendor-response-independent-review.md (APPROVE FOR DEPLOYMENT,38/40). Release date corrected to September21, without changing provider-response or test dates. Fixture removed; final build and production verification recorded separately.

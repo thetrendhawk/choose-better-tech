@@ -56,3 +56,5 @@ Source and verification: `rewarx-vendor-response-2026-09-10.md`. New rows below 
 | RW-V05 | Exact original Try-On PNG recovered for reply | Inventory hash plus file inspection | Not publicly embedded; no new generation |
 | RW-V06 | Default enhancement and angle controls described by provider | Same reply | Attributed explanation, not retested; does not invalidate original scoped results |
 | RW-V07 | Provider response does not resolve detailed privacy/refund or complimentary reproduction questions | Direct reply compared with open research questions | Not a finding of noncompliance or denial of rights |
+
+September21 reviewer disposition: RW-V01–07 approved with their existing qualifications in ../quality/rewarx-vendor-response-independent-review.md. This supersedes the new-copy pending gate above; no current provider fix is verified.

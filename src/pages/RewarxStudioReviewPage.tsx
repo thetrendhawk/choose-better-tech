@@ -7,7 +7,7 @@ import { site } from "../utils/site";
 const path = "/reviews/rewarx-studio";
 const title = "Rewarx Studio review: polished product images, but check the facts";
 const description = "Our hands-on Rewarx Studio review tests product-image fidelity, unsupported copy, mockups, credit costs and export limits for ecommerce sellers.";
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: title, description, datePublished: "2026-09-07", dateModified: "2026-09-10", author: { "@type": "Organization", name: site.name }, publisher: { "@type": "Organization", name: site.name }, mainEntityOfPage: `${site.url}${path}` };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: title, description, datePublished: "2026-09-07", dateModified: "2026-09-21", author: { "@type": "Organization", name: site.name }, publisher: { "@type": "Organization", name: site.name }, mainEntityOfPage: `${site.url}${path}` };
 const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: site.url }, { "@type": "ListItem", position: 2, name: "Reviews", item: `${site.url}/reviews` }, { "@type": "ListItem", position: 3, name: "Rewarx Studio Review", item: `${site.url}${path}` }] };
 
 export function RewarxStudioReviewPage() {
@@ -20,7 +20,7 @@ export function RewarxStudioReviewPage() {
           <Link to="/reviews" className="font-semibold text-teal-700 underline underline-offset-4">All software reviews</Link>
           <p className="mt-6 text-sm font-bold uppercase tracking-wide text-teal-700">AI Ecommerce Creative Tools</p>
           <h1 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-slate-950 sm:text-5xl">{title}</h1>
-          <p className="mt-5 text-sm text-slate-600">By Choose Better Tech · Published September 7, 2026 · Updated September 10, 2026</p>
+          <p className="mt-5 text-sm text-slate-600">By Choose Better Tech · Published September 7, 2026 · Updated September 21, 2026</p>
           <p className="mt-5 leading-8 text-slate-700"><em>Updated with Rewarx’s response and repaired evidence links. Hands-on testing and public pricing/policy checks remain dated September 7, 2026.</em></p>
           <p className="mt-5 leading-8 text-slate-700">Rewarx Studio can turn a basic product photograph into a convincing visual concept. Our testing also showed why a convincing image is not automatically an accurate listing image. Bottles lost visible wear, a shirt changed presentation, and generated marketing images claimed a material composition we had never supplied.</p>
           <p className="mt-5 leading-8 text-slate-700">The clearest finding came from a follow-up Product Page test. We reviewed all 22 editable product fields, replaced unsupported entries, and explicitly prohibited invented material and performance claims. Two resulting images still said “PREMIUM SOFT COTTON.” Several others turned our editing instructions into customer-facing copy.</p>

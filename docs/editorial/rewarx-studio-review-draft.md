@@ -1,6 +1,6 @@
 # Rewarx Studio review: polished product images, but check the facts
 
-*Published September 7, 2026. Updated September 10 with Rewarx’s response and repaired evidence links. Hands-on testing and public pricing/policy checks remain dated September 7.*
+*Published September 7, 2026. Updated September 21 with Rewarx’s response and repaired evidence links. Hands-on testing and public pricing/policy checks remain dated September 7.*
 
 Rewarx Studio can turn a basic product photograph into a convincing visual concept. Our testing also showed why a convincing image is not automatically an accurate listing image. Bottles lost visible wear, a shirt changed presentation, and generated marketing images claimed a material composition we had never supplied.
 
