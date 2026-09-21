@@ -45,6 +45,7 @@ function BulletList({ items, tone = "brand" }: { items: string[]; tone?: "brand"
 }
 
 export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
+  const hasOpteryPlacements = review.affiliateProvider === "optery" && review.path === "/reviews/optery-review";
   const hasCustomizedAboveFoldCtas = Boolean(review.aboveFoldPrimaryCta || review.aboveFoldSecondaryCtaPath);
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -118,7 +119,7 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
                 </>
               ) : (
                 <>
-                  <AffiliateButton provider={review.affiliateProvider}>{review.ctaLabel}</AffiliateButton>
+                  <AffiliateButton provider={review.affiliateProvider} opteryPlacement={hasOpteryPlacements ? "review_top" : undefined}>{review.ctaLabel}</AffiliateButton>
                   <a className={secondaryButtonClasses} href="#final-verdict">Jump to Verdict</a>
                 </>
               )}
@@ -294,7 +295,7 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
           <h2 className="mt-2 text-3xl font-bold text-slate-950">Final Verdict</h2>
           <p className="mt-4 text-lg font-semibold text-brand-800">{review.finalVerdictLabel}</p>
           <p className="mt-4 max-w-4xl text-base leading-8 text-slate-700">{review.finalVerdictBody}</p>
-          <div className="mt-6"><AffiliateButton provider={review.affiliateProvider}>{review.ctaLabel}</AffiliateButton></div>
+          <div className="mt-6"><AffiliateButton provider={review.affiliateProvider} opteryPlacement={hasOpteryPlacements ? "review_verdict" : undefined}>{review.ctaLabel}</AffiliateButton></div>
         </article>
       </Section>
 
@@ -314,7 +315,7 @@ export function ReviewPageLayout({ review }: { review: ReviewPageContent }) {
       <section className="bg-slate-950 py-12 text-white">
         <Container className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div><h2 className="text-3xl font-bold">{review.finalCtaHeadline}</h2><p className="mt-3 max-w-3xl text-sm leading-6 text-slate-300">{review.finalCtaNote}</p></div>
-          <AffiliateButton provider={review.affiliateProvider}>{review.ctaLabel}</AffiliateButton>
+          <AffiliateButton provider={review.affiliateProvider} opteryPlacement={hasOpteryPlacements ? "review_footer" : undefined}>{review.ctaLabel}</AffiliateButton>
         </Container>
       </section>
     </>
