@@ -1,5 +1,11 @@
 # Content Calendar
 
+## September 21 execution closeout
+
+Rewarx correction VERIFIED LIVE: PR #88 merged at c4a4ad42be8d9c47a06c87284165aa5e3fbe5b71. Production deployment dpl_3WWNi6jtuHXVjMfA8ac1d4PJboRe is READY for that commit and aliased to choosebettertech.com. Live response, one H1, canonical, indexable HTML and sitemap inclusion verified; three evidence links HTTP200, removed fixture404. IndexNow200 is acceptance, not indexing. Lint54-tests/build73-routes gates passed; responsive four-width checks passed.
+
+GA4 custom dimensions affiliate_provider and link_text saved and read back. newsletter_submit appears in recent events on the CBT website stream; this is submission receipt, not provider-confirmed signup. Roundup GSC rechecked September21: still Discovered—currently not indexed, no last crawl. No duplicate request submitted. PartnerStack authenticated status/payout and Sub ID setup remain pending secure sign-in; home exclusion remains Testing pending home-network evidence; Buffer remains a3/3 free-slot capacity decision. See TASKS.md and docs/audits/cbt-execution-2026-09-21.md.
+
 ## Current checkpoint — September 21, 2026
 
 This checkpoint supersedes historical pending-task notes below. Rewarx PR #88 vendor response and three evidence-link repairs passed a separate review (38/40); release verification follows in the deployment record. Publication/test date stays September7; provider reply September10; substantive update September21.
