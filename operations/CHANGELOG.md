@@ -1,5 +1,11 @@
 # Business Changelog
 
+## Current checkpoint — September 21, 2026
+
+This checkpoint supersedes historical pending-task notes below. Rewarx PR #88 vendor response and three evidence-link repairs passed a separate review (38/40); release verification follows in the deployment record. Publication/test date stays September7; provider reply September10; substantive update September21.
+
+GA4 processed September10 Optery click now shows bing / organic; click-to-customer matching remains an inference. Browser-history page views remain disabled; internal-traffic exclusion remains Testing pending a verified home-network visit. Issues #35/#36/#38/#44 closed as completed; PR #49 closed unmerged as superseded. Buffer has 3/3 free slots occupied by ETLH; CBT reconnection requires an owner slot/plan choice. NordVPN comparison recrawl request accepted September21, indexing unconfirmed. See TASKS.md for current owners and blockers.
+
 Version: 1.0  
 Status: Active  
 Owner: Choose Better Tech  
@@ -444,3 +450,10 @@ Status at this checkpoint: `DRAFT COMPLETE — EDITORIAL REVIEW REQUIRED` for fi
 Status: `VERIFIED LIVE`. This supersedes the preparation checkpoint above. Owner-approved PR #87 merged at `e788660ef7e75efe6e33fec4463e38594dde3806`; origin/main contains the reviewed article. Production Vercel deployment `dpl_51pPAUYMVd2q49NnvPNujWCW8JEb` is READY for that exact commit. Public article: https://choosebettertech.com/reviews/rewarx-studio. Review-library category: AI Ecommerce Creative Tools. No separate category hub.
 
 HTTP200 confirmed for direct and cache-bypassed article requests, /reviews, sitemap and robots. Exact canonical appears in production sitemap. Live H1, all11 article sections, disclosures, Article/Breadcrumb schema and indexable robots verified. Live article markup and stylesheet references match the locally validated build, including tested responsive styles; desktop live screenshot/refresh passed. Temporary test fixture returns404. Independent deployment review38/40 PASS, tests54/54 and build73routes+404 PASS. IndexNow returned HTTP200, acceptance only; indexing and traffic remain unverified. No new credits spent, vendor message, purchase, tracked CTA or generated image embedding. Export/paid-plan/illustration-rights gaps remain disclosed. See docs/quality/rewarx-publication-validation-2026-09-07.md for detailed evidence and monitoring limits.
+
+## 2026-09-10 - Rewarx vendor-response update prepared
+
+- Confirmed three branch-based evidence links on the published review return HTTP 404. Prepared commit-pinned replacements, all checked HTTP 200.
+- Added an attributed September 10 provider-response section to the manuscript and implementation; corrected the obsolete unsent-questions statement. Historical findings, publication date and verdict remain intact.
+- Recovered and hash-verified exact run 06 Try-On output for Aaron to send. No provider reply sent, no credit spend.
+- Current credit-display verification requires sign-in. Reported fixes remain unverified. Update is not deployed; new independent editorial approval is required by `INDEPENDENT_REVIEW_PROTOCOL.md`.
