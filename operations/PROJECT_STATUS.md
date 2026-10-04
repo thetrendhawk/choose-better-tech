@@ -1,5 +1,9 @@
 # Project Status Dashboard
 
+## Growth follow-through — October 4, 2026
+
+[Current execution record](../docs/audits/growth-follow-through-2026-10-04.md): PR90–92 are verified live, GA4 home filter Active, and organic landing-page exploration saved/reloaded. Query-level review identifies an Incogni description test; a documentation-only testing disclosure clarifies the review method without refreshing product facts. CJ current active relationships verified; September dashboard reports six clicks, no sales/leads and $0 commission. Incogni clarification has no reply yet. Optery PR89 contains September scheduled-commission evidence; current account recheck is waiting on expired PartnerStack sign-in. Google indexing, experiment results and advertiser decisions remain external dependencies, not completed outcomes. This checkpoint supersedes stale pending-release and home-filter notes below.
+
 ## Indexing and analytics cleanup — October 4, 2026
 
 [Current audit](../docs/audits/indexing-analytics-cleanup-2026-10-04.md): all 35 discovered/unindexed examples pass bounded production HTML checks. Google's live test confirms the data-removal roundup is available and indexable, while its stored record still has no crawl. Relevant links added for three pages with just one inbound page. GA4's existing Internal Traffic exclusion is now Active after a verified home visit and owner confirmation; Selector priority and Selector review path custom dimensions and CBT Organic Search sessions comparison are saved. Account processing delays and historical QA exclusions remain. This supersedes the historical home-filter Testing notes below.

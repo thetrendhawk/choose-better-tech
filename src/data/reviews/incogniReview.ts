@@ -16,6 +16,7 @@ export const incogniReview: ReviewPageContent = {
     displayDate: "July 18, 2026"
   },
   executiveSummary: [
+    "Review method: this is a documentation-based evaluation. We have not tested Incogni in a live customer account or measured individual removal outcomes.",
     "Incogni is strongest as a beginner-friendly, automation-first data broker removal service. It is a good fit for mainstream privacy buyers who want recurring removal requests without manually tracking dozens or hundreds of brokers.",
     "The strongest evidence in Incogni's favor is procedural. Deloitte's 2025 limited-assurance report verified claims around 420+ covered brokers, removal confirmations, recurring request cadence, 245+ million processed requests, and non-sale of customer data during 2024.",
     "That does not mean Incogni deletes users from the internet. It cannot remove court records, government records, social media posts, blogs, forums, dark-web data, or all Google search results, and it cannot guarantee data stays gone permanently.",

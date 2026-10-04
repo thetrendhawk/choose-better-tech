@@ -1,5 +1,9 @@
 # Business Changelog
 
+## October 4 growth follow-through
+
+Query-level Search Console review selected one Incogni description test. Added an explicit documentation-based/no-live-testing statement to its executive summary; no product fact or outcome was refreshed and original article dates remain. Independent review approved the scoped correction and test. CJ existing advertiser relationships and September dashboard reviewed; Incogni's terms clarification is awaiting reply. PR89 Optery placement tracking separately approved for deployment; financial evidence remains dated and current payout needs account verification. See docs/audits/growth-follow-through-2026-10-04.md for release and external dependencies.
+
 ## September 21 execution closeout
 
 Rewarx correction VERIFIED LIVE: PR #88 merged at c4a4ad42be8d9c47a06c87284165aa5e3fbe5b71. Production deployment dpl_3WWNi6jtuHXVjMfA8ac1d4PJboRe is READY for that commit and aliased to choosebettertech.com. Live response, one H1, canonical, indexable HTML and sitemap inclusion verified; three evidence links HTTP200, removed fixture404. IndexNow200 is acceptance, not indexing. Lint54-tests/build73-routes gates passed; responsive four-width checks passed.

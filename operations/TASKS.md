@@ -1,16 +1,22 @@
 # CBT current task register
 
-Updated September21, 2026. This register supersedes old pending notes, not historical evidence.
+Updated October4, 2026. This register supersedes old pending notes, not historical evidence. Current execution: docs/audits/growth-follow-through-2026-10-04.md.
 
 | Work | Status | Next step / owner |
 | --- | --- | --- |
+| Discovery and selector reporting PR90–92 | Verified live | All73 routes retained; home exclusion Active; organic landing-page report saved |
+| Incogni snippet and testing disclosure | Validated; release verification follows | Query baseline/observation plan recorded; no new hands-on claim |
+| Incogni affiliate clarification | Awaiting advertiser | Authorized email sent Oct4; no reply in thread at recheck; no contract/application accepted |
+| CJ relationship and September dashboard | Verified | Existing CJ partners Active;6 account clicks,0sales/leads,$0commission; separate from Optery/MaxBounty |
+| Streaming guide indexing | Request accepted Oct4 | Wait for Google processing; no repeated submissions |
+| New hands-on product evidence | Requires product access and actual tests | No invented product screenshots/results; preserve documentation-only disclosures |
 | Rewarx provider response and evidence links | Verified live | PR88 merged c4a4ad4; production dpl_3WWNi6jtuHXVjMfA8ac1d4PJboRe READY; IndexNow200 |
 | GA4 history page-view persistence | Complete | Browser-history page views remain unchecked September21; manual page-view code owns SPA navigation |
 | Optery processed attribution | Complete | Sep10 hour12 affiliate click shows bing / organic and Bing referrer; Sep6 QA click cbt_qa / internal |
 | Optery customer / transaction / commission investigation | Verified September 21 | 13 clicks in Last 30 days; 1 signup/paying customer; $31.97 spend; product keys extended-monthly and ultimate-monthly. Two commissions total $9.59, both Scheduled, estimated available November 13; see affiliate ledger. |
 | Optery payout readiness | Account setup resolved; waiting on commission schedule | September 21 follow-up: PayPal appears as withdrawal destination; tax-location warning removed after owner update. Available $0 and Withdraw funds disabled. Both commissions remain Scheduled ($9.59), estimated November 13; approval/payment not yet established. |
 | Optery customer-to-GA4 attribution | Unresolved evidence gap | PartnerStack associates both commissions with a September 10 referral click; Sub IDs and referrer blank. No shared click ID or exact click timestamp joins the GA4 Bing event. |
-| Optery placement Sub IDs | PR89 preview verified; production / downstream capture pending | Three existing review CTAs use fixed placement tags through the private redirect. Preview HTTP307 and sid mapping passed; actual Optery Sub ID receipt must be verified after production release. No new article placement. |
+| Optery placement Sub IDs | Verified live October4; downstream capture pending | PR89 merged abeb6a6; exact production deployment READY. All three review links and HTTP307 sid mapping verified without following redirects. Actual PartnerStack receipt requires authenticated account evidence. |
 | GA4 custom reporting fields | Complete | Event-scoped affiliate_provider and link_text created and read back; reporting is forward-looking |
 | Home internal traffic | Active October 4 | Home visit matched Testing filter; owner confirmed activation; readback Active. Allow processing delay; historical QA remains. |
 | Newsletter | Complete for submission receipt | GA4 recent events lists newsletter_submit on CBT stream; owner confirmed delivery separately; not proof of every confirmed signup |
