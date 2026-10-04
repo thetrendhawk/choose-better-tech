@@ -21,6 +21,33 @@ function createResponse() {
 }
 
 describe("Optery affiliate redirect", () => {
+  it.each(["review_top", "review_verdict", "review_footer"])("forwards the approved %s placement as a PartnerStack Sub ID", (placement) => {
+    const environment = { OPTERY_AFFILIATE_URL: "https://get.optery.com/test-referral?campaign=existing#plans" };
+    for (const method of ["GET", "HEAD"]) {
+      const response = createResponse();
+      createOpteryRedirectHandler(() => environment)({ method, query: { placement, sid: "untrusted", next: "https://example.invalid" } }, response);
+      const destination = new URL(response.headers.get("Location")!);
+      expect(destination.origin + destination.pathname).toBe("https://get.optery.com/test-referral");
+      expect([...destination.searchParams.entries()]).toEqual([["campaign", "existing"], ["sid", `cbt_optery_${placement}`]]);
+      expect(destination.hash).toBe("#plans");
+      expect(response.statusCode).toBe(307);
+      expect(response.body).toBeUndefined();
+      expect(response.headers.get("Cache-Control")).toContain("no-store");
+    }
+    expect(environment.OPTERY_AFFILIATE_URL).toBe("https://get.optery.com/test-referral?campaign=existing#plans");
+  });
+
+  it.each([undefined, "", "other_article", "person@example.invalid", ["review_top", "review_footer"], "review_top&sid=untrusted"])("does not forward unapproved or ambiguous placements: %s", (placement) => {
+    const response = createResponse();
+    createOpteryRedirectHandler(() => validEnvironment)({ method: "GET", query: { placement, sid: "untrusted" } }, response);
+    expect(response.headers.get("Location")).toBe(validEnvironment.OPTERY_AFFILIATE_URL);
+  });
+
+  it.each(["sid", "sid1", "sid2"])("preserves an existing private %s rather than overwriting attribution", (key) => {
+    const environment = { OPTERY_AFFILIATE_URL: `https://get.optery.com/test-referral?${key}=existing` };
+    expect(getOpteryAffiliateDestination(environment, "review_top")?.toString()).toBe(environment.OPTERY_AFFILIATE_URL);
+  });
+
   it("accepts only an HTTPS destination on the approved host", () => {
     expect(getOpteryAffiliateDestination(validEnvironment)?.toString()).toBe("https://get.optery.com/test-referral");
     expect(getOpteryAffiliateDestination({})).toBeNull();

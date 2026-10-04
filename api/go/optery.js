@@ -22,7 +22,7 @@ export function createOpteryRedirectHandler(getEnvironment = () => process.env) 
       return;
     }
 
-    const destination = getOpteryAffiliateDestination(getEnvironment());
+    const destination = getOpteryAffiliateDestination(getEnvironment(), request.query?.placement);
 
     if (!destination) {
       response.statusCode = 503;
