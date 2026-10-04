@@ -48,16 +48,32 @@ describe("AffiliateButton interactions", () => {
     vi.restoreAllMocks();
   });
 
-  function renderButton() {
+  function renderButton(opteryPlacement?: "review_top" | "review_verdict" | "review_footer") {
     act(() => {
       root.render(
         <MemoryRouter>
-          <AffiliateButton provider="optery">Try Optery</AffiliateButton>
+          <AffiliateButton provider="optery" opteryPlacement={opteryPlacement}>Try Optery</AffiliateButton>
         </MemoryRouter>
       );
     });
     return container.querySelector("a") as HTMLAnchorElement;
   }
+
+  it.each(["review_top", "review_verdict", "review_footer"] as const)("keeps %s public and sends only the internal URL to analytics", (placement) => {
+    const button = renderButton(placement);
+    const href = `/api/go/optery?placement=${placement}`;
+    expect(button.getAttribute("href")).toBe(href);
+    expect(button.rel).toBe("nofollow sponsored noopener noreferrer");
+    expect(button.target).toBe("_blank");
+    button.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+    expect(window.gtag).toHaveBeenCalledTimes(1);
+    expect(window.gtag).toHaveBeenCalledWith("event", "affiliate_click", expect.objectContaining({ link_url: href, affiliate_destination: "/api/go/optery" }));
+  });
+
+  it("does not tag a disabled affiliate fallback", () => {
+    mockedGetAffiliateLink.mockReturnValue(resolvedLink({ status: "DISABLED", trackingEnabled: false, isAffiliateLink: false, href: "/reviews/optery-review" }));
+    expect(renderButton("review_top").getAttribute("href")).toBe("/reviews/optery-review");
+  });
 
   it("emits exactly one complete affiliate_click event for a genuine affiliate CTA", () => {
     const button = renderButton();
