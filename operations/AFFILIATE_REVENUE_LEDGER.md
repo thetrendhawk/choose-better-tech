@@ -62,15 +62,13 @@ This inventory records non-sensitive registry facts only. “Click tracking acti
 
 | Network | Product/service | Registry key | Registry status | Click tracking active | Conversion evidence | Commission evidence | Payment evidence | Reconciliation |
 |---|---|---|---|---|---|---|---|---|
-| MaxBounty | NordVPN | 
-ordvpn` | ACTIVE | Yes | UNKNOWN | UNKNOWN | UNKNOWN | Reconciliation incomplete |
+| MaxBounty | NordVPN | `nordvpn` | DISABLED pending offer clarification | No | September0leads/sales | September$0 | UNKNOWN | Reconciliation incomplete |
 | CJ | Proton VPN | `protonvpn` | ACTIVE | Yes | UNKNOWN | UNKNOWN | UNKNOWN | Reconciliation incomplete |
 | CJ | Surfshark | `surfshark` | ACTIVE | Yes | UNKNOWN | UNKNOWN | UNKNOWN | Reconciliation incomplete |
 | Internal | VPN buying guide | `vpn-comparison` | INTERNAL_ONLY | No | Not applicable | Not applicable | Not applicable | No affiliate reconciliation |
 | Internal | 1Password | `onepassword` | INTERNAL_ONLY | No | Not applicable | Not applicable | Not applicable | No affiliate reconciliation |
 | Internal | Bitwarden | `bitwarden` | INTERNAL_ONLY | No | Not applicable | Not applicable | Not applicable | No affiliate reconciliation |
-| CJ | NordPass | 
-ordpass` | ACTIVE | Yes | UNKNOWN | UNKNOWN | UNKNOWN | Reconciliation incomplete |
+| CJ | NordPass | `nordpass` | ACTIVE | Yes | UNKNOWN | UNKNOWN | UNKNOWN | Reconciliation incomplete |
 | MaxBounty | Proton Pass | `protonpass` | ACTIVE | Yes | UNKNOWN | UNKNOWN | UNKNOWN | Reconciliation incomplete |
 | CJ / Proton Partners Program | Proton Mail | `protonmail` | ACTIVE in centralized registry; editorial activation status is separately documented | Yes | UNKNOWN | UNKNOWN | UNKNOWN | Reconciliation incomplete |
 | CJ / Proton Partners Program | Proton Drive | `protondrive` | ACTIVE | Yes | UNKNOWN | UNKNOWN | UNKNOWN | Reconciliation incomplete |
