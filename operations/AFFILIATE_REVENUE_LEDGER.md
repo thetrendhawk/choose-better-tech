@@ -1,5 +1,9 @@
 # Affiliate Revenue Reconciliation Ledger
 
+## October 4 reporting checkpoint
+
+CJ authenticated Last Month dashboard shows September six clicks, zero sales, zero leads and $0 commission. This is an account aggregate; offer/page allocation, commission settlement, payments and expenses are not fully reconciled. GA4 September6–October3 organic exploration shows20sessions and1keyevent, a click indicator, across a different window. Do not equate these counts. CJ current Active roster confirms existing CJ relationships; tracked destination and financial reconciliation are separate checks. PartnerStack session expired October4; September21 Optery scheduled commissions below remain the last account evidence and are not asserted paid or currently approved. PR89's placement identifiers are now production verified; downstream capture remains unknown.
+
 **Version:** 1.0  
 **Status:** Active; first period open  
 **Owner:** Choose Better Tech; Aaron is the sole ledger owner  

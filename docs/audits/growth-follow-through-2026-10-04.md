@@ -31,4 +31,6 @@ No paid subscription, account-creation agreement, new partner contract or favora
 
 ## Verification
 
-Description patch: ESLint, 57 tests, build/static validation for all 73 routes plus404, and diff whitespace checks passed. Independent review and production verification are recorded separately. Existing private Incogni terms note remains local and outside this release.
+PR89 independently approved and merged as `abeb6a6702ab3a74a98ebabdeb163a418f2fc018`. Production `dpl_C7fW91m2j21ZgfUDEX5GhcrXm8uj` READY for that exact commit. Production Optery review HTTP200 has all three tagged links; each redirect returns307 with approved host, expected fixed sid, no-store and noindex/nofollow. Destinations were neither printed nor followed. Downstream receipt remains unverified. New main and this patch together pass ESLint, 73 tests, build/static validation for all73 routes plus404, and diff checks.
+
+Incogni local rendered QA confirms unchanged title, oneH1, new description and visible method disclosure, with no horizontal overflow at desktop1265/1265 or mobile375/375 (390-pixel viewport including scrollbar). Screenshots retained privately. Independent review approves this scoped package at39/40, not the whole article's volatile July product facts. Existing private Incogni terms note remains local and outside this release. PartnerStack expired session could not be restored through its Google sign-in button; owner sign-in requested. No current payout assertion replaces the September21 ledger evidence.
