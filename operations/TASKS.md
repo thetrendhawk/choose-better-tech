@@ -9,7 +9,7 @@ Updated September21, 2026. This register supersedes old pending notes, not histo
 | Optery processed attribution | Complete | Sep10 hour12 affiliate click shows bing / organic and Bing referrer; Sep6 QA click cbt_qa / internal |
 | Optery customer attribution / payout | Blocked on PartnerStack sign-in | Recheck plan, transaction, approval and payout; no click-to-customer ID match proven |
 | GA4 custom reporting fields | Complete | Event-scoped affiliate_provider and link_text created and read back; reporting is forward-looking |
-| Home internal traffic | Waiting on owner | Verified home-network visit required before enabling exclusion; current state Testing |
+| Home internal traffic | Active October 4 | Home visit matched Testing filter; owner confirmed activation; readback Active. Allow processing delay; historical QA remains. |
 | Newsletter | Complete for submission receipt | GA4 recent events lists newsletter_submit on CBT stream; owner confirmed delivery separately; not proof of every confirmed signup |
 | NordVPN vs ProtonVPN GSC | Request accepted September21 | Await crawl; old stored canonical is not a live canonical defect |
 | Data-removal roundup GSC | Rechecked September21 | Still discovered/unindexed, no crawl; no repeat request submitted |

@@ -1,5 +1,9 @@
 # Project Status Dashboard
 
+## Indexing and analytics cleanup — October 4, 2026
+
+[Current audit](../docs/audits/indexing-analytics-cleanup-2026-10-04.md): all 35 discovered/unindexed examples pass bounded production HTML checks. Google's live test confirms the data-removal roundup is available and indexable, while its stored record still has no crawl. Relevant links added for three pages with just one inbound page. GA4's existing Internal Traffic exclusion is now Active after a verified home visit and owner confirmation; Selector priority and Selector review path custom dimensions and CBT Organic Search sessions comparison are saved. Account processing delays and historical QA exclusions remain. This supersedes the historical home-filter Testing notes below.
+
 ## Search and affiliate checkpoint — October 4, 2026
 
 Fresh [search, GA4, and growth audit](../docs/audits/search-analytics-growth-status-2026-10-04.md): GSC September 2–29 vs August 5–September 1 shows 3 vs 1 clicks, 2.71K vs 3.62K impressions and position 28.7 vs 48.8. September 20 indexing report: 37 indexed, 35 discovered exclusions, one HTTP-homepage crawled exclusion and two redirects; alternate-canonical validation Passed with zero affected. GA4 September 6–October 3: 110 users, 114 sessions, 20 organic sessions and two affiliate clicks. These raw totals can include known QA; commissions remain unreconciled. All 73 live sitemap pages pass bounded technical HTML checks. Discovery links and selector engagement tracking are prepared on a current-main worktree; release pending. Existing description experiment and frozen goal thresholds remain unchanged.
