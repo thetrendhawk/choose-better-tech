@@ -172,6 +172,7 @@ export const passwordManagersHub = {
     }
   ],
   learningPath: [
+    { title: "Dashlane Review", href: "/reviews/dashlane-review", description: "Read our evidence-based review of Dashlane's features, privacy, and limitations." },
     { title: "How Password Managers Actually Work", href: "/guides/how-password-managers-work", description: "Follow a credential from key derivation and local encryption through cloud sync, autofill, sharing, recovery, and export." },
     { title: "Best Password Managers for Privacy", href: "/best-password-managers-for-privacy", description: "Compare encrypted metadata, aliases, open-source evidence, audits, telemetry, account data, recovery, and portability." },
     { title: "Are Password Managers Safe?", href: "/are-password-managers-safe", description: "Understand vault security, breaches, zero knowledge, master passwords, MFA, autofill, passkeys, and recovery before choosing a manager." },
