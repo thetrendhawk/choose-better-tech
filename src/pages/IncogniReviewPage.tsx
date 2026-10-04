@@ -7,7 +7,7 @@ export function IncogniReviewPage() {
     <>
       <SEO
         title="Incogni Review 2026: Does It Work and Is It Worth It?"
-        description="Does Incogni work? Our 2026 review examines data-broker removals, pricing, recurring requests, Deloitte assurance, privacy tradeoffs, and who should use it."
+        description="Incogni review: see how recurring broker removals work, what the service cannot erase, privacy tradeoffs, and when to choose an alternative."
         path="/reviews/incogni-review"
       />
       <ReviewPageLayout review={incogniReview} />

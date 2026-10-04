@@ -1,9 +1,15 @@
 # CBT current task register
 
-Updated September21, 2026. This register supersedes old pending notes, not historical evidence.
+Updated October4, 2026. This register supersedes old pending notes, not historical evidence. Current execution: docs/audits/growth-follow-through-2026-10-04.md.
 
 | Work | Status | Next step / owner |
 | --- | --- | --- |
+| Discovery and selector reporting PR90–92 | Verified live | All73 routes retained; home exclusion Active; organic landing-page report saved |
+| Incogni snippet and testing disclosure | Validated; release verification follows | Query baseline/observation plan recorded; no new hands-on claim |
+| Incogni affiliate clarification | Awaiting advertiser | Authorized email sent Oct4; no reply in thread at recheck; no contract/application accepted |
+| CJ relationship and September dashboard | Verified | Existing CJ partners Active;6 account clicks,0sales/leads,$0commission; separate from Optery/MaxBounty |
+| Streaming guide indexing | Request accepted Oct4 | Wait for Google processing; no repeated submissions |
+| New hands-on product evidence | Requires product access and actual tests | No invented product screenshots/results; preserve documentation-only disclosures |
 | Rewarx provider response and evidence links | Verified live | PR88 merged c4a4ad4; production dpl_3WWNi6jtuHXVjMfA8ac1d4PJboRe READY; IndexNow200 |
 | GA4 history page-view persistence | Complete | Browser-history page views remain unchecked September21; manual page-view code owns SPA navigation |
 | Optery processed attribution | Complete | Sep10 hour12 affiliate click shows bing / organic and Bing referrer; Sep6 QA click cbt_qa / internal |
