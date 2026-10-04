@@ -47,8 +47,9 @@ const products: StreamingPick[] = [
       "You want a mainstream option with extensive setup and troubleshooting documentation.",
     skipWhen:
       "You need more than 10 simultaneous connections or want a flat, promotion-free monthly price.",
-    href: "/reviews/nordvpn-review",
-    provider: "nordvpn"
+    // The current MaxBounty offer prohibits streaming traffic. Keep research
+    // coverage available without placing that offer on this streaming guide.
+    href: "/reviews/nordvpn-review"
   },
   {
     name: "Surfshark",

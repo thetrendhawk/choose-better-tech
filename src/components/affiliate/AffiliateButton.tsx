@@ -21,5 +21,5 @@ export function AffiliateButton({ children, provider, opteryPlacement }: { child
     );
   }
 
-  return <Link className={primaryButtonClasses} to={link.href}>{children}</Link>;
+  return <Link className={primaryButtonClasses} to={link.href}>{link.fallbackLabel || children}</Link>;
 }

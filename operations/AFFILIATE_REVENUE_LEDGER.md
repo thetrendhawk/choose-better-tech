@@ -62,7 +62,7 @@ This inventory records non-sensitive registry facts only. “Click tracking acti
 
 | Network | Product/service | Registry key | Registry status | Click tracking active | Conversion evidence | Commission evidence | Payment evidence | Reconciliation |
 |---|---|---|---|---|---|---|---|---|
-| MaxBounty | NordVPN | `nordvpn` | ACTIVE | Yes | UNKNOWN | UNKNOWN | UNKNOWN | Reconciliation incomplete |
+| MaxBounty | NordVPN | `nordvpn` | DISABLED pending offer clarification | No | September0leads/sales | September$0 | UNKNOWN | Reconciliation incomplete |
 | CJ | Proton VPN | `protonvpn` | ACTIVE | Yes | UNKNOWN | UNKNOWN | UNKNOWN | Reconciliation incomplete |
 | CJ | Surfshark | `surfshark` | ACTIVE | Yes | UNKNOWN | UNKNOWN | UNKNOWN | Reconciliation incomplete |
 | Internal | VPN buying guide | `vpn-comparison` | INTERNAL_ONLY | No | Not applicable | Not applicable | Not applicable | No affiliate reconciliation |
@@ -213,3 +213,6 @@ Aaron is the sole ledger owner and sole recovery authority. No alternate financi
 - Monthly: perform the formal close and reconciliation.
 - Quarterly: review registry status, terms, evidence retention, reporting configuration, and ownership.
 
+
+## MaxBounty October4 readback
+September1–30:22 account clicks,0leads,$0sales,$0earnings. NordVPN24611:10clicks; ProtonPass30552:7; Lingoda28156:5. Campaign aggregates do not establish CBT page attribution. NordVPN offer temporarily paused following its streaming/torrent restriction. ProtonPass/Unlimited United States only. Missing expenses and payments are not inferred. See docs/audits/maxbounty-reconciliation-2026-10-04.md.

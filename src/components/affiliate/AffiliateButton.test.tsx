@@ -75,6 +75,21 @@ describe("AffiliateButton interactions", () => {
     expect(renderButton("review_top").getAttribute("href")).toBe("/reviews/optery-review");
   });
 
+  it("labels a paused offer as editorial guidance and does not count its click", () => {
+    mockedGetAffiliateLink.mockReturnValue(resolvedLink({
+      provider: "nordvpn", status: "DISABLED", trackingEnabled: false,
+      isAffiliateLink: false, href: "/guides/vpn-buying-guide",
+      fallbackLabel: "Read VPN buying guide"
+    }));
+    const button = renderButton();
+    expect(button.textContent).toBe("Read VPN buying guide");
+    expect(button.getAttribute("href")).toBe("/guides/vpn-buying-guide");
+    expect(button.target).toBe("");
+    expect(button.rel).not.toContain("sponsored");
+    act(() => button.dispatchEvent(new MouseEvent("click", { bubbles: true })));
+    expect(window.gtag).not.toHaveBeenCalled();
+  });
+
   it("emits exactly one complete affiliate_click event for a genuine affiliate CTA", () => {
     const button = renderButton();
 
