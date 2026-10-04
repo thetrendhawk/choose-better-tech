@@ -1,5 +1,9 @@
 # Project Status Dashboard
 
+## Search and affiliate checkpoint — October 4, 2026
+
+Fresh [search, GA4, and growth audit](../docs/audits/search-analytics-growth-status-2026-10-04.md): GSC September 2–29 vs August 5–September 1 shows 3 vs 1 clicks, 2.71K vs 3.62K impressions and position 28.7 vs 48.8. September 20 indexing report: 37 indexed, 35 discovered exclusions, one HTTP-homepage crawled exclusion and two redirects; alternate-canonical validation Passed with zero affected. GA4 September 6–October 3: 110 users, 114 sessions, 20 organic sessions and two affiliate clicks. These raw totals can include known QA; commissions remain unreconciled. All 73 live sitemap pages pass bounded technical HTML checks. Discovery links and selector engagement tracking are prepared on a current-main worktree; release pending. Existing description experiment and frozen goal thresholds remain unchanged.
+
 ## September 21 execution closeout
 
 Rewarx correction VERIFIED LIVE: PR #88 merged at c4a4ad42be8d9c47a06c87284165aa5e3fbe5b71. Production deployment dpl_3WWNi6jtuHXVjMfA8ac1d4PJboRe is READY for that commit and aliased to choosebettertech.com. Live response, one H1, canonical, indexable HTML and sitemap inclusion verified; three evidence links HTTP200, removed fixture404. IndexNow200 is acceptance, not indexing. Lint54-tests/build73-routes gates passed; responsive four-width checks passed.

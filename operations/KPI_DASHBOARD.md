@@ -1,5 +1,20 @@
 # KPI Dashboard
 
+## Current measurement — October 4, 2026
+
+| Metric | Period | Result | Interpretation |
+| --- | --- | --- | --- |
+| GSC clicks | September 2–29 vs August 5–September 1 | 3 vs 1 | Low sample; not stable CTR/conversion evidence. |
+| GSC impressions | Same periods | 2.71K vs 3.62K | Approximately 25% lower; UI-rounded values. |
+| GSC average position | Same periods | 28.7 vs 48.8 | Aggregate improvement; query mix may differ. |
+| Indexed/excluded URLs | Report updated September 20 | 37 / 38 | All known URLs; not a canonical editorial-asset count. |
+| GA4 users/sessions | September 6–October 3 | 110 / 114 | Raw account totals; QA/internal filtering needs interpretation. |
+| Organic sessions/engaged organic sessions | Same GA4 period | 20 / 10 | All organic engines; not Google-only. |
+| Affiliate clicks | Same GA4 period | 2 events / 2 users | Includes possible known QA; not sales or commission evidence. |
+| GA4 revenue | Same GA4 period | $0 recorded | Partner earnings remain unverified. |
+
+See [dated account findings, local improvements, and priorities](../docs/audits/search-analytics-growth-status-2026-10-04.md). September 20 provider/text custom dimensions remain configured. September 21 records document disabled history-pageview collection and a Testing internal-traffic filter. Preserve historic comparisons and the existing timeline-description experiment; do not attribute its outcome from this shorter window.
+
 ## September 21 execution closeout
 
 Rewarx correction VERIFIED LIVE: PR #88 merged at c4a4ad42be8d9c47a06c87284165aa5e3fbe5b71. Production deployment dpl_3WWNi6jtuHXVjMfA8ac1d4PJboRe is READY for that commit and aliased to choosebettertech.com. Live response, one H1, canonical, indexable HTML and sitemap inclusion verified; three evidence links HTTP200, removed fixture404. IndexNow200 is acceptance, not indexing. Lint54-tests/build73-routes gates passed; responsive four-width checks passed.

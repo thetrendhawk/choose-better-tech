@@ -3,8 +3,17 @@ import { Link } from "react-router-dom";
 import { SEO } from "../components/SEO";
 import { Container } from "../components/ui/Container";
 import { Section } from "../components/ui/Section";
+import { trackEvent } from "../utils/analytics";
 
 type Priority = "automation" | "proof" | "support" | "control";
+
+function trackSelectorEvent(name: string, parameters: Record<string, string>) {
+  try {
+    trackEvent(name, { tool_name: "data_removal", page_path: "/tools/data-removal-service-selector", ...parameters });
+  } catch {
+    // Optional measurement must not interrupt choosing or opening a review.
+  }
+}
 
 const recommendations: Record<Priority, { name: string; reason: string; href: string; label: string }> = {
   automation: {
@@ -71,7 +80,10 @@ export function DataRemovalServiceSelectorPage() {
                   name="priority"
                   value={option.value}
                   checked={priority === option.value}
-                  onChange={() => setPriority(option.value)}
+                  onChange={() => {
+                    setPriority(option.value);
+                    trackSelectorEvent("selector_choice", { priority: option.value });
+                  }}
                 />
                 <span>
                   <span className="block font-bold text-slate-950">{option.title}</span>
@@ -86,14 +98,21 @@ export function DataRemovalServiceSelectorPage() {
             <h2 className="mt-3 text-3xl font-black">{recommendation.name}</h2>
             <p className="mt-2 font-semibold text-teal-200">{recommendation.label}</p>
             <p className="mt-5 leading-7 text-slate-200">{recommendation.reason}</p>
-            <Link className="mt-6 inline-flex min-h-11 items-center justify-center rounded-md bg-brand-500 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand-400" to={recommendation.href}>Read the supporting research</Link>
+            <Link className="mt-6 inline-flex min-h-11 items-center justify-center rounded-md bg-brand-500 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand-400" to={recommendation.href} onClick={() => trackSelectorEvent("selector_review_click", { priority, review_path: recommendation.href })}>Read the {recommendation.name === "Manual opt-outs" ? "manual opt-out guide" : `${recommendation.name} review`}</Link>
           </aside>
         </Container>
       </Section>
 
       <Section className="bg-slate-50">
         <Container className="py-14">
-          <h2 className="text-3xl font-black text-slate-950">Important limits</h2>
+          <h2 className="text-3xl font-black text-slate-950">Research each approach</h2>
+          <p className="mt-4 max-w-4xl leading-7 text-slate-700">Compare the evidence and limits of each approach before deciding. Start with a review, then use the full comparison to weigh the tradeoffs.</p>
+          <ul className="mt-6 grid gap-4 sm:grid-cols-2">
+            {Object.entries(recommendations).map(([key, item]) => (
+              <li key={key}><Link className="font-bold text-brand-700 hover:text-brand-800" to={item.href}>{item.name === "Manual opt-outs" ? "Manual opt-outs and when paying is worthwhile" : `${item.name} review`}</Link><p className="mt-1 text-sm leading-6 text-slate-600">{item.label}</p></li>
+            ))}
+          </ul>
+          <h2 className="mt-10 text-3xl font-black text-slate-950">Important limits</h2>
           <p className="mt-4 max-w-4xl leading-7 text-slate-700">No option removes every piece of personal information from the internet. Public records, social posts, copied content, government records, and some Google results require different remedies. Data can also reappear, so removal is ongoing privacy maintenance.</p>
           <div className="mt-6 flex flex-wrap gap-4">
             <Link className="font-bold text-brand-700 hover:text-brand-800" to="/data-removal">Open the data removal guide</Link>
