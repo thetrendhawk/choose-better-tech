@@ -2,6 +2,8 @@
 
 ## October 4 reporting checkpoint
 
+Later October4 owner-restored PartnerStack readback: Optery Last30days14clicks,1signup/paid signup,$31.97 referred purchases. Commission table$5.99+$3.60=$9.59, both Scheduled; displayed earned dateOct15, estimated availableNov13. Available funds$0; Withdraw funds disabled. This replaces the expired-session blocker in the initial checkpoint below, not the distinction between commissions and payments. No shared identifier proves the GA4 reader-event/customer match; future placement receipt remains unverified.
+
 CJ authenticated Last Month dashboard shows September six clicks, zero sales, zero leads and $0 commission. This is an account aggregate; offer/page allocation, commission settlement, payments and expenses are not fully reconciled. GA4 September6–October3 organic exploration shows20sessions and1keyevent, a click indicator, across a different window. Do not equate these counts. CJ current Active roster confirms existing CJ relationships; tracked destination and financial reconciliation are separate checks. PartnerStack session expired October4; September21 Optery scheduled commissions below remain the last account evidence and are not asserted paid or currently approved. PR89's placement identifiers are now production verified; downstream capture remains unknown.
 
 **Version:** 1.0  
