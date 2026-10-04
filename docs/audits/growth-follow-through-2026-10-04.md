@@ -16,6 +16,12 @@ The previously authorized Incogni clarification thread has only the sent message
 
 CJ Last Month dashboard on October 4 shows six clicks, zero sales, zero leads and $0 commission for September. This is account-level network reporting, not GA4 attribution or proof of completed payout reconciliation. Private screenshot retained locally. PartnerStack/Optery and MaxBounty are separate sources; missing evidence must not be represented as zero. Private offer rates and account identifiers are excluded from this public record.
 
+## October 4 account and release readback
+
+Owner restored PartnerStack sign-in. Optery Last30days summary now shows14clicks,1signup,1paid signup and$31.97 referred purchase revenue. Commission rows show$5.99 and$3.60, both Scheduled, earned/displayed date October15 and estimated available November13. Withdrawals: available$0, Withdraw funds disabled. Purchase revenue is customer spend, not publisher earnings; scheduled commissions are not paid. No withdrawal or payout-setting change performed. This supersedes the expired-session blocker below while preserving the chronology.
+
+PR93 merged at `9996e56e4a34b77ef5fa02d2bffb0e8b55da091b`; production `dpl_6n5KZJHArZTyEMGsCYsEKuwj3bK4` READY for that exact commit. Live Incogni metadata matches the new description, unchanged title, oneH1 and canonical; method disclosure is rendered and visible. Live screenshot retained locally. MaxBounty is at its login screen; owner sign-in requested for remaining period and offer checks. No network-wide completion is claimed.
+
 ## Work requiring external evidence
 
 | Work | Remaining dependency | Completion evidence |

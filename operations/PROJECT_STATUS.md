@@ -2,6 +2,8 @@
 
 ## Growth follow-through — October 4, 2026
 
+Latest readback: PR89 and PR93 verified live at exact production commits. Optery account access restored;14clicks,1paid signup,$31.97 referred spend; commissions$9.59 still Scheduled, estimated November13, available$0. MaxBounty login requested. Incogni test is now observing; Google indexing and advertiser reply still pending. Details in current execution record below supersede its earlier sign-in blocker.
+
 [Current execution record](../docs/audits/growth-follow-through-2026-10-04.md): PR90–92 are verified live, GA4 home filter Active, and organic landing-page exploration saved/reloaded. Query-level review identifies an Incogni description test; a documentation-only testing disclosure clarifies the review method without refreshing product facts. CJ current active relationships verified; September dashboard reports six clicks, no sales/leads and $0 commission. Incogni clarification has no reply yet. Optery PR89 contains September scheduled-commission evidence; current account recheck is waiting on expired PartnerStack sign-in. Google indexing, experiment results and advertiser decisions remain external dependencies, not completed outcomes. This checkpoint supersedes stale pending-release and home-filter notes below.
 
 ## Indexing and analytics cleanup — October 4, 2026
