@@ -4,6 +4,16 @@ import { describe, expect, it } from "vitest";
 import { affiliateLinks } from "./affiliateLinks";
 import { getAffiliateLink } from "../utils/affiliate";
 
+describe("paused NordVPN offer", () => {
+  it("resolves every centralized CTA to untracked editorial guidance", () => {
+    expect(getAffiliateLink("nordvpn")).toMatchObject({
+      status: "DISABLED", href: "/guides/vpn-buying-guide",
+      fallbackLabel: "Read VPN buying guide", isAffiliateLink: false,
+      isExternal: false, trackingEnabled: false
+    });
+  });
+});
+
 describe("Proton affiliate mappings", () => {
   it("resolves Proton Drive to the verified CJ paid-offer destination", () => {
     const link = getAffiliateLink("protondrive");

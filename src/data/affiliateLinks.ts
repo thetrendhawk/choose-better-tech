@@ -8,6 +8,7 @@ export type AffiliateLinkRecord = {
   status: AffiliateStatus;
   destination: string;
   internalFallback: string;
+  fallbackLabel?: string;
   disclosureRequired: boolean;
   trackingEnabled: boolean;
   lastVerified: string;
@@ -17,12 +18,15 @@ export const affiliateLinks: Record<AffiliateProvider, AffiliateLinkRecord> = {
   nordvpn: {
     provider: "nordvpn",
     network: "MaxBounty",
-    status: "ACTIVE",
+    // Offer 24611 prohibits streaming/torrent traffic. Mixed-purpose reviews
+    // cannot partition those readers, so pause tracking pending clarification.
+    status: "DISABLED",
     destination: "https://afflat3e3.com/trk/lnk/5A4FD2F0-60F5-4AE7-BF9C-2C65F2AA3E4B/?o=24611&c=918271&a=796553&k=AF67A50FC15AC856D44DAB303ABA87EC&l=33159",
-    internalFallback: "/reviews/nordvpn-review",
+    internalFallback: "/guides/vpn-buying-guide",
+    fallbackLabel: "Read VPN buying guide",
     disclosureRequired: true,
-    trackingEnabled: true,
-    lastVerified: "2026-07-03"
+    trackingEnabled: false,
+    lastVerified: "2026-10-04"
   },
   protonvpn: {
     provider: "protonvpn",
