@@ -1,10 +1,11 @@
 # CBT current task register
 
-Updated October25, 2026. This register supersedes old pending notes, not historical evidence. Current execution: docs/audits/growth-follow-through-2026-10-04.md.
+Updated October26, 2026. This register supersedes old pending notes, not historical evidence. Current execution: docs/audits/growth-follow-through-2026-10-04.md.
 
 | Work | Status | Next step / owner |
 | --- | --- | --- |
-| Static article HTML / current indexing cohort | Fix prepared, owner review required | Reproduced66 hidden article headings; synchronous eager server rendering removes all reveal dependencies. Verify preview, release exact approved commit, then priority live tests/crawl requests. See docs/monitoring/search-anomaly-2026-10-25.md |
+| Static article HTML / current indexing cohort | VERIFIED LIVE October26 | PR97 merged bd2665c; exact production READY. All73 live routes pass initial-main/no-reveal checks. See docs/monitoring/indexing-release-2026-10-26.md |
+| Post-release priority Google requests | Authentication blocked | Complete owner device prompt in Gmail on iPhone13Pro, then bounded live tests and single requests for changed priority HTML. No new request/indexing success claimed. |
 | Current GSC exclusions | Audited October25 | Expected www redirects retained; 32discovered examples and three crawled HTTPS guides preserved. 38indexed is not canonical-editorial count. Validation passed is not universal indexing. |
 | Discovery and selector reporting PR90–92 | Verified live | All73 routes retained; home exclusion Active; organic landing-page report saved |
 | Incogni snippet and testing disclosure | Verified live PR93 October4 | Exact commit9996e56 production READY; new description and visible method disclosure; query baseline/observation plan recorded |

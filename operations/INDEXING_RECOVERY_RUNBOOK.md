@@ -1,5 +1,9 @@
 # Indexing Recovery Runbook
 
+## October 26 indexing fix verified live
+
+Owner-approved PR #97 merged as bd2665c1cd6cd54be5e2744b534b82710466380a. Production dpl_AgSpy4HcSDuRbPkUu8bQ3pcB9kbo is READY for that exact commit and aliased to choosebettertech.com. All73 live sitemap routes pass direct HTTP200, canonical/robots, nonempty initial main content and zero pending/hidden reveal-container checks. Bounded production navigation/reload and metadata checks passed; full automated/mobile browser limitations remain disclosed. Google recrawl requests remain blocked by the owner's device-verification prompt; no indexing gain or new request is claimed. Evidence: `docs/monitoring/indexing-release-2026-10-26.md`. This supersedes earlier review/deployment-pending notes without changing article counts, dates, commercial conclusions or frozen goals.
+
 ## October 25 indexing remediation prepared
 
 The redirect email concerns two expected www homepage exclusions; the canonical homepage is indexed. The October18 all-known-URL snapshot is38indexed/38excluded (32discovered,4crawled,2redirects), and three HTTPS guides are individually confirmed currently unindexed. All73 sitemap routes pass HTTP/canonical/robots checks, but66 article pages depend on JavaScript reveal containers in initial HTML. A bounded server-rendering correction removes that dependency from all73routes plus404 and adds fail-closed regression checks. This is not proven to explain Google's indexing choices. Status: READY TO DEPLOY, owner review required for shared rendering; no production release or new crawl requests claimed. Full evidence and per-URL worklist: `docs/monitoring/search-anomaly-2026-10-25.md`. Existing publication dates, content inventory, affiliate work and frozen goals remain unchanged.
