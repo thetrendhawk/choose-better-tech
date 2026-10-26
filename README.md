@@ -31,10 +31,11 @@ Any additional topic cluster (for example, AI productivity software) requires fo
 - **Tailwind CSS**
 - **Vercel** (hosting and deployment)
 
-CBT is a static, client-rendered single-page application. There is no server-side rendering and no route prerendering, and no backend, database, CMS, or authentication layer. SEO has two distinct layers, and they should not be conflated:
+CBT is a static, prerendered React application. The production build writes complete HTML for every registered route, then the browser hydrates it for interactive navigation. There is no runtime rendering server, database, CMS, or authentication layer.
 
-- `scripts/generate-seo-files.mjs` runs before the Vite build (as part of `npm run build`) and generates static search-support files such as `robots.txt`, `sitemap.xml`, and related assets.
-- Route-level title, description, canonical URL, and social (Open Graph/Twitter) metadata are applied by a client-side SEO helper (`src/utils/seo.ts`) that updates `document.head` when a route loads, not embedded per route in the initial static HTML at build time.
+- `scripts/generate-seo-files.mjs` generates `robots.txt` and `sitemap.xml` from the canonical route manifest.
+- The build eagerly resolves server route modules and serializes the document with React `renderToString`, so article content is directly visible inside the initial `main` element. Build validation rejects hidden or unfinished Suspense output rather than relying on a browser reveal script.
+- The shared SEO component supplies route-level titles, descriptions, canonicals and social metadata during prerendering and client navigation.
 
 Sitemap inclusion and IndexNow acceptance confirm submission only; neither proves that a page has actually been indexed. Indexing status is tracked and verified separately in the operations records rather than assumed from either signal.
 

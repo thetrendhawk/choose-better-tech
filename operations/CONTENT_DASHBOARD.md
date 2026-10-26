@@ -1,5 +1,9 @@
 # Content Dashboard
 
+## October 25 indexing remediation prepared
+
+The redirect email concerns two expected www homepage exclusions; the canonical homepage is indexed. The October18 all-known-URL snapshot is38indexed/38excluded (32discovered,4crawled,2redirects), and three HTTPS guides are individually confirmed currently unindexed. All73 sitemap routes pass HTTP/canonical/robots checks, but66 article pages depend on JavaScript reveal containers in initial HTML. A bounded server-rendering correction removes that dependency from all73routes plus404 and adds fail-closed regression checks. This is not proven to explain Google's indexing choices. Status: READY TO DEPLOY, owner review required for shared rendering; no production release or new crawl requests claimed. Full evidence and per-URL worklist: `docs/monitoring/search-anomaly-2026-10-25.md`. Existing publication dates, content inventory, affiliate work and frozen goals remain unchanged.
+
 ## September 21 execution closeout
 
 Rewarx correction VERIFIED LIVE: PR #88 merged at c4a4ad42be8d9c47a06c87284165aa5e3fbe5b71. Production deployment dpl_3WWNi6jtuHXVjMfA8ac1d4PJboRe is READY for that commit and aliased to choosebettertech.com. Live response, one H1, canonical, indexable HTML and sitemap inclusion verified; three evidence links HTTP200, removed fixture404. IndexNow200 is acceptance, not indexing. Lint54-tests/build73-routes gates passed; responsive four-width checks passed.

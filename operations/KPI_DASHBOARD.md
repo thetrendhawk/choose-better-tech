@@ -1,5 +1,9 @@
 # KPI Dashboard
 
+## October 25 indexing remediation prepared
+
+The redirect email concerns two expected www homepage exclusions; the canonical homepage is indexed. The October18 all-known-URL snapshot is38indexed/38excluded (32discovered,4crawled,2redirects), and three HTTPS guides are individually confirmed currently unindexed. All73 sitemap routes pass HTTP/canonical/robots checks, but66 article pages depend on JavaScript reveal containers in initial HTML. A bounded server-rendering correction removes that dependency from all73routes plus404 and adds fail-closed regression checks. This is not proven to explain Google's indexing choices. Status: READY TO DEPLOY, owner review required for shared rendering; no production release or new crawl requests claimed. Full evidence and per-URL worklist: `docs/monitoring/search-anomaly-2026-10-25.md`. Existing publication dates, content inventory, affiliate work and frozen goals remain unchanged.
+
 ## Current measurement — October 4, 2026
 
 | Metric | Period | Result | Interpretation |
