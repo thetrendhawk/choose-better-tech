@@ -1,5 +1,5 @@
 import { StrictMode } from "react";
-import { prerenderToNodeStream } from "react-dom/static";
+import { renderToString } from "react-dom/server";
 import { StaticRouter } from "react-router-dom";
 import App from "./App";
 import { HtmlDocument } from "./components/HtmlDocument";
@@ -11,28 +11,33 @@ export type PrerenderAssets = {
   styleHrefs: string[];
 };
 
+// Server route modules are resolved eagerly. Serialize them synchronously so
+// static pages do not depend on React's client-side Suspense reveal scripts.
+// Static-output validation fails closed if a future route suspends instead.
 export async function renderRoute(route: string, assets: PrerenderAssets, options?: { signal?: AbortSignal }) {
-  return prerenderToNodeStream(
+  options?.signal?.throwIfAborted();
+  const html = renderToString(
     <HtmlDocument scriptSrc={assets.scriptSrc} styleHrefs={assets.styleHrefs}>
       <StrictMode>
         <StaticRouter location={route}>
           <App prerenderElement={createServerRouteElement(route)} />
         </StaticRouter>
       </StrictMode>
-    </HtmlDocument>,
-    options
+    </HtmlDocument>
   );
+  return { prelude: [html] };
 }
 
 export async function renderNotFound(assets: PrerenderAssets, options?: { signal?: AbortSignal }) {
-  return prerenderToNodeStream(
+  options?.signal?.throwIfAborted();
+  const html = renderToString(
     <HtmlDocument scriptSrc={assets.scriptSrc} styleHrefs={assets.styleHrefs}>
       <StrictMode>
         <StaticRouter location="/404">
           <App prerenderElement={<NotFoundPage />} />
         </StaticRouter>
       </StrictMode>
-    </HtmlDocument>,
-    options
+    </HtmlDocument>
   );
+  return { prelude: [html] };
 }

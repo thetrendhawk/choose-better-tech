@@ -1,0 +1,2180 @@
+{
+  "date_pacific": "2026-10-25",
+  "base_commit": "8ecfde5262e07fe1dcc10c6f9509261fd72e228b",
+  "coverage_date": "2026-10-18",
+  "coverage": {
+    "indexed": 38,
+    "discovered": 32,
+    "crawled": 4,
+    "redirects": 2
+  },
+  "discovered_paths": [
+    "/best-data-removal-services",
+    "/best-free-vpns",
+    "/best-vpns-for-families",
+    "/best-vpns-for-streaming",
+    "/best-vpns-for-students",
+    "/best-vpns-for-travel",
+    "/comparisons/proton-pass-vs-nordpass",
+    "/comparisons/proton-vpn-vs-surfshark",
+    "/contact",
+    "/guides/best-vpns-for-beginners",
+    "/guides/do-you-still-need-antivirus-on-windows-11",
+    "/guides/free-vpn-vs-paid",
+    "/guides/how-password-managers-work",
+    "/guides/how-vpns-work",
+    "/guides/is-proton-vpn-free-good-enough",
+    "/guides/vpn-buying-guide",
+    "/guides/vpn-privacy-guide",
+    "/guides/windows-defender-vs-paid-antivirus",
+    "/password-manager-vs-browser-passwords",
+    "/password-managers",
+    "/privacy",
+    "/reviews/1password-review",
+    "/reviews/bitwarden-review",
+    "/reviews/dashlane-review",
+    "/reviews/nordvpn-review",
+    "/reviews/proton-drive-review",
+    "/reviews/proton-pass-review",
+    "/reviews/rewarx-studio",
+    "/reviews/surfshark-review",
+    "/terms",
+    "/tools/data-removal-service-selector",
+    "/vpn"
+  ],
+  "baseline_static": [
+    {
+      "route": "/",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/about",
+      "mainWords": 162,
+      "hiddenHeading": false,
+      "pendingBoundary": false
+    },
+    {
+      "route": "/about/how-we-review-software",
+      "mainWords": 545,
+      "hiddenHeading": false,
+      "pendingBoundary": false
+    },
+    {
+      "route": "/contact",
+      "mainWords": 204,
+      "hiddenHeading": false,
+      "pendingBoundary": false
+    },
+    {
+      "route": "/privacy",
+      "mainWords": 129,
+      "hiddenHeading": false,
+      "pendingBoundary": false
+    },
+    {
+      "route": "/terms",
+      "mainWords": 119,
+      "hiddenHeading": false,
+      "pendingBoundary": false
+    },
+    {
+      "route": "/affiliate-disclosure",
+      "mainWords": 141,
+      "hiddenHeading": false,
+      "pendingBoundary": false
+    },
+    {
+      "route": "/vpn",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/password-managers",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/data-removal",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/tools/data-removal-service-selector",
+      "mainWords": 218,
+      "hiddenHeading": false,
+      "pendingBoundary": false
+    },
+    {
+      "route": "/reviews/rewarx-studio",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/are-data-removal-services-worth-it",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/are-password-managers-safe",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/are-vpns-worth-it",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-data-removal-services",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-free-password-managers",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/password-manager-vs-browser-passwords",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-free-vpns",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-vpns-for-families",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-vpns-for-students",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-vpns-for-travel",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-vpns-for-streaming",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-cloud-storage-for-beginners",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-antivirus-software",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-secure-cloud-storage",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-password-managers-for-beginners",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-password-managers-for-families",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/best-password-managers-for-privacy",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/how-password-managers-work",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/how-to-choose-software",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/how-long-does-data-removal-take",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/can-your-information-reappear-after-data-removal",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/do-you-still-need-antivirus-on-windows-11",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/windows-defender-vs-paid-antivirus",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/best-vpns-for-beginners",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/how-vpns-work",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/free-vpn-vs-paid",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/vpn-buying-guide",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/vpn-privacy-guide",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/vpn-myths",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/guides/is-proton-vpn-free-good-enough",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/nordvpn-vs-protonvpn",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/nordvpn-vs-surfshark",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/proton-vpn-vs-surfshark",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/1password-vs-nordpass",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/proton-pass-vs-nordpass",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/1password-vs-proton-pass",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/bitwarden-vs-1password",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/bitwarden-vs-proton-pass",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/bitwarden-vs-nordpass",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/incogni-vs-optery",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/incogni-vs-deleteme",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/optery-vs-deleteme",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/google-drive-vs-dropbox",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/comparisons/icloud-vs-google-drive",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/nordvpn-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/proton-vpn-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/proton-drive-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/surfshark-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/1password-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/bitwarden-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/nordpass-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/proton-pass-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/roboform-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/dashlane-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/incogni-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/optery-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/deleteme-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/privacy-bee-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/reviews/totalav-review",
+      "mainWords": 0,
+      "hiddenHeading": true,
+      "pendingBoundary": true
+    },
+    {
+      "route": "/404",
+      "mainWords": 33,
+      "hiddenHeading": false,
+      "pendingBoundary": false
+    }
+  ],
+  "fixed_static": [
+    {
+      "route": "/",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 7556
+    },
+    {
+      "route": "/about",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 1170
+    },
+    {
+      "route": "/about/how-we-review-software",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 3824
+    },
+    {
+      "route": "/contact",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 1499
+    },
+    {
+      "route": "/privacy",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 963
+    },
+    {
+      "route": "/terms",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 845
+    },
+    {
+      "route": "/affiliate-disclosure",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 981
+    },
+    {
+      "route": "/vpn",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 5012
+    },
+    {
+      "route": "/password-managers",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 11613
+    },
+    {
+      "route": "/data-removal",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 14259
+    },
+    {
+      "route": "/tools/data-removal-service-selector",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 1626
+    },
+    {
+      "route": "/reviews/rewarx-studio",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 16066
+    },
+    {
+      "route": "/reviews",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 3983
+    },
+    {
+      "route": "/comparisons",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 3274
+    },
+    {
+      "route": "/are-data-removal-services-worth-it",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 16926
+    },
+    {
+      "route": "/are-password-managers-safe",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 24558
+    },
+    {
+      "route": "/are-vpns-worth-it",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 14872
+    },
+    {
+      "route": "/best-data-removal-services",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 18274
+    },
+    {
+      "route": "/best-free-password-managers",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 20811
+    },
+    {
+      "route": "/password-manager-vs-browser-passwords",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 24278
+    },
+    {
+      "route": "/best-free-vpns",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 20609
+    },
+    {
+      "route": "/best-vpns-for-families",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 39408
+    },
+    {
+      "route": "/best-vpns-for-students",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 31780
+    },
+    {
+      "route": "/best-vpns-for-travel",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 32351
+    },
+    {
+      "route": "/best-vpns-for-streaming",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 19620
+    },
+    {
+      "route": "/best-cloud-storage-for-beginners",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 25875
+    },
+    {
+      "route": "/best-antivirus-software",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 14964
+    },
+    {
+      "route": "/best-secure-cloud-storage",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 24512
+    },
+    {
+      "route": "/best-password-managers-for-beginners",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 17851
+    },
+    {
+      "route": "/best-password-managers-for-families",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 27297
+    },
+    {
+      "route": "/best-password-managers-for-privacy",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 24782
+    },
+    {
+      "route": "/guides/how-password-managers-work",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 21029
+    },
+    {
+      "route": "/guides/how-to-choose-software",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 16060
+    },
+    {
+      "route": "/guides/how-long-does-data-removal-take",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 10304
+    },
+    {
+      "route": "/guides/can-your-information-reappear-after-data-removal",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 9781
+    },
+    {
+      "route": "/guides/do-you-still-need-antivirus-on-windows-11",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 8270
+    },
+    {
+      "route": "/guides/windows-defender-vs-paid-antivirus",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 17549
+    },
+    {
+      "route": "/guides/best-vpns-for-beginners",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 6138
+    },
+    {
+      "route": "/guides/how-vpns-work",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 6739
+    },
+    {
+      "route": "/guides/free-vpn-vs-paid",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 21115
+    },
+    {
+      "route": "/guides/vpn-buying-guide",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 6340
+    },
+    {
+      "route": "/guides/vpn-privacy-guide",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 24117
+    },
+    {
+      "route": "/guides/vpn-myths",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 5836
+    },
+    {
+      "route": "/guides/is-proton-vpn-free-good-enough",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 6221
+    },
+    {
+      "route": "/comparisons/nordvpn-vs-protonvpn",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 10963
+    },
+    {
+      "route": "/comparisons/nordvpn-vs-surfshark",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 11740
+    },
+    {
+      "route": "/comparisons/proton-vpn-vs-surfshark",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 12208
+    },
+    {
+      "route": "/comparisons/1password-vs-nordpass",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 12719
+    },
+    {
+      "route": "/comparisons/proton-pass-vs-nordpass",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 13412
+    },
+    {
+      "route": "/comparisons/1password-vs-proton-pass",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 13581
+    },
+    {
+      "route": "/comparisons/bitwarden-vs-1password",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 15612
+    },
+    {
+      "route": "/comparisons/bitwarden-vs-proton-pass",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 14942
+    },
+    {
+      "route": "/comparisons/bitwarden-vs-nordpass",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 14847
+    },
+    {
+      "route": "/comparisons/incogni-vs-optery",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 14927
+    },
+    {
+      "route": "/comparisons/incogni-vs-deleteme",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 16910
+    },
+    {
+      "route": "/comparisons/optery-vs-deleteme",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 17306
+    },
+    {
+      "route": "/comparisons/google-drive-vs-dropbox",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 18129
+    },
+    {
+      "route": "/comparisons/icloud-vs-google-drive",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 22195
+    },
+    {
+      "route": "/reviews/nordvpn-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 13927
+    },
+    {
+      "route": "/reviews/proton-vpn-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 13755
+    },
+    {
+      "route": "/reviews/proton-drive-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 19433
+    },
+    {
+      "route": "/reviews/surfshark-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 14695
+    },
+    {
+      "route": "/reviews/1password-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 16196
+    },
+    {
+      "route": "/reviews/bitwarden-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 20893
+    },
+    {
+      "route": "/reviews/nordpass-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 16294
+    },
+    {
+      "route": "/reviews/proton-pass-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 16624
+    },
+    {
+      "route": "/reviews/roboform-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 19330
+    },
+    {
+      "route": "/reviews/dashlane-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 19689
+    },
+    {
+      "route": "/reviews/incogni-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 20956
+    },
+    {
+      "route": "/reviews/optery-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 14613
+    },
+    {
+      "route": "/reviews/deleteme-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 24697
+    },
+    {
+      "route": "/reviews/privacy-bee-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 34630
+    },
+    {
+      "route": "/reviews/totalav-review",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 10962
+    },
+    {
+      "route": "/404",
+      "hiddenHeading": false,
+      "pendingBoundary": false,
+      "mainTextLength": 194
+    }
+  ],
+  "production_summary": [
+    {
+      "url": "https://choosebettertech.com/",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/",
+      "canonicals": [
+        "https://choosebettertech.com/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Choose Better Tech",
+      "h1": "Make Better Software Decisions",
+      "html_sha256": "be0499519efc7f75fc589e348c19bba26fdc2f795811736b73d415e67958985d",
+      "main_words": 0,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/about",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/about",
+      "canonicals": [
+        "https://choosebettertech.com/about"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "About | Choose Better Tech",
+      "h1": "About Choose Better Tech",
+      "html_sha256": "5c57694ce3dba361da26ca81148c3dbd58f73fe09f831c7b314abbfef76654de",
+      "main_words": 173,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/about/how-we-review-software",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/about/how-we-review-software",
+      "canonicals": [
+        "https://choosebettertech.com/about/how-we-review-software"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "How We Review Software | Choose Better Tech",
+      "h1": "How We Review Software",
+      "html_sha256": "b16724f5249d01cbb62819de4eb03fa885fea0bb74fc2d7544d0bbb341bc3995",
+      "main_words": 578,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/contact",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/contact",
+      "canonicals": [
+        "https://choosebettertech.com/contact"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Contact Choose Better Tech | Choose Better Tech",
+      "h1": "Contact Choose Better Tech",
+      "html_sha256": "b9ce8d0899e69c7e3c8ab5e1ad6b44940fcb7dbdc9571fbdf8a73f02128f78b5",
+      "main_words": 230,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/privacy",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/privacy",
+      "canonicals": [
+        "https://choosebettertech.com/privacy"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Privacy Policy | Choose Better Tech",
+      "h1": "Privacy Policy",
+      "html_sha256": "205611d2bbcdb922652f74c24bcfaf3d0195f7f33d73158173f9e6e00943bb3a",
+      "main_words": 140,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/terms",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/terms",
+      "canonicals": [
+        "https://choosebettertech.com/terms"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Terms of Service | Choose Better Tech",
+      "h1": "Terms of Service",
+      "html_sha256": "da334a9d8c8209c473ad237bc93bc34771784c17bf4b74c38523ece01d98bf67",
+      "main_words": 130,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/affiliate-disclosure",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/affiliate-disclosure",
+      "canonicals": [
+        "https://choosebettertech.com/affiliate-disclosure"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Affiliate Disclosure | Choose Better Tech",
+      "h1": "Affiliate Disclosure",
+      "html_sha256": "8315b0d3578aaef612b1d180070c656fe8f6bbecdd501af093cfa070421a7482",
+      "main_words": 150,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/vpn",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/vpn",
+      "canonicals": [
+        "https://choosebettertech.com/vpn"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Which VPN Is Right for You? | Choose Better Tech",
+      "h1": "Which VPN Is Right for You?",
+      "html_sha256": "0f7a94537cd8bd236a1b6db354889c6ca6f66ca3654b34765b5ad38e38f57858",
+      "main_words": 0,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/password-managers",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/password-managers",
+      "canonicals": [
+        "https://choosebettertech.com/password-managers"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Which Password Manager Is Right for You? | Choose Better Tech",
+      "h1": "Which Password Manager Is Right for You?",
+      "html_sha256": "2dbb921252fe703eb6ffae2014e4bfb8b7b808df4965bade0955ddabacc93a6d",
+      "main_words": 0,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/data-removal",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/data-removal",
+      "canonicals": [
+        "https://choosebettertech.com/data-removal"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best Data Removal Services for Beginners | Choose Better Tech",
+      "h1": "Best Data Removal Services for Beginners",
+      "html_sha256": "2cfa0b71ff4d05a0b3ad81898f248d33ec8721043ff276b8b2c8fc1108e0edea",
+      "main_words": 0,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/tools/data-removal-service-selector",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/tools/data-removal-service-selector",
+      "canonicals": [
+        "https://choosebettertech.com/tools/data-removal-service-selector"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Data Removal Service Selector | Choose Better Tech",
+      "h1": "Which data removal approach fits you?",
+      "html_sha256": "6fcac95d42c4f42e0e41db6109be581313b0a5e7ab740468dcdeaf2af88d8355",
+      "main_words": 248,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/rewarx-studio",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/rewarx-studio",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/rewarx-studio"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Rewarx Studio review: polished product images, but check the facts | Choose Better Tech",
+      "h1": "Rewarx Studio review: polished product images, but check the facts",
+      "html_sha256": "0fc159ba120738654bc15c9c585dc8109723d6df827975bd8da8c2a55cf1490f",
+      "main_words": 0,
+      "inbound_count": 1
+    },
+    {
+      "url": "https://choosebettertech.com/reviews",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews",
+      "canonicals": [
+        "https://choosebettertech.com/reviews"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Software Reviews | Choose Better Tech",
+      "h1": "All Software Reviews",
+      "html_sha256": "31d3224485fb25aa767ecf583da1cc88c11365003f29badcbf42e4755802a05c",
+      "main_words": 0,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Software Comparisons | Choose Better Tech",
+      "h1": "All Software Comparisons",
+      "html_sha256": "12924657600777d460c57d870a2441addc1bfb5ab579cc6ff3e4f337b223df8d",
+      "main_words": 0,
+      "inbound_count": 72
+    },
+    {
+      "url": "https://choosebettertech.com/are-data-removal-services-worth-it",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/are-data-removal-services-worth-it",
+      "canonicals": [
+        "https://choosebettertech.com/are-data-removal-services-worth-it"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Are Data Removal Services Worth It in 2026? | Choose Better Tech",
+      "h1": "Are Data Removal Services Worth It in 2026?",
+      "html_sha256": "66b799d7a145243a45f6d246962333a7f25bc6f71dd676e300f67724b77f9e9c",
+      "main_words": 0,
+      "inbound_count": 11
+    },
+    {
+      "url": "https://choosebettertech.com/are-password-managers-safe",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/are-password-managers-safe",
+      "canonicals": [
+        "https://choosebettertech.com/are-password-managers-safe"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Are Password Managers Safe? | Choose Better Tech",
+      "h1": "Are Password Managers Safe?",
+      "html_sha256": "52a3989f6994022f4f87b2e80ee0eea656259aca94c2f36283f0c4329f4d068b",
+      "main_words": 0,
+      "inbound_count": 11
+    },
+    {
+      "url": "https://choosebettertech.com/are-vpns-worth-it",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/are-vpns-worth-it",
+      "canonicals": [
+        "https://choosebettertech.com/are-vpns-worth-it"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Are VPNs Worth It in 2026? | Choose Better Tech",
+      "h1": "Are VPNs Worth It in 2026?",
+      "html_sha256": "1559c5e81939f0092f14e9073d7e2b7a7a89825f86745f622cfe99616f482be2",
+      "main_words": 0,
+      "inbound_count": 17
+    },
+    {
+      "url": "https://choosebettertech.com/best-data-removal-services",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-data-removal-services",
+      "canonicals": [
+        "https://choosebettertech.com/best-data-removal-services"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best Data Removal Services in 2026 | Choose Better Tech",
+      "h1": "Best Data Removal Services in 2026",
+      "html_sha256": "e4f99fe213132a1c0c41762fcc006244ed6d8f565ad8b1c5b6d1d338aa61ba0d",
+      "main_words": 0,
+      "inbound_count": 14
+    },
+    {
+      "url": "https://choosebettertech.com/best-free-password-managers",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-free-password-managers",
+      "canonicals": [
+        "https://choosebettertech.com/best-free-password-managers"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best Free Password Managers in 2026 | Choose Better Tech",
+      "h1": "Best Free Password Managers in 2026",
+      "html_sha256": "171615ee060936cc8af67c98d59d563f0ec6cd2e8e27050a67f39b4c58d6a575",
+      "main_words": 0,
+      "inbound_count": 13
+    },
+    {
+      "url": "https://choosebettertech.com/password-manager-vs-browser-passwords",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/password-manager-vs-browser-passwords",
+      "canonicals": [
+        "https://choosebettertech.com/password-manager-vs-browser-passwords"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Password Manager vs Browser Passwords: Which Is Better? | Choose Better Tech",
+      "h1": "Password Manager vs Browser Passwords: Which Is Better?",
+      "html_sha256": "76589be51cc7e0e71874a85437d41780aeef458e0fd8b950da1c91a489c16a97",
+      "main_words": 0,
+      "inbound_count": 7
+    },
+    {
+      "url": "https://choosebettertech.com/best-free-vpns",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-free-vpns",
+      "canonicals": [
+        "https://choosebettertech.com/best-free-vpns"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best Free VPNs in 2026 | Choose Better Tech",
+      "h1": "Best Free VPNs in 2026",
+      "html_sha256": "3775514fd78e8a1dc9ce961016ce19250befd0620c882d1f514ee197334bf7c5",
+      "main_words": 0,
+      "inbound_count": 14
+    },
+    {
+      "url": "https://choosebettertech.com/best-vpns-for-families",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-vpns-for-families",
+      "canonicals": [
+        "https://choosebettertech.com/best-vpns-for-families"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best VPNs for Families in 2026 | Choose Better Tech",
+      "h1": "Best VPNs for Families in 2026",
+      "html_sha256": "7bb2b77c185bc2200e0e9521a94a2617abd21aec8f45d02a720d10ed45da507d",
+      "main_words": 0,
+      "inbound_count": 5
+    },
+    {
+      "url": "https://choosebettertech.com/best-vpns-for-students",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-vpns-for-students",
+      "canonicals": [
+        "https://choosebettertech.com/best-vpns-for-students"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best VPNs for Students in 2026 | Choose Better Tech",
+      "h1": "Best VPNs for Students in 2026",
+      "html_sha256": "af7da37db01551606258bc9c6b83b88d860a6ba34abf37f0777e7e6fc7d4f074",
+      "main_words": 0,
+      "inbound_count": 9
+    },
+    {
+      "url": "https://choosebettertech.com/best-vpns-for-travel",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-vpns-for-travel",
+      "canonicals": [
+        "https://choosebettertech.com/best-vpns-for-travel"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best VPNs for Travel in 2026 | Choose Better Tech",
+      "h1": "Best VPNs for Travel in 2026",
+      "html_sha256": "c82409963ed4a4d9e0ec2147345ebf322eceae9b2a9b0b808fe45e9e71c45bf8",
+      "main_words": 0,
+      "inbound_count": 15
+    },
+    {
+      "url": "https://choosebettertech.com/best-vpns-for-streaming",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-vpns-for-streaming",
+      "canonicals": [
+        "https://choosebettertech.com/best-vpns-for-streaming"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best VPNs for Streaming in 2026 | Choose Better Tech",
+      "h1": "Best VPNs for Streaming in 2026",
+      "html_sha256": "d9db13059fb8d1d30583d49fd10df789d1d54d23414f29f061cf1d0dee71b188",
+      "main_words": 0,
+      "inbound_count": 4
+    },
+    {
+      "url": "https://choosebettertech.com/best-cloud-storage-for-beginners",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-cloud-storage-for-beginners",
+      "canonicals": [
+        "https://choosebettertech.com/best-cloud-storage-for-beginners"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best Cloud Storage for Beginners in 2026 | Choose Better Tech",
+      "h1": "Best Cloud Storage for Beginners in 2026",
+      "html_sha256": "cf52ced3df9f655ba624672fafa474adbae05eabf0099fd6edda7a8ce35de358",
+      "main_words": 0,
+      "inbound_count": 6
+    },
+    {
+      "url": "https://choosebettertech.com/best-antivirus-software",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-antivirus-software",
+      "canonicals": [
+        "https://choosebettertech.com/best-antivirus-software"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best Antivirus Software for Windows in 2026 | Choose Better Tech",
+      "h1": "Best Antivirus Software for Windows in 2026",
+      "html_sha256": "3db0af87ee448c8ad4eaf119d6ad60324d9bb5a0ef20e725608430320d70031b",
+      "main_words": 2098,
+      "inbound_count": 5
+    },
+    {
+      "url": "https://choosebettertech.com/best-secure-cloud-storage",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-secure-cloud-storage",
+      "canonicals": [
+        "https://choosebettertech.com/best-secure-cloud-storage"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best Secure Cloud Storage in 2026 | Choose Better Tech",
+      "h1": "Best Secure Cloud Storage in 2026",
+      "html_sha256": "f7fa8cf778347b0479c135f2963f443f4af994f7e3f4c6286ad4ce9b59171c15",
+      "main_words": 0,
+      "inbound_count": 5
+    },
+    {
+      "url": "https://choosebettertech.com/best-password-managers-for-beginners",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-password-managers-for-beginners",
+      "canonicals": [
+        "https://choosebettertech.com/best-password-managers-for-beginners"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best Password Managers for Beginners in 2026 | Choose Better Tech",
+      "h1": "Best Password Managers for Beginners in 2026",
+      "html_sha256": "831206837510b2fee63a124bd043e2fe7614b61eb827977bccd497592a29e5a0",
+      "main_words": 0,
+      "inbound_count": 16
+    },
+    {
+      "url": "https://choosebettertech.com/best-password-managers-for-families",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-password-managers-for-families",
+      "canonicals": [
+        "https://choosebettertech.com/best-password-managers-for-families"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best Password Managers for Families in 2026 | Choose Better Tech",
+      "h1": "Best Password Managers for Families in 2026",
+      "html_sha256": "49bd8eb17c273c70a39cabbfed210f78666f96301564150d053e7bee99fb74f4",
+      "main_words": 0,
+      "inbound_count": 6
+    },
+    {
+      "url": "https://choosebettertech.com/best-password-managers-for-privacy",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/best-password-managers-for-privacy",
+      "canonicals": [
+        "https://choosebettertech.com/best-password-managers-for-privacy"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best Password Managers for Privacy in 2026 | Choose Better Tech",
+      "h1": "Best Password Managers for Privacy in 2026",
+      "html_sha256": "237e246b8c99350523f3d43ced4d58b964f8bc5ee005a9944ff87fd5d6663d48",
+      "main_words": 0,
+      "inbound_count": 4
+    },
+    {
+      "url": "https://choosebettertech.com/guides/how-password-managers-work",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/how-password-managers-work",
+      "canonicals": [
+        "https://choosebettertech.com/guides/how-password-managers-work"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "How Password Managers Actually Work | Choose Better Tech",
+      "h1": "How Password Managers Actually Work",
+      "html_sha256": "36bd9bb861a4fb1c9da2da8652eee47e0c85505f0661b97c51d82442715fec88",
+      "main_words": 0,
+      "inbound_count": 3
+    },
+    {
+      "url": "https://choosebettertech.com/guides/how-to-choose-software",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/how-to-choose-software",
+      "canonicals": [
+        "https://choosebettertech.com/guides/how-to-choose-software"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "How to Choose Software: A Practical Buyer's Guide | Choose Better Tech",
+      "h1": "How to Choose Software: A Practical Buyer\u2019s Guide",
+      "html_sha256": "7b539530f0c0456ae7724b9137166aba4ae2360ce54b4d19de8e87a3fbbc43d1",
+      "main_words": 0,
+      "inbound_count": 1
+    },
+    {
+      "url": "https://choosebettertech.com/guides/how-long-does-data-removal-take",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/how-long-does-data-removal-take",
+      "canonicals": [
+        "https://choosebettertech.com/guides/how-long-does-data-removal-take"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "How Long Does Data Removal Take? Realistic Service Timelines | Choose Better Tech",
+      "h1": "How Long Does Data Removal Take? Realistic Service Timelines",
+      "html_sha256": "349890f29eb53de707553a2a2e928ac5b039104fd50bea3de75ef23000123f6a",
+      "main_words": 0,
+      "inbound_count": 12
+    },
+    {
+      "url": "https://choosebettertech.com/guides/can-your-information-reappear-after-data-removal",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/can-your-information-reappear-after-data-removal",
+      "canonicals": [
+        "https://choosebettertech.com/guides/can-your-information-reappear-after-data-removal"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Can Your Information Reappear After Data Removal? | Choose Better Tech",
+      "h1": "Can Your Information Reappear After Data Removal?",
+      "html_sha256": "465f0fa4caf91d482453760a0e1aabde57bbe58887b067527ddf8a26eff4b168",
+      "main_words": 0,
+      "inbound_count": 5
+    },
+    {
+      "url": "https://choosebettertech.com/guides/do-you-still-need-antivirus-on-windows-11",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/do-you-still-need-antivirus-on-windows-11",
+      "canonicals": [
+        "https://choosebettertech.com/guides/do-you-still-need-antivirus-on-windows-11"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Do You Still Need Antivirus on Windows 11? | Choose Better Tech",
+      "h1": "Do You Still Need Antivirus on Windows 11?",
+      "html_sha256": "3f16501f5e3ac93b8a3f2e2026493c00f9567ced9952ce4dcfaad95c286d4844",
+      "main_words": 1066,
+      "inbound_count": 2
+    },
+    {
+      "url": "https://choosebettertech.com/guides/windows-defender-vs-paid-antivirus",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/windows-defender-vs-paid-antivirus",
+      "canonicals": [
+        "https://choosebettertech.com/guides/windows-defender-vs-paid-antivirus"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Windows Defender vs Paid Antivirus: What Are You Paying For? | Choose Better Tech",
+      "h1": "Windows Defender vs Paid Antivirus: What Are You Paying For?",
+      "html_sha256": "84691593933d4aec5e45dc13d8ae17663f7824598c574c02bd4c8e5ce09a3594",
+      "main_words": 2474,
+      "inbound_count": 3
+    },
+    {
+      "url": "https://choosebettertech.com/guides/best-vpns-for-beginners",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/best-vpns-for-beginners",
+      "canonicals": [
+        "https://choosebettertech.com/guides/best-vpns-for-beginners"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Best VPNs for Beginners: NordVPN, Proton VPN, and Surfshark Compared | Choose Better Tech",
+      "h1": "Best VPNs for Beginners: NordVPN, Proton VPN, and Surfshark Compared",
+      "html_sha256": "1a542f28d1fbcf4f7bb4add0f22e293d42471ee2bce12d83973c4b47e5876ad2",
+      "main_words": 0,
+      "inbound_count": 16
+    },
+    {
+      "url": "https://choosebettertech.com/guides/how-vpns-work",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/how-vpns-work",
+      "canonicals": [
+        "https://choosebettertech.com/guides/how-vpns-work"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "How VPNs Work: A Beginner-Friendly Guide | Choose Better Tech",
+      "h1": "How VPNs Work: A Beginner-Friendly Guide",
+      "html_sha256": "be845919ddaa47a8aa8c62ef8fe5f3029f9a26b4a22da29a9125d7e3b3746f25",
+      "main_words": 0,
+      "inbound_count": 11
+    },
+    {
+      "url": "https://choosebettertech.com/guides/free-vpn-vs-paid",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/free-vpn-vs-paid",
+      "canonicals": [
+        "https://choosebettertech.com/guides/free-vpn-vs-paid"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Free VPN vs Paid VPN: Which Is Better in 2026? | Choose Better Tech",
+      "h1": "Free VPN vs Paid VPN: Which Is Better in 2026?",
+      "html_sha256": "a309edb8cf45bf99e5ffb1c79fad93fb790e08c4c67ddf2f1adf90a9e34e0260",
+      "main_words": 0,
+      "inbound_count": 10
+    },
+    {
+      "url": "https://choosebettertech.com/guides/vpn-buying-guide",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/vpn-buying-guide",
+      "canonicals": [
+        "https://choosebettertech.com/guides/vpn-buying-guide"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "VPN Buying Guide for Beginners | Choose Better Tech",
+      "h1": "VPN Buying Guide for Beginners",
+      "html_sha256": "62ced2526406a62c40d0bd132003886a519bea6c289bb3873cdf6c0033ebec8e",
+      "main_words": 0,
+      "inbound_count": 19
+    },
+    {
+      "url": "https://choosebettertech.com/guides/vpn-privacy-guide",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/vpn-privacy-guide",
+      "canonicals": [
+        "https://choosebettertech.com/guides/vpn-privacy-guide"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "VPN Privacy Guide: What a VPN Hides\u2014and What It Doesn\u2019t | Choose Better Tech",
+      "h1": "VPN Privacy Guide: What a VPN Hides\u2014and What It Doesn\u2019t",
+      "html_sha256": "7dc5d087529666704b6027e6fb351693437db22908f00fd1bc157ec0fa86e4c0",
+      "main_words": 0,
+      "inbound_count": 9
+    },
+    {
+      "url": "https://choosebettertech.com/guides/vpn-myths",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/vpn-myths",
+      "canonicals": [
+        "https://choosebettertech.com/guides/vpn-myths"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Common VPN Myths Beginners Should Ignore | Choose Better Tech",
+      "h1": "Common VPN Myths Beginners Should Ignore",
+      "html_sha256": "100dadd47c83a12467382945885804cedc6b654462b81ebce07d87e15d939cd9",
+      "main_words": 0,
+      "inbound_count": 12
+    },
+    {
+      "url": "https://choosebettertech.com/guides/is-proton-vpn-free-good-enough",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/guides/is-proton-vpn-free-good-enough",
+      "canonicals": [
+        "https://choosebettertech.com/guides/is-proton-vpn-free-good-enough"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Is Proton VPN Free Good Enough? | Choose Better Tech",
+      "h1": "Is Proton VPN Free Good Enough?",
+      "html_sha256": "500b4e69dd93a444e9cf28db8c6603562bc8e08490513bb624c3ccfe82538e39",
+      "main_words": 0,
+      "inbound_count": 10
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/nordvpn-vs-protonvpn",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/nordvpn-vs-protonvpn",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/nordvpn-vs-protonvpn"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "NordVPN vs ProtonVPN: Which VPN Fits You Better? | Choose Better Tech",
+      "h1": "NordVPN vs ProtonVPN: Which VPN Fits You Better?",
+      "html_sha256": "0676ba2305fe1fce2e0aa4c4d56818f0454657a29d6b37e105ff12ce80441579",
+      "main_words": 0,
+      "inbound_count": 13
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/nordvpn-vs-surfshark",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/nordvpn-vs-surfshark",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/nordvpn-vs-surfshark"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "NordVPN vs Surfshark: Which VPN Fits You Better? | Choose Better Tech",
+      "h1": "NordVPN vs Surfshark: Which VPN Fits You Better?",
+      "html_sha256": "1323aa3125d2de82a3d1c94460b2482b8e09dae3cb96d2aaeb1f3ba546bdc3dd",
+      "main_words": 0,
+      "inbound_count": 11
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/proton-vpn-vs-surfshark",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/proton-vpn-vs-surfshark",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/proton-vpn-vs-surfshark"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Proton VPN vs Surfshark: Which VPN Fits You Better? | Choose Better Tech",
+      "h1": "Proton VPN vs Surfshark: Which VPN Fits You Better?",
+      "html_sha256": "054f0a8ee1be2daeed95a5ce281e811799cc5628fb907156722d51def269351d",
+      "main_words": 0,
+      "inbound_count": 9
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/1password-vs-nordpass",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/1password-vs-nordpass",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/1password-vs-nordpass"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "1Password vs NordPass: Which Password Manager Fits You Better? | Choose Better Tech",
+      "h1": "1Password vs NordPass: Which Password Manager Fits You Better?",
+      "html_sha256": "1a2403d2eb218d27acc49faf8aef1fd88719947b14bf8d93498e5ce73fc39e5e",
+      "main_words": 0,
+      "inbound_count": 12
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/proton-pass-vs-nordpass",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/proton-pass-vs-nordpass",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/proton-pass-vs-nordpass"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Proton Pass vs NordPass: Which Password Manager Fits You Better? | Choose Better Tech",
+      "h1": "Proton Pass vs NordPass: Which Password Manager Fits You Better?",
+      "html_sha256": "4244f28399c59354a7454c5a143c14a98279c068b61ee89a5aad83cd5b385dbb",
+      "main_words": 0,
+      "inbound_count": 11
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/1password-vs-proton-pass",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/1password-vs-proton-pass",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/1password-vs-proton-pass"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "1Password vs Proton Pass: Which Password Manager Fits You Better? | Choose Better Tech",
+      "h1": "1Password vs Proton Pass: Which Password Manager Fits You Better?",
+      "html_sha256": "98d39cd97ecce9e430090953d7c7322276717e547551f03fe9acdc060746b361",
+      "main_words": 0,
+      "inbound_count": 9
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/bitwarden-vs-1password",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/bitwarden-vs-1password",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/bitwarden-vs-1password"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Bitwarden vs 1Password: Which Password Manager Fits You Better? | Choose Better Tech",
+      "h1": "Bitwarden vs 1Password: Which Password Manager Fits You Better?",
+      "html_sha256": "928f85bca6311aedfee777238d5c7982a093a74d6ecf9cea8e5653b6d5991e66",
+      "main_words": 0,
+      "inbound_count": 9
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/bitwarden-vs-proton-pass",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/bitwarden-vs-proton-pass",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/bitwarden-vs-proton-pass"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Bitwarden vs Proton Pass: Which Password Manager Fits You Better? | Choose Better Tech",
+      "h1": "Bitwarden vs Proton Pass: Which Password Manager Fits You Better?",
+      "html_sha256": "46079306f7e3379a4d23af9d00ef010fb171d5d9734815c7aa7cdb648e72c9e9",
+      "main_words": 0,
+      "inbound_count": 8
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/bitwarden-vs-nordpass",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/bitwarden-vs-nordpass",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/bitwarden-vs-nordpass"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Bitwarden vs NordPass: Which Password Manager Fits You Better? | Choose Better Tech",
+      "h1": "Bitwarden vs NordPass: Which Password Manager Fits You Better?",
+      "html_sha256": "f710c71e42654f8acd37b98271e9c20d38334cf8909ff5be34c499f3c91b71d4",
+      "main_words": 0,
+      "inbound_count": 7
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/incogni-vs-optery",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/incogni-vs-optery",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/incogni-vs-optery"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Incogni vs Optery 2026: Automation or Better Proof? | Choose Better Tech",
+      "h1": "Incogni vs Optery (2026): Which Data Removal Service Is Better?",
+      "html_sha256": "58ca2aac41cb8c69f3fa91d4db7adf9576604b72c8f53683599379532c11c202",
+      "main_words": 0,
+      "inbound_count": 8
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/incogni-vs-deleteme",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/incogni-vs-deleteme",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/incogni-vs-deleteme"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Incogni vs DeleteMe 2026: Automation or Human Help? | Choose Better Tech",
+      "h1": "Incogni vs DeleteMe (2026): Which Data Removal Service Is Better?",
+      "html_sha256": "e4227b4b7ee0c9656a78bf64c005c3bab3dfc763c402222c1e5292a9727caf2d",
+      "main_words": 0,
+      "inbound_count": 7
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/optery-vs-deleteme",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/optery-vs-deleteme",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/optery-vs-deleteme"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Optery vs DeleteMe 2026: Better Proof or Human Help? | Choose Better Tech",
+      "h1": "Optery vs DeleteMe (2026): Which Data Removal Service Is Better?",
+      "html_sha256": "35ff59cdae23a5c202027fa746570366fc0633d19f96f0329186d4792db83b75",
+      "main_words": 0,
+      "inbound_count": 5
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/google-drive-vs-dropbox",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/google-drive-vs-dropbox",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/google-drive-vs-dropbox"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Google Drive vs Dropbox: Which Is Better in 2026? | Choose Better Tech",
+      "h1": "Google Drive vs Dropbox: Which Is Better in 2026?",
+      "html_sha256": "8798fc6da64cf2606a30a313974e1cc7179a8d5270573cbf443d9859223a6865",
+      "main_words": 0,
+      "inbound_count": 5
+    },
+    {
+      "url": "https://choosebettertech.com/comparisons/icloud-vs-google-drive",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/comparisons/icloud-vs-google-drive",
+      "canonicals": [
+        "https://choosebettertech.com/comparisons/icloud-vs-google-drive"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "iCloud vs Google Drive: Which Is Better in 2026? | Choose Better Tech",
+      "h1": "iCloud vs Google Drive: Which Is Better in 2026?",
+      "html_sha256": "d45f24101a216941588fb5677cac52355f6990ff4cbc24af89fd8e74825a62c1",
+      "main_words": 0,
+      "inbound_count": 5
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/nordvpn-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/nordvpn-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/nordvpn-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "NordVPN Review (2026): Is It Worth It for Beginners? | Choose Better Tech",
+      "h1": "NordVPN Review (2026): Is It Worth It for Beginners?",
+      "html_sha256": "95a4524d99e3f5e8152e93f29ed673bdee9317764cc9d2d19349609b546fc39b",
+      "main_words": 0,
+      "inbound_count": 14
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/proton-vpn-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/proton-vpn-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/proton-vpn-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Proton VPN Review (2026): Is It Worth It for Beginners? | Choose Better Tech",
+      "h1": "Proton VPN Review (2026): Is It Worth It for Beginners?",
+      "html_sha256": "6d369a3edca8a60d0a1a23a27f0751c67f344d6dd97b545383682c3f822eb7c9",
+      "main_words": 0,
+      "inbound_count": 19
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/proton-drive-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/proton-drive-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/proton-drive-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Proton Drive Review 2026: Private Cloud Storage With Tradeoffs | Choose Better Tech",
+      "h1": "Proton Drive Review 2026: Private Cloud Storage With Tradeoffs",
+      "html_sha256": "e7add19067be8810f933227c764382e32f959e07b5652c6adc3fd0295a2181a7",
+      "main_words": 0,
+      "inbound_count": 5
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/surfshark-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/surfshark-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/surfshark-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Surfshark VPN Review (2026): Is It Worth It for Beginners? | Choose Better Tech",
+      "h1": "Surfshark VPN Review (2026): Is It Worth It for Beginners?",
+      "html_sha256": "a25b35813ec2cfd089970393f089b5e3c16e05db6a2e6ad2616b65637d95772e",
+      "main_words": 0,
+      "inbound_count": 12
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/1password-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/1password-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/1password-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "1Password Review (2026): Is It Worth It for Beginners and Families? | Choose Better Tech",
+      "h1": "1Password Review (2026): Is It Worth It for Beginners and Families?",
+      "html_sha256": "7bb3c7c2a93ae7ef331beadd6210e2f9eb8e7987b40eb3520c83349899d32c61",
+      "main_words": 0,
+      "inbound_count": 15
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/bitwarden-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/bitwarden-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/bitwarden-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Bitwarden Review (2026): Free Plan, Security, Self-Hosting, and Tradeoffs | Choose Better Tech",
+      "h1": "Bitwarden Review (2026): Is It Worth It for Free Plans and Self-Hosting?",
+      "html_sha256": "496a77062e7117601d82e83b166441581d51bdcd5ecef8ad095871764619ccbd",
+      "main_words": 0,
+      "inbound_count": 15
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/nordpass-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/nordpass-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/nordpass-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "NordPass Review (2026): Is It Worth It for Beginners and Families? | Choose Better Tech",
+      "h1": "NordPass Review (2026): Is It Worth It for Beginners and Families?",
+      "html_sha256": "273966c6ceab88bffcd332e9959fdbb7bbbdf2e6131eb067bb283a27b56f602d",
+      "main_words": 0,
+      "inbound_count": 15
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/proton-pass-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/proton-pass-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/proton-pass-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Proton Pass Review (2026): Privacy, Free Plan, Aliases, and Tradeoffs | Choose Better Tech",
+      "h1": "Proton Pass Review (2026): Is It Worth It for Privacy-Conscious Beginners?",
+      "html_sha256": "ca072f5f3171d632bc950626dd3eb5757a8607877dbe290c732a5a5541530cfc",
+      "main_words": 0,
+      "inbound_count": 14
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/roboform-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/roboform-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/roboform-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "RoboForm Review (2026): Form Filling, Value, and Security Tradeoffs | Choose Better Tech",
+      "h1": "RoboForm Review (2026): Is It Still Worth It for Form Filling and Value?",
+      "html_sha256": "962454943fe54d778a4275d7cc4a4cb960cf057156068b62650bcca566f65294",
+      "main_words": 0,
+      "inbound_count": 5
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/dashlane-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/dashlane-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/dashlane-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Dashlane Review 2026: Strong Security, But Is It Worth Paying For? | Choose Better Tech",
+      "h1": "Dashlane Review 2026: Strong Security, But Is It Worth Paying For?",
+      "html_sha256": "8d221f207e64d39fcb8fcad4c9f614b18e8ab056dfe1003ac5759bacc71572c0",
+      "main_words": 0,
+      "inbound_count": 2
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/incogni-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/incogni-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/incogni-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Incogni Review 2026: Does It Work and Is It Worth It? | Choose Better Tech",
+      "h1": "Incogni Review (2026): Is It Worth It for Data Broker Removal?",
+      "html_sha256": "acb071e45b35e58bdb5ed2a138f33370492a6e4a211940d91f98b1bac23c808a",
+      "main_words": 0,
+      "inbound_count": 14
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/optery-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/optery-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/optery-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Optery Review (2026): Is It Worth Paying For? | Choose Better Tech",
+      "h1": "Optery Review (2026): Is It Worth Paying For?",
+      "html_sha256": "e3fb6dd1864f1cedda7973623e5a628ffedaf744bcebb49a72ee246ad1f333d1",
+      "main_words": 0,
+      "inbound_count": 13
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/deleteme-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/deleteme-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/deleteme-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "DeleteMe Review 2026: Does It Work, and Is It Worth the Cost? | Choose Better Tech",
+      "h1": "DeleteMe Review 2026: Does It Work, and Is It Worth the Cost?",
+      "html_sha256": "6ee7b53b42a65b1a1950ab9187b9ddd00c9e08b7ce09e91110e91cc3b4a557e6",
+      "main_words": 0,
+      "inbound_count": 11
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/privacy-bee-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/privacy-bee-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/privacy-bee-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "Privacy Bee Review 2026: Does It Work, and Is It Worth It? | Choose Better Tech",
+      "h1": "Privacy Bee Review 2026: Does It Work, and Is It Worth It?",
+      "html_sha256": "3205d70fa1e9c78c9d6220f3d1b7d3d7b369b4c7523492e39af67bae6934a5dc",
+      "main_words": 0,
+      "inbound_count": 3
+    },
+    {
+      "url": "https://choosebettertech.com/reviews/totalav-review",
+      "status": 200,
+      "final_url": "https://choosebettertech.com/reviews/totalav-review",
+      "canonicals": [
+        "https://choosebettertech.com/reviews/totalav-review"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "xrobots": null,
+      "title": "TotalAV Review 2026: Strong Protection, Complicated Value | Choose Better Tech",
+      "h1": "TotalAV Review 2026: Strong Protection, Complicated Value",
+      "html_sha256": "6bd1c68f59eb8abd94217035f1e60176a8cc00788895f69edff4643550f26545",
+      "main_words": 1502,
+      "inbound_count": 3
+    }
+  ]
+}

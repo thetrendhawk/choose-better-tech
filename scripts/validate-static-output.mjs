@@ -46,8 +46,22 @@ export function validateHtml(route, html, { notFound = false } = {}) {
   one(document, 'meta[name="twitter:card"]', "Twitter card", route);
   one(document, 'meta[name="twitter:title"]', "Twitter title", route);
   one(document, 'meta[name="twitter:description"]', "Twitter description", route);
-  const h1 = one(document, "h1", "H1", route).textContent?.trim() ?? "";
+  const heading = one(document, "h1", "H1", route);
+  const h1 = heading.textContent?.trim() ?? "";
   if (!h1) throw new Error(`${route}: H1 is empty.`);
+  const main = document.querySelector("main");
+  if (!main) throw new Error(`${route}: initial main content is missing.`);
+  if (!main.contains(heading) || heading.closest("[hidden], template, [inert]")) {
+    throw new Error(`${route}: article heading is not visible in initial main content.`);
+  }
+  if (document.querySelector('template[id^="B:"], template[data-msg], template[data-dgst], [hidden][id^="S:"]')) {
+    throw new Error(`${route}: static HTML requires a client-side Suspense reveal.`);
+  }
+  const mainText = main.cloneNode(true);
+  for (const element of mainText.querySelectorAll("script, style, [hidden], template, [inert]")) element.remove();
+  const mainTextLength = mainText.textContent?.replace(/\s+/g, " ").trim().length ?? 0;
+  const minimumMainLength = notFound ? 100 : 300;
+  if (mainTextLength < minimumMainLength) throw new Error(`${route}: initial main content is not substantive (${mainTextLength} characters).`);
   if (html.includes("Loading page...")) throw new Error(`${route}: Suspense fallback leaked into HTML.`);
   const textLength = document.body.textContent?.replace(/\s+/g, " ").trim().length ?? 0;
   if (textLength < 300) throw new Error(`${route}: initial text is not substantive (${textLength} characters).`);
@@ -73,6 +87,7 @@ export function validateHtml(route, html, { notFound = false } = {}) {
     title: document.title,
     h1,
     textLength,
+    mainTextLength,
     internalLinks,
     jsonLd: document.querySelectorAll('script[type="application/ld+json"]').length
   };

@@ -1,5 +1,9 @@
 # Business Changelog
 
+## October 25 indexing remediation prepared
+
+The redirect email concerns two expected www homepage exclusions; the canonical homepage is indexed. The October18 all-known-URL snapshot is38indexed/38excluded (32discovered,4crawled,2redirects), and three HTTPS guides are individually confirmed currently unindexed. All73 sitemap routes pass HTTP/canonical/robots checks, but66 article pages depend on JavaScript reveal containers in initial HTML. A bounded server-rendering correction removes that dependency from all73routes plus404 and adds fail-closed regression checks. This is not proven to explain Google's indexing choices. Status: READY TO DEPLOY, owner review required for shared rendering; no production release or new crawl requests claimed. Full evidence and per-URL worklist: `docs/monitoring/search-anomaly-2026-10-25.md`. Existing publication dates, content inventory, affiliate work and frozen goals remain unchanged.
+
 ## October 4 growth follow-through
 
 Query-level Search Console review selected one Incogni description test. Added an explicit documentation-based/no-live-testing statement to its executive summary; no product fact or outcome was refreshed and original article dates remain. Independent review approved the scoped correction and test. CJ existing advertiser relationships and September dashboard reviewed; Incogni's terms clarification is awaiting reply. PR89 Optery placement tracking separately approved for deployment; financial evidence remains dated and current payout needs account verification. See docs/audits/growth-follow-through-2026-10-04.md for release and external dependencies.

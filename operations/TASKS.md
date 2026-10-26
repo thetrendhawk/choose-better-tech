@@ -1,9 +1,11 @@
 # CBT current task register
 
-Updated October4, 2026. This register supersedes old pending notes, not historical evidence. Current execution: docs/audits/growth-follow-through-2026-10-04.md.
+Updated October25, 2026. This register supersedes old pending notes, not historical evidence. Current execution: docs/audits/growth-follow-through-2026-10-04.md.
 
 | Work | Status | Next step / owner |
 | --- | --- | --- |
+| Static article HTML / current indexing cohort | Fix prepared, owner review required | Reproduced66 hidden article headings; synchronous eager server rendering removes all reveal dependencies. Verify preview, release exact approved commit, then priority live tests/crawl requests. See docs/monitoring/search-anomaly-2026-10-25.md |
+| Current GSC exclusions | Audited October25 | Expected www redirects retained; 32discovered examples and three crawled HTTPS guides preserved. 38indexed is not canonical-editorial count. Validation passed is not universal indexing. |
 | Discovery and selector reporting PR90–92 | Verified live | All73 routes retained; home exclusion Active; organic landing-page report saved |
 | Incogni snippet and testing disclosure | Verified live PR93 October4 | Exact commit9996e56 production READY; new description and visible method disclosure; query baseline/observation plan recorded |
 | Incogni affiliate clarification | Awaiting advertiser | Authorized email sent Oct4; no reply in thread at recheck; no contract/application accepted |
@@ -23,7 +25,7 @@ Updated October4, 2026. This register supersedes old pending notes, not historic
 | Home internal traffic | Active October 4 | Home visit matched Testing filter; owner confirmed activation; readback Active. Allow processing delay; historical QA remains. |
 | Newsletter | Complete for submission receipt | GA4 recent events lists newsletter_submit on CBT stream; owner confirmed delivery separately; not proof of every confirmed signup |
 | NordVPN vs ProtonVPN GSC | Request accepted September21 | Await crawl; old stored canonical is not a live canonical defect |
-| Data-removal roundup GSC | Rechecked September21 | Still discovered/unindexed, no crawl; no repeat request submitted |
+| Data-removal roundup GSC | Rechecked October25 | Still unindexed/no crawl; live test available/indexable. Apply verified rendering release before one bounded request for changed HTML. |
 | CyberForget | Waiting on vendor | Owner sent access/methodology questions; no review promise or favorable verdict |
 | Rewarx private evidence reply | Owner send pending | Existing six-file evidence ZIP retained; no email sent by agent |
 | Buffer CBT Facebook | Capacity decision required | Current Free plan3/3: ETLH Pinterest,Instagram,Facebook; do not remove an ETLH channel or incur cost implicitly |
